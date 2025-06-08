@@ -2780,20 +2780,14 @@ shareCollection() {
     
     const shareText = `Check out this curated board game collection (${filtered.length} games)`;
     
-    if (navigator.share) {
-        navigator.share({
-            title: 'Board Game Collection',
-            text: shareText,
-            url: shareUrl
-        });
-    } else {
-        navigator.clipboard.writeText(shareUrl).then(() => {
-            alert(`Share URL copied to clipboard!\n\nThis will show ${filtered.length} games with your current filters and sorting applied.`);
-        }).catch(() => {
-            prompt('Copy this URL to share your collection:', shareUrl);
-        });
-    }
-}
+// Always copy to clipboard and open TinyURL
+navigator.clipboard.writeText(shareUrl).then(() => {
+    window.open('https://tinyurl.com/', '_blank');
+    alert(`Share URL copied to clipboard!\n\nTinyURL opened in new tab - paste to shorten.\n\nThis will show ${filtered.length} games with your current filters and sorting applied.`);
+}).catch(() => {
+    window.open('https://tinyurl.com/', '_blank');
+    prompt('Copy this URL to share your collection (TinyURL opened in new tab):', shareUrl);
+});
 
    exportData() {
        const data = {
