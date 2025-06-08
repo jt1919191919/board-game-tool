@@ -335,6 +335,61 @@ button#clear-filters {
             min-width: 60px;
         }
 
+.thumb-buttons {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+
+.thumb-btn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
+    pointer-events: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    z-index: 5;
+}
+
+.thumb-btn:hover {
+    opacity: 1;
+}
+
+.thumb-up {
+    background: #4CAF50;
+    color: white;
+}
+
+.thumb-down {
+    background: #ff9800;
+    color: white;
+}
+
+.thumb-btn.active {
+    opacity: 1;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.modal-thumbs {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.game-card {
+    position: relative;
+}
+
         .edit-field {
             background: white;
             border: 1px solid #ddd;
@@ -788,7 +843,8 @@ button#clear-filters {
         
  <div class="controls">
             <div class="search-box">
-                <input type="text" id="search" placeholder="Search games...">
+<input type="text" id="search" placeholder="Search games...">
+<button class="btn" id="clear-thumbs-btn" style="display: none;">Clear Thumbs</button>
             </div>
             <button class="btn" id="toggle-filters">Filters</button>
             <button class="btn btn-primary" id="add-game-btn">Add Game</button>
@@ -811,7 +867,8 @@ button#clear-filters {
 
 <div class="mobile-controls">
             <div class="search-box">
-                <input type="text" id="mobile-search" placeholder="Search games...">
+<input type="text" id="mobile-search" placeholder="Search games...">
+<button class="btn" id="mobile-clear-thumbs-btn" style="display: none;">Clear Thumbs</button>
             </div>
             <button class="btn" id="mobile-toggle-filters">Filters</button>
         </div>
@@ -1102,8 +1159,10 @@ class BoardGameCollection {
        this.cardVisibleFields = ['name', 'players'];
        this.dynamicCardFields = [];
 this.currentColumns = 5; // Always start with 5 on desktop
-       this.mobileColumns = 2; // Always start with 2 on mobile
-       this.initGoogleDrive();
+this.mobileColumns = 2; // Always start with 2 on mobile
+this.gamePreferences = new Map(); // stores thumbs up/down: 'up', 'down', or null
+this.originalSharedPreferences = new Map(); // for shared collections
+this.initGoogleDrive();
    }
 
 async init() {
@@ -1113,9 +1172,10 @@ async init() {
        const isMobile = window.innerWidth <= 768;
        this.setColumns(isMobile ? this.mobileColumns : this.currentColumns);
        this.render();
-       this.updateDesignerFilter();
-       this.updatePublisherFilter();
-       this.applyFilters();
+this.updateDesignerFilter();
+this.updatePublisherFilter();
+this.updateClearThumbsVisibility();
+this.applyFilters();
    }
 
 // Initialize GitHub file storage
@@ -1147,6 +1207,11 @@ loadGitHubSettings() {
         document.getElementById('google-drive-status').textContent = 'GitHub storage failed - using local storage';
         document.getElementById('google-drive-status').style.color = 'red';
     }
+
+
+
+
+
 }
 
 async signInToGoogleDrive() {
@@ -1227,11 +1292,12 @@ async saveToGitHub() {
     }
 
     try {
-        const data = {
-            games: Object.fromEntries(this.games),
-            lastModified: new Date().toISOString(),
-            version: '1.0'
-        };
+const data = {
+    games: Object.fromEntries(this.games),
+    preferences: Object.fromEntries(this.gamePreferences),
+    lastModified: new Date().toISOString(),
+    version: '1.0'
+};
 
         const content = JSON.stringify(data, null, 2);
         const encodedContent = btoa(unescape(encodeURIComponent(content)));
@@ -1307,13 +1373,20 @@ async loadFromGitHub() {
             const content = decodeURIComponent(escape(atob(fileData.content)));
             const data = JSON.parse(content);
             
-            if (data.games) {
-                this.games.clear();
-                Object.entries(data.games).forEach(([id, game]) => {
-                    this.games.set(id, game);
-                });
-                console.log('Loaded collection from GitHub');
-            }
+if (data.games) {
+    this.games.clear();
+    Object.entries(data.games).forEach(([id, game]) => {
+        this.games.set(id, game);
+    });
+    
+    if (data.preferences) {
+        this.gamePreferences.clear();
+        Object.entries(data.preferences).forEach(([id, pref]) => {
+            this.gamePreferences.set(id, pref);
+        });
+    }
+    console.log('Loaded collection from GitHub');
+}
         } else {
             console.log('No collection file found in GitHub repository');
             this.loadFromLocalStorage();
@@ -1340,10 +1413,23 @@ async loadFromGitHub() {
            const stored = localStorage.getItem('boardgame-collection');
            if (stored) {
                const data = JSON.parse(stored);
-               Object.entries(data).forEach(([id, game]) => {
-                   this.games.set(id, game);
-               });
-               console.log('Loaded collection from localStorage');
+if (data.games) {
+    Object.entries(data.games).forEach(([id, game]) => {
+        this.games.set(id, game);
+    });
+    
+    if (data.preferences) {
+        Object.entries(data.preferences).forEach(([id, pref]) => {
+            this.gamePreferences.set(id, pref);
+        });
+    }
+} else {
+    // Legacy format - data is directly the games object
+    Object.entries(data).forEach(([id, game]) => {
+        this.games.set(id, game);
+    });
+}
+console.log('Loaded collection from localStorage');
            }
        } catch (e) {
            console.warn('Could not load from localStorage:', e);
@@ -1436,9 +1522,15 @@ if (sharedData) {
                 this.games.set(game.bggId || `shared-${index}`, game);
             });
             
-            // Apply shared configuration
-            if (config.filters) this.currentFilters = config.filters;
-            if (config.columns) this.currentColumns = config.columns;
+// Apply shared configuration
+if (config.filters) this.currentFilters = config.filters;
+if (config.columns) this.currentColumns = config.columns;
+if (config.preferences) {
+    config.preferences.forEach((pref, gameId) => {
+        this.gamePreferences.set(gameId, pref);
+        this.originalSharedPreferences.set(gameId, pref);
+    });
+}
             
             // Set view-only mode for shared collections
             this.isViewOnly = true;
@@ -1553,6 +1645,15 @@ if (sharedData) {
        document.getElementById('clear-filters').addEventListener('click', () => {
            this.clearFilters();
        });
+
+// Clear thumbs
+document.getElementById('clear-thumbs-btn').addEventListener('click', () => {
+    this.clearThumbs();
+});
+
+document.getElementById('mobile-clear-thumbs-btn').addEventListener('click', () => {
+    this.clearThumbs();
+});
 
        // Custom filters
        document.getElementById('add-custom-filter').addEventListener('click', () => {
@@ -2201,6 +2302,20 @@ setColumns(cols) {
            });
        });
 
+// Apply thumb preferences
+filtered = filtered.filter(game => {
+    const preference = this.gamePreferences.get(game.bggId);
+    if (preference === 'down') return false; // Hide thumbs down
+    return true; // Show everything else (thumbs up and neutral)
+});
+
+// If there are thumbs up games, prioritize them
+const thumbsUpGames = filtered.filter(game => this.gamePreferences.get(game.bggId) === 'up');
+const otherGames = filtered.filter(game => this.gamePreferences.get(game.bggId) !== 'up');
+filtered = [...thumbsUpGames, ...otherGames];
+
+const sortField = document.getElementById('sort-field').value;
+
        const sortField = document.getElementById('sort-field').value;
        const sortOrder = document.getElementById('sort-order').value;
 
@@ -2483,21 +2598,36 @@ metaItems.push(`<div class="meta-item"><span class="meta-label">Weight:</span><s
            metaItems.push(`<div class="meta-item"><span class="meta-label">Best:</span><span>${game.bestPlayerCount.join(', ')}</span></div>`);
        }
 
-       return `
-           <div class="game-card" data-game-id="${game.bggId}" onclick="boardGameApp.openGameModal('${game.bggId}')" style="cursor: pointer;">
-               <div class="image-carousel">
-                   ${imagesHtml}
-               </div>
-               <div class="game-info">
-                   <h3 class="game-title">${game.name}</h3>
-                   ${metaItems.length > 0 ? `
-                       <div class="game-meta">
-                           ${metaItems.join('')}
-                       </div>
-                   ` : ''}
-               </div>
-           </div>
-       `;
+const preference = this.gamePreferences.get(game.bggId);
+const thumbsHtml = `
+    <div class="thumb-buttons">
+        <button class="thumb-btn thumb-up ${preference === 'up' ? 'active' : ''}" 
+                onclick="event.stopPropagation(); boardGameApp.setGamePreference('${game.bggId}', 'up')">
+            👍
+        </button>
+        <button class="thumb-btn thumb-down ${preference === 'down' ? 'active' : ''}" 
+                onclick="event.stopPropagation(); boardGameApp.setGamePreference('${game.bggId}', 'down')">
+            👎
+        </button>
+    </div>
+`;
+
+return `
+    <div class="game-card" data-game-id="${game.bggId}" onclick="boardGameApp.openGameModal('${game.bggId}')" style="cursor: pointer;">
+        <div class="image-carousel">
+            ${imagesHtml}
+        </div>
+        <div class="game-info">
+            <h3 class="game-title">${game.name}</h3>
+            ${metaItems.length > 0 ? `
+                <div class="game-meta">
+                    ${metaItems.join('')}
+                </div>
+            ` : ''}
+        </div>
+        ${thumbsHtml}
+    </div>
+`;
    }
 
    renderEditGameCard(game) {
@@ -2658,9 +2788,24 @@ metaItems.push(`<div class="meta-item"><span class="meta-label">Weight:</span><s
            </div>
        ` : '';
 
-       return `
-           <h2>${game.name}</h2>
-           ${imagesHtml}
+const preference = this.gamePreferences.get(game.bggId);
+const modalThumbsHtml = `
+    <div class="modal-thumbs">
+        <button class="thumb-btn thumb-up ${preference === 'up' ? 'active' : ''}" 
+                onclick="boardGameApp.setGamePreference('${game.bggId}', 'up')">
+            👍
+        </button>
+        <button class="thumb-btn thumb-down ${preference === 'down' ? 'active' : ''}" 
+                onclick="boardGameApp.setGamePreference('${game.bggId}', 'down')">
+            👎
+        </button>
+    </div>
+`;
+
+return `
+    ${modalThumbsHtml}
+    <h2>${game.name}</h2>
+    ${imagesHtml}
            
            <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem; align-items: center;">
                <div><strong>Year:</strong> ${game.year || 'Unknown'}</div>
@@ -2763,15 +2908,16 @@ metaItems.push(`<div class="meta-item"><span class="meta-label">Weight:</span><s
 
 shareCollection() {
     const filtered = this.filteredGames;
-    const config = {
-        filters: this.currentFilters,
-        visibleFields: this.visibleFields,
-        games: filtered,
-        viewMode: 'gallery',
-        sortField: document.getElementById('sort-field').value,
-        sortOrder: document.getElementById('sort-order').value,
-        columns: this.currentColumns
-    };
+const config = {
+    filters: this.currentFilters,
+    visibleFields: this.visibleFields,
+    games: filtered,
+    viewMode: 'gallery',
+    sortField: document.getElementById('sort-field').value,
+    sortOrder: document.getElementById('sort-order').value,
+    columns: this.currentColumns,
+    preferences: Object.fromEntries(this.gamePreferences)
+};
 
     // Fix for non-Latin characters - encode to base64 properly
     const jsonString = JSON.stringify(config);
@@ -2833,6 +2979,75 @@ navigator.clipboard.writeText(shareUrl).then(() => {
            alert('Error importing file: ' + error.message);
        }
    }
+
+async importData(file) {
+       if (!file) return;
+
+       try {
+           const text = await file.text();
+           const data = JSON.parse(text);
+
+           if (data.games) {
+               const shouldClear = confirm('Clear existing collection before importing?');
+               if (shouldClear) {
+                   this.games.clear();
+               }
+
+               Object.entries(data.games).forEach(([id, game]) => {
+                   this.games.set(id, game);
+               });
+
+               this.saveToStorage();
+               this.applyFilters();
+               alert(`Imported ${Object.keys(data.games).length} games successfully!`);
+           }
+       } catch (error) {
+           alert('Error importing file: ' + error.message);
+       }
+   }
+
+   setGamePreference(gameId, preference) {
+       const currentPreference = this.gamePreferences.get(gameId);
+       
+       if (currentPreference === preference) {
+           // If clicking the same preference, toggle it off
+           this.gamePreferences.delete(gameId);
+       } else {
+           // Set new preference
+           this.gamePreferences.set(gameId, preference);
+       }
+       
+       this.updateClearThumbsVisibility();
+       this.saveToStorage();
+       this.applyFilters();
+   }
+
+   clearThumbs() {
+       // Only clear thumbs that aren't from the original shared collection
+       const newPreferences = new Map();
+       this.originalSharedPreferences.forEach((pref, gameId) => {
+           newPreferences.set(gameId, pref);
+       });
+       this.gamePreferences = newPreferences;
+       
+       this.updateClearThumbsVisibility();
+       this.saveToStorage();
+       this.applyFilters();
+   }
+
+   updateClearThumbsVisibility() {
+       const hasNonOriginalThumbs = Array.from(this.gamePreferences.entries()).some(([gameId, pref]) => {
+           return this.originalSharedPreferences.get(gameId) !== pref;
+       });
+       
+       const clearBtn = document.getElementById('clear-thumbs-btn');
+       const mobileClearBtn = document.getElementById('mobile-clear-thumbs-btn');
+       
+       if (clearBtn) clearBtn.style.display = hasNonOriginalThumbs ? 'inline-block' : 'none';
+       if (mobileClearBtn) mobileClearBtn.style.display = hasNonOriginalThumbs ? 'inline-block' : 'none';
+   }
+}
+
 }
 
 let boardGameApp;
