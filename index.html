@@ -800,7 +800,7 @@ button#clear-filters {
             <button class="btn" id="share-btn">Share Collection</button>
             <button class="btn" id="export-btn">Export Data</button>
             <button class="btn" id="import-btn">Import Data</button>
-            <button class="columns-btn" id="columns-btn">5 Cols</button>
+            <button class="columns-btn" id="columns-btn">5 Columns</button>
         </div>
 
         <div class="github-controls" style="position: absolute; top: 1rem; right: 1rem; display: flex; align-items: center; gap: 1rem;">
@@ -823,7 +823,7 @@ button#clear-filters {
             <button class="btn" id="mobile-share-btn">Share Collection</button>
             <button class="btn" id="mobile-export-btn">Export Data</button>
             <button class="btn" id="mobile-import-btn">Import Data</button>
-            <button class="columns-btn" id="mobile-columns-btn">2 Cols</button>
+            <button class="columns-btn" id="mobile-columns-btn">2 Columns</button>
             <button class="btn" id="mobile-google-drive-signin" style="display: none;">Connect GitHub</button>
             <button class="btn" id="mobile-google-drive-signout" style="display: none;">Disconnect GitHub</button>
             <div id="mobile-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
@@ -1960,7 +1960,7 @@ setColumns(cols) {
        const grid = document.getElementById('game-grid');
        grid.className = `game-grid cols-${cols}`;
        
-       const colText = `${cols} Col${cols !== 1 ? 's' : ''}`;
+       const colText = `${cols} Column${cols !== 1 ? 's' : ''}`;
        const desktopBtn = document.getElementById('columns-btn');
        const mobileBtn = document.getElementById('mobile-columns-btn');
        
