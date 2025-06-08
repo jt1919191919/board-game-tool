@@ -2275,6 +2275,14 @@ setColumns(cols) {
            const thumbnail = item.querySelector('thumbnail')?.textContent || '';
            const images = [primaryImage, thumbnail].filter(img => img && img !== primaryImage || img === primaryImage);
 
+// Set default weight color based on complexity
+           let defaultWeightColor = 'green';
+           if (weight >= 2.5) {
+               defaultWeightColor = 'red';
+           } else if (weight >= 1.9) {
+               defaultWeightColor = 'yellow';
+           }
+
            document.getElementById('game-name').value = name;
            document.getElementById('game-year').value = year;
            document.getElementById('game-min-players').value = minPlayers;
@@ -2286,6 +2294,12 @@ setColumns(cols) {
            document.getElementById('game-artists').value = artists.join(', ');
            document.getElementById('game-publishers').value = publishers.join(', ');
            document.getElementById('game-images').value = images.join('\n');
+           
+           // Set the weight color dropdown if it exists
+           const weightColorSelect = document.getElementById('game-weight-color');
+           if (weightColorSelect) {
+               weightColorSelect.value = defaultWeightColor;
+           }
 
        } catch (error) {
            if (error.name === 'AbortError') {
