@@ -654,7 +654,7 @@ button#clear-filters {
             display: none;
         }
 
-        /* Responsive Design */
+/* Responsive Design */
         @media (max-width: 768px) {
     .modal-content div[style*="grid-template-columns: 1fr 1fr"] {
         grid-template-columns: 1fr !important;
@@ -664,9 +664,6 @@ button#clear-filters {
         flex-direction: column !important;
         align-items: flex-start !important;
     }
-            .game-grid { 
-                grid-template-columns: repeat(2, 1fr) !important; 
-            }
 
             .game-meta {
                 grid-template-columns: 1fr;
@@ -692,6 +689,10 @@ button#clear-filters {
             
             .controls {
                 display: none;
+            }
+
+            .github-controls {
+                display: none !important;
             }
 
             .mobile-controls {
@@ -785,7 +786,7 @@ button#clear-filters {
             <button class="hamburger" id="hamburger-btn" style="display: none;">☰</button>
         </h1>
         
-        <div class="controls">
+ <div class="controls">
             <div class="search-box">
                 <input type="text" id="search" placeholder="Search games...">
             </div>
@@ -798,31 +799,34 @@ button#clear-filters {
             </div>
             <button class="btn" id="share-btn">Share Collection</button>
             <button class="btn" id="export-btn">Export Data</button>
-<button class="btn" id="import-btn">Import Data</button>
-            <button class="btn" id="google-drive-signin" style="display: none;">Connect Google Drive</button>
-            <button class="btn" id="google-drive-signout" style="display: none;">Disconnect Google Drive</button>
+            <button class="btn" id="import-btn">Import Data</button>
             <button class="columns-btn" id="columns-btn">5 Cols</button>
-</div>
-
-        <div style="text-align: center; padding: 0.5rem; font-size: 0.9rem;">
-            <span id="google-drive-status">Loading Google Drive...</span>
         </div>
 
-        <div class="mobile-controls">
+        <div class="github-controls" style="position: absolute; top: 1rem; right: 1rem; display: flex; align-items: center; gap: 1rem;">
+            <span id="google-drive-status" style="font-size: 0.9rem;">Loading GitHub...</span>
+            <button class="btn" id="google-drive-signin" style="display: none;">Connect GitHub</button>
+            <button class="btn" id="google-drive-signout" style="display: none;">Disconnect GitHub</button>
+        </div>
+
+<div class="mobile-controls">
             <div class="search-box">
                 <input type="text" id="mobile-search" placeholder="Search games...">
             </div>
             <button class="btn" id="mobile-toggle-filters">Filters</button>
-            <button class="columns-btn" id="mobile-columns-btn">2 Cols</button>
         </div>
 
-        <div class="mobile-menu" id="mobile-menu">
+<div class="mobile-menu" id="mobile-menu">
             <button class="btn" id="mobile-filters-btn">Filters</button>
             <button class="btn btn-primary" id="mobile-add-game-btn">Add Game</button>
             <button class="btn" id="mobile-edit-mode-btn">Edit Mode</button>
             <button class="btn" id="mobile-share-btn">Share Collection</button>
             <button class="btn" id="mobile-export-btn">Export Data</button>
             <button class="btn" id="mobile-import-btn">Import Data</button>
+            <button class="columns-btn" id="mobile-columns-btn">2 Cols</button>
+            <button class="btn" id="mobile-google-drive-signin" style="display: none;">Connect GitHub</button>
+            <button class="btn" id="mobile-google-drive-signout" style="display: none;">Disconnect GitHub</button>
+            <div id="mobile-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
         </div>
     </div>
 
@@ -1090,16 +1094,17 @@ class BoardGameCollection {
        this.visibleFields = ['name', 'year', 'players', 'playtime', 'weight', 'images', 'notes'];
        this.cardVisibleFields = ['name', 'players'];
        this.dynamicCardFields = [];
-       this.currentColumns = window.innerWidth <= 768 ? 2 : 5;
-       this.mobileColumns = 2;
+this.currentColumns = 5; // Always start with 5 on desktop
+       this.mobileColumns = 2; // Always start with 2 on mobile
        this.initGoogleDrive();
    }
 
-   async init() {
+async init() {
        await this.loadFromStorage();
        this.checkForSharedView();
        this.bindEvents();
-       this.setColumns(this.currentColumns);
+       const isMobile = window.innerWidth <= 768;
+       this.setColumns(isMobile ? this.mobileColumns : this.currentColumns);
        this.render();
        this.updateDesignerFilter();
        this.updatePublisherFilter();
@@ -1171,23 +1176,39 @@ updateGoogleDriveUI() {
     const signInBtn = document.getElementById('google-drive-signin');
     const signOutBtn = document.getElementById('google-drive-signout');
     const status = document.getElementById('google-drive-status');
+    const mobileSignInBtn = document.getElementById('mobile-google-drive-signin');
+    const mobileSignOutBtn = document.getElementById('mobile-google-drive-signout');
+    const mobileStatus = document.getElementById('mobile-google-drive-status');
+    
+    const statusText = this.isSignedIn ? 'Connected to GitHub Storage' : 'Not connected to GitHub Storage';
+    const statusColor = this.isSignedIn ? 'green' : 'red';
     
     if (signInBtn && signOutBtn && status) {
         if (this.isSignedIn) {
             signInBtn.style.display = 'none';
             signOutBtn.style.display = 'inline-block';
-            signInBtn.textContent = 'Connect GitHub';
-            signOutBtn.textContent = 'Disconnect GitHub';
-            status.textContent = 'Connected to GitHub Storage';
-            status.style.color = 'green';
         } else {
             signInBtn.style.display = 'inline-block';
             signOutBtn.style.display = 'none';
-            signInBtn.textContent = 'Connect GitHub';
-            signOutBtn.textContent = 'Disconnect GitHub';
-            status.textContent = 'Not connected to GitHub Storage';
-            status.style.color = 'red';
         }
+        signInBtn.textContent = 'Connect GitHub';
+        signOutBtn.textContent = 'Disconnect GitHub';
+        status.textContent = statusText;
+        status.style.color = statusColor;
+    }
+    
+    if (mobileSignInBtn && mobileSignOutBtn && mobileStatus) {
+        if (this.isSignedIn) {
+            mobileSignInBtn.style.display = 'none';
+            mobileSignOutBtn.style.display = 'block';
+        } else {
+            mobileSignInBtn.style.display = 'block';
+            mobileSignOutBtn.style.display = 'none';
+        }
+        mobileSignInBtn.textContent = 'Connect GitHub';
+        mobileSignOutBtn.textContent = 'Disconnect GitHub';
+        mobileStatus.textContent = statusText;
+        mobileStatus.style.color = statusColor;
     }
 }
 
@@ -1598,13 +1619,24 @@ if (sharedData) {
            this.importData(e.target.files[0]);
        });
 
-       // Google Drive controls
+// Google Drive controls
        document.getElementById('google-drive-signin').addEventListener('click', () => {
            this.signInToGoogleDrive();
        });
 
        document.getElementById('google-drive-signout').addEventListener('click', () => {
            this.signOutFromGoogleDrive();
+       });
+
+       // Mobile Google Drive controls
+       document.getElementById('mobile-google-drive-signin').addEventListener('click', () => {
+           this.signInToGoogleDrive();
+           document.getElementById('mobile-menu').classList.remove('show');
+       });
+
+       document.getElementById('mobile-google-drive-signout').addEventListener('click', () => {
+           this.signOutFromGoogleDrive();
+           document.getElementById('mobile-menu').classList.remove('show');
        });
 
        // Modal events
@@ -1882,18 +1914,24 @@ if (window.innerWidth <= 768) {
        }
    }
 
-   cycleColumns() {
+cycleColumns() {
        const isMobile = window.innerWidth <= 768;
        const columnOptions = isMobile ? [1, 2, 3] : [1, 2, 3, 4, 5];
-       let currentIndex = columnOptions.indexOf(this.currentColumns);
-       if (currentIndex === -1) currentIndex = 0; // Handle case where current columns not in options
+       const currentColumns = isMobile ? this.mobileColumns : this.currentColumns;
+       let currentIndex = columnOptions.indexOf(currentColumns);
+       if (currentIndex === -1) currentIndex = isMobile ? 1 : 4; // Default to 2 mobile, 5 desktop
        const nextIndex = (currentIndex + 1) % columnOptions.length;
-       this.currentColumns = columnOptions[nextIndex];
-       this.setColumns(this.currentColumns);
+       const newColumns = columnOptions[nextIndex];
+       
+       if (isMobile) {
+           this.mobileColumns = newColumns;
+       } else {
+           this.currentColumns = newColumns;
+       }
+       this.setColumns(newColumns);
    }
 
-   setColumns(cols) {
-       this.currentColumns = cols;
+setColumns(cols) {
        const grid = document.getElementById('game-grid');
        grid.className = `game-grid cols-${cols}`;
        
