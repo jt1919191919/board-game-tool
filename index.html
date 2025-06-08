@@ -1570,8 +1570,20 @@ checkForSharedView() {
     if (sharedData) {
         try {
             console.log('Attempting to decode shared data...');
-            // Fix for non-Latin characters - decode properly
-            const decodedData = decodeURIComponent(escape(atob(sharedData)));
+            
+            // Better decoding method that handles Unicode properly
+            let decodedData;
+            try {
+                // First try the simple approach
+                decodedData = atob(sharedData);
+            } catch (e) {
+                console.log('Simple atob failed, trying Unicode-safe approach...');
+                // If that fails, try a Unicode-safe approach
+                decodedData = decodeURIComponent(Array.prototype.map.call(atob(sharedData), function(c) {
+                    return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                }).join(''));
+            }
+            
             console.log('Decoded data length:', decodedData.length);
             
             const config = JSON.parse(decodedData);
@@ -1624,6 +1636,11 @@ checkForSharedView() {
         } catch (error) {
             console.error('Error loading shared collection:', error);
             console.error('Error details:', error.message);
+            
+            // Try to give more helpful error info
+            if (error.name === 'InvalidCharacterError') {
+                console.error('The shared link appears to be corrupted or contains invalid characters');
+            }
         }
     }
     return false;
@@ -2995,33 +3012,53 @@ return `
    }
 
 shareCollection() {
-    const filtered = this.filteredGames;
-const config = {
-    filters: this.currentFilters,
-    visibleFields: this.visibleFields,
-    games: filtered,
-    viewMode: 'gallery',
-    sortField: document.getElementById('sort-field').value,
-    sortOrder: document.getElementById('sort-order').value,
-    columns: this.currentColumns,
-    preferences: Object.fromEntries(this.gamePreferences)
-};
-
-    // Fix for non-Latin characters - encode to base64 properly
-    const jsonString = JSON.stringify(config);
-    const encodedData = btoa(unescape(encodeURIComponent(jsonString)));
-    const shareUrl = `${window.location.origin}${window.location.pathname}?share=${encodedData}`;
-    
-    const shareText = `Check out this curated board game collection (${filtered.length} games)`;
-    
-// Always copy to clipboard and open TinyURL
-navigator.clipboard.writeText(shareUrl).then(() => {
-    window.open('https://tinyurl.com/', '_blank');
-    alert(`Share URL copied to clipboard!\n\nTinyURL opened in new tab - paste to shorten.\n\nThis will show ${filtered.length} games with your current filters and sorting applied.`);
-}).catch(() => {
-    window.open('https://tinyurl.com/', '_blank');
-    prompt('Copy this URL to share your collection (TinyURL opened in new tab):', shareUrl);
-});
+    try {
+        const filtered = this.filteredGames;
+        const config = {
+            filters: this.currentFilters,
+            visibleFields: this.visibleFields,
+            games: filtered,
+            viewMode: 'gallery',
+            sortField: document.getElementById('sort-field').value,
+            sortOrder: document.getElementById('sort-order').value,
+            columns: this.currentColumns,
+            preferences: Object.fromEntries(this.gamePreferences)
+        };
+        
+        const jsonString = JSON.stringify(config);
+        console.log('JSON string length:', jsonString.length);
+        
+        // Better encoding method that handles Unicode properly
+        const encodedData = btoa(unescape(encodeURIComponent(jsonString)));
+        console.log('Encoded data length:', encodedData.length);
+        
+        const baseUrl = window.location.href.split('?')[0];
+        const shareUrl = `${baseUrl}?share=${encodedData}`;
+        
+        console.log('Generated share URL length:', shareUrl.length);
+        
+        // Copy to clipboard
+        navigator.clipboard.writeText(shareUrl).then(() => {
+            // Show success message
+            const shareBtn = document.getElementById('share-btn');
+            const originalText = shareBtn.textContent;
+            shareBtn.textContent = 'Link Copied!';
+            shareBtn.style.background = '#22c55e';
+            
+            setTimeout(() => {
+                shareBtn.textContent = originalText;
+                shareBtn.style.background = '';
+            }, 2000);
+        }).catch(err => {
+            console.error('Failed to copy to clipboard:', err);
+            // Fallback: show the URL in a prompt
+            prompt('Copy this share link:', shareUrl);
+        });
+        
+    } catch (error) {
+        console.error('Error generating share link:', error);
+        alert('Failed to generate share link. Please try again.');
+    }
 }
 
    exportData() {
