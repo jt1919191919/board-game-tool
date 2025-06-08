@@ -1188,7 +1188,7 @@ async init() {
     console.log('Initializing app...');
     
     // Check for shared view FIRST, before loading any storage
-    const isSharedCollection = this.checkForSharedView();
+const isSharedCollection = await this.checkForSharedView();
     console.log('Is shared collection:', isSharedCollection);
     
     // Only load from storage if it's NOT a shared collection
@@ -1561,21 +1561,100 @@ async loadFromStorage() {
        });
    }
 
-checkForSharedView() {
+
+async checkForSharedView() {
     console.log('Checking for shared view...');
     const urlParams = new URLSearchParams(window.location.search);
-    const sharedData = urlParams.get('share');
-    console.log('Shared data parameter:', sharedData ? 'Found' : 'Not found');
+    const gistId = urlParams.get('gist');
+    const legacySharedData = urlParams.get('share');
     
-    if (sharedData) {
+    console.log('Gist ID parameter:', gistId ? 'Found' : 'Not found');
+    console.log('Legacy shared data parameter:', legacySharedData ? 'Found' : 'Not found');
+    
+    // Try Gist first
+    if (gistId) {
         try {
-            console.log('Attempting to decode shared data...');
-            // Fix for non-Latin characters - decode properly
-            const decodedData = decodeURIComponent(escape(atob(sharedData)));
+            console.log('Attempting to load shared collection from Gist...');
+            
+            const response = await fetch(`https://api.github.com/gists/${gistId}`, {
+                headers: {
+                    'Accept': 'application/vnd.github.v3+json'
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error(`Failed to fetch Gist: ${response.status} ${response.statusText}`);
+            }
+
+            const gist = await response.json();
+            const fileContent = gist.files['board-game-collection.json'];
+            
+            if (!fileContent) {
+                throw new Error('Board game collection file not found in Gist');
+            }
+
+            const config = JSON.parse(fileContent.content);
+            console.log('Parsed Gist config:', config);
+            
+            if (config.games && config.games.length > 0) {
+                console.log(`Loading ${config.games.length} shared games from Gist...`);
+                
+                // Clear existing games and load shared ones
+                this.games.clear();
+                this.gamePreferences.clear();
+                
+                config.games.forEach((game, index) => {
+                    const gameId = game.bggId || `shared-${index}`;
+                    this.games.set(gameId, game);
+                    console.log(`Added shared game: ${game.name}`);
+                });
+                
+                // Apply shared configuration
+                if (config.filters) {
+                    this.currentFilters = config.filters;
+                    console.log('Applied shared filters:', config.filters);
+                }
+                if (config.columns) {
+                    this.currentColumns = config.columns;
+                }
+                if (config.preferences) {
+                    Object.entries(config.preferences).forEach(([gameId, pref]) => {
+                        this.gamePreferences.set(gameId, pref);
+                        this.originalSharedPreferences.set(gameId, pref);
+                    });
+                    console.log('Applied shared preferences:', config.preferences);
+                }
+                
+                // Set shared view mode
+                this.isSharedView = true;
+                document.body.classList.add('share-mode');
+                
+                // Update page title to indicate shared view
+                const pageTitle = document.getElementById('page-title');
+                if (pageTitle) {
+                    pageTitle.textContent = 'Shared Board Game Collection';
+                }
+                
+                console.log(`Successfully loaded shared collection with ${config.games.length} games`);
+                return true;
+            } else {
+                console.log('No games found in Gist config');
+            }
+        } catch (error) {
+            console.error('Error loading shared collection from Gist:', error);
+            console.error('Error details:', error.message);
+        }
+    }
+    
+    // Fallback to legacy URL parameter method
+    if (legacySharedData) {
+        try {
+            console.log('Attempting to decode legacy shared data...');
+            const decodedData = decodeURIComponent(escape(atob(legacySharedData)));
             console.log('Decoded data length:', decodedData.length);
             
             const config = JSON.parse(decodedData);
-            console.log('Parsed config:', config);
+            console.log('Parsed legacy config:', config);
             
             if (config.games && config.games.length > 0) {
                 console.log(`Loading ${config.games.length} shared games...`);
@@ -1622,10 +1701,11 @@ checkForSharedView() {
                 console.log('No games found in shared config');
             }
         } catch (error) {
-            console.error('Error loading shared collection:', error);
+            console.error('Error loading legacy shared collection:', error);
             console.error('Error details:', error.message);
         }
     }
+    
     return false;
 }
 
@@ -2994,34 +3074,68 @@ return `
        document.getElementById('lightbox-modal').style.display = 'none';
    }
 
-shareCollection() {
-    const allGames = Array.from(this.games.values());
-const config = {
-    filters: this.currentFilters,
-    visibleFields: this.visibleFields,
-    games: allGames,
-    viewMode: 'gallery',
-    sortField: document.getElementById('sort-field').value,
-    sortOrder: document.getElementById('sort-order').value,
-    columns: this.currentColumns,
-    preferences: Object.fromEntries(this.gamePreferences)
-};
 
-    // Fix for non-Latin characters - encode to base64 properly
-    const jsonString = JSON.stringify(config);
-    const encodedData = btoa(unescape(encodeURIComponent(jsonString)));
-    const shareUrl = `${window.location.origin}${window.location.pathname}?share=${encodedData}`;
-    
-const shareText = `Check out this curated board game collection (${this.filteredGames.length} games)`;
-    
-// Always copy to clipboard and open TinyURL
-navigator.clipboard.writeText(shareUrl).then(() => {
-    window.open('https://tinyurl.com/', '_blank');
-alert(`Share URL copied to clipboard!\n\nTinyURL opened in new tab - paste to shorten.\n\nThis will show ${this.filteredGames.length} games with your current filters and sorting applied.`);
-}).catch(() => {
-    window.open('https://tinyurl.com/', '_blank');
-    prompt('Copy this URL to share your collection (TinyURL opened in new tab):', shareUrl);
-});
+async shareCollection() {
+    if (!this.githubReady || !this.isSignedIn || !this.GITHUB_TOKEN) {
+        alert('You must be connected to GitHub to share your collection.');
+        return;
+    }
+
+    const allGames = Array.from(this.games.values());
+    const config = {
+        filters: this.currentFilters,
+        visibleFields: this.visibleFields,
+        games: allGames,
+        viewMode: 'gallery',
+        sortField: document.getElementById('sort-field').value,
+        sortOrder: document.getElementById('sort-order').value,
+        columns: this.currentColumns,
+        preferences: Object.fromEntries(this.gamePreferences),
+        sharedAt: new Date().toISOString()
+    };
+
+    try {
+        // Create GitHub Gist
+        const gistData = {
+            description: `Board Game Collection - ${this.filteredGames.length} games curated`,
+            public: true,
+            files: {
+                "board-game-collection.json": {
+                    content: JSON.stringify(config, null, 2)
+                }
+            }
+        };
+
+        const response = await fetch('https://api.github.com/gists', {
+            method: 'POST',
+            headers: {
+                'Authorization': `token ${this.GITHUB_TOKEN}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(gistData)
+        });
+
+        if (!response.ok) {
+            throw new Error(`GitHub API error: ${response.status} ${response.statusText}`);
+        }
+
+        const gist = await response.json();
+        const shareUrl = `${window.location.origin}${window.location.pathname}?gist=${gist.id}`;
+        
+        // Always copy to clipboard and open TinyURL
+        navigator.clipboard.writeText(shareUrl).then(() => {
+            window.open('https://tinyurl.com/', '_blank');
+            alert(`Share URL copied to clipboard!\n\nTinyURL opened in new tab - paste to shorten.\n\nThis will show ${this.filteredGames.length} games with your current filters and sorting applied.`);
+        }).catch(() => {
+            window.open('https://tinyurl.com/', '_blank');
+            prompt('Copy this URL to share your collection (TinyURL opened in new tab):', shareUrl);
+        });
+
+    } catch (error) {
+        console.error('Error creating share link:', error);
+        alert('Failed to create share link. Please check your GitHub connection and try again.');
+    }
 }
 
    exportData() {
