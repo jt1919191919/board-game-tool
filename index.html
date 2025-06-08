@@ -3012,12 +3012,12 @@ const config = {
     const encodedData = btoa(unescape(encodeURIComponent(jsonString)));
     const shareUrl = `${window.location.origin}${window.location.pathname}?share=${encodedData}`;
     
-    const shareText = `Check out this curated board game collection (${filtered.length} games)`;
+const shareText = `Check out this curated board game collection (${this.filteredGames.length} games)`;
     
 // Always copy to clipboard and open TinyURL
 navigator.clipboard.writeText(shareUrl).then(() => {
     window.open('https://tinyurl.com/', '_blank');
-    alert(`Share URL copied to clipboard!\n\nTinyURL opened in new tab - paste to shorten.\n\nThis will show ${filtered.length} games with your current filters and sorting applied.`);
+alert(`Share URL copied to clipboard!\n\nTinyURL opened in new tab - paste to shorten.\n\nThis will show ${this.filteredGames.length} games with your current filters and sorting applied.`);
 }).catch(() => {
     window.open('https://tinyurl.com/', '_blank');
     prompt('Copy this URL to share your collection (TinyURL opened in new tab):', shareUrl);
