@@ -1709,48 +1709,77 @@ async checkForSharedView() {
     return false;
 }
 
-   bindEvents() {
+bindEvents() {
+       console.log('Starting bindEvents...');
+       
        // Search functionality
-       document.getElementById('search').addEventListener('input', (e) => {
-           this.currentFilters.search = e.target.value;
-           document.getElementById('mobile-search').value = e.target.value;
-           this.updateDynamicCardFields();
-           this.applyFilters();
-       });
+       const searchElement = document.getElementById('search');
+       console.log('search element:', searchElement);
+       if (searchElement) {
+           searchElement.addEventListener('input', (e) => {
+               this.currentFilters.search = e.target.value;
+               const mobileSearch = document.getElementById('mobile-search');
+               if (mobileSearch) mobileSearch.value = e.target.value;
+               this.updateDynamicCardFields();
+               this.applyFilters();
+           });
+       }
 
-       document.getElementById('mobile-search').addEventListener('input', (e) => {
-           this.currentFilters.search = e.target.value;
-           document.getElementById('search').value = e.target.value;
-           this.updateDynamicCardFields();
-           this.applyFilters();
-       });
+       const mobileSearchElement = document.getElementById('mobile-search');
+       console.log('mobile-search element:', mobileSearchElement);
+       if (mobileSearchElement) {
+           mobileSearchElement.addEventListener('input', (e) => {
+               this.currentFilters.search = e.target.value;
+               const mainSearch = document.getElementById('search');
+               if (mainSearch) mainSearch.value = e.target.value;
+               this.updateDynamicCardFields();
+               this.applyFilters();
+           });
+       }
 
-       // Mobile menu
-       document.getElementById('hamburger-btn').addEventListener('click', () => {
-           document.getElementById('mobile-menu').classList.toggle('show');
-       });
+// Mobile menu
+       const hamburgerBtn = document.getElementById('hamburger-btn');
+       if (hamburgerBtn) {
+           hamburgerBtn.addEventListener('click', () => {
+               const mobileMenu = document.getElementById('mobile-menu');
+               if (mobileMenu) mobileMenu.classList.toggle('show');
+           });
+       }
 
        document.addEventListener('click', (e) => {
            const menu = document.getElementById('mobile-menu');
            const hamburger = document.getElementById('hamburger-btn');
-           if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
+           if (menu && hamburger && !menu.contains(e.target) && !hamburger.contains(e.target)) {
                menu.classList.remove('show');
            }
        });
 
        // Filter controls
-       document.getElementById('toggle-filters').addEventListener('click', () => {
-           document.getElementById('filters').classList.toggle('show');
-       });
+       const toggleFiltersBtn = document.getElementById('toggle-filters');
+       if (toggleFiltersBtn) {
+           toggleFiltersBtn.addEventListener('click', () => {
+               const filters = document.getElementById('filters');
+               if (filters) filters.classList.toggle('show');
+           });
+       }
 
-       document.getElementById('mobile-toggle-filters').addEventListener('click', () => {
-           document.getElementById('filters').classList.toggle('show');
-       });
+       const mobileToggleFiltersBtn = document.getElementById('mobile-toggle-filters');
+       if (mobileToggleFiltersBtn) {
+           mobileToggleFiltersBtn.addEventListener('click', () => {
+               const filters = document.getElementById('filters');
+               if (filters) filters.classList.toggle('show');
+           });
+       }
 
-       document.getElementById('mobile-filters-btn').addEventListener('click', () => {
-           document.getElementById('filters').classList.toggle('show');
-           document.getElementById('mobile-menu').classList.remove('show');
-       });
+       const mobileFiltersBtn = document.getElementById('mobile-filters-btn');
+       if (mobileFiltersBtn) {
+           mobileFiltersBtn.addEventListener('click', () => {
+               const filters = document.getElementById('filters');
+               const mobileMenu = document.getElementById('mobile-menu');
+               if (filters) filters.classList.toggle('show');
+               if (mobileMenu) mobileMenu.classList.remove('show');
+           });
+       }
 
 // Filter inputs
        const filterInputs = [
