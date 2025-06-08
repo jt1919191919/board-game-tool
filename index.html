@@ -1018,9 +1018,16 @@ button#clear-filters {
                    <label>Playtime (minutes)</label>
                    <input type="number" id="game-playtime" min="0" max="600">
                </div>
-               <div class="form-group">
+<div class="form-group">
                    <label>Complexity (1-5)</label>
-                   <input type="number" id="game-weight" step="0.1" min="0" max="5">
+                   <div style="display: flex; gap: 0.5rem;">
+                       <input type="number" id="game-weight" step="0.1" min="0" max="5" style="flex: 1;">
+                       <select id="game-weight-color" style="width: 100px;">
+                           <option value="green">Green</option>
+                           <option value="yellow">Yellow</option>
+                           <option value="red">Red</option>
+                       </select>
+                   </div>
                </div>
            </div>
 
@@ -1509,6 +1516,24 @@ if (sharedData) {
                });
            }
        });
+
+// Auto-update weight color when weight changes in add game form
+       const gameWeightInput = document.getElementById('game-weight');
+       const gameWeightColorSelect = document.getElementById('game-weight-color');
+       if (gameWeightInput && gameWeightColorSelect) {
+           gameWeightInput.addEventListener('input', () => {
+               const weight = parseFloat(gameWeightInput.value);
+               if (!isNaN(weight)) {
+                   let defaultColor = 'green';
+                   if (weight >= 2.5) {
+                       defaultColor = 'red';
+                   } else if (weight >= 1.9) {
+                       defaultColor = 'yellow';
+                   }
+                   gameWeightColorSelect.value = defaultColor;
+               }
+           });
+       }
 
        document.getElementById('designer-filter').addEventListener('change', () => {
            this.updateFilters();
@@ -2327,7 +2352,8 @@ setColumns(cols) {
                min: parseInt(document.getElementById('game-playtime').value) || 0,
                max: parseInt(document.getElementById('game-playtime').value) || 0
            },
-           weight: parseFloat(document.getElementById('game-weight').value) || 0,
+weight: parseFloat(document.getElementById('game-weight').value) || 0,
+           weightColor: document.getElementById('game-weight-color').value || 'green',
            bestPlayerCount: document.getElementById('game-best-players').value.split(',').map(s => parseInt(s.trim())).filter(n => !isNaN(n)),
            designers: document.getElementById('game-designers').value.split(',').map(s => s.trim()).filter(s => s),
            artists: document.getElementById('game-artists').value.split(',').map(s => s.trim()).filter(s => s),
@@ -2348,10 +2374,13 @@ setColumns(cols) {
        this.applyFilters();
    }
 
-   closeForm() {
+closeForm() {
        document.getElementById('add-game-form').classList.remove('show');
        document.getElementById('add-game-form').querySelectorAll('input, textarea').forEach(input => {
            input.value = '';
+       });
+       document.getElementById('add-game-form').querySelectorAll('select').forEach(select => {
+           select.selectedIndex = 0;
        });
        document.getElementById('error-message').style.display = 'none';
    }
