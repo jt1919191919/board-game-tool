@@ -417,11 +417,48 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749418609187": {
+      "bggId": "1749418609187",
+      "bggUrl": "https://boardgamegeek.com/boardgame/156266/apex-theropod-deck-building-game",
+      "name": "Apex Theropod Deck-Building Game",
+      "year": 2015,
+      "players": {
+        "min": 1,
+        "max": 6
+      },
+      "playtime": {
+        "min": 290,
+        "max": 290
+      },
+      "weight": 2.9,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Herschel Hoffmeyer"
+      ],
+      "artists": [
+        "Herschel Hoffmeyer"
+      ],
+      "publishers": [
+        "Die-Hard Games LLC"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/0Jcvo3fZs6J1OFBeVcoy3A__original/img/3XPT6CHhEDPH7HhiRP4gT-0Yi9k=/0x0/filters:format(jpeg)/pic3821568.jpg",
+        "https://cf.geekdo-images.com/0Jcvo3fZs6J1OFBeVcoy3A__thumb/img/r7OliAuWMh7Dy5Ll-HbZcpIX0CM=/fit-in/200x150/filters:strip_icc()/pic3821568.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {
     "1749400207887": "up"
   },
-  "lastModified": "2025-06-08T21:21:28.058Z",
+  "lastModified": "2025-06-08T21:36:49.187Z",
   "version": "1.0"
 }
