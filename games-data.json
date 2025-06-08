@@ -202,8 +202,46 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749400046527": {
+      "bggId": "1749400046527",
+      "bggUrl": "https://boardgamegeek.com/boardgame/180263/the-7th-continent",
+      "name": "The 7th Continent",
+      "year": 2017,
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 1000,
+        "max": 1000
+      },
+      "weight": 2.9,
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Ludovic Roudy",
+        "Bruno Sautter"
+      ],
+      "artists": [
+        "Ludovic Roudy"
+      ],
+      "publishers": [
+        "Serious Poulp"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/OYne8uBCHv5oEgRfpOrV0A__original/img/jcTlhpYG2496xQtuQ277bFTIldY=/0x0/filters:format(jpeg)/pic2648303.jpg",
+        "https://cf.geekdo-images.com/OYne8uBCHv5oEgRfpOrV0A__thumb/img/_YPdmxegKIoZI_ButuMJzfw9UBo=/fit-in/200x150/filters:strip_icc()/pic2648303.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
-  "lastModified": "2025-06-08T16:17:51.389Z",
+  "lastModified": "2025-06-08T16:27:26.527Z",
   "version": "1.0"
 }
