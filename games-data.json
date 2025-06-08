@@ -471,7 +471,6 @@
       "weight": 1,
       "weightColor": "green",
       "bestPlayerCount": [
-        3,
         4,
         5,
         6
@@ -641,6 +640,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-08T23:16:39.063Z",
+  "lastModified": "2025-06-08T23:17:24.400Z",
   "version": "1.0"
 }
