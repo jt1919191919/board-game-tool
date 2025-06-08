@@ -454,9 +454,45 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749422666884": {
+      "bggId": "1749422666884",
+      "bggUrl": "https://boardgamegeek.com/boardgame/423850/13-beavers",
+      "name": "13 Beavers",
+      "year": 2024,
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Matt Edmondson"
+      ],
+      "artists": [],
+      "publishers": [
+        "Format Games",
+        "Mega Bleu"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/upswhqsXmF4NMcqg1NuvTA__original/img/5QNokcLr5SQlEPmFzEl-fJ-ZVBI=/0x0/filters:format(png)/pic8322566.png",
+        "https://cf.geekdo-images.com/upswhqsXmF4NMcqg1NuvTA__thumb/img/LTPlRwgV_VsB17REr9Xk78qyEc8=/fit-in/200x150/filters:strip_icc()/pic8322566.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-08T22:42:53.900Z",
+  "lastModified": "2025-06-08T22:44:26.885Z",
   "version": "1.0"
 }
