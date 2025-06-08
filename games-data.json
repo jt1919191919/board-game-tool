@@ -545,9 +545,50 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749422698030": {
+      "bggId": "1749422698030",
+      "bggUrl": "https://boardgamegeek.com/boardgame/191300/archaeology-the-new-expedition",
+      "name": "Archaeology: The New Expedition",
+      "year": 2016,
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.3,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Phil Walker-Harding"
+      ],
+      "artists": [
+        "Atha Kanaani"
+      ],
+      "publishers": [
+        "Asmodee",
+        "Conclave Editora",
+        "Hobby Japan",
+        "Korea Boardgames",
+        "Z-Man Games"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/5fsW7qzvnkg8L0iVx_AM1A__original/img/4EIwkLf_b6eVmziTozPeDKKOymc=/0x0/filters:format(png)/pic2805898.png",
+        "https://cf.geekdo-images.com/5fsW7qzvnkg8L0iVx_AM1A__thumb/img/kDJbSE0lHm1iNprMUGjjJXzi8bM=/fit-in/200x150/filters:strip_icc()/pic2805898.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-08T22:44:47.049Z",
+  "lastModified": "2025-06-08T22:44:58.030Z",
   "version": "1.0"
 }
