@@ -586,9 +586,60 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749422710640": {
+      "bggId": "1749422710640",
+      "bggUrl": "https://boardgamegeek.com/boardgame/287954/azul-summer-pavilion",
+      "name": "Azul: Summer Pavilion",
+      "year": 2019,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.1,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Michael Kiesling"
+      ],
+      "artists": [
+        "Chris Quilliams"
+      ],
+      "publishers": [
+        "Next Move Games",
+        "Belleville (Бельвіль)",
+        "Broadway Toys LTD",
+        "Divercentro",
+        "Galápagos Jogos",
+        "Gém Klub Kft.",
+        "Ghenos Games",
+        "Hobby Japan",
+        "Korea Boardgames",
+        "Lacerta",
+        "MINDOK",
+        "MIPL",
+        "Pegasus Spiele",
+        "Rebel Sp. z o.o.",
+        "SuperHeated Neurons",
+        "Zvezda"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/843kZ6WR0HfyXWEybA6L7A__original/img/VtYGvhy_YCSw14FpV8FGzv0eMe4=/0x0/filters:format(jpeg)/pic4930887.jpg",
+        "https://cf.geekdo-images.com/843kZ6WR0HfyXWEybA6L7A__thumb/img/sOiQSPo_DM7G1Om0PF1T2Z8ACcA=/fit-in/200x150/filters:strip_icc()/pic4930887.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-08T22:44:58.030Z",
+  "lastModified": "2025-06-08T22:45:10.640Z",
   "version": "1.0"
 }
