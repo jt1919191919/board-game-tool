@@ -1185,16 +1185,18 @@ this.initGoogleDrive();
    }
 
 async init() {
-       await this.loadFromStorage();
-       this.checkForSharedView();
+       const isSharedCollection = this.checkForSharedView();
+       if (!isSharedCollection) {
+           await this.loadFromStorage();
+       }
        this.bindEvents();
        const isMobile = window.innerWidth <= 768;
        this.setColumns(isMobile ? this.mobileColumns : this.currentColumns);
        this.render();
-this.updateDesignerFilter();
-this.updatePublisherFilter();
-this.updateClearThumbsVisibility();
-this.applyFilters();
+       this.updateDesignerFilter();
+       this.updatePublisherFilter();
+       this.updateClearThumbsVisibility();
+       this.applyFilters();
    }
 
 // Initialize GitHub file storage
@@ -1427,7 +1429,7 @@ if (data.games) {
        }
    }
 
-   loadFromLocalStorage() {
+loadFromLocalStorage() {
        try {
            const stored = localStorage.getItem('boardgame-collection');
            if (stored) {
@@ -1454,7 +1456,7 @@ console.log('Loaded collection from localStorage');
            console.warn('Could not load from localStorage:', e);
        }
        
-       if (this.games.size === 0) {
+       if (this.games.size === 0 && !this.isSharedView) {
            this.loadSampleData();
        }
    }
@@ -1470,12 +1472,10 @@ async saveToStorage() {
 }
 
 async loadFromStorage() {
-    if (!this.isSharedView) {
-        if (this.githubReady && this.isSignedIn) {
-            await this.loadFromGitHub();
-        } else {
-            this.loadFromLocalStorage();
-        }
+    if (this.githubReady && this.isSignedIn) {
+        await this.loadFromGitHub();
+    } else {
+        this.loadFromLocalStorage();
     }
 }
 
@@ -1534,7 +1534,7 @@ if (sharedData) {
         const decodedData = decodeURIComponent(escape(atob(sharedData)));
         const config = JSON.parse(decodedData);
         
-        if (config.games) {
+        if (config.games && config.games.length > 0) {
             // Clear existing games and load shared ones
             this.games.clear();
             config.games.forEach((game, index) => {
@@ -1556,11 +1556,15 @@ if (sharedData) {
             document.body.classList.add('share-mode');
             
             console.log(`Loaded shared collection with ${config.games.length} games`);
+            
+            // Skip loading from storage since we have shared data
+            return true;
         }
     } catch (error) {
         console.error('Error loading shared collection:', error);
     }
 }
+return false;
    }
 
    bindEvents() {
