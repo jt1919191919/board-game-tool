@@ -1524,7 +1524,7 @@ async loadFromStorage() {
        });
    }
 
-   checkForSharedView() {
+checkForSharedView() {
 // Handle shared collection URLs
 const urlParams = new URLSearchParams(window.location.search);
 const sharedData = urlParams.get('share');
@@ -1541,19 +1541,19 @@ if (sharedData) {
                 this.games.set(game.bggId || `shared-${index}`, game);
             });
             
-// Apply shared configuration
-if (config.filters) this.currentFilters = config.filters;
-if (config.columns) this.currentColumns = config.columns;
-if (config.preferences) {
-    Object.entries(config.preferences).forEach(([gameId, pref]) => {
-        this.gamePreferences.set(gameId, pref);
-        this.originalSharedPreferences.set(gameId, pref);
-    });
-}
+            // Apply shared configuration
+            if (config.filters) this.currentFilters = config.filters;
+            if (config.columns) this.currentColumns = config.columns;
+            if (config.preferences) {
+                Object.entries(config.preferences).forEach(([gameId, pref]) => {
+                    this.gamePreferences.set(gameId, pref);
+                    this.originalSharedPreferences.set(gameId, pref);
+                });
+            }
             
-            // Set view-only mode for shared collections
-            this.isViewOnly = true;
-            document.body.classList.add('view-only');
+            // Set shared view mode
+            this.isSharedView = true;
+            document.body.classList.add('share-mode');
             
             console.log(`Loaded shared collection with ${config.games.length} games`);
         }
@@ -2321,17 +2321,22 @@ setColumns(cols) {
            });
        });
 
-// Apply thumb preferences
+// Always include thumbs up games, even if they don't match filters
+const thumbsUpGames = Array.from(this.games.values()).filter(game => 
+    this.gamePreferences.get(game.bggId) === 'up'
+);
+
+// Apply thumb preferences to filtered games (hide thumbs down)
 filtered = filtered.filter(game => {
     const preference = this.gamePreferences.get(game.bggId);
     if (preference === 'down') return false; // Hide thumbs down
-    return true; // Show everything else (thumbs up and neutral)
+    return true; // Show everything else (neutral)
 });
 
-// If there are thumbs up games, prioritize them
-const thumbsUpGames = filtered.filter(game => this.gamePreferences.get(game.bggId) === 'up');
-const otherGames = filtered.filter(game => this.gamePreferences.get(game.bggId) !== 'up');
-filtered = [...thumbsUpGames, ...otherGames];
+// Combine thumbs up games with filtered games, removing duplicates
+const filteredIds = new Set(filtered.map(game => game.bggId));
+const uniqueThumbsUp = thumbsUpGames.filter(game => !filteredIds.has(game.bggId));
+filtered = [...thumbsUpGames.filter(game => filteredIds.has(game.bggId)), ...uniqueThumbsUp, ...filtered.filter(game => this.gamePreferences.get(game.bggId) !== 'up')];
 
 const sortField = document.getElementById('sort-field').value;
        const sortOrder = document.getElementById('sort-order').value;
@@ -3013,29 +3018,42 @@ async importData(file) {
        this.applyFilters();
    }
 
-   clearThumbs() {
-       // Only clear thumbs that aren't from the original shared collection
-       const newPreferences = new Map();
-       this.originalSharedPreferences.forEach((pref, gameId) => {
-           newPreferences.set(gameId, pref);
-       });
-       this.gamePreferences = newPreferences;
+clearThumbs() {
+       if (this.isSharedView) {
+           // In shared view, only clear user's own thumbs, keep original shared thumbs
+           const newPreferences = new Map();
+           this.originalSharedPreferences.forEach((pref, gameId) => {
+               newPreferences.set(gameId, pref);
+           });
+           this.gamePreferences = newPreferences;
+       } else {
+           // In own collection, clear all thumbs
+           this.gamePreferences.clear();
+       }
        
        this.updateClearThumbsVisibility();
        this.saveToStorage();
        this.applyFilters();
    }
 
-   updateClearThumbsVisibility() {
-       const hasNonOriginalThumbs = Array.from(this.gamePreferences.entries()).some(([gameId, pref]) => {
-           return this.originalSharedPreferences.get(gameId) !== pref;
-       });
+ updateClearThumbsVisibility() {
+       let hasUserThumbs = false;
+       
+       if (this.isSharedView) {
+           // Show clear button if user has made any changes from the original shared preferences
+           hasUserThumbs = Array.from(this.gamePreferences.entries()).some(([gameId, pref]) => {
+               return this.originalSharedPreferences.get(gameId) !== pref;
+           });
+       } else {
+           // Show clear button if user has any thumbs in their own collection
+           hasUserThumbs = this.gamePreferences.size > 0;
+       }
        
        const clearBtn = document.getElementById('clear-thumbs-btn');
        const mobileClearBtn = document.getElementById('mobile-clear-thumbs-btn');
        
-       if (clearBtn) clearBtn.style.display = hasNonOriginalThumbs ? 'inline-block' : 'none';
-       if (mobileClearBtn) mobileClearBtn.style.display = hasNonOriginalThumbs ? 'inline-block' : 'none';
+       if (clearBtn) clearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
+       if (mobileClearBtn) mobileClearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
    }
 }
 
