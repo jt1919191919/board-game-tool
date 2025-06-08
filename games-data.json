@@ -1,78 +1,5 @@
 {
   "games": {
-    "161936": {
-      "bggId": "161936",
-      "bggUrl": "https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1",
-      "name": "Pandemic Legacy: Season 1",
-      "year": 2015,
-      "players": {
-        "min": 2,
-        "max": 4
-      },
-      "playtime": {
-        "min": 60,
-        "max": 60
-      },
-      "weight": 2.83,
-      "bestPlayerCount": [
-        3,
-        4
-      ],
-      "designers": [
-        "Rob Daviau",
-        "Matt Leacock"
-      ],
-      "artists": [
-        "Chris Quilliams"
-      ],
-      "publishers": [
-        "Z-Man Games"
-      ],
-      "images": [
-        "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVHg__itemrep/img/EdBzaOvIMm_O0-2T9lFpiRnYNhI=/fit-in/246x300/filters:strip_icc()/pic2452831.png"
-      ],
-      "notes": "Incredible campaign game that evolves as you play. Best with 4 players for maximum discussion.",
-      "customFields": {
-        "owned": true,
-        "condition": "Like New"
-      }
-    },
-    "167791": {
-      "bggId": "167791",
-      "bggUrl": "https://boardgamegeek.com/boardgame/167791/terraforming-mars",
-      "name": "Terraforming Mars",
-      "year": 2016,
-      "players": {
-        "min": 1,
-        "max": 5
-      },
-      "playtime": {
-        "min": 90,
-        "max": 120
-      },
-      "weight": 3.25,
-      "bestPlayerCount": [
-        3,
-        4
-      ],
-      "designers": [
-        "Jacob Fryxelius"
-      ],
-      "artists": [
-        "Isaac Fryxelius"
-      ],
-      "publishers": [
-        "FryxGames"
-      ],
-      "images": [
-        "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__itemrep/img/BTkTHO7-8nYRb-DbkY5xNrfI5fI=/fit-in/246x300/filters:strip_icc()/pic3536616.jpg"
-      ],
-      "notes": "Great engine building game with excellent theme. Takes a while to learn but very rewarding.",
-      "customFields": {
-        "owned": true,
-        "condition": "Very Good"
-      }
-    },
     "1749390288868": {
       "bggId": "1749390288868",
       "bggUrl": "https://boardgamegeek.com/boardgame/200147/kanagawa",
@@ -119,7 +46,8 @@
         "https://cf.geekdo-images.com/Rr2JrRztCFzzikJ9YL5-Dw__thumb/img/x9MtKEQlcQ_jS-5AVMeZ28NOC0s=/fit-in/200x150/filters:strip_icc()/pic3105168.jpg"
       ],
       "notes": "",
-      "customFields": {}
+      "customFields": {},
+      "weightColor": "green"
     },
     "1749394705628": {
       "bggId": "1749394705628",
@@ -170,7 +98,8 @@
         "https://cf.geekdo-images.com/FGekxht_r5xqt8oSmQ9HZg__thumb/img/DBoMebkqbcyZWJVLC5MRbF-YbnU=/fit-in/200x150/filters:strip_icc()/pic2407103.jpg"
       ],
       "notes": "",
-      "customFields": {}
+      "customFields": {},
+      "weightColor": "green"
     },
     "1749398099365": {
       "bggId": "1749398099365",
@@ -216,9 +145,10 @@
         "https://cf.geekdo-images.com/K92SFm86Thp6flcFmAX0wQ__thumb/img/BZsJT2pOJcDMUmDa3sKtTvcNKmM=/fit-in/200x150/filters:strip_icc()/pic8624565.png"
       ],
       "notes": "",
-      "customFields": {}
+      "customFields": {},
+      "weightColor": "green"
     }
   },
-  "lastModified": "2025-06-08T15:54:59.365Z",
+  "lastModified": "2025-06-08T15:56:06.353Z",
   "version": "1.0"
 }
