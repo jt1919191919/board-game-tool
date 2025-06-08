@@ -1830,46 +1830,74 @@ const clearFiltersBtn = document.getElementById('clear-filters');
            });
        }
 
-// Clear thumbs
-document.getElementById('clear-thumbs-btn').addEventListener('click', () => {
-    this.clearThumbs();
-});
 
-document.getElementById('mobile-clear-thumbs-btn').addEventListener('click', () => {
-    this.clearThumbs();
-});
+// Clear thumbs
+const clearThumbsBtn = document.getElementById('clear-thumbs-btn');
+if (clearThumbsBtn) {
+    clearThumbsBtn.addEventListener('click', () => {
+        this.clearThumbs();
+    });
+}
+
+const mobileClearThumbsBtn = document.getElementById('mobile-clear-thumbs-btn');
+if (mobileClearThumbsBtn) {
+    mobileClearThumbsBtn.addEventListener('click', () => {
+        this.clearThumbs();
+    });
+}
 
        // Custom filters
-       document.getElementById('add-custom-filter').addEventListener('click', () => {
-           this.addCustomFilter();
-       });
+const addCustomFilterBtn = document.getElementById('add-custom-filter');
+if (addCustomFilterBtn) {
+    addCustomFilterBtn.addEventListener('click', () => {
+        this.addCustomFilter();
+    });
+}
 
        // Edit mode
-       document.getElementById('edit-mode-btn').addEventListener('click', () => {
-           this.toggleEditMode();
-       });
+const editModeBtn = document.getElementById('edit-mode-btn');
+if (editModeBtn) {
+    editModeBtn.addEventListener('click', () => {
+        this.toggleEditMode();
+    });
+}
 
-       document.getElementById('mobile-edit-mode-btn').addEventListener('click', () => {
-           this.toggleEditMode();
-           document.getElementById('mobile-menu').classList.remove('show');
-       });
+const mobileEditModeBtn = document.getElementById('mobile-edit-mode-btn');
+if (mobileEditModeBtn) {
+    mobileEditModeBtn.addEventListener('click', () => {
+        this.toggleEditMode();
+        document.getElementById('mobile-menu').classList.remove('show');
+    });
+}
 
-       document.getElementById('save-changes-btn').addEventListener('click', () => {
-           this.saveAllChanges();
-       });
+const saveChangesBtn = document.getElementById('save-changes-btn');
+if (saveChangesBtn) {
+    saveChangesBtn.addEventListener('click', () => {
+        this.saveAllChanges();
+    });
+}
 
-       document.getElementById('discard-changes-btn').addEventListener('click', () => {
-           this.discardAllChanges();
-       });
+const discardChangesBtn = document.getElementById('discard-changes-btn');
+if (discardChangesBtn) {
+    discardChangesBtn.addEventListener('click', () => {
+        this.discardAllChanges();
+    });
+}
 
        // Column controls
-       document.getElementById('columns-btn').addEventListener('click', () => {
-           this.cycleColumns();
-       });
+const columnsBtn = document.getElementById('columns-btn');
+if (columnsBtn) {
+    columnsBtn.addEventListener('click', () => {
+        this.cycleColumns();
+    });
+}
 
-       document.getElementById('mobile-columns-btn').addEventListener('click', () => {
-           this.cycleColumns();
-       });
+const mobileColumnsBtn = document.getElementById('mobile-columns-btn');
+if (mobileColumnsBtn) {
+    mobileColumnsBtn.addEventListener('click', () => {
+        this.cycleColumns();
+    });
+}
 
        // Add game form
        document.getElementById('add-game-btn').addEventListener('click', () => {
