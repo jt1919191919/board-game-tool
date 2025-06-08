@@ -171,8 +171,54 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749398099365": {
+      "bggId": "1749398099365",
+      "bggUrl": "https://boardgamegeek.com/boardgame/84732/kariba",
+      "name": "Kariba",
+      "year": 2010,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.1,
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Reiner Knizia"
+      ],
+      "artists": [
+        "Felix Kindelan"
+      ],
+      "publishers": [
+        "Goliath Games",
+        "Helvetiq",
+        "Buró",
+        "Fabrika Igr",
+        "Gap Times",
+        "Gen-X Games",
+        "HRAS",
+        "Mandoo Games",
+        "PaperGames (III)",
+        "Reflexshop",
+        "Siam Board Games"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/K92SFm86Thp6flcFmAX0wQ__original/img/J5fE5LGjekRyEzLfAJo3fSHmw6A=/0x0/filters:format(png)/pic8624565.png",
+        "https://cf.geekdo-images.com/K92SFm86Thp6flcFmAX0wQ__thumb/img/BZsJT2pOJcDMUmDa3sKtTvcNKmM=/fit-in/200x150/filters:strip_icc()/pic8624565.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
-  "lastModified": "2025-06-08T14:58:25.628Z",
+  "lastModified": "2025-06-08T15:54:59.365Z",
   "version": "1.0"
 }
