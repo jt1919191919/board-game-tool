@@ -488,7 +488,7 @@
         "https://cf.geekdo-images.com/ER45Z5LPYKrQmhM6siU_eA__imagepage/img/Px2i337OePv1mzPm8csxOm3iFWE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8322567.jpg",
         "https://cf.geekdo-images.com/pPbwHTWBopCvIwH_eHAy8w__imagepage/img/pu_SvfDrlI_YZH45wjVKDSb2nrM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8429125.jpg"
       ],
-      "notes": "",
+      "notes": "These are my notes!",
       "customFields": {}
     },
     "1749422687049": {
@@ -640,6 +640,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-08T23:17:24.400Z",
+  "lastModified": "2025-06-08T23:19:27.262Z",
   "version": "1.0"
 }
