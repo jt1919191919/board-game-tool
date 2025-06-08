@@ -336,11 +336,54 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749413448520": {
+      "bggId": "1749413448520",
+      "bggUrl": "https://boardgamegeek.com/boardgame/119890/agricola-all-creatures-big-and-small",
+      "name": "Agricola: All Creatures Big and Small",
+      "year": 2012,
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.4,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2
+      ],
+      "designers": [
+        "Uwe Rosenberg"
+      ],
+      "artists": [
+        "Klemens Franz"
+      ],
+      "publishers": [
+        "Lookout Games",
+        "999 Games",
+        "Filosofia Éditions",
+        "Giochi Uniti",
+        "Hobby Japan",
+        "HomoLudicus",
+        "Lacerta",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Z-Man Games"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/iaxdcb_l3F8McwzyoiiCig__original/img/0jQpVjFEcjoIPpVGRf2DhO-jzLo=/0x0/filters:format(jpeg)/pic1514252.jpg",
+        "https://cf.geekdo-images.com/iaxdcb_l3F8McwzyoiiCig__thumb/img/UWsWeuOQpGv5asAoyrKgwL3pVj0=/fit-in/200x150/filters:strip_icc()/pic1514252.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {
     "1749400207887": "up"
   },
-  "lastModified": "2025-06-08T19:54:21.518Z",
+  "lastModified": "2025-06-08T20:10:48.520Z",
   "version": "1.0"
 }
