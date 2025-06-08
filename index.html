@@ -2995,11 +2995,11 @@ return `
    }
 
 shareCollection() {
-    const filtered = this.filteredGames;
+    const allGames = Array.from(this.games.values());
 const config = {
     filters: this.currentFilters,
     visibleFields: this.visibleFields,
-    games: filtered,
+    games: allGames,
     viewMode: 'gallery',
     sortField: document.getElementById('sort-field').value,
     sortOrder: document.getElementById('sort-order').value,
