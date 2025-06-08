@@ -289,9 +289,56 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749412442968": {
+      "bggId": "1749412442968",
+      "bggUrl": "https://boardgamegeek.com/boardgame/202408/adrenaline",
+      "name": "Adrenaline",
+      "year": 2016,
+      "players": {
+        "min": 3,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.4,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Filip Neduk"
+      ],
+      "artists": [
+        "Jakub Politzer"
+      ],
+      "publishers": [
+        "Czech Games Edition",
+        "Cranio Creations",
+        "Devir",
+        "DiceTree Games",
+        "GaGa Games",
+        "Heidelberger Spieleverlag",
+        "Hobby Japan",
+        "IELLO",
+        "Lex Games",
+        "MINDOK",
+        "Rebel Sp. z o.o."
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/TiNI7bUCR2RPFMlvKEC9TQ__original/img/MEvPkkVu15k4DWM8CS41a-j5TL8=/0x0/filters:format(jpeg)/pic3476604.jpg",
+        "https://cf.geekdo-images.com/TiNI7bUCR2RPFMlvKEC9TQ__thumb/img/nnWEA6jjVsxPSuEC_Ooph9kzO_g=/fit-in/200x150/filters:strip_icc()/pic3476604.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-08T19:52:39.652Z",
+  "lastModified": "2025-06-08T19:54:02.969Z",
   "version": "1.0"
 }
