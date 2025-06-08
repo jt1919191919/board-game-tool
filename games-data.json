@@ -147,8 +147,63 @@
       "notes": "",
       "customFields": {},
       "weightColor": "green"
+    },
+    "1749399471388": {
+      "bggId": "1749399471388",
+      "bggUrl": "https://boardgamegeek.com/boardgame/68448/7-wonders",
+      "name": "7 Wonders",
+      "year": 2010,
+      "players": {
+        "min": 2,
+        "max": 7
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.3,
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        7
+      ],
+      "designers": [
+        "Antoine Bauza"
+      ],
+      "artists": [
+        "Dimitri Chappuis",
+        "Miguel Coimbra",
+        "Etienne Hebinger",
+        "Cyril Nouvel"
+      ],
+      "publishers": [
+        "Repos Production",
+        "ADC Blackfire Entertainment",
+        "Asterion Press",
+        "Galápagos Jogos",
+        "Gém Klub Kft.",
+        "Hobby Japan",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Lifestyle Boardgames Ltd",
+        "NeoTroy Games",
+        "Rebel Sp. z o.o.",
+        "Siam Board Games"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__original/img/jt70jJDZ1y1FWJs4ZQf5FI8APVY=/0x0/filters:format(jpeg)/pic7149798.jpg",
+        "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__thumb/img/BUOso8b0M1aUOkU80FWlhE8uuxc=/fit-in/200x150/filters:strip_icc()/pic7149798.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
-  "lastModified": "2025-06-08T15:56:06.353Z",
+  "lastModified": "2025-06-08T16:17:51.389Z",
   "version": "1.0"
 }
