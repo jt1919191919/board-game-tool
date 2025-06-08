@@ -1752,18 +1752,21 @@ async checkForSharedView() {
            document.getElementById('mobile-menu').classList.remove('show');
        });
 
-       // Filter inputs
+// Filter inputs
        const filterInputs = [
            'min-players', 'max-players', 'min-playtime', 'max-playtime', 
            'year-filter', 'publisher-filter', 'min-weight', 'max-weight', 'best-player-count-filter', 'notes-filter'
        ];
        
        filterInputs.forEach(id => {
-           document.getElementById(id).addEventListener('input', () => {
-               this.updateFilters();
-               this.updateDynamicCardFields();
-               this.applyFilters();
-           });
+           const element = document.getElementById(id);
+           if (element) {
+               element.addEventListener('input', () => {
+                   this.updateFilters();
+                   this.updateDynamicCardFields();
+                   this.applyFilters();
+               });
+           }
            
            const typeSelect = document.getElementById(id + '-type');
            if (typeSelect) {
@@ -1792,19 +1795,32 @@ async checkForSharedView() {
            });
        }
 
-       document.getElementById('designer-filter').addEventListener('change', () => {
-           this.updateFilters();
-           this.applyFilters();
-       });
+const designerFilter = document.getElementById('designer-filter');
+       if (designerFilter) {
+           designerFilter.addEventListener('change', () => {
+               this.updateFilters();
+               this.applyFilters();
+           });
+       }
 
-       document.getElementById('publisher-dropdown-filter').addEventListener('change', () => {
-           this.updateFilters();
-           this.applyFilters();
-       });
+       const publisherDropdownFilter = document.getElementById('publisher-dropdown-filter');
+       if (publisherDropdownFilter) {
+           publisherDropdownFilter.addEventListener('change', () => {
+               this.updateFilters();
+               this.applyFilters();
+           });
+       }
 
        // Sort controls
-       document.getElementById('sort-field').addEventListener('change', () => this.applyFilters());
-       document.getElementById('sort-order').addEventListener('change', () => this.applyFilters());
+       const sortField = document.getElementById('sort-field');
+       if (sortField) {
+           sortField.addEventListener('change', () => this.applyFilters());
+       }
+       
+       const sortOrder = document.getElementById('sort-order');
+       if (sortOrder) {
+           sortOrder.addEventListener('change', () => this.applyFilters());
+       }
 
        // Clear filters
 const clearFiltersBtn = document.getElementById('clear-filters');
