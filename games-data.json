@@ -1,0 +1,178 @@
+{
+  "games": {
+    "161936": {
+      "bggId": "161936",
+      "bggUrl": "https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1",
+      "name": "Pandemic Legacy: Season 1",
+      "year": 2015,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.83,
+      "bestPlayerCount": [
+        3,
+        4
+      ],
+      "designers": [
+        "Rob Daviau",
+        "Matt Leacock"
+      ],
+      "artists": [
+        "Chris Quilliams"
+      ],
+      "publishers": [
+        "Z-Man Games"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVHg__itemrep/img/EdBzaOvIMm_O0-2T9lFpiRnYNhI=/fit-in/246x300/filters:strip_icc()/pic2452831.png"
+      ],
+      "notes": "Incredible campaign game that evolves as you play. Best with 4 players for maximum discussion.",
+      "customFields": {
+        "owned": true,
+        "condition": "Like New"
+      }
+    },
+    "167791": {
+      "bggId": "167791",
+      "bggUrl": "https://boardgamegeek.com/boardgame/167791/terraforming-mars",
+      "name": "Terraforming Mars",
+      "year": 2016,
+      "players": {
+        "min": 1,
+        "max": 5
+      },
+      "playtime": {
+        "min": 90,
+        "max": 120
+      },
+      "weight": 3.25,
+      "bestPlayerCount": [
+        3,
+        4
+      ],
+      "designers": [
+        "Jacob Fryxelius"
+      ],
+      "artists": [
+        "Isaac Fryxelius"
+      ],
+      "publishers": [
+        "FryxGames"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__itemrep/img/BTkTHO7-8nYRb-DbkY5xNrfI5fI=/fit-in/246x300/filters:strip_icc()/pic3536616.jpg"
+      ],
+      "notes": "Great engine building game with excellent theme. Takes a while to learn but very rewarding.",
+      "customFields": {
+        "owned": true,
+        "condition": "Very Good"
+      }
+    },
+    "1749390288868": {
+      "bggId": "1749390288868",
+      "bggUrl": "https://boardgamegeek.com/boardgame/200147/kanagawa",
+      "name": "Kanagawa",
+      "year": 2016,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2,
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Bruno Cathala",
+        "Charles Chevallier"
+      ],
+      "artists": [
+        "Jade Mosch"
+      ],
+      "publishers": [
+        "IELLO",
+        "2 Pionki",
+        "Albi",
+        "Bureau de Juegos",
+        "Devir",
+        "GoKids 玩樂小子",
+        "Korea Boardgames",
+        "Lavka Games",
+        "Mancalamaro",
+        "Portal Games",
+        "Redbox Editora (Redbox)",
+        "Reflexshop",
+        "Ігрова Майстерня"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/Rr2JrRztCFzzikJ9YL5-Dw__original/img/-v_1QOvedVYSmOkWsmQuROJCHI0=/0x0/filters:format(jpeg)/pic3105168.jpg",
+        "https://cf.geekdo-images.com/Rr2JrRztCFzzikJ9YL5-Dw__thumb/img/x9MtKEQlcQ_jS-5AVMeZ28NOC0s=/fit-in/200x150/filters:strip_icc()/pic3105168.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
+    },
+    "1749394705628": {
+      "bggId": "1749394705628",
+      "bggUrl": "https://boardgamegeek.com/boardgame/160499/king-of-new-york",
+      "name": "King of New York",
+      "year": 2014,
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 1.9,
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Richard Garfield"
+      ],
+      "artists": [
+        "Sébastien Lamirand",
+        "Igor Polouchine",
+        "Régis Torres",
+        "Alexey Yakovlev"
+      ],
+      "publishers": [
+        "IELLO",
+        "Devir",
+        "Egmont Polska",
+        "Enigma (Bergsala Enigma)",
+        "GaGa Games",
+        "Galápagos Jogos",
+        "GoKids 玩樂小子",
+        "Heidelberger Spieleverlag",
+        "Hobby Japan",
+        "HomoLudicus",
+        "Reflexshop",
+        "uplay.it edizioni"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/FGekxht_r5xqt8oSmQ9HZg__original/img/b5zgGvja0Qpte-Jqb5baQNWuG3c=/0x0/filters:format(jpeg)/pic2407103.jpg",
+        "https://cf.geekdo-images.com/FGekxht_r5xqt8oSmQ9HZg__thumb/img/DBoMebkqbcyZWJVLC5MRbF-YbnU=/fit-in/200x150/filters:strip_icc()/pic2407103.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
+    }
+  },
+  "lastModified": "2025-06-08T14:58:25.628Z",
+  "version": "1.0"
+}
