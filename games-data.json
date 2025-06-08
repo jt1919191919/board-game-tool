@@ -240,8 +240,55 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749400177978": {
+      "bggId": "1749400177978",
+      "bggUrl": "https://boardgamegeek.com/boardgame/172818/above-and-below",
+      "name": "Above and Below",
+      "year": 2015,
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.5,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Ryan Laukat"
+      ],
+      "artists": [
+        "Ryan Laukat"
+      ],
+      "publishers": [
+        "Red Raven Games",
+        "Arclight Games",
+        "Bard Centrum Gier",
+        "Conclave Editora",
+        "Devir",
+        "DV Games",
+        "Lavka Games",
+        "Lucky Duck Games",
+        "MYBG Co.",
+        "Ltd.",
+        "Mysterious Island Games",
+        "Schwerkraft-Verlag"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/U0wpvRmBe65e4vwGf0Jbpg__original/img/gIlpowYQ7XzumYO0jZyVldxosBA=/0x0/filters:format(jpeg)/pic2398773.jpg",
+        "https://cf.geekdo-images.com/U0wpvRmBe65e4vwGf0Jbpg__thumb/img/jHLwKKWiJ-lHoaNIj0TrKAGm7QM=/fit-in/200x150/filters:strip_icc()/pic2398773.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
-  "lastModified": "2025-06-08T16:27:26.527Z",
+  "lastModified": "2025-06-08T16:29:37.978Z",
   "version": "1.0"
 }
