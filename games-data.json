@@ -490,9 +490,64 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749422687049": {
+      "bggId": "1749422687049",
+      "bggUrl": "https://boardgamegeek.com/boardgame/268586/6-nimmt-25-jahre",
+      "name": "6 nimmt! 25 Jahre",
+      "year": 2019,
+      "players": {
+        "min": 2,
+        "max": 10
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.3,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "designers": [
+        "Wolfgang Kramer"
+      ],
+      "artists": [
+        "Wolfgang Kramer",
+        "Franz Vohwinkel"
+      ],
+      "publishers": [
+        "AMIGO",
+        "Albi",
+        "Boardgame Space",
+        "G3",
+        "Gigamic",
+        "Hachette Boardgames Benelux",
+        "Kikigagne?",
+        "Korea Boardgames",
+        "Lifestyle Boardgames Ltd",
+        "Mercurio",
+        "PaperGames (III)",
+        "Piatnik",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/DFeZsC973xdZ1CKUzmjAUw__original/img/Tq8bVKV-ihLPfFPpf8FjfTpXiZk=/0x0/filters:format(jpeg)/pic4496538.jpg",
+        "https://cf.geekdo-images.com/DFeZsC973xdZ1CKUzmjAUw__thumb/img/TTIPiPwQpowcHjYMxtk920ZwR3c=/fit-in/200x150/filters:strip_icc()/pic4496538.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-08T22:44:26.885Z",
+  "lastModified": "2025-06-08T22:44:47.049Z",
   "version": "1.0"
 }
