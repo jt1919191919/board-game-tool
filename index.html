@@ -83,11 +83,25 @@
             justify-content: center;
         }
 
-        .search-box {
+.search-box {
             flex: 1;
             min-width: 200px;
             max-width: 400px;
             position: relative;
+        }
+
+        .controls .search-box {
+            max-width: 300px;
+        }
+
+        .clear-thumbs-btn {
+            background: #af834c !important;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        .clear-thumbs-btn:hover {
+            background: #9a7043 !important;
         }
 
         .search-box input {
@@ -363,12 +377,12 @@ button#clear-filters {
 }
 
 .thumb-up {
-    background: #4CAF50;
+    background: #144d16b0;
     color: white;
 }
 
 .thumb-down {
-    background: #ff9800;
+    background: #ac1900e6;
     color: white;
 }
 
@@ -750,12 +764,17 @@ button#clear-filters {
                 display: none !important;
             }
 
-            .mobile-controls {
+.mobile-controls {
                 display: flex;
                 gap: 0.5rem;
                 align-items: center;
-                justify-content: space-between;
                 margin-top: 0.5rem;
+            }
+
+            .mobile-controls .search-box {
+                flex: 1;
+                min-width: 150px;
+                max-width: 200px;
             }
             
             .header h1 {
@@ -843,9 +862,9 @@ button#clear-filters {
         
  <div class="controls">
             <div class="search-box">
-<input type="text" id="search" placeholder="Search games...">
-<button class="btn" id="clear-thumbs-btn" style="display: none;">Clear Thumbs</button>
+                <input type="text" id="search" placeholder="Search games...">
             </div>
+            <button class="btn clear-thumbs-btn" id="clear-thumbs-btn" style="display: none;">Clear Thumbs</button>
             <button class="btn" id="toggle-filters">Filters</button>
             <button class="btn btn-primary" id="add-game-btn">Add Game</button>
             <button class="btn" id="edit-mode-btn">Edit Mode</button>
@@ -867,9 +886,9 @@ button#clear-filters {
 
 <div class="mobile-controls">
             <div class="search-box">
-<input type="text" id="mobile-search" placeholder="Search games...">
-<button class="btn" id="mobile-clear-thumbs-btn" style="display: none;">Clear Thumbs</button>
+                <input type="text" id="mobile-search" placeholder="Search games...">
             </div>
+            <button class="btn clear-thumbs-btn" id="mobile-clear-thumbs-btn" style="display: none;">Clear Thumbs</button>
             <button class="btn" id="mobile-toggle-filters">Filters</button>
         </div>
 
@@ -1526,7 +1545,7 @@ if (sharedData) {
 if (config.filters) this.currentFilters = config.filters;
 if (config.columns) this.currentColumns = config.columns;
 if (config.preferences) {
-    config.preferences.forEach((pref, gameId) => {
+    Object.entries(config.preferences).forEach(([gameId, pref]) => {
         this.gamePreferences.set(gameId, pref);
         this.originalSharedPreferences.set(gameId, pref);
     });
@@ -2315,8 +2334,6 @@ const otherGames = filtered.filter(game => this.gamePreferences.get(game.bggId) 
 filtered = [...thumbsUpGames, ...otherGames];
 
 const sortField = document.getElementById('sort-field').value;
-
-       const sortField = document.getElementById('sort-field').value;
        const sortOrder = document.getElementById('sort-order').value;
 
        filtered.sort((a, b) => {
@@ -2954,32 +2971,6 @@ navigator.clipboard.writeText(shareUrl).then(() => {
        URL.revokeObjectURL(url);
    }
 
-   async importData(file) {
-       if (!file) return;
-
-       try {
-           const text = await file.text();
-           const data = JSON.parse(text);
-
-           if (data.games) {
-               const shouldClear = confirm('Clear existing collection before importing?');
-               if (shouldClear) {
-                   this.games.clear();
-               }
-
-               Object.entries(data.games).forEach(([id, game]) => {
-                   this.games.set(id, game);
-               });
-
-               this.saveToStorage();
-               this.applyFilters();
-               alert(`Imported ${Object.keys(data.games).length} games successfully!`);
-           }
-       } catch (error) {
-           alert('Error importing file: ' + error.message);
-       }
-   }
-
 async importData(file) {
        if (!file) return;
 
@@ -3048,7 +3039,6 @@ async importData(file) {
    }
 }
 
-}
 
 let boardGameApp;
 
