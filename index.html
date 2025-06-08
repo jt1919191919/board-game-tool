@@ -1185,19 +1185,36 @@ this.initGoogleDrive();
    }
 
 async init() {
-       const isSharedCollection = this.checkForSharedView();
-       if (!isSharedCollection) {
-           await this.loadFromStorage();
-       }
-       this.bindEvents();
-       const isMobile = window.innerWidth <= 768;
-       this.setColumns(isMobile ? this.mobileColumns : this.currentColumns);
-       this.render();
-       this.updateDesignerFilter();
-       this.updatePublisherFilter();
-       this.updateClearThumbsVisibility();
-       this.applyFilters();
-   }
+    console.log('Initializing app...');
+    
+    // Check for shared view FIRST, before loading any storage
+    const isSharedCollection = this.checkForSharedView();
+    console.log('Is shared collection:', isSharedCollection);
+    
+    // Only load from storage if it's NOT a shared collection
+    if (!isSharedCollection) {
+        console.log('Loading from storage...');
+        await this.loadFromStorage();
+    } else {
+        console.log('Skipping storage load for shared collection');
+    }
+    
+    this.bindEvents();
+    const isMobile = window.innerWidth <= 768;
+    this.setColumns(isMobile ? this.mobileColumns : this.currentColumns);
+    
+    console.log('About to render...');
+    this.render();
+    
+    this.updateDesignerFilter();
+    this.updatePublisherFilter();
+    this.updateClearThumbsVisibility();
+    
+    console.log('About to apply filters...');
+    this.applyFilters();
+    
+    console.log('App initialization complete');
+}
 
 // Initialize GitHub file storage
 initGoogleDrive() {
@@ -1376,6 +1393,12 @@ const data = {
 }
 
 async loadFromGitHub() {
+    // Don't load from GitHub if we're in shared view
+    if (this.isSharedView) {
+        console.log('Skipping GitHub load - in shared view');
+        return;
+    }
+    
     if (!this.githubReady || !this.isSignedIn || !this.GITHUB_TOKEN) {
         this.loadFromLocalStorage();
         return;
@@ -1394,20 +1417,20 @@ async loadFromGitHub() {
             const content = decodeURIComponent(escape(atob(fileData.content)));
             const data = JSON.parse(content);
             
-if (data.games) {
-    this.games.clear();
-    Object.entries(data.games).forEach(([id, game]) => {
-        this.games.set(id, game);
-    });
-    
-    if (data.preferences) {
-        this.gamePreferences.clear();
-        Object.entries(data.preferences).forEach(([id, pref]) => {
-            this.gamePreferences.set(id, pref);
-        });
-    }
-    console.log('Loaded collection from GitHub');
-}
+            if (data.games) {
+                this.games.clear();
+                Object.entries(data.games).forEach(([id, game]) => {
+                    this.games.set(id, game);
+                });
+                
+                if (data.preferences) {
+                    this.gamePreferences.clear();
+                    Object.entries(data.preferences).forEach(([id, pref]) => {
+                        this.gamePreferences.set(id, pref);
+                    });
+                }
+                console.log('Loaded collection from GitHub');
+            }
         } else {
             console.log('No collection file found in GitHub repository');
             this.loadFromLocalStorage();
@@ -1430,36 +1453,44 @@ if (data.games) {
    }
 
 loadFromLocalStorage() {
-       try {
-           const stored = localStorage.getItem('boardgame-collection');
-           if (stored) {
-               const data = JSON.parse(stored);
-if (data.games) {
-    Object.entries(data.games).forEach(([id, game]) => {
-        this.games.set(id, game);
-    });
-    
-    if (data.preferences) {
-        Object.entries(data.preferences).forEach(([id, pref]) => {
-            this.gamePreferences.set(id, pref);
-        });
+    // Don't load local storage if we're in shared view
+    if (this.isSharedView) {
+        console.log('Skipping localStorage load - in shared view');
+        return;
     }
-} else {
-    // Legacy format - data is directly the games object
-    Object.entries(data).forEach(([id, game]) => {
-        this.games.set(id, game);
-    });
+    
+    try {
+        const stored = localStorage.getItem('boardgame-collection');
+        if (stored) {
+            const data = JSON.parse(stored);
+            if (data.games) {
+                Object.entries(data.games).forEach(([id, game]) => {
+                    this.games.set(id, game);
+                });
+                
+                if (data.preferences) {
+                    Object.entries(data.preferences).forEach(([id, pref]) => {
+                        this.gamePreferences.set(id, pref);
+                    });
+                }
+            } else {
+                // Legacy format - data is directly the games object
+                Object.entries(data).forEach(([id, game]) => {
+                    this.games.set(id, game);
+                });
+            }
+            console.log('Loaded collection from localStorage');
+        }
+    } catch (e) {
+        console.warn('Could not load from localStorage:', e);
+    }
+    
+    // Only load sample data if we have no games AND we're not in shared view
+    if (this.games.size === 0 && !this.isSharedView) {
+        console.log('Loading sample data...');
+        this.loadSampleData();
+    }
 }
-console.log('Loaded collection from localStorage');
-           }
-       } catch (e) {
-           console.warn('Could not load from localStorage:', e);
-       }
-       
-       if (this.games.size === 0 && !this.isSharedView) {
-           this.loadSampleData();
-       }
-   }
 
 async saveToStorage() {
     if (!this.isSharedView) {
@@ -1472,6 +1503,12 @@ async saveToStorage() {
 }
 
 async loadFromStorage() {
+    // Don't load from storage if we're in shared view
+    if (this.isSharedView) {
+        console.log('Skipping storage load - in shared view');
+        return;
+    }
+    
     if (this.githubReady && this.isSignedIn) {
         await this.loadFromGitHub();
     } else {
@@ -1525,47 +1562,72 @@ async loadFromStorage() {
    }
 
 checkForSharedView() {
-// Handle shared collection URLs
-const urlParams = new URLSearchParams(window.location.search);
-const sharedData = urlParams.get('share');
-if (sharedData) {
-    try {
-        // Fix for non-Latin characters - decode properly
-        const decodedData = decodeURIComponent(escape(atob(sharedData)));
-        const config = JSON.parse(decodedData);
-        
-        if (config.games && config.games.length > 0) {
-            // Clear existing games and load shared ones
-            this.games.clear();
-            config.games.forEach((game, index) => {
-                this.games.set(game.bggId || `shared-${index}`, game);
-            });
+    console.log('Checking for shared view...');
+    const urlParams = new URLSearchParams(window.location.search);
+    const sharedData = urlParams.get('share');
+    console.log('Shared data parameter:', sharedData ? 'Found' : 'Not found');
+    
+    if (sharedData) {
+        try {
+            console.log('Attempting to decode shared data...');
+            // Fix for non-Latin characters - decode properly
+            const decodedData = decodeURIComponent(escape(atob(sharedData)));
+            console.log('Decoded data length:', decodedData.length);
             
-            // Apply shared configuration
-            if (config.filters) this.currentFilters = config.filters;
-            if (config.columns) this.currentColumns = config.columns;
-            if (config.preferences) {
-                Object.entries(config.preferences).forEach(([gameId, pref]) => {
-                    this.gamePreferences.set(gameId, pref);
-                    this.originalSharedPreferences.set(gameId, pref);
+            const config = JSON.parse(decodedData);
+            console.log('Parsed config:', config);
+            
+            if (config.games && config.games.length > 0) {
+                console.log(`Loading ${config.games.length} shared games...`);
+                
+                // Clear existing games and load shared ones
+                this.games.clear();
+                this.gamePreferences.clear();
+                
+                config.games.forEach((game, index) => {
+                    const gameId = game.bggId || `shared-${index}`;
+                    this.games.set(gameId, game);
+                    console.log(`Added shared game: ${game.name}`);
                 });
+                
+                // Apply shared configuration
+                if (config.filters) {
+                    this.currentFilters = config.filters;
+                    console.log('Applied shared filters:', config.filters);
+                }
+                if (config.columns) {
+                    this.currentColumns = config.columns;
+                }
+                if (config.preferences) {
+                    Object.entries(config.preferences).forEach(([gameId, pref]) => {
+                        this.gamePreferences.set(gameId, pref);
+                        this.originalSharedPreferences.set(gameId, pref);
+                    });
+                    console.log('Applied shared preferences:', config.preferences);
+                }
+                
+                // Set shared view mode
+                this.isSharedView = true;
+                document.body.classList.add('share-mode');
+                
+                // Update page title to indicate shared view
+                const pageTitle = document.getElementById('page-title');
+                if (pageTitle) {
+                    pageTitle.textContent = 'Shared Board Game Collection';
+                }
+                
+                console.log(`Successfully loaded shared collection with ${config.games.length} games`);
+                return true;
+            } else {
+                console.log('No games found in shared config');
             }
-            
-            // Set shared view mode
-            this.isSharedView = true;
-            document.body.classList.add('share-mode');
-            
-            console.log(`Loaded shared collection with ${config.games.length} games`);
-            
-            // Skip loading from storage since we have shared data
-            return true;
+        } catch (error) {
+            console.error('Error loading shared collection:', error);
+            console.error('Error details:', error.message);
         }
-    } catch (error) {
-        console.error('Error loading shared collection:', error);
     }
+    return false;
 }
-return false;
-   }
 
    bindEvents() {
        // Search functionality
