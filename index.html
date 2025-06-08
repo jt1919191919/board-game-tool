@@ -1596,9 +1596,10 @@ async checkForSharedView() {
                     console.log(`Added shared game: ${game.name}`);
                 });
                 
-                // Apply shared configuration
+// Apply shared configuration
                 if (config.filters) {
                     this.currentFilters = config.filters;
+                    this.applyFiltersToUI(config.filters);
                     console.log('Applied shared filters:', config.filters);
                 }
                 if (config.columns) {
@@ -1650,9 +1651,10 @@ async checkForSharedView() {
                     console.log(`Added shared game: ${game.name}`);
                 });
                 
-                // Apply shared configuration
+// Apply shared configuration
                 if (config.filters) {
                     this.currentFilters = config.filters;
+                    this.applyFiltersToUI(config.filters);
                     console.log('Applied shared filters:', config.filters);
                 }
                 if (config.columns) {
@@ -1682,6 +1684,59 @@ async checkForSharedView() {
     }
     
     return false;
+}
+
+applyFiltersToUI(filters) {
+    // Apply filters to the UI form fields so the filtering logic works
+    if (filters.search) {
+        document.getElementById('search').value = filters.search;
+        document.getElementById('mobile-search').value = filters.search;
+    }
+    if (filters.minPlayers) {
+        document.getElementById('min-players').value = filters.minPlayers;
+        document.getElementById('min-players-type').value = filters.minPlayersType || 'greater';
+    }
+    if (filters.maxPlayers) {
+        document.getElementById('max-players').value = filters.maxPlayers;
+        document.getElementById('max-players-type').value = filters.maxPlayersType || 'less';
+    }
+    if (filters.minPlaytime) {
+        document.getElementById('min-playtime').value = filters.minPlaytime;
+        document.getElementById('min-playtime-type').value = filters.minPlaytimeType || 'greater';
+    }
+    if (filters.maxPlaytime) {
+        document.getElementById('max-playtime').value = filters.maxPlaytime;
+        document.getElementById('max-playtime-type').value = filters.maxPlaytimeType || 'less';
+    }
+    if (filters.year) {
+        document.getElementById('year-filter').value = filters.year;
+        document.getElementById('year-filter-type').value = filters.yearType || 'exact';
+    }
+    if (filters.publisher) {
+        document.getElementById('publisher-filter').value = filters.publisher;
+        document.getElementById('publisher-filter-type').value = filters.publisherType || 'contains';
+    }
+    if (filters.minWeight) {
+        document.getElementById('min-weight').value = filters.minWeight;
+        document.getElementById('min-weight-type').value = filters.minWeightType || 'greater';
+    }
+    if (filters.maxWeight) {
+        document.getElementById('max-weight').value = filters.maxWeight;
+        document.getElementById('max-weight-type').value = filters.maxWeightType || 'less';
+    }
+    if (filters.bestPlayerCount) {
+        document.getElementById('best-player-count-filter').value = filters.bestPlayerCount;
+    }
+    if (filters.notes) {
+        document.getElementById('notes-filter').value = filters.notes;
+        document.getElementById('notes-filter-type').value = filters.notesType || 'contains';
+    }
+    if (filters.designer) {
+        document.getElementById('designer-filter').value = filters.designer;
+    }
+    if (filters.publisherDropdown) {
+        document.getElementById('publisher-dropdown-filter').value = filters.publisherDropdown;
+    }
 }
 
 bindEvents() {
