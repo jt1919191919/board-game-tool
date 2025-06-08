@@ -2485,17 +2485,24 @@ closeModal() {
         this.loadGoogleDriveAPI();
     }
 
-    async loadGoogleDriveAPI() {
+async loadGoogleDriveAPI() {
         try {
+            console.log('Starting Google Drive API load...');
+            console.log('API Key:', this.GOOGLE_DRIVE_API_KEY ? 'Present' : 'Missing');
+            console.log('Client ID:', this.GOOGLE_DRIVE_CLIENT_ID ? 'Present' : 'Missing');
+            
             // Load Google API script
             if (!window.gapi) {
+                console.log('Loading GAPI script...');
                 await this.loadScript('https://apis.google.com/js/api.js');
             }
             
+            console.log('Loading client:auth2...');
             await new Promise((resolve) => {
                 gapi.load('client:auth2', resolve);
             });
 
+            console.log('Initializing GAPI client...');
             await gapi.client.init({
                 apiKey: this.GOOGLE_DRIVE_API_KEY,
                 clientId: this.GOOGLE_DRIVE_CLIENT_ID,
@@ -2511,7 +2518,9 @@ closeModal() {
             
         } catch (error) {
             console.error('Error loading Google Drive API:', error);
-            alert('Failed to load Google Drive API. Falling back to local storage.');
+            console.error('Error details:', error.details || 'No details available');
+            document.getElementById('google-drive-status').textContent = 'Google Drive failed - using local storage';
+            document.getElementById('google-drive-status').style.color = 'red';
         }
     }
 
