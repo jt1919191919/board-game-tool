@@ -5100,9 +5100,48 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749484647928": {
+      "bggId": "1749484647928",
+      "bggUrl": "https://boardgamegeek.com/boardgame/340834/gravwell-2nd-edition",
+      "name": "Gravwell: 2nd Edition",
+      "year": 2021,
+      "dateAcquired": "2024-01-06",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        3,
+        4,
+        6
+      ],
+      "designers": [
+        "Corey Young"
+      ],
+      "artists": [
+        "Kwanchai Moriya"
+      ],
+      "publishers": [
+        "Renegade Game Studios"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/BIBF6pERwJAHOemVBY_DWg__original/img/9UGXRV5QWGb63K5-Eu1CCm5KpEs=/0x0/filters:format(jpeg)/pic6106638.jpg",
+        "https://cf.geekdo-images.com/BIBF6pERwJAHOemVBY_DWg__thumb/img/vcV7-dJdIL8poJ_wLcskNQh4_aA=/fit-in/200x150/filters:strip_icc()/pic6106638.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:56:18.220Z",
+  "lastModified": "2025-06-09T15:57:27.928Z",
   "version": "1.0"
 }
