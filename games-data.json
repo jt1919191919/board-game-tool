@@ -1170,9 +1170,74 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440030605": {
+      "bggId": "1749440030605",
+      "bggUrl": "https://boardgamegeek.com/boardgame/2453/blokus",
+      "name": "Blokus",
+      "year": 2000,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.7,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Bernard Tavitian"
+      ],
+      "artists": [
+        "Alan D. Hoch"
+      ],
+      "publishers": [
+        "Educational Insights",
+        "Mattel",
+        "Inc.",
+        "(Unknown)",
+        "Alary Games",
+        "Beverly Enterprises",
+        "Inc.",
+        "danspil",
+        "Divisible By Zero (DBZ) Aust Pty Ltd",
+        "Educa Korea",
+        "Euro World",
+        "FoxMind Israel",
+        "Granna",
+        "Green Board Game Co.",
+        "Heidelberger Spieleverlag",
+        "Hodin",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Piatnik",
+        "QfreeGames",
+        "Ravensburger",
+        "Sekkoia",
+        "Super Impulse",
+        "Winning Moves France",
+        "Winning Moves Germany"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/96YA5wUJDxtPkmPxemr5Qg__original/img/sdX6o0TZpXjsDMw071k2P80wpYw=/0x0/filters:format(jpeg)/pic2197702.jpg",
+        "https://cf.geekdo-images.com/96YA5wUJDxtPkmPxemr5Qg__thumb/img/EBt2y7Awj5djyo185R7g6FV3P9g=/fit-in/200x150/filters:strip_icc()/pic2197702.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:31:53.109Z",
+  "lastModified": "2025-06-09T03:33:50.605Z",
   "version": "1.0"
 }
