@@ -3332,9 +3332,72 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749481015142": {
+      "bggId": "1749481015142",
+      "bggUrl": "https://boardgamegeek.com/boardgame/156129/deception-murder-hong-kong",
+      "name": "Deception: Murder in Hong Kong",
+      "year": 2014,
+      "dateAcquired": "2018-11-20",
+      "players": {
+        "min": 4,
+        "max": 12
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.6,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        12
+      ],
+      "designers": [
+        "Tobey Ho"
+      ],
+      "artists": [
+        "Marcin Adamski",
+        "Ben Carre",
+        "Tommy Ng",
+        "Ari Wong"
+      ],
+      "publishers": [
+        "Jolly Thinkers",
+        "Across the Board",
+        "Angry Lion Games",
+        "Doit Games",
+        "Gém Klub Kft.",
+        "Grey Fox Games",
+        "IELLO",
+        "Lifestyle Boardgames Ltd",
+        "Lucrum Games",
+        "MIPL",
+        "Nova Era (Нова Ера)",
+        "Popcorn Games",
+        "sternenschimmermeer",
+        "Sunnygeeks",
+        "SuperHeated Neurons"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/1COY3oeK9aN2_XNimKaNww__original/img/ZzyzlO15ggCfkLg9ckeM4PWNePI=/0x0/filters:format(jpeg)/pic3033330.jpg",
+        "https://cf.geekdo-images.com/1COY3oeK9aN2_XNimKaNww__thumb/img/8IWDjnSYX-tYAVRgfq-W3y1b_Ww=/fit-in/200x150/filters:strip_icc()/pic3033330.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:52:42.234Z",
+  "lastModified": "2025-06-09T14:56:55.143Z",
   "version": "1.0"
 }
