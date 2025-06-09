@@ -4258,9 +4258,56 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749482871011": {
+      "bggId": "1749482871011",
+      "bggUrl": "https://boardgamegeek.com/boardgame/138161/firefly-the-game",
+      "name": "Firefly: The Game",
+      "year": 2013,
+      "dateAcquired": "2022-01-20",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 240,
+        "max": 240
+      },
+      "weight": 3,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Aaron Dill",
+        "John Kovaleski",
+        "Sean Sweigart"
+      ],
+      "artists": [
+        "Charles Woods"
+      ],
+      "publishers": [
+        "Gale Force Nine",
+        "LLC",
+        "Battlefront Miniatures Ltd",
+        "Devir",
+        "Heidelberger Spieleverlag"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/iRkRCqB6-J428N8JPjL5fg__original/img/hZEedxgN2GQ8UENAGkWAX_E2bZA=/0x0/filters:format(png)/pic1727008.png",
+        "https://cf.geekdo-images.com/iRkRCqB6-J428N8JPjL5fg__thumb/img/kR9xjgvm2GkSGpSuyngRuUuHwTg=/fit-in/200x150/filters:strip_icc()/pic1727008.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:26:19.003Z",
+  "lastModified": "2025-06-09T15:27:51.012Z",
   "version": "1.0"
 }
