@@ -5579,9 +5579,61 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749487872720": {
+      "bggId": "1749487872720",
+      "bggUrl": "https://boardgamegeek.com/boardgame/191862/imhotep",
+      "name": "Imhotep",
+      "year": 2016,
+      "dateAcquired": "2020-01-03",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Phil Walker-Harding"
+      ],
+      "artists": [
+        "Miguel Coimbra",
+        "Michaela Kienle"
+      ],
+      "publishers": [
+        "KOSMOS",
+        "Arclight Games",
+        "Devir",
+        "Galakta",
+        "Giochi Uniti",
+        "IELLO",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Piatnik",
+        "Spilbræt.dk",
+        "Vennerød Forlag AS",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/HkAt5n4R8XM0vNozl7fftA__original/img/934t5i7J90wlw6mb6p2m_3u98i0=/0x0/filters:format(jpeg)/pic3029488.jpg",
+        "https://cf.geekdo-images.com/HkAt5n4R8XM0vNozl7fftA__thumb/img/1JpxGZSWJf3mxnZZGaGOTqExoH4=/fit-in/200x150/filters:strip_icc()/pic3029488.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T16:50:06.073Z",
+  "lastModified": "2025-06-09T16:51:12.721Z",
   "version": "1.0"
 }
