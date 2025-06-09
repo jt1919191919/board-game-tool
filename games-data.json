@@ -7220,9 +7220,55 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749493056660": {
+      "bggId": "1749493056660",
+      "bggUrl": "https://boardgamegeek.com/boardgame/306321/night-ninja",
+      "name": "Night of the Ninja",
+      "year": 2021,
+      "dateAcquired": "2023-05-05",
+      "players": {
+        "min": 4,
+        "max": 11
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.9,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "designers": [
+        "Justin Gary"
+      ],
+      "artists": [
+        "Ben Charman"
+      ],
+      "publishers": [
+        "Brotherwise Games",
+        "Broadway Toys LTD",
+        "GaGa Games",
+        "狗吠火車"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__original/img/ylHi_WPL5I4FAHbQaaOm5QZW7uc=/0x0/filters:format(jpeg)/pic5426946.jpg",
+        "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__thumb/img/r6HitXm51jUA9MgnzrObznLnGUM=/fit-in/200x150/filters:strip_icc()/pic5426946.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:16:50.300Z",
+  "lastModified": "2025-06-09T18:17:36.661Z",
   "version": "1.0"
 }
