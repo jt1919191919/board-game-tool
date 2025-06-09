@@ -1082,7 +1082,8 @@
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/_Y6g4FXjeolGkh2Uut0qaQ__original/img/gCA9yGWjZ1GCiX_RITH4om4XCkM=/0x0/filters:format(jpeg)/pic7133667.jpg",
-        "https://cf.geekdo-images.com/_Y6g4FXjeolGkh2Uut0qaQ__thumb/img/Frw3qs-UijWlXinPza-6p7nMygA=/fit-in/200x150/filters:strip_icc()/pic7133667.jpg"
+        "https://cf.geekdo-images.com/3pdqzmTrvRLLCiuBcLMnWQ__imagepage/img/4q6EmTk63KIXscOYvCeVdVODrcw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7124877.jpg",
+        "https://cf.geekdo-images.com/BfBwulGyAL9bsb1NshMqhA__imagepage/img/mUCyG6yQGwN5iNGY4Am6imkXiGM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8238770.jpg"
       ],
       "notes": "",
       "customFields": {}
@@ -1095,7 +1096,7 @@
       "dateAcquired": "2019-04-01",
       "players": {
         "min": 3,
-        "max": 4
+        "max": 5
       },
       "playtime": {
         "min": 60,
@@ -1104,9 +1105,8 @@
       "weight": 1.9,
       "weightColor": "yellow",
       "bestPlayerCount": [
-        2,
-        3,
-        4
+        4,
+        5
       ],
       "designers": [
         "Sebastian Bleasdale"
@@ -1119,17 +1119,22 @@
         "Asmodee",
         "Asterion Press"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK England"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/A-KaF84pQ7V8IAZULQNqKg__original/img/jQSWb6LWCtAkGeLVlQDj6an6ED4=/0x0/filters:format(jpeg)/pic1987366.jpg",
-        "https://cf.geekdo-images.com/A-KaF84pQ7V8IAZULQNqKg__thumb/img/t6JsS2kb5qfi0CVFe5o08WGlQ2M=/fit-in/200x150/filters:strip_icc()/pic1987366.jpg"
+        "https://cf.geekdo-images.com/4QD_n_ieUYb97PRK_ja8-w__imagepage/img/9pP4KBcHai_v50nMPmdYtudlZxI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1991959.png",
+        "https://cf.geekdo-images.com/lJBNMuTBEr85IZg8Sxeq_A__imagepage/img/_qImHxDshdHtItSLmmxS4wyJCQE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2023246.jpg"
       ],
-      "notes": "",
+      "notes": "Space Cowboys owned by Asmodee",
       "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:25:13.296Z",
+  "lastModified": "2025-06-09T03:28:52.216Z",
   "version": "1.0"
 }
