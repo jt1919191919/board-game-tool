@@ -6804,9 +6804,77 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492376223": {
+      "bggId": "1749492376223",
+      "bggUrl": "https://boardgamegeek.com/boardgame/244992/mind",
+      "name": "The Mind",
+      "year": 2018,
+      "dateAcquired": "2019-12-25",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Wolfgang Warsch"
+      ],
+      "artists": [
+        "Oliver Freudenreich"
+      ],
+      "publishers": [
+        "Nürnberger-Spielkarten-Verlag",
+        "Arclight Games",
+        "Brain Games",
+        "Coiledspring Games",
+        "DV Games",
+        "FoxGames",
+        "Fractal Juegos",
+        "GaGa Games",
+        "Galápagos Jogos",
+        "Game Factory",
+        "Gém Klub Kft.",
+        "Ideal Board Games",
+        "Kaissa Chess & Games",
+        "Lanlalen",
+        "Lautapelit.fi",
+        "Maldón",
+        "Mar Lúdico",
+        "Mercurio",
+        "Oya",
+        "Pandasaurus Games",
+        "Popcorn Games",
+        "Pravi Junak",
+        "REXhry",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Vennerød Forlag AS",
+        "White Goblin Games",
+        "YellowBOX"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/q_JGK291hrhnhiRB0667oA__original/img/8VjZEG278faO9JZwzce3v3EKssI=/0x0/filters:format(png)/pic3979766.png",
+        "https://cf.geekdo-images.com/q_JGK291hrhnhiRB0667oA__thumb/img/PUrzEmTo5kOcK5BOb4cbOOcH86I=/fit-in/200x150/filters:strip_icc()/pic3979766.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:05:32.095Z",
+  "lastModified": "2025-06-09T18:06:16.224Z",
   "version": "1.0"
 }
