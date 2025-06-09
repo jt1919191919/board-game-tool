@@ -883,6 +883,10 @@ button#clear-filters {
             <button class="btn" id="mobile-filters-btn">Filters</button>
             <button class="btn btn-primary" id="mobile-add-game-btn">Add Game</button>
             <button class="btn" id="mobile-edit-mode-btn">Edit Mode</button>
+            <div class="edit-mode-controls" id="mobile-edit-mode-controls">
+                <button class="btn btn-discard" id="mobile-discard-changes-btn">Discard Changes</button>
+                <button class="btn btn-save" id="mobile-save-changes-btn">Save Changes</button>
+            </div>
             <button class="btn" id="mobile-share-btn">Share Collection</button>
             <button class="btn" id="mobile-export-btn">Export Data</button>
             <button class="btn" id="mobile-import-btn">Import Data</button>
@@ -2075,6 +2079,22 @@ if (discardChangesBtn) {
     });
 }
 
+const mobileDiscardChangesBtn = document.getElementById('mobile-discard-changes-btn');
+if (mobileDiscardChangesBtn) {
+    mobileDiscardChangesBtn.addEventListener('click', () => {
+        this.discardAllChanges();
+        document.getElementById('mobile-menu').classList.remove('show');
+    });
+}
+
+const mobileSaveChangesBtn = document.getElementById('mobile-save-changes-btn');
+if (mobileSaveChangesBtn) {
+    mobileSaveChangesBtn.addEventListener('click', () => {
+        this.saveAllChanges();
+        document.getElementById('mobile-menu').classList.remove('show');
+    });
+}
+
        // Column controls
 const columnsBtn = document.getElementById('columns-btn');
 if (columnsBtn) {
@@ -2439,11 +2459,12 @@ updatePublisherFilter() {
        }
    }
 
-   toggleEditMode() {
+toggleEditMode() {
        this.isEditMode = !this.isEditMode;
        const btn = document.getElementById('edit-mode-btn');
        const mobileBtn = document.getElementById('mobile-edit-mode-btn');
        const controls = document.getElementById('edit-mode-controls');
+       const mobileControls = document.getElementById('mobile-edit-mode-controls');
        
        if (this.isEditMode) {
            this.gameBackups.clear();
@@ -2455,11 +2476,13 @@ updatePublisherFilter() {
            btn.style.display = 'none';
            mobileBtn.style.display = 'none';
            controls.classList.add('show');
+           if (mobileControls) mobileControls.classList.add('show');
        } else {
            document.body.classList.remove('edit-mode');
            btn.style.display = 'block';
            mobileBtn.style.display = 'block';
            controls.classList.remove('show');
+           if (mobileControls) mobileControls.classList.remove('show');
            this.gameBackups.clear();
        }
        
@@ -3194,7 +3217,8 @@ if (allVisibleFields.includes('year') && game.year) {
            metaItems.push(`<div class="meta-item"><span class="meta-label">Year:</span><span>${game.year}</span></div>`);
        }
 if (allVisibleFields.includes('dateAcquired') && game.dateAcquired) {
-           const acquiredDate = new Date(game.dateAcquired);
+           const dateParts = game.dateAcquired.split('-');
+           const acquiredDate = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
            const formattedDate = acquiredDate.toLocaleDateString('en-US');
            metaItems.push(`<div class="meta-item"><span class="meta-label">Acquired:</span><span>${formattedDate}</span></div>`);
        }
@@ -3450,7 +3474,11 @@ return `
 <div class="modal-left-column">
 ${game.dateAcquired ? `
                        <div style="margin-bottom: 1rem;">
-                           <strong>Date Acquired:</strong> ${new Date(game.dateAcquired).toLocaleDateString('en-US')}
+                           <strong>Date Acquired:</strong> ${(() => {
+                               const dateParts = game.dateAcquired.split('-');
+                               const date = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+                               return date.toLocaleDateString('en-US');
+                           })()}
                        </div>
                    ` : ''}
                    ${game.notes ? `
