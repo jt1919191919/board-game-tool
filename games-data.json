@@ -2114,9 +2114,50 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749475336723": {
+      "bggId": "1749475336723",
+      "bggUrl": "https://boardgamegeek.com/boardgame/194286/catacombs-castles",
+      "name": "Catacombs & Castles",
+      "year": 2017,
+      "dateAcquired": "2020-08-13",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.3,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "designers": [
+        "Aron West"
+      ],
+      "artists": [
+        "Kwanchai Moriya"
+      ],
+      "publishers": [
+        "Elzra",
+        "Schwerkraft-Verlag"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/IwdfRd0Ggv97Z1uRUn2eQA__original/img/YFUPoh_RNm_QANdPTlZXsffKwNY=/0x0/filters:format(jpeg)/pic3478320.jpg",
+        "https://cf.geekdo-images.com/IwdfRd0Ggv97Z1uRUn2eQA__thumb/img/Sy94jPwpV6xKlwck3oGH1_4CiWw=/fit-in/200x150/filters:strip_icc()/pic3478320.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T12:43:15.966Z",
+  "lastModified": "2025-06-09T13:22:16.724Z",
   "version": "1.0"
 }
