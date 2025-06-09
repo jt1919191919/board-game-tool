@@ -6872,9 +6872,61 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492416123": {
+      "bggId": "1749492416123",
+      "bggUrl": "https://boardgamegeek.com/boardgame/176920/mission-red-planet-second-edition",
+      "name": "Mission: Red Planet (Second/Third Edition)",
+      "year": 2015,
+      "dateAcquired": "2022-04-11",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Bruno Cathala",
+        "Bruno Faidutti"
+      ],
+      "artists": [
+        "Andrew Bosley",
+        "Samuel R. Shimota",
+        "Alyn Spiller",
+        "Derek Stenning"
+      ],
+      "publishers": [
+        "Fantasy Flight Games",
+        "Matagot",
+        "Edge Entertainment",
+        "Galakta",
+        "Giochi Uniti",
+        "Heidelberger Spieleverlag",
+        "Hunter & Friends",
+        "Niza Gams"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/dqA_FWqa16taFKOqvdvCEA__original/img/H-cOJQRUO5I_LuDx1EaMcPi-3JU=/0x0/filters:format(jpeg)/pic8483896.jpg",
+        "https://cf.geekdo-images.com/dqA_FWqa16taFKOqvdvCEA__thumb/img/tv2UwUf9pKFHQKY7utSSq7xk9tI=/fit-in/200x150/filters:strip_icc()/pic8483896.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:06:16.224Z",
+  "lastModified": "2025-06-09T18:06:56.124Z",
   "version": "1.0"
 }
