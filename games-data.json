@@ -6158,9 +6158,52 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749489617776": {
+      "bggId": "1749489617776",
+      "bggUrl": "https://boardgamegeek.com/boardgame/29839/key-harvest",
+      "name": "Key Harvest",
+      "year": 2007,
+      "dateAcquired": "2021-04-08",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 3,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Richard Breese"
+      ],
+      "artists": [
+        "Juliet Breese",
+        "Mike Doyle (I)"
+      ],
+      "publishers": [
+        "R&D Games",
+        "ABACUSSPIELE",
+        "Quined White Goblin Games",
+        "Rio Grande Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/Z0XUOK08tRPSL9t6AypO2w__original/img/WZJ-BnYBnbQ-05mKnPD8tFiOSDE=/0x0/filters:format(jpeg)/pic217481.jpg",
+        "https://cf.geekdo-images.com/Z0XUOK08tRPSL9t6AypO2w__thumb/img/FSjEPxttSY8rvIxQzj6Th8cwrfM=/fit-in/200x150/filters:strip_icc()/pic217481.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T17:18:36.189Z",
+  "lastModified": "2025-06-09T17:20:17.777Z",
   "version": "1.0"
 }
