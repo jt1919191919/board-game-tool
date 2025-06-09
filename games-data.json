@@ -4305,9 +4305,59 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749483005726": {
+      "bggId": "1749483005726",
+      "bggUrl": "https://boardgamegeek.com/boardgame/157354/five-tribes",
+      "name": "Five Tribes: The Djinns of Naqala",
+      "year": 2014,
+      "dateAcquired": "2019-03-24",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 80,
+        "max": 80
+      },
+      "weight": 2.8,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Bruno Cathala"
+      ],
+      "artists": [
+        "Clément Masson"
+      ],
+      "publishers": [
+        "Days of Wonder",
+        "Arclight Games",
+        "Asterion Press",
+        "CrowD Games",
+        "Galápagos Jogos",
+        "Gém Klub Kft.",
+        "Korea Boardgames",
+        "Lord of Boards",
+        "Maldito Games",
+        "Rebel Sp. z o.o."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/dmo-WD6HZHVUPrbVHunaTw__original/img/PS9HXrThM8Pepbd-cuA1tX8KCYU=/0x0/filters:format(jpeg)/pic2055255.jpg",
+        "https://cf.geekdo-images.com/dmo-WD6HZHVUPrbVHunaTw__thumb/img/I6KVJlQgS1GfWDPSWAFNqce4Cgc=/fit-in/200x150/filters:strip_icc()/pic2055255.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:27:51.012Z",
+  "lastModified": "2025-06-09T15:30:05.727Z",
   "version": "1.0"
 }
