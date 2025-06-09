@@ -7403,9 +7403,81 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749493308705": {
+      "bggId": "1749493308705",
+      "bggUrl": "https://boardgamegeek.com/boardgame/1234/once-upon-time-storytelling-card-game",
+      "name": "Once Upon a Time: The Storytelling Card Game",
+      "year": 1993,
+      "dateAcquired": "2020-06-06",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.4,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Richard Lambert",
+        "Andrew Rilstone",
+        "James Wallis"
+      ],
+      "artists": [
+        "Richard Lambert",
+        "Florence Magnin",
+        "Sophie Mounier",
+        "Omar Rayyan",
+        "Andrew Rilstone",
+        "Franz Vohwinkel",
+        "James Wallis"
+      ],
+      "publishers": [
+        "Atlas Games",
+        "AMIGO",
+        "Angry Lion Games",
+        "Asmodee",
+        "Darwin Project",
+        "Edge Entertainment",
+        "Galakta",
+        "HaKubia",
+        "Halloween Concept",
+        "Hobby Base",
+        "Hobby World",
+        "Inter Hobby Co.",
+        "Ltd.",
+        "Kaissa Chess & Games",
+        "Martínez Roca",
+        "Pegasus Spiele",
+        "Play Factory",
+        "Raven Distribution",
+        "REXhry",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Truant Spiele",
+        "Unicorn (I)"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/IHYBF2QWcZwlYfH4doj06Q__original/img/YzblvnFHp0ez4tJGmtI4ywKJ2Cw=/0x0/filters:format(jpeg)/pic1494028.jpg",
+        "https://cf.geekdo-images.com/IHYBF2QWcZwlYfH4doj06Q__thumb/img/XkT-0Bj73aLec9BYdqWSqIpIKis=/fit-in/200x150/filters:strip_icc()/pic1494028.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:21:06.734Z",
+  "lastModified": "2025-06-09T18:21:48.706Z",
   "version": "1.0"
 }
