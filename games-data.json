@@ -7514,9 +7514,48 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749493450739": {
+      "bggId": "1749493450739",
+      "bggUrl": "https://boardgamegeek.com/boardgame/1985/overturn",
+      "name": "Overturn",
+      "year": 1987,
+      "dateAcquired": "2021-05-15",
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "playtime": {
+        "min": 10,
+        "max": 10
+      },
+      "weight": 1.6,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2
+      ],
+      "designers": [
+        "Ron Dubren",
+        "Pat Dubren"
+      ],
+      "artists": [],
+      "publishers": [
+        "Decipher",
+        "Holdson",
+        "Playtoy Industries",
+        "Pressman Toy Corp."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/2w9DPslUfIpc5mWOIckCUQ__original/img/7VEKPukosjfblZLYjpgPz4FmI7Y=/0x0/filters:format(png)/pic5474327.png",
+        "https://cf.geekdo-images.com/2w9DPslUfIpc5mWOIckCUQ__thumb/img/ZlTPFNz3YZQlOhaa5rFUoH8A5-E=/fit-in/200x150/filters:strip_icc()/pic5474327.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:22:31.393Z",
+  "lastModified": "2025-06-09T18:24:10.739Z",
   "version": "1.0"
 }
