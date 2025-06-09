@@ -6924,9 +6924,48 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492450662": {
+      "bggId": "1749492450662",
+      "bggUrl": "https://boardgamegeek.com/boardgame/285533/miyabi",
+      "name": "Miyabi",
+      "year": 2019,
+      "dateAcquired": "2023-11-01",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Michael Kiesling"
+      ],
+      "artists": [
+        "René Amthor"
+      ],
+      "publishers": [
+        "HABA"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/J8joN18TM0gLZfIj6lYIog__original/img/-8lVCUQlqJjZ4-FEKQl_mCOihUU=/0x0/filters:format(jpeg)/pic4886005.jpg",
+        "https://cf.geekdo-images.com/J8joN18TM0gLZfIj6lYIog__thumb/img/FO9n1zMRh_T30cL9oj7dP8tajVE=/fit-in/200x150/filters:strip_icc()/pic4886005.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:06:56.124Z",
+  "lastModified": "2025-06-09T18:07:30.663Z",
   "version": "1.0"
 }
