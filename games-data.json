@@ -6350,9 +6350,47 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749490782409": {
+      "bggId": "1749490782409",
+      "bggUrl": "https://boardgamegeek.com/boardgame/147505/lords-ladies",
+      "name": "Lords & Ladies",
+      "year": 2014,
+      "dateAcquired": "2019-02-12",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.6,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        4,
+        5
+      ],
+      "designers": [
+        "Jason Corace"
+      ],
+      "artists": [
+        "Jen Corace"
+      ],
+      "publishers": [
+        "Eagle-Gryphon Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/c5pRIj5vcR23Vf-3nFGzTQ__original/img/1ADCbkTTwYWPOq4A4i6s0_rpA78=/0x0/filters:format(jpeg)/pic1772343.jpg",
+        "https://cf.geekdo-images.com/c5pRIj5vcR23Vf-3nFGzTQ__thumb/img/kW8E3bBzxHjH-jw1MwNiQH5ASWQ=/fit-in/200x150/filters:strip_icc()/pic1772343.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T17:38:32.402Z",
+  "lastModified": "2025-06-09T17:39:42.409Z",
   "version": "1.0"
 }
