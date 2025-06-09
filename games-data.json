@@ -3727,9 +3727,81 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749481794419": {
+      "bggId": "1749481794419",
+      "bggUrl": "https://boardgamegeek.com/boardgame/36218/dominion",
+      "name": "Dominion",
+      "year": 2008,
+      "dateAcquired": "2018-04-03",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.3,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Donald X. Vaccarino"
+      ],
+      "artists": [
+        "Matthias Catrein",
+        "Julien Delval",
+        "Tomasz Jedruszek",
+        "Ryan Laukat",
+        "Harald Lieske",
+        "Michael Menzel",
+        "Marcel-André Casasola Merkle",
+        "Claus Stephan",
+        "Christof Tisch"
+      ],
+      "publishers": [
+        "Rio Grande Games",
+        "999 Games",
+        "Albi",
+        "Bard Centrum Gier",
+        "Conclave Editora",
+        "cutia.ro",
+        "Devir",
+        "Filosofia Éditions",
+        "Games Factory Publishing",
+        "Gém Klub Kft.",
+        "Hans im Glück",
+        "Hobby Japan",
+        "Hobby World",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Martinex",
+        "Runadrake",
+        "Smart Ltd",
+        "Stupor Mundi",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Vennerød Forlag AS",
+        "Ystari Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__original/img/96COuakNiLRrjDLc1sM4Zxsw4WE=/0x0/filters:format(jpeg)/pic394356.jpg",
+        "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__thumb/img/B2u2ghwlmI_qsUtCwuvcbnBcIqU=/fit-in/200x150/filters:strip_icc()/pic394356.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:09:15.878Z",
+  "lastModified": "2025-06-09T15:09:54.420Z",
   "version": "1.0"
 }
