@@ -7353,9 +7353,59 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749493266733": {
+      "bggId": "1749493266733",
+      "bggUrl": "https://boardgamegeek.com/boardgame/270314/ohanami",
+      "name": "Ohanami",
+      "year": 2019,
+      "dateAcquired": "2021-10-06",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.2,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Steffen Benndorf"
+      ],
+      "artists": [
+        "Christian Opperer"
+      ],
+      "publishers": [
+        "Nürnberger-Spielkarten-Verlag",
+        "Arclight Games",
+        "FunMill.ru",
+        "Kaissa Chess & Games",
+        "Mercurio",
+        "Mnogoknig Games",
+        "Oya",
+        "Pandasaurus Games",
+        "Popcorn Games",
+        "Pravi Junak",
+        "White Goblin Games",
+        "Нескучные игры"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/U05-_kgQMravE5OLGuYRnw__original/img/2FfV1ZZsBm6rmQrzwmPoCFS2P-I=/0x0/filters:format(png)/pic5591129.png",
+        "https://cf.geekdo-images.com/U05-_kgQMravE5OLGuYRnw__thumb/img/eIwj7bu5oPWzswDzGfm73GHaPak=/fit-in/200x150/filters:strip_icc()/pic5591129.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:20:29.930Z",
+  "lastModified": "2025-06-09T18:21:06.734Z",
   "version": "1.0"
 }
