@@ -5932,9 +5932,60 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749489302695": {
+      "bggId": "1749489302695",
+      "bggUrl": "https://boardgamegeek.com/boardgame/28023/jamaica",
+      "name": "Jamaica",
+      "year": 2007,
+      "dateAcquired": "2021-01-04",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.7,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Malcolm Braff",
+        "Bruno Cathala",
+        "Sébastien Pauchon"
+      ],
+      "artists": [
+        "Mathieu Leyssenne"
+      ],
+      "publishers": [
+        "GameWorks SàRL",
+        "Space Cowboys",
+        "ADC Blackfire Entertainment",
+        "Asterion Press",
+        "Belleville (Бельвіль)",
+        "Galápagos Jogos",
+        "Popcorn Games",
+        "Rebel Sp. z o.o."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/jZRfv3isrBG5waCzEx60Cw__original/img/aLqKSqw-RWyR4wyfFUywWMQXUTc=/0x0/filters:format(png)/pic6434838.png",
+        "https://cf.geekdo-images.com/jZRfv3isrBG5waCzEx60Cw__thumb/img/6q5nirF5yn1d0qtjm2UEI5HV874=/fit-in/200x150/filters:strip_icc()/pic6434838.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T17:13:32.020Z",
+  "lastModified": "2025-06-09T17:15:02.699Z",
   "version": "1.0"
 }
