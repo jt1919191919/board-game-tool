@@ -5295,9 +5295,59 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749487009614": {
+      "bggId": "1749487009614",
+      "bggUrl": "https://boardgamegeek.com/boardgame/195314/herbaceous",
+      "name": "Herbaceous",
+      "year": 2017,
+      "dateAcquired": "2025-04-16",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.2,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Eduardo Baraf",
+        "Steve Finn"
+      ],
+      "artists": [
+        "Beth Sobel"
+      ],
+      "publishers": [
+        "Dr. Finn's Games",
+        "Pencil First Games",
+        "LLC",
+        "17wanzy (Yihu BG)",
+        "64 Ounce Games",
+        "Granna",
+        "Little Rocket Games",
+        "Maldito Games",
+        "Matagot",
+        "Quality Beast"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/0HHqYFhJvOwk8Z0Dt-EvTA__original/img/PUZECnFJTnvhRL48lpUzR5TR48w=/0x0/filters:format(jpeg)/pic7083274.jpg",
+        "https://cf.geekdo-images.com/0HHqYFhJvOwk8Z0Dt-EvTA__thumb/img/EwiBLR6QywbISk0aGe-Vya4zXws=/fit-in/200x150/filters:strip_icc()/pic7083274.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T16:35:30.520Z",
+  "lastModified": "2025-06-09T16:36:49.615Z",
   "version": "1.0"
 }
