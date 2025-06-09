@@ -7309,9 +7309,53 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749493229929": {
+      "bggId": "1749493229929",
+      "bggUrl": "https://boardgamegeek.com/boardgame/192074/odins-ravens-second-edition",
+      "name": "Odin's Ravens (Second Edition)",
+      "year": 2016,
+      "dateAcquired": "2020-01-02",
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.2,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2
+      ],
+      "designers": [
+        "Thorsten Gimmler"
+      ],
+      "artists": [
+        "Johan Egerkrans",
+        "Harald Lieske",
+        "Marcin Minor"
+      ],
+      "publishers": [
+        "Osprey Games",
+        "Evrikus",
+        "HT Publishers",
+        "Nasza Księgarnia",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/NME9DO7GFaXbOyM8DPnFEQ__original/img/BFxRBohNGAoxWd_5-CPo8jIBF-U=/0x0/filters:format(jpeg)/pic2643412.jpg",
+        "https://cf.geekdo-images.com/NME9DO7GFaXbOyM8DPnFEQ__thumb/img/jFeo7CE887HRwbMiyWNOm09QryQ=/fit-in/200x150/filters:strip_icc()/pic2643412.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:18:22.642Z",
+  "lastModified": "2025-06-09T18:20:29.930Z",
   "version": "1.0"
 }
