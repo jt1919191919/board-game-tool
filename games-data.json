@@ -6302,9 +6302,57 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749490712401": {
+      "bggId": "1749490712401",
+      "bggUrl": "https://boardgamegeek.com/boardgame/295374/long-shot-dice-game",
+      "name": "Long Shot: The Dice Game",
+      "year": 2022,
+      "dateAcquired": "2023-04-21",
+      "players": {
+        "min": 1,
+        "max": 8
+      },
+      "playtime": {
+        "min": 25,
+        "max": 25
+      },
+      "weight": 1.9,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Chris Handy (I)"
+      ],
+      "artists": [
+        "Clau Souza"
+      ],
+      "publishers": [
+        "Perplext",
+        "Delirium Games",
+        "Games7Days",
+        "Popcorn Games",
+        "Tabletop KZ"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/j9RO81ihYw0_oPj6iqV_bA__original/img/-jPNsFg5d9uA7D4WGDIP3TNLHX4=/0x0/filters:format(jpeg)/pic6682376.jpg",
+        "https://cf.geekdo-images.com/j9RO81ihYw0_oPj6iqV_bA__thumb/img/iRomFjZ0oELmm1pBVtJrNwyl4nc=/fit-in/200x150/filters:strip_icc()/pic6682376.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T17:37:19.364Z",
+  "lastModified": "2025-06-09T17:38:32.402Z",
   "version": "1.0"
 }
