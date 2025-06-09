@@ -3987,9 +3987,62 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749482301211": {
+      "bggId": "1749482301211",
+      "bggUrl": "https://boardgamegeek.com/boardgame/175621/epic-card-game",
+      "name": "Epic Card Game",
+      "year": 2015,
+      "dateAcquired": "2018-04-08",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 2.5,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Robert Dougherty"
+      ],
+      "artists": [
+        "Apsara",
+        "Jaan van Eeden",
+        "Sarah McCulloch",
+        "Antonis Papantoniou",
+        "L. Sean",
+        "Souveraine",
+        "La Capitana",
+        "Daniel Dussault",
+        "Trevor Smith",
+        "Odysseas Stamoglou",
+        "Daniel Warren"
+      ],
+      "publishers": [
+        "Wise Wizard Games",
+        "Devir",
+        "IELLO"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/DfhQjeh-IzvUMFH__QUDXA__original/img/o7b9oFEfBQ4BOtY_bOhDQ6C4Jlw=/0x0/filters:format(jpeg)/pic2691347.jpg",
+        "https://cf.geekdo-images.com/DfhQjeh-IzvUMFH__QUDXA__thumb/img/TrfK1csWE7BMdCMmG8TQWLb5fAE=/fit-in/200x150/filters:strip_icc()/pic2691347.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:17:03.228Z",
+  "lastModified": "2025-06-09T15:18:21.211Z",
   "version": "1.0"
 }
