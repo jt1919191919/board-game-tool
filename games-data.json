@@ -4836,9 +4836,66 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749484320755": {
+      "bggId": "1749484320755",
+      "bggUrl": "https://boardgamegeek.com/boardgame/31481/galaxy-trucker",
+      "name": "Galaxy Trucker",
+      "year": 2007,
+      "dateAcquired": "2020-09-13",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.3,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Vlaada Chvátil"
+      ],
+      "artists": [
+        "Tomáš Kučerovský",
+        "Radim Pech"
+      ],
+      "publishers": [
+        "Czech Games Edition",
+        "Albi",
+        "Asmodee",
+        "Devir",
+        "Heidelberger Spieleverlag",
+        "HomoLudicus",
+        "IELLO",
+        "Lex Games",
+        "Magellan",
+        "One Moment Games",
+        "Playgo Hungary",
+        "Quined White Goblin Games",
+        "Rebel Sp. z o.o.",
+        "Red Glove",
+        "REXhry",
+        "Rio Grande Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/gLFt1Kif5Cfag505_COYYw__original/img/5vUNCkVDoQpcTfmlhFzkS4e1EaQ=/0x0/filters:format(jpeg)/pic3926631.jpg",
+        "https://cf.geekdo-images.com/gLFt1Kif5Cfag505_COYYw__thumb/img/WOW_QsRuV1KyP8dLjP0yH6TlpvU=/fit-in/200x150/filters:strip_icc()/pic3926631.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:49:39.442Z",
+  "lastModified": "2025-06-09T15:52:00.756Z",
   "version": "1.0"
 }
