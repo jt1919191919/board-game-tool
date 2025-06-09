@@ -6504,9 +6504,69 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492175061": {
+      "bggId": "1749492175061",
+      "bggUrl": "https://boardgamegeek.com/boardgame/209778/magic-maze",
+      "name": "Magic Maze",
+      "year": 2017,
+      "dateAcquired": "2020-06-12",
+      "players": {
+        "min": 1,
+        "max": 8
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.8,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Kasper Lapp"
+      ],
+      "artists": [
+        "Gyom"
+      ],
+      "publishers": [
+        "Sit Down!",
+        "2Tomatoes Games",
+        "Broadway Toys LTD",
+        "Conclave Editora",
+        "Dude Games",
+        "Fantasmagoria",
+        "Gém Klub Kft.",
+        "Ghenos Games",
+        "Korea Boardgames",
+        "Lacerta",
+        "Lautapelit.fi",
+        "Lifestyle Boardgames Ltd",
+        "Pegasus Spiele",
+        "REXhry",
+        "VR Distribution",
+        "WoodCat",
+        "פרש משחקים: Game Knight"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/wJfDIveg2zpTGn8E1WzEpA__original/img/hlp96WuBfwiCijcfPddNmfgTq6E=/0x0/filters:format(jpeg)/pic3268473.jpg",
+        "https://cf.geekdo-images.com/wJfDIveg2zpTGn8E1WzEpA__thumb/img/Un57jB38oeBZ0WFdd7rXSOEP-1k=/fit-in/200x150/filters:strip_icc()/pic3268473.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:02:12.520Z",
+  "lastModified": "2025-06-09T18:02:55.062Z",
   "version": "1.0"
 }
