@@ -1347,9 +1347,55 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440191438": {
+      "bggId": "1749440191438",
+      "bggUrl": "https://boardgamegeek.com/boardgame/140933/blueprints",
+      "name": "Blueprints",
+      "year": 2013,
+      "dateAcquired": "2020-01-06",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.7,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Yves Tourigny"
+      ],
+      "artists": [
+        "Philippe Guérin",
+        "Chris Quilliams"
+      ],
+      "publishers": [
+        "Z-Man Games",
+        "Competo / Marektoy",
+        "Cube Factory of Ideas",
+        "Filosofia Éditions",
+        "Hobby Japan",
+        "MYBG Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/yj0dJI3pFauW-EU9Vg6OZw__original/img/LxwWN-0LRUVioSQcFJPbgqQ8No4=/0x0/filters:format(jpeg)/pic1877243.jpg",
+        "https://cf.geekdo-images.com/yj0dJI3pFauW-EU9Vg6OZw__thumb/img/TVG6p598iOhPeDZuVWy6QCTzOi4=/fit-in/200x150/filters:strip_icc()/pic1877243.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:35:56.267Z",
+  "lastModified": "2025-06-09T03:36:31.438Z",
   "version": "1.0"
 }
