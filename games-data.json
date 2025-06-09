@@ -3672,9 +3672,64 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749481755877": {
+      "bggId": "1749481755877",
+      "bggUrl": "https://boardgamegeek.com/boardgame/331401/dog-park",
+      "name": "Dog Park",
+      "year": 2022,
+      "dateAcquired": "2024-11-28",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 80,
+        "max": 80
+      },
+      "weight": 2.2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Lottie Hazell",
+        "Jack Hazell"
+      ],
+      "artists": [
+        "Kate Avery",
+        "Holly Exley",
+        "Dann May"
+      ],
+      "publishers": [
+        "Birdwood Games",
+        "Engames",
+        "Galakta",
+        "Gameology (Gameology Romania)",
+        "Games7Days",
+        "Gém Klub Kft.",
+        "Hobby World",
+        "iHRYsko",
+        "Kobold Spieleverlag",
+        "Last Level",
+        "Little Rocket Games",
+        "Lucky Duck Games",
+        "MINDOK"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/cCAAceyvbbqMXqX5QgwSmQ__original/img/xf9bMEHqyjw8QO2NgC6arF5jOnQ=/0x0/filters:format(jpeg)/pic6257426.jpg",
+        "https://cf.geekdo-images.com/cCAAceyvbbqMXqX5QgwSmQ__thumb/img/jrjnG4MTuOgIs_Z4l_W-P7Hy0ME=/fit-in/200x150/filters:strip_icc()/pic6257426.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:07:54.626Z",
+  "lastModified": "2025-06-09T15:09:15.878Z",
   "version": "1.0"
 }
