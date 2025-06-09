@@ -7061,9 +7061,57 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492932285": {
+      "bggId": "1749492932285",
+      "bggUrl": "https://boardgamegeek.com/boardgame/195421/near-and-far",
+      "name": "Near and Far",
+      "year": 2017,
+      "dateAcquired": "2024-06-20",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 120,
+        "max": 120
+      },
+      "weight": 2.9,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Ryan Laukat"
+      ],
+      "artists": [
+        "Ryan Laukat"
+      ],
+      "publishers": [
+        "Red Raven Games",
+        "Bard Centrum Gier",
+        "Devir",
+        "DV Games",
+        "Lavka Games",
+        "Lotus Frog Games",
+        "Lucky Duck Games",
+        "REXhry",
+        "Schwerkraft-Verlag"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/lm8OOgJupqd3Q-fZ3DsQhw__original/img/hTV2P_-UPntaLbQB3Dl17LYz42A=/0x0/filters:format(jpeg)/pic3605785.jpg",
+        "https://cf.geekdo-images.com/lm8OOgJupqd3Q-fZ3DsQhw__thumb/img/mZV5Pve42U5PlK-GkFSDTDXCzdg=/fit-in/200x150/filters:strip_icc()/pic3605785.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:09:13.360Z",
+  "lastModified": "2025-06-09T18:15:32.287Z",
   "version": "1.0"
 }
