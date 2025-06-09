@@ -2709,9 +2709,65 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749478618264": {
+      "bggId": "1749478618264",
+      "bggUrl": "https://boardgamegeek.com/boardgame/39463/cosmic-encounter",
+      "name": "Cosmic Encounter",
+      "year": 2008,
+      "dateAcquired": "2019-11-16",
+      "players": {
+        "min": 3,
+        "max": 5
+      },
+      "playtime": {
+        "min": 120,
+        "max": 120
+      },
+      "weight": 2.6,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        5
+      ],
+      "designers": [
+        "Bill Eberle",
+        "Jack Kittredge",
+        "Bill Norton",
+        "Peter Olotka",
+        "Kevin Wilson"
+      ],
+      "artists": [
+        "Andrew Navaro",
+        "Ryan Barger",
+        "Felicia Cano",
+        "Sabe Lewellyn",
+        "Brian Schomburg",
+        "WiL Springer"
+      ],
+      "publishers": [
+        "Fantasy Flight Games",
+        "Arclight Games",
+        "Asterion Press",
+        "Edge Entertainment",
+        "Galakta",
+        "Heidelberger Spieleverlag",
+        "House of Monks"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/S8cE-Ld7XP5sVz-upKJ-Bg__original/img/c4ZrfOtpp6tDHLyMsKecc2ne370=/0x0/filters:format(jpeg)/pic1521633.jpg",
+        "https://cf.geekdo-images.com/S8cE-Ld7XP5sVz-upKJ-Bg__thumb/img/gE--xqnuor4bft2J361zxJJGCjM=/fit-in/200x150/filters:strip_icc()/pic1521633.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:14:07.272Z",
+  "lastModified": "2025-06-09T14:16:58.264Z",
   "version": "1.0"
 }
