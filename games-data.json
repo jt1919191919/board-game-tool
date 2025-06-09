@@ -74,8 +74,6 @@
       },
       "weight": 1.9,
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5,
         6
@@ -105,15 +103,21 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/FGekxht_r5xqt8oSmQ9HZg__original/img/b5zgGvja0Qpte-Jqb5baQNWuG3c=/0x0/filters:format(jpeg)/pic2407103.jpg",
-        "https://cf.geekdo-images.com/FGekxht_r5xqt8oSmQ9HZg__thumb/img/DBoMebkqbcyZWJVLC5MRbF-YbnU=/fit-in/200x150/filters:strip_icc()/pic2407103.jpg"
+        "https://cf.geekdo-images.com/O56c66sXM3joR1hpxAlTRg__imagepage/img/QN_NIfzombI3PNxZRZakucmkeJc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2203045.jpg",
+        "https://cf.geekdo-images.com/9f-CTZGSfafAXcVDmVm21g__imagepage/img/2KiJTwif_FPkOejPHb6tRtidH-Y=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2738767.jpg"
       ],
       "notes": "",
       "customFields": {},
-      "weightColor": "green",
+      "weightColor": "yellow",
       "yearAcquired": null,
-      "designerNationality": [],
-      "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "designerNationality": [
+        "USA Philadelphia"
+      ],
+      "publisherCountry": [
+        "France",
+        "USA California"
+      ],
+      "dateAcquired": "2020-06-15"
     },
     "1749398099365": {
       "bggId": "1749398099365",
@@ -130,9 +134,7 @@
       },
       "weight": 1.1,
       "bestPlayerCount": [
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -156,15 +158,19 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/K92SFm86Thp6flcFmAX0wQ__original/img/J5fE5LGjekRyEzLfAJo3fSHmw6A=/0x0/filters:format(png)/pic8624565.png",
-        "https://cf.geekdo-images.com/K92SFm86Thp6flcFmAX0wQ__thumb/img/BZsJT2pOJcDMUmDa3sKtTvcNKmM=/fit-in/200x150/filters:strip_icc()/pic8624565.png"
+        "https://cf.geekdo-images.com/c-SBNJHHnMUNy4ekAayZDw__imagepage/img/gw8pigzMf5bjvDcJkYhZmICaJNA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5398859.jpg"
       ],
       "notes": "",
       "customFields": {},
       "weightColor": "green",
       "yearAcquired": null,
-      "designerNationality": [],
-      "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Switzerland"
+      ],
+      "dateAcquired": "2023-04-05"
     },
     "1749399471388": {
       "bggId": "1749399471388",
@@ -725,6 +731,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T02:52:17.230Z",
+  "lastModified": "2025-06-09T02:55:40.489Z",
   "version": "1.0"
 }
