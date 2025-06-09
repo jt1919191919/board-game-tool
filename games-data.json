@@ -4950,9 +4950,47 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749484451958": {
+      "bggId": "1749484451958",
+      "bggUrl": "https://boardgamegeek.com/boardgame/198408/gekido-bot-battles",
+      "name": "Gekido: Bot Battles",
+      "year": 2017,
+      "dateAcquired": "2021-10-07",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.9,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3
+      ],
+      "designers": [
+        "Fel Barros",
+        "Romulo Marques"
+      ],
+      "artists": [],
+      "publishers": [
+        "Ace Studios",
+        "CMON Global Limited",
+        "Spaghetti Western Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/mLzP2F54jd4whA-39hdkmA__original/img/1BvSue6A1aAjz8l6GCWQVq6uqHU=/0x0/filters:format(png)/pic3297540.png",
+        "https://cf.geekdo-images.com/mLzP2F54jd4whA-39hdkmA__thumb/img/e_esx06tGxdZjkHYugP3MGQdD3g=/fit-in/200x150/filters:strip_icc()/pic3297540.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:53:19.814Z",
+  "lastModified": "2025-06-09T15:54:11.958Z",
   "version": "1.0"
 }
