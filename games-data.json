@@ -5045,9 +5045,64 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749484578220": {
+      "bggId": "1749484578220",
+      "bggUrl": "https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-lion",
+      "name": "Gloomhaven: Jaws of the Lion",
+      "year": 2020,
+      "dateAcquired": "2021-06-22",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 120,
+        "max": 120
+      },
+      "weight": 3.6,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Isaac Childres"
+      ],
+      "artists": [
+        "Francesca Baerald",
+        "David Demaret",
+        "Alexandr Elichev"
+      ],
+      "publishers": [
+        "Cephalofair Games",
+        "Albi",
+        "Albi Polska",
+        "Arclight Games",
+        "CoolPlay",
+        "Feuerland Spiele",
+        "Galápagos Jogos",
+        "Gém Klub Kft.",
+        "Hobby World",
+        "Korea Boardgames",
+        "Lord of Boards",
+        "Meanbook Games",
+        "Siam Board Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/_HhIdavYW-hid20Iq3hhmg__original/img/PBzsLRqNKQKJxGnzpb7o3qLWPQM=/0x0/filters:format(jpeg)/pic5055631.jpg",
+        "https://cf.geekdo-images.com/_HhIdavYW-hid20Iq3hhmg__thumb/img/OMkN_E5eyWrkID_cHCnQEbIixGM=/fit-in/200x150/filters:strip_icc()/pic5055631.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:54:47.453Z",
+  "lastModified": "2025-06-09T15:56:18.220Z",
   "version": "1.0"
 }
