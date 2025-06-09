@@ -4520,9 +4520,98 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749483765924": {
+      "bggId": "1749483765924",
+      "bggUrl": "https://boardgamegeek.com/boardgame/172/sale",
+      "name": "For Sale",
+      "year": 1997,
+      "dateAcquired": "2019-06-12",
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.3,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Stefan Dorra"
+      ],
+      "artists": [
+        "Óscar Aguado",
+        "Abbas Amirabadi",
+        "Mohammad Amir Garoosian",
+        "Alvin Madden",
+        "Gil Martimiano",
+        "Mahmoud Arasteh Nasab",
+        "Emilien Rotival",
+        "Catell Ruz",
+        "Dossom Studio",
+        "Chema Vicente",
+        "Uros Vuckovic",
+        "Klaus Wilinski"
+      ],
+      "publishers": [
+        "Eagle-Gryphon Games",
+        "IELLO",
+        "Ravensburger",
+        "2 Pionki",
+        "Albi",
+        "AURUM",
+        "Inc.",
+        "Baborka Games",
+        "Brain Games",
+        "Compaya.hu: Gamer Café Kft.",
+        "Competo / Marektoy",
+        "F.X. Schmid",
+        "Gabinete Lúdico",
+        "Geekach Games",
+        "HaKubia",
+        "Heidelberger Spieleverlag",
+        "Jolly Thinkers",
+        "Kaissa Chess & Games",
+        "MEBO Games",
+        "Meeple Virus",
+        "NeoTroy Games",
+        "New Games Order",
+        "LLC",
+        "PaperGames (III)",
+        "Portal Games",
+        "Primigenio",
+        "Siam Board Games",
+        "SPIEL DAS! Verlag",
+        "TLAMA games",
+        "Top Toys",
+        "Überplay",
+        "uplay.it edizioni",
+        "Wargames Club Publishing",
+        "Zito! Ώρα για παιχνίδι",
+        "Взрослые дети",
+        "Нескучные игры",
+        "פרש משחקים: Game Knight"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/dJh9HkZC346NgPTAicJq_A__original/img/6ib2NLakSlsf69WYwCOe9NNLcsc=/0x0/filters:format(jpeg)/pic1513085.jpg",
+        "https://cf.geekdo-images.com/dJh9HkZC346NgPTAicJq_A__thumb/img/3cgW5aP-JJeKSpZMjA0NFheMnfY=/fit-in/200x150/filters:strip_icc()/pic1513085.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:41:10.670Z",
+  "lastModified": "2025-06-09T15:42:45.925Z",
   "version": "1.0"
 }
