@@ -49,8 +49,9 @@
       "customFields": {},
       "weightColor": "green",
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     },
     "1749394705628": {
       "bggId": "1749394705628",
@@ -104,8 +105,9 @@
       "customFields": {},
       "weightColor": "green",
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     },
     "1749398099365": {
       "bggId": "1749398099365",
@@ -154,8 +156,9 @@
       "customFields": {},
       "weightColor": "green",
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     },
     "1749399471388": {
       "bggId": "1749399471388",
@@ -213,8 +216,9 @@
       "customFields": {},
       "weightColor": "green",
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     },
     "1749400177978": {
       "bggId": "1749400177978",
@@ -263,8 +267,9 @@
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     },
     "1749400207887": {
       "bggId": "1749400207887",
@@ -305,8 +310,9 @@
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     },
     "1749412442968": {
       "bggId": "1749412442968",
@@ -355,8 +361,9 @@
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     },
     "1749413448520": {
       "bggId": "1749413448520",
@@ -401,8 +408,9 @@
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     },
     "1749417682999": {
       "bggId": "1749417682999",
@@ -442,8 +450,9 @@
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     },
     "1749418609187": {
       "bggId": "1749418609187",
@@ -482,8 +491,9 @@
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     },
     "1749422666884": {
       "bggId": "1749422666884",
@@ -518,17 +528,18 @@
         "https://cf.geekdo-images.com/ER45Z5LPYKrQmhM6siU_eA__imagepage/img/Px2i337OePv1mzPm8csxOm3iFWE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8322567.jpg",
         "https://cf.geekdo-images.com/pPbwHTWBopCvIwH_eHAy8w__imagepage/img/pu_SvfDrlI_YZH45wjVKDSb2nrM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8429125.jpg"
       ],
-      "notes": "These are my notes!",
+      "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "2024-07-18"
     },
     "1749422687049": {
       "bggId": "1749422687049",
       "bggUrl": "https://boardgamegeek.com/boardgame/268586/6-nimmt-25-jahre",
       "name": "6 nimmt! 25 Jahre",
-      "year": 2019,
+      "year": 1994,
       "players": {
         "min": 2,
         "max": 10
@@ -540,9 +551,6 @@
       "weight": 1.3,
       "weightColor": "green",
       "bestPlayerCount": [
-        3,
-        4,
-        5,
         6,
         7,
         8,
@@ -574,13 +582,19 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/DFeZsC973xdZ1CKUzmjAUw__original/img/Tq8bVKV-ihLPfFPpf8FjfTpXiZk=/0x0/filters:format(jpeg)/pic4496538.jpg",
-        "https://cf.geekdo-images.com/DFeZsC973xdZ1CKUzmjAUw__thumb/img/TTIPiPwQpowcHjYMxtk920ZwR3c=/fit-in/200x150/filters:strip_icc()/pic4496538.jpg"
+        "https://cf.geekdo-images.com/bMPiSV2n19MJZVJbiwi5Kg__imagepage/img/yFGXJfZfaDPxEwGIe9nqTVIB-8A=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4496539.jpg",
+        "https://cf.geekdo-images.com/FvjL0u0s5jwnH4k1U0OQaw__imagepage/img/VrnI_sJ3dwrT9CR79ANrRNCOxXU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5850815.jpg"
       ],
       "notes": "Mayfair closed/owned by Asmodee",
       "customFields": {},
       "yearAcquired": 2023,
-      "designerNationality": "Germany",
-      "publisherCountry": "Germany (Mayfair USA Chicago now closed)"
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany (Mayfair USA Chicago now closed)"
+      ],
+      "dateAcquired": "1991-11-19"
     },
     "1749422698030": {
       "bggId": "1749422698030",
@@ -623,8 +637,9 @@
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     },
     "1749422710640": {
       "bggId": "1749422710640",
@@ -677,11 +692,12 @@
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": "",
-      "publisherCountry": ""
+      "designerNationality": [],
+      "publisherCountry": [],
+      "dateAcquired": "1991-11-19"
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T01:12:35.324Z",
+  "lastModified": "2025-06-09T02:25:27.714Z",
   "version": "1.0"
 }
