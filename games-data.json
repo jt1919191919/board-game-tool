@@ -5836,9 +5836,49 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749489170317": {
+      "bggId": "1749489170317",
+      "bggUrl": "https://boardgamegeek.com/boardgame/324278/inkling",
+      "name": "Inkling",
+      "year": 2021,
+      "dateAcquired": "2023-08-05",
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 2.1,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "John Keyworth"
+      ],
+      "artists": [
+        "Kwanchai Moriya"
+      ],
+      "publishers": [
+        "Lucrum Games",
+        "Osprey Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/4qz5VHR_8PPZtH0bbwe9lg__original/img/NHTGnCQMsBsP4NT2RPDDN_K9ANc=/0x0/filters:format(jpeg)/pic5777989.jpg",
+        "https://cf.geekdo-images.com/4qz5VHR_8PPZtH0bbwe9lg__thumb/img/UgmvMjFNzO7cGv2uvGhcbF9Pd7I=/fit-in/200x150/filters:strip_icc()/pic5777989.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T17:12:02.748Z",
+  "lastModified": "2025-06-09T17:12:50.318Z",
   "version": "1.0"
 }
