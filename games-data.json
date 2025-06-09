@@ -2207,9 +2207,65 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749475874694": {
+      "bggId": "1749475874694",
+      "bggUrl": "https://boardgamegeek.com/boardgame/209685/century-spice-road",
+      "name": "Century: Spice Road",
+      "year": 2017,
+      "dateAcquired": "2022-01-21",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.8,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Emerson Matsuuchi"
+      ],
+      "artists": [
+        "Chris Quilliams",
+        "David Richards",
+        "Fernanda Suárez"
+      ],
+      "publishers": [
+        "Plan B Games",
+        "ABACUSSPIELE",
+        "Arclight Games",
+        "Asmodee",
+        "Belleville (Бельвіль)",
+        "Broadway Toys LTD",
+        "Cube Factory of Ideas",
+        "Devir",
+        "Edinorog",
+        "Enigma (Bergsala Enigma)",
+        "Esdevium",
+        "Ideal Board Games",
+        "Mandoo Games",
+        "Ninive Games",
+        "Piatnik"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/0_KEDk4lCvryf1Ju3YQJxA__original/img/zv58Iylm_N8nfVFgRkMVM0Q9Fh8=/0x0/filters:format(jpeg)/pic3339551.jpg",
+        "https://cf.geekdo-images.com/0_KEDk4lCvryf1Ju3YQJxA__thumb/img/FticvQmaT_qfdrX-hpSSK1ttRb0=/fit-in/200x150/filters:strip_icc()/pic3339551.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T13:24:20.196Z",
+  "lastModified": "2025-06-09T13:31:14.695Z",
   "version": "1.0"
 }
