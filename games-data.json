@@ -6963,9 +6963,54 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492503911": {
+      "bggId": "1749492503911",
+      "bggUrl": "https://boardgamegeek.com/boardgame/387378/mlem-space-agency",
+      "name": "MLEM: Space Agency",
+      "year": 2024,
+      "dateAcquired": "2024-07-18",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.7,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Reiner Knizia"
+      ],
+      "artists": [
+        "Joanna Rzepecka"
+      ],
+      "publishers": [
+        "Rebel Studio",
+        "ADC Blackfire Entertainment",
+        "Galápagos Jogos",
+        "Geekach Games",
+        "Gém Klub Kft.",
+        "MIPL"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/CQ9o1kqExmBpHcPMVk0qwQ__original/img/8jK4shZsnCk-UbNYf6zStqQRRYk=/0x0/filters:format(jpeg)/pic7926071.jpg",
+        "https://cf.geekdo-images.com/CQ9o1kqExmBpHcPMVk0qwQ__thumb/img/5HC7459wxxyXhy4Rtey5h_ZkahI=/fit-in/200x150/filters:strip_icc()/pic7926071.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:07:30.663Z",
+  "lastModified": "2025-06-09T18:08:23.912Z",
   "version": "1.0"
 }
