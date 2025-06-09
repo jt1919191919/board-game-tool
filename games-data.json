@@ -15,7 +15,6 @@
       },
       "weight": 2,
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -43,15 +42,22 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/Rr2JrRztCFzzikJ9YL5-Dw__original/img/-v_1QOvedVYSmOkWsmQuROJCHI0=/0x0/filters:format(jpeg)/pic3105168.jpg",
-        "https://cf.geekdo-images.com/Rr2JrRztCFzzikJ9YL5-Dw__thumb/img/x9MtKEQlcQ_jS-5AVMeZ28NOC0s=/fit-in/200x150/filters:strip_icc()/pic3105168.jpg"
+        "https://cf.geekdo-images.com/deKio9ma3_0YI8GT7_IjxA__imagepage/img/rp4oLoG8xByystDF5oseXOkLr5U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3268866.jpg",
+        "https://cf.geekdo-images.com/5mvn73cPeJtxHjifsKuJmw__imagepage/img/8lOwab8ZzxalfovrpSoOnvp4zW4=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3305707.jpg"
       ],
       "notes": "",
       "customFields": {},
-      "weightColor": "green",
+      "weightColor": "yellow",
       "yearAcquired": null,
-      "designerNationality": [],
-      "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "designerNationality": [
+        "France",
+        "Swiss"
+      ],
+      "publisherCountry": [
+        "France",
+        "USA California"
+      ],
+      "dateAcquired": "2020-10-23"
     },
     "1749394705628": {
       "bggId": "1749394705628",
@@ -476,7 +482,7 @@
         "max": 6
       },
       "playtime": {
-        "min": 290,
+        "min": 45,
         "max": 290
       },
       "weight": 2.9,
@@ -498,14 +504,19 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/0Jcvo3fZs6J1OFBeVcoy3A__original/img/3XPT6CHhEDPH7HhiRP4gT-0Yi9k=/0x0/filters:format(jpeg)/pic3821568.jpg",
-        "https://cf.geekdo-images.com/0Jcvo3fZs6J1OFBeVcoy3A__thumb/img/r7OliAuWMh7Dy5Ll-HbZcpIX0CM=/fit-in/200x150/filters:strip_icc()/pic3821568.jpg"
+        "https://cf.geekdo-images.com/RBbV_MQiecYldZmWPbElBQ__imagepage/img/IbDA31_RMH1zAJLT_MnPGLONggA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2969447.jpg",
+        "https://cf.geekdo-images.com/OdRIKjNh-s891yzLJQA1Jw__imagepage/img/McCH3qp9H4XkZhGzPuBmDCczg-o=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4515738.jpg"
       ],
-      "notes": "",
+      "notes": "Acquired by Ragnarok Publications in 2017",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": [],
-      "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "designerNationality": [
+        "USA Missouri Kansas City"
+      ],
+      "publisherCountry": [
+        "USA Kansas"
+      ],
+      "dateAcquired": "2022-04-21"
     },
     "1749422666884": {
       "bggId": "1749422666884",
@@ -624,8 +635,6 @@
       "weight": 1.3,
       "weightColor": "green",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5
       ],
@@ -644,14 +653,19 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/5fsW7qzvnkg8L0iVx_AM1A__original/img/4EIwkLf_b6eVmziTozPeDKKOymc=/0x0/filters:format(png)/pic2805898.png",
-        "https://cf.geekdo-images.com/5fsW7qzvnkg8L0iVx_AM1A__thumb/img/kDJbSE0lHm1iNprMUGjjJXzi8bM=/fit-in/200x150/filters:strip_icc()/pic2805898.png"
+        "https://cf.geekdo-images.com/108i-f571Ul2CBI4PV7mng__imagepage/img/Tp9Va7QAcgKal0Q4BdZV81ApPjM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2805903.jpg",
+        "https://cf.geekdo-images.com/xhqhvSwE_CBhtkxY01ld_A__imagepage/img/xt2pgfd3EW0cq2fG_QyI--piQsM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4747209.jpg"
       ],
-      "notes": "",
+      "notes": "Z-Man owned by Asmodee",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": [],
-      "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "designerNationality": [
+        "Australia"
+      ],
+      "publisherCountry": [
+        "USA New York"
+      ],
+      "dateAcquired": "2019-04-01"
     },
     "1749422710640": {
       "bggId": "1749422710640",
@@ -699,17 +713,18 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/843kZ6WR0HfyXWEybA6L7A__original/img/VtYGvhy_YCSw14FpV8FGzv0eMe4=/0x0/filters:format(jpeg)/pic4930887.jpg",
-        "https://cf.geekdo-images.com/843kZ6WR0HfyXWEybA6L7A__thumb/img/sOiQSPo_DM7G1Om0PF1T2Z8ACcA=/fit-in/200x150/filters:strip_icc()/pic4930887.jpg"
+        "https://cf.geekdo-images.com/Vl3t7jmWk_xRJdzMJBCu8Q__imagepage/img/G3dAdwznpgPVQCe-1ys8TVMYS_8=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4930891.jpg",
+        "https://cf.geekdo-images.com/MA4DoucfZkmN48A8fRmZCw__imagepage/img/fed4iyxF4wcKCTsZDrVG0XVrhSo=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5026345.jpg"
       ],
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
       "designerNationality": [],
       "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "dateAcquired": "2024-01-16"
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T02:44:52.076Z",
+  "lastModified": "2025-06-09T02:52:17.230Z",
   "version": "1.0"
 }
