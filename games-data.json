@@ -1680,9 +1680,68 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440547514": {
+      "bggId": "1749440547514",
+      "bggUrl": "https://boardgamegeek.com/boardgame/171131/captain-sonar",
+      "name": "Captain Sonar",
+      "year": 2016,
+      "dateAcquired": "2020-08-26",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Roberto Fraga",
+        "Yohan Lemonnier"
+      ],
+      "artists": [
+        "Ervin",
+        "Piotr Forkasiewicz",
+        "Sabrina Tobal"
+      ],
+      "publishers": [
+        "Matagot",
+        "Arclight Games",
+        "Asmodee",
+        "Broadway Toys LTD",
+        "Bureau de Juegos",
+        "Choo Choo Games",
+        "Conclave Editora",
+        "CrowD Games",
+        "Gém Klub Kft.",
+        "Lautapelit.fi",
+        "Lex Games",
+        "Pegasus Spiele",
+        "Pendragon Game Studio",
+        "Surfin' Meeple China",
+        "WoodCat"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/Dpu5nFJu4UUJ4Y50WyKueg__original/img/feQTYcCwgIg4LneCYIoaWz12Z24=/0x0/filters:format(jpeg)/pic7069368.jpg",
+        "https://cf.geekdo-images.com/Dpu5nFJu4UUJ4Y50WyKueg__thumb/img/tRPNrLtteyfINpaFLLqEjyfTA10=/fit-in/200x150/filters:strip_icc()/pic7069368.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:41:25.565Z",
+  "lastModified": "2025-06-09T03:42:27.514Z",
   "version": "1.0"
 }
