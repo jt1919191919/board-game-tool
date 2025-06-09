@@ -1565,9 +1565,63 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440439909": {
+      "bggId": "1749440439909",
+      "bggUrl": "https://boardgamegeek.com/boardgame/238992/call-to-adventure",
+      "name": "Call to Adventure",
+      "year": 2019,
+      "dateAcquired": "2020-08-14",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Johnny O'Neal",
+        "Christopher O'Neal"
+      ],
+      "artists": [
+        "Max Bedulenko",
+        "Paul Canavan",
+        "Chris Cold",
+        "Jordan Jardine",
+        "Adam J. Marin",
+        "Sean Thurlow"
+      ],
+      "publishers": [
+        "Asmodee",
+        "La Boîte de Jeu",
+        "Brotherwise Games",
+        "GaGa Games",
+        "Game Harbor",
+        "Gém Klub Kft.",
+        "Hobby Japan",
+        "MINDOK",
+        "Rebel Sp. z o.o."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/oz_C4Hwf1Hb6KHt6KTxJJA__original/img/0Yr5q3uSGhilPz2dYe3k2rqFO9Q=/0x0/filters:format(jpeg)/pic4165094.jpg",
+        "https://cf.geekdo-images.com/oz_C4Hwf1Hb6KHt6KTxJJA__thumb/img/WKPD4ypqNftdXn2L3q4aPM8UXh0=/fit-in/200x150/filters:strip_icc()/pic4165094.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:40:07.607Z",
+  "lastModified": "2025-06-09T03:40:39.909Z",
   "version": "1.0"
 }
