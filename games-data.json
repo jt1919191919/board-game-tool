@@ -1393,9 +1393,81 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440269449": {
+      "bggId": "1749440269449",
+      "bggUrl": "https://boardgamegeek.com/boardgame/11/bohnanza",
+      "name": "Bohnanza",
+      "year": 1997,
+      "dateAcquired": "2020-06-14",
+      "players": {
+        "min": 2,
+        "max": 7
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.7,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        7
+      ],
+      "designers": [
+        "Uwe Rosenberg"
+      ],
+      "artists": [
+        "Björn Pertoft",
+        "Klemens Franz",
+        "Mady Nijenhuis"
+      ],
+      "publishers": [
+        "AMIGO",
+        "999 Games",
+        "Brain Games",
+        "Broadway Toys LTD",
+        "Copag Cards",
+        "Corfix",
+        "Fractal Juegos",
+        "G3",
+        "Gigamic",
+        "Kaissa Chess & Games",
+        "Kikigagne?",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Lifestyle Boardgames Ltd",
+        "Lookout Games",
+        "Mercurio",
+        "Midgaard Games",
+        "Möbius Games",
+        "Paper Iyagi",
+        "PaperGames (III)",
+        "Piatnik",
+        "Rebel Sp. z o.o.",
+        "Rio Grande Games",
+        "Spilbræt.dk",
+        "Stratelibri",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "VR Distribution"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/8SADtu_4zBH_UJrCo935Iw__original/img/RNuAr2CDbxE3XzeJVkxj4Df3eVM=/0x0/filters:format(jpeg)/pic6348964.jpg",
+        "https://cf.geekdo-images.com/8SADtu_4zBH_UJrCo935Iw__thumb/img/vwTEQOWA3Mw__ztkTMulOgJ82Pw=/fit-in/200x150/filters:strip_icc()/pic6348964.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:36:31.438Z",
+  "lastModified": "2025-06-09T03:37:49.449Z",
   "version": "1.0"
 }
