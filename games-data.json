@@ -4656,9 +4656,42 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749483928819": {
+      "bggId": "1749483928819",
+      "bggUrl": "https://boardgamegeek.com/boardgame/11738/four-letter-words",
+      "name": "Four Letter Words",
+      "year": 1975,
+      "dateAcquired": "2021-11-15",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [],
+      "designers": [
+        "(Uncredited)"
+      ],
+      "artists": [],
+      "publishers": [
+        "Lakeside"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/22CPVlxYaJyD-bps6LRdBw__original/img/I_IFnfAPZ9fwunGcddDxBW5UmaM=/0x0/filters:format(jpeg)/pic47492.jpg",
+        "https://cf.geekdo-images.com/22CPVlxYaJyD-bps6LRdBw__thumb/img/9qxvXPM-q5-84O_deJE3MQpVyyU=/fit-in/200x150/filters:strip_icc()/pic47492.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:43:45.541Z",
+  "lastModified": "2025-06-09T15:45:28.820Z",
   "version": "1.0"
 }
