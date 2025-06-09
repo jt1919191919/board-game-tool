@@ -1619,9 +1619,70 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440485564": {
+      "bggId": "1749440485564",
+      "bggUrl": "https://boardgamegeek.com/boardgame/260605/camel-up-second-edition",
+      "name": "Camel Up (Second Edition)",
+      "year": 2014,
+      "dateAcquired": "2023-12-03",
+      "players": {
+        "min": 3,
+        "max": 8
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.5,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Steffen Bogen"
+      ],
+      "artists": [
+        "Chris Quilliams"
+      ],
+      "publishers": [
+        "eggertspiele",
+        "Choo Choo Games",
+        "Ediciones MasQueOca",
+        "Galápagos Jogos",
+        "Ghenos Games",
+        "Hobby Japan",
+        "Korea Boardgames",
+        "Lookout Games",
+        "Lucrum Games",
+        "Pegasus Spiele",
+        "Piatnik",
+        "Plan B Games",
+        "Pretzel Games",
+        "SuperHeated Neurons",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Tower Tactic Games",
+        "uplay.it edizioni"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/qnR2V3YsW963_JaVznBjsw__original/img/8F0hZUlnJ6X924xYr8u5wtamtng=/0x0/filters:format(jpeg)/pic8584959.jpg",
+        "https://cf.geekdo-images.com/qnR2V3YsW963_JaVznBjsw__thumb/img/qNHZxa7oJCTdnYdyBsqHs__Owsk=/fit-in/200x150/filters:strip_icc()/pic8584959.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:40:39.909Z",
+  "lastModified": "2025-06-09T03:41:25.565Z",
   "version": "1.0"
 }
