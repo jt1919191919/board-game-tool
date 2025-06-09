@@ -47,7 +47,10 @@
       ],
       "notes": "",
       "customFields": {},
-      "weightColor": "green"
+      "weightColor": "green",
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749394705628": {
       "bggId": "1749394705628",
@@ -99,7 +102,10 @@
       ],
       "notes": "",
       "customFields": {},
-      "weightColor": "green"
+      "weightColor": "green",
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749398099365": {
       "bggId": "1749398099365",
@@ -146,7 +152,10 @@
       ],
       "notes": "",
       "customFields": {},
-      "weightColor": "green"
+      "weightColor": "green",
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749399471388": {
       "bggId": "1749399471388",
@@ -202,7 +211,10 @@
       ],
       "notes": "",
       "customFields": {},
-      "weightColor": "green"
+      "weightColor": "green",
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749400177978": {
       "bggId": "1749400177978",
@@ -249,7 +261,10 @@
         "https://cf.geekdo-images.com/U0wpvRmBe65e4vwGf0Jbpg__thumb/img/jHLwKKWiJ-lHoaNIj0TrKAGm7QM=/fit-in/200x150/filters:strip_icc()/pic2398773.jpg"
       ],
       "notes": "",
-      "customFields": {}
+      "customFields": {},
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749400207887": {
       "bggId": "1749400207887",
@@ -288,7 +303,10 @@
         "https://cf.geekdo-images.com/OYne8uBCHv5oEgRfpOrV0A__thumb/img/_YPdmxegKIoZI_ButuMJzfw9UBo=/fit-in/200x150/filters:strip_icc()/pic2648303.jpg"
       ],
       "notes": "",
-      "customFields": {}
+      "customFields": {},
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749412442968": {
       "bggId": "1749412442968",
@@ -335,7 +353,10 @@
         "https://cf.geekdo-images.com/TiNI7bUCR2RPFMlvKEC9TQ__thumb/img/nnWEA6jjVsxPSuEC_Ooph9kzO_g=/fit-in/200x150/filters:strip_icc()/pic3476604.jpg"
       ],
       "notes": "",
-      "customFields": {}
+      "customFields": {},
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749413448520": {
       "bggId": "1749413448520",
@@ -378,7 +399,10 @@
         "https://cf.geekdo-images.com/iaxdcb_l3F8McwzyoiiCig__thumb/img/UWsWeuOQpGv5asAoyrKgwL3pVj0=/fit-in/200x150/filters:strip_icc()/pic1514252.jpg"
       ],
       "notes": "",
-      "customFields": {}
+      "customFields": {},
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749417682999": {
       "bggId": "1749417682999",
@@ -416,7 +440,10 @@
         "https://cf.geekdo-images.com/BXu-cXVP7kDMdVctrEuhvA__thumb/img/wqQdq_RcvJUb_vPCpWAKmNJ1RM4=/fit-in/200x150/filters:strip_icc()/pic2860338.jpg"
       ],
       "notes": "",
-      "customFields": {}
+      "customFields": {},
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749418609187": {
       "bggId": "1749418609187",
@@ -453,7 +480,10 @@
         "https://cf.geekdo-images.com/0Jcvo3fZs6J1OFBeVcoy3A__thumb/img/r7OliAuWMh7Dy5Ll-HbZcpIX0CM=/fit-in/200x150/filters:strip_icc()/pic3821568.jpg"
       ],
       "notes": "",
-      "customFields": {}
+      "customFields": {},
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749422666884": {
       "bggId": "1749422666884",
@@ -489,7 +519,10 @@
         "https://cf.geekdo-images.com/pPbwHTWBopCvIwH_eHAy8w__imagepage/img/pu_SvfDrlI_YZH45wjVKDSb2nrM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8429125.jpg"
       ],
       "notes": "These are my notes!",
-      "customFields": {}
+      "customFields": {},
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749422687049": {
       "bggId": "1749422687049",
@@ -543,8 +576,11 @@
         "https://cf.geekdo-images.com/DFeZsC973xdZ1CKUzmjAUw__original/img/Tq8bVKV-ihLPfFPpf8FjfTpXiZk=/0x0/filters:format(jpeg)/pic4496538.jpg",
         "https://cf.geekdo-images.com/DFeZsC973xdZ1CKUzmjAUw__thumb/img/TTIPiPwQpowcHjYMxtk920ZwR3c=/fit-in/200x150/filters:strip_icc()/pic4496538.jpg"
       ],
-      "notes": "",
-      "customFields": {}
+      "notes": "Mayfair closed/owned by Asmodee",
+      "customFields": {},
+      "yearAcquired": 2023,
+      "designerNationality": "Germany",
+      "publisherCountry": "Germany (Mayfair USA Chicago now closed)"
     },
     "1749422698030": {
       "bggId": "1749422698030",
@@ -585,7 +621,10 @@
         "https://cf.geekdo-images.com/5fsW7qzvnkg8L0iVx_AM1A__thumb/img/kDJbSE0lHm1iNprMUGjjJXzi8bM=/fit-in/200x150/filters:strip_icc()/pic2805898.png"
       ],
       "notes": "",
-      "customFields": {}
+      "customFields": {},
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     },
     "1749422710640": {
       "bggId": "1749422710640",
@@ -636,10 +675,13 @@
         "https://cf.geekdo-images.com/843kZ6WR0HfyXWEybA6L7A__thumb/img/sOiQSPo_DM7G1Om0PF1T2Z8ACcA=/fit-in/200x150/filters:strip_icc()/pic4930887.jpg"
       ],
       "notes": "",
-      "customFields": {}
+      "customFields": {},
+      "yearAcquired": null,
+      "designerNationality": "",
+      "publisherCountry": ""
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-08T23:19:27.262Z",
+  "lastModified": "2025-06-09T00:29:40.044Z",
   "version": "1.0"
 }
