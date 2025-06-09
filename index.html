@@ -897,9 +897,10 @@ button#clear-filters {
         <div class="filter-row">
             <div class="sort-controls">
                 <label>Sort by:</label>
-                <select id="sort-field">
+<select id="sort-field">
                     <option value="name">Name</option>
-                    <option value="year">Year</option>
+                    <option value="year">Year Published</option>
+                    <option value="yearAcquired">Year Acquired</option>
                     <option value="players.min">Min Players</option>
                     <option value="players.max">Max Players</option>
                     <option value="playtime.min">Playtime</option>
@@ -961,8 +962,8 @@ button#clear-filters {
                     <input type="number" id="max-playtime" min="0" placeholder="120">
                 </div>
             </div>
-            <div class="filter-group">
-                <label>Year</label>
+<div class="filter-group">
+                <label>Year Published</label>
                 <div style="display: flex; gap: 0.5rem;">
                     <select id="year-filter-type">
                         <option value="exact">Exactly</option>
@@ -970,6 +971,17 @@ button#clear-filters {
                         <option value="less">Before</option>
                     </select>
                     <input type="number" id="year-filter" min="1900" max="2030" placeholder="2020">
+                </div>
+</div>
+            <div class="filter-group">
+                <label>Year Acquired</label>
+                <div style="display: flex; gap: 0.5rem;">
+                    <select id="year-acquired-filter-type">
+                        <option value="exact">Exactly</option>
+                        <option value="greater">After</option>
+                        <option value="less">Before</option>
+                    </select>
+                    <input type="number" id="year-acquired-filter" min="1900" max="2030" placeholder="2020">
                 </div>
             </div>
             <div class="filter-group">
@@ -999,14 +1011,36 @@ button#clear-filters {
         <option value="">All Designers</option>
     </select>
 </div>
-<div class="filter-group">
-    <label>Publisher</label>
+            <div class="filter-group">
+                <label>Designer Contains</label>
+                <div style="display: flex; gap: 0.5rem;">
+                    <select id="designer-contains-filter-type">
+                        <option value="contains">Contains</option>
+                        <option value="exact">Exact</option>
+                        <option value="not-contains">Does not contain</option>
+                    </select>
+                    <input type="text" id="designer-contains-filter" placeholder="Designer name">
+                </div>
+            </div>
+            <div class="filter-group">
+                <label>Designer Nationality</label>
+                <div style="display: flex; gap: 0.5rem;">
+                    <select id="designer-nationality-filter-type">
+                        <option value="contains">Contains</option>
+                        <option value="exact">Exact</option>
+                        <option value="not-contains">Does not contain</option>
+                    </select>
+                    <input type="text" id="designer-nationality-filter" placeholder="Nationality">
+                </div>
+            </div>
+            <div class="filter-group">
+                <label>Publisher</label>
     <select id="publisher-dropdown-filter">
         <option value="">All Publishers</option>
     </select>
 </div>
-            <div class="filter-group">
-                <label>Publisher</label>
+<div class="filter-group">
+                <label>Publisher Contains</label>
                 <div style="display: flex; gap: 0.5rem;">
                     <select id="publisher-filter-type">
                         <option value="contains">Contains</option>
@@ -1014,6 +1048,17 @@ button#clear-filters {
                         <option value="not-contains">Does not contain</option>
                     </select>
                     <input type="text" id="publisher-filter" placeholder="Publisher name">
+</div>
+            </div>
+            <div class="filter-group">
+                <label>Publisher Country</label>
+                <div style="display: flex; gap: 0.5rem;">
+                    <select id="publisher-country-filter-type">
+                        <option value="contains">Contains</option>
+                        <option value="exact">Exact</option>
+                        <option value="not-contains">Does not contain</option>
+                    </select>
+                    <input type="text" id="publisher-country-filter" placeholder="Country">
                 </div>
             </div>
 <div class="filter-group">
@@ -1062,9 +1107,13 @@ button#clear-filters {
                    <label>Game Name</label>
                    <input type="text" id="game-name" required>
                </div>
-               <div class="form-group">
+<div class="form-group">
                    <label>Year Published</label>
                    <input type="number" id="game-year" min="1900" max="2030">
+               </div>
+               <div class="form-group">
+                   <label>Year Acquired</label>
+                   <input type="number" id="game-year-acquired" min="1900" max="2030" placeholder="N/A">
                </div>
            </div>
 
@@ -1107,9 +1156,17 @@ button#clear-filters {
                    <label>Artists</label>
                    <input type="text" id="game-artists" placeholder="Comma separated">
                </div>
-               <div class="form-group">
+<div class="form-group">
                    <label>Publishers</label>
                    <input type="text" id="game-publishers" placeholder="Comma separated">
+               </div>
+               <div class="form-group">
+                   <label>Designer Nationality</label>
+                   <input type="text" id="game-designer-nationality" placeholder="Country/Region">
+               </div>
+               <div class="form-group">
+                   <label>Publisher Country</label>
+                   <input type="text" id="game-publisher-country" placeholder="Country/Region">
                </div>
            </div>
 
@@ -1734,8 +1791,24 @@ applyFiltersToUI(filters) {
     if (filters.designer) {
         document.getElementById('designer-filter').value = filters.designer;
     }
-    if (filters.publisherDropdown) {
+if (filters.publisherDropdown) {
         document.getElementById('publisher-dropdown-filter').value = filters.publisherDropdown;
+    }
+    if (filters.yearAcquired) {
+        document.getElementById('year-acquired-filter').value = filters.yearAcquired;
+        document.getElementById('year-acquired-filter-type').value = filters.yearAcquiredType || 'exact';
+    }
+    if (filters.designerContains) {
+        document.getElementById('designer-contains-filter').value = filters.designerContains;
+        document.getElementById('designer-contains-filter-type').value = filters.designerContainsType || 'contains';
+    }
+    if (filters.designerNationality) {
+        document.getElementById('designer-nationality-filter').value = filters.designerNationality;
+        document.getElementById('designer-nationality-filter-type').value = filters.designerNationalityType || 'contains';
+    }
+    if (filters.publisherCountry) {
+        document.getElementById('publisher-country-filter').value = filters.publisherCountry;
+        document.getElementById('publisher-country-filter-type').value = filters.publisherCountryType || 'contains';
     }
 }
 
@@ -1814,7 +1887,9 @@ bindEvents() {
 // Filter inputs
        const filterInputs = [
            'min-players', 'max-players', 'min-playtime', 'max-playtime', 
-           'year-filter', 'publisher-filter', 'min-weight', 'max-weight', 'best-player-count-filter', 'notes-filter'
+           'year-filter', 'year-acquired-filter', 'publisher-filter', 'designer-contains-filter', 
+           'designer-nationality-filter', 'publisher-country-filter', 'min-weight', 'max-weight', 
+           'best-player-count-filter', 'notes-filter'
        ];
        
        filterInputs.forEach(id => {
@@ -2072,20 +2147,29 @@ if (window.innerWidth <= 768) {
        const maxWeight = parseFloat(document.getElementById('max-weight').value) || null;
        const bestPlayerCount = document.getElementById('best-player-count-filter').value;
 
+const yearAcquired = parseInt(document.getElementById('year-acquired-filter').value) || null;
+       
        this.currentFilters = {
            search: document.getElementById('search').value,
-           minPlayers, maxPlayers, minPlaytime, maxPlaytime, year, minWeight, maxWeight,
+           minPlayers, maxPlayers, minPlaytime, maxPlaytime, year, yearAcquired, minWeight, maxWeight,
            publisher: document.getElementById('publisher-filter').value,
+           designerContains: document.getElementById('designer-contains-filter').value,
+           designerNationality: document.getElementById('designer-nationality-filter').value,
+           publisherCountry: document.getElementById('publisher-country-filter').value,
            bestPlayerCount,
            minPlayersType: document.getElementById('min-players-type').value,
            maxPlayersType: document.getElementById('max-players-type').value,
            minPlaytimeType: document.getElementById('min-playtime-type').value,
            maxPlaytimeType: document.getElementById('max-playtime-type').value,
            yearType: document.getElementById('year-filter-type').value,
+           yearAcquiredType: document.getElementById('year-acquired-filter-type').value,
            minWeightType: document.getElementById('min-weight-type').value,
            maxWeightType: document.getElementById('max-weight-type').value,
            designer: document.getElementById('designer-filter').value,
+           designerContainsType: document.getElementById('designer-contains-filter-type').value,
+           designerNationalityType: document.getElementById('designer-nationality-filter-type').value,
            publisherDropdown: document.getElementById('publisher-dropdown-filter').value,
+           publisherCountryType: document.getElementById('publisher-country-filter-type').value,
            notes: document.getElementById('notes-filter').value,
            notesType: document.getElementById('notes-filter-type').value,
            publisherType: document.getElementById('publisher-filter-type').value
@@ -2108,7 +2192,8 @@ if (window.innerWidth <= 768) {
        if (this.currentFilters.search) {
            this.dynamicCardFields.push('notes', 'designers', 'publishers');
        }
-       if (this.currentFilters.year) this.dynamicCardFields.push('year');
+if (this.currentFilters.year) this.dynamicCardFields.push('year');
+       if (this.currentFilters.yearAcquired) this.dynamicCardFields.push('yearAcquired');
        if (this.currentFilters.publisher) this.dynamicCardFields.push('publishers');
        if (this.currentFilters.minPlayers || this.currentFilters.maxPlayers) this.dynamicCardFields.push('players');
        if (this.currentFilters.minPlaytime || this.currentFilters.maxPlaytime) this.dynamicCardFields.push('playtime');
@@ -2259,8 +2344,9 @@ if (window.innerWidth <= 768) {
            const game = this.games.get(gameId);
            if (!game) return;
 
-           game.name = card.querySelector('[data-field="name"]').value;
+game.name = card.querySelector('[data-field="name"]').value;
            game.year = parseInt(card.querySelector('[data-field="year"]').value) || null;
+           game.yearAcquired = parseInt(card.querySelector('[data-field="yearAcquired"]').value) || null;
            game.players.min = parseInt(card.querySelector('[data-field="players.min"]').value) || 1;
            game.players.max = parseInt(card.querySelector('[data-field="players.max"]').value) || 1;
            game.playtime.min = parseInt(card.querySelector('[data-field="playtime.min"]').value) || 0;
@@ -2280,8 +2366,18 @@ if (window.innerWidth <= 768) {
            }
 
            const publishersField = card.querySelector('[data-field="publishers"]');
-           if (publishersField) {
+if (publishersField) {
                game.publishers = publishersField.value.split(',').map(s => s.trim()).filter(s => s);
+           }
+
+           const designerNationalityField = card.querySelector('[data-field="designerNationality"]');
+           if (designerNationalityField) {
+               game.designerNationality = designerNationalityField.value;
+           }
+
+           const publisherCountryField = card.querySelector('[data-field="publisherCountry"]');
+           if (publisherCountryField) {
+               game.publisherCountry = publisherCountryField.value;
            }
 
            const bestPlayersField = card.querySelector('[data-field="bestPlayerCount"]');
@@ -2374,14 +2470,18 @@ clearFilters() {
        }
        
        // Original clear behavior for personal collections
-       document.getElementById('search').value = '';
+document.getElementById('search').value = '';
        document.getElementById('mobile-search').value = '';
        document.getElementById('min-players').value = '';
        document.getElementById('max-players').value = '';
        document.getElementById('min-playtime').value = '';
        document.getElementById('max-playtime').value = '';
        document.getElementById('year-filter').value = '';
+       document.getElementById('year-acquired-filter').value = '';
        document.getElementById('publisher-filter').value = '';
+       document.getElementById('designer-contains-filter').value = '';
+       document.getElementById('designer-nationality-filter').value = '';
+       document.getElementById('publisher-country-filter').value = '';
        document.getElementById('min-weight').value = '';
        document.getElementById('max-weight').value = '';
        document.getElementById('best-player-count-filter').value = '';
@@ -2456,7 +2556,7 @@ clearFilters() {
            });
        }
 
-       if (this.currentFilters.year) {
+if (this.currentFilters.year) {
            const type = this.currentFilters.yearType;
            const value = this.currentFilters.year;
            filtered = filtered.filter(game => {
@@ -2464,6 +2564,18 @@ clearFilters() {
                if (type === 'exact') return game.year === value;
                if (type === 'greater') return game.year > value;
                if (type === 'less') return game.year < value;
+               return true;
+           });
+       }
+
+       if (this.currentFilters.yearAcquired) {
+           const type = this.currentFilters.yearAcquiredType;
+           const value = this.currentFilters.yearAcquired;
+           filtered = filtered.filter(game => {
+               if (!game.yearAcquired) return false;
+               if (type === 'exact') return game.yearAcquired === value;
+               if (type === 'greater') return game.yearAcquired > value;
+               if (type === 'less') return game.yearAcquired < value;
                return true;
            });
        }
@@ -2510,10 +2622,49 @@ clearFilters() {
            });
        }
 
-       if (this.currentFilters.publisherDropdown) {
+if (this.currentFilters.publisherDropdown) {
            filtered = filtered.filter(game => {
                if (!game.publishers) return false;
                return game.publishers.includes(this.currentFilters.publisherDropdown);
+           });
+       }
+
+       if (this.currentFilters.designerContains) {
+           const type = this.currentFilters.designerContainsType;
+           const value = this.currentFilters.designerContains.toLowerCase();
+           filtered = filtered.filter(game => {
+               if (!game.designers) return false;
+               const designerText = game.designers.join(' ').toLowerCase();
+               if (type === 'contains') return designerText.includes(value);
+               if (type === 'exact') return game.designers.some(d => d.toLowerCase() === value);
+               if (type === 'not-contains') return !designerText.includes(value);
+               return true;
+           });
+       }
+
+       if (this.currentFilters.designerNationality) {
+           const type = this.currentFilters.designerNationalityType;
+           const value = this.currentFilters.designerNationality.toLowerCase();
+           filtered = filtered.filter(game => {
+               if (!game.designerNationality) return false;
+               const nationalityText = game.designerNationality.toLowerCase();
+               if (type === 'contains') return nationalityText.includes(value);
+               if (type === 'exact') return nationalityText === value;
+               if (type === 'not-contains') return !nationalityText.includes(value);
+               return true;
+           });
+       }
+
+       if (this.currentFilters.publisherCountry) {
+           const type = this.currentFilters.publisherCountryType;
+           const value = this.currentFilters.publisherCountry.toLowerCase();
+           filtered = filtered.filter(game => {
+               if (!game.publisherCountry) return false;
+               const countryText = game.publisherCountry.toLowerCase();
+               if (type === 'contains') return countryText.includes(value);
+               if (type === 'exact') return countryText === value;
+               if (type === 'not-contains') return !countryText.includes(value);
+               return true;
            });
        }
 
@@ -2744,11 +2895,12 @@ const sortField = document.getElementById('sort-field').value;
    }
 
    saveGame() {
-       const formData = {
+const formData = {
            bggId: Date.now().toString(),
            bggUrl: document.getElementById('bgg-url').value,
            name: document.getElementById('game-name').value,
            year: parseInt(document.getElementById('game-year').value) || null,
+           yearAcquired: parseInt(document.getElementById('game-year-acquired').value) || null,
            players: {
                min: parseInt(document.getElementById('game-min-players').value) || 1,
                max: parseInt(document.getElementById('game-max-players').value) || 1
@@ -2762,7 +2914,9 @@ weight: parseFloat(document.getElementById('game-weight').value) || 0,
            bestPlayerCount: document.getElementById('game-best-players').value.split(',').map(s => parseInt(s.trim())).filter(n => !isNaN(n)),
            designers: document.getElementById('game-designers').value.split(',').map(s => s.trim()).filter(s => s),
            artists: document.getElementById('game-artists').value.split(',').map(s => s.trim()).filter(s => s),
-           publishers: document.getElementById('game-publishers').value.split(',').map(s => s.trim()).filter(s => s),
+publishers: document.getElementById('game-publishers').value.split(',').map(s => s.trim()).filter(s => s),
+           designerNationality: document.getElementById('game-designer-nationality').value,
+           publisherCountry: document.getElementById('game-publisher-country').value,
            images: document.getElementById('game-images').value.split('\n').map(s => s.trim()).filter(s => s),
            notes: document.getElementById('game-notes').value,
            customFields: {}
@@ -2868,8 +3022,11 @@ pagination: {
 
        const metaItems = [];
        
-       if (allVisibleFields.includes('year') && game.year) {
+if (allVisibleFields.includes('year') && game.year) {
            metaItems.push(`<div class="meta-item"><span class="meta-label">Year:</span><span>${game.year}</span></div>`);
+       }
+       if (allVisibleFields.includes('yearAcquired') && game.yearAcquired) {
+           metaItems.push(`<div class="meta-item"><span class="meta-label">Acquired:</span><span>${game.yearAcquired}</span></div>`);
        }
        if (allVisibleFields.includes('players')) {
            metaItems.push(`<div class="meta-item"><span class="meta-label">Players:</span><span>${playerRange}</span></div>`);
@@ -2948,9 +3105,13 @@ return `
                                <label>Game Name</label>
                                <input type="text" class="edit-field" data-field="name" value="${game.name || ''}">
                            </div>
-                           <div class="edit-group">
-                               <label>Year</label>
+<div class="edit-group">
+                               <label>Year Published</label>
                                <input type="number" class="edit-field" data-field="year" value="${game.year || ''}" min="1900" max="2030">
+                           </div>
+                           <div class="edit-group">
+                               <label>Year Acquired</label>
+                               <input type="number" class="edit-field" data-field="yearAcquired" value="${game.yearAcquired || ''}" min="1900" max="2030" placeholder="N/A">
                            </div>
                        </div>
                        <div class="edit-row">
@@ -3001,9 +3162,17 @@ return `
                                <label>Artists</label>
                                <input type="text" class="edit-field" data-field="artists" value="${game.artists ? game.artists.join(', ') : ''}" placeholder="Comma separated">
                            </div>
-                           <div class="edit-group">
+<div class="edit-group">
                                <label>Publishers</label>
                                <input type="text" class="edit-field" data-field="publishers" value="${game.publishers ? game.publishers.join(', ') : ''}" placeholder="Comma separated">
+                           </div>
+                           <div class="edit-group">
+                               <label>Designer Nationality</label>
+                               <input type="text" class="edit-field" data-field="designerNationality" value="${game.designerNationality || ''}" placeholder="Country/Region">
+                           </div>
+                           <div class="edit-group">
+                               <label>Publisher Country</label>
+                               <input type="text" class="edit-field" data-field="publisherCountry" value="${game.publisherCountry || ''}" placeholder="Country/Region">
                            </div>
                        </div>
                    </div>
@@ -3097,17 +3266,23 @@ return `
     <h2>${game.name}</h2>
     ${imagesHtml}
            
-           <div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem; align-items: center;">
-               <div><strong>Year:</strong> ${game.year || 'Unknown'}</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem; align-items: center;">
+               <div><strong>Year Published:</strong> ${game.year || 'Unknown'}</div>
                <div><strong>Players:</strong> ${playerRange}</div>
                <div><strong>Playtime:</strong> ${playtimeText}</div>
-               <div><strong>Complexity:</strong> ${game.weight ? `<span style="color: ${game.weightColor || 'green'};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip">ℹ️<span class="tooltiptext"><span style="color: green;">Green means easy</span><br><span style="color: yellow;">Yellow means difficult</span><br><span style="color: red;">Red means gamers only</span></span></span>` : 'N/A'}</div>
+               <div><strong>Complexity:</strong> ${game.weight ? `<span style="color: ${game.weightColor || 'green'};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip">ℹ️<span class="tooltiptext"><span style="color: green;">Green means easy, ok for RJ/Jeff/non-gamers/kids</span><br><span style="color: yellow;">Yellow means too much for above, but normal for most people</span><br><span style="color: red;">Red means gamers only, Luc/Jeremiah would enjoy, Kim would not, higher strategy, full weight</span></span></span>` : 'N/A'}</div>
                ${game.bestPlayerCount && game.bestPlayerCount.length > 0 ? `<div><strong>Best with:</strong> ${game.bestPlayerCount.join(', ')} players</div>` : ''}
                ${game.bggUrl ? `<div><strong>BoardGameGeek:</strong> <a href="${game.bggUrl}" target="_blank" style="color: #667eea;">View on BGG</a></div>` : ''}
            </div>
            
            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
-               <div class="modal-left-column">
+<div class="modal-left-column">
+                   ${game.yearAcquired ? `
+                       <div style="margin-bottom: 1rem;">
+                           <strong>Year Acquired:</strong> ${game.yearAcquired}
+                       </div>
+                   ` : ''}
                    ${game.notes ? `
                        <div>
                            <strong>Notes:</strong>
@@ -3119,9 +3294,15 @@ return `
                </div>
                
                <div class="modal-right-column">
-                   ${game.designers && game.designers.length > 0 ? `
+${game.designers && game.designers.length > 0 ? `
                        <div style="margin-bottom: 1rem;">
                            <strong>Designers:</strong> ${game.designers.join(', ')}
+                       </div>
+                   ` : ''}
+                   
+                   ${game.designerNationality ? `
+                       <div style="margin-bottom: 1rem;">
+                           <strong>Designer Nationality:</strong> ${game.designerNationality}
                        </div>
                    ` : ''}
                    
@@ -3131,9 +3312,15 @@ return `
                        </div>
                    ` : ''}
                    
-                   ${game.publishers && game.publishers.length > 0 ? `
+${game.publishers && game.publishers.length > 0 ? `
                        <div style="margin-bottom: 1rem;">
                            <strong>Publishers:</strong> ${game.publishers.join(', ')}
+                       </div>
+                   ` : ''}
+                   
+                   ${game.publisherCountry ? `
+                       <div style="margin-bottom: 1rem;">
+                           <strong>Publisher Country:</strong> ${game.publisherCountry}
                        </div>
                    ` : ''}
                </div>
