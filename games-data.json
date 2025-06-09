@@ -5707,9 +5707,62 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749488253639": {
+      "bggId": "1749488253639",
+      "bggUrl": "https://boardgamegeek.com/boardgame/233678/indian-summer",
+      "name": "Indian Summer",
+      "year": 2017,
+      "dateAcquired": "2023-05-03",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.1,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Uwe Rosenberg"
+      ],
+      "artists": [
+        "Andrea Boekhoff"
+      ],
+      "publishers": [
+        "Edition Spielwiese",
+        "Blackrock Games",
+        "Compaya.hu: Gamer Café Kft.",
+        "Cranio Creations",
+        "Game Harbor",
+        "Happy Baobab",
+        "Hobby Japan",
+        "Hobby World",
+        "Ludofy Creative",
+        "Luma Games",
+        "Pegasus Spiele",
+        "SD Games",
+        "Stronghold Games",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/bloH9_cfn7U0ZxilTblA9w__original/img/IjHukKO5WsikTedbIT5aQw4Q8wk=/0x0/filters:format(jpeg)/pic3749870.jpg",
+        "https://cf.geekdo-images.com/bloH9_cfn7U0ZxilTblA9w__thumb/img/8L96NRWJxXeFgtYSivzGYPtMlNU=/fit-in/200x150/filters:strip_icc()/pic3749870.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T16:56:56.603Z",
+  "lastModified": "2025-06-09T16:57:33.640Z",
   "version": "1.0"
 }
