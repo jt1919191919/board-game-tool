@@ -5425,9 +5425,53 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749487271127": {
+      "bggId": "1749487271127",
+      "bggUrl": "https://boardgamegeek.com/boardgame/302520/hues-and-cues",
+      "name": "Hues and Cues",
+      "year": 2020,
+      "dateAcquired": "2021-06-22",
+      "players": {
+        "min": 3,
+        "max": 10
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "designers": [
+        "Scott Brady"
+      ],
+      "artists": [],
+      "publishers": [
+        "The Op Games",
+        "CMON Global Limited",
+        "Lanlalen"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__original/img/i8nlw_c9CYgJMzixadYVh7GTTPc=/0x0/filters:format(jpeg)/pic5390676.jpg",
+        "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__thumb/img/EJ5gcczwsYvSavYuO4UoNPS45vo=/fit-in/200x150/filters:strip_icc()/pic5390676.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T16:40:07.603Z",
+  "lastModified": "2025-06-09T16:41:11.128Z",
   "version": "1.0"
 }
