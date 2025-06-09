@@ -3799,9 +3799,46 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749482094623": {
+      "bggId": "1749482094623",
+      "bggUrl": "https://boardgamegeek.com/boardgame/4069/dont-you-forget-it",
+      "name": "Don't You Forget It",
+      "year": 1983,
+      "dateAcquired": "2024-12-28",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1,
+      "weightColor": "green",
+      "bestPlayerCount": [],
+      "designers": [
+        "Garrett J. Donner",
+        "Michael S. Steer"
+      ],
+      "artists": [],
+      "publishers": [
+        "Jumbo",
+        "Kärnan",
+        "Pressman Toy Corp.",
+        "Schmidt Spiele"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/wmU9eBr0-SjDo0eLdqzsRw__original/img/CXgpxzk97gpmrQriWu0utzVJxbo=/0x0/filters:format(png)/pic6413321.png",
+        "https://cf.geekdo-images.com/wmU9eBr0-SjDo0eLdqzsRw__thumb/img/kD_ZMMLgDvvkK4qnHXT2Eg_xJr8=/fit-in/200x150/filters:strip_icc()/pic6413321.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:09:54.420Z",
+  "lastModified": "2025-06-09T15:14:54.623Z",
   "version": "1.0"
 }
