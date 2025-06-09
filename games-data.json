@@ -175,13 +175,9 @@
       },
       "weight": 2.3,
       "bestPlayerCount": [
-        1,
-        2,
-        3,
         4,
         5,
         6,
-        7,
         7
       ],
       "designers": [
@@ -210,15 +206,20 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__original/img/jt70jJDZ1y1FWJs4ZQf5FI8APVY=/0x0/filters:format(jpeg)/pic7149798.jpg",
-        "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__thumb/img/BUOso8b0M1aUOkU80FWlhE8uuxc=/fit-in/200x150/filters:strip_icc()/pic7149798.jpg"
+        "https://cf.geekdo-images.com/Jrolw9KXQtjYYaZ2_L07iA__imagepage/img/JO-N72JoAhouxQRRADKxEUkK-jg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic893619.jpg",
+        "https://cf.geekdo-images.com/OrHybJ182qqPC86_zQjS_g__imagepage/img/UvXgVoC4FcUZIYLh1FQYOpscFO0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic838081.jpg"
       ],
-      "notes": "",
+      "notes": "Repos owned by Asmodee",
       "customFields": {},
-      "weightColor": "green",
+      "weightColor": "yellow",
       "yearAcquired": null,
-      "designerNationality": [],
-      "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "Belgium"
+      ],
+      "dateAcquired": "2019-04-21"
     },
     "1749400177978": {
       "bggId": "1749400177978",
@@ -236,7 +237,6 @@
       "weight": 2.5,
       "weightColor": "red",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -262,14 +262,15 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/U0wpvRmBe65e4vwGf0Jbpg__original/img/gIlpowYQ7XzumYO0jZyVldxosBA=/0x0/filters:format(jpeg)/pic2398773.jpg",
-        "https://cf.geekdo-images.com/U0wpvRmBe65e4vwGf0Jbpg__thumb/img/jHLwKKWiJ-lHoaNIj0TrKAGm7QM=/fit-in/200x150/filters:strip_icc()/pic2398773.jpg"
+        "https://cf.geekdo-images.com/yLSXI6-dc57nHGJOoF1b0A__imagepage/img/0ZZu2gfGhcO4IrPZ9abGhalW2Jg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4111937.jpg",
+        "https://cf.geekdo-images.com/iIZARKbDC8uDH59md5NoEw__imagepage/img/Y35K7uqgqka6VsewU6USw3Xjcio=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3512638.jpg"
       ],
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
       "designerNationality": [],
       "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "dateAcquired": "2024-06-20"
     },
     "1749400207887": {
       "bggId": "1749400207887",
@@ -281,16 +282,13 @@
         "max": 4
       },
       "playtime": {
-        "min": 1000,
+        "min": 45,
         "max": 1000
       },
       "weight": 2.9,
       "weightColor": "red",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -305,14 +303,19 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/OYne8uBCHv5oEgRfpOrV0A__original/img/jcTlhpYG2496xQtuQ277bFTIldY=/0x0/filters:format(jpeg)/pic2648303.jpg",
-        "https://cf.geekdo-images.com/OYne8uBCHv5oEgRfpOrV0A__thumb/img/_YPdmxegKIoZI_ButuMJzfw9UBo=/fit-in/200x150/filters:strip_icc()/pic2648303.jpg"
+        "https://cf.geekdo-images.com/dIrIvD92ooyw-6IP5Bzxtw__imagepage/img/etlylKHc9LW7nFX2RcnYKfzNDaI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2690512.jpg",
+        "https://cf.geekdo-images.com/eu7m6eTq-v8M5UEc4qBT1w__imagepage/img/QdxzWmRainlCoTHNzJWzviuK6RQ=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3772751.jpg"
       ],
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": [],
-      "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
+      "dateAcquired": "2023-09-29"
     },
     "1749412442968": {
       "bggId": "1749412442968",
@@ -698,6 +701,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T02:27:17.647Z",
+  "lastModified": "2025-06-09T02:39:27.698Z",
   "version": "1.0"
 }
