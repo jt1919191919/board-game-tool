@@ -2765,9 +2765,61 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749478697004": {
+      "bggId": "1749478697004",
+      "bggUrl": "https://boardgamegeek.com/boardgame/204027/cottage-garden",
+      "name": "Cottage Garden",
+      "year": 2016,
+      "dateAcquired": "2020-11-02",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.9,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Uwe Rosenberg"
+      ],
+      "artists": [
+        "Andrea Boekhoff"
+      ],
+      "publishers": [
+        "Edition Spielwiese",
+        "Blackrock Games",
+        "Compaya.hu: Gamer Café Kft.",
+        "Cranio Creations",
+        "Game Harbor",
+        "Happy Baobab",
+        "Hobby Japan",
+        "MINDOK",
+        "Pegasus Spiele",
+        "Rebel Sp. z o.o.",
+        "SD Games",
+        "Stronghold Games",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/7Zk5_GsYycmHYD4RN3kIJQ__original/img/LbvQO9zKGNFn9UKo_adUsarRarQ=/0x0/filters:format(jpeg)/pic3499059.jpg",
+        "https://cf.geekdo-images.com/7Zk5_GsYycmHYD4RN3kIJQ__thumb/img/feLpplY6_MLKO4Tzfj5N2bW4a9o=/fit-in/200x150/filters:strip_icc()/pic3499059.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:16:58.264Z",
+  "lastModified": "2025-06-09T14:18:17.005Z",
   "version": "1.0"
 }
