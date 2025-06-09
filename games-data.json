@@ -6733,9 +6733,80 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492332094": {
+      "bggId": "1749492332094",
+      "bggUrl": "https://boardgamegeek.com/boardgame/590/mille-bornes",
+      "name": "Mille Bornes",
+      "year": 1954,
+      "dateAcquired": "2021-05-15",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.2,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Edmond Dujardin"
+      ],
+      "artists": [
+        "Hergé",
+        "Pierre Praquin"
+      ],
+      "publishers": [
+        "AS Manufacturas",
+        "Asmodee",
+        "Bojeux",
+        "Inc.",
+        "Desyllas Games",
+        "Dujardin",
+        "Editions Edmond Dujardin",
+        "Editrice Giochi",
+        "F.X. Schmid",
+        "Fundex",
+        "Gibsons",
+        "Grimaud",
+        "Hasbro",
+        "Heraclio Fournier",
+        "Hola Colina S.A. Colombia",
+        "Jumbo",
+        "Kärnan",
+        "Kirjalito",
+        "Litas Spil",
+        "Litor",
+        "Nilco S.A.",
+        "Parker Brothers",
+        "Piatnik",
+        "Play Value USA",
+        "Schmidt Spiele",
+        "TF1 Games",
+        "Tomy",
+        "Waddingtons",
+        "Winning Moves Games (USA)",
+        "Yetem S.A."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/kzLZY_DHTh-hBcqXP34a5w__original/img/v5fEmVXDcDomVNhd9O02bGsVskI=/0x0/filters:format(jpeg)/pic4330533.jpg",
+        "https://cf.geekdo-images.com/kzLZY_DHTh-hBcqXP34a5w__thumb/img/82b4hCqE8tTLkwexnLrp3ubGU_c=/fit-in/200x150/filters:strip_icc()/pic4330533.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:05:00.464Z",
+  "lastModified": "2025-06-09T18:05:32.095Z",
   "version": "1.0"
 }
