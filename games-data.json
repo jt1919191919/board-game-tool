@@ -3560,9 +3560,74 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749481385764": {
+      "bggId": "1749481385764",
+      "bggUrl": "https://boardgamegeek.com/boardgame/39856/dixit",
+      "name": "Dixit",
+      "year": 2008,
+      "dateAcquired": "2019-12-25",
+      "players": {
+        "min": 3,
+        "max": 8
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.2,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Jean-Louis Roubira"
+      ],
+      "artists": [
+        "Marie Cardouat"
+      ],
+      "publishers": [
+        "Libellud",
+        "ADC Blackfire Entertainment",
+        "Anne",
+        "Asmodee",
+        "Asterion Press",
+        "Boardgame Space",
+        "Galápagos Jogos",
+        "Gém Klub Kft.",
+        "hobbity.eu",
+        "Hobby Japan",
+        "KADABRA",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Maldón",
+        "Morapiaf",
+        "Nordic Games GmbH",
+        "Paladium Games",
+        "Rebel Sp. z o.o.",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Ігромаг"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/J0PlHArkZDJ57H-brXW2Fw__original/img/jt3kFCHJ3HJ2079dMLwipFZqdQg=/0x0/filters:format(jpeg)/pic6738336.jpg",
+        "https://cf.geekdo-images.com/J0PlHArkZDJ57H-brXW2Fw__thumb/img/QVwPXskFikQwBQlrdLJBAiRGgdg=/fit-in/200x150/filters:strip_icc()/pic6738336.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:02:06.522Z",
+  "lastModified": "2025-06-09T15:03:05.765Z",
   "version": "1.0"
 }
