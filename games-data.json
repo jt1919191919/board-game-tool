@@ -1048,9 +1048,47 @@
       ],
       "notes": "Avalon Hill owned by Hasbro",
       "customFields": {}
+    },
+    "1749439462600": {
+      "bggId": "1749439462600",
+      "bggUrl": "https://boardgamegeek.com/boardgame/369899/big-top",
+      "name": "Big Top",
+      "year": 2023,
+      "dateAcquired": "2024-06-23",
+      "players": {
+        "min": 3,
+        "max": 4
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 1.9,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        3,
+        4
+      ],
+      "designers": [
+        "新澤 大樹 (Taiki Shinzawa)"
+      ],
+      "artists": [
+        "Mihajlo Dimitrievski"
+      ],
+      "publishers": [
+        "Allplay"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/_Y6g4FXjeolGkh2Uut0qaQ__original/img/gCA9yGWjZ1GCiX_RITH4om4XCkM=/0x0/filters:format(jpeg)/pic7133667.jpg",
+        "https://cf.geekdo-images.com/_Y6g4FXjeolGkh2Uut0qaQ__thumb/img/Frw3qs-UijWlXinPza-6p7nMygA=/fit-in/200x150/filters:strip_icc()/pic7133667.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:23:25.132Z",
+  "lastModified": "2025-06-09T03:24:22.600Z",
   "version": "1.0"
 }
