@@ -4416,9 +4416,54 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749483482516": {
+      "bggId": "1749483482516",
+      "bggUrl": "https://boardgamegeek.com/boardgame/245961/fleet-the-dice-game",
+      "name": "Fleet: The Dice Game",
+      "year": 2018,
+      "dateAcquired": "2023-07-03",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.5,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Ben Pinchback",
+        "Matt Riddle"
+      ],
+      "artists": [
+        "Marius Janusonis",
+        "Nolan Nasser"
+      ],
+      "publishers": [
+        "Eagle-Gryphon Games",
+        "Dice High Company",
+        "FRED Distribution",
+        "Inc."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/XbfUcIO4lCp449zLmZ_4_g__original/img/bmL1d0dWkNNR2GUQapasZ27vBak=/0x0/filters:format(jpeg)/pic4460262.jpg",
+        "https://cf.geekdo-images.com/XbfUcIO4lCp449zLmZ_4_g__thumb/img/hPlbVjRgPqnW9XG3Ro7KQR-G_JY=/fit-in/200x150/filters:strip_icc()/pic4460262.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:36:14.040Z",
+  "lastModified": "2025-06-09T15:38:02.517Z",
   "version": "1.0"
 }
