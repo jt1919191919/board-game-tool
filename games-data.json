@@ -5387,9 +5387,47 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749487207603": {
+      "bggId": "1749487207603",
+      "bggUrl": "https://boardgamegeek.com/boardgame/201308/hive-mind",
+      "name": "Hive Mind - Second Edition",
+      "year": 2016,
+      "dateAcquired": "2023-12-01",
+      "players": {
+        "min": 3,
+        "max": 12
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 1.1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        6,
+        10
+      ],
+      "designers": [
+        "Richard Garfield"
+      ],
+      "artists": [
+        "Andrew Hepworth"
+      ],
+      "publishers": [
+        "Calliope Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/CdPotpqnreo8BjI0053MOQ__original/img/hScvBhtH5avBIrXQJLCqGFqHPtQ=/0x0/filters:format(png)/pic6706273.png",
+        "https://cf.geekdo-images.com/CdPotpqnreo8BjI0053MOQ__thumb/img/BufM56uPpL8K8c6IacQElBTmhtc=/fit-in/200x150/filters:strip_icc()/pic6706273.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T16:38:21.877Z",
+  "lastModified": "2025-06-09T16:40:07.603Z",
   "version": "1.0"
 }
