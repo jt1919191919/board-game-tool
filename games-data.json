@@ -6564,9 +6564,53 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492218861": {
+      "bggId": "1749492218861",
+      "bggUrl": "https://boardgamegeek.com/boardgame/358690/mantis",
+      "name": "MANTIS",
+      "year": 2022,
+      "dateAcquired": "2023-11-10",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 10,
+        "max": 10
+      },
+      "weight": 1.1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Ken Gruhl",
+        "Jeremy Posner"
+      ],
+      "artists": [
+        "Matthew Inman"
+      ],
+      "publishers": [
+        "Exploding Kittens",
+        "ADC Blackfire Entertainment",
+        "Geekach Games",
+        "Rebel Sp. z o.o."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/lEkzT07ZX_iDNBusFDS_jA__original/img/snPIUx3vjhuVAkjMAnxN1PfpW3c=/0x0/filters:format(png)/pic6811649.png",
+        "https://cf.geekdo-images.com/lEkzT07ZX_iDNBusFDS_jA__thumb/img/OAi6sxJMeIyuP7ANxhDNRu08wUY=/fit-in/200x150/filters:strip_icc()/pic6811649.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:02:55.062Z",
+  "lastModified": "2025-06-09T18:03:38.862Z",
   "version": "1.0"
 }
