@@ -2356,9 +2356,55 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749477965179": {
+      "bggId": "1749477965179",
+      "bggUrl": "https://boardgamegeek.com/boardgame/316546/clever-cubed",
+      "name": "Clever Cubed",
+      "year": 2020,
+      "dateAcquired": "2022-04-14",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.4,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Wolfgang Warsch"
+      ],
+      "artists": [
+        "Leon Schiffer"
+      ],
+      "publishers": [
+        "Schmidt Spiele",
+        "999 Games",
+        "CMYK",
+        "Compaya.hu: Gamer Café Kft.",
+        "Stronghold Games",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/ksjSyTc0AY0M7CKLD6OA5w__original/img/KivWSWuu1M9OUvga-bmltHA9mRw=/0x0/filters:format(jpeg)/pic5929690.jpg",
+        "https://cf.geekdo-images.com/ksjSyTc0AY0M7CKLD6OA5w__thumb/img/iNPGRJGuD3nWLqqpW6A2fes34CE=/fit-in/200x150/filters:strip_icc()/pic5929690.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:05:28.841Z",
+  "lastModified": "2025-06-09T14:06:05.180Z",
   "version": "1.0"
 }
