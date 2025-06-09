@@ -1086,9 +1086,50 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749439513296": {
+      "bggId": "1749439513296",
+      "bggUrl": "https://boardgamegeek.com/boardgame/157403/black-fleet",
+      "name": "Black Fleet",
+      "year": 2014,
+      "dateAcquired": "2019-04-01",
+      "players": {
+        "min": 3,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.9,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Sebastian Bleasdale"
+      ],
+      "artists": [
+        "Denis Zilber"
+      ],
+      "publishers": [
+        "Space Cowboys",
+        "Asmodee",
+        "Asterion Press"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/A-KaF84pQ7V8IAZULQNqKg__original/img/jQSWb6LWCtAkGeLVlQDj6an6ED4=/0x0/filters:format(jpeg)/pic1987366.jpg",
+        "https://cf.geekdo-images.com/A-KaF84pQ7V8IAZULQNqKg__thumb/img/t6JsS2kb5qfi0CVFe5o08WGlQ2M=/fit-in/200x150/filters:strip_icc()/pic1987366.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:24:22.600Z",
+  "lastModified": "2025-06-09T03:25:13.296Z",
   "version": "1.0"
 }
