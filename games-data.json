@@ -1235,9 +1235,62 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440115898": {
+      "bggId": "1749440115898",
+      "bggUrl": "https://boardgamegeek.com/boardgame/16395/blokus-duo",
+      "name": "Blokus Duo",
+      "year": 2005,
+      "dateAcquired": "2021-05-15",
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.7,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2
+      ],
+      "designers": [
+        "Bernard Tavitian"
+      ],
+      "artists": [],
+      "publishers": [
+        "Educational Insights",
+        "Mattel",
+        "Inc.",
+        "(Unknown)",
+        "Alary Games",
+        "Beverly Enterprises",
+        "Inc.",
+        "danspil",
+        "Divisible By Zero (DBZ) Aust Pty Ltd",
+        "Educa Korea",
+        "Froschkönig GmbH",
+        "Granna",
+        "Green Board Game Co.",
+        "Hodin",
+        "McDonald's Corporation",
+        "Piatnik",
+        "Sekkoia",
+        "Winning Moves France",
+        "Winning Moves Germany"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/pn92DM-FlWMRWusB0eP7vQ__original/img/fS5gAR00MprmNdhliAflDD8Wjv4=/0x0/filters:format(jpeg)/pic1086904.jpg",
+        "https://cf.geekdo-images.com/pn92DM-FlWMRWusB0eP7vQ__thumb/img/VWrLrxIYrNEuu5WY8hkZbyVL9cc=/fit-in/200x150/filters:strip_icc()/pic1086904.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:33:50.605Z",
+  "lastModified": "2025-06-09T03:35:15.898Z",
   "version": "1.0"
 }
