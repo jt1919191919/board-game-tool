@@ -3836,9 +3836,62 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749482148046": {
+      "bggId": "1749482148046",
+      "bggUrl": "https://boardgamegeek.com/boardgame/334379/doodle-dash",
+      "name": "Doodle Dash",
+      "year": 2021,
+      "dateAcquired": "2023-11-23",
+      "players": {
+        "min": 3,
+        "max": 7
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        7
+      ],
+      "designers": [
+        "Fridtjof Buvarp",
+        "Maija Buvarp",
+        "Pauline Buvarp",
+        "Eilif Svensson",
+        "Åsmund Svensson"
+      ],
+      "artists": [
+        "Denis Hervouet"
+      ],
+      "publishers": [
+        "Chilifox Games",
+        "Albi",
+        "Game Harbor",
+        "Gém Klub Kft.",
+        "Geronimo Games",
+        "Matagot",
+        "Popcorn Games",
+        "Zvezda"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/Vg3qEly2Sx379Vo1t73XCw__original/img/LDmpxaaOo_fx21coXhOTgyr7FpM=/0x0/filters:format(png)/pic6102105.png",
+        "https://cf.geekdo-images.com/Vg3qEly2Sx379Vo1t73XCw__thumb/img/wUZ5pVRZeOPdU9_lZXeIzng3Kxo=/fit-in/200x150/filters:strip_icc()/pic6102105.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:14:54.623Z",
+  "lastModified": "2025-06-09T15:15:48.046Z",
   "version": "1.0"
 }
