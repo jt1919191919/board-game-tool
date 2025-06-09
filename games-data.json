@@ -3932,9 +3932,64 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749482223227": {
+      "bggId": "1749482223227",
+      "bggUrl": "https://boardgamegeek.com/boardgame/102548/dungeon-fighter",
+      "name": "Dungeon Fighter",
+      "year": 2011,
+      "dateAcquired": "2023-09-27",
+      "players": {
+        "min": 1,
+        "max": 6
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.8,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Aureliano Buonfino",
+        "Lorenzo Silva",
+        "Lorenzo Tucci Sorrentino"
+      ],
+      "artists": [
+        "Giulia Ghigini"
+      ],
+      "publishers": [
+        "Cranio Creations",
+        "Edge Entertainment",
+        "Fantasy Flight Games",
+        "Galápagos Jogos",
+        "Heidelberger Spieleverlag",
+        "Horrible Guild",
+        "IELLO",
+        "Kaissa Chess & Games",
+        "Lucrum Games",
+        "More Fun Co.",
+        "Ltd.",
+        "One Moment Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/ukPf_rrA7ity7UQEVjWPNw__original/img/Oss0hzRILIZgXlqQGJaa7HCH_Zo=/0x0/filters:format(png)/pic2411495.png",
+        "https://cf.geekdo-images.com/ukPf_rrA7ity7UQEVjWPNw__thumb/img/St4DMjt5DCEImqj7CEXpjFg4KEw=/fit-in/200x150/filters:strip_icc()/pic2411495.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:16:21.704Z",
+  "lastModified": "2025-06-09T15:17:03.228Z",
   "version": "1.0"
 }
