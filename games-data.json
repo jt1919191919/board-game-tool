@@ -327,14 +327,12 @@
         "max": 5
       },
       "playtime": {
-        "min": 60,
+        "min": 30,
         "max": 60
       },
       "weight": 2.4,
       "weightColor": "yellow",
       "bestPlayerCount": [
-        1,
-        3,
         4,
         5
       ],
@@ -359,14 +357,19 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/TiNI7bUCR2RPFMlvKEC9TQ__original/img/MEvPkkVu15k4DWM8CS41a-j5TL8=/0x0/filters:format(jpeg)/pic3476604.jpg",
-        "https://cf.geekdo-images.com/TiNI7bUCR2RPFMlvKEC9TQ__thumb/img/nnWEA6jjVsxPSuEC_Ooph9kzO_g=/fit-in/200x150/filters:strip_icc()/pic3476604.jpg"
+        "https://cf.geekdo-images.com/GDGNjIsuUdYubUs2GgZNgA__imagepage/img/kRgE7niIXFVm3bBdSWaoJvrK_ls=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3196042.png",
+        "https://cf.geekdo-images.com/yXGlPT4u1pwLTY9BuKop0w__imagepage/img/FnYk-SfVSV_hRcVnJ8FjSZArU8I=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3205604.jpg"
       ],
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": [],
-      "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "designerNationality": [
+        "Czechia"
+      ],
+      "publisherCountry": [
+        "Czechia"
+      ],
+      "dateAcquired": "2023-08-12"
     },
     "1749413448520": {
       "bggId": "1749413448520",
@@ -406,14 +409,19 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/iaxdcb_l3F8McwzyoiiCig__original/img/0jQpVjFEcjoIPpVGRf2DhO-jzLo=/0x0/filters:format(jpeg)/pic1514252.jpg",
-        "https://cf.geekdo-images.com/iaxdcb_l3F8McwzyoiiCig__thumb/img/UWsWeuOQpGv5asAoyrKgwL3pVj0=/fit-in/200x150/filters:strip_icc()/pic1514252.jpg"
+        "https://cf.geekdo-images.com/EWGs1tSSERNv6XoUWX9v8g__imagepage/img/6iKKfx9xl8bFjW_IxAtFFtWZvYk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1282181.jpg",
+        "https://cf.geekdo-images.com/EfrKsSGCuNtUPikSD8iMFw__imagepage/img/SDEfdZng49Q3G1HJ9oT8e2loU84=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1229449.jpg"
       ],
-      "notes": "",
+      "notes": "lookout games germany originally",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": [],
-      "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA New York"
+      ],
+      "dateAcquired": "2020-08-13"
     },
     "1749417682999": {
       "bggId": "1749417682999",
@@ -431,10 +439,6 @@
       "weight": 1.2,
       "weightColor": "green",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
         5,
         6
       ],
@@ -448,14 +452,19 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/BXu-cXVP7kDMdVctrEuhvA__original/img/05OlRXqoW_nTEgd9TDHdE1X85wk=/0x0/filters:format(jpeg)/pic2860338.jpg",
-        "https://cf.geekdo-images.com/BXu-cXVP7kDMdVctrEuhvA__thumb/img/wqQdq_RcvJUb_vPCpWAKmNJ1RM4=/fit-in/200x150/filters:strip_icc()/pic2860338.jpg"
+        "https://cf.geekdo-images.com/nN6KaIkxorCmjUuwqqk2Rg__imagepage/img/z4btfTrUkXGSDPI5h4sxvGe_zRk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2860339.jpg",
+        "https://cf.geekdo-images.com/BJeJTd3KK622g8xzoxvIIQ__imagepage/img/vrgtllvU5flewW9NVe_UYBhRBKs=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3443584.jpg"
       ],
       "notes": "",
       "customFields": {},
       "yearAcquired": null,
-      "designerNationality": [],
-      "publisherCountry": [],
-      "dateAcquired": "1991-11-19"
+      "designerNationality": [
+        "USA Tennessee"
+      ],
+      "publisherCountry": [
+        "USA Tennessee"
+      ],
+      "dateAcquired": "2023-09-28"
     },
     "1749418609187": {
       "bggId": "1749418609187",
@@ -701,6 +710,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T02:39:27.698Z",
+  "lastModified": "2025-06-09T02:44:52.076Z",
   "version": "1.0"
 }
