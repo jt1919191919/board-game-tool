@@ -3395,9 +3395,72 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749481082908": {
+      "bggId": "1749481082908",
+      "bggUrl": "https://boardgamegeek.com/boardgame/225694/decrypto",
+      "name": "Decrypto",
+      "year": 2018,
+      "dateAcquired": "2019-03-10",
+      "players": {
+        "min": 3,
+        "max": 8
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.8,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Thomas Dagenais-Lespérance"
+      ],
+      "artists": [
+        "Fabien Fulchiron",
+        "NILS",
+        "Manuel Sanchez"
+      ],
+      "publishers": [
+        "Scorpion Masqué",
+        "2 Pionki",
+        "ADC Blackfire Entertainment",
+        "Asmodee",
+        "Enigma (Bergsala Enigma)",
+        "Fantasmagoria",
+        "Galápagos Jogos",
+        "Games4you",
+        "Games7Days",
+        "Gém Klub Kft.",
+        "GoKids 玩樂小子",
+        "Hachette Boardgames USA",
+        "Happy Baobab",
+        "IELLO",
+        "Kaissa Chess & Games",
+        "Lavka Games",
+        "Lex Games",
+        "Portal Games",
+        "Salta da Caixa"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/hHZWXnUTMYDd_KTAM6Jwlw__original/img/lL6QJ69UmZT7CeljUcjyA47b-e0=/0x0/filters:format(jpeg)/pic3759421.jpg",
+        "https://cf.geekdo-images.com/hHZWXnUTMYDd_KTAM6Jwlw__thumb/img/O5XHaPOALYquS058qcXWVm5b_k4=/fit-in/200x150/filters:strip_icc()/pic3759421.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:56:55.143Z",
+  "lastModified": "2025-06-09T14:58:02.909Z",
   "version": "1.0"
 }
