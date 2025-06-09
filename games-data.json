@@ -940,9 +940,61 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749439064788": {
+      "bggId": "1749439064788",
+      "bggUrl": "https://boardgamegeek.com/boardgame/219513/barenpark",
+      "name": "Bärenpark",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.7,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Phil Walker-Harding"
+      ],
+      "artists": [
+        "Klemens Franz"
+      ],
+      "publishers": [
+        "Lookout Games",
+        "999 Games",
+        "Compaya.hu: Gamer Café Kft.",
+        "Funforge",
+        "GaGa Games",
+        "GoKids 玩樂小子",
+        "Hobby Japan",
+        "Korea Boardgames",
+        "Lacerta",
+        "Lanlalen",
+        "Ludofy Creative",
+        "Maldito Games",
+        "Mayfair Games",
+        "uplay.it edizioni"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/9JC16l1EMwmJkpbjaUBkpw__original/img/H14LeRRtvcOajZ1Z1_pRYu_rSTM=/0x0/filters:format(jpeg)/pic3486218.jpg",
+        "https://cf.geekdo-images.com/9JC16l1EMwmJkpbjaUBkpw__thumb/img/MbjH6nLmJQ5IjCgeULOjMfOf-NA=/fit-in/200x150/filters:strip_icc()/pic3486218.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:15:36.493Z",
+  "lastModified": "2025-06-09T03:17:44.788Z",
   "version": "1.0"
 }
