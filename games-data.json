@@ -744,7 +744,7 @@
         "max": 30
       },
       "weight": 2,
-      "weightColor": "yellow",
+      "weightColor": "green",
       "bestPlayerCount": [
         2
       ],
@@ -946,19 +946,18 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/219513/barenpark",
       "name": "Bärenpark",
       "year": 2017,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-04-22",
       "players": {
         "min": 2,
         "max": 4
       },
       "playtime": {
-        "min": 45,
+        "min": 30,
         "max": 45
       },
       "weight": 1.7,
-      "weightColor": "green",
+      "weightColor": "yellow",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -984,11 +983,16 @@
         "Mayfair Games",
         "uplay.it edizioni"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Australia"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/9JC16l1EMwmJkpbjaUBkpw__original/img/H14LeRRtvcOajZ1Z1_pRYu_rSTM=/0x0/filters:format(jpeg)/pic3486218.jpg",
-        "https://cf.geekdo-images.com/9JC16l1EMwmJkpbjaUBkpw__thumb/img/MbjH6nLmJQ5IjCgeULOjMfOf-NA=/fit-in/200x150/filters:strip_icc()/pic3486218.jpg"
+        "https://cf.geekdo-images.com/bGLwjb614nKuxwtpg_NpGQ__imagepage/img/7u-vyu4GHq-fsXKqrY5_dNCqBZU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3382469.jpg",
+        "https://cf.geekdo-images.com/itfWEnW0LnQnFi5t2TV-vw__imagepage/img/xhQAjOGr4LdwmjdiJKbuvVOP3fI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3677896.jpg"
       ],
       "notes": "",
       "customFields": {}
@@ -998,7 +1002,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/10547/betrayal-at-house-on-the-hill",
       "name": "Betrayal at House on the Hill",
       "year": 2004,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2017-11-06",
       "players": {
         "min": 3,
         "max": 6
@@ -1010,11 +1014,7 @@
       "weight": 2.4,
       "weightColor": "yellow",
       "bestPlayerCount": [
-        2,
-        3,
-        4,
         5,
-        6,
         6
       ],
       "designers": [
@@ -1035,17 +1035,22 @@
         "Asmodee",
         "Hasbro"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA Virginia"
+      ],
+      "publisherCountry": [
+        "USA Washington"
+      ],
       "images": [
         "https://cf.geekdo-images.com/lqmt2Oti_qJS65XqHcB8AA__original/img/7R6yYk8A2eUMmSDaxGjae5SceGI=/0x0/filters:format(png)/pic5146864.png",
-        "https://cf.geekdo-images.com/lqmt2Oti_qJS65XqHcB8AA__thumb/img/EDOmDbRhLy4za2PHkJ5IbhNxZmk=/fit-in/200x150/filters:strip_icc()/pic5146864.png"
+        "https://cf.geekdo-images.com/7jt5U5xzxnh7d-0OqfhB7g__imagepage/img/Gtf19c-1DhkTex8lswM9JQbcYNc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic945713.jpg",
+        "https://cf.geekdo-images.com/Ca3K5Jwv3gh-tMpsGU2mqQ__imagepage/img/zfbAGpIwfD13CcpwHu-t0Sqz6X0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic767248.jpg"
       ],
-      "notes": "",
+      "notes": "Avalon Hill owned by Hasbro",
       "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:17:59.185Z",
+  "lastModified": "2025-06-09T03:23:25.132Z",
   "version": "1.0"
 }
