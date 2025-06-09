@@ -2957,9 +2957,72 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749480081649": {
+      "bggId": "1749480081649",
+      "bggUrl": "https://boardgamegeek.com/boardgame/284083/crew-quest-planet-nine",
+      "name": "The Crew: The Quest for Planet Nine",
+      "year": 2019,
+      "dateAcquired": "2020-11-30",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Thomas Sing"
+      ],
+      "artists": [
+        "Marco Armbruster",
+        "Sensit Communication GmbH"
+      ],
+      "publishers": [
+        "KOSMOS",
+        "999 Games",
+        "Black Sea Games",
+        "Brain Games",
+        "Devir",
+        "Galakta",
+        "Geekach Games",
+        "Giochi Uniti",
+        "GP Games",
+        "HaKubia",
+        "Ideal Board Games",
+        "IELLO",
+        "Igroljub",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "MINDOK",
+        "NeoTroy Games",
+        "Piatnik",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Zvezda"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/98LnQShydr11OBKS46xY-Q__original/img/Q-ZkgnuBu9OTBr7J3qnqPjqamAE=/0x0/filters:format(jpeg)/pic5687013.jpg",
+        "https://cf.geekdo-images.com/98LnQShydr11OBKS46xY-Q__thumb/img/et-fnuozyOdBOVL-5kSS3_7I8fw=/fit-in/200x150/filters:strip_icc()/pic5687013.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:36:35.981Z",
+  "lastModified": "2025-06-09T14:41:21.650Z",
   "version": "1.0"
 }
