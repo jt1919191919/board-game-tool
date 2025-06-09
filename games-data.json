@@ -2009,9 +2009,57 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440877357": {
+      "bggId": "1749440877357",
+      "bggUrl": "https://boardgamegeek.com/boardgame/84876/the-castles-of-burgundy",
+      "name": "The Castles of Burgundy",
+      "year": 2011,
+      "dateAcquired": "2020-06-07",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 3,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Stefan Feld"
+      ],
+      "artists": [
+        "Julien Delval",
+        "Harald Lieske"
+      ],
+      "publishers": [
+        "alea",
+        "Ravensburger",
+        "Broadway Toys LTD",
+        "Giochi Uniti",
+        "Grow Jogos e Brinquedos",
+        "Hobby World",
+        "Maldito Games",
+        "Rebel Sp. z o.o."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/sH2YTQ10dHj1ibfS-KKtGA__original/img/L_gsMsuhbAe0kyq1QLAmyeKOeSs=/0x0/filters:format(jpeg)/pic8745814.jpg",
+        "https://cf.geekdo-images.com/sH2YTQ10dHj1ibfS-KKtGA__thumb/img/f5zFXdTcH9RNY0iMNBppd8D-_r0=/fit-in/200x150/filters:strip_icc()/pic8745814.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:47:12.399Z",
+  "lastModified": "2025-06-09T03:47:57.357Z",
   "version": "1.0"
 }
