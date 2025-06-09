@@ -3244,9 +3244,54 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749480702303": {
+      "bggId": "1749480702303",
+      "bggUrl": "https://boardgamegeek.com/boardgame/145601/deadline",
+      "name": "Deadline",
+      "year": 2017,
+      "dateAcquired": "2019-05-11",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Dan Schnake",
+        "Adam West"
+      ],
+      "artists": [
+        "Tom Babbey",
+        "Peter Gifford",
+        "Glen Orbik"
+      ],
+      "publishers": [
+        "WizKids (I)",
+        "CrossCut Games",
+        "Pegasus Spiele"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/gAQii6CKnxDwyvcAcNzxXA__original/img/jfwHDQm8ku0Y9XSe2EzhCshitWQ=/0x0/filters:format(jpeg)/pic3420271.jpg",
+        "https://cf.geekdo-images.com/gAQii6CKnxDwyvcAcNzxXA__thumb/img/YqI4Zx0WHMAJ1hwzWj8ANxNdYUQ=/fit-in/200x150/filters:strip_icc()/pic3420271.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:50:26.535Z",
+  "lastModified": "2025-06-09T14:51:42.305Z",
   "version": "1.0"
 }
