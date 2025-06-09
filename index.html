@@ -1983,7 +1983,7 @@ const publisherDropdownFilter = document.getElementById('publisher-dropdown-filt
            });
        }
 
-       const designerNationalityFilter = document.getElementById('designer-nationality-filter');
+const designerNationalityFilter = document.getElementById('designer-nationality-filter');
        if (designerNationalityFilter) {
            designerNationalityFilter.addEventListener('change', () => {
                this.updateFilters();
@@ -1999,24 +1999,18 @@ const publisherDropdownFilter = document.getElementById('publisher-dropdown-filt
            });
        }
 
-       // Sort field change event to update dynamic card fields
-       const sortField = document.getElementById('sort-field');
-       if (sortField) {
-           sortField.addEventListener('change', () => {
+       // Sort controls - combined event handlers
+       const sortFieldElement = document.getElementById('sort-field');
+       if (sortFieldElement) {
+           sortFieldElement.addEventListener('change', () => {
                this.updateDynamicCardFields();
                this.applyFilters();
            });
        }
-
-       // Sort controls
-       const sortField = document.getElementById('sort-field');
-       if (sortField) {
-           sortField.addEventListener('change', () => this.applyFilters());
-       }
        
-       const sortOrder = document.getElementById('sort-order');
-       if (sortOrder) {
-           sortOrder.addEventListener('change', () => this.applyFilters());
+const sortOrderElement = document.getElementById('sort-order');
+       if (sortOrderElement) {
+           sortOrderElement.addEventListener('change', () => this.applyFilters());
        }
 
        // Clear filters
