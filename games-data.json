@@ -4201,9 +4201,66 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749482779002": {
+      "bggId": "1749482779002",
+      "bggUrl": "https://boardgamegeek.com/boardgame/223040/fantasy-realms",
+      "name": "Fantasy Realms",
+      "year": 2017,
+      "dateAcquired": "2022-12-25",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.8,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Bruce Glassco"
+      ],
+      "artists": [
+        "Anthony Cournoyer",
+        "Octographics"
+      ],
+      "publishers": [
+        "WizKids (I)",
+        "Arclight Games",
+        "BoardM Factory",
+        "Broadway Toys LTD",
+        "Delta Vision Publishing",
+        "Don't Panic Games",
+        "Feelindigo",
+        "Galápagos Jogos",
+        "Korea Boardgames",
+        "Lavka Games",
+        "Looping Games",
+        "Rebel Sp. z o.o.",
+        "REXhry",
+        "Strohmann Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/A7IOpPt-lHrMYsbRmxXWdQ__original/img/kaYIVoFZkbWe0z80bvcqJdFCNlo=/0x0/filters:format(jpeg)/pic6177962.jpg",
+        "https://cf.geekdo-images.com/A7IOpPt-lHrMYsbRmxXWdQ__thumb/img/XoD3fXgApfY7-dfYyFeE6FVkbfY=/fit-in/200x150/filters:strip_icc()/pic6177962.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:22:31.379Z",
+  "lastModified": "2025-06-09T15:26:19.003Z",
   "version": "1.0"
 }
