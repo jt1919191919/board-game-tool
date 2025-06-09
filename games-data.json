@@ -585,16 +585,16 @@
         "https://cf.geekdo-images.com/bMPiSV2n19MJZVJbiwi5Kg__imagepage/img/yFGXJfZfaDPxEwGIe9nqTVIB-8A=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4496539.jpg",
         "https://cf.geekdo-images.com/FvjL0u0s5jwnH4k1U0OQaw__imagepage/img/VrnI_sJ3dwrT9CR79ANrRNCOxXU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5850815.jpg"
       ],
-      "notes": "Mayfair closed/owned by Asmodee",
+      "notes": "Mayfair USA Chicago now closed/owned by Asmodee.",
       "customFields": {},
       "yearAcquired": 2023,
       "designerNationality": [
         "Germany"
       ],
       "publisherCountry": [
-        "Germany (Mayfair USA Chicago now closed)"
+        "Germany"
       ],
-      "dateAcquired": "1991-11-19"
+      "dateAcquired": "2023-09-30"
     },
     "1749422698030": {
       "bggId": "1749422698030",
@@ -698,6 +698,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T02:25:27.714Z",
+  "lastModified": "2025-06-09T02:27:17.647Z",
   "version": "1.0"
 }
