@@ -6665,9 +6665,77 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492300462": {
+      "bggId": "1749492300462",
+      "bggUrl": "https://boardgamegeek.com/boardgame/318977/micromacro-crime-city",
+      "name": "MicroMacro: Crime City",
+      "year": 2020,
+      "dateAcquired": "2021-12-18",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Johannes Sich"
+      ],
+      "artists": [
+        "Daniel Goll",
+        "Tobias Jochinke",
+        "Johannes Sich"
+      ],
+      "publishers": [
+        "Edition Spielwiese",
+        "Artipia Games",
+        "Blackrock Games",
+        "Brädspel.se",
+        "Brain Games",
+        "Galápagos Jogos",
+        "Hobby Japan",
+        "Jolly Thinkers",
+        "Lautapelit.fi",
+        "Lifestyle Boardgames Ltd",
+        "Lucky Duck Games",
+        "Mandoo Games",
+        "Meanbook Games",
+        "MINDOK",
+        "MS Edizioni",
+        "Nova Era (Нова Ера)",
+        "Oxygame",
+        "Pegasus Spiele",
+        "Ravnica",
+        "Rawstone",
+        "Reflexshop",
+        "SD Games",
+        "Siam Board Games",
+        "Spilaborg hf.",
+        "Vennerød Forlag AS",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/bLL3P-G25nIUkFjHxfJfnw__original/img/HBEhgjfb0QcF9pFrdJ8VYhBapoU=/0x0/filters:format(jpeg)/pic7632081.jpg",
+        "https://cf.geekdo-images.com/bLL3P-G25nIUkFjHxfJfnw__thumb/img/XY_Z5rRJe3IPLRfOvWp70OM2B68=/fit-in/200x150/filters:strip_icc()/pic7632081.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:04:14.618Z",
+  "lastModified": "2025-06-09T18:05:00.464Z",
   "version": "1.0"
 }
