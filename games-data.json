@@ -4149,9 +4149,61 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749482551378": {
+      "bggId": "1749482551378",
+      "bggUrl": "https://boardgamegeek.com/boardgame/13823/fairy-tale",
+      "name": "Fairy Tale",
+      "year": 2004,
+      "dateAcquired": "2020-08-16",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.8,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Satoshi Nakamura"
+      ],
+      "artists": [
+        "Mariano Iannelli",
+        "Yoko Nachigami",
+        "Satoshi Nakamura"
+      ],
+      "publishers": [
+        "Yuhodo",
+        "Inc.",
+        "Z-Man Games",
+        "Edge Entertainment",
+        "Heidelberger Spieleverlag",
+        "HUCH!",
+        "Hutter Trade GmbH + Co KG",
+        "Lautapelit.fi",
+        "Red Glove",
+        "Ubik",
+        "What's Your Game?"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/J86NZuK4hEnKWST-fH7LcA__original/img/h3A-Cqc1ritIac-UJWGQhodDRV0=/0x0/filters:format(jpeg)/pic2024738.jpg",
+        "https://cf.geekdo-images.com/J86NZuK4hEnKWST-fH7LcA__thumb/img/wmsDgtzLQyDsW3qkZL78OVUZW-M=/fit-in/200x150/filters:strip_icc()/pic2024738.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:20:36.954Z",
+  "lastModified": "2025-06-09T15:22:31.379Z",
   "version": "1.0"
 }
