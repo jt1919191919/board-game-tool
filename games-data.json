@@ -5139,9 +5139,56 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749484709442": {
+      "bggId": "1749484709442",
+      "bggUrl": "https://boardgamegeek.com/boardgame/366752/the-great-split",
+      "name": "The Great Split",
+      "year": 2022,
+      "dateAcquired": "2023-11-29",
+      "players": {
+        "min": 2,
+        "max": 7
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "designers": [
+        "Hjalmar Hach",
+        "Lorenzo Silva"
+      ],
+      "artists": [
+        "Weberson Santiago"
+      ],
+      "publishers": [
+        "Horrible Guild",
+        "999 Games",
+        "Ghenos Games",
+        "HeidelBÄR Games",
+        "Hobby Japan",
+        "IELLO"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/pPXbuNKh5TPSRTwAvwuTpw__original/img/3StIG3EC2vhApAP8d_tKH22eIBY=/0x0/filters:format(jpeg)/pic6971167.jpg",
+        "https://cf.geekdo-images.com/pPXbuNKh5TPSRTwAvwuTpw__thumb/img/M3Yw--HL04ms_8CHnF0inAbq4Zc=/fit-in/200x150/filters:strip_icc()/pic6971167.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:57:27.928Z",
+  "lastModified": "2025-06-09T15:58:29.442Z",
   "version": "1.0"
 }
