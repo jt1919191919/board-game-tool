@@ -4355,9 +4355,70 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749483374039": {
+      "bggId": "1749483374039",
+      "bggUrl": "https://boardgamegeek.com/boardgame/336986/flamecraft",
+      "name": "Flamecraft",
+      "year": 2022,
+      "dateAcquired": "2023-11-03",
+      "players": {
+        "min": 1,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        5
+      ],
+      "designers": [
+        "Manny Vega"
+      ],
+      "artists": [
+        "Sandara Tang"
+      ],
+      "publishers": [
+        "Cardboard Alchemy",
+        "Brain Games",
+        "CMON Global Limited",
+        "CrowD Games",
+        "Galápagos Jogos",
+        "Gameology (Gameology Romania)",
+        "Gém Klub Kft.",
+        "Kaissa Chess & Games",
+        "Lucky Duck Games",
+        "Maldito Games",
+        "MIPL",
+        "Outland",
+        "REXhry",
+        "Salta da Caixa",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Tower Tactic Games",
+        "ToyRock Oy",
+        "White Goblin Games",
+        "Ігромаг"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/EvGtnsBDcfnKiqSiXHothQ__original/img/7yj8nA0ObuZ1w5AYCThEOK6meWA=/0x0/filters:format(jpeg)/pic6605448.jpg",
+        "https://cf.geekdo-images.com/EvGtnsBDcfnKiqSiXHothQ__thumb/img/bQcyvzYRdMFFvcdQkFVnIRiCPjE=/fit-in/200x150/filters:strip_icc()/pic6605448.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:30:05.727Z",
+  "lastModified": "2025-06-09T15:36:14.040Z",
   "version": "1.0"
 }
