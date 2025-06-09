@@ -1022,6 +1022,12 @@ button#clear-filters {
                     <input type="text" id="designer-contains-filter" placeholder="Designer name">
                 </div>
             </div>
+            <div class="filter-group">
+                <label>Designer Nationality</label>
+                <select id="designer-nationality-filter">
+                    <option value="">All Nationalities</option>
+                </select>
+            </div>
 <div class="filter-group">
                 <label>Designer Nationality Contains</label>
                 <div style="display: flex; gap: 0.5rem;">
@@ -1032,12 +1038,6 @@ button#clear-filters {
                     </select>
                     <input type="text" id="designer-nationality-contains-filter" placeholder="Nationality">
                 </div>
-            </div>
-            <div class="filter-group">
-                <label>Designer Nationality</label>
-                <select id="designer-nationality-filter">
-                    <option value="">All Nationalities</option>
-                </select>
             </div>
             <div class="filter-group">
                 <label>Artist</label>
@@ -3441,7 +3441,7 @@ return `
                <div><strong>Year Published:</strong> ${game.year || 'Unknown'}</div>
                <div><strong>Players:</strong> ${playerRange}</div>
                <div><strong>Playtime:</strong> ${playtimeText}</div>
-               <div><strong>Complexity:</strong> ${game.weight ? `<span style="color: ${game.weightColor || 'green'};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip">ℹ️<span class="tooltiptext"><span style="color: green;">Green means easy, ok for RJ/Jeff/non-gamers/kids</span><br><span style="color: yellow;">Yellow means too much for above, but normal for most people</span><br><span style="color: red;">Red means gamers only, Luc/Jeremiah would enjoy, Kim would not, higher strategy, full weight</span></span></span>` : 'N/A'}</div>
+               <div><strong>Complexity:</strong> ${game.weight ? `<span style="color: ${game.weightColor || 'green'};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip">ℹ️<span class="tooltiptext"><span style="color: green;">Green means easy, ok for non-gamers/kids</span><br><span style="color: yellow;">Yellow means too much for above, but normal for most people</span><br><span style="color: red;">Red means gamers only, higher strategy, full weight</span></span></span>` : 'N/A'}</div>
                ${game.bestPlayerCount && game.bestPlayerCount.length > 0 ? `<div><strong>Best with:</strong> ${game.bestPlayerCount.join(', ')} players</div>` : ''}
                ${game.bggUrl ? `<div><strong>BoardGameGeek:</strong> <a href="${game.bggUrl}" target="_blank" style="color: #667eea;">View on BGG</a></div>` : ''}
            </div>
