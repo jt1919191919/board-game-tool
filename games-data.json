@@ -4461,9 +4461,68 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749483670668": {
+      "bggId": "1749483670668",
+      "bggUrl": "https://boardgamegeek.com/boardgame/420087/flip-7",
+      "name": "Flip 7",
+      "year": 2024,
+      "dateAcquired": "2025-04-12",
+      "players": {
+        "min": 3,
+        "max": 99
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16,
+        17,
+        25,
+        26,
+        27
+      ],
+      "designers": [
+        "Eric Olsen"
+      ],
+      "artists": [
+        "O'Neil Mabile"
+      ],
+      "publishers": [
+        "The Op Games",
+        "999 Games",
+        "Catch Up Games",
+        "Ghenos Games",
+        "KOSMOS",
+        "Randolph",
+        "Rebel Sp. z o.o."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
+        "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__thumb/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:38:02.517Z",
+  "lastModified": "2025-06-09T15:41:10.670Z",
   "version": "1.0"
 }
