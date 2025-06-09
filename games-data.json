@@ -5876,9 +5876,65 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749489212020": {
+      "bggId": "1749489212020",
+      "bggUrl": "https://boardgamegeek.com/boardgame/281259/isle-cats",
+      "name": "The Isle of Cats",
+      "year": 2019,
+      "dateAcquired": "2022-04-15",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.4,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Frank West"
+      ],
+      "artists": [
+        "Dragolisco",
+        "Frank West"
+      ],
+      "publishers": [
+        "The City of Games",
+        "Arclight Games",
+        "GaGa Games",
+        "Geekach Games",
+        "Gém Klub Kft.",
+        "Intrafin Games",
+        "Lucky Duck Games",
+        "Maldito Games",
+        "MeepleBR",
+        "MINDOK",
+        "MIPL",
+        "Skellig Games",
+        "sternenschimmermeer",
+        "Yayoi The Dreamer",
+        "YOKA Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/AuAheDzhkLufiZFE9JaRNA__original/img/pKq-l1Ms78olHwMbZYMa_x6m-fM=/0x0/filters:format(jpeg)/pic4781085.jpg",
+        "https://cf.geekdo-images.com/AuAheDzhkLufiZFE9JaRNA__thumb/img/gENtMHYJDff6XaGGOYw9oSZShCs=/fit-in/200x150/filters:strip_icc()/pic4781085.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T17:12:50.318Z",
+  "lastModified": "2025-06-09T17:13:32.020Z",
   "version": "1.0"
 }
