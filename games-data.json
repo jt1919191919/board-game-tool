@@ -3506,9 +3506,63 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749481326521": {
+      "bggId": "1749481326521",
+      "bggUrl": "https://boardgamegeek.com/boardgame/221194/dinosaur-island",
+      "name": "Dinosaur Island",
+      "year": 2017,
+      "dateAcquired": "2022-04-15",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 120,
+        "max": 120
+      },
+      "weight": 3,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Jonathan Gilmour-Long",
+        "Brian Lewis"
+      ],
+      "artists": [
+        "Kwanchai Moriya",
+        "Anthony Wocken"
+      ],
+      "publishers": [
+        "Pandasaurus Games",
+        "Angry Lion Games",
+        "Arclight Games",
+        "Asmodee",
+        "Devir",
+        "Feuerland Spiele",
+        "Galakta",
+        "Ghenos Games",
+        "Hobby World",
+        "MeepleBR",
+        "Planeta Igor",
+        "Rozum"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/hLJv1A1TwrMrLLIJhVpKVA__original/img/LXqkRZSyg3hRMJlUMm2m83gmi_s=/0x0/filters:format(png)/pic3429338.png",
+        "https://cf.geekdo-images.com/hLJv1A1TwrMrLLIJhVpKVA__thumb/img/cHgvJgF-Gr6mgDKj51uPoqbjHQk=/fit-in/200x150/filters:strip_icc()/pic3429338.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:59:02.179Z",
+  "lastModified": "2025-06-09T15:02:06.522Z",
   "version": "1.0"
 }
