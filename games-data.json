@@ -2310,9 +2310,55 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749477928840": {
+      "bggId": "1749477928840",
+      "bggUrl": "https://boardgamegeek.com/boardgame/366162/clever-4ever",
+      "name": "Clever 4Ever",
+      "year": 2022,
+      "dateAcquired": "2022-01-15",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.4,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Wolfgang Warsch"
+      ],
+      "artists": [
+        "Leon Schiffer"
+      ],
+      "publishers": [
+        "Schmidt Spiele",
+        "999 Games",
+        "CMYK",
+        "Coiledspring Games",
+        "Stronghold Games",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/sPi_5WA2TdMTNx0ZGeshTg__original/img/d8eUDvwhteyCzYnD1dF4pN5gDps=/0x0/filters:format(jpeg)/pic7596285.jpg",
+        "https://cf.geekdo-images.com/sPi_5WA2TdMTNx0ZGeshTg__thumb/img/2lAMtqiiUU0jo4AxwwBqgrbRUus=/fit-in/200x150/filters:strip_icc()/pic7596285.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T13:33:39.192Z",
+  "lastModified": "2025-06-09T14:05:28.841Z",
   "version": "1.0"
 }
