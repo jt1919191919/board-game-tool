@@ -4091,9 +4091,67 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749482436952": {
+      "bggId": "1749482436952",
+      "bggUrl": "https://boardgamegeek.com/boardgame/155703/evolution",
+      "name": "Evolution",
+      "year": 2014,
+      "dateAcquired": "2020-09-13",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.4,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Dominic Crapuchettes",
+        "Dmitry Knorre",
+        "Sergey Machin"
+      ],
+      "artists": [
+        "JJ Ariosa",
+        "Giorgio De Michele",
+        "Catherine Hamilton",
+        "Kurt Miller",
+        "Jacoby O'Connor"
+      ],
+      "publishers": [
+        "NorthStar Game Studio",
+        "(Web published)",
+        "Arclight Games",
+        "Egmont Polska",
+        "Funforge",
+        "Gameland 游戏大陆",
+        "Gém Klub Kft.",
+        "Pendragon Game Studio",
+        "Rightgames RBG SIA",
+        "Schmidt Spiele",
+        "Siam Board Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/wo_EYno7S66psGPMl_JtiQ__original/img/buKqUQr48Cb41noIhoaAJzWBLQA=/0x0/filters:format(jpeg)/pic3543505.jpg",
+        "https://cf.geekdo-images.com/wo_EYno7S66psGPMl_JtiQ__thumb/img/_30uXRkyUuk9vMeeedlSqQ3oJwA=/fit-in/200x150/filters:strip_icc()/pic3543505.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:19:01.365Z",
+  "lastModified": "2025-06-09T15:20:36.954Z",
   "version": "1.0"
 }
