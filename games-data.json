@@ -2057,9 +2057,66 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440909926": {
+      "bggId": "1749440909926",
+      "bggUrl": "https://boardgamegeek.com/boardgame/155426/castles-of-mad-king-ludwig",
+      "name": "Castles of Mad King Ludwig",
+      "year": 2014,
+      "dateAcquired": "2020-06-07",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.6,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Ted Alspach"
+      ],
+      "artists": [
+        "Keith Curtis",
+        "Agnieszka Dabrowiecka",
+        "Ollin Timm"
+      ],
+      "publishers": [
+        "Bézier Games",
+        "Arclight Games",
+        "Competo / Marektoy",
+        "CrowD Games",
+        "Gemenot",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Lucky Duck Games",
+        "Maldito Games",
+        "MINDOK",
+        "MYBG Co.",
+        "Ltd.",
+        "Planszoweczka.pl",
+        "Rawstone",
+        "Viravi Edicions"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/jVAMlNeDMVZakxJPy-lDrQ__original/img/J4J6wVMItmWj4Yxt8JmuO1g76PE=/0x0/filters:format(jpeg)/pic7229993.jpg",
+        "https://cf.geekdo-images.com/jVAMlNeDMVZakxJPy-lDrQ__thumb/img/PfOJx2RMkYg-Uk7mWBMF0HvTxqo=/fit-in/200x150/filters:strip_icc()/pic7229993.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:47:57.357Z",
+  "lastModified": "2025-06-09T03:48:29.926Z",
   "version": "1.0"
 }
