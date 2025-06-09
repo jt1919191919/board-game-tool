@@ -5345,9 +5345,51 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749487101876": {
+      "bggId": "1749487101876",
+      "bggUrl": "https://boardgamegeek.com/boardgame/341416/high-score",
+      "name": "High Score",
+      "year": 2021,
+      "dateAcquired": "2024-04-27",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Reiner Knizia"
+      ],
+      "artists": [
+        "Bluguy Grafikdesign",
+        "Sensit Communication GmbH"
+      ],
+      "publishers": [
+        "KOSMOS",
+        "Devir",
+        "IELLO"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/0wJuIvwDVBaJSzBD2UL8-Q__original/img/hMjvVVBpdhZUFwqWQy3cqA-asro=/0x0/filters:format(jpeg)/pic7233503.jpg",
+        "https://cf.geekdo-images.com/0wJuIvwDVBaJSzBD2UL8-Q__thumb/img/162rGGAWKVOzBWHct2g_anMVnTw=/fit-in/200x150/filters:strip_icc()/pic7233503.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T16:36:49.615Z",
+  "lastModified": "2025-06-09T16:38:21.877Z",
   "version": "1.0"
 }
