@@ -6388,9 +6388,84 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749490872260": {
+      "bggId": "1749490872260",
+      "bggUrl": "https://boardgamegeek.com/boardgame/110327/lords-waterdeep",
+      "name": "Lords of Waterdeep",
+      "year": 2012,
+      "dateAcquired": "2021-05-27",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 120,
+        "max": 120
+      },
+      "weight": 2.5,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        5
+      ],
+      "designers": [
+        "Peter Lee",
+        "Rodney Thompson"
+      ],
+      "artists": [
+        "Eric Belisle",
+        "Steven Belledin",
+        "Zoltan Boros",
+        "Noah Bradley",
+        "Eric Deschamps",
+        "Wayne England",
+        "Tony Foti",
+        "Todd Harris",
+        "Ralph Horsley",
+        "Tyler Jacobson",
+        "Ron Lemen",
+        "Howard Lyon",
+        "Warren Mahy",
+        "Patrick McEvoy",
+        "Jim Nelson",
+        "William O'Connor",
+        "Adam Paquette",
+        "Lucio Parrillo",
+        "Dave Rapoza",
+        "Richard Sardinha",
+        "Mike Schley",
+        "Andrew Silver",
+        "Anne Stokes",
+        "Gábor Szikszai",
+        "Matias Tapia",
+        "Kevin Walker",
+        "Tyler Walpole",
+        "Eva Widermann",
+        "Eric Williams (I)",
+        "Matt Wilson (I)",
+        "Sam Wood",
+        "Ben Wootten",
+        "James Zhang"
+      ],
+      "publishers": [
+        "Wizards of the Coast"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/-hk8f8iGk_DyWyMrfiPBkg__original/img/GWNOhno3y7g0XE00VacKaRxoczk=/0x0/filters:format(jpeg)/pic1116080.jpg",
+        "https://cf.geekdo-images.com/-hk8f8iGk_DyWyMrfiPBkg__thumb/img/dBqYOO8uLXAumxUGuYtuiRGQ1Y8=/fit-in/200x150/filters:strip_icc()/pic1116080.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T17:39:42.409Z",
+  "lastModified": "2025-06-09T17:41:12.261Z",
   "version": "1.0"
 }
