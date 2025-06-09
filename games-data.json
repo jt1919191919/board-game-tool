@@ -7109,9 +7109,68 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492973983": {
+      "bggId": "1749492973983",
+      "bggUrl": "https://boardgamegeek.com/boardgame/21241/neuroshima-hex-30",
+      "name": "Neuroshima Hex",
+      "year": 2006,
+      "dateAcquired": "2019-03-24",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.6,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Michał Oracz"
+      ],
+      "artists": [
+        "Mateusz Bielski",
+        "Piotr Cieśliński",
+        "Piotr Foksowicz",
+        "Mariusz Gandzel",
+        "Jakub Jabłoński",
+        "Tomasz Jedruszek",
+        "Mateusz Kopacz",
+        "Hanna Kuik",
+        "Łukasz Lalko",
+        "M81 Studio",
+        "Michael Michera"
+      ],
+      "publishers": [
+        "Portal Games",
+        "FunBox Jogos",
+        "Heidelberger Spieleverlag",
+        "HomoLudicus",
+        "IELLO",
+        "Magellan",
+        "Rocks Games",
+        "Stratelibri",
+        "Z-Man Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/JKniOrcvHvLWRlWc-naC8w__original/img/ARpT9WzMYRVKbSib6LRxGimOpYQ=/0x0/filters:format(png)/pic8654429.png",
+        "https://cf.geekdo-images.com/JKniOrcvHvLWRlWc-naC8w__thumb/img/p7XKd7o6W3YRoFQye0ixdRYk-fU=/fit-in/200x150/filters:strip_icc()/pic8654429.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:15:32.287Z",
+  "lastModified": "2025-06-09T18:16:13.984Z",
   "version": "1.0"
 }
