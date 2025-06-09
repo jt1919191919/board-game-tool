@@ -3203,9 +3203,50 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749480626534": {
+      "bggId": "1749480626534",
+      "bggUrl": "https://boardgamegeek.com/boardgame/208134/danger-game",
+      "name": "Danger the Game",
+      "year": 2018,
+      "dateAcquired": "2021-04-29",
+      "players": {
+        "min": 3,
+        "max": 12
+      },
+      "playtime": {
+        "min": 0,
+        "max": 0
+      },
+      "weight": 1.3,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Phillip Blackwell"
+      ],
+      "artists": [
+        "Walter B. Jones"
+      ],
+      "publishers": [
+        "Origami Whale"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/XWp1XCulukZJaXqM-wCaQg__original/img/TJ-Fy7Qp5AYVepqWCAIrZ9nV0Jc=/0x0/filters:format(png)/pic4466963.png",
+        "https://cf.geekdo-images.com/XWp1XCulukZJaXqM-wCaQg__thumb/img/aG2FdBywS_asu9-SVOVzwRvChxQ=/fit-in/200x150/filters:strip_icc()/pic4466963.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:43:52.745Z",
+  "lastModified": "2025-06-09T14:50:26.535Z",
   "version": "1.0"
 }
