@@ -1739,9 +1739,94 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440635965": {
+      "bggId": "1749440635965",
+      "bggUrl": "https://boardgamegeek.com/boardgame/822/carcassonne",
+      "name": "Carcassonne",
+      "year": 2000,
+      "dateAcquired": "2018-06-11",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.9,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        5
+      ],
+      "designers": [
+        "Klaus-Jürgen Wrede"
+      ],
+      "artists": [
+        "Marcel Gröber",
+        "Doris Matthäus",
+        "Anne Pätzke",
+        "Chris Quilliams",
+        "Franz-Georg Stämmele"
+      ],
+      "publishers": [
+        "Hans im Glück",
+        "64 Ounce Games",
+        "999 Games",
+        "Albi",
+        "Astrel Games",
+        "Bard Centrum Gier",
+        "Brain Games",
+        "cutia.ro",
+        "Devir",
+        "Enigma (Bergsala Enigma)",
+        "Fantasmagoria",
+        "Feelindigo",
+        "Filosofia Éditions",
+        "Giochi Uniti",
+        "Grow Jogos e Brinquedos",
+        "Hobby World",
+        "Ísöld ehf.",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lanlalen",
+        "Lautapelit.fi",
+        "Midgaard Games",
+        "MINDOK",
+        "Möbius Games",
+        "Monkey Time",
+        "NeoTroy Games",
+        "Nordic Games ehf",
+        "Paper Iyagi",
+        "Piatnik",
+        "Ponva d.o.o.",
+        "Rio Grande Games",
+        "Schmidt Spiele",
+        "Smart Ltd",
+        "Stupor Mundi",
+        "SuperHeated Neurons",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Venice Connection",
+        "Ventura Games",
+        "Z-Man Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/okM0dq_bEXnbyQTOvHfwRA__original/img/aVZEXAI-cUtuunNfPhjeHlS4fwQ=/0x0/filters:format(png)/pic6544250.png",
+        "https://cf.geekdo-images.com/okM0dq_bEXnbyQTOvHfwRA__thumb/img/88274KiOg94wziybVHyW8AeOiXg=/fit-in/200x150/filters:strip_icc()/pic6544250.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:42:27.514Z",
+  "lastModified": "2025-06-09T03:43:55.965Z",
   "version": "1.0"
 }
