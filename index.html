@@ -3216,7 +3216,7 @@ pagination: {
 if (allVisibleFields.includes('year') && game.year) {
            metaItems.push(`<div class="meta-item"><span class="meta-label">Year:</span><span>${game.year}</span></div>`);
        }
-if (allVisibleFields.includes('dateAcquired') && game.dateAcquired) {
+if (allVisibleFields.includes('dateAcquired') && game.dateAcquired && !this.isSharedView) {
            const dateParts = game.dateAcquired.split('-');
            const acquiredDate = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
            const formattedDate = acquiredDate.toLocaleDateString('en-US');
@@ -3292,13 +3292,23 @@ return `
        return `
            <div class="game-card edit-mode" data-game-id="${game.bggId}">
                <div class="edit-expanded">
-                   <div class="edit-section">
+
+
+<div class="edit-section">
                        <h4>Basic Information</h4>
                        <div class="edit-row">
                            <div class="edit-group">
                                <label>Game Name</label>
                                <input type="text" class="edit-field" data-field="name" value="${game.name || ''}">
                            </div>
+                       </div>
+                       <div class="edit-row">
+                           <div class="edit-group">
+                               <label>Notes</label>
+                               <textarea class="edit-field" data-field="notes" rows="3" placeholder="Your thoughts about this game...">${game.notes || ''}</textarea>
+                           </div>
+                       </div>
+                       <div class="edit-row">
 <div class="edit-group">
                                <label>Year Published</label>
                                <input type="number" class="edit-field" data-field="year" value="${game.year || ''}" min="1900" max="2030">
@@ -3371,14 +3381,10 @@ return `
                        </div>
                    </div>
 
-                   <div class="edit-section">
+
+<div class="edit-section">
                        <h4>Images</h4>
                        ${imagesHtml}
-                   </div>
-
-                   <div class="edit-section">
-                       <h4>Notes</h4>
-                       <textarea class="edit-field" data-field="notes" rows="3" placeholder="Your thoughts about this game...">${game.notes || ''}</textarea>
                    </div>
 
                    <button class="delete-game-btn" onclick="boardGameApp.deleteGameInEditMode('${game.bggId}')">Delete Game</button>
@@ -3452,6 +3458,10 @@ const modalThumbsHtml = `
                 onclick="boardGameApp.setGamePreference('${game.bggId}', 'down')">
             👎
         </button>
+        <button class="thumb-btn" style="background: #667eea; margin-left: 5px;" 
+                onclick="boardGameApp.editGameFromModal('${game.bggId}')" title="Edit Game">
+            ✏️
+        </button>
     </div>
 `;
 
@@ -3472,7 +3482,7 @@ return `
            
            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
 <div class="modal-left-column">
-${game.dateAcquired ? `
+${game.dateAcquired && !this.isSharedView ? `
                        <div style="margin-bottom: 1rem;">
                            <strong>Date Acquired:</strong> ${(() => {
                                const dateParts = game.dateAcquired.split('-');
@@ -3481,7 +3491,7 @@ ${game.dateAcquired ? `
                            })()}
                        </div>
                    ` : ''}
-                   ${game.notes ? `
+                   ${game.notes && !this.isSharedView ? `
                        <div>
                            <strong>Notes:</strong>
                            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin-top: 0.5rem;">
@@ -3572,13 +3582,27 @@ ${game.publisherCountry && game.publisherCountry.length > 0 ? `
        document.getElementById('game-modal').style.display = 'none';
    }
 
-   closeLightbox() {
+closeLightbox() {
        // Destroy any active swipers to prevent memory leaks
        const lightboxSwiper = document.querySelector('#lightbox-swiper .swiper');
        if (lightboxSwiper && lightboxSwiper.swiper) {
            lightboxSwiper.swiper.destroy(true, true);
        }
        document.getElementById('lightbox-modal').style.display = 'none';
+   }
+
+   editGameFromModal(gameId) {
+       this.closeModal();
+       if (!this.isEditMode) {
+           this.toggleEditMode();
+       }
+       // Wait for render to complete, then scroll to the game
+       setTimeout(() => {
+           const gameCard = document.querySelector(`[data-game-id="${gameId}"]`);
+           if (gameCard) {
+               gameCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+           }
+       }, 100);
    }
 
 
@@ -3588,7 +3612,12 @@ async shareCollection() {
         return;
     }
 
-    const allGames = Array.from(this.games.values());
+const allGames = Array.from(this.games.values()).map(game => {
+        const sharedGame = { ...game };
+        delete sharedGame.notes;
+        delete sharedGame.dateAcquired;
+        return sharedGame;
+    });
     const config = {
         filters: this.currentFilters,
         visibleFields: this.visibleFields,
