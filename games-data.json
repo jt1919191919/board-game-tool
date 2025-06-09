@@ -6096,9 +6096,71 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749489516188": {
+      "bggId": "1749489516188",
+      "bggUrl": "https://boardgamegeek.com/boardgame/254640/just-one",
+      "name": "Just One",
+      "year": 2018,
+      "dateAcquired": "2020-09-13",
+      "players": {
+        "min": 3,
+        "max": 7
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        7
+      ],
+      "designers": [
+        "Ludovic Roudy",
+        "Bruno Sautter"
+      ],
+      "artists": [
+        "Éric Azagury",
+        "Florian Poullet"
+      ],
+      "publishers": [
+        "Repos Production",
+        "ADC Blackfire Entertainment",
+        "Arclight Games",
+        "Brain Games",
+        "CoolPlay",
+        "FoxMind Israel",
+        "Fun Consortium",
+        "Galápagos Jogos",
+        "Geekach Games",
+        "Gém Klub Kft.",
+        "GoKids 玩樂小子",
+        "Happy Baobab",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lifestyle Boardgames Ltd",
+        "Maldón",
+        "Morapiaf",
+        "Nordic Games ehf",
+        "Rebel Sp. z o.o."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/qKcKjHpzAvLddwBhyindag__original/img/NPUrOSJ5NEC7aPkoEXnTHJ7vICU=/0x0/filters:format(jpeg)/pic4268499.jpg",
+        "https://cf.geekdo-images.com/qKcKjHpzAvLddwBhyindag__thumb/img/HhZu2qLp9wyX9PNgvmDE8_hCl-0=/fit-in/200x150/filters:strip_icc()/pic4268499.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T17:15:37.104Z",
+  "lastModified": "2025-06-09T17:18:36.189Z",
   "version": "1.0"
 }
