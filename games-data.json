@@ -2561,9 +2561,93 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749478354133": {
+      "bggId": "1749478354133",
+      "bggUrl": "https://boardgamegeek.com/boardgame/178900/codenames",
+      "name": "Codenames",
+      "year": 2015,
+      "dateAcquired": "2017-11-06",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.3,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Vlaada Chvátil"
+      ],
+      "artists": [
+        "Stéphane Gantiez",
+        "Dávid Jablonovský",
+        "Tomáš Kučerovský",
+        "Filip Murmak",
+        "František Sedláček"
+      ],
+      "publishers": [
+        "Czech Games Edition",
+        "Asmodee",
+        "Boardgame Space",
+        "Brain Games",
+        "Broadway Toys LTD",
+        "Cranio Creations",
+        "Cuaca Cerah Games",
+        "Devir",
+        "DiceTree Games",
+        "Enigma (Bergsala Enigma)",
+        "Fantasmagoria",
+        "Feelindigo",
+        "GaGa Games",
+        "Gaming Library",
+        "Gém Klub Kft.",
+        "HeidelBÄR Games",
+        "Heidelberger Spieleverlag",
+        "Hobby Japan",
+        "IELLO",
+        "Kaissa Chess & Games",
+        "Land of Beautiful Mind (سرزمین ذهن زیبا)",
+        "Lex Games",
+        "Liam Games",
+        "MINDOK",
+        "MIPL",
+        "More Fun Co.",
+        "Ltd.",
+        "Nordic Games ehf",
+        "Nordic Games GmbH",
+        "One Moment Games",
+        "Ponva d.o.o.",
+        "Pridemage Games",
+        "Rebel Sp. z o.o.",
+        "SuperHeated Neurons",
+        "TWOPLUS Games",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/nC6ifPCDnAItwoKSKXVrnw__original/img/Id-jjIer_61ZbvI2_RVRCeBZFY4=/0x0/filters:format(jpeg)/pic8907965.jpg",
+        "https://cf.geekdo-images.com/nC6ifPCDnAItwoKSKXVrnw__thumb/img/1iZav_8ZqurrDbvkZA9GcFhB5x0=/fit-in/200x150/filters:strip_icc()/pic8907965.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:10:16.553Z",
+  "lastModified": "2025-06-09T14:12:34.134Z",
   "version": "1.0"
 }
