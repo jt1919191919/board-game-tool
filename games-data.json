@@ -6463,9 +6463,50 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492132519": {
+      "bggId": "1749492132519",
+      "bggUrl": "https://boardgamegeek.com/boardgame/205494/machi-koro-bright-lights-big-city",
+      "name": "Machi Koro: Bright Lights, Big City",
+      "year": 2016,
+      "dateAcquired": "2018-06-04",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.8,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Masao Suganuma"
+      ],
+      "artists": [
+        "Noboru Hotta"
+      ],
+      "publishers": [
+        "IDW Games",
+        "Pandasaurus Games",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/e9Z1IOX7_HwspCzP54prPg__original/img/rQT2b1YEIHQMOusvfz4u011zr_c=/0x0/filters:format(png)/pic3119592.png",
+        "https://cf.geekdo-images.com/e9Z1IOX7_HwspCzP54prPg__thumb/img/hw04Z1zdSvxIV7REA5pryXVqZas=/fit-in/200x150/filters:strip_icc()/pic3119592.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T17:41:12.261Z",
+  "lastModified": "2025-06-09T18:02:12.520Z",
   "version": "1.0"
 }
