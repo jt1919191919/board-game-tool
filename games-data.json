@@ -5631,9 +5631,85 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749488216602": {
+      "bggId": "1749488216602",
+      "bggUrl": "https://boardgamegeek.com/boardgame/15512/diamant",
+      "name": "Incan Gold",
+      "year": 2005,
+      "dateAcquired": "2020-06-15",
+      "players": {
+        "min": 3,
+        "max": 8
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 1.1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Bruno Faidutti",
+        "Alan R. Moon"
+      ],
+      "artists": [
+        "Jörg Asselborn",
+        "Matthias Catrein",
+        "Mila Harbar",
+        "Robert Islas",
+        "Prapach Lapamnuaysap",
+        "Paul Mafayon",
+        "Claus Stephan",
+        "Christof Tisch"
+      ],
+      "publishers": [
+        "Eagle-Gryphon Games",
+        "IELLO",
+        "Schmidt Spiele",
+        "Sunriver Games",
+        "2 Pionki",
+        "Albi",
+        "Arclight Games",
+        "AURUM",
+        "Inc.",
+        "Brain Games",
+        "Compaya.hu: Gamer Café Kft.",
+        "CoolPlay",
+        "Devir",
+        "Funagain",
+        "Games7Days",
+        "Grow Jogos e Brinquedos",
+        "Kaissa Chess & Games",
+        "Lautapelit.fi",
+        "Lavka Games",
+        "Mancalamaro",
+        "Pegasus Spiele",
+        "Portal Games",
+        "Siam Board Games",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Yes Papa Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/xPuQ_NYaoKWEUhugIDA3yA__original/img/kPOT6llwnZBDjeRq8LopasPm1Go=/0x0/filters:format(jpeg)/pic8279658.jpg",
+        "https://cf.geekdo-images.com/xPuQ_NYaoKWEUhugIDA3yA__thumb/img/osrBmn2JqDeBylg8bvqaVOCVGTI=/fit-in/200x150/filters:strip_icc()/pic8279658.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T16:51:12.721Z",
+  "lastModified": "2025-06-09T16:56:56.603Z",
   "version": "1.0"
 }
