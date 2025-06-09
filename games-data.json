@@ -5524,9 +5524,64 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749487806073": {
+      "bggId": "1749487806073",
+      "bggUrl": "https://boardgamegeek.com/boardgame/177524/icecool",
+      "name": "ICECOOL",
+      "year": 2016,
+      "dateAcquired": "2023-03-13",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Brian Gomez"
+      ],
+      "artists": [
+        "Reinis Pētersons"
+      ],
+      "publishers": [
+        "Brain Games",
+        "AMIGO",
+        "Conclave Editora",
+        "Desyllas Games",
+        "Hobby Japan",
+        "IGAMES",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Lifestyle Boardgames Ltd",
+        "Ludicus",
+        "MINDOK",
+        "Oliphante",
+        "Rebel Sp. z o.o.",
+        "Reflexshop",
+        "SD Games",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/xVx8ex1fjO9C7W8rRvWdVQ__original/img/rIyNSXqNgGs4Yqt0xL5CdTp9grg=/0x0/filters:format(png)/pic3320017.png",
+        "https://cf.geekdo-images.com/xVx8ex1fjO9C7W8rRvWdVQ__thumb/img/7ZeCdaJWigksF5wUHTGGXmmfP6Y=/fit-in/200x150/filters:strip_icc()/pic3320017.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T16:49:26.304Z",
+  "lastModified": "2025-06-09T16:50:06.073Z",
   "version": "1.0"
 }
