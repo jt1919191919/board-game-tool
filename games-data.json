@@ -2263,9 +2263,56 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749476019191": {
+      "bggId": "1749476019191",
+      "bggUrl": "https://boardgamegeek.com/boardgame/172287/champions-of-midgard",
+      "name": "Champions of Midgard",
+      "year": 2015,
+      "dateAcquired": "2023-05-27",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.6,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Ole Steiness"
+      ],
+      "artists": [
+        "Jose David Lanza Cebrian",
+        "Víctor Pérez Corbella"
+      ],
+      "publishers": [
+        "Grey Fox Games",
+        "Corax Games",
+        "Czacha Games",
+        "Don't Panic Games",
+        "Ediciones MasQueOca",
+        "Games Warehouse",
+        "Lavka Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/VJwOnMF5vwJg2Yaq6ozn3Q__original/img/iEgr80D4UtP0x_WQUYSB60JwGJ0=/0x0/filters:format(jpeg)/pic2869714.jpg",
+        "https://cf.geekdo-images.com/VJwOnMF5vwJg2Yaq6ozn3Q__thumb/img/Ms3h8cBxGzfcKB16q1KPOsmnoG8=/fit-in/200x150/filters:strip_icc()/pic2869714.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T13:31:14.695Z",
+  "lastModified": "2025-06-09T13:33:39.192Z",
   "version": "1.0"
 }
