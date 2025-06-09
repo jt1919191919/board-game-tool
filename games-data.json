@@ -3153,9 +3153,59 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749480232745": {
+      "bggId": "1749480232745",
+      "bggUrl": "https://boardgamegeek.com/boardgame/143986/cv",
+      "name": "CV",
+      "year": 2013,
+      "dateAcquired": "2020-06-10",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.8,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Filip Miłuński"
+      ],
+      "artists": [
+        "Piotr Socha"
+      ],
+      "publishers": [
+        "Gigamic",
+        "Granna",
+        "Belleville (Бельвіль)",
+        "Conclave Editora",
+        "cosaic",
+        "Devir",
+        "GeGe Co. Ltd.",
+        "Gém Klub Kft.",
+        "Heidelberger Spieleverlag",
+        "KADABRA",
+        "Passport Game Studios"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/WVXZAwPbX0LAYmXm4HiE6Q__original/img/uICa7YEQzyO4Ua2N7se200-lBvs=/0x0/filters:format(jpeg)/pic1968267.jpg",
+        "https://cf.geekdo-images.com/WVXZAwPbX0LAYmXm4HiE6Q__thumb/img/IqyCEZCOaYZyEwKdegYtJjKO5ME=/fit-in/200x150/filters:strip_icc()/pic1968267.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:43:11.883Z",
+  "lastModified": "2025-06-09T14:43:52.745Z",
   "version": "1.0"
 }
