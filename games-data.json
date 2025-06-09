@@ -1288,9 +1288,68 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440156266": {
+      "bggId": "1749440156266",
+      "bggUrl": "https://boardgamegeek.com/boardgame/170216/blood-rage",
+      "name": "Blood Rage",
+      "year": 2015,
+      "dateAcquired": "2024-07-17",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.9,
+      "weightColor": "red",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Eric M. Lang"
+      ],
+      "artists": [
+        "Henning Ludvigsen",
+        "Thierry Masson",
+        "Mike McVey",
+        "Adrian Smith"
+      ],
+      "publishers": [
+        "Cool Mini Or Not",
+        "Arclight Games",
+        "Asmodee",
+        "Asterion Press",
+        "BoardM Factory",
+        "CMON Global Limited",
+        "CrowD Games",
+        "Delta Vision Publishing",
+        "Edge Entertainment",
+        "Fantasmagoria",
+        "Galápagos Jogos",
+        "Game Harbor",
+        "Geekach Games",
+        "Guillotine Games",
+        "MIPL",
+        "Portal Games",
+        "REXhry"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/HkZSJfQnZ3EpS214xtuplg__original/img/Myy6IPDJDzLoPdXrPXVZcddBQoQ=/0x0/filters:format(jpeg)/pic2439223.jpg",
+        "https://cf.geekdo-images.com/HkZSJfQnZ3EpS214xtuplg__thumb/img/NLhVdU8xazrgS5dA6nVCYmN2DNI=/fit-in/200x150/filters:strip_icc()/pic2439223.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:35:15.898Z",
+  "lastModified": "2025-06-09T03:35:56.267Z",
   "version": "1.0"
 }
