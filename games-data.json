@@ -7008,9 +7008,62 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749492553359": {
+      "bggId": "1749492553359",
+      "bggUrl": "https://boardgamegeek.com/boardgame/194607/mystic-vale",
+      "name": "Mystic Vale",
+      "year": 2016,
+      "dateAcquired": "2025-03-04",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.3,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "John D. Clair"
+      ],
+      "artists": [
+        "Ralf Berszuck",
+        "Storn Cook",
+        "Andrew Gaia",
+        "Katherine Guevara",
+        "Heather Kreiter",
+        "Kiri Østergaard Leonard",
+        "Matt Paquette & Co.",
+        "Kiki Moch Rizky",
+        "Martin de Diego Sádaba"
+      ],
+      "publishers": [
+        "Alderac Entertainment Group",
+        "Arclight Games",
+        "Atalia",
+        "Kilogames",
+        "Pegasus Spiele",
+        "Raven Distribution",
+        "Sylex"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/2cf8lebaIrJ8Z62HGEs2wQ__original/img/tgXds1PLtf7gcZsH4bsL34uT8Rk=/0x0/filters:format(png)/pic3287905.png",
+        "https://cf.geekdo-images.com/2cf8lebaIrJ8Z62HGEs2wQ__thumb/img/_iH-e13A0Suy5CBOZIwdCeKlEXc=/fit-in/200x150/filters:strip_icc()/pic3287905.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:08:23.912Z",
+  "lastModified": "2025-06-09T18:09:13.360Z",
   "version": "1.0"
 }
