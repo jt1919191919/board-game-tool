@@ -3889,9 +3889,52 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749482181703": {
+      "bggId": "1749482181703",
+      "bggUrl": "https://boardgamegeek.com/boardgame/13004/downfall-pompeii",
+      "name": "The Downfall of Pompeii",
+      "year": 2004,
+      "dateAcquired": "2020-06-02",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.8,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Klaus-Jürgen Wrede"
+      ],
+      "artists": [
+        "Oliver Freudenreich",
+        "Guido Hoffmann"
+      ],
+      "publishers": [
+        "AMIGO",
+        "Maldito Games",
+        "Mayfair Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/eZjGZ9O4hdUnc47rDgAgRg__original/img/dH4prpq1jPIi9IS_7a44MlBm6J4=/0x0/filters:format(jpeg)/pic1685805.jpg",
+        "https://cf.geekdo-images.com/eZjGZ9O4hdUnc47rDgAgRg__thumb/img/Ii0rodwBgEzpHofswh32VECo1xk=/fit-in/200x150/filters:strip_icc()/pic1685805.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:15:48.046Z",
+  "lastModified": "2025-06-09T15:16:21.704Z",
   "version": "1.0"
 }
