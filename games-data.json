@@ -2904,9 +2904,62 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749479795981": {
+      "bggId": "1749479795981",
+      "bggUrl": "https://boardgamegeek.com/boardgame/304051/creature-comforts",
+      "name": "Creature Comforts",
+      "year": 2022,
+      "dateAcquired": "2023-05-15",
+      "players": {
+        "min": 1,
+        "max": 5
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.4,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Roberta Taylor"
+      ],
+      "artists": [
+        "Shawna J.C. Tenney"
+      ],
+      "publishers": [
+        "KTBG",
+        "Arclight Games",
+        "Board Game Circus",
+        "BoardBros",
+        "Geekach Games",
+        "Gen-X Games",
+        "Happy Meeple Games",
+        "Little Rocket Games",
+        "Lucrum Games",
+        "Matagot",
+        "Popcorn Games",
+        "Reflexshop",
+        "Tabletop KZ"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/A0ZRM7_H6ecCQ8-lW0MtQQ__original/img/VcraEiTpK1jfGuU_A3-UiaH-cZI=/0x0/filters:format(jpeg)/pic5799638.jpg",
+        "https://cf.geekdo-images.com/A0ZRM7_H6ecCQ8-lW0MtQQ__thumb/img/F8ELDsdUdbTvFWmYw1CZjqAWl0Y=/fit-in/200x150/filters:strip_icc()/pic5799638.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:34:11.661Z",
+  "lastModified": "2025-06-09T14:36:35.981Z",
   "version": "1.0"
 }
