@@ -4893,9 +4893,66 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749484399813": {
+      "bggId": "1749484399813",
+      "bggUrl": "https://boardgamegeek.com/boardgame/244522/s-pretty-clever",
+      "name": "Ganz Shon / That's Pretty Clever!",
+      "year": 2018,
+      "dateAcquired": "2020-05-17",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.9,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Wolfgang Warsch"
+      ],
+      "artists": [
+        "Leon Schiffer"
+      ],
+      "publishers": [
+        "Schmidt Spiele",
+        "999 Games",
+        "Arclight Games",
+        "Brain Games",
+        "CMYK",
+        "Compaya.hu: Gamer Café Kft.",
+        "Devir",
+        "G3",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Lavka Games",
+        "Stronghold Games",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Vennerød Forlag AS",
+        "YellowBOX"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/u1EZSUC5n8k4g4OFPkn3ow__original/img/e4QJiofBkd18ZffIURPyqNWrhxk=/0x0/filters:format(jpeg)/pic8014078.jpg",
+        "https://cf.geekdo-images.com/u1EZSUC5n8k4g4OFPkn3ow__thumb/img/mOfaidSnvnq2gHEQuAsYTLyIQQQ=/fit-in/200x150/filters:strip_icc()/pic8014078.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:52:00.756Z",
+  "lastModified": "2025-06-09T15:53:19.814Z",
   "version": "1.0"
 }
