@@ -4609,9 +4609,56 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749483825540": {
+      "bggId": "1749483825540",
+      "bggUrl": "https://boardgamegeek.com/boardgame/296043/four-gardens",
+      "name": "Four Gardens",
+      "year": 2020,
+      "dateAcquired": "2023-04-04",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.3,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Martin Doležal"
+      ],
+      "artists": [
+        "Rachance"
+      ],
+      "publishers": [
+        "Korea Boardgames",
+        "Albi",
+        "Arcane Wonders",
+        "Arrakis Games",
+        "Board Game Circus",
+        "DICE TOWER ESSENTIALS",
+        "Gigamic",
+        "Reflexshop",
+        "uplay.it edizioni"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/JJQaHg0OuH_Enf9pLBqwsQ__original/img/v2vwnxKj96ft2zanA9CUds4osrg=/0x0/filters:format(jpeg)/pic5484239.jpg",
+        "https://cf.geekdo-images.com/JJQaHg0OuH_Enf9pLBqwsQ__thumb/img/bSa4gN61Ie3tUz3tPfJ97X1xPvU=/fit-in/200x150/filters:strip_icc()/pic5484239.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:42:45.925Z",
+  "lastModified": "2025-06-09T15:43:45.541Z",
   "version": "1.0"
 }
