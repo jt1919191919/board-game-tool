@@ -1824,9 +1824,59 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749440703775": {
+      "bggId": "1749440703775",
+      "bggUrl": "https://boardgamegeek.com/boardgame/130882/cardline-animals",
+      "name": "Cardline: Animals",
+      "year": 2012,
+      "dateAcquired": "2023-05-21",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Frédéric Henry"
+      ],
+      "artists": [
+        "Gaël Lannurien"
+      ],
+      "publishers": [
+        "Asmodee",
+        "Bombyx",
+        "Asterion Press",
+        "Gém Klub Kft.",
+        "GoKids 玩樂小子",
+        "Happy Baobab",
+        "Hobby Japan",
+        "Monolith Board Games",
+        "Rebel Sp. z o.o.",
+        "REXhry",
+        "Rozum"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/UuNZgbBvw-o6mboCwn5t-g__original/img/Qb0ruAAN7OT7dLWlCT5DWIwI1Ss=/0x0/filters:format(jpeg)/pic3154455.jpg",
+        "https://cf.geekdo-images.com/UuNZgbBvw-o6mboCwn5t-g__thumb/img/Qj0gNK8qvKuh8bXbJQSGcnZ_qiw=/fit-in/200x150/filters:strip_icc()/pic3154455.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T03:43:55.965Z",
+  "lastModified": "2025-06-09T03:45:03.775Z",
   "version": "1.0"
 }
