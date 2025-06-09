@@ -7475,9 +7475,48 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749493351390": {
+      "bggId": "1749493351390",
+      "bggUrl": "https://boardgamegeek.com/boardgame/346677/oneironauts",
+      "name": "Oneironauts",
+      "year": 2022,
+      "dateAcquired": "2023-10-05",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        5,
+        6
+      ],
+      "designers": [
+        "Oleksandr Nevskiy"
+      ],
+      "artists": [
+        "Dmytro Kryvonos",
+        "M81 Studio"
+      ],
+      "publishers": [
+        "IGAMES"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/OsUPrWDQoZxvxsCECd6UFQ__original/img/Dj5eAm0iXV3KkHyIAbllgXEBQmo=/0x0/filters:format(jpeg)/pic6635856.jpg",
+        "https://cf.geekdo-images.com/OsUPrWDQoZxvxsCECd6UFQ__thumb/img/ZdL09t3HPtD5BRbztq6Y9boG6s0=/fit-in/200x150/filters:strip_icc()/pic6635856.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T18:21:48.706Z",
+  "lastModified": "2025-06-09T18:22:31.393Z",
   "version": "1.0"
 }
