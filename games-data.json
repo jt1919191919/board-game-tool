@@ -4988,9 +4988,66 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749484487453": {
+      "bggId": "1749484487453",
+      "bggUrl": "https://boardgamegeek.com/boardgame/246192/gizmos",
+      "name": "Gizmos",
+      "year": 2018,
+      "dateAcquired": "2020-12-06",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 50,
+        "max": 50
+      },
+      "weight": 2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Phil Walker-Harding"
+      ],
+      "artists": [
+        "Hannah Cardoso",
+        "Júlia Ferrari",
+        "Giovanna BC Guimarães",
+        "Mathieu Harlaut",
+        "Saeed Jalabi"
+      ],
+      "publishers": [
+        "CMON Global Limited",
+        "ADC Blackfire Entertainment",
+        "Arclight Games",
+        "Asmodee",
+        "Board Game VN",
+        "BoardM Factory",
+        "Broadway Toys LTD",
+        "Delta Vision Publishing",
+        "Edge Entertainment",
+        "GaGa Games",
+        "Galápagos Jogos",
+        "Lex Games",
+        "Planeta Igor",
+        "Portal Games",
+        "Yes Papa Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/zin82Hg4MXck86t8fzbsdA__original/img/_S-XINN0voB1OzExPPgePrOWurM=/0x0/filters:format(png)/pic4169718.png",
+        "https://cf.geekdo-images.com/zin82Hg4MXck86t8fzbsdA__thumb/img/e-UqOrMfsLCh2T_igK3wkoFrOu8=/fit-in/200x150/filters:strip_icc()/pic4169718.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:54:11.958Z",
+  "lastModified": "2025-06-09T15:54:47.453Z",
   "version": "1.0"
 }
