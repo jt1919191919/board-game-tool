@@ -2155,9 +2155,61 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749475460196": {
+      "bggId": "1749475460196",
+      "bggUrl": "https://boardgamegeek.com/boardgame/242574/century-eastern-wonders",
+      "name": "Century: Eastern Wonders",
+      "year": 2018,
+      "dateAcquired": "2021-04-06",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.1,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Emerson Matsuuchi"
+      ],
+      "artists": [
+        "Atha Kanaani",
+        "Chris Quilliams"
+      ],
+      "publishers": [
+        "Plan B Games",
+        "Arclight Games",
+        "Asmodee",
+        "Bright World Games",
+        "Broadway Toys LTD",
+        "Cube Factory of Ideas",
+        "Devir",
+        "Esdevium",
+        "Gamemasters Inc.",
+        "LudoSentinel",
+        "Mandoo Games",
+        "Pegasus Spiele",
+        "Piatnik"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/l1xKAcYniMJQNq60H5DdEA__original/img/S37tZ3Ph0N2rryfkjcpgmU4qmCY=/0x0/filters:format(jpeg)/pic3898507.jpg",
+        "https://cf.geekdo-images.com/l1xKAcYniMJQNq60H5DdEA__thumb/img/G3If6BTwLAGBZm6u2b-N_YZcZ4k=/fit-in/200x150/filters:strip_icc()/pic3898507.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T13:22:16.724Z",
+  "lastModified": "2025-06-09T13:24:20.196Z",
   "version": "1.0"
 }
