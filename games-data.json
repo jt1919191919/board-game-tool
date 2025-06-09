@@ -3625,9 +3625,56 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749481674625": {
+      "bggId": "1749481674625",
+      "bggUrl": "https://boardgamegeek.com/boardgame/254683/dodos-riding-dinos",
+      "name": "Dodos Riding Dinos",
+      "year": 2021,
+      "dateAcquired": "2023-12-26",
+      "players": {
+        "min": 1,
+        "max": 8
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.6,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Rubén Hernández"
+      ],
+      "artists": [
+        "Ivan Escalante"
+      ],
+      "publishers": [
+        "Detestable Games",
+        "Draco Studios",
+        "Légion Distribution",
+        "Popcorn Games",
+        "Taverna Ludica Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/qqpMTyv4vy-q7qYpl0NLFA__original/img/zOuoaKc0Q3Zc8m1gJLxGJlqvrXI=/0x0/filters:format(png)/pic5182751.png",
+        "https://cf.geekdo-images.com/qqpMTyv4vy-q7qYpl0NLFA__thumb/img/KFXWd_rCsR68wNLUXg6aOu2M5BQ=/fit-in/200x150/filters:strip_icc()/pic5182751.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:03:05.765Z",
+  "lastModified": "2025-06-09T15:07:54.626Z",
   "version": "1.0"
 }
