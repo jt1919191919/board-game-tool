@@ -2817,9 +2817,96 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749479651660": {
+      "bggId": "1749479651660",
+      "bggUrl": "https://boardgamegeek.com/boardgame/131357/coup",
+      "name": "Coup",
+      "year": 2012,
+      "dateAcquired": "2018-05-14",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.4,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Rikki Tahta"
+      ],
+      "artists": [
+        "Behnam Balali",
+        "Luis Francisco",
+        "Mikhail Gluhov",
+        "Andrew Higgins",
+        "Alex Jensen",
+        "Alexandr Kiselev",
+        "Prapach Lapamnuaysap",
+        "Tomasz Larek",
+        "M81 Studio",
+        "Jarek Nocoń",
+        "Guillermo H. Nuñez",
+        "Weberson Santiago",
+        "Alejo Vigliani",
+        "Uros Vuckovic"
+      ],
+      "publishers": [
+        "Indie Boards & Cards",
+        "La Mame Games",
+        "(Unknown)",
+        "64 Ounce Games",
+        "After 5 Games",
+        "Asmocat Games",
+        "Asmodee",
+        "Board Game VN",
+        "Broadway Toys LTD",
+        "Devir",
+        "El Dragón Azul",
+        "Elznir Games",
+        "FoxGames",
+        "FunBox Jogos",
+        "Gaming Library",
+        "Heidelberger Spieleverlag",
+        "Hobby World",
+        "Igrato",
+        "Kaissa Chess & Games",
+        "Land of Beautiful Mind (سرزمین ذهن زیبا)",
+        "Lelekan",
+        "Lex Games",
+        "Mandala Jogos",
+        "NeoTroy Games",
+        "New Games Order",
+        "LLC",
+        "REXhry",
+        "Siam Board Games",
+        "Skvirl",
+        "テンデイズゲームズ (TendaysGames)",
+        "Zacatrus",
+        "狗吠火車"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/MWhSY_GOe2-bmlQ2rntSVg__original/img/ayAAWBK1rAEumARNmROsOtvqW-4=/0x0/filters:format(jpeg)/pic2016054.jpg",
+        "https://cf.geekdo-images.com/MWhSY_GOe2-bmlQ2rntSVg__thumb/img/vuR_0PCX1w2EkjO_LbchOHZPOwU=/fit-in/200x150/filters:strip_icc()/pic2016054.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:18:17.005Z",
+  "lastModified": "2025-06-09T14:34:11.661Z",
   "version": "1.0"
 }
