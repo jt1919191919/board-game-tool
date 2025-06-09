@@ -3458,9 +3458,57 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749481142178": {
+      "bggId": "1749481142178",
+      "bggUrl": "https://boardgamegeek.com/boardgame/169654/deep-sea-adventure",
+      "name": "Deep Sea Adventure",
+      "year": 2014,
+      "dateAcquired": "2024-07-05",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.2,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Jun Sasaki",
+        "Goro Sasaki"
+      ],
+      "artists": [
+        "Jun Sasaki"
+      ],
+      "publishers": [
+        "Oink Games",
+        "4 Kavky",
+        "Hachette Boardgames UK",
+        "Lavka Games",
+        "PopcornEdu",
+        "Tower Tactic Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/owyKXaa5SPB2HG9F_MueNQ__original/img/gOmpUB3hM7Ap9o-kDsV8ZVBVYXA=/0x0/filters:format(png)/pic3169827.png",
+        "https://cf.geekdo-images.com/owyKXaa5SPB2HG9F_MueNQ__thumb/img/poEY0PMTpz4X_SOUaPjs6G7qr7o=/fit-in/200x150/filters:strip_icc()/pic3169827.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:58:02.909Z",
+  "lastModified": "2025-06-09T14:59:02.179Z",
   "version": "1.0"
 }
