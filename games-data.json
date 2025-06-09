@@ -2501,9 +2501,69 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749478216552": {
+      "bggId": "1749478216552",
+      "bggUrl": "https://boardgamegeek.com/boardgame/11971/cockroach-poker",
+      "name": "Cockroach Poker",
+      "year": 2004,
+      "dateAcquired": "2025-02-20",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Jacques Zeimet"
+      ],
+      "artists": [
+        "Rolf Vogt"
+      ],
+      "publishers": [
+        "Drei Magier Spiele",
+        "999 Games",
+        "ADC Blackfire Entertainment",
+        "Coiledspring Games",
+        "Competo / Marektoy",
+        "Corfix",
+        "Devir",
+        "G3",
+        "Gém Klub Kft.",
+        "Gigamic",
+        "Kod Kod",
+        "Korea Boardgames",
+        "Lanlalen",
+        "Lion Rampant Imports",
+        "Möbius Games",
+        "Oya",
+        "Rebel Sp. z o.o.",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/lHadyVLPUQfNz_qV6MMp_Q__original/img/qN8xusrxWyTJfgq1gTUWrdE4B2I=/0x0/filters:format(jpeg)/pic3218988.jpg",
+        "https://cf.geekdo-images.com/lHadyVLPUQfNz_qV6MMp_Q__thumb/img/zWiETTyIp4Xo1o0l2mtOdt3G-ls=/fit-in/200x150/filters:strip_icc()/pic3218988.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:09:10.861Z",
+  "lastModified": "2025-06-09T14:10:16.553Z",
   "version": "1.0"
 }
