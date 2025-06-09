@@ -3289,9 +3289,52 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749480762233": {
+      "bggId": "1749480762233",
+      "bggUrl": "https://boardgamegeek.com/boardgame/245197/deadwood-1876",
+      "name": "Deadwood 1876",
+      "year": 2018,
+      "dateAcquired": "2024-12-25",
+      "players": {
+        "min": 2,
+        "max": 9
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 1.9,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "designers": [
+        "Travis Hancock"
+      ],
+      "artists": [
+        "Holly Hancock",
+        "Sarah Keele"
+      ],
+      "publishers": [
+        "Facade Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/dClkAV6XTDv9Guu7J0ObXA__original/img/M_UKU7UGYN2JE18C7xDFv9CDSPE=/0x0/filters:format(jpeg)/pic4252510.jpg",
+        "https://cf.geekdo-images.com/dClkAV6XTDv9Guu7J0ObXA__thumb/img/2maKb_zGDCeR_fdQm7bloXELhbE=/fit-in/200x150/filters:strip_icc()/pic4252510.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T14:51:42.305Z",
+  "lastModified": "2025-06-09T14:52:42.234Z",
   "version": "1.0"
 }
