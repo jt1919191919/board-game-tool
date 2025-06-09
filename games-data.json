@@ -4792,9 +4792,53 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749484179440": {
+      "bggId": "1749484179440",
+      "bggUrl": "https://boardgamegeek.com/boardgame/369993/fuse-countdown",
+      "name": "FUSE Countdown",
+      "year": 2023,
+      "dateAcquired": "2024-07-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 10,
+        "max": 10
+      },
+      "weight": 2.2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        1,
+        2,
+        4
+      ],
+      "designers": [
+        "Kane Klenko"
+      ],
+      "artists": [
+        "Josh Kasper",
+        "Chris Ostrowski"
+      ],
+      "publishers": [
+        "Renegade Game Studios",
+        "Banana Games",
+        "GaGa Games",
+        "Origames",
+        "Ігромаг"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/84WuZGfK-StN6NBQ3NEHeQ__original/img/StIqTB41LeCfAH1m_oM__ykYxAU=/0x0/filters:format(jpeg)/pic7050625.jpg",
+        "https://cf.geekdo-images.com/84WuZGfK-StN6NBQ3NEHeQ__thumb/img/ABWrdyPkia3V_G0zs-PheOBuLqo=/fit-in/200x150/filters:strip_icc()/pic7050625.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:48:31.055Z",
+  "lastModified": "2025-06-09T15:49:39.442Z",
   "version": "1.0"
 }
