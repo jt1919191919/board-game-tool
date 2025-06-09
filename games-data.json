@@ -4689,9 +4689,52 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749484006236": {
+      "bggId": "1749484006236",
+      "bggUrl": "https://boardgamegeek.com/boardgame/370164/fun-facts",
+      "name": "Fun Facts",
+      "year": 2022,
+      "dateAcquired": "2023-06-12",
+      "players": {
+        "min": 4,
+        "max": 8
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1,
+      "weightColor": "green",
+      "bestPlayerCount": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Kasper Lapp"
+      ],
+      "artists": [],
+      "publishers": [
+        "Repos Production",
+        "Desyllas Games",
+        "Gém Klub Kft.",
+        "Lord of Boards"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/wkj9lur-J5Bxun09mnI2rQ__original/img/4qUgF74h0l6EMn-HPzGI4Nydszk=/0x0/filters:format(jpeg)/pic7070521.jpg",
+        "https://cf.geekdo-images.com/wkj9lur-J5Bxun09mnI2rQ__thumb/img/WD6rjSm3DZS3JD2Bb4EXM9fL5bk=/fit-in/200x150/filters:strip_icc()/pic7070521.jpg"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:45:28.820Z",
+  "lastModified": "2025-06-09T15:46:46.237Z",
   "version": "1.0"
 }
