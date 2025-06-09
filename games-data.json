@@ -4040,9 +4040,60 @@
       ],
       "notes": "",
       "customFields": {}
+    },
+    "1749482341364": {
+      "bggId": "1749482341364",
+      "bggUrl": "https://boardgamegeek.com/boardgame/82168/escape-aliens-outer-space",
+      "name": "Escape from the Aliens in Outer Space",
+      "year": 2010,
+      "dateAcquired": "2019-03-10",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2,
+      "weightColor": "yellow",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Mario Porpora",
+        "Pietro Righi Riva",
+        "Luca Francesco Rossi",
+        "Nicolò Tedeschi"
+      ],
+      "artists": [
+        "Giulia Ghigini"
+      ],
+      "publishers": [
+        "Cranio Creations",
+        "Heidelberger Spieleverlag",
+        "HT Publishers",
+        "Morapiaf",
+        "Osprey Games",
+        "Santa Ragione"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/RMpQKySngukhwS8Vd0Z5DA__original/img/qzsupfBs3THT83OPVNKPb68xzgA=/0x0/filters:format(png)/pic2792336.png",
+        "https://cf.geekdo-images.com/RMpQKySngukhwS8Vd0Z5DA__thumb/img/sq3Z4wWsk2l5dDjMzQPP7g4PoVA=/fit-in/200x150/filters:strip_icc()/pic2792336.png"
+      ],
+      "notes": "",
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-09T15:18:21.211Z",
+  "lastModified": "2025-06-09T15:19:01.365Z",
   "version": "1.0"
 }
