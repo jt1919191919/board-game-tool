@@ -852,7 +852,7 @@ button#clear-filters {
             <div class="search-box">
                 <input type="text" id="search" placeholder="Search games...">
             </div>
-            <button class="btn clear-thumbs-btn" id="clear-thumbs-btn" style="display: none;">Clear Thumbs</button>
+<button class="btn clear-thumbs-btn" id="clear-thumbs-btn" style="display: none;">Reset Pins/Hidden</button>
             <button class="btn" id="toggle-filters">Filters</button>
             <button class="btn btn-primary" id="add-game-btn">Add Game</button>
             <button class="btn" id="edit-mode-btn">Edit Mode</button>
@@ -876,7 +876,7 @@ button#clear-filters {
             <div class="search-box">
                 <input type="text" id="mobile-search" placeholder="Search games...">
             </div>
-            <button class="btn clear-thumbs-btn" id="mobile-clear-thumbs-btn" style="display: none;">Clear Thumbs</button>
+<button class="btn clear-thumbs-btn" id="mobile-clear-thumbs-btn" style="display: none;">Reset Pins/Hidden</button>
             <button class="btn" id="mobile-toggle-filters">Filters</button>
         </div>
 
@@ -1162,11 +1162,11 @@ button#clear-filters {
                    <label>Complexity (1-5)</label>
                    <div style="display: flex; gap: 0.5rem;">
                        <input type="number" id="game-weight" step="0.1" min="0" max="5" style="flex: 1;">
-                       <select id="game-weight-color" style="width: 100px;">
-                           <option value="green">Green</option>
-                           <option value="yellow">Yellow</option>
-                           <option value="red">Red</option>
-                       </select>
+<select id="game-weight-color" style="width: 100px;">
+    <option value="#008000">Green</option>
+    <option value="#cfa200">Yellow</option>
+    <option value="#ff0000">Red</option>
+</select>
                    </div>
                </div>
            </div>
@@ -1961,12 +1961,12 @@ bindEvents() {
            gameWeightInput.addEventListener('input', () => {
                const weight = parseFloat(gameWeightInput.value);
                if (!isNaN(weight)) {
-                   let defaultColor = 'green';
-                   if (weight >= 2.5) {
-                       defaultColor = 'red';
-                   } else if (weight >= 1.9) {
-                       defaultColor = 'yellow';
-                   }
+let defaultColor = '#008000';
+if (weight >= 2.5) {
+    defaultColor = '#ff0000';
+} else if (weight >= 1.9) {
+    defaultColor = '#cfa200';
+}
                    gameWeightColorSelect.value = defaultColor;
                }
            });
@@ -2504,7 +2504,7 @@ game.dateAcquired = card.querySelector('[data-field="dateAcquired"]').value || '
            game.playtime.min = parseInt(card.querySelector('[data-field="playtime.min"]').value) || 0;
            game.playtime.max = parseInt(card.querySelector('[data-field="playtime.max"]').value) || 0;
            game.weight = parseFloat(card.querySelector('[data-field="weight"]').value) || 0;
-           game.weightColor = card.querySelector('[data-field="weightColor"]').value || 'green';
+game.weightColor = card.querySelector('[data-field="weightColor"]').value || '#008000';
            game.notes = card.querySelector('[data-field="notes"]').value;
 
            const designersField = card.querySelector('[data-field="designers"]');
@@ -3049,12 +3049,12 @@ const sortField = document.getElementById('sort-field').value;
            const images = [primaryImage, thumbnail].filter(img => img && img !== primaryImage || img === primaryImage);
 
 // Set default weight color based on complexity
-           let defaultWeightColor = 'green';
-           if (weight >= 2.5) {
-               defaultWeightColor = 'red';
-           } else if (weight >= 1.9) {
-               defaultWeightColor = 'yellow';
-           }
+let defaultWeightColor = '#008000';
+if (weight >= 2.5) {
+    defaultWeightColor = '#ff0000';
+} else if (weight >= 1.9) {
+    defaultWeightColor = '#cfa200';
+}
 
            document.getElementById('game-name').value = name;
            document.getElementById('game-year').value = year;
@@ -3102,7 +3102,7 @@ dateAcquired: document.getElementById('game-date-acquired').value || '1991-11-19
                max: parseInt(document.getElementById('game-playtime').value) || 0
            },
 weight: parseFloat(document.getElementById('game-weight').value) || 0,
-           weightColor: document.getElementById('game-weight-color').value || 'green',
+weightColor: document.getElementById('game-weight-color').value || '#008000',
            bestPlayerCount: document.getElementById('game-best-players').value.split(',').map(s => parseInt(s.trim())).filter(n => !isNaN(n)),
            designers: document.getElementById('game-designers').value.split(',').map(s => s.trim()).filter(s => s),
            artists: document.getElementById('game-artists').value.split(',').map(s => s.trim()).filter(s => s),
@@ -3230,8 +3230,8 @@ if (allVisibleFields.includes('dateAcquired') && game.dateAcquired && !this.isSh
            metaItems.push(`<div class="meta-item"><span class="meta-label">Time:</span><span>${playtimeText}</span></div>`);
        }
 if (allVisibleFields.includes('weight') && game.weight) {
-           const weightColor = game.weightColor || 'green';
-           metaItems.push(`<div class="meta-item"><span class="meta-label">Weight:</span><span style="color: ${weightColor};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: green;">Green means easy, ok for non-gamers/kids</span><br><span style="color: yellow;">Yellow means too much for above, but normal for most people</span><br><span style="color: red;">Red means gamers only, higher strategy, full weight</span></span></span></div>`);
+const weightColor = game.weightColor || '#008000';
+           metaItems.push(`<div class="meta-item"><span class="meta-label">Weight:</span><span style="color: ${weightColor};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: green;">Green means easy, ok for non-gamers/kids</span><br><span style="color: #cfa200;">Yellow means too much for above, but normal for most people</span><br><span style="color: red;">Red means gamers only, higher strategy, full weight</span></span></span></div>`);
        }
        if (allVisibleFields.includes('publishers') && game.publishers?.length > 0) {
            metaItems.push(`<div class="meta-item"><span class="meta-label">Publisher:</span><span>${game.publishers[0]}</span></div>`);
@@ -3342,11 +3342,11 @@ return `
                                <label>Complexity (1-5)</label>
                                <div style="display: flex; gap: 0.5rem;">
                                    <input type="number" class="edit-field" data-field="weight" value="${game.weight || ''}" min="0" max="5" step="0.1" style="flex: 1;">
-                                   <select class="edit-field" data-field="weightColor" style="width: 100px;">
-                                       <option value="green" ${(game.weightColor || 'green') === 'green' ? 'selected' : ''}>Green</option>
-                                       <option value="yellow" ${(game.weightColor || 'green') === 'yellow' ? 'selected' : ''}>Yellow</option>
-                                       <option value="red" ${(game.weightColor || 'green') === 'red' ? 'selected' : ''}>Red</option>
-                                   </select>
+<select class="edit-field" data-field="weightColor" style="width: 100px;">
+    <option value="#008000" ${(game.weightColor || '#008000') === '#008000' ? 'selected' : ''}>Green</option>
+    <option value="#cfa200" ${(game.weightColor || '#008000') === '#cfa200' ? 'selected' : ''}>Yellow</option>
+    <option value="#ff0000" ${(game.weightColor || '#008000') === '#ff0000' ? 'selected' : ''}>Red</option>
+</select>
                                </div>
                            </div>
                            <div class="edit-group">
@@ -3476,7 +3476,7 @@ return `
                <div><strong>Year Published:</strong> ${game.year || 'Unknown'}</div>
                <div><strong>Players:</strong> ${playerRange}</div>
                <div><strong>Playtime:</strong> ${playtimeText}</div>
-               <div><strong>Complexity:</strong> ${game.weight ? `<span style="color: ${game.weightColor || 'green'};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: green;">Green means easy, ok for non-gamers/kids</span><br><span style="color: yellow;">Yellow means too much for above, but normal for most people</span><br><span style="color: red;">Red means gamers only, higher strategy, full weight</span></span></span>` : 'N/A'}</div>
+<div><strong>Complexity:</strong> ${game.weight ? `<span style="color: ${game.weightColor || '#008000'};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: #008000;">Green means easy, ok for non-gamers/kids</span><br><span style="color: #cfa200;">Yellow means too much for above, but normal for most people</span><br><span style="color: #ff0000;">Red means gamers only, higher strategy, full weight</span></span></span>` : 'N/A'}</div>
                ${game.bestPlayerCount && game.bestPlayerCount.length > 0 ? `<div><strong>Best with:</strong> ${game.bestPlayerCount.join(', ')} players</div>` : ''}
                ${game.bggUrl ? `<div><strong>BoardGameGeek:</strong> <a href="${game.bggUrl}" target="_blank" style="color: #667eea;">View on BGG</a></div>` : ''}
            </div>
