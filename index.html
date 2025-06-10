@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Board Game Collection Manager</title>
     <link rel="icon" href="https://wallpapers.com/images/hd/red-d20-dice-icon-4xdi6uhmnfam2pvj.jpg" type="image/jpeg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-...your_sha512_hash..." crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
     <style>
         * {
@@ -3230,7 +3231,7 @@ if (allVisibleFields.includes('dateAcquired') && game.dateAcquired && !this.isSh
        }
 if (allVisibleFields.includes('weight') && game.weight) {
            const weightColor = game.weightColor || 'green';
-           metaItems.push(`<div class="meta-item"><span class="meta-label">Weight:</span><span style="color: ${weightColor};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip">ℹ️<span class="tooltiptext"><span style="color: green;">Green means easy, ok for non-gamers/kids</span><br><span style="color: yellow;">Yellow means too much for above, but normal for most people</span><br><span style="color: red;">Red means gamers only, higher strategy, full weight</span></span></span></div>`);
+           metaItems.push(`<div class="meta-item"><span class="meta-label">Weight:</span><span style="color: ${weightColor};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: green;">Green means easy, ok for non-gamers/kids</span><br><span style="color: yellow;">Yellow means too much for above, but normal for most people</span><br><span style="color: red;">Red means gamers only, higher strategy, full weight</span></span></span></div>`);
        }
        if (allVisibleFields.includes('publishers') && game.publishers?.length > 0) {
            metaItems.push(`<div class="meta-item"><span class="meta-label">Publisher:</span><span>${game.publishers[0]}</span></div>`);
@@ -3244,11 +3245,11 @@ const thumbsHtml = `
     <div class="thumb-buttons">
         <button class="thumb-btn thumb-up ${preference === 'up' ? 'active' : ''}" 
                 onclick="event.stopPropagation(); boardGameApp.setGamePreference('${game.bggId}', 'up')">
-            👍
+            <i class="fa-solid fa-thumbtack"></i>
         </button>
         <button class="thumb-btn thumb-down ${preference === 'down' ? 'active' : ''}" 
                 onclick="event.stopPropagation(); boardGameApp.setGamePreference('${game.bggId}', 'down')">
-            👎
+            <i class="fa-solid fa-eye-slash"></i>
         </button>
     </div>
 `;
@@ -3452,15 +3453,15 @@ const modalThumbsHtml = `
     <div class="modal-thumbs">
         <button class="thumb-btn thumb-up ${preference === 'up' ? 'active' : ''}" 
                 onclick="boardGameApp.setGamePreference('${game.bggId}', 'up')">
-            👍
+            <i class="fa-solid fa-thumbtack"></i>
         </button>
         <button class="thumb-btn thumb-down ${preference === 'down' ? 'active' : ''}" 
                 onclick="boardGameApp.setGamePreference('${game.bggId}', 'down')">
-            👎
+            <i class="fa-solid fa-eye-slash"></i>
         </button>
         <button class="thumb-btn" style="background: #667eea; margin-left: 5px;" 
                 onclick="boardGameApp.editGameFromModal('${game.bggId}')" title="Edit Game">
-            ✏️
+            <i class="fa-solid fa-pen-to-square"></i>
         </button>
     </div>
 `;
@@ -3475,7 +3476,7 @@ return `
                <div><strong>Year Published:</strong> ${game.year || 'Unknown'}</div>
                <div><strong>Players:</strong> ${playerRange}</div>
                <div><strong>Playtime:</strong> ${playtimeText}</div>
-               <div><strong>Complexity:</strong> ${game.weight ? `<span style="color: ${game.weightColor || 'green'};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip">ℹ️<span class="tooltiptext"><span style="color: green;">Green means easy, ok for non-gamers/kids</span><br><span style="color: yellow;">Yellow means too much for above, but normal for most people</span><br><span style="color: red;">Red means gamers only, higher strategy, full weight</span></span></span>` : 'N/A'}</div>
+               <div><strong>Complexity:</strong> ${game.weight ? `<span style="color: ${game.weightColor || 'green'};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: green;">Green means easy, ok for non-gamers/kids</span><br><span style="color: yellow;">Yellow means too much for above, but normal for most people</span><br><span style="color: red;">Red means gamers only, higher strategy, full weight</span></span></span>` : 'N/A'}</div>
                ${game.bestPlayerCount && game.bestPlayerCount.length > 0 ? `<div><strong>Best with:</strong> ${game.bestPlayerCount.join(', ')} players</div>` : ''}
                ${game.bggUrl ? `<div><strong>BoardGameGeek:</strong> <a href="${game.bggUrl}" target="_blank" style="color: #667eea;">View on BGG</a></div>` : ''}
            </div>
