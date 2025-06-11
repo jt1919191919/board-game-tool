@@ -1933,9 +1933,34 @@ if (filters.dateAcquired) {
         document.getElementById('artist-contains-filter').value = filters.artistContains;
         document.getElementById('artist-contains-filter-type').value = filters.artistContainsType || 'contains';
     }
-    if (filters.publisherCountry) {
+if (filters.publisherCountry) {
         document.getElementById('publisher-country-filter').value = filters.publisherCountry;
         document.getElementById('publisher-country-filter-type').value = filters.publisherCountryType || 'contains';
+    }
+    if (filters.description) {
+        document.getElementById('description-filter').value = filters.description;
+        document.getElementById('description-filter-type').value = filters.descriptionType || 'contains';
+    }
+    if (filters.type) {
+        document.getElementById('type-filter').value = filters.type;
+    }
+    if (filters.typeContains) {
+        document.getElementById('type-contains-filter').value = filters.typeContains;
+        document.getElementById('type-contains-filter-type').value = filters.typeContainsType || 'contains';
+    }
+    if (filters.category) {
+        document.getElementById('category-filter').value = filters.category;
+    }
+    if (filters.categoryContains) {
+        document.getElementById('category-contains-filter').value = filters.categoryContains;
+        document.getElementById('category-contains-filter-type').value = filters.categoryContainsType || 'contains';
+    }
+    if (filters.mechanisms) {
+        document.getElementById('mechanisms-filter').value = filters.mechanisms;
+    }
+    if (filters.mechanismsContains) {
+        document.getElementById('mechanisms-contains-filter').value = filters.mechanismsContains;
+        document.getElementById('mechanisms-contains-filter-type').value = filters.mechanismsContainsType || 'contains';
     }
 }
 
@@ -2761,10 +2786,17 @@ if (mechanismsField) {
 }
        });
 
-       this.saveToStorage();
-       this.toggleEditMode();
-       this.applyFilters();
-       alert('All changes saved successfully!');
+this.saveToStorage();
+this.updateDesignerFilter();
+this.updatePublisherFilter();
+this.updateDesignerNationalityFilter();
+this.updateArtistFilter();
+this.updateTypeFilter();
+this.updateCategoryFilter();
+this.updateMechanismsFilter();
+this.toggleEditMode();
+this.applyFilters();
+alert('All changes saved successfully!');
    }
 
    discardAllChanges() {
@@ -3114,19 +3146,6 @@ if (this.currentFilters.description) {
     });
 }
 
-if (this.currentFilters.description) {
-    const type = this.currentFilters.descriptionType;
-    const value = this.currentFilters.description.toLowerCase();
-    filtered = filtered.filter(game => {
-        const desc = (game.description || '').toLowerCase();
-        if (!desc.trim()) return false;
-        if (type === 'contains') return desc.includes(value);
-        if (type === 'exact') return desc === value;
-        if (type === 'not-contains') return !desc.includes(value);
-        return true;
-    });
-}
-
 if (this.currentFilters.type) {
     filtered = filtered.filter(game => {
         if (!game.type) return false;
@@ -3366,7 +3385,7 @@ const images = [primaryImage, thumbnail].filter(img => img && img !== primaryIma
 
 const description = item.querySelector('description')?.textContent?.trim() || '';
 
-const types = Array.from(item.querySelectorAll('link[type="boardgametype"]')).map(el => el.getAttribute('value'));
+const types = Array.from(item.querySelectorAll('link[type="boardgamefamily"]')).map(el => el.getAttribute('value'));
 const categories = Array.from(item.querySelectorAll('link[type="boardgamecategory"]')).map(el => el.getAttribute('value'));
 const mechanisms = Array.from(item.querySelectorAll('link[type="boardgamemechanic"]')).map(el => el.getAttribute('value'));
 
@@ -3450,10 +3469,17 @@ customFields: {}
            return;
        }
 
-       this.games.set(formData.bggId, formData);
-       this.saveToStorage();
-       this.closeForm();
-       this.applyFilters();
+this.games.set(formData.bggId, formData);
+this.saveToStorage();
+this.updateDesignerFilter();
+this.updatePublisherFilter();
+this.updateDesignerNationalityFilter();
+this.updateArtistFilter();
+this.updateTypeFilter();
+this.updateCategoryFilter();
+this.updateMechanismsFilter();
+this.closeForm();
+this.applyFilters();
    }
 
 closeForm() {
@@ -4204,9 +4230,16 @@ async importData(file) {
                    this.games.set(id, game);
                });
 
-               this.saveToStorage();
-               this.applyFilters();
-               alert(`Imported ${Object.keys(data.games).length} games successfully!`);
+this.saveToStorage();
+this.updateDesignerFilter();
+this.updatePublisherFilter();
+this.updateDesignerNationalityFilter();
+this.updateArtistFilter();
+this.updateTypeFilter();
+this.updateCategoryFilter();
+this.updateMechanismsFilter();
+this.applyFilters();
+alert(`Imported ${Object.keys(data.games).length} games successfully!`);
            }
        } catch (error) {
            alert('Error importing file: ' + error.message);
