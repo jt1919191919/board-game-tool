@@ -1100,6 +1100,17 @@ button#clear-filters {
         <input type="text" id="notes-filter" placeholder="Search notes">
     </div>
 </div>
+<div class="filter-group">
+    <label>Description</label>
+    <div style="display: flex; gap: 0.5rem;">
+        <select id="description-filter-type">
+            <option value="contains">Contains</option>
+            <option value="exact">Exact</option>
+            <option value="not-contains">Does not contain</option>
+        </select>
+        <input type="text" id="description-filter" placeholder="Search descriptions">
+    </div>
+</div>
 
         </div>
        <div class="filter-row">
@@ -1198,16 +1209,26 @@ button#clear-filters {
                </div>
            </div>
 
-           <div class="form-row">
-               <div class="form-group">
-                   <label>Images (URLs, one per line)</label>
-<textarea id="game-images" placeholder="https://image1.jpg&#10;https://image2.jpg"></textarea>
-              </div>
-              <div class="form-group">
-                  <label>Notes</label>
-                  <textarea id="game-notes" placeholder="Your thoughts about this game..."></textarea>
-              </div>
-          </div>
+<div class="form-row">
+    <div class="form-group">
+        <label>Images (URLs, one per line)</label>
+        <textarea id="game-images" placeholder="https://image1.jpg&#10;https://image2.jpg"></textarea>
+    </div>
+    <div class="form-group">
+        <label>Notes</label>
+        <textarea id="game-notes" placeholder="Your thoughts about this game..."></textarea>
+    </div>
+</div>
+<div class="form-row">
+    <div class="form-group">
+        <label>Short Description</label>
+        <textarea id="game-short-description" placeholder="Brief game description..."></textarea>
+    </div>
+    <div class="form-group">
+        <label>Full Description</label>
+        <textarea id="game-full-description" placeholder="Full game description..."></textarea>
+    </div>
+</div>
 
           <div class="form-actions">
               <button class="btn" id="cancel-add">Cancel</button>
@@ -1927,13 +1948,13 @@ bindEvents() {
        }
 
 // Filter inputs
-       const filterInputs = [
-           'min-players', 'max-players', 'min-playtime', 'max-playtime', 
-'year-filter', 'date-acquired-filter', 'publisher-filter', 'designer-contains-filter', 
-           'artist-filter', 'artist-contains-filter', 'designer-nationality-contains-filter', 
-           'designer-nationality-filter', 'publisher-country-filter', 'min-weight', 'max-weight',
-           'best-player-count-filter', 'notes-filter'
-       ];
+const filterInputs = [
+    'min-players', 'max-players', 'min-playtime', 'max-playtime', 
+    'year-filter', 'date-acquired-filter', 'publisher-filter', 'designer-contains-filter', 
+    'artist-filter', 'artist-contains-filter', 'designer-nationality-contains-filter', 
+    'designer-nationality-filter', 'publisher-country-filter', 'min-weight', 'max-weight',
+    'best-player-count-filter', 'notes-filter', 'description-filter'
+];
        
        filterInputs.forEach(id => {
            const element = document.getElementById(id);
@@ -2230,14 +2251,15 @@ const dateAcquired = document.getElementById('date-acquired-filter').value || nu
        this.currentFilters = {
            search: document.getElementById('search').value,
            minPlayers, maxPlayers, minPlaytime, maxPlaytime, year, dateAcquired, minWeight, maxWeight,
-           publisher: document.getElementById('publisher-filter').value,
-           designerContains: document.getElementById('designer-contains-filter').value,
-           designerNationalityContains: document.getElementById('designer-nationality-contains-filter').value,
-           designerNationality: document.getElementById('designer-nationality-filter').value,
-           artist: document.getElementById('artist-filter').value,
-           artistContains: document.getElementById('artist-contains-filter').value,
-           publisherCountry: document.getElementById('publisher-country-filter').value,
-           bestPlayerCount,
+publisher: document.getElementById('publisher-filter').value,
+designerContains: document.getElementById('designer-contains-filter').value,
+designerNationalityContains: document.getElementById('designer-nationality-contains-filter').value,
+designerNationality: document.getElementById('designer-nationality-filter').value,
+artist: document.getElementById('artist-filter').value,
+artistContains: document.getElementById('artist-contains-filter').value,
+publisherCountry: document.getElementById('publisher-country-filter').value,
+bestPlayerCount,
+description: document.getElementById('description-filter').value,
            minPlayersType: document.getElementById('min-players-type').value,
            maxPlayersType: document.getElementById('max-players-type').value,
            minPlaytimeType: document.getElementById('min-playtime-type').value,
@@ -2252,9 +2274,11 @@ const dateAcquired = document.getElementById('date-acquired-filter').value || nu
            artistContainsType: document.getElementById('artist-contains-filter-type').value,
            publisherDropdown: document.getElementById('publisher-dropdown-filter').value,
            publisherCountryType: document.getElementById('publisher-country-filter-type').value,
-           notes: document.getElementById('notes-filter').value,
-           notesType: document.getElementById('notes-filter-type').value,
-           publisherType: document.getElementById('publisher-filter-type').value
+notes: document.getElementById('notes-filter').value,
+notesType: document.getElementById('notes-filter-type').value,
+description: document.getElementById('description-filter').value,
+descriptionType: document.getElementById('description-filter-type').value,
+publisherType: document.getElementById('publisher-filter-type').value
        };
 
        this.customFilters = [];
@@ -2636,9 +2660,10 @@ document.getElementById('date-acquired-filter').value = '';
        document.getElementById('designer-nationality-filter').value = '';
        document.getElementById('artist-filter').value = '';
        document.getElementById('artist-contains-filter').value = '';
-       document.getElementById('publisher-country-filter').value = '';
-       
-       // Reset dynamic card fields when clearing filters
+document.getElementById('publisher-country-filter').value = '';
+document.getElementById('description-filter').value = '';
+
+// Reset dynamic card fields when clearing filters
        this.dynamicCardFields = [];
        document.getElementById('min-weight').value = '';
        document.getElementById('max-weight').value = '';
@@ -2860,18 +2885,33 @@ if (this.currentFilters.publisherCountry) {
            });
        }
 
-       if (this.currentFilters.notes) {
-           const type = this.currentFilters.notesType;
-           const value = this.currentFilters.notes.toLowerCase();
-           filtered = filtered.filter(game => {
-               if (!game.notes) return false;
-               const notesText = game.notes.toLowerCase();
-               if (type === 'contains') return notesText.includes(value);
-               if (type === 'exact') return notesText === value;
-               if (type === 'not-contains') return !notesText.includes(value);
-               return true;
-           });
-       }
+if (this.currentFilters.notes) {
+    const type = this.currentFilters.notesType;
+    const value = this.currentFilters.notes.toLowerCase();
+    filtered = filtered.filter(game => {
+        if (!game.notes) return false;
+        const notesText = game.notes.toLowerCase();
+        if (type === 'contains') return notesText.includes(value);
+        if (type === 'exact') return notesText === value;
+        if (type === 'not-contains') return !notesText.includes(value);
+        return true;
+    });
+}
+
+if (this.currentFilters.description) {
+    const type = this.currentFilters.descriptionType;
+    const value = this.currentFilters.description.toLowerCase();
+    filtered = filtered.filter(game => {
+        const shortDesc = game.shortDescription || '';
+        const fullDesc = game.fullDescription || '';
+        const combinedDesc = (shortDesc + ' ' + fullDesc).toLowerCase();
+        if (!combinedDesc.trim()) return false;
+        if (type === 'contains') return combinedDesc.includes(value);
+        if (type === 'exact') return combinedDesc === value;
+        if (type === 'not-contains') return !combinedDesc.includes(value);
+        return true;
+    });
+}
 
        if (this.currentFilters.bestPlayerCount) {
            const counts = this.currentFilters.bestPlayerCount.split(',').map(s => parseInt(s.trim())).filter(n => !isNaN(n));
@@ -3046,7 +3086,20 @@ const sortField = document.getElementById('sort-field').value;
            const publishers = Array.from(item.querySelectorAll('link[type="boardgamepublisher"]')).map(el => el.getAttribute('value'));
            const primaryImage = item.querySelector('image')?.textContent || '';
            const thumbnail = item.querySelector('thumbnail')?.textContent || '';
-           const images = [primaryImage, thumbnail].filter(img => img && img !== primaryImage || img === primaryImage);
+const images = [primaryImage, thumbnail].filter(img => img && img !== primaryImage || img === primaryImage);
+
+const shortDescription = item.querySelector('description')?.textContent?.trim() || '';
+const fullDescriptionNodes = xmlDoc.querySelectorAll('item description');
+let fullDescription = '';
+if (fullDescriptionNodes.length > 0) {
+    const descText = fullDescriptionNodes[0].textContent || '';
+    // Extract the longer description that typically starts after the short one
+    const sentences = descText.split('. ');
+    if (sentences.length > 1) {
+        fullDescription = sentences.slice(1).join('. ').trim();
+    }
+}
+
 
 // Set default weight color based on complexity
 let defaultWeightColor = '#008000';
@@ -3063,12 +3116,14 @@ if (weight >= 2.5) {
            document.getElementById('game-playtime').value = playtime;
            document.getElementById('game-weight').value = weight.toFixed(1);
            document.getElementById('game-best-players').value = bestPlayerCount.join(', ');
-           document.getElementById('game-designers').value = designers.join(', ');
-           document.getElementById('game-artists').value = artists.join(', ');
-           document.getElementById('game-publishers').value = publishers.join(', ');
-           document.getElementById('game-images').value = images.join('\n');
-           
-           // Set the weight color dropdown if it exists
+document.getElementById('game-designers').value = designers.join(', ');
+document.getElementById('game-artists').value = artists.join(', ');
+document.getElementById('game-publishers').value = publishers.join(', ');
+document.getElementById('game-images').value = images.join('\n');
+document.getElementById('game-short-description').value = shortDescription;
+document.getElementById('game-full-description').value = fullDescription;
+
+// Set the weight color dropdown if it exists
            const weightColorSelect = document.getElementById('game-weight-color');
            if (weightColorSelect) {
                weightColorSelect.value = defaultWeightColor;
@@ -3109,9 +3164,11 @@ weightColor: document.getElementById('game-weight-color').value || '#008000',
 publishers: document.getElementById('game-publishers').value.split(',').map(s => s.trim()).filter(s => s),
 designerNationality: document.getElementById('game-designer-nationality').value.split(',').map(s => s.trim()).filter(s => s),
            publisherCountry: document.getElementById('game-publisher-country').value.split(',').map(s => s.trim()).filter(s => s),
-           images: document.getElementById('game-images').value.split('\n').map(s => s.trim()).filter(s => s),
-           notes: document.getElementById('game-notes').value,
-           customFields: {}
+images: document.getElementById('game-images').value.split('\n').map(s => s.trim()).filter(s => s),
+notes: document.getElementById('game-notes').value,
+shortDescription: document.getElementById('game-short-description').value,
+fullDescription: document.getElementById('game-full-description').value,
+customFields: {}
        };
 
        if (!formData.name) {
@@ -3127,9 +3184,9 @@ designerNationality: document.getElementById('game-designer-nationality').value.
 
 closeForm() {
        document.getElementById('add-game-form').classList.remove('show');
-       document.getElementById('add-game-form').querySelectorAll('input, textarea').forEach(input => {
-           input.value = '';
-       });
+document.getElementById('add-game-form').querySelectorAll('input, textarea').forEach(input => {
+    input.value = '';
+});
        document.getElementById('add-game-form').querySelectorAll('select').forEach(select => {
            select.selectedIndex = 0;
        });
@@ -3231,7 +3288,7 @@ if (allVisibleFields.includes('dateAcquired') && game.dateAcquired && !this.isSh
        }
 if (allVisibleFields.includes('weight') && game.weight) {
 const weightColor = game.weightColor || '#008000';
-           metaItems.push(`<div class="meta-item"><span class="meta-label">Weight:</span><span style="color: ${weightColor};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: green;">Green means easy, ok for non-gamers/kids</span><br><span style="color: #cfa200;">Yellow means too much for above, but normal for most people</span><br><span style="color: red;">Red means gamers only, higher strategy, full weight</span></span></span></div>`);
+metaItems.push(`<div class="meta-item"><span class="meta-label">Weight:</span><span style="color: ${weightColor === '#cfa200' ? '#cfa200' : weightColor};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: #008000;">Green means easy, ok for non-gamers/kids</span><br><span style="color: #cfa200;">Yellow means too much for above, but normal for most people</span><br><span style="color: #ff0000;">Red means gamers only, higher strategy, full weight</span></span></span></div>`);
        }
        if (allVisibleFields.includes('publishers') && game.publishers?.length > 0) {
            metaItems.push(`<div class="meta-item"><span class="meta-label">Publisher:</span><span>${game.publishers[0]}</span></div>`);
@@ -3343,9 +3400,9 @@ return `
                                <div style="display: flex; gap: 0.5rem;">
                                    <input type="number" class="edit-field" data-field="weight" value="${game.weight || ''}" min="0" max="5" step="0.1" style="flex: 1;">
 <select class="edit-field" data-field="weightColor" style="width: 100px;">
-    <option value="#008000" ${(game.weightColor || '#008000') === '#008000' ? 'selected' : ''}>Green</option>
-    <option value="#cfa200" ${(game.weightColor || '#008000') === '#cfa200' ? 'selected' : ''}>Yellow</option>
-    <option value="#ff0000" ${(game.weightColor || '#008000') === '#ff0000' ? 'selected' : ''}>Red</option>
+<option value="#008000" ${(game.weightColor || '#008000') === '#008000' ? 'selected' : ''}>Green</option>
+<option value="#cfa200" ${(game.weightColor || '#008000') === '#cfa200' ? 'selected' : ''}>Yellow</option>
+<option value="#ff0000" ${(game.weightColor || '#008000') === '#ff0000' ? 'selected' : ''}>Red</option>
 </select>
                                </div>
                            </div>
@@ -3476,7 +3533,7 @@ return `
                <div><strong>Year Published:</strong> ${game.year || 'Unknown'}</div>
                <div><strong>Players:</strong> ${playerRange}</div>
                <div><strong>Playtime:</strong> ${playtimeText}</div>
-<div><strong>Complexity:</strong> ${game.weight ? `<span style="color: ${game.weightColor || '#008000'};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: #008000;">Green means easy, ok for non-gamers/kids</span><br><span style="color: #cfa200;">Yellow means too much for above, but normal for most people</span><br><span style="color: #ff0000;">Red means gamers only, higher strategy, full weight</span></span></span>` : 'N/A'}</div>
+<div><strong>Complexity:</strong> ${game.weight ? `<span style="color: ${(game.weightColor || '#008000') === '#cfa200' ? '#cfa200' : (game.weightColor || '#008000')};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: #008000;">Green means easy, ok for non-gamers/kids</span><br><span style="color: #cfa200;">Yellow means too much for above, but normal for most people</span><br><span style="color: #ff0000;">Red means gamers only, higher strategy, full weight</span></span></span>` : 'N/A'}</div>
                ${game.bestPlayerCount && game.bestPlayerCount.length > 0 ? `<div><strong>Best with:</strong> ${game.bestPlayerCount.join(', ')} players</div>` : ''}
                ${game.bggUrl ? `<div><strong>BoardGameGeek:</strong> <a href="${game.bggUrl}" target="_blank" style="color: #667eea;">View on BGG</a></div>` : ''}
            </div>
@@ -3502,12 +3559,29 @@ ${game.dateAcquired && !this.isSharedView ? `
                    ` : ''}
                </div>
                
-               <div class="modal-right-column">
+<div class="modal-right-column">
+${game.shortDescription ? `
+    <div style="margin-bottom: 1rem;">
+        <strong>Description:</strong> ${game.shortDescription}
+        ${game.fullDescription ? `
+            <span style="color: #667eea; cursor: pointer; margin-left: 5px;" onclick="
+                const fullDesc = this.nextElementSibling;
+                const isShowing = fullDesc.style.display !== 'none';
+                fullDesc.style.display = isShowing ? 'none' : 'block';
+                this.textContent = isShowing ? 'More' : 'Less';
+            ">More</span>
+            <div style="display: none; margin-top: 0.5rem; padding: 0.5rem; background: #f8f9fa; border-radius: 4px;">
+                ${game.fullDescription}
+            </div>
+        ` : ''}
+    </div>
+` : ''}
+
 ${game.designers && game.designers.length > 0 ? `
-                       <div style="margin-bottom: 1rem;">
-                           <strong>Designers:</strong> ${game.designers.join(', ')}
-                       </div>
-                   ` : ''}
+    <div style="margin-bottom: 1rem;">
+        <strong>Designers:</strong> ${game.designers.join(', ')}
+    </div>
+` : ''}
                    
 ${game.designerNationality && game.designerNationality.length > 0 ? `
                        <div style="margin-bottom: 1rem;">
