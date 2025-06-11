@@ -2521,7 +2521,10 @@ toggleEditMode() {
            if (!game) return;
 
 game.name = card.querySelector('[data-field="name"]').value;
-           game.year = parseInt(card.querySelector('[data-field="year"]').value) || null;
+game.bggUrl = card.querySelector('[data-field="bggUrl"]').value;
+game.shortDescription = card.querySelector('[data-field="shortDescription"]').value;
+game.fullDescription = card.querySelector('[data-field="fullDescription"]').value;
+game.year = parseInt(card.querySelector('[data-field="year"]').value) || null;
 game.dateAcquired = card.querySelector('[data-field="dateAcquired"]').value || '1991-11-19';
            game.players.min = parseInt(card.querySelector('[data-field="players.min"]').value) || 1;
            game.players.max = parseInt(card.querySelector('[data-field="players.max"]').value) || 1;
@@ -3088,15 +3091,22 @@ const sortField = document.getElementById('sort-field').value;
            const thumbnail = item.querySelector('thumbnail')?.textContent || '';
 const images = [primaryImage, thumbnail].filter(img => img && img !== primaryImage || img === primaryImage);
 
-const shortDescription = item.querySelector('description')?.textContent?.trim() || '';
-const fullDescriptionNodes = xmlDoc.querySelectorAll('item description');
-let fullDescription = '';
-if (fullDescriptionNodes.length > 0) {
-    const descText = fullDescriptionNodes[0].textContent || '';
-    // Extract the longer description that typically starts after the short one
-    const sentences = descText.split('. ');
+// The short description is typically in a separate field or the first sentence
+let shortDescription = '';
+let fullDescription = item.querySelector('description')?.textContent?.trim() || '';
+
+// Try to extract short description from the full description (first sentence or two)
+if (fullDescription) {
+    const sentences = fullDescription.split('. ');
     if (sentences.length > 1) {
-        fullDescription = sentences.slice(1).join('. ').trim();
+        shortDescription = sentences[0] + '.';
+        // Remove the short description from full description if it's at the beginning
+        if (fullDescription.startsWith(shortDescription)) {
+            fullDescription = fullDescription.substring(shortDescription.length).trim();
+        }
+    } else {
+        shortDescription = fullDescription;
+        fullDescription = '';
     }
 }
 
@@ -3353,19 +3363,33 @@ return `
 
 
 <div class="edit-section">
-                       <h4>Basic Information</h4>
-                       <div class="edit-row">
-                           <div class="edit-group">
-                               <label>Game Name</label>
-                               <input type="text" class="edit-field" data-field="name" value="${game.name || ''}">
-                           </div>
-                       </div>
-                       <div class="edit-row">
-                           <div class="edit-group">
-                               <label>Notes</label>
-                               <textarea class="edit-field" data-field="notes" rows="3" placeholder="Your thoughts about this game...">${game.notes || ''}</textarea>
-                           </div>
-                       </div>
+    <h4>Basic Information</h4>
+    <div class="edit-row">
+        <div class="edit-group">
+            <label>Game Name</label>
+            <input type="text" class="edit-field" data-field="name" value="${game.name || ''}">
+        </div>
+        <div class="edit-group">
+            <label>BoardGameGeek URL</label>
+            <input type="url" class="edit-field" data-field="bggUrl" value="${game.bggUrl || ''}" placeholder="https://boardgamegeek.com/boardgame/...">
+        </div>
+    </div>
+<div class="edit-row">
+    <div class="edit-group">
+        <label>Notes</label>
+        <textarea class="edit-field" data-field="notes" rows="3" placeholder="Your thoughts about this game...">${game.notes || ''}</textarea>
+    </div>
+</div>
+<div class="edit-row">
+    <div class="edit-group">
+        <label>Short Description</label>
+        <textarea class="edit-field" data-field="shortDescription" rows="2" placeholder="Brief game description...">${game.shortDescription || ''}</textarea>
+    </div>
+    <div class="edit-group">
+        <label>Full Description</label>
+        <textarea class="edit-field" data-field="fullDescription" rows="4" placeholder="Full game description...">${game.fullDescription || ''}</textarea>
+    </div>
+</div>
                        <div class="edit-row">
 <div class="edit-group">
                                <label>Year Published</label>
