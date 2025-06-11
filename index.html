@@ -3091,22 +3091,37 @@ const sortField = document.getElementById('sort-field').value;
            const thumbnail = item.querySelector('thumbnail')?.textContent || '';
 const images = [primaryImage, thumbnail].filter(img => img && img !== primaryImage || img === primaryImage);
 
-// The short description is typically in a separate field or the first sentence
-let shortDescription = '';
-let fullDescription = item.querySelector('description')?.textContent?.trim() || '';
+// BGG XML API provides description in the <description> field
+const rawDescription = item.querySelector('description')?.textContent?.trim() || '';
 
-// Try to extract short description from the full description (first sentence or two)
-if (fullDescription) {
-    const sentences = fullDescription.split('. ');
-    if (sentences.length > 1) {
-        shortDescription = sentences[0] + '.';
-        // Remove the short description from full description if it's at the beginning
-        if (fullDescription.startsWith(shortDescription)) {
-            fullDescription = fullDescription.substring(shortDescription.length).trim();
-        }
+// Parse the description - BGG typically has short description first, then longer text
+let shortDescription = '';
+let fullDescription = '';
+
+if (rawDescription) {
+    // Try to split on common separators or detect if it's just a short description
+    const paragraphs = rawDescription.split(/\n\n|\r\n\r\n/);
+    
+    if (paragraphs.length > 1) {
+        // Multiple paragraphs - first is short, rest is long
+        shortDescription = paragraphs[0].trim();
+        fullDescription = paragraphs.slice(1).join('\n\n').trim();
     } else {
-        shortDescription = fullDescription;
-        fullDescription = '';
+        // Single paragraph - check length to determine if it's short or long
+        if (rawDescription.length < 150) {
+            // Short description only
+            shortDescription = rawDescription;
+        } else {
+            // Long description - try to extract first sentence as short
+            const sentences = rawDescription.split('. ');
+            if (sentences.length > 1 && sentences[0].length < 100) {
+                shortDescription = sentences[0] + '.';
+                fullDescription = sentences.slice(1).join('. ').trim();
+            } else {
+                // Use whole thing as full description
+                fullDescription = rawDescription;
+            }
+        }
     }
 }
 
@@ -3369,10 +3384,6 @@ return `
             <label>Game Name</label>
             <input type="text" class="edit-field" data-field="name" value="${game.name || ''}">
         </div>
-        <div class="edit-group">
-            <label>BoardGameGeek URL</label>
-            <input type="url" class="edit-field" data-field="bggUrl" value="${game.bggUrl || ''}" placeholder="https://boardgamegeek.com/boardgame/...">
-        </div>
     </div>
 <div class="edit-row">
     <div class="edit-group">
@@ -3460,6 +3471,10 @@ return `
                                <label>Publisher Country</label>
                                <input type="text" class="edit-field" data-field="publisherCountry" value="${Array.isArray(game.publisherCountry) ? game.publisherCountry.join(', ') : (game.publisherCountry || '')}" placeholder="Comma separated">
                            </div>
+        <div class="edit-group">
+            <label>BoardGameGeek URL</label>
+            <input type="url" class="edit-field" data-field="bggUrl" value="${game.bggUrl || ''}" placeholder="https://boardgamegeek.com/boardgame/...">
+        </div>
                        </div>
                    </div>
 
