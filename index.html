@@ -1966,6 +1966,24 @@ if (filters.typeContains && document.getElementById('type-contains-filter')) {
     document.getElementById('type-contains-filter').value = filters.typeContains;
     document.getElementById('type-contains-filter-type').value = filters.typeContainsType || 'contains';
 }
+if (filters.designer) {
+    document.getElementById('designer-filter').value = filters.designer;
+}
+if (filters.designerNationality) {
+    document.getElementById('designer-nationality-filter').value = filters.designerNationality;
+}
+if (filters.artist) {
+    document.getElementById('artist-filter').value = filters.artist;
+}
+if (filters.publisherDropdown) {
+    document.getElementById('publisher-dropdown-filter').value = filters.publisherDropdown;
+}
+if (filters.category) {
+    document.getElementById('category-filter').value = filters.category;
+}
+if (filters.mechanisms) {
+    document.getElementById('mechanisms-filter').value = filters.mechanisms;
+}
 }
 
 bindEvents() {
@@ -4025,9 +4043,6 @@ const allGames = Array.from(this.games.values()).map(game => {
         delete sharedGame.dateAcquired;
         return sharedGame;
     });
-// Get current filter values from UI
-    this.updateFilters();
-    
 // Get current filter and sort values from UI
 this.updateFilters();
 
