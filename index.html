@@ -1946,9 +1946,15 @@ if (filters.description) {
         document.getElementById('category-contains-filter').value = filters.categoryContains;
         document.getElementById('category-contains-filter-type').value = filters.categoryContainsType || 'contains';
     }
-    if (filters.mechanisms) {
-        document.getElementById('mechanisms-filter').value = filters.mechanisms;
-    }
+if (filters.mechanisms) {
+    document.getElementById('mechanisms-filter').value = filters.mechanisms;
+}
+if (filters.notesType) {
+    document.getElementById('notes-filter-type').value = filters.notesType;
+}
+if (filters.descriptionType) {
+    document.getElementById('description-filter-type').value = filters.descriptionType;
+}
 if (filters.mechanismsContains) {
     document.getElementById('mechanisms-contains-filter').value = filters.mechanismsContains;
     document.getElementById('mechanisms-contains-filter-type').value = filters.mechanismsContainsType || 'contains';
@@ -2041,7 +2047,7 @@ const filterInputs = [
     'artist-filter', 'artist-contains-filter', 'designer-nationality-contains-filter', 
     'designer-nationality-filter', 'publisher-country-filter', 'min-weight', 'max-weight',
 'best-player-count-filter', 'notes-filter', 'description-filter',
-'category-contains-filter', 'mechanisms-contains-filter'
+'category-contains-filter', 'mechanisms-contains-filter', 'type-contains-filter'
 ];
        
        filterInputs.forEach(id => {
@@ -2124,6 +2130,14 @@ if (categoryFilter) {
 const mechanismsFilter = document.getElementById('mechanisms-filter');
 if (mechanismsFilter) {
     mechanismsFilter.addEventListener('change', () => {
+        this.updateFilters();
+        this.applyFilters();
+    });
+}
+
+const typeFilter = document.getElementById('type-filter');
+if (typeFilter) {
+    typeFilter.addEventListener('change', () => {
         this.updateFilters();
         this.applyFilters();
     });
@@ -2844,18 +2858,27 @@ document.getElementById('publisher-country-filter').value = '';
 document.getElementById('description-filter').value = '';
 document.getElementById('category-contains-filter').value = '';
 document.getElementById('mechanisms-contains-filter').value = '';
+document.getElementById('designer-filter').value = '';
+document.getElementById('designer-nationality-filter').value = '';
+document.getElementById('artist-filter').value = '';
+document.getElementById('publisher-dropdown-filter').value = '';
+document.getElementById('category-filter').value = '';
+document.getElementById('mechanisms-filter').value = '';
+document.getElementById('notes-filter').value = '';
+document.getElementById('notes-filter-type').value = 'contains';
+document.getElementById('description-filter-type').value = 'contains';
 
 // Reset dynamic card fields when clearing filters
-       this.dynamicCardFields = [];
-       document.getElementById('min-weight').value = '';
-       document.getElementById('max-weight').value = '';
-       document.getElementById('best-player-count-filter').value = '';
-       
-       document.getElementById('custom-filters-container').innerHTML = '';
-       
-       this.currentFilters = {};
-       this.customFilters = [];
-       this.applyFilters();
+this.dynamicCardFields = [];
+document.getElementById('min-weight').value = '';
+document.getElementById('max-weight').value = '';
+document.getElementById('best-player-count-filter').value = '';
+
+document.getElementById('custom-filters-container').innerHTML = '';
+
+this.currentFilters = {};
+this.customFilters = [];
+this.applyFilters();
    }
 
    applyFilters() {
