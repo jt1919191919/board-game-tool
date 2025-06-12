@@ -1112,23 +1112,6 @@ button#clear-filters {
     </div>
 </div>
 <div class="filter-group">
-    <label>Type</label>
-    <select id="type-filter">
-        <option value="">All Types</option>
-    </select>
-</div>
-<div class="filter-group">
-    <label>Type Contains</label>
-    <div style="display: flex; gap: 0.5rem;">
-        <select id="type-contains-filter-type">
-            <option value="contains">Contains</option>
-            <option value="exact">Exact</option>
-            <option value="not-contains">Does not contain</option>
-        </select>
-        <input type="text" id="type-contains-filter" placeholder="Type name">
-    </div>
-</div>
-<div class="filter-group">
     <label>Category</label>
     <select id="category-filter">
         <option value="">All Categories</option>
@@ -1277,10 +1260,6 @@ button#clear-filters {
     </div>
 </div>
 <div class="form-row">
-    <div class="form-group">
-        <label>Type</label>
-        <input type="text" id="game-type" placeholder="Base Game, Expansion, etc. (comma separated)">
-    </div>
     <div class="form-group">
         <label>Category</label>
         <input type="text" id="game-category" placeholder="Strategy, Family, Party, etc. (comma separated)">
@@ -1787,10 +1766,18 @@ async checkForSharedView() {
                 }
                 
 // Set shared view mode
-                this.isSharedView = true;
-                this.originalSharedFilters = JSON.parse(JSON.stringify(config.filters || {}));
-                this.originalSharedSortField = config.sortField || 'name';
-                this.originalSharedSortOrder = config.sortOrder || 'asc';
+this.isSharedView = true;
+this.originalSharedFilters = JSON.parse(JSON.stringify(config.filters || {}));
+this.originalSharedSortField = config.sortField || 'name';
+this.originalSharedSortOrder = config.sortOrder || 'asc';
+
+// Apply sort settings to UI
+if (config.sortField) {
+    document.getElementById('sort-field').value = config.sortField;
+}
+if (config.sortOrder) {
+    document.getElementById('sort-order').value = config.sortOrder;
+}
                 
                 console.log(`Successfully loaded shared collection with ${config.games.length} games`);
                 return true;
@@ -1844,13 +1831,21 @@ async checkForSharedView() {
                 }
                 
 // Set shared view mode
-                this.isSharedView = true;
-                this.originalSharedFilters = JSON.parse(JSON.stringify(config.filters || {}));
-                this.originalSharedSortField = config.sortField || 'name';
-                this.originalSharedSortOrder = config.sortOrder || 'asc';
-                
-                console.log(`Successfully loaded shared collection with ${config.games.length} games`);
-                return true;
+this.isSharedView = true;
+this.originalSharedFilters = JSON.parse(JSON.stringify(config.filters || {}));
+this.originalSharedSortField = config.sortField || 'name';
+this.originalSharedSortOrder = config.sortOrder || 'asc';
+
+// Apply sort settings to UI
+if (config.sortField) {
+    document.getElementById('sort-field').value = config.sortField;
+}
+if (config.sortOrder) {
+    document.getElementById('sort-order').value = config.sortOrder;
+}
+
+console.log(`Successfully loaded shared collection with ${config.games.length} games`);
+return true;
             } else {
                 console.log('No games found in shared config');
             }
@@ -1954,10 +1949,17 @@ if (filters.description) {
     if (filters.mechanisms) {
         document.getElementById('mechanisms-filter').value = filters.mechanisms;
     }
-    if (filters.mechanismsContains) {
-        document.getElementById('mechanisms-contains-filter').value = filters.mechanismsContains;
-        document.getElementById('mechanisms-contains-filter-type').value = filters.mechanismsContainsType || 'contains';
-    }
+if (filters.mechanismsContains) {
+    document.getElementById('mechanisms-contains-filter').value = filters.mechanismsContains;
+    document.getElementById('mechanisms-contains-filter-type').value = filters.mechanismsContainsType || 'contains';
+}
+if (filters.type && document.getElementById('type-filter')) {
+    document.getElementById('type-filter').value = filters.type;
+}
+if (filters.typeContains && document.getElementById('type-contains-filter')) {
+    document.getElementById('type-contains-filter').value = filters.typeContains;
+    document.getElementById('type-contains-filter-type').value = filters.typeContainsType || 'contains';
+}
 }
 
 bindEvents() {
@@ -2386,6 +2388,9 @@ categoryContainsType: document.getElementById('category-contains-filter-type').v
 mechanisms: document.getElementById('mechanisms-filter').value,
 mechanismsContains: document.getElementById('mechanisms-contains-filter').value,
 mechanismsContainsType: document.getElementById('mechanisms-contains-filter-type').value,
+type: document.getElementById('type-filter') ? document.getElementById('type-filter').value : '',
+typeContains: document.getElementById('type-contains-filter') ? document.getElementById('type-contains-filter').value : '',
+typeContainsType: document.getElementById('type-contains-filter-type') ? document.getElementById('type-contains-filter-type').value : 'contains',
 publisherType: document.getElementById('publisher-filter-type').value
        };
 
@@ -4000,17 +4005,20 @@ const allGames = Array.from(this.games.values()).map(game => {
 // Get current filter values from UI
     this.updateFilters();
     
-    const config = {
-        filters: this.currentFilters,
-        visibleFields: this.visibleFields,
-        games: allGames,
-        viewMode: 'gallery',
-        sortField: document.getElementById('sort-field').value,
-        sortOrder: document.getElementById('sort-order').value,
-        columns: this.currentColumns,
-        preferences: Object.fromEntries(this.gamePreferences),
-        sharedAt: new Date().toISOString()
-    };
+// Get current filter and sort values from UI
+this.updateFilters();
+
+const config = {
+    filters: this.currentFilters,
+    visibleFields: this.visibleFields,
+    games: allGames,
+    viewMode: 'gallery',
+    sortField: document.getElementById('sort-field').value,
+    sortOrder: document.getElementById('sort-order').value,
+    columns: this.currentColumns,
+    preferences: Object.fromEntries(this.gamePreferences),
+    sharedAt: new Date().toISOString()
+};
 
     try {
         // Create GitHub Gist
