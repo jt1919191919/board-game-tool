@@ -1346,6 +1346,12 @@ this.updateArtistFilter();
 this.updateCategoryFilter();
 this.updateMechanismsFilter();
 this.updateClearThumbsVisibility();
+
+// Apply shared filters to UI AFTER dropdowns are populated
+if (this.isSharedView && this.currentFilters) {
+    this.applyFiltersToUI(this.currentFilters);
+    console.log('Applied shared filters to UI after dropdown population');
+}
     
     console.log('About to apply filters...');
     this.applyFilters();
@@ -1751,7 +1757,7 @@ async checkForSharedView() {
 // Apply shared configuration
                 if (config.filters) {
                     this.currentFilters = config.filters;
-                    this.applyFiltersToUI(config.filters);
+                    // Don't apply filters to UI yet - will do this after dropdowns are populated
                     console.log('Applied shared filters:', config.filters);
                 }
                 if (config.columns) {
@@ -1816,7 +1822,7 @@ if (config.sortOrder) {
 // Apply shared configuration
                 if (config.filters) {
                     this.currentFilters = config.filters;
-                    this.applyFiltersToUI(config.filters);
+                    // Don't apply filters to UI yet - will do this after dropdowns are populated
                     console.log('Applied shared filters:', config.filters);
                 }
                 if (config.columns) {
