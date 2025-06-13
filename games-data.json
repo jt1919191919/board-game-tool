@@ -2107,9 +2107,66 @@
       ],
       "mechanisms": [],
       "customFields": {}
+    },
+    "1749849193848": {
+      "bggId": "1749849193848",
+      "bggUrl": "https://boardgamegeek.com/boardgame/245934/carpe-diem",
+      "name": "Carpe Diem",
+      "year": 2018,
+      "dateAcquired": "2021-01-04",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 75,
+        "max": 75
+      },
+      "weight": 2.5,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Stefan Feld"
+      ],
+      "artists": [
+        "Eric Elwell",
+        "Lalanda Hruschka"
+      ],
+      "publishers": [
+        "alea",
+        "Broadway Toys LTD",
+        "Maldito Games",
+        "Ravensburger"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/fsjopscDFCVArzU7fzhVxA__original/img/JJXwLsCeWj_8FOurLToKpdQuvpc=/0x0/filters:format(jpeg)/pic6183704.jpg",
+        "https://cf.geekdo-images.com/fsjopscDFCVArzU7fzhVxA__thumb/img/6Yu-lVdkDTrICD1y5ZqNmzHZEsc=/fit-in/200x150/filters:strip_icc()/pic6183704.jpg"
+      ],
+      "notes": "",
+      "description": "The players slip into the role of rich patricians in ancient Rome. Everyone is trying to build a lucrative city district to score as many prestige points as possible. The novel way to get to the individual buildings of a district combined with a large variety of score cards make for an unusual game with a large number of strategies. From the successful designer, Stefan Feld.&#10;&#10;",
+      "category": [
+        "Ancient"
+      ],
+      "mechanisms": [
+        "Area Movement",
+        "Contracts",
+        "End Game Bonuses",
+        "Open Drafting",
+        "Tile Placement",
+        "Turn Order: Progressive",
+        "Variable Set-up"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:12:55.903Z",
+  "lastModified": "2025-06-13T21:13:13.848Z",
   "version": "1.0"
 }
