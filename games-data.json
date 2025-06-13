@@ -3666,9 +3666,74 @@
         "Take That"
       ],
       "customFields": {}
+    },
+    "1749850118259": {
+      "bggId": "1749850118259",
+      "bggUrl": "https://boardgamegeek.com/boardgame/143986/cv",
+      "name": "CV",
+      "year": 2013,
+      "dateAcquired": "2020-06-10",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.8,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Filip Miłuński"
+      ],
+      "artists": [
+        "Piotr Socha"
+      ],
+      "publishers": [
+        "Gigamic",
+        "Granna",
+        "Belleville (Бельвіль)",
+        "Conclave Editora",
+        "cosaic",
+        "Devir",
+        "GeGe Co. Ltd.",
+        "Gém Klub Kft.",
+        "Heidelberger Spieleverlag",
+        "KADABRA",
+        "Passport Game Studios"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/WVXZAwPbX0LAYmXm4HiE6Q__original/img/uICa7YEQzyO4Ua2N7se200-lBvs=/0x0/filters:format(jpeg)/pic1968267.jpg",
+        "https://cf.geekdo-images.com/WVXZAwPbX0LAYmXm4HiE6Q__thumb/img/IqyCEZCOaYZyEwKdegYtJjKO5ME=/fit-in/200x150/filters:strip_icc()/pic1968267.jpg"
+      ],
+      "notes": "",
+      "description": "Have you ever wondered who you would have been if your life had gone differently? How would you direct your life if everything were up to you? Maybe you would be a magician, or travel around the world? Or maybe big business tempts you, and your goal would be to earn a million dollars?&#10;&#10;&quot;CV&quot; means curriculum vitae &ndash; your resume &ndash; and in the dice and card game CV, you will lead a character through his entire life, making many choices about friends, relations, jobs, and activities. Everything is possible: a dream job, new relationships, and skills. You can be whoever you want!&#10;&#10;Gameplay is built around the Yahtzee-style dice rolling and re-rolling system. On their dice, players are trying to roll sets of symbols that allow them to acquire cards; each round, these cards give benefits of some kind, such as new symbols and special abilities. At the end of the game, each kind of card scores points for the player.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Dice",
+        "Humor"
+      ],
+      "mechanisms": [
+        "Contracts",
+        "Dice Rolling",
+        "Hand Management",
+        "Open Drafting",
+        "Push Your Luck",
+        "Set Collection",
+        "Simulation"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:28:22.593Z",
+  "lastModified": "2025-06-13T21:28:38.259Z",
   "version": "1.0"
 }
