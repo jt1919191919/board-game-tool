@@ -1003,9 +1003,78 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1749776755045": {
+      "bggId": "1749776755045",
+      "bggUrl": "https://boardgamegeek.com/boardgame/10547/betrayal-house-hill",
+      "name": "Betrayal at House on the Hill",
+      "year": 2004,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.4,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Bruce Glassco",
+        "Rob Daviau",
+        "Bill McQuillan",
+        "Mike Selinker",
+        "Teeuwynn Woodruff"
+      ],
+      "artists": [
+        "Dennis Crabapple McClain",
+        "Christopher Moeller",
+        "Peter Whitley"
+      ],
+      "publishers": [
+        "Avalon Hill",
+        "Wizards of the Coast",
+        "asmodee",
+        "Hasbro"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/lqmt2Oti_qJS65XqHcB8AA__original/img/7R6yYk8A2eUMmSDaxGjae5SceGI=/0x0/filters:format(png)/pic5146864.png",
+        "https://cf.geekdo-images.com/lqmt2Oti_qJS65XqHcB8AA__thumb/img/EDOmDbRhLy4za2PHkJ5IbhNxZmk=/fit-in/200x150/filters:strip_icc()/pic5146864.png"
+      ],
+      "notes": "",
+      "description": "Betrayal at House on the Hill quickly builds suspense and excitement as players explore a haunted mansion of their own 'design', encountering spirits and frightening omens that foretell their fate. With an estimated one hour playing time, Betrayal at House on the Hill is ideal for parties, family gatherings or casual fun with friends.&#10;&#10;Betrayal at House on the Hill is a tile game that allows players to lay out the haunted house room by room, tile by tile, creating a new thrilling game board every time. The game is designed for three to six people, each of whom plays one of six possible characters.&#10;&#10;Secretly, one of the characters betrays the rest of the party, and the innocent members of the party must defeat the traitor in their midst before it&rsquo;s too late! Betrayal at House on the Hill will appeal to any game player who enjoys a fun, suspenseful, and strategic game.&#10;&#10;Betrayal at House on the Hill includes detailed game pieces, including character cards, pre-painted plastic figures, and special tokens, all of which help create a spooky atmosphere and streamline game play.&#10;&#10;An updated reprint of Betrayal at House on the Hill was released on October 5, 2010.&#10;&#10;",
+      "category": [
+        "Adventure",
+        "Exploration",
+        "Horror",
+        "Miniatures"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Map Addition",
+        "Modular Board",
+        "Player Elimination",
+        "Role Playing",
+        "Storytelling",
+        "Team-Based Game",
+        "Traitor Game",
+        "Variable Player Powers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T01:05:46.084Z",
+  "lastModified": "2025-06-13T01:05:55.045Z",
   "version": "1.0"
 }
