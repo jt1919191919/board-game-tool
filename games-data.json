@@ -2724,9 +2724,66 @@
         "Solo / Solitaire Game"
       ],
       "customFields": {}
+    },
+    "1749849470406": {
+      "bggId": "1749849470406",
+      "bggUrl": "https://boardgamegeek.com/boardgame/316546/clever-cubed",
+      "name": "Clever Cubed",
+      "year": 2020,
+      "dateAcquired": "2022-04-14",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.4,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Wolfgang Warsch"
+      ],
+      "artists": [
+        "Leon Schiffer"
+      ],
+      "publishers": [
+        "Schmidt Spiele",
+        "999 Games",
+        "CMYK",
+        "Compaya.hu: Gamer Café Kft.",
+        "Stronghold Games",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/ksjSyTc0AY0M7CKLD6OA5w__original/img/KivWSWuu1M9OUvga-bmltHA9mRw=/0x0/filters:format(jpeg)/pic5929690.jpg",
+        "https://cf.geekdo-images.com/ksjSyTc0AY0M7CKLD6OA5w__thumb/img/iNPGRJGuD3nWLqqpW6A2fes34CE=/fit-in/200x150/filters:strip_icc()/pic5929690.jpg"
+      ],
+      "notes": "",
+      "description": "Clever hoch drei features the same gameplay as Ganz sch&ouml;n clever and Doppelt so clever, but with new categories in which to score &mdash; sometimes with several dice at the same time.&#10;&#10;Your goal: Choose dice, then place the numbers into the matching colored area, put together tricky chain-scoring opportunities, and rack up the points. The dice you don't use are as important as what you do because every die that's smaller than the chosen one can be used by the other players, keeping everyone in the game at all times.&#10;&#10;",
+      "category": [
+        "Dice",
+        "Number"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Paper-and-Pencil",
+        "Re-rolling and Locking",
+        "Solo / Solitaire Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:17:24.562Z",
+  "lastModified": "2025-06-13T21:17:50.406Z",
   "version": "1.0"
 }
