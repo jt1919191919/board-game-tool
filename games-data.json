@@ -2050,9 +2050,66 @@
         "Worker Placement"
       ],
       "customFields": {}
+    },
+    "1749849175903": {
+      "bggId": "1749849175903",
+      "bggUrl": "https://boardgamegeek.com/boardgame/130882/cardline-animals",
+      "name": "Cardline: Animals",
+      "year": 2012,
+      "dateAcquired": "2023-05-21",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Frédéric Henry"
+      ],
+      "artists": [
+        "Gaël Lannurien"
+      ],
+      "publishers": [
+        "asmodee",
+        "Bombyx",
+        "Asterion Press",
+        "Gém Klub Kft.",
+        "GoKids 玩樂小子",
+        "Happy Baobab",
+        "Hobby Japan",
+        "Monolith Board Games",
+        "Rebel Sp. z o.o.",
+        "REXhry",
+        "Rozum"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/UuNZgbBvw-o6mboCwn5t-g__original/img/Qb0ruAAN7OT7dLWlCT5DWIwI1Ss=/0x0/filters:format(jpeg)/pic3154455.jpg",
+        "https://cf.geekdo-images.com/UuNZgbBvw-o6mboCwn5t-g__thumb/img/Qj0gNK8qvKuh8bXbJQSGcnZ_qiw=/fit-in/200x150/filters:strip_icc()/pic3154455.jpg"
+      ],
+      "notes": "",
+      "description": "Cardline: Animals is a card game played with 110 cards. Both sides of each card depict an animal, its name, and its class (amphibian, mammal, etc.), while its average length, weight, and lifespan are printed on only one side of the card. For each game, players decide before playing whether they're comparing animal lengths, weights, or lifespans.&#10;&#10;At the start of the game, each player places a number of animal cards on the table in front of her with the characteristics hidden. One card is placed in the center of the table with its characteristics revealed. Players then take turns placing a card from their tableau in a row on the table; a player can place a card between any two other cards. After placing the card, the player reveals the characteristics on it. If the card was placed correctly &ndash; that is, with the particular characteristic in numerical order compared to all other cards on the table &ndash; the card stays in place; otherwise the card is removed from play and the player takes another card from the deck and adds it to her tableau.&#10;&#10;The first player to get rid of all her cards by placing them correctly wins. If multiple players go out in the same round, then everyone else is eliminated from play and each of those players are dealt one more card for another round of play. If only one player has no cards after a bonus round, she wins; otherwise play continues until a single player goes out.&#10;&#10;",
+      "category": [
+        "Animals",
+        "Card Game",
+        "Educational"
+      ],
+      "mechanisms": [],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:12:39.793Z",
+  "lastModified": "2025-06-13T21:12:55.903Z",
   "version": "1.0"
 }
