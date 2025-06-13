@@ -2893,9 +2893,80 @@
         "Square Grid"
       ],
       "customFields": {}
+    },
+    "1749849533479": {
+      "bggId": "1749849533479",
+      "bggUrl": "https://boardgamegeek.com/boardgame/11971/cockroach-poker",
+      "name": "Cockroach Poker",
+      "year": 2004,
+      "dateAcquired": "2025-02-20",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Jacques Zeimet"
+      ],
+      "artists": [
+        "Rolf Vogt"
+      ],
+      "publishers": [
+        "Drei Magier Spiele",
+        "999 Games",
+        "ADC Blackfire Entertainment",
+        "Coiledspring Games",
+        "Competo / Marektoy",
+        "Corfix",
+        "Devir",
+        "G3",
+        "Gém Klub Kft.",
+        "Gigamic",
+        "Kod Kod",
+        "Korea Boardgames",
+        "Lanlalen",
+        "Lion Rampant Imports",
+        "Möbius Games",
+        "Oya",
+        "Rebel Sp. z o.o.",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/lHadyVLPUQfNz_qV6MMp_Q__original/img/qN8xusrxWyTJfgq1gTUWrdE4B2I=/0x0/filters:format(jpeg)/pic3218988.jpg",
+        "https://cf.geekdo-images.com/lHadyVLPUQfNz_qV6MMp_Q__thumb/img/zWiETTyIp4Xo1o0l2mtOdt3G-ls=/fit-in/200x150/filters:strip_icc()/pic3218988.jpg"
+      ],
+      "notes": "",
+      "description": "Cockroach Poker is a reverse set collection game that has nothing to do with poker &ndash; except that the game is all about bluffing, with cards that show cockroaches, rats and stink bugs. The goal is to force another player to collect 4 of any one type of critter.&#10;&#10;The deck includes 64 cards, with eight copies of eight types of critters. To set up the game, shuffle the deck and deal the cards out to players.&#10;&#10;On a turn, a player takes one card from their hand, lays it face down on the table, slides it to a player of their choice, and declares a type of critter, e.g., &quot;Stink bug&quot;. The player receiving the card either&#10;&#10;&#10;     Accepts the card, says either &quot;true&quot; or &quot;false&quot;, then reveals the card. If this player is wrong in their claim, they keep the card on the table in front of them face up; if they are right, the player who gave them the card places it face up before them.&#10;&#10;&#10;&#10;     Peeks at the card, then passes it face down to another player, either saying the original type of critter or saying a new type. This new player again has the choice of accepting the card or passing it, unless the card has already been seen by all other players in which case the player must take the first option.&#10;&#10;&#10;Whoever lost a challenge and had to place the card before them on the table begins the next round.&#10;&#10;The game ends when a player has no cards to pass on their turn or when a player has four cards of the same critter on the table in front of them. In either case, this player loses and everyone else wins.&#10;&#10;",
+      "category": [
+        "Bluffing",
+        "Card Game",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Set Collection",
+        "Single Loser Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:18:20.874Z",
+  "lastModified": "2025-06-13T21:18:53.479Z",
   "version": "1.0"
 }
