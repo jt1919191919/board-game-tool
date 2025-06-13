@@ -2414,9 +2414,62 @@
         "Turn Order: Progressive"
       ],
       "customFields": {}
+    },
+    "1749849304438": {
+      "bggId": "1749849304438",
+      "bggUrl": "https://boardgamegeek.com/boardgame/194286/catacombs-castles",
+      "name": "Catacombs & Castles",
+      "year": 2017,
+      "dateAcquired": "2020-08-13",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.3,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "designers": [
+        "Aron West"
+      ],
+      "artists": [
+        "Kwanchai Moriya"
+      ],
+      "publishers": [
+        "Elzra",
+        "Schwerkraft-Verlag"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/IwdfRd0Ggv97Z1uRUn2eQA__original/img/YFUPoh_RNm_QANdPTlZXsffKwNY=/0x0/filters:format(jpeg)/pic3478320.jpg",
+        "https://cf.geekdo-images.com/IwdfRd0Ggv97Z1uRUn2eQA__thumb/img/Sy94jPwpV6xKlwck3oGH1_4CiWw=/fit-in/200x150/filters:strip_icc()/pic3478320.jpg"
+      ],
+      "notes": "",
+      "description": "Catacombs and Castles is a standalone game featuring a &quot;Catacomb&quot; team of heroes vs a &quot;Castle&quot; team of heroes. The game serves as an introduction to the Catacombs world and dexterity game system, so it features simplified, fast game play with some new mechanisms.&#10;&#10;As in Catacombs, players flick pieces around a board to simulate combat, with cards and special powers dictating how you can move and attack.&#10;&#10;Catacombs and Castles supports up to eight players competitively (in &quot;Team Mode&quot;) and up to four co-operatively (players teamed against an 'Overseer' player called &quot;Boss Mode&quot;). The game is compatible with the third edition of Catacombs, serving as an expansion for that title with a new board, and will be compatible with the Catacombs: Wyverns of Wylemuir expansion.&#10;&#10;",
+      "category": [
+        "Action / Dexterity",
+        "Adventure",
+        "Fantasy",
+        "Fighting"
+      ],
+      "mechanisms": [
+        "Flicking",
+        "Team-Based Game",
+        "Variable Player Powers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:14:33.246Z",
+  "lastModified": "2025-06-13T21:15:04.439Z",
   "version": "1.0"
 }
