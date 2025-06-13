@@ -1363,9 +1363,89 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1749776887409": {
+      "bggId": "1749776887409",
+      "bggUrl": "https://boardgamegeek.com/boardgame/170216/blood-rage",
+      "name": "Blood Rage",
+      "year": 2015,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.9,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Eric M. Lang"
+      ],
+      "artists": [
+        "Henning Ludvigsen",
+        "Thierry Masson",
+        "Mike McVey",
+        "Adrian Smith"
+      ],
+      "publishers": [
+        "Cool Mini Or Not",
+        "Arclight Games",
+        "asmodee",
+        "Asterion Press",
+        "BoardM Factory",
+        "CMON Global Limited",
+        "CrowD Games",
+        "Delta Vision Publishing",
+        "Edge Entertainment",
+        "Fantasmagoria",
+        "Galápagos Jogos",
+        "Game Harbor",
+        "Geekach Games",
+        "Guillotine Games",
+        "MIPL",
+        "Portal Games",
+        "REXhry"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/HkZSJfQnZ3EpS214xtuplg__original/img/Myy6IPDJDzLoPdXrPXVZcddBQoQ=/0x0/filters:format(jpeg)/pic2439223.jpg",
+        "https://cf.geekdo-images.com/HkZSJfQnZ3EpS214xtuplg__thumb/img/NLhVdU8xazrgS5dA6nVCYmN2DNI=/fit-in/200x150/filters:strip_icc()/pic2439223.jpg"
+      ],
+      "notes": "",
+      "description": "&quot;Life is Battle; Battle is Glory; Glory is ALL&quot;&#10;&#10;In Blood Rage, players control the warriors, leader, and ship of their own Viking clan. Ragnar&ouml;k has come and it&rsquo;s the end of the world! It&rsquo;s the Vikings&rsquo; last chance to go down in a blaze of glory and secure their places in Valhalla at Odin&rsquo;s side! As a Viking you can pursue one of many pathways to glory. You can: invade and pillage the land for its rewards; crush your opponents in battle: fulfill quests: increase your clan's stats: or even die gloriously in battle or from Ragnar&ouml;k, the ultimate inescapable doom.&#10;&#10;Most player strategies are guided by the cards drafted at the beginning of each of the three game rounds (or Ages). These &ldquo;Gods&rsquo; Gifts&rdquo; grant you numerous boons for your clan including: increased Viking strength and devious battle strategies, upgrades to your clan, or even the aid of legendary creatures from Norse mythology. They may also include various quests, from dominating specific provinces, to having many of your Vikings sent to Valhalla. Most of these cards are aligned with one of the Norse gods, hinting at the kind of strategy they support. For example, Thor gives more glory for victory in battle. Heimdall grants you foresight and surprises. Tyr strengthens you in battle, while the trickster Loki actually rewards you for losing battles or punishes the winner.&#10;&#10;Players must choose their strategies carefully during the draft phase, but also be ready to adapt and react to their opponents&rsquo; strategies as the action phase unfolds. Battles are decided not only by the strength of the figures involved but also by cards played in secret. By observing your opponent&rsquo;s actions and allegiances to specific gods you may predict what card they are likely to play, and plan accordingly. Winning battles is not always the best course of action, as the right card can get you even more rewards by being crushed. The only losing strategy in Blood Rage is to shy away from battle and a glorious death!&#10;&#10;",
+      "category": [
+        "Fantasy",
+        "Fighting",
+        "Miniatures",
+        "Mythology"
+      ],
+      "mechanisms": [
+        "Action Points",
+        "Area Majority / Influence",
+        "Area Movement",
+        "Card Play Conflict Resolution",
+        "Closed Drafting",
+        "Hand Management",
+        "Map Reduction",
+        "Memory",
+        "Open Drafting",
+        "Simultaneous Action Selection",
+        "Take That",
+        "Turn Order: Progressive"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T01:07:49.780Z",
+  "lastModified": "2025-06-13T01:08:07.409Z",
   "version": "1.0"
 }
