@@ -1173,9 +1173,56 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1749776806841": {
+      "bggId": "1749776806841",
+      "bggUrl": "https://boardgamegeek.com/boardgame/379300/block-party",
+      "name": "Block Party",
+      "year": 2023,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        5,
+        6
+      ],
+      "designers": [
+        "Ed Naujokas"
+      ],
+      "artists": [
+        "Beks Barnett"
+      ],
+      "publishers": [
+        "Big Potato Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/hh2t_DaRMVVsTPAIJwPLOA__original/img/rTolVvQDqUum6bhvXyZpSIYpf0g=/0x0/filters:format(jpeg)/pic7321926.jpg",
+        "https://cf.geekdo-images.com/hh2t_DaRMVVsTPAIJwPLOA__thumb/img/l36qRZc6jXQEkYdZfW0JlLDzBLo=/fit-in/200x150/filters:strip_icc()/pic7321926.jpg"
+      ],
+      "notes": "",
+      "description": "Ready, set, BUILD! Gather your friends and family and get ready to build your blocks as best you can or take a wild guess at some cube-tastic creations. One person will be the guesser while everyone else picks a secret item from their list and gets building before the timer runs out.&#10;&#10;On each round one player will be the Guesser and the rest will be Builders.&#10;&#10;Turn over a challenge card for the round, for example: 'Build the tallest object' or 'Use the fewest colours'. All the builders then secretly pick an object to build on their card. Then start the timer and get building, using the colourful wooden blocks in the middle of the table.&#10;&#10;Once the time is up the Guesser then goes around the table attempting to figure out what the others have built. Points are awarded for correct guesses (and sneaky steals!). The Guesser token then moves to the next player and the rounds continue.&#10;&#10;There is also a co-operative 2 player version of the game.&#10;&#10;&mdash;description from the designer&#10;&#10;",
+      "category": [
+        "Action / Dexterity",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Pattern Recognition",
+        "Semi-Cooperative Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T01:06:27.064Z",
+  "lastModified": "2025-06-13T01:06:46.841Z",
   "version": "1.0"
 }
