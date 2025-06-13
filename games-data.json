@@ -2273,9 +2273,77 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1749849245902": {
+      "bggId": "1749849245902",
+      "bggUrl": "https://boardgamegeek.com/boardgame/84876/castles-burgundy",
+      "name": "The Castles of Burgundy",
+      "year": 2011,
+      "dateAcquired": "2020-06-07",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 3,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Stefan Feld"
+      ],
+      "artists": [
+        "Julien Delval",
+        "Harald Lieske"
+      ],
+      "publishers": [
+        "alea",
+        "Ravensburger",
+        "Broadway Toys LTD",
+        "Giochi Uniti",
+        "Grow Jogos e Brinquedos",
+        "Hobby World",
+        "Maldito Games",
+        "Rebel Sp. z o.o."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/sH2YTQ10dHj1ibfS-KKtGA__original/img/L_gsMsuhbAe0kyq1QLAmyeKOeSs=/0x0/filters:format(jpeg)/pic8745814.jpg",
+        "https://cf.geekdo-images.com/sH2YTQ10dHj1ibfS-KKtGA__thumb/img/f5zFXdTcH9RNY0iMNBppd8D-_r0=/fit-in/200x150/filters:strip_icc()/pic8745814.jpg"
+      ],
+      "notes": "",
+      "description": "For the 2019 edition see The Castles of Burgundy.&#10;&#10;The game is set in the Burgundy region of High Medieval France. Each player takes on the role of an aristocrat, originally controlling a small princedom. While playing they aim to build settlements and powerful castles, practice trade along the river, exploit silver mines, and use the knowledge of travelers.&#10;&#10;The game is about players taking settlement tiles from the game board and placing them into their princedom which is represented by the player board. Every tile has a function that starts when the tile is placed in the princedom. The princedom itself consists of several regions, each of which demands its own type of settlement tile.&#10;&#10;The game is played in five phases, each consisting of five rounds.  Each phase begins with the game board stocked with settlement tiles and goods tiles.  At the beginning of each round all players roll their two dice, and the player who is currently first in turn order rolls a goods placement die.  A goods tile is made available on the game board according to the roll of the goods die.  During each round players take their turns in the current turn order.  During his turn, a player may perform any two of the four possible types of actions: 1) take a settlement tile from the numbered depot on the game board corresponding to one of his dice and place it in the staging area on his player board, 2) take a settlement tile from the staging area of his player board to a space on his player board with a number matching one of his dice in the corresponding region for the type of tile and adjacent to a previously placed settlement tile, 3) deliver goods with a number matching one of his dice, or 4) take worker tokens which allow the player to adjust the roll of his dice.  In addition to these actions a player may buy a settlement tile from the central depot on the game board and place it in the staging area on his player board.  If an action triggers the award of victory points, those points are immediately recorded.  Each settlement tile offers a benefit, additional actions, additional money, advancement on the turn order track, more goods tiles, die roll adjustment or victory points.  Bonus victory points are awarded for filling a region with settlement tiles.&#10;&#10;The game ends after the fifth phase is played to completion.  Victory points are awarded for unused money and workers, and undelivered goods.  Bonus victory points from certain settlement tiles are awarded at the end of the game.&#10;&#10;The player with the most victory points wins.&#10;&#10;The rules include basic and advanced versions.&#10;&#10;This game is #14 in the Alea big box series.&#10;&#10;There is a separate BGG entry for the 2019 edition: The Castles of Burgundy.  The 2019 edition includes, alongside the base game, eight expansions, seven of which had already been released separately as promotional items and one new to the 2019 release.&#10;&#10;UPC 4005556812431&#10;&#10;",
+      "category": [
+        "Animals",
+        "Dice",
+        "Medieval",
+        "Territory Building"
+      ],
+      "mechanisms": [
+        "Delayed Purchase",
+        "Dice Rolling",
+        "End Game Bonuses",
+        "Grid Coverage",
+        "Hexagon Grid",
+        "Open Drafting",
+        "Pattern Building",
+        "Tile Placement",
+        "Track Movement",
+        "Turn Order: Stat-Based",
+        "Variable Set-up"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:13:46.839Z",
+  "lastModified": "2025-06-13T21:14:05.903Z",
   "version": "1.0"
 }
