@@ -1651,9 +1651,81 @@
         "Semi-Cooperative Game"
       ],
       "customFields": {}
+    },
+    "1749849003136": {
+      "bggId": "1749849003136",
+      "bggUrl": "https://boardgamegeek.com/boardgame/283155/calico",
+      "name": "Calico",
+      "year": 2020,
+      "dateAcquired": "2022-04-28",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Kevin Russ"
+      ],
+      "artists": [
+        "Beth Sobel"
+      ],
+      "publishers": [
+        "Flatout Games",
+        "Alderac Entertainment Group",
+        "Arclight Games",
+        "CrowD Games",
+        "Cryptic Cardboard",
+        "Gém Klub Kft.",
+        "Grok Games",
+        "Hid Konem (Хід Конем)",
+        "Kaissa Chess & Games",
+        "Little Rocket Games",
+        "Lord of Boards",
+        "Lucky Duck Games",
+        "Maldito Games",
+        "MINDOK",
+        "Popcorn Games",
+        "Ravensburger",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/qGkU6XsF1448F_A4P8TY5Q__original/img/sm-qIkkIoKuYRUgkfP6kkXTm1QY=/0x0/filters:format(jpeg)/pic8124431.jpg",
+        "https://cf.geekdo-images.com/qGkU6XsF1448F_A4P8TY5Q__thumb/img/l5ODCWYHD8_1x-WFqf-TJZhXT38=/fit-in/200x150/filters:strip_icc()/pic8124431.jpg"
+      ],
+      "notes": "",
+      "description": "Calico is a puzzly tile-laying game of quilts and cats.&#10;&#10;In Calico, players compete to sew the coziest quilt as they collect and place patches of different colors and patterns. Each quilt has a particular pattern that must be followed, and players are also trying to create color and pattern combinations that are not only aesthetically pleasing, but also able to attract the cuddliest cats!&#10;&#10;Turns are simple. Select a single patch tile from your hand and sew it into your quilt, then draw another patch into your hand from the three available. If you are able to create a color group, you may sew a button onto your quilt. If you are able to create a pattern combination that is attractive to any of the cats, it will come over and curl up on your quilt! At the end of the game, you score points for buttons, cats, and how well you were able to complete your unique quilt pattern.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Animals",
+        "Puzzle"
+      ],
+      "mechanisms": [
+        "Enclosure",
+        "End Game Bonuses",
+        "Grid Coverage",
+        "Hexagon Grid",
+        "Open Drafting",
+        "Pattern Building",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T01:08:41.816Z",
+  "lastModified": "2025-06-13T21:10:03.137Z",
   "version": "1.0"
 }
