@@ -1946,9 +1946,113 @@
         "Team-Based Game"
       ],
       "customFields": {}
+    },
+    "1749849159793": {
+      "bggId": "1749849159793",
+      "bggUrl": "https://boardgamegeek.com/boardgame/822/carcassonne",
+      "name": "Carcassonne",
+      "year": 2000,
+      "dateAcquired": "2018-06-11",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.9,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        5
+      ],
+      "designers": [
+        "Klaus-Jürgen Wrede"
+      ],
+      "artists": [
+        "Marcel Gröber",
+        "Doris Matthäus",
+        "Anne Pätzke",
+        "Chris Quilliams",
+        "Franz-Georg Stämmele"
+      ],
+      "publishers": [
+        "Hans im Glück",
+        "64 Ounce Games",
+        "999 Games",
+        "Albi",
+        "Astrel Games",
+        "Bard Centrum Gier",
+        "Brain Games",
+        "cutia.ro",
+        "Devir",
+        "Enigma (Bergsala Enigma)",
+        "Fantasmagoria",
+        "Feelindigo",
+        "Filosofia Éditions",
+        "Giochi Uniti",
+        "Grow Jogos e Brinquedos",
+        "Hobby World",
+        "Ísöld ehf.",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lanlalen",
+        "Lautapelit.fi",
+        "Midgaard Games",
+        "MINDOK",
+        "Möbius Games",
+        "Monkey Time",
+        "NeoTroy Games",
+        "Nordic Games ehf",
+        "Paper Iyagi",
+        "Piatnik",
+        "Ponva d.o.o.",
+        "Rio Grande Games",
+        "Schmidt Spiele",
+        "Smart Ltd",
+        "Stupor Mundi",
+        "SuperHeated Neurons",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Venice Connection",
+        "Ventura Games",
+        "Z-Man Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/okM0dq_bEXnbyQTOvHfwRA__original/img/aVZEXAI-cUtuunNfPhjeHlS4fwQ=/0x0/filters:format(png)/pic6544250.png",
+        "https://cf.geekdo-images.com/okM0dq_bEXnbyQTOvHfwRA__thumb/img/88274KiOg94wziybVHyW8AeOiXg=/fit-in/200x150/filters:strip_icc()/pic6544250.png"
+      ],
+      "notes": "",
+      "description": "Carcassonne is a tile placement game in which the players draw and place a tile with a piece of southern French landscape represented on it. The tile might feature a city, a road, a cloister, grassland or some combination thereof, and it must be placed adjacent to tiles that have already been played, in such a way that cities are connected to cities, roads to roads, et cetera. Having placed a tile, the player can then decide to place one of their meeples in one of the areas on it: in the city as a knight, on the road as a robber, in the cloister as a monk, or in the field as a farmer. When that area is complete that meeple scores points for its owner.&#10;&#10;During a game of Carcassonne, players are faced with decisions like: &quot;Is it really worth putting my last meeple there?&quot; or &quot;Should I use this tile to expand my city, or should I place it near my opponent instead, thus making it a harder for them to complete it and score points?&quot; Since players place only one tile and have the option to place one meeple on it, turns proceed quickly even if it is a game full of options and possibilities.&#10;&#10;First game in the Carcassonne series.&#10;&#10;",
+      "category": [
+        "Medieval",
+        "Territory Building"
+      ],
+      "mechanisms": [
+        "Area Majority / Influence",
+        "Enclosure",
+        "End Game Bonuses",
+        "Kill Steal",
+        "Map Addition",
+        "Modular Board",
+        "Pattern Building",
+        "Square Grid",
+        "Take That",
+        "Tile Placement",
+        "Variable Set-up",
+        "Worker Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:11:46.640Z",
+  "lastModified": "2025-06-13T21:12:39.793Z",
   "version": "1.0"
 }
