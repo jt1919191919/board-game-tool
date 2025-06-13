@@ -538,9 +538,61 @@
         "Area Majority / Influence"
       ],
       "customFields": {}
+    },
+    "1749776627593": {
+      "bggId": "1749776627593",
+      "bggUrl": "https://boardgamegeek.com/boardgame/156266/apex-theropod-deck-building-game",
+      "name": "Apex Theropod Deck-Building Game",
+      "year": 2015,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 6
+      },
+      "playtime": {
+        "min": 290,
+        "max": 290
+      },
+      "weight": 2.9,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Herschel Hoffmeyer"
+      ],
+      "artists": [
+        "Herschel Hoffmeyer"
+      ],
+      "publishers": [
+        "Die-Hard Games LLC"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/0Jcvo3fZs6J1OFBeVcoy3A__original/img/3XPT6CHhEDPH7HhiRP4gT-0Yi9k=/0x0/filters:format(jpeg)/pic3821568.jpg",
+        "https://cf.geekdo-images.com/0Jcvo3fZs6J1OFBeVcoy3A__thumb/img/r7OliAuWMh7Dy5Ll-HbZcpIX0CM=/fit-in/200x150/filters:strip_icc()/pic3821568.jpg"
+      ],
+      "notes": "",
+      "description": "Game Description:&#10;&#10;Apex is a deck-building game, played solo or with up to 5 friends. You play as a prehistoric predator competing for territory and resources against other predators. Each playable species has a unique deck to master.  Each deck has different strengths, weaknesses, and strategies&mdash; creating a varied and constantly evolving experience.&#10;&#10;Your species must overcome a very brutal environment including harsh climate changes, disease, attacks from predators, grievous wounds, infections, and deadly prey. The game incorporates many dinosaurs that behave in their own distinct way. The goal of the game is to endure the environment, build up the population and evolve your species, and become the apex predator.&#10;&#10;Base Game includes:&#10;&#10;&bull;   17&quot; Dinosaur size box&#10; &bull;   525 cards + 20 Card Dividers&#10; &bull;   24&quot; x 16&quot; Hunting Grounds game board&#10; &bull;   Six 16&quot; x 9&quot; Nesting Grounds mats&#10; &bull;   80mm T.rex miniature Player Marker&#10; &bull;   40pg Rulebook&#10; &bull;   5 Foam Blocks to protect cards and fill empty spaces&#10;&#10;Includes 7 Playable Apex Decks:&#10;&#10;&bull;   Acrocanthosaurus&#10; &bull;   Carnotaurus&#10; &bull;   Giganotosaurus&#10; &bull;   Spinosaurus&#10; &bull;   Tyrannosaurus&#10; &bull;   Utahraptor&#10; &bull;   Velociraptor&#10;&#10;The 525 cards includes 7 playable Apex Decks, 22 diverse animals to hunt, 11 dangerous carnivores, 8 opposing Boss cards with Minions (acts as artificial players for solo play), 11 environmental effects, 5 genetic evolution types, and 3 grievous wound types.&#10;&#10;Previous Version Published (NOT TO BE CONFUSED WITH BASE GAME):&#10; &bull;  Exotic Predators Limited Edition (see separate entry for details)&#10;&#10;Note to fans:&#10;&#10;The dinosaurs and events in Apex are not 100% based on fact. Apex is a mix of old and new dinosaur culture and some things were just changed to enjoy the game more. Please forgive us for any inaccuracies you find in Apex and it is not designed to educate.&#10;&#10;Beta Tester list:&#10;&#10;Anthony Sato, Erich Hartsock, Keith Neemann, Ramon Wallace, Sean Donaldson, Dennis Lenusters, Jeremy Mohler, Mike Paschal, Jonathan Venezian, Stephen Hill, Chris Gunning, Cody Bridges, Kevin, Christopher Crowell, Thomas Prentice, Baldur, Matthew, Nathaniel Graham, Chris Pienta, Christopher Lambson, Joseph Avery, David Schreiber, Tyler Howsare, Matthew Sauerbrunn, Denis Durand, Daniel Goldman, Aaron, Teresa Phillips, Collin Shorette, NVS Gameplays, Gergorian, Scott Lenet, Adherbal Junior, Corey Punko, Scott Sexton, Cyn, Matt Schock, Kyle Collins, Jack, Tom Hoefle, Jason Lesovoy, Kristian, Ekky-Bear, Ryan Mrochuk, Deon Beswick, Tim Long, Chen Weiyu, Brandon Lane, Nicholas Miesmer, Nicholas Rusak, Jacob Carter, Gabriel Marquez, James Dundas, S Williams, Tremane Barclay, George Bracy, Nathaniel Walter, Jason Wright, Chris Murphy, and all other testers!&#10;&#10;Microbadges&#10;&#10; Apex Theropod fan&#10;&#10; - Apex Theropod Deck-Building Game fan&#10;&#10;",
+      "category": [
+        "Animals",
+        "Card Game",
+        "Prehistoric"
+      ],
+      "mechanisms": [
+        "Deck",
+        "Bag",
+        "and Pool Building",
+        "Solo / Solitaire Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T01:03:36.147Z",
+  "lastModified": "2025-06-13T01:03:47.593Z",
   "version": "1.0"
 }
