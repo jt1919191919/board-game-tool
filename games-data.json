@@ -3361,9 +3361,83 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1749850028950": {
+      "bggId": "1749850028950",
+      "bggUrl": "https://boardgamegeek.com/boardgame/304051/creature-comforts",
+      "name": "Creature Comforts",
+      "year": 2022,
+      "dateAcquired": "2023-05-15",
+      "players": {
+        "min": 1,
+        "max": 5
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.4,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Roberta Taylor"
+      ],
+      "artists": [
+        "Shawna J.C. Tenney"
+      ],
+      "publishers": [
+        "KTBG",
+        "Arclight Games",
+        "Board Game Circus",
+        "BoardBros",
+        "Geekach Games",
+        "Gen-X Games",
+        "Happy Meeple Games",
+        "Little Rocket Games",
+        "Lucrum Games",
+        "Matagot",
+        "Popcorn Games",
+        "Reflexshop",
+        "Tabletop KZ"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/A0ZRM7_H6ecCQ8-lW0MtQQ__original/img/VcraEiTpK1jfGuU_A3-UiaH-cZI=/0x0/filters:format(jpeg)/pic5799638.jpg",
+        "https://cf.geekdo-images.com/A0ZRM7_H6ecCQ8-lW0MtQQ__thumb/img/F8ELDsdUdbTvFWmYw1CZjqAWl0Y=/fit-in/200x150/filters:strip_icc()/pic5799638.jpg"
+      ],
+      "notes": "",
+      "description": "Life in the forest is a lot of fun, at least while the sun is shining and the leaves are on the trees. Those days don&rsquo;t last forever though, and long before the weather starts to change, the wise animals start to harvest for the long cold winter ahead. You will spend many months tucked into your burrow and you want to make it as cozy as possible. A nice bowl of soup, a comfortable rocking chair, and some toys and games will go a long way to make those dark winter days pass by quickly.&#10;&#10;In Creature Comforts, you spend the Spring, Summer, and Fall gathering different goods from the forest and spending them to collect items that will make your home more inviting while the world outside is covered in a layer of snow. Each round you send family members out to various locations in an attempt to gain supplies. If they fall short of their goal, they&rsquo;ll learn a lesson and be better prepared next time. The family that has created the most comfortable den wins the game.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Animals"
+      ],
+      "mechanisms": [
+        "Auction: Dutch",
+        "Contracts",
+        "Dice Rolling",
+        "End Game Bonuses",
+        "Events",
+        "Hand Management",
+        "Open Drafting",
+        "Ownership",
+        "Push Your Luck",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Tags",
+        "Turn Order: Progressive",
+        "Worker Placement",
+        "Worker Placement with Dice Workers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:26:52.825Z",
+  "lastModified": "2025-06-13T21:27:08.950Z",
   "version": "1.0"
 }
