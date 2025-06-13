@@ -2467,9 +2467,73 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1749849325482": {
+      "bggId": "1749849325482",
+      "bggUrl": "https://boardgamegeek.com/boardgame/242574/century-eastern-wonders",
+      "name": "Century: Eastern Wonders",
+      "year": 2018,
+      "dateAcquired": "2021-04-06",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.1,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Emerson Matsuuchi"
+      ],
+      "artists": [
+        "Atha Kanaani",
+        "Chris Quilliams"
+      ],
+      "publishers": [
+        "Plan B Games",
+        "Arclight Games",
+        "asmodee",
+        "Bright World Games",
+        "Broadway Toys LTD",
+        "Cube Factory of Ideas",
+        "Devir",
+        "Esdevium",
+        "Gamemasters Inc.",
+        "LudoSentinel",
+        "Mandoo Games",
+        "Pegasus Spiele",
+        "Piatnik"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/l1xKAcYniMJQNq60H5DdEA__original/img/S37tZ3Ph0N2rryfkjcpgmU4qmCY=/0x0/filters:format(jpeg)/pic3898507.jpg",
+        "https://cf.geekdo-images.com/l1xKAcYniMJQNq60H5DdEA__thumb/img/G3If6BTwLAGBZm6u2b-N_YZcZ4k=/fit-in/200x150/filters:strip_icc()/pic3898507.jpg"
+      ],
+      "notes": "",
+      "description": "Centuries ago, the lucrative spice trade compelled the prosperous nations of the world to explore alternate routes to the sources of these precious goods. These nations took to the seas to seek out exotic lands. This led to the discovery of the famed Spice Islands where the most valuable spices of the world were found. This discovery also led to further exploration, competition....and later, war! During this time of prosperity and opportunity, you find yourself traveling on the high seas in search of these exotic wonders. As a merchant and privateer representing your nation, you seek to control this region for glory and profit. Your journey continues in the Far East...&#10;&#10;Designed by Emerson Matsuuchi, Century: Eastern Wonders invites fans to return to the exciting world of spice trading as players take to the high seas in the role of merchants seeking to prosper in the exotic Indonesian islands. Century: Eastern Wonders offers new, satisfying game mechanisms that provide infinite replayability and countless strategies.&#10;&#10;Century: Eastern Wonders can be combined with Century: Spice Road to create a new gaming experience called Sand To Sea!&#10;&#10;Century: Eastern Wonders FAQ&#10;&#10;",
+      "category": [
+        "Nautical"
+      ],
+      "mechanisms": [
+        "Contracts",
+        "Grid Movement",
+        "Modular Board",
+        "Pick-up and Deliver",
+        "Point to Point Movement",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:15:04.439Z",
+  "lastModified": "2025-06-13T21:15:25.482Z",
   "version": "1.0"
 }
