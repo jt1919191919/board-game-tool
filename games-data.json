@@ -131,8 +131,8 @@
     },
     "1749776128915": {
       "bggId": "1749776128915",
-      "bggUrl": "https://boardgamegeek.com/boardgame/432/take-5",
-      "name": "Take 5",
+      "bggUrl": "https://boardgamegeek.com/boardgame/268586/6-nimmt-25-jahre",
+      "name": "6 nimmt!",
       "year": 1994,
       "dateAcquired": "1991-11-19",
       "players": {
@@ -217,11 +217,12 @@
         "Germany"
       ],
       "images": [
-        "https://cf.geekdo-images.com/WuOY1XAIJQ-RGAmT_apW_w__original/img/06TSBC2s-cwbxfPmy_pf7n5p-jM=/0x0/filters:format(jpeg)/pic8632998.jpg",
-        "https://cf.geekdo-images.com/WuOY1XAIJQ-RGAmT_apW_w__thumb/img/dhNHd8Ztln_lUFAdti6WkPnGTGg=/fit-in/200x150/filters:strip_icc()/pic8632998.jpg"
+        "https://cf.geekdo-images.com/DFeZsC973xdZ1CKUzmjAUw__imagepage/img/17xq3J0N7q5pGzSBSgWFrV3xve0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4496538.jpg",
+        "https://cf.geekdo-images.com/bMPiSV2n19MJZVJbiwi5Kg__imagepage/img/yFGXJfZfaDPxEwGIe9nqTVIB-8A=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4496539.jpg",
+        "https://cf.geekdo-images.com/wTI9uUsFIEl-qRhkbZimkw__imagepage/img/UIsOhFfjXxYPgQJk5KEMuYpPd3k=/fit-in/900x600/filters:no_upscale():strip_icc()/pic95523.jpg"
       ],
       "notes": "Mayfair USA Chicago closed/owned by Asmodee",
-      "description": "In 6 nimmt!, a.k.a. Category 5 and many other names, you want to score as few points as possible.&#10;&#10;To play the game, you shuffle the 104 number cards, lay out four cards face-up to start the four rows, then deal ten cards to each player. Each turn, players simultaneously choose and reveal a card from their hand, then add the cards to the rows, with cards being placed in ascending order based on their number; specifically, each card is placed in the row that ends with the highest number that's below the card's number. When the sixth card is placed in a row, the owner of that card claims the other five cards and the sixth card becomes the first card in its row.&#10;&#10;In addition to a number from 1 to 104, each card has a point value. After finishing ten rounds, players tally their score and see whether the game ends. (Category 5 ends when a player has a score greater than 74, for example, while 6 nimmt! ends when someone tops 66.) When this happens, the player with the fewest points wins!&#10;&#10;6 nimmt! works with 2-10 players, and the dynamics of gameplay change the more players that you have. One variant for the game has you use 34 cards, 44 cards, 54 cards, etc. (instead of all 104 cards) when you have three, four, five, etc. players. This change allows you to know which cards are in play, thereby allowing you to track which cards have been played and (theoretically) make better choices as to which card to play when.&#10;&#10;",
+      "description": "In 6 nimmt!, a.k.a. Category 5 and many other names, you want to score as few points as possible.\n\nTo play the game, you shuffle the 104 number cards, lay out four cards face-up to start the four rows, then deal ten cards to each player. Each turn, players simultaneously choose and reveal a card from their hand, then add the cards to the rows, with cards being placed in ascending order based on their number; specifically, each card is placed in the row that ends with the highest number that's below the card's number. When the sixth card is placed in a row, the owner of that card claims the other five cards and the sixth card becomes the first card in its row.\n\nIn addition to a number from 1 to 104, each card has a point value. After finishing ten rounds, players tally their score and see whether the game ends. (Category 5 ends when a player has a score greater than 74, for example, while 6 nimmt! ends when someone tops 66.) When this happens, the player with the fewest points wins!\n\n6 nimmt! works with 2-10 players, and the dynamics of gameplay change the more players that you have. One variant for the game has you use 34 cards, 44 cards, 54 cards, etc. (instead of all 104 cards) when you have three, four, five, etc. players. This change allows you to know which cards are in play, thereby allowing you to track which cards have been played and (theoretically) make better choices as to which card to play when.\n\n",
       "category": [
         "Card Game",
         "Number",
@@ -236,6 +237,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T00:55:28.916Z",
+  "lastModified": "2025-06-13T00:57:56.743Z",
   "version": "1.0"
 }
