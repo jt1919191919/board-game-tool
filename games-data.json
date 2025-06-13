@@ -3622,9 +3622,53 @@
         "Turn Order: Progressive"
       ],
       "customFields": {}
+    },
+    "1749850102593": {
+      "bggId": "1749850102593",
+      "bggUrl": "https://boardgamegeek.com/boardgame/330539/cutthroat-cove-pieces-of-eight",
+      "name": "Cutthroat Cove: Pieces of Eight",
+      "year": 2022,
+      "dateAcquired": "2024-06-23",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        4
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "(Self-Published)"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/4y6ajawotME3M910rvf4og__original/img/wjhoJWLpHzwiwx-YX1efDodWAAM=/0x0/filters:format(jpeg)/pic6102887.jpg",
+        "https://cf.geekdo-images.com/4y6ajawotME3M910rvf4og__thumb/img/2LJyjPw6pxrolRxxkDWEdzUscqY=/fit-in/200x150/filters:strip_icc()/pic6102887.jpg"
+      ],
+      "notes": "",
+      "description": "Cutthroat Cove: Pieces of Eight is a quick card game for 2-4 players that combines elements of Blackjack and Old Maid. Players take turns swapping and stealing treasures in hopes that they will have gathered 8 Gold coins when the game ends. However, players that exceed 8 or have a cursed treasure in their possession will be tossed to the sea!&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Pirates"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Memory",
+        "Push Your Luck",
+        "Take That"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:27:43.487Z",
+  "lastModified": "2025-06-13T21:28:22.593Z",
   "version": "1.0"
 }
