@@ -1299,9 +1299,73 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1749776869780": {
+      "bggId": "1749776869780",
+      "bggUrl": "https://boardgamegeek.com/boardgame/16395/blokus-duo",
+      "name": "Blokus Duo",
+      "year": 2005,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.7,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2
+      ],
+      "designers": [
+        "Bernard Tavitian"
+      ],
+      "artists": [],
+      "publishers": [
+        "Educational Insights",
+        "Mattel",
+        "Inc.",
+        "(Unknown)",
+        "Alary Games",
+        "Beverly Enterprises",
+        "Inc.",
+        "danspil",
+        "Divisible By Zero (DBZ) Aust Pty Ltd",
+        "Educa Korea",
+        "Froschkönig GmbH",
+        "Granna",
+        "Green Board Game Co.",
+        "Hodin",
+        "McDonald's Corporation",
+        "Piatnik",
+        "Sekkoia",
+        "Winning Moves France",
+        "Winning Moves Germany"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/pn92DM-FlWMRWusB0eP7vQ__original/img/fS5gAR00MprmNdhliAflDD8Wjv4=/0x0/filters:format(jpeg)/pic1086904.jpg",
+        "https://cf.geekdo-images.com/pn92DM-FlWMRWusB0eP7vQ__thumb/img/VWrLrxIYrNEuu5WY8hkZbyVL9cc=/fit-in/200x150/filters:strip_icc()/pic1086904.jpg"
+      ],
+      "notes": "",
+      "description": "Travel Blokus is the smaller, 2-player verson of Blokus. It is an abstract strategy game with transparent, tetris-shaped, colored pieces that players are trying to play onto the board. The only caveat to placing a piece is that it may not lie adjacent to your other pieces, but instead must be placed touching at least one corner of your pieces already on the board.&#10;&#10;The tiles in the Blokus To Go version are made with square holes cut into them that allow them to be snapped onto square-shaped &quot;nubs&quot; on the playing field. There are also two storage trays that hold the tiles for travel. These trays cover the board when the game is not being played and fold open in order for players to access the tiles.&#10;&#10;",
+      "category": [
+        "Abstract Strategy",
+        "Territory Building"
+      ],
+      "mechanisms": [
+        "Enclosure",
+        "Grid Coverage",
+        "Square Grid",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T01:07:39.786Z",
+  "lastModified": "2025-06-13T01:07:49.780Z",
   "version": "1.0"
 }
