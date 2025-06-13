@@ -1443,9 +1443,72 @@
         "Turn Order: Progressive"
       ],
       "customFields": {}
+    },
+    "1749776897651": {
+      "bggId": "1749776897651",
+      "bggUrl": "https://boardgamegeek.com/boardgame/140933/blueprints",
+      "name": "Blueprints",
+      "year": 2013,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.7,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Yves Tourigny"
+      ],
+      "artists": [
+        "Philippe Guérin",
+        "Chris Quilliams"
+      ],
+      "publishers": [
+        "Z-Man Games",
+        "Competo / Marektoy",
+        "Cube Factory of Ideas",
+        "Filosofia Éditions",
+        "Hobby Japan",
+        "MYBG Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/yj0dJI3pFauW-EU9Vg6OZw__original/img/LxwWN-0LRUVioSQcFJPbgqQ8No4=/0x0/filters:format(jpeg)/pic1877243.jpg",
+        "https://cf.geekdo-images.com/yj0dJI3pFauW-EU9Vg6OZw__thumb/img/TVG6p598iOhPeDZuVWy6QCTzOi4=/fit-in/200x150/filters:strip_icc()/pic1877243.jpg"
+      ],
+      "notes": "",
+      "description": "In Blueprints, players are architects who must use different colored dice to build three different structures from blueprints, with the dice providing different advantages to you. In the game, each round progresses like this:&#10;&#10;&#10;     Discover your blueprint.&#10;     Each turn, choose a die and place it in your building.&#10;     Reveal your building, tally your points, then discover who wins the awards and prizes.&#10;&#10;&#10;After three rounds, players tally their awards and prizes to see who wins. Who will be the best architect?&#10;&#10;",
+      "category": [
+        "Dice",
+        "Math",
+        "Puzzle"
+      ],
+      "mechanisms": [
+        "Contracts",
+        "Dice Rolling",
+        "Grid Coverage",
+        "Open Drafting",
+        "Pattern Building",
+        "Score-and-Reset Game",
+        "Set Collection",
+        "Square Grid",
+        "Turn Order: Stat-Based"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T01:08:07.409Z",
+  "lastModified": "2025-06-13T01:08:17.651Z",
   "version": "1.0"
 }
