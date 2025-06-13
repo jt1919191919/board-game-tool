@@ -1591,9 +1591,69 @@
         "Trading"
       ],
       "customFields": {}
+    },
+    "1749776921816": {
+      "bggId": "1749776921816",
+      "bggUrl": "https://boardgamegeek.com/boardgame/308989/bristol-1350",
+      "name": "Bristol 1350",
+      "year": 2021,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 9
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 1.7,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "designers": [
+        "Travis Hancock"
+      ],
+      "artists": [
+        "Holly Hancock",
+        "Sarah Keele"
+      ],
+      "publishers": [
+        "Facade Games",
+        "Lucky Duck Games",
+        "Ігромаг"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/2L_NV04_cppbcWvyDwZQCA__original/img/_hlXZSIp59HQkHL4RlxcUcCZyrA=/0x0/filters:format(jpeg)/pic5400101.jpg",
+        "https://cf.geekdo-images.com/2L_NV04_cppbcWvyDwZQCA__thumb/img/lvhxPvjRamn95T1NuzMxscG0xUw=/fit-in/200x150/filters:strip_icc()/pic5400101.jpg"
+      ],
+      "notes": "",
+      "description": "The dreaded Black Death has descended upon the town of Bristol. You are racing down the streets in one of the three available apple carts, desperate to escape into the safety of the countryside. If your cart is the first to leave the town and it is full of only healthy villagers when you leave, you and your fellow cart-mates successfully escape and win the game!&#10;&#10;However, some villagers on your cart may already have the plague! They are hiding their early symptoms from you so that they can enjoy their last few days in peace. If you leave town with a plagued villager on your cart, you will catch the plague. You must do whatever is necessary to make sure that doesn't happen!&#10;&#10;On the surface Bristol 1350 is part co-operative teamwork, part racing strategy, and part social deduction. In reality, it's a selfish scramble to get yourself out of town as quickly as possible without the plague, by any means necessary.&#10;&#10;The game comes in a magnetic book box and includes a rubber playmat, 9 wood pawns, 3 miniature carts, 6 rat/apple dice, a linen bag, and 64 cards. The deluxe version adds 6 coins, 6 cards, and 3 metal carts. This standalone game is Volume 4 in the &quot;Dark Cities Series&quot; by Facade Games following Salem 1692, Tortuga 1667, and Deadwood 1876.&#10;&#10;",
+      "category": [
+        "Deduction",
+        "Dice",
+        "Medieval",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Deduction",
+        "Dice Rolling",
+        "Different Dice Movement",
+        "Hidden Roles",
+        "Player Elimination",
+        "Race",
+        "Semi-Cooperative Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T01:08:31.119Z",
+  "lastModified": "2025-06-13T01:08:41.816Z",
   "version": "1.0"
 }
