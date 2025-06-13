@@ -1723,9 +1723,79 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1749849020553": {
+      "bggId": "1749849020553",
+      "bggUrl": "https://boardgamegeek.com/boardgame/238992/call-adventure",
+      "name": "Call to Adventure",
+      "year": 2019,
+      "dateAcquired": "2020-08-14",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Johnny O'Neal",
+        "Christopher O'Neal"
+      ],
+      "artists": [
+        "Max Bedulenko",
+        "Paul Canavan",
+        "Chris Cold",
+        "Jordan Jardine",
+        "Adam J. Marin",
+        "Sean Thurlow"
+      ],
+      "publishers": [
+        "asmodee",
+        "La Boîte de Jeu",
+        "Brotherwise Games",
+        "GaGa Games",
+        "Game Harbor",
+        "Gém Klub Kft.",
+        "Hobby Japan",
+        "MINDOK",
+        "Rebel Sp. z o.o."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/oz_C4Hwf1Hb6KHt6KTxJJA__original/img/0Yr5q3uSGhilPz2dYe3k2rqFO9Q=/0x0/filters:format(jpeg)/pic4165094.jpg",
+        "https://cf.geekdo-images.com/oz_C4Hwf1Hb6KHt6KTxJJA__thumb/img/WKPD4ypqNftdXn2L3q4aPM8UXh0=/fit-in/200x150/filters:strip_icc()/pic4165094.jpg"
+      ],
+      "notes": "",
+      "description": "Make your fate! Inspired by character-driven fantasy storytelling, Call to Adventure challenges 1-4 players to create the hero with the greatest destiny by acquiring traits, facing challenges, and overcoming adversaries.&#10;&#10;Call to Adventure features a unique &quot;rune rolling&quot; system for resolving challenges, a point-based system that encourages storytelling, and over 150 unique cards. Players begin each game with an origin card that provides their backstory as well as two &quot;starter&quot; abilities. Each round they may either acquire trait cards from the board or face a challenge. Challenges each have two possible paths a player can choose from. For example, players who encounter the Thieves' Guild may choose to train as a spy, or train as a killer. Each challenge has a difficulty that must be overcome by rolling successes on carved runes. The more a player has of the abilities required to overcome the challenge, the more runes they will be able to cast.&#10;&#10;Failed challenges lead players to acquire experience points that may be spent to &quot;push&quot; through tougher challenges. But beware, while some negative experiences will help your hero grow, too many tragedies set them on a dark path.&#10;&#10;As players' heroes grow in ability and experience, they move on to harder challenges, eventually facing deadly adversaries and acquiring more and more destiny points. The player whose hero has the highest destiny score wins the game.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Fantasy",
+        "Novel-based"
+      ],
+      "mechanisms": [
+        "Cooperative Game",
+        "Deck",
+        "Bag",
+        "and Pool Building",
+        "Dice Rolling",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Storytelling"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:10:03.137Z",
+  "lastModified": "2025-06-13T21:10:20.554Z",
   "version": "1.0"
 }
