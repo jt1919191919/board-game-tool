@@ -2667,9 +2667,66 @@
         "Worker Placement"
       ],
       "customFields": {}
+    },
+    "1749849444562": {
+      "bggId": "1749849444562",
+      "bggUrl": "https://boardgamegeek.com/boardgame/366162/clever-4ever",
+      "name": "Clever 4Ever",
+      "year": 2022,
+      "dateAcquired": "2025-01-15",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.4,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Wolfgang Warsch"
+      ],
+      "artists": [
+        "Leon Schiffer"
+      ],
+      "publishers": [
+        "Schmidt Spiele",
+        "999 Games",
+        "CMYK",
+        "Coiledspring Games",
+        "Stronghold Games",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/sPi_5WA2TdMTNx0ZGeshTg__original/img/d8eUDvwhteyCzYnD1dF4pN5gDps=/0x0/filters:format(jpeg)/pic7596285.jpg",
+        "https://cf.geekdo-images.com/sPi_5WA2TdMTNx0ZGeshTg__thumb/img/2lAMtqiiUU0jo4AxwwBqgrbRUus=/fit-in/200x150/filters:strip_icc()/pic7596285.jpg"
+      ],
+      "notes": "",
+      "description": "Clever 4Ever features the same gameplay as Ganz sch&ouml;n clever, Doppelt so clever and Clever hoch drei, but with new categories in which to score.&#10;&#10;Your goal: Choose dice, then place the numbers into the matching colored area, put together tricky chain-scoring opportunities, and rack up the points. The dice you don't use are as important as what you do because every die that's smaller than the chosen one can be used by the other players, keeping everyone in the game at all times.&#10;&#10;",
+      "category": [
+        "Dice",
+        "Number"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Paper-and-Pencil",
+        "Re-rolling and Locking",
+        "Solo / Solitaire Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:16:12.772Z",
+  "lastModified": "2025-06-13T21:17:24.562Z",
   "version": "1.0"
 }
