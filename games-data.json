@@ -365,9 +365,73 @@
         "Turn Order: Progressive"
       ],
       "customFields": {}
+    },
+    "1749776591816": {
+      "bggId": "1749776591816",
+      "bggUrl": "https://boardgamegeek.com/boardgame/202408/adrenaline",
+      "name": "Adrenaline",
+      "year": 2016,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.4,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Filip Neduk"
+      ],
+      "artists": [
+        "Jakub Politzer"
+      ],
+      "publishers": [
+        "Czech Games Edition",
+        "Cranio Creations",
+        "Devir",
+        "DiceTree Games",
+        "GaGa Games",
+        "Heidelberger Spieleverlag",
+        "Hobby Japan",
+        "IELLO",
+        "Lex Games",
+        "MINDOK",
+        "Rebel Sp. z o.o."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/TiNI7bUCR2RPFMlvKEC9TQ__original/img/MEvPkkVu15k4DWM8CS41a-j5TL8=/0x0/filters:format(jpeg)/pic3476604.jpg",
+        "https://cf.geekdo-images.com/TiNI7bUCR2RPFMlvKEC9TQ__thumb/img/nnWEA6jjVsxPSuEC_Ooph9kzO_g=/fit-in/200x150/filters:strip_icc()/pic3476604.jpg"
+      ],
+      "notes": "",
+      "description": "In the future, war has left the world in complete destruction and split the people into factions. The factions have decided to stop the endless war and settle their dispute in the arena. A new virtual bloodsport was created. The Adrenaline tournament. Every faction has a champion, every champion has a chance to fight and the chance to win. Will you take the chance of becoming the next champion of the Adrenaline tournament?&#10;&#10;Play a first-person shooter on your gaming table. Grab some ammo, grab a gun, and start shooting. Build up an arsenal for a killer turn. Combat resolution is quick and diceless. And if you get shot, you get faster!&#10;&#10;",
+      "category": [
+        "Fighting",
+        "Miniatures",
+        "Science Fiction",
+        "Video Game Theme"
+      ],
+      "mechanisms": [
+        "Action Points",
+        "Grid Movement",
+        "Hand Management",
+        "Kill Steal",
+        "Open Drafting"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T01:02:54.901Z",
+  "lastModified": "2025-06-13T01:03:11.816Z",
   "version": "1.0"
 }
