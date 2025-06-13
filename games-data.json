@@ -944,7 +944,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/219513/barenpark",
       "name": "Bärenpark",
       "year": 2017,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-04-22",
       "players": {
         "min": 2,
         "max": 4
@@ -3724,6 +3724,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:32:38.632Z",
+  "lastModified": "2025-06-13T21:33:34.551Z",
   "version": "1.0"
 }
