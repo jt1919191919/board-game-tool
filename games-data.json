@@ -1868,9 +1868,87 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1749849106639": {
+      "bggId": "1749849106639",
+      "bggUrl": "https://boardgamegeek.com/boardgame/171131/captain-sonar",
+      "name": "Captain Sonar",
+      "year": 2016,
+      "dateAcquired": "2020-08-26",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Roberto Fraga",
+        "Yohan Lemonnier"
+      ],
+      "artists": [
+        "Ervin",
+        "Piotr Forkasiewicz",
+        "Sabrina Tobal"
+      ],
+      "publishers": [
+        "Matagot",
+        "Arclight Games",
+        "asmodee",
+        "Broadway Toys LTD",
+        "Bureau de Juegos",
+        "Choo Choo Games",
+        "Conclave Editora",
+        "CrowD Games",
+        "Gém Klub Kft.",
+        "Lautapelit.fi",
+        "Lex Games",
+        "Pegasus Spiele",
+        "Pendragon Game Studio",
+        "Surfin' Meeple China",
+        "WoodCat"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/Dpu5nFJu4UUJ4Y50WyKueg__original/img/feQTYcCwgIg4LneCYIoaWz12Z24=/0x0/filters:format(jpeg)/pic7069368.jpg",
+        "https://cf.geekdo-images.com/Dpu5nFJu4UUJ4Y50WyKueg__thumb/img/tRPNrLtteyfINpaFLLqEjyfTA10=/fit-in/200x150/filters:strip_icc()/pic7069368.jpg"
+      ],
+      "notes": "",
+      "description": "At the bottom of the ocean, no one will hear you scream!&#10;&#10;In Captain Sonar, you and your teammates control a state-of-the-art submarine and are trying to locate an enemy submarine in order to blow it out of the water before they can do the same to you. Every role is important, and the confrontation is merciless. Be organized and communicate because a captain is nothing without his crew: the Chief Mate, the Radio Operator, and the Engineer.&#10;&#10;All the members of a team sit on one side of the table, and they each take a particular role on the submarine, with the division of labor for these roles being dependent on the number of players in the game. Roles include: the Captain, who is responsible for moving the submarine and announcing some details of this movement; the Radio Operator listening to the opposing captain's orders and try to decipher where that sub might be in the water; the Engineer working in the munitions room to prepare torpedoes, mines and other devices that will allow for combat.&#10;&#10;Captain Sonar can be played in two modes: turn-by-turn or simultaneous. In the latter set-up, all the members of a team take their actions simultaneously while trying to track what the opponents are doing, too. When a captain is ready to launch an attack, the action pauses for a moment to see whether a hit has been recorded &mdash; then play resumes with the target having snuck away while the attacker paused or with bits of metal now scattered across the ocean floor.&#10;&#10;Multiple maps are included with varying levels of difficulty.&#10;&#10;",
+      "category": [
+        "Deduction",
+        "Fighting",
+        "Modern Warfare",
+        "Nautical",
+        "Real-time"
+      ],
+      "mechanisms": [
+        "Deduction",
+        "Grid Movement",
+        "Hidden Movement",
+        "Line Drawing",
+        "Real-Time",
+        "Role Playing",
+        "Secret Unit Deployment",
+        "Simulation",
+        "Team-Based Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T21:11:25.840Z",
+  "lastModified": "2025-06-13T21:11:46.640Z",
   "version": "1.0"
 }
