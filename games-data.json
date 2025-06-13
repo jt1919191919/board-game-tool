@@ -488,9 +488,59 @@
         "Worker Placement"
       ],
       "customFields": {}
+    },
+    "1749776616147": {
+      "bggId": "1749776616147",
+      "bggUrl": "https://boardgamegeek.com/boardgame/192297/america",
+      "name": "America",
+      "year": 2016,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Ted Alspach",
+        "Friedemann Friese"
+      ],
+      "artists": [],
+      "publishers": [
+        "Bézier Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/BXu-cXVP7kDMdVctrEuhvA__original/img/05OlRXqoW_nTEgd9TDHdE1X85wk=/0x0/filters:format(jpeg)/pic2860338.jpg",
+        "https://cf.geekdo-images.com/BXu-cXVP7kDMdVctrEuhvA__thumb/img/wqQdq_RcvJUb_vPCpWAKmNJ1RM4=/fit-in/200x150/filters:strip_icc()/pic2860338.jpg"
+      ],
+      "notes": "",
+      "description": "&bull; In which year was Close Encounters first in theaters?&#10;&bull; Which state gets the most snow each year?&#10;&bull; How many albums has Madonna sold?&#10;&#10;It's likely that you don't know any of these facts, but you might have a rough idea, and that's good enough because America is a party game in which being close counts. And what if you have absolutely no idea what the answer is? Take advantage of your friends who do know. And if you realize that no one (including you) seems to know what the answer is, you can bet against everyone!&#10;&#10;In America, each player uses their knowledge of pop culture, food, products, games, sports, and United States history to score more points than their opponents. If your opponents know something that you don't, you can leverage their knowledge to your advantage, scoring more than them with clever play. The cards have full color clues to help you, as well as interesting factoids for every question in the game. With almost one thousand questions covering more than three hundred topics, America will be a favorite for family and friends for a long time!&#10;&#10;",
+      "category": [
+        "Bluffing",
+        "Party Game",
+        "Trivia"
+      ],
+      "mechanisms": [
+        "Area Majority / Influence"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T01:03:24.596Z",
+  "lastModified": "2025-06-13T01:03:36.147Z",
   "version": "1.0"
 }
