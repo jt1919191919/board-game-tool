@@ -590,9 +590,62 @@
         "Solo / Solitaire Game"
       ],
       "customFields": {}
+    },
+    "1749776639609": {
+      "bggId": "1749776639609",
+      "bggUrl": "https://boardgamegeek.com/boardgame/191300/archaeology-new-expedition",
+      "name": "Archaeology: The New Expedition",
+      "year": 2016,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.3,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Phil Walker-Harding"
+      ],
+      "artists": [
+        "Atha Kanaani"
+      ],
+      "publishers": [
+        "asmodee",
+        "Conclave Editora",
+        "Hobby Japan",
+        "Korea Boardgames",
+        "Z-Man Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/5fsW7qzvnkg8L0iVx_AM1A__original/img/4EIwkLf_b6eVmziTozPeDKKOymc=/0x0/filters:format(png)/pic2805898.png",
+        "https://cf.geekdo-images.com/5fsW7qzvnkg8L0iVx_AM1A__thumb/img/kDJbSE0lHm1iNprMUGjjJXzi8bM=/fit-in/200x150/filters:strip_icc()/pic2805898.png"
+      ],
+      "notes": "",
+      "description": "Archaeology: The New Expedition is a reimplementation of the popular Archaeology: The Card Game (with several changes).&#10;&#10;You are an archaeologist working the dig sites of the Egyptian desert. Search for the right pieces to complete torn parchments, broken pots, and other priceless artifacts. Explore an ancient pyramid in the hope of uncovering a huge stash of treasure! Trade shrewdly at the local marketplace to increase the value of your collection. Sell your treasures to the museum at just the right time for maximum profit.&#10;&#10;But beware, the desert also has its dangers! A devastating sandstorm can throw your expedition into disarray, and cunning thieves lurk around the dig site ready to steal your prize discovery!&#10;&#10;In Archaeology: The New Expedition, you want to find treasures and make the most money possible by selling them to the museum. Players start with four treasure cards in hand; one monument tile is chosen at random, then the chambers of the monument are loaded secretly with treasure cards.&#10;&#10;On a turn, a player digs for treasure by drawing from the deck. If they find treasure, they don't show anyone and keep it; if they find a thief, they steal a card at random from an opponent; and if they find a sandstorm, all players lose half of their cards in hand to the marketplace, which starts the game with five face-up cards. (Each player has a tent that they can discard to avoid the effects of one sandstorm.) After digging, a player can:&#10;&#10;&#10;     Discard one or more maps to explore one chamber of the monument, looking at all the cards there and keeping some number of them.&#10;&#10;&#10;&#10;     Trade at the marketplace by laying down one or more treasure cards and picking up cards with equal or lesser trading value.&#10;&#10;&#10;&#10;     Sell to the museum by placing sets of treasure cards in front of them; in general, the more cards you have of a type, the more the set is worth.&#10;&#10;&#10;Players can explore only once, but they can do the other actions repeatedly, and they can take these actions in any order. Once the deck is empty, players keep taking actions until they all pass in turn, after which they sell treasures to the museum. Whoever ends up with the most money wins!&#10;&#10;According to the designer, Archaeology: The New Expedition differs from Archaeology: The Card Game through the inclusion of tent cards, the addition of new treasure types and additional cards to allow for five players, the adjustment of some treasure values, and the inclusion of six monuments instead of one to have more variety when exploring.&#10;&#10;",
+      "category": [
+        "Card Game"
+      ],
+      "mechanisms": [
+        "Open Drafting",
+        "Push Your Luck",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-13T01:03:47.593Z",
+  "lastModified": "2025-06-13T01:03:59.610Z",
   "version": "1.0"
 }
