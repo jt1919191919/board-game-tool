@@ -2419,9 +2419,7 @@
       "weightColor": "#ff0000",
       "bestPlayerCount": [
         1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -2449,11 +2447,17 @@
         "Rawstone",
         "Viravi Edicions"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA Tennessee"
+      ],
+      "publisherCountry": [
+        "USA Tennessee"
+      ],
       "images": [
         "https://cf.geekdo-images.com/jVAMlNeDMVZakxJPy-lDrQ__original/img/J4J6wVMItmWj4Yxt8JmuO1g76PE=/0x0/filters:format(jpeg)/pic7229993.jpg",
-        "https://cf.geekdo-images.com/jVAMlNeDMVZakxJPy-lDrQ__thumb/img/PfOJx2RMkYg-Uk7mWBMF0HvTxqo=/fit-in/200x150/filters:strip_icc()/pic7229993.jpg"
+        "https://cf.geekdo-images.com/UnecfH0nzn2o3ZcrSnj54Q__imagepage/img/R657vH7NL6tA_6RklDHLtMvd-9k=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6091457.jpg",
+        "https://cf.geekdo-images.com/SXzonCWRw9C4aAQWkByKqA__imagepagezoom/img/Z75HKr4Za3i1oiOVqPu8BkGkuXI=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic2459587.jpg",
+        "https://cf.geekdo-images.com/XF3BaFRteqOHAwZVO68tZQ__imagepage/img/aIk1YWXlMsqXe2Z3R7bUSygRMRo=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2208444.jpg"
       ],
       "notes": "",
       "description": "In the tile-laying game Castles of Mad King Ludwig, players are tasked with building an amazing, extravagant castle for King Ludwig II of Bavaria...one room at a time. You see, the King loves castles, having built Neuschwanstein (the castle that inspired the Disney theme park castles) and others, but now he's commissioned you to build the biggest, best castle ever — subject, of course, to his ever-changing whims. Each player acts as a building contractor who is adding rooms to the castle he's building while also selling his services to other players.\n\nIn the game, each player starts with a simple foyer. One player takes on the role of the Master Builder, and that player sets prices for a set of rooms that can be purchased by the other players, with him getting to pick from the leftovers after the other players have paid him for their rooms. When a room is added to a castle, the player who built it gains castle points based on the size and type of room constructed, as well as bonus points based on the location of the room. When a room is completed, with all entranceways leading to other rooms in the castle, the player receives one of seven special rewards.\n\nAfter each purchasing round, a new player becomes the Master Builder who sets prices for a new set of rooms. After several rounds, the game ends, then additional points are awarded for achieving bonus goals, having the most popular rooms, and being the most responsive to the King's demands, which change each game. Whoever ends up with the most castle points wins.\n\n",
@@ -2485,16 +2489,18 @@
         "max": 8
       },
       "playtime": {
-        "min": 60,
+        "min": 30,
         "max": 60
       },
       "weight": 2.3,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
-        3,
+        1,
         4,
-        6
+        5,
+        6,
+        7,
+        8
       ],
       "designers": [
         "Aron West"
@@ -2506,11 +2512,18 @@
         "Elzra",
         "Schwerkraft-Verlag"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Canada Ontario"
+      ],
+      "publisherCountry": [
+        "Canada Ontario"
+      ],
       "images": [
         "https://cf.geekdo-images.com/IwdfRd0Ggv97Z1uRUn2eQA__original/img/YFUPoh_RNm_QANdPTlZXsffKwNY=/0x0/filters:format(jpeg)/pic3478320.jpg",
-        "https://cf.geekdo-images.com/IwdfRd0Ggv97Z1uRUn2eQA__thumb/img/Sy94jPwpV6xKlwck3oGH1_4CiWw=/fit-in/200x150/filters:strip_icc()/pic3478320.jpg"
+        "https://cf.geekdo-images.com/5Rtx_PMxoevflLqwcSBoZg__imagepage/img/rRvwvPkdRsuJk2mJb9xFzUi_0K0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6637382.jpg",
+        "https://cf.geekdo-images.com/ZdFCUJViojTP7lH2Q-8bUQ__imagepage/img/uDmRLO4rk6EAo544PFcbCI3pRmI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3954644.jpg",
+        "https://cf.geekdo-images.com/W0VriGL-ICZYFBho-gjKpg__imagepage/img/kn3Rcy77PgE6YjcyC9YQossBMpM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3922431.jpg",
+        "https://cf.geekdo-images.com/JVrtAWLCp223cXVD85VDFw__imagepage/img/7dZbbVVHdHonMawBCWQRyrFwA48=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3922433.jpg"
       ],
       "notes": "",
       "description": "Catacombs and Castles is a standalone game featuring a \"Catacomb\" team of heroes vs a \"Castle\" team of heroes. The game serves as an introduction to the Catacombs world and dexterity game system, so it features simplified, fast game play with some new mechanisms.\n\nAs in Catacombs, players flick pieces around a board to simulate combat, with cards and special powers dictating how you can move and attack.\n\nCatacombs and Castles supports up to eight players competitively (in \"Team Mode\") and up to four co-operatively (players teamed against an 'Overseer' player called \"Boss Mode\"). The game is compatible with the third edition of Catacombs, serving as an expansion for that title with a new board, and will be compatible with the Catacombs: Wyverns of Wylemuir expansion.\n\n",
@@ -3783,6 +3796,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-15T13:11:25.269Z",
+  "lastModified": "2025-06-15T13:21:57.844Z",
   "version": "1.0"
 }
