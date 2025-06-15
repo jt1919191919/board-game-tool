@@ -1265,10 +1265,7 @@
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -1304,11 +1301,13 @@
         "Winning Moves France",
         "Winning Moves Germany"
       ],
-      "designerNationality": [],
+      "designerNationality": [
+        "France"
+      ],
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/96YA5wUJDxtPkmPxemr5Qg__original/img/sdX6o0TZpXjsDMw071k2P80wpYw=/0x0/filters:format(jpeg)/pic2197702.jpg",
-        "https://cf.geekdo-images.com/96YA5wUJDxtPkmPxemr5Qg__thumb/img/EBt2y7Awj5djyo185R7g6FV3P9g=/fit-in/200x150/filters:strip_icc()/pic2197702.jpg"
+        "https://cf.geekdo-images.com/CjaWa8WgaJZhe1A85N45Cg__imagepage/img/MPO3MKomQjhDmC7QSl-Mlpp75bY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic61429.jpg"
       ],
       "notes": "",
       "description": "Blokus (officially pronounced \"Block us\") is an abstract strategy game with transparent, Tetris-shaped, colored pieces that players are trying to play onto the board.  The only caveat to placing a piece is that it may not lie adjacent to your other pieces, but instead must be placed touching at least one corner of your pieces already on the board.\n\nThere is a solitaire variation where one player tries to get rid of all the pieces in a single sitting.\n\nGoal of the Game:\n\nEach player has to fit as many of his/her 21 pieces on the board as possible.\n\nComponents:\nBlokus Game Board (400 squares)\n84 game pieces (four 21-piece sets of red, green, blue, and yellow)\nEach color inlcudes:\n\n     1 one-square piece\n     1 piece with 2 squares\n     2 pieces with 3 squares\n     5 pieces with 4 squares\n     12 pieces with 5 squares\n\n\n",
@@ -1371,11 +1370,13 @@
         "Winning Moves France",
         "Winning Moves Germany"
       ],
-      "designerNationality": [],
+      "designerNationality": [
+        "France"
+      ],
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/pn92DM-FlWMRWusB0eP7vQ__original/img/fS5gAR00MprmNdhliAflDD8Wjv4=/0x0/filters:format(jpeg)/pic1086904.jpg",
-        "https://cf.geekdo-images.com/pn92DM-FlWMRWusB0eP7vQ__thumb/img/VWrLrxIYrNEuu5WY8hkZbyVL9cc=/fit-in/200x150/filters:strip_icc()/pic1086904.jpg"
+        "https://cf.geekdo-images.com/Y7GoV4Bavvkjy6VzZ1JQUg__imagepage/img/ruPexKNBVfszKGB7xJIlEfR5hFs=/fit-in/900x600/filters:no_upscale():strip_icc()/pic83832.jpg"
       ],
       "notes": "",
       "description": "Travel Blokus is the smaller, 2-player verson of Blokus. It is an abstract strategy game with transparent, tetris-shaped, colored pieces that players are trying to play onto the board. The only caveat to placing a piece is that it may not lie adjacent to your other pieces, but instead must be placed touching at least one corner of your pieces already on the board.\n\nThe tiles in the Blokus To Go version are made with square holes cut into them that allow them to be snapped onto square-shaped \"nubs\" on the playing field. There are also two storage trays that hold the tiles for travel. These trays cover the board when the game is not being played and fold open in order for players to access the tiles.\n\n",
@@ -3751,6 +3752,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-15T11:03:30.536Z",
+  "lastModified": "2025-06-15T11:51:47.885Z",
   "version": "1.0"
 }
