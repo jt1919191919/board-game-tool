@@ -3159,7 +3159,7 @@
         "max": 6
       },
       "playtime": {
-        "min": 120,
+        "min": 60,
         "max": 120
       },
       "weight": 2.6,
@@ -3192,13 +3192,20 @@
         "Heidelberger Spieleverlag",
         "House of Monks"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA"
+      ],
+      "publisherCountry": [
+        "USA Minnesota"
+      ],
       "images": [
         "https://cf.geekdo-images.com/S8cE-Ld7XP5sVz-upKJ-Bg__original/img/c4ZrfOtpp6tDHLyMsKecc2ne370=/0x0/filters:format(jpeg)/pic1521633.jpg",
-        "https://cf.geekdo-images.com/S8cE-Ld7XP5sVz-upKJ-Bg__thumb/img/gE--xqnuor4bft2J361zxJJGCjM=/fit-in/200x150/filters:strip_icc()/pic1521633.jpg"
+        "https://cf.geekdo-images.com/YxecuYohdcs46HO9gRcOvQ__imagepage/img/Xfp0kUtDGGImUFiseSH_vJSWMiU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic405850.jpg",
+        "https://cf.geekdo-images.com/csYqxHA5F8KDuWnZmJgKnA__imagepage/img/z3U2wl3dzGC9Xwthlu0QzYuxzxI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic422538.jpg",
+        "https://cf.geekdo-images.com/TzlK73O0CXnLWimKf3Ud-A__imagepage/img/ZNJUO-Y92JQHY2FSfHnXa0e3_i4=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1706735.jpg",
+        "https://cf.geekdo-images.com/XbmZMSaZrd8cALU95zV0Fg__imagepage/img/1MYhLnobCciT-kpL6DQuIY1QbOE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1675288.jpg"
       ],
-      "notes": "",
+      "notes": "Fantasy Flight owned by Asmodee",
       "description": "Build a galactic empire...\n\nIn the depths of space, the alien races of the Cosmos vie with each other for control of the universe. Alliances form and shift from moment to moment, while cataclysmic battles send starships screaming into the warp.\n\nThis classic game of alien politics returns from the warp once more!\n\nIn Cosmic Encounter, each player becomes the leader of one of dozens of alien races, each with its own unique power. On a player's turn, he or she becomes the offense. The offense encounters another player on a planet by moving a group of his or her ships through the hyperspace gate to that planet. Both sides can invite allies and play cards to try and tip the encounter in their favor.\n\nThe object of the game is for players to establish colonies in other players' planetary systems by landing their ships on the other players' planets. The winner(s) are the first player(s) to have five colonies on planets outside his or her home system. The players must use force, cunning, and diplomacy to ensure their victory. And, because alliances are a key part of the game, multiple players can win together!\n\n",
       "category": [
         "Bluffing",
@@ -3223,7 +3230,7 @@
     },
     "1749849926611": {
       "bggId": "1749849926611",
-      "bggUrl": "",
+      "bggUrl": "https://boardgamegeek.com/boardgame/158899/colt-express",
       "name": "Colt Express",
       "year": 2014,
       "dateAcquired": "2023-11-04",
@@ -3259,7 +3266,9 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/_r86dH_AyRCEqfs3wmo2pA__imagepage/img/dZN7KztYqQtXoa358Mj372WQlvI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2373876.jpg",
-        "https://cf.geekdo-images.com/lOCmHQKUt__EShakMy_QPQ__imagepage/img/3pQ8ApcH0a_fswY2CfEmouxmz6w=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2878230.jpg"
+        "https://cf.geekdo-images.com/eJGst65Pjr5NGUPVwsfRPA__imagepage/img/cSSw1-vb9QZ-nxUrZb0g8LGqIuA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2235063.png",
+        "https://cf.geekdo-images.com/WZF5OtJxC8bfDYiNwhRu0w__imagepage/img/TH1K7eGjOZjPuk_F1kgZF_A_k2U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2278706.jpg",
+        "https://cf.geekdo-images.com/tOKuL1x2bgQ1lN6nNJUjVQ__imagepage/img/LhG3bz-WKNctl85sBr8FL0Zcyu0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2277218.jpg"
       ],
       "notes": "",
       "description": "On the 11th of July, 1899 at 10 a.m., the Union Pacific Express has left Folsom, New Mexico, with 47 passengers on board. After a few minutes, gunfire and hurrying footsteps on the roof can be heard. Heavily armed bandits have come to rob honest citizens of their wallets and jewels. Will they succeed in stealing the suitcase holding the Nice Valley Coal Company's weekly pay, despite it having been placed under the supervision of Marshal Samuel Ford? Will these bandits hinder one another more than the Marshal since only the richest one of them can come out on top?\n\nIn Colt Express, you play a bandit robbing a train at the same time as other bandits, and your goal is to become the richest outlaw of the Old West. The game consists of five rounds, and each round has two phases:\n\nPhase 1: Schemin' Each player plays 2-5 action cards on a common pile, with the cards being face up or face down depending on the type of the round. Instead of playing a card, a player can draw three cards from her deck.\nPhase 2: Stealin' The action cards are carried out in the order they were played, with a player's best laid plans possibly not panning out due to mistakes and oversights!\nThe game takes place in a 3D train in which the bandits can move from one car to another, run on the roof, punch the other bandits, shoot them, rob the passengers, or draw the Marshal out of position. The train has as many cars as the number of players, and each car is seeded with gems, bags of loot or suitcases at the start of play.\n\nEach player starts a round with six cards in hand, with each card showing one of these actions. At the start of a round, a round card is revealed, showing how many cards will be played; whether they'll be played face up or face down, or individually or in pairs; and what action will occur at the end of the round (e.g., all bandits on top of the train move to the engine). You can pick up loot, gems or suitcases only by playing a \"steal\" card when you're in a train car that holds one of these items — but since everyone is planning to get these goods, you'll need to move, punch and shoot to get others out of your way. You can punch someone only in the same car as you, and when you do, the other bandit drops one of the goods he's collected and is knocked into an adjacent car.\n\nEach player's character has a special power, such as starting the round with an extra card, playing your first card face down, or pocketing a bag of loot when you punch someone instead of letting it hit the ground.\n\nYou can shoot someone in an adjacent car or (if you're running on top of the train) anyone in sight, and when you do, you give that player one of your six bullet cards; that card gets shuffled in the opponent's deck, possibly giving her a dead card in hand on a future turn and forcing her to draw instead of playing something. If the Marshal ends up in the same car as you, likely due to other bandits luring him through the train, he'll be happy to give you a bullet, too.\n\nAt the end of the game, whoever fired the most bullets receives a $1,000 braggart bonus, and whoever bagged the richest haul wins!",
@@ -3290,13 +3299,12 @@
         "max": 4
       },
       "playtime": {
-        "min": 60,
+        "min": 45,
         "max": 60
       },
       "weight": 1.9,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
         2,
         3,
         4
@@ -3322,13 +3330,20 @@
         "Stronghold Games",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA New Jersey"
+      ],
       "images": [
         "https://cf.geekdo-images.com/7Zk5_GsYycmHYD4RN3kIJQ__original/img/LbvQO9zKGNFn9UKo_adUsarRarQ=/0x0/filters:format(jpeg)/pic3499059.jpg",
-        "https://cf.geekdo-images.com/7Zk5_GsYycmHYD4RN3kIJQ__thumb/img/feLpplY6_MLKO4Tzfj5N2bW4a9o=/fit-in/200x150/filters:strip_icc()/pic3499059.jpg"
+        "https://cf.geekdo-images.com/OOTONKapu_-lO1jB6xwrrg__imagepage/img/KDs3equTnknU-qeEBnY3dRMXRug=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3191676.jpg",
+        "https://cf.geekdo-images.com/tbiy1V0T2bqpMklJ9UO1nQ__imagepage/img/STxYUlJdnupG9Mq9th2UVKKtccM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3234887.jpg",
+        "https://cf.geekdo-images.com/DQV2YlLw4YqIMCIbtjKfJw__imagepage/img/twjgr0FTk5Pg3joH6n50zZhg3SU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3483284.jpg",
+        "https://cf.geekdo-images.com/d1nvMg3fRlH0h8Id40Ujxw__imagepage/img/efkbbmaCk_8eCpl5zsAAvWWQe1g=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3200802.jpg"
       ],
-      "notes": "",
+      "notes": "Stronghold merged with Indie Boards Cards",
       "description": "In Cottage Garden, you compete in the art of gardening and are working two beds with a variety of flowers. Whenever no unplanted box is visible on a bed, you have completed it, then you count your points and replace it with a fresh, unplanted bed. You gain points for all of the visible plant pots and planting bells.\n\nIn more detail, players select various polyomino tiles of flower beds from a central market grid, depending on the location of the \"gardener\", then place them on one of their two personal garden boards. Each board has several garden elements that are worth points when not planted over, and these are scored on two different tracks as soon as a garden has been finished. Crossing over a line on each track awards bonus tokens that can fill in empty spaces or give you a better selection of the flower bed tiles. Whenever a garden is finished, you receive a new one to complete. After the gardener completes her fifth lap around the market, the game enters its last round. The player with the most points from their completed gardens at the end of the game wins.\n\nCottage Garden is the first part of Uwe Rosenberg's puzzle trilogy.\n\n",
       "category": [
         "Abstract Strategy",
@@ -3360,12 +3375,7 @@
       "weight": 1.4,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
         5,
-        6,
         6
       ],
       "designers": [
@@ -3421,11 +3431,17 @@
         "Zacatrus",
         "狗吠火車"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK England"
+      ],
+      "publisherCountry": [
+        "USA California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/MWhSY_GOe2-bmlQ2rntSVg__original/img/ayAAWBK1rAEumARNmROsOtvqW-4=/0x0/filters:format(jpeg)/pic2016054.jpg",
-        "https://cf.geekdo-images.com/MWhSY_GOe2-bmlQ2rntSVg__thumb/img/vuR_0PCX1w2EkjO_LbchOHZPOwU=/fit-in/200x150/filters:strip_icc()/pic2016054.jpg"
+        "https://cf.geekdo-images.com/pmjc8XUU_8_mEGPzsBHJBQ__imagepage/img/8tzUTJIqIrzTDFRMfVWqmD98obU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8504224.jpg",
+        "https://cf.geekdo-images.com/FbE4hGBgrp9kGYskpgSvYQ__imagepage/img/VlGFtqbdocvLn_P45Sg6zl0lKBs=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1816071.jpg",
+        "https://cf.geekdo-images.com/Yi3n1Cxrdcd4Khx1ll3KKA__imagepage/img/vqCuwTnDiHcTMCZyGmj56mXVZx4=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1825302.jpg"
       ],
       "notes": "",
       "description": "You are head of a family in an Italian city-state, a city run by a weak and corrupt court. You need to manipulate, bluff and bribe your way to power. Your object is to destroy the influence of all the other families, forcing them into exile. Only one family will survive...\n\nIn Coup, you want to be the last player with influence in the game, with influence being represented by face-down character cards in your playing area.\n\nEach player starts the game with two coins and two influence – i.e., two face-down character cards; the fifteen card deck consists of three copies of five different characters, each with a unique set of powers:\n\n\n     Duke: Take three coins from the treasury. Block someone from taking foreign aid.\n     Assassin: Pay three coins and try to assassinate another player's character.\n     Contessa: Block an assassination attempt against yourself.\n     Captain: Take two coins from another player, or block someone from stealing coins from you.\n     Ambassador: Draw two character cards from the Court (the deck), choose which (if any) to exchange with your face-down characters, then return two. Block someone from stealing coins from you.\n\n\nOn your turn, you can take any of the actions listed above, regardless of which characters you actually have in front of you, or you can take one of three other actions:\n\n\n     Income: Take one coin from the treasury.\n     Foreign aid: Take two coins from the treasury.\n     Coup: Pay seven coins and launch a coup against an opponent, forcing that player to lose an influence. (If you have ten coins or more, you must take this action.)\n\n\nWhen you take one of the character actions – whether actively on your turn, or defensively in response to someone else's action – that character's action automatically succeeds unless an opponent challenges you. In this case, if you can't (or don't) reveal the appropriate character, you lose an influence, turning one of your characters face-up. Face-up characters cannot be used, and if both of your characters are face-up, you're out of the game.\n\nIf you do have the character in question and choose to reveal it, the opponent loses an influence, then you shuffle that character into the deck and draw a new one, perhaps getting the same character again and perhaps not.\n\nThe last player to still have influence – that is, a face-down character – wins the game!\n\nA new & optional character called the Inquisitor has been added (currently, the only English edition with the Inquisitor included is the Kickstarter Version from Indie Boards & Cards. Copies in stores may not be the Kickstarter versions and may only be the base game). The Inquisitor character cards may be used to replace the Ambassador cards.\n\n\n     Inquisitor: Draw one character card from the Court deck and choose whether or not to exchange it with one of your face-down characters. OR Force an opponent to show you one of their character cards (their choice which). If you wish it, you may then force them to draw a new card from the Court deck. They then shuffle the old card into the Court deck. Block someone from stealing coins from you.\n\n\n",
@@ -3817,6 +3833,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-15T13:54:58.451Z",
+  "lastModified": "2025-06-15T14:24:40.521Z",
   "version": "1.0"
 }
