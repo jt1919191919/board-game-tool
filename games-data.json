@@ -2557,7 +2557,6 @@
       "weight": 2.1,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -2583,11 +2582,16 @@
         "Pegasus Spiele",
         "Piatnik"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA LA"
+      ],
+      "publisherCountry": [
+        "Canada Québec"
+      ],
       "images": [
         "https://cf.geekdo-images.com/l1xKAcYniMJQNq60H5DdEA__original/img/S37tZ3Ph0N2rryfkjcpgmU4qmCY=/0x0/filters:format(jpeg)/pic3898507.jpg",
-        "https://cf.geekdo-images.com/l1xKAcYniMJQNq60H5DdEA__thumb/img/G3If6BTwLAGBZm6u2b-N_YZcZ4k=/fit-in/200x150/filters:strip_icc()/pic3898507.jpg"
+        "https://cf.geekdo-images.com/NVZUUDdEeZxyAFyFVbu8MA__imagepage/img/S0or7ZxGmoWvmNzySMHcuoeYnzc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3898511.jpg",
+        "https://cf.geekdo-images.com/V05xTRHY89-e1hSLqBP5bQ__imagepage/img/sU45-0gkN3VHxgVxzyTFZI-omEE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4083773.jpg"
       ],
       "notes": "",
       "description": "Centuries ago, the lucrative spice trade compelled the prosperous nations of the world to explore alternate routes to the sources of these precious goods. These nations took to the seas to seek out exotic lands. This led to the discovery of the famed Spice Islands where the most valuable spices of the world were found. This discovery also led to further exploration, competition....and later, war! During this time of prosperity and opportunity, you find yourself traveling on the high seas in search of these exotic wonders. As a merchant and privateer representing your nation, you seek to control this region for glory and profit. Your journey continues in the Far East...\n\nDesigned by Emerson Matsuuchi, Century: Eastern Wonders invites fans to return to the exciting world of spice trading as players take to the high seas in the role of merchants seeking to prosper in the exotic Indonesian islands. Century: Eastern Wonders offers new, satisfying game mechanisms that provide infinite replayability and countless strategies.\n\nCentury: Eastern Wonders can be combined with Century: Spice Road to create a new gaming experience called Sand To Sea!\n\nCentury: Eastern Wonders FAQ\n\n",
@@ -2615,13 +2619,12 @@
         "max": 5
       },
       "playtime": {
-        "min": 45,
+        "min": 30,
         "max": 45
       },
       "weight": 1.8,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
         4,
         5
@@ -2651,11 +2654,16 @@
         "Ninive Games",
         "Piatnik"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA LA"
+      ],
+      "publisherCountry": [
+        "Canada Québec"
+      ],
       "images": [
         "https://cf.geekdo-images.com/0_KEDk4lCvryf1Ju3YQJxA__original/img/zv58Iylm_N8nfVFgRkMVM0Q9Fh8=/0x0/filters:format(jpeg)/pic3339551.jpg",
-        "https://cf.geekdo-images.com/0_KEDk4lCvryf1Ju3YQJxA__thumb/img/FticvQmaT_qfdrX-hpSSK1ttRb0=/fit-in/200x150/filters:strip_icc()/pic3339551.jpg"
+        "https://cf.geekdo-images.com/kDGR2Ap4EZc3YyJlVqqaQQ__imagepage/img/hS0OIudk3Cxx88YSJw-kbGc7BRA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3732129.jpg",
+        "https://cf.geekdo-images.com/KAtavUph1inW6fF-HKVF7g__imagepage/img/l9e-zwXQBcWl4TgkSVjw1wgO84M=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3339624.jpg"
       ],
       "notes": "",
       "description": "Century: Spice Road is the first in a series of games that explores the history of each century with spice-trading as the theme for the first installment.  In Century: Spice Road, players are caravan leaders who travel the famed silk road to deliver spices to the far reaches of the continent for fame and glory. Each turn, players perform one of four actions:\n\n\n     Establish a trade route (by taking a market card)\n     Make a trade or harvest spices (by playing a card from hand)\n     Fulfill a demand (by meeting a victory point card's requirements and claiming it)\n     Rest (by taking back into your hand all of the cards you've played)\n\n\nThe last round is triggered once a player has claimed their fifth victory point card, then whoever has the most victory points wins.\n\n",
@@ -2689,15 +2697,13 @@
         "max": 4
       },
       "playtime": {
-        "min": 90,
+        "min": 60,
         "max": 90
       },
       "weight": 2.6,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -2716,11 +2722,16 @@
         "Games Warehouse",
         "Lavka Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Denmark Copenhagen"
+      ],
+      "publisherCountry": [
+        "USA Missouri"
+      ],
       "images": [
         "https://cf.geekdo-images.com/VJwOnMF5vwJg2Yaq6ozn3Q__original/img/iEgr80D4UtP0x_WQUYSB60JwGJ0=/0x0/filters:format(jpeg)/pic2869714.jpg",
-        "https://cf.geekdo-images.com/VJwOnMF5vwJg2Yaq6ozn3Q__thumb/img/Ms3h8cBxGzfcKB16q1KPOsmnoG8=/fit-in/200x150/filters:strip_icc()/pic2869714.jpg"
+        "https://cf.geekdo-images.com/GQ7wteoVnkEDq-Xfmp2p4A__imagepage/img/btahKDjnUW8__F4EZk0ilVBdesM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4612979.jpg",
+        "https://cf.geekdo-images.com/x64MeEp74Rh1TpPgSDQmpg__imagepage/img/rOKRJcjpmqvl7at6obMFP_miYWk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3579221.jpg"
       ],
       "notes": "",
       "description": "Champions of Midgard is a middleweight, Viking-themed, worker placement game with dice rolling in which players are leaders of Viking clans who have traveled to an embattled Viking harbor town to help defend it against the threat of trolls, draugr, and other mythological Norse beasts. By defeating these epic creatures, players gain glory and the favor of the gods. When the game ends, the player who has earned the most glory earns the title of Jarl and is recognized as a champion of Midgard!\n\nPlacing workers allows for the collection of resources and warriors, which players may then send on journeys to neighboring villages or across the sea to defeat monsters and gain the glory they need for victory. Resources are used to carve runes, build ships, and feed your followers. Viking warriors (custom dice) do battle with the myriad enemies the town faces.\n\n",
@@ -2777,11 +2788,16 @@
         "Swan Panasia Co.",
         "Ltd."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/sPi_5WA2TdMTNx0ZGeshTg__original/img/d8eUDvwhteyCzYnD1dF4pN5gDps=/0x0/filters:format(jpeg)/pic7596285.jpg",
-        "https://cf.geekdo-images.com/sPi_5WA2TdMTNx0ZGeshTg__thumb/img/2lAMtqiiUU0jo4AxwwBqgrbRUus=/fit-in/200x150/filters:strip_icc()/pic7596285.jpg"
+        "https://cf.geekdo-images.com/6pBMiT55SstWnp8gfgrjpw__imagepage/img/izyoXa23-GGXnI8X5gkDhiBhQ0w=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7109616.jpg",
+        "https://cf.geekdo-images.com/dwDoW4w-gI79SvIQAe-4Dw__imagepage/img/IiYoh36uTslXm2Jhz9fm06CG3VA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7369406.jpg"
       ],
       "notes": "",
       "description": "Clever 4Ever features the same gameplay as Ganz schön clever, Doppelt so clever and Clever hoch drei, but with new categories in which to score.\n\nYour goal: Choose dice, then place the numbers into the matching colored area, put together tricky chain-scoring opportunities, and rack up the points. The dice you don't use are as important as what you do because every die that's smaller than the chosen one can be used by the other players, keeping everyone in the game at all times.\n\n",
@@ -2834,11 +2850,16 @@
         "Swan Panasia Co.",
         "Ltd."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/ksjSyTc0AY0M7CKLD6OA5w__original/img/KivWSWuu1M9OUvga-bmltHA9mRw=/0x0/filters:format(jpeg)/pic5929690.jpg",
-        "https://cf.geekdo-images.com/ksjSyTc0AY0M7CKLD6OA5w__thumb/img/iNPGRJGuD3nWLqqpW6A2fes34CE=/fit-in/200x150/filters:strip_icc()/pic5929690.jpg"
+        "https://cf.geekdo-images.com/veyI_4X6lf6W9kKFuKttCQ__imagepage/img/w6FWoteMiqFH9TyrAuRWund-CuM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6130971.jpg",
+        "https://cf.geekdo-images.com/cMLn8WgH2VT8Q-l65HuPQw__imagepage/img/7A-WL5oInYPeiM4xbi8nneJhsRs=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5943026.jpg"
       ],
       "notes": "",
       "description": "Clever hoch drei features the same gameplay as Ganz schön clever and Doppelt so clever, but with new categories in which to score — sometimes with several dice at the same time.\n\nYour goal: Choose dice, then place the numbers into the matching colored area, put together tricky chain-scoring opportunities, and rack up the points. The dice you don't use are as important as what you do because every die that's smaller than the chosen one can be used by the other players, keeping everyone in the game at all times.\n\n",
@@ -2871,12 +2892,8 @@
       "weight": 1.6,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
         4,
         5,
-        6,
         6
       ],
       "designers": [
@@ -2934,11 +2951,16 @@
         "Smeets & Schippers",
         "Spółdzielnia Rzemieślnicza"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "England"
+      ],
+      "publisherCountry": [
+        "USA Rhode Island"
+      ],
       "images": [
-        "https://cf.geekdo-images.com/wNcbhLJGGjakYjjm1gV_kQ__original/img/Ji1MKh8gogtczoDecOi5D5yo9hQ=/0x0/filters:format(png)/pic7563466.png",
-        "https://cf.geekdo-images.com/wNcbhLJGGjakYjjm1gV_kQ__thumb/img/yaeAeMVffkAZEjgYs0DvT4Zk2z0=/fit-in/200x150/filters:strip_icc()/pic7563466.png"
+        "https://cf.geekdo-images.com/bTtGmxuGTbsTC5BWTqAt_g__imagepage/img/Vo2PepAMK3ob57XMRNEP-8iQsek=/fit-in/900x600/filters:no_upscale():strip_icc()/pic238416.jpg",
+        "https://cf.geekdo-images.com/wNcbhLJGGjakYjjm1gV_kQ__thumb/img/yaeAeMVffkAZEjgYs0DvT4Zk2z0=/fit-in/200x150/filters:strip_icc()/pic7563466.png",
+        "https://cf.geekdo-images.com/k0yyWKvLNPdOWYMjB5zTdQ__imagepage/img/rAUGLRDQxuBHHrHJAN-bONyXCVI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3319481.jpg"
       ],
       "notes": "",
       "description": "For versions of Clue that feature the new character Dr. Orchid, please use this Clue page.\n\nThe classic detective game!   A game for those who enjoy reasoning and thinking things out.\n\nIn Clue, players move from room to room in a mansion to solve the mystery of: who done it, with what, and where?  Players are dealt character, weapon, and location cards after the top card from each card type is secretly placed in the confidential file in the middle of the board.  Players must move to a room and then make a suggestion against a character saying they did it in that room with a specific weapon.  The player to the left must show one of any cards mentioned if in that player's hand.  Through deductive reasoning each player must figure out which character, weapon, and location are in the secret file.  To do this, each player must uncover what cards are in other players hands by making more and more suggestions.  Once a player knows what cards the other players are holding, they will know what cards are in the secret file, and then make an accusation. If correct, the player wins, but if incorrect, the player must return the cards to the file without revealing them and may no longer make suggestions or accusations.\n\nNote: There are some early versions of Clue which are labeled as 2-6 players. Recent and current issues of the game state 3-6 players.\n\n",
@@ -2973,11 +2995,7 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
-        4,
         5,
-        6,
         6
       ],
       "designers": [
@@ -3007,11 +3025,16 @@
         "Swan Panasia Co.",
         "Ltd."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Luxembourg"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/lHadyVLPUQfNz_qV6MMp_Q__original/img/qN8xusrxWyTJfgq1gTUWrdE4B2I=/0x0/filters:format(jpeg)/pic3218988.jpg",
-        "https://cf.geekdo-images.com/lHadyVLPUQfNz_qV6MMp_Q__thumb/img/zWiETTyIp4Xo1o0l2mtOdt3G-ls=/fit-in/200x150/filters:strip_icc()/pic3218988.jpg"
+        "https://cf.geekdo-images.com/4HtRbmXpWuOj6mUYvBY59w__imagepage/img/DOvTUw5eGSiHmS4NAJBKUtuTtSU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5959215.jpg",
+        "https://cf.geekdo-images.com/T_5BlwjJLuY8cW-r7XaLYw__imagepage/img/oapEgynfW8axEWa8PvRLJiL4kao=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2347682.jpg"
       ],
       "notes": "",
       "description": "Cockroach Poker is a reverse set collection game that has nothing to do with poker – except that the game is all about bluffing, with cards that show cockroaches, rats and stink bugs. The goal is to force another player to collect 4 of any one type of critter.\n\nThe deck includes 64 cards, with eight copies of eight types of critters. To set up the game, shuffle the deck and deal the cards out to players.\n\nOn a turn, a player takes one card from their hand, lays it face down on the table, slides it to a player of their choice, and declares a type of critter, e.g., \"Stink bug\". The player receiving the card either\n\n\n     Accepts the card, says either \"true\" or \"false\", then reveals the card. If this player is wrong in their claim, they keep the card on the table in front of them face up; if they are right, the player who gave them the card places it face up before them.\n\n\n\n     Peeks at the card, then passes it face down to another player, either saying the original type of critter or saying a new type. This new player again has the choice of accepting the card or passing it, unless the card has already been seen by all other players in which case the player must take the first option.\n\n\nWhoever lost a challenge and had to place the card before them on the table begins the next round.\n\nThe game ends when a player has no cards to pass on their turn or when a player has four cards of the same critter on the table in front of them. In either case, this player loses and everyone else wins.\n\n",
@@ -3039,19 +3062,12 @@
       },
       "playtime": {
         "min": 15,
-        "max": 15
+        "max": 30
       },
       "weight": 1.3,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
-        5,
         6,
-        7,
-        8,
         8
       ],
       "designers": [
@@ -3102,11 +3118,15 @@
         "TWOPLUS Games",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Czechia"
+      ],
+      "publisherCountry": [
+        "Czechia"
+      ],
       "images": [
-        "https://cf.geekdo-images.com/nC6ifPCDnAItwoKSKXVrnw__original/img/Id-jjIer_61ZbvI2_RVRCeBZFY4=/0x0/filters:format(jpeg)/pic8907965.jpg",
-        "https://cf.geekdo-images.com/nC6ifPCDnAItwoKSKXVrnw__thumb/img/1iZav_8ZqurrDbvkZA9GcFhB5x0=/fit-in/200x150/filters:strip_icc()/pic8907965.jpg"
+        "https://boardgamegeek.com/image/2582929/codenames",
+        "https://cf.geekdo-images.com/6mXAnUefcFa1XjWep_iuLQ__imagepagezoom/img/qu4uZwb1Py3oJUER46rDHCLCG5M=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic3234784.jpg"
       ],
       "notes": "",
       "description": "Two rival spymasters know the secret identities of 25 agents. Their teammates know the agents only by their codenames — single-word labels like \"disease\", \"Germany\", and \"carrot\". Yes, carrot. It's a legitimate codename. Each spymaster wants their team to identify their agents first...without uncovering the assassin by mistake.\n\nIn Codenames, two teams compete to see who can make contact with all of their agents first. Lay out 25 cards, each bearing a single word. The spymasters look at a card showing the identity of each card, then take turns clueing their teammates. A clue consists of a single word and a number, with the number suggesting how many cards in play have some association to the given clue word. The teammates then identify one agent they think is on their team; if they're correct, they can keep guessing up to one more than the stated number of times; if the agent belongs to the opposing team or is an innocent bystander, the team's turn ends; and if they fingered the assassin, they lose the game.\n\nSpymasters continue giving clues until one team has identified all of their agents or the assassin has removed one team from play.\n\n",
@@ -3796,6 +3816,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-15T13:21:57.844Z",
+  "lastModified": "2025-06-15T13:51:01.356Z",
   "version": "1.0"
 }
