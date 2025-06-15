@@ -2123,10 +2123,10 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
-        4,
         5,
-        6
+        6,
+        7,
+        8
       ],
       "designers": [
         "Frédéric Henry"
@@ -2147,11 +2147,16 @@
         "REXhry",
         "Rozum"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/UuNZgbBvw-o6mboCwn5t-g__original/img/Qb0ruAAN7OT7dLWlCT5DWIwI1Ss=/0x0/filters:format(jpeg)/pic3154455.jpg",
-        "https://cf.geekdo-images.com/UuNZgbBvw-o6mboCwn5t-g__thumb/img/Qj0gNK8qvKuh8bXbJQSGcnZ_qiw=/fit-in/200x150/filters:strip_icc()/pic3154455.jpg"
+        "https://cf.geekdo-images.com/FEN3c1vOV_bYhVQ8IfdEUA__imagepage/img/5_uIDSWaBd1sY9Y88U_ioiQONts=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2934639.jpg",
+        "https://cf.geekdo-images.com/lBEYtCvEha7lySJiev9e7A__imagepage/img/BC1nXFcdf2uCZUgWVOCsi0lJdPI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1731505.jpg"
       ],
       "notes": "",
       "description": "Cardline: Animals is a card game played with 110 cards. Both sides of each card depict an animal, its name, and its class (amphibian, mammal, etc.), while its average length, weight, and lifespan are printed on only one side of the card. For each game, players decide before playing whether they're comparing animal lengths, weights, or lifespans.\n\nAt the start of the game, each player places a number of animal cards on the table in front of her with the characteristics hidden. One card is placed in the center of the table with its characteristics revealed. Players then take turns placing a card from their tableau in a row on the table; a player can place a card between any two other cards. After placing the card, the player reveals the characteristics on it. If the card was placed correctly – that is, with the particular characteristic in numerical order compared to all other cards on the table – the card stays in place; otherwise the card is removed from play and the player takes another card from the deck and adds it to her tableau.\n\nThe first player to get rid of all her cards by placing them correctly wins. If multiple players go out in the same round, then everyone else is eliminated from play and each of those players are dealt one more card for another round of play. If only one player has no cards after a bonus round, she wins; otherwise play continues until a single player goes out.\n\n",
@@ -2174,14 +2179,12 @@
         "max": 4
       },
       "playtime": {
-        "min": 75,
+        "min": 45,
         "max": 75
       },
       "weight": 2.5,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -2198,11 +2201,20 @@
         "Maldito Games",
         "Ravensburger"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
-        "https://cf.geekdo-images.com/fsjopscDFCVArzU7fzhVxA__original/img/JJXwLsCeWj_8FOurLToKpdQuvpc=/0x0/filters:format(jpeg)/pic6183704.jpg",
-        "https://cf.geekdo-images.com/fsjopscDFCVArzU7fzhVxA__thumb/img/6Yu-lVdkDTrICD1y5ZqNmzHZEsc=/fit-in/200x150/filters:strip_icc()/pic6183704.jpg"
+        "https://cf.geekdo-images.com/ngaya6gG3JLfsDhYVhDaCQ__imagepage/img/VpRxoiJUN9lkR0SBxyN2IyUtfro=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5016135.jpg",
+        "https://cf.geekdo-images.com/XFAVCcIpwlpuLgqwipCtEA__imagepage/img/nmElCzfFdmVndbAWqYoYoHqg2ng=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5159846.jpg",
+        "https://cf.geekdo-images.com/WpobIPnD2vazb1c2TFnZMQ__imagepage/img/y1Uu4u-qRyh3x_FMBivjiJANyqY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5159847.jpg",
+        "https://cf.geekdo-images.com/uRs-6uqFtE8lkSG3DVj8og__imagepage/img/h0dVk4IjclK7jC8M1JYpT7tKBik=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5150872.jpg",
+        "https://cf.geekdo-images.com/QPkvjZYjKPngC9uXL_cA8w__imagepage/img/kRr4snsJSp3byhOkxQnLaVzsDzo=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6078754.jpg",
+        "https://cf.geekdo-images.com/8Ii28Ckt_VV4jdSHDmYQng__imagepage/img/CrgSXWB-0Ke-SO5d2vdvowcs6k8=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5990168.jpg",
+        "https://cf.geekdo-images.com/O8LYRcrQMEc3NXGGg7_eog__imagepage/img/tqFI0GEnZpLUl6AkSr2UXWsA3P8=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5190363.jpg"
       ],
       "notes": "",
       "description": "The players slip into the role of rich patricians in ancient Rome. Everyone is trying to build a lucrative city district to score as many prestige points as possible. The novel way to get to the individual buildings of a district combined with a large variety of score cards make for an unusual game with a large number of strategies. From the successful designer, Stefan Feld.\n\n",
@@ -2231,14 +2243,13 @@
         "max": 100
       },
       "playtime": {
-        "min": 45,
+        "min": 30,
         "max": 45
       },
       "weight": 1.9,
       "weightColor": "#008000",
       "bestPlayerCount": [
         1,
-        2,
         3,
         4,
         5,
@@ -2248,26 +2259,7 @@
         9,
         10,
         11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        30
+        12
       ],
       "designers": [
         "Jordy Adan"
@@ -2302,11 +2294,17 @@
         "The Wood Games",
         "Ігромаг"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Brazil"
+      ],
+      "publisherCountry": [
+        "USA Wisconsin Madison"
+      ],
       "images": [
         "https://cf.geekdo-images.com/GifbnAmsA4lfEcDkeaC9VA__original/img/YzJORdIDNza8kmrY6KEU_h2p2Wo=/0x0/filters:format(png)/pic4397932.png",
-        "https://cf.geekdo-images.com/GifbnAmsA4lfEcDkeaC9VA__thumb/img/TTxZzwbna07hMcPQ0xaFtT10egE=/fit-in/200x150/filters:strip_icc()/pic4397932.png"
+        "https://cf.geekdo-images.com/eDlIQ9wwzTTZi4_Al2jvkg__imagepage/img/p3xC9K1e8xyPDlmJnxq6BrxNKEM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4690453.jpg",
+        "https://cf.geekdo-images.com/WtOoZ2FF1wgKCSVudPs5Vw__imagepagezoom/img/k6TEvdYmAOINJmmlGe79Qbkz5BI=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic6601882.jpg",
+        "https://cf.geekdo-images.com/7lOG0_F2d9ljUlwUujnmLA__imagepage/img/oGc7cE6kYP2X2yd5OVfQVLiVNgw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7204610.jpg"
       ],
       "notes": "",
       "description": "Queen Gimnax has ordered the reclamation of the northern lands. As a cartographer in her service, you are sent to map this territory, claiming it for the Kingdom of Nalos. Through official edicts, the queen announces which lands she prizes most, and you will increase your reputation by meeting her demands. But you are not alone in this wilderness. The Dragul contest your claims with their outposts, so you must draw your lines carefully to reduce their influence. Reclaim the greatest share of the queen’s desired lands and you will be declared the greatest cartographer in the kingdom.\n\nIn Cartographers: A Roll Player Tale, players compete to earn the most reputation stars by the time four seasons have passed. Each season, players draw on their map sheets and earn reputation by carrying out the queen's edicts before the season is over. The player with the most reputation stars at the end of winter wins!\n\n—description from the publisher\n\n",
@@ -2340,13 +2338,12 @@
         "max": 4
       },
       "playtime": {
-        "min": 90,
+        "min": 40,
         "max": 90
       },
       "weight": 3,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
         2,
         3,
         4
@@ -2368,11 +2365,18 @@
         "Maldito Games",
         "Rebel Sp. z o.o."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/sH2YTQ10dHj1ibfS-KKtGA__original/img/L_gsMsuhbAe0kyq1QLAmyeKOeSs=/0x0/filters:format(jpeg)/pic8745814.jpg",
-        "https://cf.geekdo-images.com/sH2YTQ10dHj1ibfS-KKtGA__thumb/img/f5zFXdTcH9RNY0iMNBppd8D-_r0=/fit-in/200x150/filters:strip_icc()/pic8745814.jpg"
+        "https://cf.geekdo-images.com/hh7u-ZZjgUmg5NIrQ7jY0g__imagepage/img/naI122W1vYeidv-TGaRtBUE0ruM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic833939.jpg",
+        "https://cf.geekdo-images.com/-ANxs_GN9jCBKDdx7ePMNA__imagepage/img/fWyeXTLPXE_oxx5EzjkNyMwnYL8=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4133041.jpg",
+        "https://cf.geekdo-images.com/1SgJbdRfBYwtHd_jZDUbSg__imagepage/img/F2zAgBbAkc_6ZMM-4mFHzaDokCc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic947231.jpg",
+        "https://cf.geekdo-images.com/eCMUSeGOpIFMrDY9nVD-WQ__imagepage/img/28uNiNNUAZAYzQpVPlA5zlWOrCA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic947232.jpg"
       ],
       "notes": "",
       "description": "For the 2019 edition see The Castles of Burgundy.\n\nThe game is set in the Burgundy region of High Medieval France. Each player takes on the role of an aristocrat, originally controlling a small princedom. While playing they aim to build settlements and powerful castles, practice trade along the river, exploit silver mines, and use the knowledge of travelers.\n\nThe game is about players taking settlement tiles from the game board and placing them into their princedom which is represented by the player board. Every tile has a function that starts when the tile is placed in the princedom. The princedom itself consists of several regions, each of which demands its own type of settlement tile.\n\nThe game is played in five phases, each consisting of five rounds.  Each phase begins with the game board stocked with settlement tiles and goods tiles.  At the beginning of each round all players roll their two dice, and the player who is currently first in turn order rolls a goods placement die.  A goods tile is made available on the game board according to the roll of the goods die.  During each round players take their turns in the current turn order.  During his turn, a player may perform any two of the four possible types of actions: 1) take a settlement tile from the numbered depot on the game board corresponding to one of his dice and place it in the staging area on his player board, 2) take a settlement tile from the staging area of his player board to a space on his player board with a number matching one of his dice in the corresponding region for the type of tile and adjacent to a previously placed settlement tile, 3) deliver goods with a number matching one of his dice, or 4) take worker tokens which allow the player to adjust the roll of his dice.  In addition to these actions a player may buy a settlement tile from the central depot on the game board and place it in the staging area on his player board.  If an action triggers the award of victory points, those points are immediately recorded.  Each settlement tile offers a benefit, additional actions, additional money, advancement on the turn order track, more goods tiles, die roll adjustment or victory points.  Bonus victory points are awarded for filling a region with settlement tiles.\n\nThe game ends after the fifth phase is played to completion.  Victory points are awarded for unused money and workers, and undelivered goods.  Bonus victory points from certain settlement tiles are awarded at the end of the game.\n\nThe player with the most victory points wins.\n\nThe rules include basic and advanced versions.\n\nThis game is #14 in the Alea big box series.\n\nThere is a separate BGG entry for the 2019 edition: The Castles of Burgundy.  The 2019 edition includes, alongside the base game, eight expansions, seven of which had already been released separately as promotional items and one new to the 2019 release.\n\nUPC 4005556812431\n\n",
@@ -3779,6 +3783,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-15T12:56:09.655Z",
+  "lastModified": "2025-06-15T13:11:25.269Z",
   "version": "1.0"
 }
