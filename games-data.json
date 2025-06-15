@@ -1149,7 +1149,7 @@
       "dateAcquired": "2019-04-01",
       "players": {
         "min": 3,
-        "max": 4
+        "max": 5
       },
       "playtime": {
         "min": 60,
@@ -1158,9 +1158,8 @@
       "weight": 1.9,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
-        3,
-        4
+        4,
+        5
       ],
       "designers": [
         "Sebastian Bleasdale"
@@ -1173,13 +1172,18 @@
         "asmodee",
         "Asterion Press"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK England"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/A-KaF84pQ7V8IAZULQNqKg__original/img/jQSWb6LWCtAkGeLVlQDj6an6ED4=/0x0/filters:format(jpeg)/pic1987366.jpg",
-        "https://cf.geekdo-images.com/A-KaF84pQ7V8IAZULQNqKg__thumb/img/t6JsS2kb5qfi0CVFe5o08WGlQ2M=/fit-in/200x150/filters:strip_icc()/pic1987366.jpg"
+        "https://cf.geekdo-images.com/cLjoYZUdDJkNiQ6PjS0MVA__imagepage/img/H26iGM7MgUodcmnNwjyOsr5z_WY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2214369.jpg",
+        "https://cf.geekdo-images.com/7tFYqpQyIvA4naqpI3H-_g__imagepage/img/qGf1h0uuRyfIkqwC0ilizfAfoZg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2009205.jpg"
       ],
-      "notes": "",
+      "notes": "Space Cowboys owned by Asmodee",
       "description": "Pirates, merchants, and even the occasional captain of a Navy ship all seek glory and fortune on the Caribbean seas!\n\nIn the tactical card-driven board game Black Fleet, you're in command of three different types of ships: your merchant ship earns you doubloons by conveying goods from one port to another, your pirate ship by attacking and stealing goods from merchants and burying them on islands, and the Navy ships by sinking your opponents' pirate ships. With your (not-always-honestly-won) money, you'll improve your ships by buying advancement cards, giving you powerful additional abilities.\n\nOutwit your opponents with fortune cards and combos, earn money faster than they do, and pay the ransom for the governor's daughter to win the game!\n\n",
       "category": [
         "Nautical",
@@ -1207,7 +1211,7 @@
         "max": 6
       },
       "playtime": {
-        "min": 20,
+        "min": 15,
         "max": 20
       },
       "weight": 1,
@@ -1229,7 +1233,8 @@
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/hh2t_DaRMVVsTPAIJwPLOA__original/img/rTolVvQDqUum6bhvXyZpSIYpf0g=/0x0/filters:format(jpeg)/pic7321926.jpg",
-        "https://cf.geekdo-images.com/hh2t_DaRMVVsTPAIJwPLOA__thumb/img/l36qRZc6jXQEkYdZfW0JlLDzBLo=/fit-in/200x150/filters:strip_icc()/pic7321926.jpg"
+        "https://cf.geekdo-images.com/8dHiMkeug-Tx07z2scleMw__imagepage/img/eIMT_JtN43h27MqjX3TMRs2IoOA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8934212.jpg",
+        "https://cf.geekdo-images.com/ZVjz8Spxb-3bVCA5runz5g__imagepage/img/RQlbR5FQos4CaMVqHaKl1-SDmkw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8934694.jpg"
       ],
       "notes": "",
       "description": "Ready, set, BUILD! Gather your friends and family and get ready to build your blocks as best you can or take a wild guess at some cube-tastic creations. One person will be the guesser while everyone else picks a secret item from their list and gets building before the timer runs out.\n\nOn each round one player will be the Guesser and the rest will be Builders.\n\nTurn over a challenge card for the round, for example: 'Build the tallest object' or 'Use the fewest colours'. All the builders then secretly pick an object to build on their card. Then start the timer and get building, using the colourful wooden blocks in the middle of the table.\n\nOnce the time is up the Guesser then goes around the table attempting to figure out what the others have built. Points are awarded for correct guesses (and sneaky steals!). The Guesser token then moves to the next player and the rounds continue.\n\nThere is also a co-operative 2 player version of the game.\n\n—description from the designer\n\n",
@@ -3746,6 +3751,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-15T10:58:46.865Z",
+  "lastModified": "2025-06-15T11:03:30.536Z",
   "version": "1.0"
 }
