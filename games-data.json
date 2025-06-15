@@ -3848,7 +3848,9 @@
       "customFields": {}
     }
   },
-  "preferences": {},
-  "lastModified": "2025-06-15T17:41:30.109Z",
+  "preferences": {
+    "1749697901658": "down"
+  },
+  "lastModified": "2025-06-15T18:25:25.165Z",
   "version": "1.0"
 }
