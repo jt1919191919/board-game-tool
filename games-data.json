@@ -966,13 +966,12 @@
         "max": 4
       },
       "playtime": {
-        "min": 45,
+        "min": 30,
         "max": 45
       },
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -998,11 +997,16 @@
         "Mayfair Games",
         "uplay.it edizioni"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Australia"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/9JC16l1EMwmJkpbjaUBkpw__original/img/H14LeRRtvcOajZ1Z1_pRYu_rSTM=/0x0/filters:format(jpeg)/pic3486218.jpg",
-        "https://cf.geekdo-images.com/9JC16l1EMwmJkpbjaUBkpw__thumb/img/MbjH6nLmJQ5IjCgeULOjMfOf-NA=/fit-in/200x150/filters:strip_icc()/pic3486218.jpg"
+        "https://cf.geekdo-images.com/bGLwjb614nKuxwtpg_NpGQ__imagepage/img/7u-vyu4GHq-fsXKqrY5_dNCqBZU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3382469.jpg",
+        "https://cf.geekdo-images.com/TvpVAHEjaCI_9y-c6Xm5mg__imagepage/img/CFfp19PNg-erlc913JJz_hL8Kys=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3662070.jpg"
       ],
       "notes": "",
       "description": "Up to two thousand pounds in weight and over ten feet tall, the bear is considered the biggest and heaviest terrestrial carnivore in the world. Of course, there is not just \"one bear;\" on the contrary, there are plenty of subspecies that differ from each other in various aspects. For instance, only the Kodiak bear (ursus arctos middendorffi) weighs about 2,000 lbs. The polar bear (ursus maritimus) weighs \"only\" 1,100 lbs., but gets much bigger than the Kodiak bear, being as much as 11 ft. tall!\n\nBärenpark takes you into the world of bears, challenging you to build your own bear park. Would you like another polar bear enclosure or rather a koala* house? The park visitors are sure to get hungry on their tour through the park, so build them places to eat! Whatever your choices are, make sure you get the next building permit and use your land wisely! (* No, koalas aren't bears but they're so cute, we couldn't leave them out of this game!)\n\nIn more detail, each player in Bärenpark builds their own bear park, attempting to make it as beautiful as they can, while also using every square meter possible. The park is created by combining polyomino tiles onto a grid, with players scoring for animal houses, outdoor areas, completed construction, and more. The sooner you build it, the better! Cover icons to get new tiles and park sections. The game ends as soon as one player has finished expanding their park, then players tally their points to see who has won.\n\n—description from the publisher\n\n",
@@ -1409,9 +1413,7 @@
       "weight": 2.9,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -1442,11 +1444,14 @@
         "Portal Games",
         "REXhry"
       ],
-      "designerNationality": [],
+      "designerNationality": [
+        "Canada Toronto"
+      ],
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/HkZSJfQnZ3EpS214xtuplg__original/img/Myy6IPDJDzLoPdXrPXVZcddBQoQ=/0x0/filters:format(jpeg)/pic2439223.jpg",
-        "https://cf.geekdo-images.com/HkZSJfQnZ3EpS214xtuplg__thumb/img/NLhVdU8xazrgS5dA6nVCYmN2DNI=/fit-in/200x150/filters:strip_icc()/pic2439223.jpg"
+        "https://cf.geekdo-images.com/f1KUbP2l8ltRRTgCkZ3NRQ__imagepage/img/J0WqXcgkSM6Jfy2DfREhLBCUexM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2618676.jpg",
+        "https://cf.geekdo-images.com/9h39lSGR4p0Z2nQUQQoOMg__imagepage/img/NiJSGkz1XTyycrkZzy0OuVdCvFM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3473038.jpg"
       ],
       "notes": "",
       "description": "\"Life is Battle; Battle is Glory; Glory is ALL\"\n\nIn Blood Rage, players control the warriors, leader, and ship of their own Viking clan. Ragnarök has come and it’s the end of the world! It’s the Vikings’ last chance to go down in a blaze of glory and secure their places in Valhalla at Odin’s side! As a Viking you can pursue one of many pathways to glory. You can: invade and pillage the land for its rewards; crush your opponents in battle: fulfill quests: increase your clan's stats: or even die gloriously in battle or from Ragnarök, the ultimate inescapable doom.\n\nMost player strategies are guided by the cards drafted at the beginning of each of the three game rounds (or Ages). These “Gods’ Gifts” grant you numerous boons for your clan including: increased Viking strength and devious battle strategies, upgrades to your clan, or even the aid of legendary creatures from Norse mythology. They may also include various quests, from dominating specific provinces, to having many of your Vikings sent to Valhalla. Most of these cards are aligned with one of the Norse gods, hinting at the kind of strategy they support. For example, Thor gives more glory for victory in battle. Heimdall grants you foresight and surprises. Tyr strengthens you in battle, while the trickster Loki actually rewards you for losing battles or punishes the winner.\n\nPlayers must choose their strategies carefully during the draft phase, but also be ready to adapt and react to their opponents’ strategies as the action phase unfolds. Battles are decided not only by the strength of the figures involved but also by cards played in secret. By observing your opponent’s actions and allegiances to specific gods you may predict what card they are likely to play, and plan accordingly. Winning battles is not always the best course of action, as the right card can get you even more rewards by being crushed. The only losing strategy in Blood Rage is to shy away from battle and a glorious death!\n\n",
@@ -1489,7 +1494,6 @@
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -1509,13 +1513,18 @@
         "MYBG Co.",
         "Ltd."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Canada Ottawa"
+      ],
+      "publisherCountry": [
+        "USA New York"
+      ],
       "images": [
         "https://cf.geekdo-images.com/yj0dJI3pFauW-EU9Vg6OZw__original/img/LxwWN-0LRUVioSQcFJPbgqQ8No4=/0x0/filters:format(jpeg)/pic1877243.jpg",
-        "https://cf.geekdo-images.com/yj0dJI3pFauW-EU9Vg6OZw__thumb/img/TVG6p598iOhPeDZuVWy6QCTzOi4=/fit-in/200x150/filters:strip_icc()/pic1877243.jpg"
+        "https://cf.geekdo-images.com/92xgs4MNeYD988Z2OZEd7Q__imagepage/img/AyKCMtn-KLb4INmI6W2WRTRKweU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1856879.jpg",
+        "https://cf.geekdo-images.com/ud6LlN2vQjl-r49hopHnYQ__imagepage/img/NoAslH1x3jny8Ybek2UXpWJllWw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3539791.jpg"
       ],
-      "notes": "",
+      "notes": "Z-Man owned by Asmodee",
       "description": "In Blueprints, players are architects who must use different colored dice to build three different structures from blueprints, with the dice providing different advantages to you. In the game, each round progresses like this:\n\n\n     Discover your blueprint.\n     Each turn, choose a die and place it in your building.\n     Reveal your building, tally your points, then discover who wins the awards and prizes.\n\n\nAfter three rounds, players tally their awards and prizes to see who wins. Who will be the best architect?\n\n",
       "category": [
         "Dice",
@@ -1552,12 +1561,9 @@
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5,
         6,
-        7,
         7
       ],
       "designers": [
@@ -1598,11 +1604,16 @@
         "Ltd.",
         "VR Distribution"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA New Mexico"
+      ],
       "images": [
         "https://cf.geekdo-images.com/8SADtu_4zBH_UJrCo935Iw__original/img/RNuAr2CDbxE3XzeJVkxj4Df3eVM=/0x0/filters:format(jpeg)/pic6348964.jpg",
-        "https://cf.geekdo-images.com/8SADtu_4zBH_UJrCo935Iw__thumb/img/vwTEQOWA3Mw__ztkTMulOgJ82Pw=/fit-in/200x150/filters:strip_icc()/pic6348964.jpg"
+        "https://cf.geekdo-images.com/PGFKVjJxP1EaP_3_AQ7cSA__imagepage/img/QyEZP0Cfi4a2BERLxudQYisP8vU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic828592.jpg",
+        "https://cf.geekdo-images.com/82eDyNXZUjUVzlzs0vX5aw__imagepage/img/SXU0XIrNLHoOkFhjur2gzhJVva4=/fit-in/900x600/filters:no_upscale():strip_icc()/pic217626.jpg"
       ],
       "notes": "",
       "description": "Bohnanza is the first in the Bohnanza family of games and has been published in several different editions, including a 2023 version with flowers.\n\nThis entry lists a few different major card sets for Bohnanza: the base game for 3-5 players, the expanded game with the same name for 2-7 players (that is, first expansion included), and Bohnanza Pocket.\n\nIn the game, you plant, then harvest bean cards in order to earn coins. Each player starts with a hand of random bean cards, and each card has a number on it corresponding to the number of that type of beans in the deck. Unlike in most other card games, you can't rearrange the order of cards in hand, so you must use them in the order that you've picked them up from the deck — unless you can trade them to other players, which is the heart of the game.\n\nOn a turn, you must plant the first one or two cards in your hand into the \"fields\" in front of you. Each field can hold only one type of bean, so if you must plant a type of bean that's not in one of your fields, then you must harvest a field to make room for the new arrival. This usually isn't good! Next, you reveal two cards from the deck, and you can then trade these cards as well as any card in your hand for cards from other players. You can even make future promises for cards received right now! After all the trading is complete — and all trades on a turn must involve the active player — then you end your turn by drawing cards from the deck and placing them at the back of your hand.\n\nWhen you harvest beans, you receive coins based on the number of bean cards in that field and the \"beanometer\" for that particular type of bean. Flip over 1-4 cards from that field to transform them into coins, then place the remainder of the cards in the discard pile. When the deck runs out, shuffle the discards, playing through the deck two more times. At the end of the game, everyone can harvest their fields, then whoever has earned the most coins wins.\n\nThe original German edition supports 3-5 players. The English version from Rio Grande Games comes with the first edition of the first German expansion included in a slightly oversized box. One difference in the contents, however, is that bean #22's Weinbrandbohne (Brandy Bean) was replaced by the Wachsbohne, or Wax Bean. This edition includes rules for up to seven players, like the Erweiterungs-Set, but also adapts the two-player rules of Al Cabohne in order to allow two people to play Bohnanza.\n\n",
@@ -1631,13 +1642,12 @@
         "max": 9
       },
       "playtime": {
-        "min": 40,
+        "min": 20,
         "max": 40
       },
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        5,
         6,
         7,
         8,
@@ -1655,11 +1665,17 @@
         "Lucky Duck Games",
         "Ігромаг"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA Ohio Dayton"
+      ],
+      "publisherCountry": [
+        "USA Ohio Columbus"
+      ],
       "images": [
-        "https://cf.geekdo-images.com/2L_NV04_cppbcWvyDwZQCA__original/img/_hlXZSIp59HQkHL4RlxcUcCZyrA=/0x0/filters:format(jpeg)/pic5400101.jpg",
-        "https://cf.geekdo-images.com/2L_NV04_cppbcWvyDwZQCA__thumb/img/lvhxPvjRamn95T1NuzMxscG0xUw=/fit-in/200x150/filters:strip_icc()/pic5400101.jpg"
+        "https://cf.geekdo-images.com/BDnaL_QjV_0jZSHIXfQxsw__imagepage/img/twrOre8gxp2t32W4Vli0SSc5LTM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7048288.jpg",
+        "https://cf.geekdo-images.com/LCqNQPz4pTik7yMG_ux1Uw__imagepage/img/dkP2IJfitC5qlM6x1nSsHA2Iwys=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7109490.jpg",
+        "https://cf.geekdo-images.com/ae8Teb1AlaTuZgIu3VVUYA__imagepage/img/cibYXAvaVyxAPQePa8NilDE5b2Y=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6364708.jpg",
+        "https://cf.geekdo-images.com/k0mBRkHlaes0kdlTFIUG4A__imagepage/img/ow-IHM_6WSFT95No-98F4Xkro0Y=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5400172.jpg"
       ],
       "notes": "",
       "description": "The dreaded Black Death has descended upon the town of Bristol. You are racing down the streets in one of the three available apple carts, desperate to escape into the safety of the countryside. If your cart is the first to leave the town and it is full of only healthy villagers when you leave, you and your fellow cart-mates successfully escape and win the game!\n\nHowever, some villagers on your cart may already have the plague! They are hiding their early symptoms from you so that they can enjoy their last few days in peace. If you leave town with a plagued villager on your cart, you will catch the plague. You must do whatever is necessary to make sure that doesn't happen!\n\nOn the surface Bristol 1350 is part co-operative teamwork, part racing strategy, and part social deduction. In reality, it's a selfish scramble to get yourself out of town as quickly as possible without the plague, by any means necessary.\n\nThe game comes in a magnetic book box and includes a rubber playmat, 9 wood pawns, 3 miniature carts, 6 rat/apple dice, a linen bag, and 64 cards. The deluxe version adds 6 coins, 6 cards, and 3 metal carts. This standalone game is Volume 4 in the \"Dark Cities Series\" by Facade Games following Salem 1692, Tortuga 1667, and Deadwood 1876.\n\n",
@@ -1691,7 +1707,7 @@
         "max": 4
       },
       "playtime": {
-        "min": 45,
+        "min": 30,
         "max": 45
       },
       "weight": 2.2,
@@ -1727,11 +1743,16 @@
         "Ravensburger",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA Oregon Portland"
+      ],
+      "publisherCountry": [
+        "USA Washington Seattle"
+      ],
       "images": [
         "https://cf.geekdo-images.com/qGkU6XsF1448F_A4P8TY5Q__original/img/sm-qIkkIoKuYRUgkfP6kkXTm1QY=/0x0/filters:format(jpeg)/pic8124431.jpg",
-        "https://cf.geekdo-images.com/qGkU6XsF1448F_A4P8TY5Q__thumb/img/l5ODCWYHD8_1x-WFqf-TJZhXT38=/fit-in/200x150/filters:strip_icc()/pic8124431.jpg"
+        "https://cf.geekdo-images.com/g79xlY3Y9bVnZLjpg-5Oow__imagepage/img/Z-d9frSuCEcQGWSLI_OpNN2X91k=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4963555.jpg",
+        "https://cf.geekdo-images.com/AGGIrucWgMWNHmOYW_LYGw__imagepage/img/-4CGWFWwmMd3shMc5VhYP9dOizE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4947362.jpg"
       ],
       "notes": "",
       "description": "Calico is a puzzly tile-laying game of quilts and cats.\n\nIn Calico, players compete to sew the coziest quilt as they collect and place patches of different colors and patterns. Each quilt has a particular pattern that must be followed, and players are also trying to create color and pattern combinations that are not only aesthetically pleasing, but also able to attract the cuddliest cats!\n\nTurns are simple. Select a single patch tile from your hand and sew it into your quilt, then draw another patch into your hand from the three available. If you are able to create a color group, you may sew a button onto your quilt. If you are able to create a pattern combination that is attractive to any of the cats, it will come over and curl up on your quilt! At the end of the game, you score points for buttons, cats, and how well you were able to complete your unique quilt pattern.\n\n—description from the publisher\n\n",
@@ -3752,6 +3773,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-15T11:51:47.885Z",
+  "lastModified": "2025-06-15T12:31:51.083Z",
   "version": "1.0"
 }
