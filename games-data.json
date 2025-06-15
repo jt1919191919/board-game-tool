@@ -3478,9 +3478,6 @@
       "weight": 2.4,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
         4,
         5
       ],
@@ -3505,11 +3502,20 @@
         "Reflexshop",
         "Tabletop KZ"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Canada Alberta Edmonton"
+      ],
+      "publisherCountry": [
+        "Canada Toronto"
+      ],
       "images": [
         "https://cf.geekdo-images.com/A0ZRM7_H6ecCQ8-lW0MtQQ__original/img/VcraEiTpK1jfGuU_A3-UiaH-cZI=/0x0/filters:format(jpeg)/pic5799638.jpg",
-        "https://cf.geekdo-images.com/A0ZRM7_H6ecCQ8-lW0MtQQ__thumb/img/F8ELDsdUdbTvFWmYw1CZjqAWl0Y=/fit-in/200x150/filters:strip_icc()/pic5799638.jpg"
+        "https://cf.geekdo-images.com/os6XZ2eakR-a0vfum_9h9g__imagepage/img/p6NggVLuYgLzgTvvGKWqobbtG0I=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6786671.jpg",
+        "https://cf.geekdo-images.com/HxZCyPx6AmN59mO5IAkqAg__imagepage/img/H8iqZo6JKoiuOin2OXVgUmP3WAQ=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7528527.jpg",
+        "https://cf.geekdo-images.com/49z6nFjAKhSpbNPHuRZsZA__imagepage/img/c56baWwas9DUFwVztcKERPhd1CY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6742053.jpg",
+        "https://cf.geekdo-images.com/BiIqw6hiOSYpWGyVrNyN7w__imagepage/img/kH0s8xxYktH7JBZ8EFy1clcZeJI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6652243.jpg",
+        "https://cf.geekdo-images.com/LD-g_OVPIim6OrOK1sZk5Q__imagepage/img/Jx8UDHvh_Kef9XFhSOl3tonyi5M=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5840957.jpg",
+        "https://cf.geekdo-images.com/lZioMG7LQWYgMUZbi67YyQ__imagepage/img/dOoQstrUHM55Qmwl7qP1FRzGaz0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5777870.jpg"
       ],
       "notes": "",
       "description": "Life in the forest is a lot of fun, at least while the sun is shining and the leaves are on the trees. Those days don’t last forever though, and long before the weather starts to change, the wise animals start to harvest for the long cold winter ahead. You will spend many months tucked into your burrow and you want to make it as cozy as possible. A nice bowl of soup, a comfortable rocking chair, and some toys and games will go a long way to make those dark winter days pass by quickly.\n\nIn Creature Comforts, you spend the Spring, Summer, and Fall gathering different goods from the forest and spending them to collect items that will make your home more inviting while the world outside is covered in a layer of snow. Each round you send family members out to various locations in an attempt to gain supplies. If they fall short of their goal, they’ll learn a lesson and be better prepared next time. The family that has created the most comfortable den wins the game.\n\n—description from the publisher\n\n",
@@ -3552,8 +3558,6 @@
       "weight": 2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4,
         5
@@ -3589,11 +3593,16 @@
         "Ltd.",
         "Zvezda"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/98LnQShydr11OBKS46xY-Q__original/img/Q-ZkgnuBu9OTBr7J3qnqPjqamAE=/0x0/filters:format(jpeg)/pic5687013.jpg",
-        "https://cf.geekdo-images.com/98LnQShydr11OBKS46xY-Q__thumb/img/et-fnuozyOdBOVL-5kSS3_7I8fw=/fit-in/200x150/filters:strip_icc()/pic5687013.jpg"
+        "https://cf.geekdo-images.com/cynQvgPek7iqvcibg3FQHQ__imagepage/img/BUh1DSiC2tyh_TBmH6GVPuqbC4M=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5316323.jpg",
+        "https://cf.geekdo-images.com/Vg1ac7Il6VEQX97_nbt0FQ__imagepage/img/ciiSuKg5AUtg1jMBMEtX_6ZLLsc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5578002.jpg"
       ],
       "notes": "",
       "description": "In the co-operative trick-taking game The Crew: The Quest for Planet Nine, the players set out as astronauts on an uncertain space adventure. What are the rumors regarding the unknown planet about? The eventful journey through space extends over 50 exciting missions. But this game can only be defeated by meeting common individual tasks of each player. In order to meet the varied challenges communication is essential in the team. But this is more difficult than expected in space.\n\nWith each mission the game becomes more difficult. After each mission the game can be paused and continued later. During each mission it is not the number of tricks but the right tricks at the right time that count.\n\nThe team completes a mission only if every single player is successful in fulfilling their tasks.\n\nThe game comes with 50 missions, with three additional missions published in spielbox 2/2020.\n\n",
@@ -3628,10 +3637,7 @@
       "weight": 1.9,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4
+        2
       ],
       "designers": [
         "Sir John Suckling"
@@ -3705,8 +3711,7 @@
       "designerNationality": [],
       "publisherCountry": [],
       "images": [
-        "https://cf.geekdo-images.com/EHTu2qG_Nr52NrNMzv_bXw__original/img/xLP9Vul05Qx1wEK1meMKnJvwlqc=/0x0/filters:format(jpeg)/pic121093.jpg",
-        "https://cf.geekdo-images.com/EHTu2qG_Nr52NrNMzv_bXw__thumb/img/tjDba3XVIJFy1OiwX_TFMulO5To=/fit-in/200x150/filters:strip_icc()/pic121093.jpg"
+        "https://cf.geekdo-images.com/EHTu2qG_Nr52NrNMzv_bXw__original/img/xLP9Vul05Qx1wEK1meMKnJvwlqc=/0x0/filters:format(jpeg)/pic121093.jpg"
       ],
       "notes": "",
       "description": "Cribbage is a card game invented in the early 17th century, based on the earlier game Noddy. It is played with a deck of standard playing cards and a signature piece of equipment called the cribbage board.  Cribbage is traditionally played as a 2 player game.\n\nIn the version usually played today, each player is dealt a hand of 6 cards, from which they discard 2 into a special pile called the Crib.  One card is then cut from the draw pile and turned face up - it is considered part of each player's hand and of the Crib.  The players then play cards in turn, scoring points for hitting certain totals, or for making sets or sequences.  Score is kept by moving pegs along tracks on the cribbage board.  This is repeated until both players have exhausted their hand of cards.\n\nNext, each player picks up their hand and determines all possible scoring combinations, pegging points again on the cribbage board.  The dealer then picks up the Crib and scores it for all possible points.  Then the cards are shuffled and the deal alternates.  The winner is the first to reach 121 points.\n\nThe origin date listed for this game is approximate.\n\n",
@@ -3733,7 +3738,7 @@
         "max": 4
       },
       "playtime": {
-        "min": 15,
+        "min": 10,
         "max": 15
       },
       "weight": 1,
@@ -3741,18 +3746,25 @@
       "bestPlayerCount": [
         4
       ],
-      "designers": [],
+      "designers": [
+        "Jeremy Stark"
+      ],
       "artists": [],
       "publishers": [
-        "(Self-Published)"
+        "Glass Krikit Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA PA Mechanicsburg"
+      ],
+      "publisherCountry": [
+        "USA PA Mechanicsburg"
+      ],
       "images": [
-        "https://cf.geekdo-images.com/4y6ajawotME3M910rvf4og__original/img/wjhoJWLpHzwiwx-YX1efDodWAAM=/0x0/filters:format(jpeg)/pic6102887.jpg",
-        "https://cf.geekdo-images.com/4y6ajawotME3M910rvf4og__thumb/img/2LJyjPw6pxrolRxxkDWEdzUscqY=/fit-in/200x150/filters:strip_icc()/pic6102887.jpg"
+        "https://cf.geekdo-images.com/w-n4CnkKBMfNiyEpY-Gz0A__imagepage/img/fr9Ko6cBSQlTTU98-tmmfQo7XVE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8624463.jpg",
+        "https://cf.geekdo-images.com/fzUpIWYdf957yS1eo5Tebg__imagepage/img/XhsmZ30robiEHjpGBXWwm3Ps8cA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6102891.jpg",
+        "https://cf.geekdo-images.com/8waR-B4Yg1Z4NzAtVO-ejA__imagepage/img/z--LviCzT_8zNMrWykrqWWXH6LY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7289230.jpg"
       ],
-      "notes": "",
+      "notes": "got for free at Origins 2024",
       "description": "Cutthroat Cove: Pieces of Eight is a quick card game for 2-4 players that combines elements of Blackjack and Old Maid. Players take turns swapping and stealing treasures in hopes that they will have gathered 8 Gold coins when the game ends. However, players that exceed 8 or have a cursed treasure in their possession will be tossed to the sea!\n\n",
       "category": [
         "Card Game",
@@ -3783,9 +3795,7 @@
       "weight": 1.8,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -3807,11 +3817,17 @@
         "KADABRA",
         "Passport Game Studios"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Poland"
+      ],
+      "publisherCountry": [
+        "Poland"
+      ],
       "images": [
         "https://cf.geekdo-images.com/WVXZAwPbX0LAYmXm4HiE6Q__original/img/uICa7YEQzyO4Ua2N7se200-lBvs=/0x0/filters:format(jpeg)/pic1968267.jpg",
-        "https://cf.geekdo-images.com/WVXZAwPbX0LAYmXm4HiE6Q__thumb/img/IqyCEZCOaYZyEwKdegYtJjKO5ME=/fit-in/200x150/filters:strip_icc()/pic1968267.jpg"
+        "https://cf.geekdo-images.com/fACD_sQorfQ_P3YaNyq_Ag__imagepage/img/wtQqQajy5zoTYz_RNsJCkUBzh6M=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1971143.jpg",
+        "https://cf.geekdo-images.com/uPAxhz_3XCdGB5uIS_VM0Q__imagepage/img/OfpUQ9u0TRmd4o7wp4h9BECmFAs=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1695056.jpg",
+        "https://cf.geekdo-images.com/KncOYsS6TxRy0pRYIRZn8A__imagepage/img/5ZN7_UGoVivyYNSCKBeb5NS4E2Q=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1778107.jpg"
       ],
       "notes": "",
       "description": "Have you ever wondered who you would have been if your life had gone differently? How would you direct your life if everything were up to you? Maybe you would be a magician, or travel around the world? Or maybe big business tempts you, and your goal would be to earn a million dollars?\n\n\"CV\" means curriculum vitae – your resume – and in the dice and card game CV, you will lead a character through his entire life, making many choices about friends, relations, jobs, and activities. Everything is possible: a dream job, new relationships, and skills. You can be whoever you want!\n\nGameplay is built around the Yahtzee-style dice rolling and re-rolling system. On their dice, players are trying to roll sets of symbols that allow them to acquire cards; each round, these cards give benefits of some kind, such as new symbols and special abilities. At the end of the game, each kind of card scores points for the player.\n\n",
@@ -3833,6 +3849,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-15T17:22:50.983Z",
+  "lastModified": "2025-06-15T17:41:30.109Z",
   "version": "1.0"
 }
