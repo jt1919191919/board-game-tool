@@ -1784,14 +1784,12 @@
         "max": 4
       },
       "playtime": {
-        "min": 60,
+        "min": 30,
         "max": 60
       },
       "weight": 2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -1818,13 +1816,18 @@
         "MINDOK",
         "Rebel Sp. z o.o."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA California"
+      ],
+      "publisherCountry": [
+        "USA California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/oz_C4Hwf1Hb6KHt6KTxJJA__original/img/0Yr5q3uSGhilPz2dYe3k2rqFO9Q=/0x0/filters:format(jpeg)/pic4165094.jpg",
-        "https://cf.geekdo-images.com/oz_C4Hwf1Hb6KHt6KTxJJA__thumb/img/WKPD4ypqNftdXn2L3q4aPM8UXh0=/fit-in/200x150/filters:strip_icc()/pic4165094.jpg"
+        "https://cf.geekdo-images.com/dw4kHXrw9WZKsEGNpxAVfQ__imagepagezoom/img/3TX9f5B4HK93ZwldCwe85eprczA=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic5101005.jpg",
+        "https://cf.geekdo-images.com/4EwnpZZNMooVKaymLt7TkQ__imagepagezoom/img/BXtIfyTQMMqhybGvX9g9QGGsc0s=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic4689597.jpg"
       ],
-      "notes": "",
+      "notes": "these are the brothers that own company",
       "description": "Make your fate! Inspired by character-driven fantasy storytelling, Call to Adventure challenges 1-4 players to create the hero with the greatest destiny by acquiring traits, facing challenges, and overcoming adversaries.\n\nCall to Adventure features a unique \"rune rolling\" system for resolving challenges, a point-based system that encourages storytelling, and over 150 unique cards. Players begin each game with an origin card that provides their backstory as well as two \"starter\" abilities. Each round they may either acquire trait cards from the board or face a challenge. Challenges each have two possible paths a player can choose from. For example, players who encounter the Thieves' Guild may choose to train as a spy, or train as a killer. Each challenge has a difficulty that must be overcome by rolling successes on carved runes. The more a player has of the abilities required to overcome the challenge, the more runes they will be able to cast.\n\nFailed challenges lead players to acquire experience points that may be spent to \"push\" through tougher challenges. But beware, while some negative experiences will help your hero grow, too many tragedies set them on a dark path.\n\nAs players' heroes grow in ability and experience, they move on to harder challenges, eventually facing deadly adversaries and acquiring more and more destiny points. The player whose hero has the highest destiny score wins the game.\n\n",
       "category": [
         "Card Game",
@@ -1854,16 +1857,12 @@
         "max": 8
       },
       "playtime": {
-        "min": 45,
+        "min": 30,
         "max": 45
       },
       "weight": 1.5,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
         5,
         6,
         7,
@@ -1899,7 +1898,8 @@
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/qnR2V3YsW963_JaVznBjsw__original/img/8F0hZUlnJ6X924xYr8u5wtamtng=/0x0/filters:format(jpeg)/pic8584959.jpg",
-        "https://cf.geekdo-images.com/qnR2V3YsW963_JaVznBjsw__thumb/img/qNHZxa7oJCTdnYdyBsqHs__Owsk=/fit-in/200x150/filters:strip_icc()/pic8584959.jpg"
+        "https://cf.geekdo-images.com/vqRk-3IzP7bF5D-Rbu-b5g__imagepage/img/gzxjWZTR6VmXYYL27XHjm9S5EjY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5230378.jpg",
+        "https://cf.geekdo-images.com/DHW_pAHr75lta1xNKrKg2A__imagepage/img/UN6GShiSz6Fs9uof7A1Rdr0bfN8=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6115913.jpg"
       ],
       "notes": "",
       "description": "In Camel Up, up to eight players bet on five racing camels, trying to suss out which ones will place first and second in a quick race around a pyramid. The earlier you place your bet, the more you can win — should you guess correctly, of course. Camels don't run neatly, however, sometimes landing on top of another one and being carried toward the finish line. Who's going to run when? That all depends on how the dice come out of the pyramid dice shaker, which releases one die at a time when players pause from their bets long enough to see who's actually moving!\n\nThis 2018 edition of Camel Up features new artwork, a new game board design, a new pyramid design, engraved dice, and new game modes, including crazy rogue camels that start the race running in the opposite direction! You never know how a race will end!\n\n",
@@ -1929,17 +1929,12 @@
         "max": 8
       },
       "playtime": {
-        "min": 60,
+        "min": 45,
         "max": 60
       },
       "weight": 2.2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
-        4,
-        5,
-        6,
-        7,
         8
       ],
       "designers": [
@@ -1968,11 +1963,20 @@
         "Surfin' Meeple China",
         "WoodCat"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Spain"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
-        "https://cf.geekdo-images.com/Dpu5nFJu4UUJ4Y50WyKueg__original/img/feQTYcCwgIg4LneCYIoaWz12Z24=/0x0/filters:format(jpeg)/pic7069368.jpg",
-        "https://cf.geekdo-images.com/Dpu5nFJu4UUJ4Y50WyKueg__thumb/img/tRPNrLtteyfINpaFLLqEjyfTA10=/fit-in/200x150/filters:strip_icc()/pic7069368.jpg"
+        "https://cf.geekdo-images.com/oMZ_oHcs-pPgQqcXCBzaww__imagepage/img/ipOei_BD2A6p40ts3hu1WSY0dLI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6195767.jpg",
+        "https://cf.geekdo-images.com/ouEZlb5PK2VL-pW4QozInA__imagepage/img/I4GKOrwU4tW4tSPicBi-9JpeAUw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3643455.jpg",
+        "https://cf.geekdo-images.com/xSChVjmdK2TNdRBprVNxWw__imagepage/img/XUCRgs1S0zNs9E8iHKmJn_ErUhs=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3698124.jpg",
+        "https://cf.geekdo-images.com/-jNdc9R4orvGN-B3De3ejQ__imagepage/img/x5hZwZYIhrkyEDEYaEtui80KWFI=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8597946.jpg",
+        "https://cf.geekdo-images.com/1Nw0mh7k6XF6VB7W0eDM1g__imagepage/img/irVketmO14SPzUZ9jBuhmpftLak=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4206805.jpg",
+        "https://cf.geekdo-images.com/-XG6OdqRJ6SBMC0PIcCwxg__imagepage/img/fpI8omdXn5LvNQXg4JAM3EXHuJQ=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3520825.jpg",
+        "https://cf.geekdo-images.com/krgGnyos8IrZsdeIVKs6Rw__imagepage/img/4QNtpBMzoXFrLf7HAt3fdOVAHag=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7274534.jpg"
       ],
       "notes": "",
       "description": "At the bottom of the ocean, no one will hear you scream!\n\nIn Captain Sonar, you and your teammates control a state-of-the-art submarine and are trying to locate an enemy submarine in order to blow it out of the water before they can do the same to you. Every role is important, and the confrontation is merciless. Be organized and communicate because a captain is nothing without his crew: the Chief Mate, the Radio Operator, and the Engineer.\n\nAll the members of a team sit on one side of the table, and they each take a particular role on the submarine, with the division of labor for these roles being dependent on the number of players in the game. Roles include: the Captain, who is responsible for moving the submarine and announcing some details of this movement; the Radio Operator listening to the opposing captain's orders and try to decipher where that sub might be in the water; the Engineer working in the munitions room to prepare torpedoes, mines and other devices that will allow for combat.\n\nCaptain Sonar can be played in two modes: turn-by-turn or simultaneous. In the latter set-up, all the members of a team take their actions simultaneously while trying to track what the opponents are doing, too. When a captain is ready to launch an attack, the action pauses for a moment to see whether a hit has been recorded — then play resumes with the target having snuck away while the attacker paused or with bits of metal now scattered across the ocean floor.\n\nMultiple maps are included with varying levels of difficulty.\n\n",
@@ -2007,17 +2011,14 @@
         "max": 5
       },
       "playtime": {
-        "min": 45,
+        "min": 30,
         "max": 45
       },
       "weight": 1.9,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4,
-        5,
         5
       ],
       "designers": [
@@ -2072,13 +2073,18 @@
         "Ventura Games",
         "Z-Man Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA New York"
+      ],
       "images": [
         "https://cf.geekdo-images.com/okM0dq_bEXnbyQTOvHfwRA__original/img/aVZEXAI-cUtuunNfPhjeHlS4fwQ=/0x0/filters:format(png)/pic6544250.png",
-        "https://cf.geekdo-images.com/okM0dq_bEXnbyQTOvHfwRA__thumb/img/88274KiOg94wziybVHyW8AeOiXg=/fit-in/200x150/filters:strip_icc()/pic6544250.png"
+        "https://cf.geekdo-images.com/Mokp6eB2qY7OrTkQd7HKPQ__imagepage/img/ghVrtxPqDiU1H6wrzwnB-OGKVTk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic715898.jpg",
+        "https://cf.geekdo-images.com/MyAZc71MrgP-kpLMRGXUWA__imagepage/img/wKfLtEND9xD6KoIyPul08n9ejHY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic176425.jpg"
       ],
-      "notes": "",
+      "notes": "Z-Man owned by Asmodee",
       "description": "Carcassonne is a tile placement game in which the players draw and place a tile with a piece of southern French landscape represented on it. The tile might feature a city, a road, a cloister, grassland or some combination thereof, and it must be placed adjacent to tiles that have already been played, in such a way that cities are connected to cities, roads to roads, et cetera. Having placed a tile, the player can then decide to place one of their meeples in one of the areas on it: in the city as a knight, on the road as a robber, in the cloister as a monk, or in the field as a farmer. When that area is complete that meeple scores points for its owner.\n\nDuring a game of Carcassonne, players are faced with decisions like: \"Is it really worth putting my last meeple there?\" or \"Should I use this tile to expand my city, or should I place it near my opponent instead, thus making it a harder for them to complete it and score points?\" Since players place only one tile and have the option to place one meeple on it, turns proceed quickly even if it is a game full of options and possibilities.\n\nFirst game in the Carcassonne series.\n\n",
       "category": [
         "Medieval",
@@ -3773,6 +3779,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-15T12:31:51.083Z",
+  "lastModified": "2025-06-15T12:56:09.655Z",
   "version": "1.0"
 }
