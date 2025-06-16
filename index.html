@@ -268,9 +268,8 @@ button#clear-filters {
         }
 
         .game-card.edit-mode {
-            background: #fff3cd;
-            border: 2px solid #ffc107;
-            box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3);
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 15px rgb(113 50 0 / 30%);
         }
 
         .image-carousel {
@@ -326,27 +325,28 @@ button#clear-filters {
             padding: 1.5rem;
         }
 
-        .game-title {
-            font-size: 1.2rem;
+.game-title {
+            font-size: 1rem;
             font-weight: 700;
             color: #2c3e50;
             margin-bottom: 0.5rem;
-            line-height: 1.3;
+            line-height: 1.2;
         }
 
-        .game-meta {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.5rem;
+.game-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
             margin-bottom: 1rem;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
 
-        .meta-item {
+.meta-item {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.25rem;
             color: #666;
+            font-size: 0.75rem;
         }
 
         .meta-label {
@@ -938,9 +938,9 @@ button#clear-filters {
             <button class="btn" id="toggle-filters">Filters</button>
             <button class="btn btn-primary" id="add-game-btn">Add Game</button>
             <button class="btn" id="edit-mode-btn">Edit Mode</button>
-            <div class="edit-mode-controls" id="edit-mode-controls">
-                <button class="btn btn-discard" id="discard-changes-btn">Discard Changes</button>
+<div class="edit-mode-controls" id="edit-mode-controls">
                 <button class="btn btn-save" id="save-changes-btn">Save Changes</button>
+                <button class="btn btn-discard" id="discard-changes-btn">Discard Changes</button>
             </div>
             <button class="btn" id="share-btn">Share Collection</button>
             <button class="btn" id="export-btn">Export Data</button>
@@ -966,9 +966,9 @@ button#clear-filters {
             <button class="btn" id="mobile-filters-btn">Filters</button>
             <button class="btn btn-primary" id="mobile-add-game-btn">Add Game</button>
             <button class="btn" id="mobile-edit-mode-btn">Edit Mode</button>
-            <div class="edit-mode-controls" id="mobile-edit-mode-controls">
-                <button class="btn btn-discard" id="mobile-discard-changes-btn">Discard Changes</button>
+<div class="edit-mode-controls" id="mobile-edit-mode-controls">
                 <button class="btn btn-save" id="mobile-save-changes-btn">Save Changes</button>
+                <button class="btn btn-discard" id="mobile-discard-changes-btn">Discard Changes</button>
             </div>
             <button class="btn" id="mobile-share-btn">Share Collection</button>
             <button class="btn" id="mobile-export-btn">Export Data</button>
@@ -2729,7 +2729,7 @@ toggleEditMode() {
        const controls = document.getElementById('edit-mode-controls');
        const mobileControls = document.getElementById('mobile-edit-mode-controls');
        
-       if (this.isEditMode) {
+if (this.isEditMode) {
            this.gameBackups.clear();
            this.games.forEach((game, id) => {
                this.gameBackups.set(id, JSON.parse(JSON.stringify(game)));
@@ -2740,6 +2740,14 @@ toggleEditMode() {
            mobileBtn.style.display = 'none';
            controls.classList.add('show');
            if (mobileControls) mobileControls.classList.add('show');
+           
+           // Hide share/import/export buttons
+           document.getElementById('share-btn').style.display = 'none';
+           document.getElementById('import-btn').style.display = 'none';
+           document.getElementById('export-btn').style.display = 'none';
+           document.getElementById('mobile-share-btn').style.display = 'none';
+           document.getElementById('mobile-import-btn').style.display = 'none';
+           document.getElementById('mobile-export-btn').style.display = 'none';
        } else {
            document.body.classList.remove('edit-mode');
            btn.style.display = 'block';
@@ -2747,6 +2755,14 @@ toggleEditMode() {
            controls.classList.remove('show');
            if (mobileControls) mobileControls.classList.remove('show');
            this.gameBackups.clear();
+           
+           // Show share/import/export buttons
+           document.getElementById('share-btn').style.display = 'block';
+           document.getElementById('import-btn').style.display = 'block';
+           document.getElementById('export-btn').style.display = 'block';
+           document.getElementById('mobile-share-btn').style.display = 'block';
+           document.getElementById('mobile-import-btn').style.display = 'block';
+           document.getElementById('mobile-export-btn').style.display = 'block';
        }
        
        this.render();
@@ -2841,10 +2857,10 @@ alert('All changes saved successfully!');
 
 cycleColumns() {
        const isMobile = window.innerWidth <= 768;
-       const columnOptions = isMobile ? [1, 2, 3] : [1, 2, 3, 4, 5];
+       const columnOptions = isMobile ? [1, 2] : [1, 2, 3, 4, 5];
        const currentColumns = isMobile ? this.mobileColumns : this.currentColumns;
        let currentIndex = columnOptions.indexOf(currentColumns);
-       if (currentIndex === -1) currentIndex = isMobile ? 1 : 4; // Default to 2 mobile, 5 desktop
+if (currentIndex === -1) currentIndex = isMobile ? 0 : 4; // Default to 1 mobile, 5 desktop
        const nextIndex = (currentIndex + 1) % columnOptions.length;
        const newColumns = columnOptions[nextIndex];
        
@@ -3894,9 +3910,9 @@ return `
                ${game.bggUrl ? `<div><strong>BoardGameGeek:</strong> <a href="${game.bggUrl}" target="_blank" style="color: #667eea;">View on BGG</a></div>` : ''}
            </div>
            
-           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
-<div class="modal-left-column">
-${game.dateAcquired && !this.isSharedView ? `
+<div style="display: grid; grid-template-columns: ${this.isSharedView ? '1fr' : '1fr 1fr'}; gap: 2rem; margin-bottom: 2rem;">
+${!this.isSharedView ? `<div class="modal-left-column">
+${game.dateAcquired ? `
                        <div style="margin-bottom: 1rem;">
                            <strong>Date Acquired:</strong> ${(() => {
                                const dateParts = game.dateAcquired.split('-');
@@ -3905,7 +3921,7 @@ ${game.dateAcquired && !this.isSharedView ? `
                            })()}
                        </div>
                    ` : ''}
-                   ${game.notes && !this.isSharedView ? `
+                   ${game.notes ? `
                        <div>
                            <strong>Notes:</strong>
                            <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; margin-top: 0.5rem;">
@@ -3913,7 +3929,7 @@ ${game.dateAcquired && !this.isSharedView ? `
                            </div>
                        </div>
                    ` : ''}
-               </div>
+               </div>` : ''}
                
 <div class="modal-right-column">
 ${game.description ? `
