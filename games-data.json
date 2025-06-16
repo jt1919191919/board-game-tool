@@ -6833,9 +6833,73 @@
         "Take That"
       ],
       "customFields": {}
+    },
+    "1750104084305": {
+      "bggId": "1750104084305",
+      "bggUrl": "https://boardgamegeek.com/boardgame/191862/imhotep",
+      "name": "Imhotep",
+      "year": 2016,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Phil Walker-Harding"
+      ],
+      "artists": [
+        "Miguel Coimbra",
+        "Michaela Kienle"
+      ],
+      "publishers": [
+        "KOSMOS",
+        "Arclight Games",
+        "Devir",
+        "Galakta",
+        "Giochi Uniti",
+        "IELLO",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Piatnik",
+        "Spilbræt.dk",
+        "Vennerød Forlag AS",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/HkAt5n4R8XM0vNozl7fftA__original/img/934t5i7J90wlw6mb6p2m_3u98i0=/0x0/filters:format(jpeg)/pic3029488.jpg",
+        "https://cf.geekdo-images.com/HkAt5n4R8XM0vNozl7fftA__thumb/img/1JpxGZSWJf3mxnZZGaGOTqExoH4=/fit-in/200x150/filters:strip_icc()/pic3029488.jpg"
+      ],
+      "notes": "",
+      "description": "In Imhotep, the players become builders in Egypt who want to emulate the first and best-known architect there, namely Imhotep.&#10;&#10;Over six rounds, they move wooden stones by boat to create five seminal monuments, and on a turn, a player chooses one of four actions: Procure new stones, load stones on a boat, bring a boat to a monument, or play an action card. While this sounds easy, naturally the other players constantly thwart your building plans by carrying out plans of their own. Only those with the best timing &mdash; and the stones to back up their plans &mdash; will prove to be Egypt's best builder.&#10;&#10;",
+      "category": [
+        "Ancient",
+        "Transportation"
+      ],
+      "mechanisms": [
+        "Area Majority / Influence",
+        "End Game Bonuses",
+        "Modular Board",
+        "Moving Multiple Units",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T20:01:04.649Z",
+  "lastModified": "2025-06-16T20:01:24.306Z",
   "version": "1.0"
 }
