@@ -5760,9 +5760,89 @@
         "Ordering"
       ],
       "customFields": {}
+    },
+    "1750093296326": {
+      "bggId": "1750093296326",
+      "bggUrl": "https://boardgamegeek.com/boardgame/318084/furnace",
+      "name": "Furnace",
+      "year": 2020,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.3,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Ivan Lashin"
+      ],
+      "artists": [
+        "Sergey Dulin",
+        "Marta Ivanova",
+        "Ilya Konovalov",
+        "Vadim Poluboyarov",
+        "Oleg Yurkov",
+        "Egor Zharkov"
+      ],
+      "publishers": [
+        "Hobby World",
+        "Arcane Wonders",
+        "Board Game Rookie",
+        "La Boîte de Jeu",
+        "CMON Global Limited",
+        "DV Games",
+        "JELLY JELLY GAMES",
+        "Jing Studio",
+        "Jumping Turtle Games",
+        "Kobold Spieleverlag",
+        "Maldito Games",
+        "Meeple King",
+        "MeepleBR",
+        "Midnight Jungle",
+        "Vagabund"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/7UK6bLlP0Cz3EFYCqhtcSw__original/img/jc4av13AOJpkqfvcpJ39HyoeCoM=/0x0/filters:format(png)/pic5934958.png",
+        "https://cf.geekdo-images.com/7UK6bLlP0Cz3EFYCqhtcSw__thumb/img/7WjwLTkySTiSMQu89ClZRhspd5Q=/fit-in/200x150/filters:strip_icc()/pic5934958.png"
+      ],
+      "notes": "",
+      "description": "Furnace is an engine-building Eurogame in which players take on the roles of 19th-century capitalists building their industrial corporations and aspiring to make as much money as they can by purchasing companies, extracting resources, and processing them in the best combinations possible.&#10;&#10;Each player starts the game with a random start-up card, the resources depicted at the top of that card, and four colored discs valued 1-4.&#10;&#10;The game is played over four rounds, and each round consists of two phases: Auction and Production. During the auction, 6-8 company cards are laid out with their basic sides face up. Players take turns placing one of their discs on one of these cards, but you cannot place a disc on a card if a disc of the same value or color is already present. Thus, you'll place discs on four cards.&#10;&#10;Once all the discs are placed, the cards are resolved from left to right. Whoever placed the highest-valued disc will claim this card, but first anyone with a lower-valued disc on this card will gain compensation, either the resources depicted multiplied by the value of their disc or a processing ability (exchange X for Y) up to as many times as the value of their disc.&#10;&#10;Once all the cards have been claimed or discarded, players enter the production phase, using their cards in the order of their choice. Each company card has one action &mdash; either production or processing &mdash; on its basic side and two actions on its upgraded side. During the production phase, you can use each of your cards once to gain resources, process those resources into other resources or money, and upgrade your cards.&#10;&#10;At the end of four rounds, whoever has the most money wins.&#10;&#10;Furnace also includes capitalist cards that contain unique effects, and if you want, you can choose to deal one out to each player at the start of the game. For an additional challenge, you can require players to create a &quot;production chain&quot;, with each newly acquired company card being placed somewhere in that chain and locked in position for the remainder of the game.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Economic",
+        "Industry / Manufacturing",
+        "Post-Napoleonic"
+      ],
+      "mechanisms": [
+        "Action Queue",
+        "Auction / Bidding",
+        "Auction Compensation",
+        "Auction: Fixed Placement",
+        "Auction: Multiple Lot",
+        "Constrained Bidding",
+        "Multi-Use Cards",
+        "Open Drafting",
+        "Turn Order: Progressive",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T17:00:51.654Z",
+  "lastModified": "2025-06-16T17:01:36.327Z",
   "version": "1.0"
 }
