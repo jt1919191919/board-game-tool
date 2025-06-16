@@ -6607,9 +6607,55 @@
         "Push Your Luck"
       ],
       "customFields": {}
+    },
+    "1750103912976": {
+      "bggId": "1750103912976",
+      "bggUrl": "https://boardgamegeek.com/boardgame/201308/hive-mind",
+      "name": "Hive Mind",
+      "year": 2011,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 12
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        6,
+        10
+      ],
+      "designers": [
+        "Richard Garfield"
+      ],
+      "artists": [
+        "Andrew Hepworth"
+      ],
+      "publishers": [
+        "Calliope Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/CdPotpqnreo8BjI0053MOQ__original/img/hScvBhtH5avBIrXQJLCqGFqHPtQ=/0x0/filters:format(png)/pic6706273.png",
+        "https://cf.geekdo-images.com/CdPotpqnreo8BjI0053MOQ__thumb/img/BufM56uPpL8K8c6IacQElBTmhtc=/fit-in/200x150/filters:strip_icc()/pic6706273.png"
+      ],
+      "notes": "",
+      "description": "Richard Garfield introduces Hive Mind&trade;, a party game that rewards thinking alike, and there are no wrong answers! Gather 3-12 friends and family, then choose and ask questions everyone might answer the same, because thinking differently might send you right off the board! &quot;What are 3 unusual pets?&quot; &quot;What are the 4 best ice cream flavors?&quot;&#10;&#10;In Hive Mind&trade;, players answer trivia and opinion questions trying to match their answers with other players, scoring points for each match they achieve. They don&rsquo;t have to be correct! They just have to be the same as what other players think. Each round, players will roll the die to determine how many lowest scoring answers move down the player board. Then a question will be asked, and answers given and scored. Once one or more players moves lower than level six, they are eliminated from the Hive Mind and everyone else wins!&#10;&#10;",
+      "category": [
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Cooperative Game",
+        "Paper-and-Pencil"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T19:57:52.592Z",
+  "lastModified": "2025-06-16T19:58:32.977Z",
   "version": "1.0"
 }
