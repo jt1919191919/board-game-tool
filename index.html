@@ -1421,8 +1421,9 @@ async init() {
     console.log('Initializing app...');
     
     // Check for shared view FIRST, before loading any storage
-const isSharedCollection = await this.checkForSharedView();
+    const isSharedCollection = await this.checkForSharedView();
     console.log('Is shared collection:', isSharedCollection);
+    console.log('Games loaded:', this.games.size);
     
     // Only load from storage if it's NOT a shared collection
     if (!isSharedCollection) {
@@ -1433,25 +1434,25 @@ const isSharedCollection = await this.checkForSharedView();
     }
     
     this.bindEvents();
-const isMobile = window.innerWidth <= 768;
+    const isMobile = window.innerWidth <= 768;
     this.setColumns(isMobile ? 1 : this.currentColumns);
     
-    console.log('About to render...');
+    console.log('About to render...', 'Games count:', this.games.size);
     this.render();
     
-this.updateDesignerFilter();
-this.updatePublisherFilter();
-this.updateDesignerNationalityFilter();
-this.updateArtistFilter();
-this.updateCategoryFilter();
-this.updateMechanismsFilter();
-this.updateClearThumbsVisibility();
+    this.updateDesignerFilter();
+    this.updatePublisherFilter();
+    this.updateDesignerNationalityFilter();
+    this.updateArtistFilter();
+    this.updateCategoryFilter();
+    this.updateMechanismsFilter();
+    this.updateClearThumbsVisibility();
 
-// Apply shared filters to UI AFTER dropdowns are populated
-if (this.isSharedView && this.currentFilters) {
-    this.applyFiltersToUI(this.currentFilters);
-    console.log('Applied shared filters to UI after dropdown population');
-}
+    // Apply shared filters to UI AFTER dropdowns are populated
+    if (this.isSharedView && this.currentFilters) {
+        this.applyFiltersToUI(this.currentFilters);
+        console.log('Applied shared filters to UI after dropdown population');
+    }
     
     console.log('About to apply filters...');
     this.applyFilters();
