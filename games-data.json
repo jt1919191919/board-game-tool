@@ -3846,9 +3846,58 @@
         "Simulation"
       ],
       "customFields": {}
+    },
+    "1750081508198": {
+      "bggId": "1750081508198",
+      "bggUrl": "https://boardgamegeek.com/boardgame/208134/danger-game",
+      "name": "Danger the Game",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 12
+      },
+      "playtime": {
+        "min": 0,
+        "max": 0
+      },
+      "weight": 1.3,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Phillip Blackwell"
+      ],
+      "artists": [
+        "Walter B. Jones"
+      ],
+      "publishers": [
+        "Origami Whale"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/XWp1XCulukZJaXqM-wCaQg__original/img/TJ-Fy7Qp5AYVepqWCAIrZ9nV0Jc=/0x0/filters:format(png)/pic4466963.png",
+        "https://cf.geekdo-images.com/XWp1XCulukZJaXqM-wCaQg__thumb/img/aG2FdBywS_asu9-SVOVzwRvChxQ=/fit-in/200x150/filters:strip_icc()/pic4466963.png"
+      ],
+      "notes": "",
+      "description": "The World is a Dangerous Place!&#10;&#10;Disappointed fathers, depressed giant squids, dynamite on train tracks, and so much more! It's up to you to rescue those in need. Use your skills, tools, and imagination to devise foolproof plans and save the day!&#10;&#10;The first victim is the person who lives the most dangerously. Each of the other players is called a rescuer. The victim draws and reveals a danger card containing the perilous situation they are caught in. The rescuers then place one skill card and one tool card from their hands which they will utilize to tell a story of how they will save the victim. While a Rescuerer presents their rescue story another can play a plot twist on their cards tripping them up and changing the story for more engaging play. the Victim awards the Danger card to the Rescuer with the best Rescue.&#10;&#10;All cards are written for embellishment and lateral thinking. &quot;Able to transform into a rock&quot; well what kind of rock are you?!&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Storytelling"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T05:58:32.930Z",
+  "lastModified": "2025-06-16T13:45:08.199Z",
   "version": "1.0"
 }
