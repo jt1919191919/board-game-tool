@@ -4895,9 +4895,77 @@
         "Take That"
       ],
       "customFields": {}
+    },
+    "1750087934749": {
+      "bggId": "1750087934749",
+      "bggUrl": "https://boardgamegeek.com/boardgame/82168/escape-aliens-outer-space",
+      "name": "Escape from the Aliens in Outer Space",
+      "year": 2010,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Mario Porpora",
+        "Pietro Righi Riva",
+        "Luca Francesco Rossi",
+        "Nicolò Tedeschi"
+      ],
+      "artists": [
+        "Giulia Ghigini"
+      ],
+      "publishers": [
+        "Cranio Creations",
+        "Heidelberger Spieleverlag",
+        "HT Publishers",
+        "Morapiaf",
+        "Osprey Games",
+        "Santa Ragione"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/RMpQKySngukhwS8Vd0Z5DA__original/img/qzsupfBs3THT83OPVNKPb68xzgA=/0x0/filters:format(png)/pic2792336.png",
+        "https://cf.geekdo-images.com/RMpQKySngukhwS8Vd0Z5DA__thumb/img/sq3Z4wWsk2l5dDjMzQPP7g4PoVA=/fit-in/200x150/filters:strip_icc()/pic2792336.png"
+      ],
+      "notes": "",
+      "description": "Escape from the Aliens in Outer Space is a card game of strategy and bluff set on a badly damaged deep space research ship. On-board systems have failed, plunging the ship into darkness. But even worse: A mysterious alien plague has crept aboard and is transforming the human crew into horrendous monsters! The remaining crewmen desperately try to save their lives by escaping from the derelict spaceship, but in the darkness the aliens are lurking...hungry for human flesh.&#10;&#10;The game is played on a hexagon-based map that represents the spaceship. Each player is given a map sheet and a pencil. Map sheets must be of the same zone, and every zone has its specific name. Starting from the first player and continuing clockwise, every turn, each player must make a movement. To do so, the player must write on their map sheet the coordinates of the sector to which they are moving. Every time the players move to the gray (dangerous) sectors they have to draw a card; these cards make the players tell the others their position or lie about it, depending on the card. Every card is kept secret from other players.&#10;&#10;The humans' objective is to save themselves using the escape hatches, while the aliens' objective is to hunt down the humans. Each player's identity and position is kept secret; you will need to interpret the movements and behaviors of the other players to learn who and where they really are.&#10;&#10;",
+      "category": [
+        "Horror",
+        "Party Game",
+        "Print & Play",
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Grid Movement",
+        "Hexagon Grid",
+        "Hidden Movement",
+        "Hidden Roles",
+        "Paper-and-Pencil",
+        "Secret Unit Deployment",
+        "Team-Based Game",
+        "Variable Player Powers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T15:31:56.466Z",
+  "lastModified": "2025-06-16T15:32:14.750Z",
   "version": "1.0"
 }
