@@ -5102,9 +5102,78 @@
         "Simultaneous Action Selection"
       ],
       "customFields": {}
+    },
+    "1750092941606": {
+      "bggId": "1750092941606",
+      "bggUrl": "https://boardgamegeek.com/boardgame/223040/fantasy-realms",
+      "name": "Fantasy Realms",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.8,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Bruce Glassco"
+      ],
+      "artists": [
+        "Anthony Cournoyer",
+        "Octographics"
+      ],
+      "publishers": [
+        "WizKids (I)",
+        "Arclight Games",
+        "BoardM Factory",
+        "Broadway Toys LTD",
+        "Delta Vision Publishing",
+        "Don't Panic Games",
+        "Feelindigo",
+        "Galápagos Jogos",
+        "Korea Boardgames",
+        "Lavka Games",
+        "Looping Games",
+        "Rebel Sp. z o.o.",
+        "REXhry",
+        "Strohmann Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/A7IOpPt-lHrMYsbRmxXWdQ__original/img/kaYIVoFZkbWe0z80bvcqJdFCNlo=/0x0/filters:format(jpeg)/pic6177962.jpg",
+        "https://cf.geekdo-images.com/A7IOpPt-lHrMYsbRmxXWdQ__thumb/img/XoD3fXgApfY7-dfYyFeE6FVkbfY=/fit-in/200x150/filters:strip_icc()/pic6177962.jpg"
+      ],
+      "notes": "",
+      "description": "As ruler, it's up to you to build the mightiest realm in the world! Will you choose to follow military tactics and sweep away all in your path with a massive army? Will you turn towards sorcery and control an inaccessible island surrounded by impenetrable flames? The choice is yours, and no two realms will ever be the same in Fantasy Realms, a combo-licious card game.&#10;&#10;Fantasy Realms takes seconds to learn: Draw a card, discard a card &mdash; though you can draw from the deck or the discard area!&#10;&#10;Make the best hand you can by making the best combos. The game ends when ten cards are in the discard area. Aim for the highest score to win!&#10;&#10;To make scoring easier, the WizKids Games Companion offers a scoring helper for Fantasy Realms! After your game is complete, input your cards into the app &amp; instantly see who won! Also a handy lookup of all cards! Available on iOS and Google Play.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Fantasy"
+      ],
+      "mechanisms": [
+        "End Game Bonuses",
+        "Hand Management",
+        "Open Drafting",
+        "Set Collection",
+        "Tags"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T16:55:13.418Z",
+  "lastModified": "2025-06-16T16:55:41.607Z",
   "version": "1.0"
 }
