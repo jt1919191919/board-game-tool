@@ -321,9 +321,9 @@ button#clear-filters {
             opacity: 1;
         }
 
-        .game-info {
-            padding: 1.5rem;
-        }
+.game-info {
+    padding: 0.5rem 1rem 1.5rem;
+}
 
 .game-title {
             font-size: 1rem;
@@ -973,7 +973,7 @@ button#clear-filters {
             <button class="btn" id="mobile-share-btn">Share Collection</button>
             <button class="btn" id="mobile-export-btn">Export Data</button>
             <button class="btn" id="mobile-import-btn">Import Data</button>
-            <button class="columns-btn" id="mobile-columns-btn">2 Columns</button>
+<button class="columns-btn" id="mobile-columns-btn">1 Column</button>
             <button class="btn" id="mobile-google-drive-signin" style="display: none;">Connect GitHub</button>
             <button class="btn" id="mobile-google-drive-signout" style="display: none;">Disconnect GitHub</button>
             <div id="mobile-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
@@ -1411,7 +1411,7 @@ class BoardGameCollection {
        this.cardVisibleFields = ['name', 'players'];
        this.dynamicCardFields = [];
 this.currentColumns = 5; // Always start with 5 on desktop
-this.mobileColumns = 2; // Always start with 2 on mobile
+this.mobileColumns = 1; // Always start with 1 on mobile
 this.gamePreferences = new Map(); // stores thumbs up/down: 'up', 'down', or null
 this.originalSharedPreferences = new Map(); // for shared collections
 this.initGoogleDrive();
@@ -1433,8 +1433,8 @@ const isSharedCollection = await this.checkForSharedView();
     }
     
     this.bindEvents();
-    const isMobile = window.innerWidth <= 768;
-    this.setColumns(isMobile ? this.mobileColumns : this.currentColumns);
+const isMobile = window.innerWidth <= 768;
+    this.setColumns(isMobile ? 1 : this.currentColumns);
     
     console.log('About to render...');
     this.render();
