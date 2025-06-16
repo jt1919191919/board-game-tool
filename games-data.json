@@ -6557,9 +6557,59 @@
         "Solo / Solitaire Game"
       ],
       "customFields": {}
+    },
+    "1750103872591": {
+      "bggId": "1750103872591",
+      "bggUrl": "https://boardgamegeek.com/boardgame/341416/high-score",
+      "name": "High Score",
+      "year": 2021,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Reiner Knizia"
+      ],
+      "artists": [
+        "Bluguy Grafikdesign",
+        "Sensit Communication GmbH"
+      ],
+      "publishers": [
+        "KOSMOS",
+        "Devir",
+        "IELLO"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/0wJuIvwDVBaJSzBD2UL8-Q__original/img/hMjvVVBpdhZUFwqWQy3cqA-asro=/0x0/filters:format(jpeg)/pic7233503.jpg",
+        "https://cf.geekdo-images.com/0wJuIvwDVBaJSzBD2UL8-Q__thumb/img/162rGGAWKVOzBWHct2g_anMVnTw=/fit-in/200x150/filters:strip_icc()/pic7233503.jpg"
+      ],
+      "notes": "",
+      "description": "High Score is an ingenious dice game with unique challenges. Turning over a new challenge card tells players how to score points this round and how you can re-roll your dice. Will even numbers score 0 points this round? What effect will the vortex have this round?&#10;&#10;After the first player finishes their turn, the other players can attempt to beat their score, but risk too much and you may come away empty-handed. Whoever has the most points after seven rounds wins.&#10;&#10;",
+      "category": [
+        "Dice"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Push Your Luck"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T19:57:19.620Z",
+  "lastModified": "2025-06-16T19:57:52.592Z",
   "version": "1.0"
 }
