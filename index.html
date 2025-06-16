@@ -3551,7 +3551,7 @@ document.getElementById('add-game-form').querySelectorAll('input, textarea').for
        document.getElementById('error-message').style.display = 'none';
    }
 
-   render() {
+render() {
        const container = document.getElementById('game-grid');
        const emptyState = document.getElementById('empty-state');
        const resultsInfo = document.getElementById('results-info');
@@ -3559,20 +3559,16 @@ document.getElementById('add-game-form').querySelectorAll('input, textarea').for
        if (this.filteredGames.length === 0) {
            container.innerHTML = '';
            emptyState.style.display = 'block';
-const resultsText = document.getElementById('results-text');
-       if (resultsText) {
-           resultsText.textContent = '';
-       }
-       resultsInfo.textContent = '';
+           resultsInfo.style.display = 'none';
            return;
        }
 
        emptyState.style.display = 'none';
-const resultsText = document.getElementById('results-text');
+       resultsInfo.style.display = 'flex';
+       const resultsText = document.getElementById('results-text');
        if (resultsText) {
            resultsText.textContent = `Showing ${this.filteredGames.length} of ${this.games.size} games`;
        }
-       resultsInfo.textContent = '';
 
        container.innerHTML = this.filteredGames.map(game => {
            return this.isEditMode ? this.renderEditGameCard(game) : this.renderGameCard(game);
