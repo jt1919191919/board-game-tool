@@ -6249,9 +6249,61 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1750093724026": {
+      "bggId": "1750093724026",
+      "bggUrl": "https://boardgamegeek.com/boardgame/340834/gravwell-2nd-edition",
+      "name": "Gravwell: 2nd Edition",
+      "year": 2021,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        3,
+        4,
+        6
+      ],
+      "designers": [
+        "Corey Young"
+      ],
+      "artists": [
+        "Kwanchai Moriya"
+      ],
+      "publishers": [
+        "Renegade Game Studios"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/BIBF6pERwJAHOemVBY_DWg__original/img/9UGXRV5QWGb63K5-Eu1CCm5KpEs=/0x0/filters:format(jpeg)/pic6106638.jpg",
+        "https://cf.geekdo-images.com/BIBF6pERwJAHOemVBY_DWg__thumb/img/vcV7-dJdIL8poJ_wLcskNQh4_aA=/fit-in/200x150/filters:strip_icc()/pic6106638.jpg"
+      ],
+      "notes": "",
+      "description": "In Gravwell, players command spaceships that have been pulled through a black hole, transporting them into a different dimension. With each ship lacking fuel to get home, each player must collect basic elements from surrounding asteroids, using the gravity of the dimension and what little resources they have in order to reach the warp gate that will take them home. But in this dimension, moving ships will travel towards the nearest object, which is usually another ship, and when those objects are moving either forward or backward, reaching the warp gate isn't always easy. Time is running out to save your crew and your ship! As a grim reminder of the cost of failing to escape, the frozen hulks of dead spacecraft litter the escape route &mdash; but with careful card play, you can slingshot past these derelict craft and be the first to escape from the Gravwell!&#10;&#10;Gravwell uses 26 alphabetized cards to determine movement order and thrust; most cards move your ship towards the nearest object, but a few move you away from it. At the start of each round, players draft fuel cards, picking up three pairs of two cards, with only the top card of each pile being visible; you get some information as to which moves you can expect from the other spaceships, but you won't know which moves you'll be forced to make when you draft your cards!&#10;&#10;During a round, each player will play all of their fuel cards in the order of their choosing. During each phase of a round, each player chooses one card, then all cards are revealed and resolved in alphabetical order. When your opponents move in ways you didn't expect, you won't always be heading in the direction you thought you would! Each player holds an &quot;Emergency Stop&quot; card that they may tactically play only once per round to avoid such a situation.&#10;&#10;Whoever first reaches the warp gate wins, but if no one has escaped after six rounds, then the player who is closest to the gate wins.&#10;&#10;Gravwell: 2nd Edition features the same gameplay as earlier editions of the game, but now 40 fuel cards are included, which allows up to six players in the game at the same time. (Earlier editions maxed out at four players.) Additionally, ship ability cards are included that can give a unique power to each ship's captain trying to find their way home.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Action Queue",
+        "Bias",
+        "Open Drafting",
+        "Simultaneous Action Selection",
+        "Solo / Solitaire Game",
+        "Track Movement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T17:07:55.543Z",
+  "lastModified": "2025-06-16T17:08:44.027Z",
   "version": "1.0"
 }
