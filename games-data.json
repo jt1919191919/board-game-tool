@@ -5671,9 +5671,47 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1750093227141": {
+      "bggId": "1750093227141",
+      "bggUrl": "https://boardgamegeek.com/boardgame/11738/four-letter-words",
+      "name": "Four Letter Words",
+      "year": 1975,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [],
+      "designers": [
+        "(Uncredited)"
+      ],
+      "artists": [],
+      "publishers": [
+        "Lakeside"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/22CPVlxYaJyD-bps6LRdBw__original/img/I_IFnfAPZ9fwunGcddDxBW5UmaM=/0x0/filters:format(jpeg)/pic47492.jpg",
+        "https://cf.geekdo-images.com/22CPVlxYaJyD-bps6LRdBw__thumb/img/9qxvXPM-q5-84O_deJE3MQpVyyU=/fit-in/200x150/filters:strip_icc()/pic47492.jpg"
+      ],
+      "notes": "",
+      "description": "Using a 4x4x4 3D tic-tac-toe board, players try to make four letter words.&#10;&#10;Similar to:&#10;&#10;    Letter Go&#10;&#10;&#10;",
+      "category": [
+        "Word Game"
+      ],
+      "mechanisms": [],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T17:00:04.359Z",
+  "lastModified": "2025-06-16T17:00:27.142Z",
   "version": "1.0"
 }
