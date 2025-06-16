@@ -808,6 +808,70 @@ button#clear-filters {
             font-size: 0.8rem;
         }
 
+.multiselect-container {
+            position: relative;
+        }
+
+        .multiselect-dropdown {
+            position: relative;
+            border: 2px solid #e1e5e9;
+            border-radius: 8px;
+            background: white;
+            min-height: 40px;
+            cursor: pointer;
+        }
+
+        .multiselect-selected {
+            padding: 0.5rem;
+            font-size: 0.9rem;
+            min-width: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .multiselect-selected:after {
+            content: '▼';
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        .multiselect-options {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border: 2px solid #e1e5e9;
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 1000;
+            display: none;
+        }
+
+        .multiselect-options.show {
+            display: block;
+        }
+
+        .multiselect-option {
+            padding: 0.5rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .multiselect-option:hover {
+            background: #f8f9fa;
+        }
+
+        .multiselect-option input[type="checkbox"] {
+            margin: 0;
+        }
+
 .complexity-tooltip {
     position: relative;
     display: inline-block;
@@ -989,9 +1053,9 @@ button#clear-filters {
                     <input type="date" id="date-acquired-filter">
                 </div>
             </div>
-            <div class="filter-group">
-                <label>Weight Range</label>
-                <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<div class="filter-group">
+    <label>Complexity (1-5)</label>
+    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
                     <div style="display: flex; gap: 0.25rem; align-items: center;">
                         <span style="font-size: 0.8rem;">Min:</span>
                         <select id="min-weight-type" style="width: auto;">
@@ -1011,10 +1075,13 @@ button#clear-filters {
                 </div>
             </div>
 <div class="filter-group">
-    <label>Designer</label>
-    <select id="designer-filter">
-        <option value="">All Designers</option>
-    </select>
+    <label>Designer (select multiple)</label>
+    <div class="multiselect-container">
+        <div class="multiselect-dropdown" id="designer-filter-dropdown">
+            <div class="multiselect-selected">All Designers</div>
+            <div class="multiselect-options" id="designer-filter-options"></div>
+        </div>
+    </div>
 </div>
             <div class="filter-group">
                 <label>Designer Contains</label>
@@ -1027,12 +1094,15 @@ button#clear-filters {
                     <input type="text" id="designer-contains-filter" placeholder="Designer name">
                 </div>
             </div>
-            <div class="filter-group">
-                <label>Designer Nationality</label>
-                <select id="designer-nationality-filter">
-                    <option value="">All Nationalities</option>
-                </select>
-            </div>
+<div class="filter-group">
+    <label>Designer Nationality (select multiple)</label>
+    <div class="multiselect-container">
+        <div class="multiselect-dropdown" id="designer-nationality-filter-dropdown">
+            <div class="multiselect-selected">All Nationalities</div>
+            <div class="multiselect-options" id="designer-nationality-filter-options"></div>
+        </div>
+    </div>
+</div>
 <div class="filter-group">
                 <label>Designer Nationality Contains</label>
                 <div style="display: flex; gap: 0.5rem;">
@@ -1044,12 +1114,15 @@ button#clear-filters {
                     <input type="text" id="designer-nationality-contains-filter" placeholder="Nationality">
                 </div>
             </div>
-            <div class="filter-group">
-                <label>Artist</label>
-                <select id="artist-filter">
-                    <option value="">All Artists</option>
-                </select>
-            </div>
+<div class="filter-group">
+    <label>Artist (select multiple)</label>
+    <div class="multiselect-container">
+        <div class="multiselect-dropdown" id="artist-filter-dropdown">
+            <div class="multiselect-selected">All Artists</div>
+            <div class="multiselect-options" id="artist-filter-options"></div>
+        </div>
+    </div>
+</div>
             <div class="filter-group">
                 <label>Artist Contains</label>
                 <div style="display: flex; gap: 0.5rem;">
@@ -1061,11 +1134,14 @@ button#clear-filters {
                     <input type="text" id="artist-contains-filter" placeholder="Artist name">
                 </div>
             </div>
-            <div class="filter-group">
-                <label>Publisher</label>
-    <select id="publisher-dropdown-filter">
-        <option value="">All Publishers</option>
-    </select>
+<div class="filter-group">
+    <label>Publisher (select multiple)</label>
+    <div class="multiselect-container">
+        <div class="multiselect-dropdown" id="publisher-dropdown-filter-dropdown">
+            <div class="multiselect-selected">All Publishers</div>
+            <div class="multiselect-options" id="publisher-dropdown-filter-options"></div>
+        </div>
+    </div>
 </div>
 <div class="filter-group">
                 <label>Publisher Contains</label>
@@ -1112,10 +1188,13 @@ button#clear-filters {
     </div>
 </div>
 <div class="filter-group">
-    <label>Category</label>
-    <select id="category-filter">
-        <option value="">All Categories</option>
-    </select>
+    <label>Category (select multiple)</label>
+    <div class="multiselect-container">
+        <div class="multiselect-dropdown" id="category-filter-dropdown">
+            <div class="multiselect-selected">All Categories</div>
+            <div class="multiselect-options" id="category-filter-options"></div>
+        </div>
+    </div>
 </div>
 <div class="filter-group">
     <label>Category Contains</label>
@@ -1129,10 +1208,13 @@ button#clear-filters {
     </div>
 </div>
 <div class="filter-group">
-    <label>Mechanisms</label>
-    <select id="mechanisms-filter">
-        <option value="">All Mechanisms</option>
-    </select>
+    <label>Mechanisms (select multiple)</label>
+    <div class="multiselect-container">
+        <div class="multiselect-dropdown" id="mechanisms-filter-dropdown">
+            <div class="multiselect-selected">All Mechanisms</div>
+            <div class="multiselect-options" id="mechanisms-filter-options"></div>
+        </div>
+    </div>
 </div>
 <div class="filter-group">
     <label>Mechanisms Contains</label>
@@ -1156,8 +1238,9 @@ button#clear-filters {
        </div>
    </div>
 
-   <div class="container">
-       <div class="add-game-form" id="add-game-form">
+<div class="container">
+    <div id="results-info" style="margin-bottom: 1rem; color: #666; font-size: 0.9rem;"></div>
+    <div class="add-game-form" id="add-game-form">
            <button class="close-btn" id="close-form">&times;</button>
            <h2>Add New Game</h2>
            
@@ -1276,9 +1359,8 @@ button#clear-filters {
           </div>
       </div>
 
-      <div id="game-container">
-          <div id="results-info" style="margin-bottom: 1rem; color: #666; font-size: 0.9rem;"></div>
-          <div class="game-grid" id="game-grid"></div>
+<div id="game-container">
+    <div class="game-grid" id="game-grid"></div>
           <div class="empty-state" id="empty-state" style="display: none;">
               <h3>No games in your collection yet</h3>
               <p>Click "Add Game" to get started, or import an existing collection.</p>
@@ -2396,8 +2478,8 @@ const dateAcquired = document.getElementById('date-acquired-filter').value || nu
 publisher: document.getElementById('publisher-filter').value,
 designerContains: document.getElementById('designer-contains-filter').value,
 designerNationalityContains: document.getElementById('designer-nationality-contains-filter').value,
-designerNationality: document.getElementById('designer-nationality-filter').value,
-artist: document.getElementById('artist-filter').value,
+designerNationality: this.getMultiselectValues('designer-nationality-filter'),
+artist: this.getMultiselectValues('artist-filter'),
 artistContains: document.getElementById('artist-contains-filter').value,
 publisherCountry: document.getElementById('publisher-country-filter').value,
 bestPlayerCount,
@@ -2410,20 +2492,20 @@ description: document.getElementById('description-filter').value,
            dateAcquiredType: document.getElementById('date-acquired-filter-type').value,
            minWeightType: document.getElementById('min-weight-type').value,
            maxWeightType: document.getElementById('max-weight-type').value,
-           designer: document.getElementById('designer-filter').value,
+designer: this.getMultiselectValues('designer-filter'),
            designerContainsType: document.getElementById('designer-contains-filter-type').value,
            designerNationalityContainsType: document.getElementById('designer-nationality-contains-filter-type').value,
            artistContainsType: document.getElementById('artist-contains-filter-type').value,
-           publisherDropdown: document.getElementById('publisher-dropdown-filter').value,
+publisherDropdown: this.getMultiselectValues('publisher-dropdown-filter'),
            publisherCountryType: document.getElementById('publisher-country-filter-type').value,
 notes: document.getElementById('notes-filter').value,
 notesType: document.getElementById('notes-filter-type').value,
 description: document.getElementById('description-filter').value,
 descriptionType: document.getElementById('description-filter-type').value,
-category: document.getElementById('category-filter').value,
+category: this.getMultiselectValues('category-filter'),
 categoryContains: document.getElementById('category-contains-filter').value,
 categoryContainsType: document.getElementById('category-contains-filter-type').value,
-mechanisms: document.getElementById('mechanisms-filter').value,
+mechanisms: this.getMultiselectValues('mechanisms-filter'),
 mechanismsContains: document.getElementById('mechanisms-contains-filter').value,
 mechanismsContainsType: document.getElementById('mechanisms-contains-filter-type').value,
 type: document.getElementById('type-filter') ? document.getElementById('type-filter').value : '',
@@ -2466,7 +2548,7 @@ if (this.currentFilters.dateAcquired) this.dynamicCardFields.push('dateAcquired'
        if (this.currentFilters.bestPlayerCount) this.dynamicCardFields.push('bestPlayerCount');
    }
 
-   updateDesignerFilter() {
+updateDesignerFilter() {
        const designerCounts = {};
        this.games.forEach(game => {
            if (game.designers) {
@@ -2479,20 +2561,8 @@ if (this.currentFilters.dateAcquired) this.dynamicCardFields.push('dateAcquired'
        const sortedDesigners = Object.entries(designerCounts)
            .sort((a, b) => b[1] - a[1]);
 
-       const select = document.getElementById('designer-filter');
-       const currentValue = select.value;
-       select.innerHTML = '<option value="">All Designers</option>';
-       
-       sortedDesigners.forEach(([designer, count]) => {
-           const option = document.createElement('option');
-           option.value = designer;
-           option.textContent = `${designer} (${count})`;
-           select.appendChild(option);
-       });
-       
-       select.value = currentValue;
+       this.updateMultiselectOptions('designer-filter', sortedDesigners, 'All Designers');
    }
-
 
 updatePublisherFilter() {
        const publisherCounts = {};
@@ -2507,21 +2577,10 @@ updatePublisherFilter() {
        const sortedPublishers = Object.entries(publisherCounts)
            .sort((a, b) => b[1] - a[1]);
 
-       const select = document.getElementById('publisher-dropdown-filter');
-       const currentValue = select.value;
-       select.innerHTML = '<option value="">All Publishers</option>';
-       
-       sortedPublishers.forEach(([publisher, count]) => {
-           const option = document.createElement('option');
-           option.value = publisher;
-           option.textContent = `${publisher} (${count})`;
-           select.appendChild(option);
-       });
-       
-       select.value = currentValue;
+       this.updateMultiselectOptions('publisher-dropdown-filter', sortedPublishers, 'All Publishers');
    }
 
-   updateDesignerNationalityFilter() {
+updateDesignerNationalityFilter() {
        const nationalityCounts = {};
        this.games.forEach(game => {
            if (game.designerNationality) {
@@ -2538,18 +2597,7 @@ updatePublisherFilter() {
        const sortedNationalities = Object.entries(nationalityCounts)
            .sort((a, b) => b[1] - a[1]);
 
-       const select = document.getElementById('designer-nationality-filter');
-       const currentValue = select.value;
-       select.innerHTML = '<option value="">All Nationalities</option>';
-       
-       sortedNationalities.forEach(([nationality, count]) => {
-           const option = document.createElement('option');
-           option.value = nationality;
-           option.textContent = `${nationality} (${count})`;
-           select.appendChild(option);
-       });
-       
-       select.value = currentValue;
+       this.updateMultiselectOptions('designer-nationality-filter', sortedNationalities, 'All Nationalities');
    }
 
 updateArtistFilter() {
@@ -2565,18 +2613,7 @@ updateArtistFilter() {
     const sortedArtists = Object.entries(artistCounts)
         .sort((a, b) => b[1] - a[1]);
 
-    const select = document.getElementById('artist-filter');
-    const currentValue = select.value;
-    select.innerHTML = '<option value="">All Artists</option>';
-    
-    sortedArtists.forEach(([artist, count]) => {
-        const option = document.createElement('option');
-        option.value = artist;
-        option.textContent = `${artist} (${count})`;
-        select.appendChild(option);
-    });
-    
-    select.value = currentValue;
+    this.updateMultiselectOptions('artist-filter', sortedArtists, 'All Artists');
 }
 
 updateCategoryFilter() {
@@ -2592,18 +2629,7 @@ updateCategoryFilter() {
     const sortedCategories = Object.entries(categoryCounts)
         .sort((a, b) => b[1] - a[1]);
 
-    const select = document.getElementById('category-filter');
-    const currentValue = select.value;
-    select.innerHTML = '<option value="">All Categories</option>';
-    
-    sortedCategories.forEach(([category, count]) => {
-        const option = document.createElement('option');
-        option.value = category;
-        option.textContent = `${category} (${count})`;
-        select.appendChild(option);
-    });
-    
-    select.value = currentValue;
+    this.updateMultiselectOptions('category-filter', sortedCategories, 'All Categories');
 }
 
 updateMechanismsFilter() {
@@ -2619,18 +2645,7 @@ updateMechanismsFilter() {
     const sortedMechanisms = Object.entries(mechanismsCounts)
         .sort((a, b) => b[1] - a[1]);
 
-    const select = document.getElementById('mechanisms-filter');
-    const currentValue = select.value;
-    select.innerHTML = '<option value="">All Mechanisms</option>';
-    
-    sortedMechanisms.forEach(([mechanism, count]) => {
-        const option = document.createElement('option');
-        option.value = mechanism;
-        option.textContent = `${mechanism} (${count})`;
-        select.appendChild(option);
-    });
-    
-    select.value = currentValue;
+    this.updateMultiselectOptions('mechanisms-filter', sortedMechanisms, 'All Mechanisms');
 }
 
    addCustomFilter() {
@@ -2882,12 +2897,22 @@ document.getElementById('publisher-country-filter').value = '';
 document.getElementById('description-filter').value = '';
 document.getElementById('category-contains-filter').value = '';
 document.getElementById('mechanisms-contains-filter').value = '';
-document.getElementById('designer-filter').value = '';
-document.getElementById('designer-nationality-filter').value = '';
-document.getElementById('artist-filter').value = '';
-document.getElementById('publisher-dropdown-filter').value = '';
-document.getElementById('category-filter').value = '';
-document.getElementById('mechanisms-filter').value = '';
+// Clear multiselect filters
+document.querySelectorAll('#designer-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+document.querySelectorAll('#designer-nationality-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+document.querySelectorAll('#artist-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+document.querySelectorAll('#publisher-dropdown-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+document.querySelectorAll('#category-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+document.querySelectorAll('#mechanisms-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+
+// Update displays
+this.updateMultiselectDisplay('designer-filter', 'All Designers');
+this.updateMultiselectDisplay('designer-nationality-filter', 'All Nationalities');
+this.updateMultiselectDisplay('artist-filter', 'All Artists');
+this.updateMultiselectDisplay('publisher-dropdown-filter', 'All Publishers');
+this.updateMultiselectDisplay('category-filter', 'All Categories');
+this.updateMultiselectDisplay('mechanisms-filter', 'All Mechanisms');
+
 document.getElementById('notes-filter').value = '';
 document.getElementById('notes-filter-type').value = 'contains';
 document.getElementById('description-filter-type').value = 'contains';
@@ -3031,17 +3056,17 @@ if (this.currentFilters.dateAcquired) {
            });
        }
 
-       if (this.currentFilters.designer) {
+if (this.currentFilters.designer && this.currentFilters.designer.length > 0) {
            filtered = filtered.filter(game => {
                if (!game.designers) return false;
-               return game.designers.includes(this.currentFilters.designer);
+               return this.currentFilters.designer.some(designer => game.designers.includes(designer));
            });
        }
 
-if (this.currentFilters.publisherDropdown) {
+if (this.currentFilters.publisherDropdown && this.currentFilters.publisherDropdown.length > 0) {
            filtered = filtered.filter(game => {
                if (!game.publishers) return false;
-               return game.publishers.includes(this.currentFilters.publisherDropdown);
+               return this.currentFilters.publisherDropdown.some(publisher => game.publishers.includes(publisher));
            });
        }
 
@@ -3073,19 +3098,19 @@ if (this.currentFilters.designerNationalityContains) {
            });
        }
 
-       if (this.currentFilters.designerNationality) {
+if (this.currentFilters.designerNationality && this.currentFilters.designerNationality.length > 0) {
            filtered = filtered.filter(game => {
                if (!game.designerNationality) return false;
                const nationalities = Array.isArray(game.designerNationality) ? 
                    game.designerNationality : game.designerNationality.split(',').map(s => s.trim());
-               return nationalities.includes(this.currentFilters.designerNationality);
+               return this.currentFilters.designerNationality.some(nationality => nationalities.includes(nationality));
            });
        }
 
-       if (this.currentFilters.artist) {
+if (this.currentFilters.artist && this.currentFilters.artist.length > 0) {
            filtered = filtered.filter(game => {
                if (!game.artists) return false;
-               return game.artists.includes(this.currentFilters.artist);
+               return this.currentFilters.artist.some(artist => game.artists.includes(artist));
            });
        }
 
@@ -3144,10 +3169,10 @@ if (this.currentFilters.description) {
 }
 
 
-if (this.currentFilters.category) {
+if (this.currentFilters.category && this.currentFilters.category.length > 0) {
     filtered = filtered.filter(game => {
         if (!game.category) return false;
-        return game.category.includes(this.currentFilters.category);
+        return this.currentFilters.category.some(category => game.category.includes(category));
     });
 }
 
@@ -3164,10 +3189,10 @@ if (this.currentFilters.categoryContains) {
     });
 }
 
-if (this.currentFilters.mechanisms) {
+if (this.currentFilters.mechanisms && this.currentFilters.mechanisms.length > 0) {
     filtered = filtered.filter(game => {
         if (!game.mechanisms) return false;
-        return game.mechanisms.includes(this.currentFilters.mechanisms);
+        return this.currentFilters.mechanisms.some(mechanism => game.mechanisms.includes(mechanism));
     });
 }
 
@@ -3562,7 +3587,7 @@ if (allVisibleFields.includes('dateAcquired') && game.dateAcquired && !this.isSh
        }
 if (allVisibleFields.includes('weight') && game.weight) {
 const weightColor = game.weightColor || '#008000';
-metaItems.push(`<div class="meta-item"><span class="meta-label">Weight:</span><span style="color: ${weightColor === '#cfa200' ? '#cfa200' : weightColor};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: #008000;">Green means easy, ok for non-gamers/kids</span><br><span style="color: #cfa200;">Yellow means too much for above, but normal for most people</span><br><span style="color: #ff0000;">Red means gamers only, higher strategy, full weight</span></span></span></div>`);
+metaItems.push(`<div class="meta-item"><span class="meta-label">Complexity:</span><span style="color: ${weightColor === '#cfa200' ? '#cfa200' : weightColor};">${game.weight.toFixed(1)}</span><span class="complexity-tooltip"><i class="fa-solid fa-circle-info"></i><span class="tooltiptext"><span style="color: #008000;">Green means easy, ok for non-gamers/kids</span><br><span style="color: #cfa200;">Yellow means too much for above, but normal for most people</span><br><span style="color: #ff0000;">Red means gamers only, higher strategy, full weight</span></span></span></div>`);
        }
        if (allVisibleFields.includes('publishers') && game.publishers?.length > 0) {
            metaItems.push(`<div class="meta-item"><span class="meta-label">Publisher:</span><span>${game.publishers[0]}</span></div>`);
@@ -4221,7 +4246,7 @@ clearThumbs() {
        this.applyFilters();
    }
 
- updateClearThumbsVisibility() {
+updateClearThumbsVisibility() {
        let hasUserThumbs = false;
        
        if (this.isSharedView) {
@@ -4239,6 +4264,70 @@ clearThumbs() {
        
        if (clearBtn) clearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
        if (mobileClearBtn) mobileClearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
+   }
+
+   getMultiselectValues(filterId) {
+       const checkboxes = document.querySelectorAll(`#${filterId}-options input[type="checkbox"]:checked`);
+       return Array.from(checkboxes).map(cb => cb.value);
+   }
+
+   updateMultiselectOptions(filterId, sortedItems, defaultText) {
+       const dropdown = document.getElementById(`${filterId}-dropdown`);
+       const optionsContainer = document.getElementById(`${filterId}-options`);
+       const selectedDiv = dropdown.querySelector('.multiselect-selected');
+       
+       if (!optionsContainer) return;
+
+       const currentSelected = this.getMultiselectValues(filterId);
+       
+       optionsContainer.innerHTML = '';
+       
+       sortedItems.forEach(([item, count]) => {
+           const optionDiv = document.createElement('div');
+           optionDiv.className = 'multiselect-option';
+           optionDiv.innerHTML = `
+               <input type="checkbox" value="${item}" ${currentSelected.includes(item) ? 'checked' : ''}>
+               <span>${item} (${count})</span>
+           `;
+           
+           const checkbox = optionDiv.querySelector('input');
+           checkbox.addEventListener('change', () => {
+               this.updateMultiselectDisplay(filterId, defaultText);
+               this.updateFilters();
+               this.updateDynamicCardFields();
+               this.applyFilters();
+           });
+           
+           optionsContainer.appendChild(optionDiv);
+       });
+
+       // Add click handler for dropdown
+       selectedDiv.onclick = (e) => {
+           e.stopPropagation();
+           optionsContainer.classList.toggle('show');
+       };
+
+       // Close dropdown when clicking outside
+       document.addEventListener('click', (e) => {
+           if (!dropdown.contains(e.target)) {
+               optionsContainer.classList.remove('show');
+           }
+       });
+
+       this.updateMultiselectDisplay(filterId, defaultText);
+   }
+
+   updateMultiselectDisplay(filterId, defaultText) {
+       const selectedDiv = document.querySelector(`#${filterId}-dropdown .multiselect-selected`);
+       const selected = this.getMultiselectValues(filterId);
+       
+       if (selected.length === 0) {
+           selectedDiv.textContent = defaultText;
+       } else if (selected.length === 1) {
+           selectedDiv.textContent = selected[0];
+       } else {
+           selectedDiv.textContent = `${selected.length} selected`;
+       }
    }
 }
 
