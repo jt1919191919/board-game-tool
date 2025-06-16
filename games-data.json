@@ -6301,9 +6301,70 @@
         "Track Movement"
       ],
       "customFields": {}
+    },
+    "1750093767421": {
+      "bggId": "1750093767421",
+      "bggUrl": "https://boardgamegeek.com/boardgame/366752/the-great-split",
+      "name": "The Great Split",
+      "year": 2022,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 7
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "designers": [
+        "Hjalmar Hach",
+        "Lorenzo Silva"
+      ],
+      "artists": [
+        "Weberson Santiago"
+      ],
+      "publishers": [
+        "Horrible Guild",
+        "999 Games",
+        "Ghenos Games",
+        "HeidelBÄR Games",
+        "Hobby Japan",
+        "IELLO"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/pPXbuNKh5TPSRTwAvwuTpw__original/img/3StIG3EC2vhApAP8d_tKH22eIBY=/0x0/filters:format(jpeg)/pic6971167.jpg",
+        "https://cf.geekdo-images.com/pPXbuNKh5TPSRTwAvwuTpw__thumb/img/M3Yw--HL04ms_8CHnF0inAbq4Zc=/fit-in/200x150/filters:strip_icc()/pic6971167.jpg"
+      ],
+      "notes": "",
+      "description": "In The Great Split, you draft cards to collect riches such as gems, gold, artwork, and tomes, adding them to your collection to make it the most prestigious of all!&#10;&#10;You start each round by splitting your cards into two groups, then you pass your wallet to the player on your left &mdash; but only one group of cards will be given back to you. You split, they choose! Don't despair, though, because while your opponent is looking at your split, you also receive a similar offer from the player on your right, so choose wisely. When your hand is complete, play your cards to add all those riches to your collection.&#10;&#10;Each type of riches awards you prestige points in different ways, so maintain a balanced collection of gems, keep an eye on the value of the art market as it evolves, and pile up priceless tomes. Depending on how each player builds their collection, different riches will take on a different value for each of them. Show off your best haggling skills in crafting your split, and create the perfect offer to push your opponent to take what you want them to take...leaving you with the tastiest loot!&#10;&#10;Be prepared for when the mid-game scorings are triggered. Manage your gold reserves sensibly to get additional riches, and make your collection just right!&#10;&#10;&mdash;description from publisher&#10;&#10;",
+      "category": [
+        "Card Game"
+      ],
+      "mechanisms": [
+        "Closed Drafting",
+        "I Cut",
+        "You Choose",
+        "Neighbor Scope",
+        "Score-and-Reset Game",
+        "Simultaneous Action Selection",
+        "Tech Trees / Tech Tracks",
+        "Variable Set-up"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T17:08:44.027Z",
+  "lastModified": "2025-06-16T17:09:27.422Z",
   "version": "1.0"
 }
