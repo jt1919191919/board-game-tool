@@ -93,8 +93,8 @@
             transition: transform 0.3s ease;
         }
 
-        .mobile-menu.show {
-            right: 0;
+.mobile-menu.show {
+            left: 0;
         }
 
         .mobile-menu .btn {
@@ -2135,10 +2135,14 @@ bindEvents() {
 // Mobile menu
        const hamburgerBtn = document.getElementById('hamburger-btn');
        if (hamburgerBtn) {
-           hamburgerBtn.addEventListener('click', () => {
+           hamburgerBtn.addEventListener('click', (e) => {
+               e.stopPropagation();
                const mobileMenu = document.getElementById('mobile-menu');
                if (mobileMenu) {
-                   mobileMenu.classList.add('show');
+                   const isOpen = mobileMenu.classList.contains('show');
+                   mobileMenu.classList.toggle('show');
+                   hamburgerBtn.classList.toggle('open');
+                   hamburgerBtn.innerHTML = isOpen ? '☰' : '✕';
                }
            });
        }
@@ -2147,8 +2151,13 @@ bindEvents() {
        if (mobileMenuClose) {
            mobileMenuClose.addEventListener('click', () => {
                const mobileMenu = document.getElementById('mobile-menu');
+               const hamburger = document.getElementById('hamburger-btn');
                if (mobileMenu) {
                    mobileMenu.classList.remove('show');
+               }
+               if (hamburger) {
+                   hamburger.classList.remove('open');
+                   hamburger.innerHTML = '☰';
                }
            });
        }
@@ -2158,6 +2167,8 @@ document.addEventListener('click', (e) => {
            const hamburger = document.getElementById('hamburger-btn');
            if (menu && hamburger && !menu.contains(e.target) && !hamburger.contains(e.target)) {
                menu.classList.remove('show');
+               hamburger.classList.remove('open');
+               hamburger.innerHTML = '☰';
            }
        });
 
@@ -2979,57 +2990,53 @@ clearFilters() {
        }
        
        // Original clear behavior for personal collections
-document.getElementById('search').value = '';
+       document.getElementById('search').value = '';
        document.getElementById('mobile-search').value = '';
        document.getElementById('min-players').value = '';
        document.getElementById('max-players').value = '';
        document.getElementById('min-playtime').value = '';
        document.getElementById('max-playtime').value = '';
        document.getElementById('year-filter').value = '';
-document.getElementById('date-acquired-filter').value = '';
+       document.getElementById('date-acquired-filter').value = '';
        document.getElementById('publisher-filter').value = '';
        document.getElementById('designer-contains-filter').value = '';
        document.getElementById('designer-nationality-contains-filter').value = '';
-       document.getElementById('designer-nationality-filter').value = '';
-       document.getElementById('artist-filter').value = '';
        document.getElementById('artist-contains-filter').value = '';
-document.getElementById('publisher-country-filter').value = '';
-document.getElementById('description-filter').value = '';
-document.getElementById('category-contains-filter').value = '';
-document.getElementById('mechanisms-contains-filter').value = '';
+       document.getElementById('publisher-country-filter').value = '';
+       document.getElementById('description-filter').value = '';
+       document.getElementById('category-contains-filter').value = '';
+       document.getElementById('mechanisms-contains-filter').value = '';
+       document.getElementById('notes-filter').value = '';
+       document.getElementById('notes-filter-type').value = 'contains';
+       document.getElementById('description-filter-type').value = 'contains';
+       document.getElementById('min-weight').value = '';
+       document.getElementById('max-weight').value = '';
+       document.getElementById('best-player-count-filter').value = '';
 
-document.getElementById('notes-filter').value = '';
-document.getElementById('notes-filter-type').value = 'contains';
-document.getElementById('description-filter-type').value = 'contains';
+       // Clear multiselect filters
+       document.querySelectorAll('#designer-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+       document.querySelectorAll('#designer-nationality-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+       document.querySelectorAll('#artist-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+       document.querySelectorAll('#publisher-dropdown-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+       document.querySelectorAll('#category-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+       document.querySelectorAll('#mechanisms-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
 
-// Reset dynamic card fields when clearing filters
-this.dynamicCardFields = [];
-document.getElementById('min-weight').value = '';
-document.getElementById('max-weight').value = '';
-document.getElementById('best-player-count-filter').value = '';
+       // Update displays
+       this.updateMultiselectDisplay('designer-filter', 'All Designers');
+       this.updateMultiselectDisplay('designer-nationality-filter', 'All Nationalities');
+       this.updateMultiselectDisplay('artist-filter', 'All Artists');
+       this.updateMultiselectDisplay('publisher-dropdown-filter', 'All Publishers');
+       this.updateMultiselectDisplay('category-filter', 'All Categories');
+       this.updateMultiselectDisplay('mechanisms-filter', 'All Mechanisms');
 
-// Clear multiselect filters
-document.querySelectorAll('#designer-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-document.querySelectorAll('#designer-nationality-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-document.querySelectorAll('#artist-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-document.querySelectorAll('#publisher-dropdown-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-document.querySelectorAll('#category-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-document.querySelectorAll('#mechanisms-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+       document.getElementById('custom-filters-container').innerHTML = '';
 
-// Update displays
-this.updateMultiselectDisplay('designer-filter', 'All Designers');
-this.updateMultiselectDisplay('designer-nationality-filter', 'All Nationalities');
-this.updateMultiselectDisplay('artist-filter', 'All Artists');
-this.updateMultiselectDisplay('publisher-dropdown-filter', 'All Publishers');
-this.updateMultiselectDisplay('category-filter', 'All Categories');
-this.updateMultiselectDisplay('mechanisms-filter', 'All Mechanisms');
-
-document.getElementById('custom-filters-container').innerHTML = '';
-
-this.currentFilters = {};
-this.customFilters = [];
-this.updateFilters();
-this.applyFilters();
+       // Reset dynamic card fields when clearing filters
+       this.dynamicCardFields = [];
+       this.currentFilters = {};
+       this.customFilters = [];
+       this.updateFilters();
+       this.applyFilters();
    }
 
    applyFilters() {
