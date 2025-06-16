@@ -6653,9 +6653,65 @@
         "Paper-and-Pencil"
       ],
       "customFields": {}
+    },
+    "1750103930528": {
+      "bggId": "1750103930528",
+      "bggUrl": "https://boardgamegeek.com/boardgame/302520/hues-and-cues",
+      "name": "Hues and Cues",
+      "year": 2020,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 10
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "designers": [
+        "Scott Brady"
+      ],
+      "artists": [],
+      "publishers": [
+        "The Op Games",
+        "CMON Global Limited",
+        "Lanlalen"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__original/img/i8nlw_c9CYgJMzixadYVh7GTTPc=/0x0/filters:format(jpeg)/pic5390676.jpg",
+        "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__thumb/img/EJ5gcczwsYvSavYuO4UoNPS45vo=/fit-in/200x150/filters:strip_icc()/pic5390676.jpg"
+      ],
+      "notes": "",
+      "description": "What hue do you think of when we say &ldquo;apple&rdquo;? Hues and Cues is a vibrant game of colorful communication where players are challenged to make connections to colors with words. Using only one and two-word cues, players try to get others to guess a specific hue from the 480 colors on the game board. The closer the guesses are to the target, the more points you earn. Since everyone imagines colors differently, connecting colors and clues has never been this much fun!&#10;&#10;Gather around with three to ten people to play a quick and simple game with a prism of possibilities! First, a &ldquo;cue giver&rdquo; hides a specific color they&rsquo;ve chosen out of a deck of cards. There are 480 shades on the board in front of you! After getting one- and two-word cues, everyone places their marker on which color they think is being described. &ldquo;Coffee.&rdquo; Is it dark brown, as in freshly brewed? &ldquo;Au lait.&rdquo; With milk. That means I should pick a lighter shade!&#10;&#10;Use examples from everyday life, from nature to pop culture, or materials and moods. Everyone around the table gets a turn to give cues and guess. The better your hints or guesses, the more points you earn. Play off others' experiences to narrow down what they have in mind!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Deduction",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Communication Limits",
+        "Deduction",
+        "Score-and-Reset Game",
+        "Targeted Clues",
+        "Turn Order: Progressive"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T19:58:32.977Z",
+  "lastModified": "2025-06-16T19:58:50.529Z",
   "version": "1.0"
 }
