@@ -6362,9 +6362,73 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1750103743506": {
+      "bggId": "1750103743506",
+      "bggUrl": "https://boardgamegeek.com/boardgame/269144/hadara",
+      "name": "Hadara",
+      "year": 2019,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Benjamin Schwer"
+      ],
+      "artists": [
+        "Dominik Mayer",
+        "Andreas Resch"
+      ],
+      "publishers": [
+        "Hans im Glück",
+        "999 Games",
+        "Arclight Games",
+        "Bard Centrum Gier",
+        "Devir",
+        "Edge Entertainment",
+        "Game Harbor",
+        "Hobby World",
+        "Mandoo Games",
+        "MINDOK",
+        "Piatnik",
+        "Z-Man Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/17wJNXSBYuVmKryV9lEKsQ__original/img/3z-EkL0nYgFKPWI9jr0Hd8qeLBk=/0x0/filters:format(jpeg)/pic5099398.jpg",
+        "https://cf.geekdo-images.com/17wJNXSBYuVmKryV9lEKsQ__thumb/img/nVMvEWrTFCoOE9Y3tqFLelkjYWw=/fit-in/200x150/filters:strip_icc()/pic5099398.jpg"
+      ],
+      "notes": "",
+      "description": "Hadara carries you off into the world of cultures and countries of this earth. Over three epochs, you will experience the transformation of your new world from a small settlement to a high culture. You want to populate this world with people who come from different cultures and continents as well as different ages. To bring glory and honor to your world, you should choose the persons and accomplishments skillfully. But you should not ignore agriculture, culture, and military power, otherwise one of your competitors might get bigger and more successful than you. Who will succeed first in creating a new flourishing high culture?&#10;&#10;&mdash;description from the publisher&#10;&#10;&bull;&bull;&bull;&#10;&#10;Hadara entf&uuml;hrt dich in die Welt der Kulturen und L&auml;nder dieser Erde.&#10;&#10;&Uuml;ber 3 Epochen hinweg erlebst du die Verwandlung deiner neuen Welt von einer kleinen Siedlung zu einer Hochkultur.&#10;Du willst diese Welt mit Personen besiedeln, die dabei aus verschiedenen Kulturkreisen, Kontinenten aber auch Zeitaltern stammen. &#10;Um deiner Welt zu viel Ruhm und Ehre zu verhelfen, solltest du die Personen und Errungenschaften geschickt aussuchen. Dabei solltest du aber die Landwirtschaft, die Kultur und die milit&auml;rische Macht nicht au&szlig;er Acht lassen, sonst kann es passieren, dass einer deiner Mitkonkurrenten gr&ouml;&szlig;er und erfolgreicher wird. Wem gelingt es zuerst, eine neue bl&uuml;hende Hochkultur zu erschaffen?&#10;&mdash;description from the publisher (German)&#10;&#10;",
+      "category": [
+        "City Building",
+        "Civilization"
+      ],
+      "mechanisms": [
+        "End Game Bonuses",
+        "Memory",
+        "Open Drafting",
+        "Set Collection",
+        "Simultaneous Action Selection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T17:09:27.422Z",
+  "lastModified": "2025-06-16T19:55:43.508Z",
   "version": "1.0"
 }
