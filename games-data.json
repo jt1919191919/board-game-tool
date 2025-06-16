@@ -7137,9 +7137,55 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1750104154071": {
+      "bggId": "1750104154071",
+      "bggUrl": "https://boardgamegeek.com/boardgame/324278/inkling",
+      "name": "Inkling",
+      "year": 2021,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 2.1,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "John Keyworth"
+      ],
+      "artists": [
+        "Kwanchai Moriya"
+      ],
+      "publishers": [
+        "Lucrum Games",
+        "Osprey Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/4qz5VHR_8PPZtH0bbwe9lg__original/img/NHTGnCQMsBsP4NT2RPDDN_K9ANc=/0x0/filters:format(jpeg)/pic5777989.jpg",
+        "https://cf.geekdo-images.com/4qz5VHR_8PPZtH0bbwe9lg__thumb/img/UgmvMjFNzO7cGv2uvGhcbF9Pd7I=/fit-in/200x150/filters:strip_icc()/pic5777989.jpg"
+      ],
+      "notes": "",
+      "description": "Splashes of dark ink on a blank page, the characters illegible &mdash; or are they? The line that seemed like a scribble, could it perhaps be the letter N, or is it a Z on its side? And that circle, is it an O or a Q, or maybe part of a B? You can't know for sure, but you might have an inkling...&#10;&#10;Inkling is a word game for 3-6 players with an innovative twist. Each turn, you play your letter cards in front of you, hoping the players next to you can glean the words you're trying to convey &mdash; but without the perfect letters you will need to get creative! How you go about that is up to you: rotate your cards, play them upside down or on their side, or have them overlap one another. Whatever it takes to get your meaning across...&#10;&#10;",
+      "category": [
+        "Party Game",
+        "Word Game"
+      ],
+      "mechanisms": [],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T20:02:18.336Z",
+  "lastModified": "2025-06-16T20:02:34.072Z",
   "version": "1.0"
 }
