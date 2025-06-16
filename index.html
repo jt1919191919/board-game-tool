@@ -855,13 +855,15 @@ button#clear-filters {
             display: block;
         }
 
-        .multiselect-option {
+.multiselect-option {
             padding: 0.5rem;
             cursor: pointer;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: 0.5rem;
             font-size: 0.9rem;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
         }
 
         .multiselect-option:hover {
@@ -870,6 +872,18 @@ button#clear-filters {
 
         .multiselect-option input[type="checkbox"] {
             margin: 0;
+            flex-shrink: 0;
+            width: 16px;
+            height: 16px;
+            margin-top: 2px;
+        }
+
+        .multiselect-option-text {
+            flex: 1;
+            cursor: pointer;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            hyphens: auto;
         }
 
 .complexity-tooltip {
@@ -960,8 +974,9 @@ button#clear-filters {
             <button class="btn" id="mobile-google-drive-signout" style="display: none;">Disconnect GitHub</button>
             <div id="mobile-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
         </div>
-    </div>
+</div>
 
+    <div id="results-info" style="margin-bottom: 1rem; color: #666; font-size: 0.9rem; max-width: 98%; margin-left: auto; margin-right: auto; padding: 0 1rem;"></div>
     <div class="filters" id="filters">
         <div class="filter-row">
             <div class="sort-controls">
@@ -1239,7 +1254,6 @@ button#clear-filters {
    </div>
 
 <div class="container">
-    <div id="results-info" style="margin-bottom: 1rem; color: #666; font-size: 0.9rem;"></div>
     <div class="add-game-form" id="add-game-form">
            <button class="close-btn" id="close-form">&times;</button>
            <h2>Add New Game</h2>
@@ -2897,6 +2911,17 @@ document.getElementById('publisher-country-filter').value = '';
 document.getElementById('description-filter').value = '';
 document.getElementById('category-contains-filter').value = '';
 document.getElementById('mechanisms-contains-filter').value = '';
+
+document.getElementById('notes-filter').value = '';
+document.getElementById('notes-filter-type').value = 'contains';
+document.getElementById('description-filter-type').value = 'contains';
+
+// Reset dynamic card fields when clearing filters
+this.dynamicCardFields = [];
+document.getElementById('min-weight').value = '';
+document.getElementById('max-weight').value = '';
+document.getElementById('best-player-count-filter').value = '';
+
 // Clear multiselect filters
 document.querySelectorAll('#designer-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
 document.querySelectorAll('#designer-nationality-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
@@ -2912,16 +2937,6 @@ this.updateMultiselectDisplay('artist-filter', 'All Artists');
 this.updateMultiselectDisplay('publisher-dropdown-filter', 'All Publishers');
 this.updateMultiselectDisplay('category-filter', 'All Categories');
 this.updateMultiselectDisplay('mechanisms-filter', 'All Mechanisms');
-
-document.getElementById('notes-filter').value = '';
-document.getElementById('notes-filter-type').value = 'contains';
-document.getElementById('description-filter-type').value = 'contains';
-
-// Reset dynamic card fields when clearing filters
-this.dynamicCardFields = [];
-document.getElementById('min-weight').value = '';
-document.getElementById('max-weight').value = '';
-document.getElementById('best-player-count-filter').value = '';
 
 document.getElementById('custom-filters-container').innerHTML = '';
 
@@ -4285,17 +4300,25 @@ updateClearThumbsVisibility() {
        sortedItems.forEach(([item, count]) => {
            const optionDiv = document.createElement('div');
            optionDiv.className = 'multiselect-option';
-           optionDiv.innerHTML = `
+optionDiv.innerHTML = `
                <input type="checkbox" value="${item}" ${currentSelected.includes(item) ? 'checked' : ''}>
-               <span>${item} (${count})</span>
+               <span class="multiselect-option-text">${item} (${count})</span>
            `;
            
            const checkbox = optionDiv.querySelector('input');
-           checkbox.addEventListener('change', () => {
+           const textSpan = optionDiv.querySelector('.multiselect-option-text');
+           
+           const changeHandler = () => {
                this.updateMultiselectDisplay(filterId, defaultText);
                this.updateFilters();
                this.updateDynamicCardFields();
                this.applyFilters();
+           };
+           
+           checkbox.addEventListener('change', changeHandler);
+           textSpan.addEventListener('click', () => {
+               checkbox.checked = !checkbox.checked;
+               changeHandler();
            });
            
            optionsContainer.appendChild(optionDiv);
