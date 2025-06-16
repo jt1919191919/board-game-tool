@@ -7183,9 +7183,86 @@
       ],
       "mechanisms": [],
       "customFields": {}
+    },
+    "1750104172168": {
+      "bggId": "1750104172168",
+      "bggUrl": "https://boardgamegeek.com/boardgame/281259/isle-cats",
+      "name": "The Isle of Cats",
+      "year": 2019,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.4,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Frank West"
+      ],
+      "artists": [
+        "Dragolisco",
+        "Frank West"
+      ],
+      "publishers": [
+        "The City of Games",
+        "Arclight Games",
+        "GaGa Games",
+        "Geekach Games",
+        "Gém Klub Kft.",
+        "Intrafin Games",
+        "Lucky Duck Games",
+        "Maldito Games",
+        "MeepleBR",
+        "MINDOK",
+        "MIPL",
+        "Skellig Games",
+        "sternenschimmermeer",
+        "Yayoi The Dreamer",
+        "YOKA Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/AuAheDzhkLufiZFE9JaRNA__original/img/pKq-l1Ms78olHwMbZYMa_x6m-fM=/0x0/filters:format(jpeg)/pic4781085.jpg",
+        "https://cf.geekdo-images.com/AuAheDzhkLufiZFE9JaRNA__thumb/img/gENtMHYJDff6XaGGOYw9oSZShCs=/fit-in/200x150/filters:strip_icc()/pic4781085.jpg"
+      ],
+      "notes": "",
+      "description": "The Isle of Cats is a competitive, medium-weight, card-drafting, polyomino cat-placement board game for 1-4 players (6 with expansions).&#10;&#10;In the game, you are citizens of Squalls End on a rescue mission to The Isle of Cats and must rescue as many cats as possible before the evil Lord Vesh arrives. Each cat is represented by a unique tile and belongs to a family, you must find a way to make them all fit on your boat while keeping families together. You will also need to manage resources as you:&#10;&#10;&#10;     Explore the island (by drafting cards)&#10;     Rescue cats&#10;     Find treasures&#10;     Befriend Oshax&#10;     Study ancient lessons&#10;&#10;&#10;Each lesson you collect gives you another personal way of scoring points, and 38 unique lessons are available. Complete lessons, fill your boat, and keep cat families together to score points, and the player with the most points after five rounds wins.&#10;&#10;Note: The Isle of Cats: Kickstarter Edition is a compilation item consisting of The Isle of Cats base game and The Isle of Cats: Kickstarter Pack, each of which are available as separate items and listed individually in the BGG database.&#10;&#10;",
+      "category": [
+        "Animals",
+        "Fantasy",
+        "Nautical",
+        "Pirates",
+        "Puzzle"
+      ],
+      "mechanisms": [
+        "Closed Drafting",
+        "Grid Coverage",
+        "Hidden Victory Points",
+        "Income",
+        "Open Drafting",
+        "Pattern Building",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Square Grid",
+        "Tile Placement",
+        "Turn Order: Stat-Based"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T20:02:34.072Z",
+  "lastModified": "2025-06-16T20:02:52.169Z",
   "version": "1.0"
 }
