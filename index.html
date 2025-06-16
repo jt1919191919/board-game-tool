@@ -86,7 +86,7 @@
 
 .search-box {
             flex: 1;
-            min-width: 200px;
+            min-width: 150px;
             max-width: 400px;
             position: relative;
         }
@@ -208,7 +208,7 @@
             border: 2px solid #e1e5e9;
             border-radius: 8px;
             font-size: 0.9rem;
-            min-width: 120px;
+            min-width: 10px;
         }
 
         .filter-group .btn {
@@ -230,6 +230,10 @@ button#clear-filters {
             gap: 0.5rem;
             align-items: center;
         }
+
+#results-info {
+    margin: 0.5rem 0rem !important;
+}
 
         .container {
             max-width: 98%;
@@ -774,7 +778,7 @@ button#clear-filters {
 
             .mobile-controls .search-box {
                 flex: 1;
-                min-width: 150px;
+                min-width: 100px;
                 max-width: 200px;
             }
             
@@ -2942,6 +2946,7 @@ document.getElementById('custom-filters-container').innerHTML = '';
 
 this.currentFilters = {};
 this.customFilters = [];
+this.updateFilters();
 this.applyFilters();
    }
 
