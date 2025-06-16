@@ -6050,9 +6050,56 @@
         "Solo / Solitaire Game"
       ],
       "customFields": {}
+    },
+    "1750093620831": {
+      "bggId": "1750093620831",
+      "bggUrl": "https://boardgamegeek.com/boardgame/198408/gekido-bot-battles",
+      "name": "Gekido: Bot Battles",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.9,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3
+      ],
+      "designers": [
+        "Fel Barros",
+        "Romulo Marques"
+      ],
+      "artists": [],
+      "publishers": [
+        "Ace Studios",
+        "CMON Global Limited",
+        "Spaghetti Western Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/mLzP2F54jd4whA-39hdkmA__original/img/1BvSue6A1aAjz8l6GCWQVq6uqHU=/0x0/filters:format(png)/pic3297540.png",
+        "https://cf.geekdo-images.com/mLzP2F54jd4whA-39hdkmA__thumb/img/e_esx06tGxdZjkHYugP3MGQdD3g=/fit-in/200x150/filters:strip_icc()/pic3297540.png"
+      ],
+      "notes": "",
+      "description": "In the not-too-distant future, the most entertaining sport in the world requires killer reflexes, a passion to succeed, and a degree in science or engineering. Bot battling is all the rage, and Gekido: Bot Battles gives 2-4 players the chance to enter the arena and face off in 30-minute fights. Each round, the bots lock onto a target, then roll dice to execute attacks. Through cunning moves and swift strikes, players can activate secret powers in the arena and eliminate the competition. The last bot standing takes home the electric glory!&#10;&#10;&bull;&bull;&bull;&#10;&#10;Description of the first edition:&#10;&#10;For a long time the Lord of Gems &mdash; Jikan, the mightiest dragon of all &mdash; feared that another dragon could take his place as the most powerful dragon. Soon he realized that only his sons could compete with him, so Jikan swallowed them. For many years Jikan lived happily as the king, eating whole worlds for breakfast. But one day, during a heartburn crisis, he saw that his sons were battling in his stomach. The first one to win and escape the belly of Jikan will be the next Lord of Gems!&#10;&#10;Gekido is a dice game in which each player controls a dragon, trying to beat other players by knocking their life dices from 6 points to zero. At each round, players rolls six 6 sided dice and try to score one of many combinations showed in his character sheet (pairs, three of a kind, four of a kind, etc), but watch out! If you fail on your gamble attempt you can hurt yourself instead of the enemy! As the battle gets more fierce, however, players would unlock new powers: when one of your life dices is reduced to zero, you gain new special abilities! The player who remains in play, knocking all opponent's life dices, wins the game.&#10;&#10;",
+      "category": [
+        "Dice",
+        "Fighting"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Variable Player Powers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T17:06:30.633Z",
+  "lastModified": "2025-06-16T17:07:00.831Z",
   "version": "1.0"
 }
