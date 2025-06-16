@@ -4753,9 +4753,151 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1750082129991": {
+      "bggId": "1750082129991",
+      "bggUrl": "https://boardgamegeek.com/boardgame/102548/dungeon-fighter",
+      "name": "Dungeon Fighter",
+      "year": 2011,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 6
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.8,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Aureliano Buonfino",
+        "Lorenzo Silva",
+        "Lorenzo Tucci Sorrentino"
+      ],
+      "artists": [
+        "Giulia Ghigini"
+      ],
+      "publishers": [
+        "Cranio Creations",
+        "Edge Entertainment",
+        "Fantasy Flight Games",
+        "Galápagos Jogos",
+        "Heidelberger Spieleverlag",
+        "Horrible Guild",
+        "IELLO",
+        "Kaissa Chess & Games",
+        "Lucrum Games",
+        "More Fun Co.",
+        "Ltd.",
+        "One Moment Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/ukPf_rrA7ity7UQEVjWPNw__original/img/Oss0hzRILIZgXlqQGJaa7HCH_Zo=/0x0/filters:format(png)/pic2411495.png",
+        "https://cf.geekdo-images.com/ukPf_rrA7ity7UQEVjWPNw__thumb/img/St4DMjt5DCEImqj7CEXpjFg4KEw=/fit-in/200x150/filters:strip_icc()/pic2411495.png"
+      ],
+      "notes": "",
+      "description": "Explore spooky dungeons, find glorious treasure, buy powerful magic items, and challenge the most horrible creatures. Will your party be able to defeat the final boss?&#10;&#10;In Dungeon Fighter, a fully cooperative board game, players take on the roles of heroes venturing deep into a three-tier dungeon. Along the way, they explore the dungeon, search its many rooms, and face endless hordes of vicious monsters. Best of all, your skill determines the ability of your character. Can you kill Medusa without looking into her eyes, defeat the Minotaur in the labyrinth, or resist the breath of the dragon? Will you be able to hit a target by throwing the dice under your leg with your eyes closed?&#10;&#10;You will feel truly part of a centuries-old battle between good and evil...with a touch of foolish stupidity.&#10;&#10;",
+      "category": [
+        "Action / Dexterity",
+        "Exploration",
+        "Fantasy",
+        "Fighting",
+        "Humor",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Modular Board",
+        "Open Drafting",
+        "Point to Point Movement",
+        "Turn Order: Progressive",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "customFields": {}
+    },
+    "1750087916462": {
+      "bggId": "1750087916462",
+      "bggUrl": "https://boardgamegeek.com/boardgame/175621/epic-card-game",
+      "name": "Epic Card Game",
+      "year": 2015,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 2.5,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Robert Dougherty"
+      ],
+      "artists": [
+        "Apsara",
+        "Jaan van Eeden",
+        "Sarah McCulloch",
+        "Antonis Papantoniou",
+        "L. Sean",
+        "Souveraine",
+        "La Capitana",
+        "Daniel Dussault",
+        "Trevor Smith",
+        "Odysseas Stamoglou",
+        "Daniel Warren"
+      ],
+      "publishers": [
+        "Wise Wizard Games",
+        "Devir",
+        "IELLO"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/DfhQjeh-IzvUMFH__QUDXA__original/img/o7b9oFEfBQ4BOtY_bOhDQ6C4Jlw=/0x0/filters:format(jpeg)/pic2691347.jpg",
+        "https://cf.geekdo-images.com/DfhQjeh-IzvUMFH__QUDXA__thumb/img/TrfK1csWE7BMdCMmG8TQWLb5fAE=/fit-in/200x150/filters:strip_icc()/pic2691347.jpg"
+      ],
+      "notes": "",
+      "description": "Epic is a fantasy card game by White Wizard Games which aims to recreate the TCG-style experience from a single box, with no additional purchases required.&#10;&#10;Epic is a card game designed to start quickly but also to reward deep, strategic plays. In Epic, you take on the role of an elder god, in conflict with other elder gods. The cards in your deck are your champions, who fight for you, and events, which represent your will imposed on the mortal realm.   In Epic, the turn sequence is easy but there are many options to choose from. You begin the game with a hand of five cards &ndash; each card costs either one gold or is free. You get one gold each turn &mdash; you don&rsquo;t need to draw special resource cards or energy cards just to play with your other cards. Instead of figuring out which cards you might be allowed to play, you choose which card you want to play.&#10;&#10;Epic is non-collectable, so every box contains the same 120 unique event and champion cards, with 8 double-sided cards to represent temporary &quot;token&quot; champions. One box supports preconstructed, sealed and draft formats for 2-4 players, two boxes up to 8 players, and three if you want to create a full constructed deck or a &quot;cube&quot; environment for drafting.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Fantasy",
+        "Fighting",
+        "Prehistoric",
+        "Zombies"
+      ],
+      "mechanisms": [
+        "Closed Drafting",
+        "Deck Construction",
+        "Hand Management",
+        "Player Elimination",
+        "Take That"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T13:55:12.169Z",
+  "lastModified": "2025-06-16T15:31:56.466Z",
   "version": "1.0"
 }
