@@ -1437,7 +1437,12 @@ async init() {
     const isMobile = window.innerWidth <= 768;
     this.setColumns(isMobile ? 1 : this.currentColumns);
     
-    console.log('About to render...', 'Games count:', this.games.size);
+    // Initialize filteredGames if not already set
+    if (this.filteredGames.length === 0) {
+        this.filteredGames = Array.from(this.games.values());
+    }
+    
+    console.log('About to render...', 'Games count:', this.games.size, 'Filtered games:', this.filteredGames.length);
     this.render();
     
     this.updateDesignerFilter();
