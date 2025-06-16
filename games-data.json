@@ -5709,9 +5709,60 @@
       ],
       "mechanisms": [],
       "customFields": {}
+    },
+    "1750093251654": {
+      "bggId": "1750093251654",
+      "bggUrl": "https://boardgamegeek.com/boardgame/370164/fun-facts",
+      "name": "Fun Facts",
+      "year": 2022,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 4,
+        "max": 8
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Kasper Lapp"
+      ],
+      "artists": [],
+      "publishers": [
+        "Repos Production",
+        "Desyllas Games",
+        "Gém Klub Kft.",
+        "Lord of Boards"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/wkj9lur-J5Bxun09mnI2rQ__original/img/4qUgF74h0l6EMn-HPzGI4Nydszk=/0x0/filters:format(jpeg)/pic7070521.jpg",
+        "https://cf.geekdo-images.com/wkj9lur-J5Bxun09mnI2rQ__thumb/img/WD6rjSm3DZS3JD2Bb4EXM9fL5bk=/fit-in/200x150/filters:strip_icc()/pic7070521.jpg"
+      ],
+      "notes": "",
+      "description": "Each round in Fun Facts, a question is placed in the center of the table, e.g., &quot;How long is the perfect nap?&quot;, then everyone secretly writes their answer on their colored arrow and places that arrow face down on the table. (You write your name on the other side of the arrow so that everyone knows which arrow is whose.)&#10;&#10;Once everyone has written their answer, take turns placing your arrow in relation to the other players from low to high: &quot;I know that Mom is super sleepy, so I should definitely place my arrow below hers.&quot; After everyone has placed their answer in the center of the table, the starting player has the opportunity to move their own arrow &mdash; without touching anyone else's!&#10;&#10;Then you reveal everyone's numbers, and removes each arrow that is out of order. Each remaining arrow represents a correct answer and provides one point for the entire team. After eight rounds, record the team's score in the Record of Legends. Can you possibly achieve a perfect score?&#10;&#10;",
+      "category": [
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Cooperative Game",
+        "Ordering"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T17:00:27.142Z",
+  "lastModified": "2025-06-16T17:00:51.654Z",
   "version": "1.0"
 }
