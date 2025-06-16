@@ -5981,9 +5981,78 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1750093590633": {
+      "bggId": "1750093590633",
+      "bggUrl": "https://boardgamegeek.com/boardgame/244522/s-pretty-clever",
+      "name": "That's Pretty Clever!",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.9,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Wolfgang Warsch"
+      ],
+      "artists": [
+        "Leon Schiffer"
+      ],
+      "publishers": [
+        "Schmidt Spiele",
+        "999 Games",
+        "Arclight Games",
+        "Brain Games",
+        "CMYK",
+        "Compaya.hu: Gamer Café Kft.",
+        "Devir",
+        "G3",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Lavka Games",
+        "Stronghold Games",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Vennerød Forlag AS",
+        "YellowBOX"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/u1EZSUC5n8k4g4OFPkn3ow__original/img/e4QJiofBkd18ZffIURPyqNWrhxk=/0x0/filters:format(jpeg)/pic8014078.jpg",
+        "https://cf.geekdo-images.com/u1EZSUC5n8k4g4OFPkn3ow__thumb/img/mOfaidSnvnq2gHEQuAsYTLyIQQQ=/fit-in/200x150/filters:strip_icc()/pic8014078.jpg"
+      ],
+      "notes": "",
+      "description": "Choose your dice cleverly in Ganz sch&ouml;n clever (German for &quot;That's Pretty Clever&quot;) to enter them into the matching colored areas on your score sheet, putting together tricky chain-scoring opportunities, and racking up the points! The dice you don't use are as important as those you do, because every die with a lower value than the chosen one can be used by the other players, keeping everyone in the game at all times.&#10;&#10;",
+      "category": [
+        "Dice",
+        "Number"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Highest-Lowest Scoring",
+        "Paper-and-Pencil",
+        "Re-rolling and Locking",
+        "Solo / Solitaire Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T17:05:58.400Z",
+  "lastModified": "2025-06-16T17:06:30.633Z",
   "version": "1.0"
 }
