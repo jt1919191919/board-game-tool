@@ -49,7 +49,7 @@
             justify-content: center;
         }
 
-        .hamburger {
+.hamburger {
             display: none;
             background: none;
             border: none;
@@ -57,6 +57,11 @@
             font-size: 1.5rem;
             cursor: pointer;
             padding: 0.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .hamburger.open {
+            transform: rotate(90deg);
         }
 
 .mobile-menu {
@@ -1947,6 +1952,7 @@ if (config.sortOrder) {
 // Set shared view mode
 this.isSharedView = true;
 this.originalSharedFilters = JSON.parse(JSON.stringify(config.filters || {}));
+this.originalSharedPreferences = new Map(Object.entries(config.preferences || {}));
 this.originalSharedSortField = config.sortField || 'name';
 this.originalSharedSortOrder = config.sortOrder || 'asc';
 
@@ -2018,12 +2024,6 @@ applyFiltersToUI(filters) {
         document.getElementById('notes-filter').value = filters.notes;
         document.getElementById('notes-filter-type').value = filters.notesType || 'contains';
     }
-    if (filters.designer) {
-        document.getElementById('designer-filter').value = filters.designer;
-    }
-if (filters.publisherDropdown) {
-        document.getElementById('publisher-dropdown-filter').value = filters.publisherDropdown;
-    }
 if (filters.dateAcquired) {
         document.getElementById('date-acquired-filter').value = filters.dateAcquired;
         document.getElementById('date-acquired-filter-type').value = filters.dateAcquiredType || 'exact';
@@ -2035,12 +2035,6 @@ if (filters.dateAcquired) {
     if (filters.designerNationalityContains) {
         document.getElementById('designer-nationality-contains-filter').value = filters.designerNationalityContains;
         document.getElementById('designer-nationality-contains-filter-type').value = filters.designerNationalityContainsType || 'contains';
-    }
-    if (filters.designerNationality) {
-        document.getElementById('designer-nationality-filter').value = filters.designerNationality;
-    }
-    if (filters.artist) {
-        document.getElementById('artist-filter').value = filters.artist;
     }
     if (filters.artistContains) {
         document.getElementById('artist-contains-filter').value = filters.artistContains;
@@ -2054,32 +2048,13 @@ if (filters.description) {
         document.getElementById('description-filter').value = filters.description;
         document.getElementById('description-filter-type').value = filters.descriptionType || 'contains';
     }
-    if (filters.category) {
-        document.getElementById('category-filter').value = filters.category;
-    }
     if (filters.categoryContains) {
         document.getElementById('category-contains-filter').value = filters.categoryContains;
         document.getElementById('category-contains-filter-type').value = filters.categoryContainsType || 'contains';
     }
-if (filters.mechanisms) {
-    document.getElementById('mechanisms-filter').value = filters.mechanisms;
-}
-if (filters.notesType) {
-    document.getElementById('notes-filter-type').value = filters.notesType;
-}
-if (filters.descriptionType) {
-    document.getElementById('description-filter-type').value = filters.descriptionType;
-}
 if (filters.mechanismsContains) {
     document.getElementById('mechanisms-contains-filter').value = filters.mechanismsContains;
     document.getElementById('mechanisms-contains-filter-type').value = filters.mechanismsContainsType || 'contains';
-}
-if (filters.type && document.getElementById('type-filter')) {
-    document.getElementById('type-filter').value = filters.type;
-}
-if (filters.typeContains && document.getElementById('type-contains-filter')) {
-    document.getElementById('type-contains-filter').value = filters.typeContains;
-    document.getElementById('type-contains-filter-type').value = filters.typeContainsType || 'contains';
 }
 
     // Apply multiselect filters
@@ -2148,15 +2123,22 @@ bindEvents() {
        if (hamburgerBtn) {
            hamburgerBtn.addEventListener('click', () => {
                const mobileMenu = document.getElementById('mobile-menu');
-               if (mobileMenu) mobileMenu.classList.toggle('show');
+               if (mobileMenu) {
+                   const isOpen = mobileMenu.classList.contains('show');
+                   mobileMenu.classList.toggle('show');
+                   hamburgerBtn.classList.toggle('open');
+                   hamburgerBtn.innerHTML = isOpen ? '☰' : '✕';
+               }
            });
        }
 
-       document.addEventListener('click', (e) => {
+document.addEventListener('click', (e) => {
            const menu = document.getElementById('mobile-menu');
            const hamburger = document.getElementById('hamburger-btn');
            if (menu && hamburger && !menu.contains(e.target) && !hamburger.contains(e.target)) {
                menu.classList.remove('show');
+               hamburger.classList.remove('open');
+               hamburger.innerHTML = '☰';
            }
        });
 
@@ -2926,24 +2908,24 @@ setColumns(cols) {
 
 
 clearFilters() {
-    if (this.isSharedView) {
-        // Reset to original shared filters
-        this.currentFilters = JSON.parse(JSON.stringify(this.originalSharedFilters || {}));
-        this.applyFiltersToUI(this.currentFilters);
-        document.getElementById('sort-field').value = this.originalSharedSortField || 'name';
-        document.getElementById('sort-order').value = this.originalSharedSortOrder || 'asc';
-        
-        // Update multiselect displays
-        this.updateMultiselectDisplay('designer-filter', 'All Designers');
-        this.updateMultiselectDisplay('designer-nationality-filter', 'All Nationalities');
-        this.updateMultiselectDisplay('artist-filter', 'All Artists');
-        this.updateMultiselectDisplay('publisher-dropdown-filter', 'All Publishers');
-        this.updateMultiselectDisplay('category-filter', 'All Categories');
-        this.updateMultiselectDisplay('mechanisms-filter', 'All Mechanisms');
-        
-        this.applyFilters();
-        return;
-    }
+       if (this.isSharedView) {
+           // Reset to original shared filters
+           this.currentFilters = JSON.parse(JSON.stringify(this.originalSharedFilters || {}));
+           this.applyFiltersToUI(this.currentFilters);
+           document.getElementById('sort-field').value = this.originalSharedSortField || 'name';
+           document.getElementById('sort-order').value = this.originalSharedSortOrder || 'asc';
+           
+           // Update multiselect displays
+           this.updateMultiselectDisplay('designer-filter', 'All Designers');
+           this.updateMultiselectDisplay('designer-nationality-filter', 'All Nationalities');
+           this.updateMultiselectDisplay('artist-filter', 'All Artists');
+           this.updateMultiselectDisplay('publisher-dropdown-filter', 'All Publishers');
+           this.updateMultiselectDisplay('category-filter', 'All Categories');
+           this.updateMultiselectDisplay('mechanisms-filter', 'All Mechanisms');
+           
+           this.applyFilters();
+           return;
+       }
     
     // Clear all text inputs
     document.getElementById('search').value = '';
