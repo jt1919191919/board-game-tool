@@ -6497,9 +6497,69 @@
         "Race"
       ],
       "customFields": {}
+    },
+    "1750103839619": {
+      "bggId": "1750103839619",
+      "bggUrl": "https://boardgamegeek.com/boardgame/195314/herbaceous",
+      "name": "Herbaceous",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Eduardo Baraf",
+        "Steve Finn"
+      ],
+      "artists": [
+        "Beth Sobel"
+      ],
+      "publishers": [
+        "Dr. Finn's Games",
+        "Pencil First Games",
+        "LLC",
+        "17wanzy (Yihu BG)",
+        "64 Ounce Games",
+        "Granna",
+        "Little Rocket Games",
+        "Maldito Games",
+        "Matagot",
+        "Quality Beast"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/0HHqYFhJvOwk8Z0Dt-EvTA__original/img/PUZECnFJTnvhRL48lpUzR5TR48w=/0x0/filters:format(jpeg)/pic7083274.jpg",
+        "https://cf.geekdo-images.com/0HHqYFhJvOwk8Z0Dt-EvTA__thumb/img/EwiBLR6QywbISk0aGe-Vya4zXws=/fit-in/200x150/filters:strip_icc()/pic7083274.jpg"
+      ],
+      "notes": "",
+      "description": "In Herbaceous, herb collectors compete to grow and store the most valuable medley of herbs. Everyone starts with four containers, each of which allows a different grouping action:&#10;&#10;&#10;     Group herbs of same type&#10;     Group different types&#10;     Group pairs&#10;     Group any three types (same or different)&#10;&#10;&#10;On your turn, you draw a herb, then decide to either keep it in your personal collection or put in into the communal pile. If kept, the next card goes to the communal pile; if placed in the communal pile, the next card goes in your personal collection.&#10;&#10;At the start of your turn, you can decide to use a container. If so, you assemble cards from personal and communal spaces, group them, then turn them all over. You have then &quot;collected&quot; those and can't use the container again.&#10;&#10;At the end of the game, collectors determine the best collection as a combination of value from their collection, matching herbs, and herb sets.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Print & Play"
+      ],
+      "mechanisms": [
+        "Push Your Luck",
+        "Set Collection",
+        "Solo / Solitaire Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T19:56:02.834Z",
+  "lastModified": "2025-06-16T19:57:19.620Z",
   "version": "1.0"
 }
