@@ -3895,9 +3895,65 @@
         "Storytelling"
       ],
       "customFields": {}
+    },
+    "1750081546641": {
+      "bggId": "1750081546641",
+      "bggUrl": "https://boardgamegeek.com/boardgame/145601/deadline",
+      "name": "Deadline",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Dan Schnake",
+        "Adam West"
+      ],
+      "artists": [
+        "Tom Babbey",
+        "Peter Gifford",
+        "Glen Orbik"
+      ],
+      "publishers": [
+        "WizKids (I)",
+        "CrossCut Games",
+        "Pegasus Spiele"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/gAQii6CKnxDwyvcAcNzxXA__original/img/jfwHDQm8ku0Y9XSe2EzhCshitWQ=/0x0/filters:format(jpeg)/pic3420271.jpg",
+        "https://cf.geekdo-images.com/gAQii6CKnxDwyvcAcNzxXA__thumb/img/YqI4Zx0WHMAJ1hwzWj8ANxNdYUQ=/fit-in/200x150/filters:strip_icc()/pic3420271.jpg"
+      ],
+      "notes": "",
+      "description": "New York, the city that never sleeps. According to the high and mighty, things were supposed to be different in the Big Apple in 1938. No more poverty. Medicine that works. Shining skyscrapers and subway cars, the new age upon us. Sure. So why am I in the same dingy office, with a cheap desk and a cheaper secretary, paid to find a missing husband somewhere out in the mean streets? Simple job, except my wealthy socialite employer was hiding something. She was a good looker but a bad liar. I grabbed my hat and gun. I slipped a flask into the pocket of my overcoat. I was ready to wade into the cesspool.&#10;&#10;Deadline is a film noir co-operative card game for 2-4 players from the team behind Galactic Emperor, Ninjato and Wizards of the Wild in which players as detectives use special abilities and hand management to follow clever clues to solve an original mystery.&#10;&#10;",
+      "category": [
+        "Deduction",
+        "Murder / Mystery"
+      ],
+      "mechanisms": [
+        "Cooperative Game",
+        "Hand Management",
+        "Set Collection",
+        "Variable Player Powers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T13:45:08.199Z",
+  "lastModified": "2025-06-16T13:45:46.642Z",
   "version": "1.0"
 }
