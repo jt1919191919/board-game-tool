@@ -2885,70 +2885,87 @@ setColumns(cols) {
        button.parentElement.insertAdjacentHTML('beforeend', imageHtml);
    }
 
+
 clearFilters() {
-       if (this.isSharedView) {
-           // Reset to original shared filters
-           this.currentFilters = JSON.parse(JSON.stringify(this.originalSharedFilters || {}));
-           this.applyFiltersToUI(this.currentFilters);
-           document.getElementById('sort-field').value = this.originalSharedSortField || 'name';
-           document.getElementById('sort-order').value = this.originalSharedSortOrder || 'asc';
-           this.applyFilters();
-           return;
-       }
-       
-       // Original clear behavior for personal collections
-document.getElementById('search').value = '';
-       document.getElementById('mobile-search').value = '';
-       document.getElementById('min-players').value = '';
-       document.getElementById('max-players').value = '';
-       document.getElementById('min-playtime').value = '';
-       document.getElementById('max-playtime').value = '';
-       document.getElementById('year-filter').value = '';
-document.getElementById('date-acquired-filter').value = '';
-       document.getElementById('publisher-filter').value = '';
-       document.getElementById('designer-contains-filter').value = '';
-       document.getElementById('designer-nationality-contains-filter').value = '';
-       document.getElementById('designer-nationality-filter').value = '';
-       document.getElementById('artist-filter').value = '';
-       document.getElementById('artist-contains-filter').value = '';
-document.getElementById('publisher-country-filter').value = '';
-document.getElementById('description-filter').value = '';
-document.getElementById('category-contains-filter').value = '';
-document.getElementById('mechanisms-contains-filter').value = '';
+    if (this.isSharedView) {
+        // Reset to original shared filters
+        this.currentFilters = JSON.parse(JSON.stringify(this.originalSharedFilters || {}));
+        this.applyFiltersToUI(this.currentFilters);
+        document.getElementById('sort-field').value = this.originalSharedSortField || 'name';
+        document.getElementById('sort-order').value = this.originalSharedSortOrder || 'asc';
+        this.applyFilters();
+        return;
+    }
+    
+    // Clear all text inputs
+    document.getElementById('search').value = '';
+    document.getElementById('mobile-search').value = '';
+    document.getElementById('min-players').value = '';
+    document.getElementById('max-players').value = '';
+    document.getElementById('min-playtime').value = '';
+    document.getElementById('max-playtime').value = '';
+    document.getElementById('year-filter').value = '';
+    document.getElementById('date-acquired-filter').value = '';
+    document.getElementById('publisher-filter').value = '';
+    document.getElementById('designer-contains-filter').value = '';
+    document.getElementById('designer-nationality-contains-filter').value = '';
+    document.getElementById('artist-contains-filter').value = '';
+    document.getElementById('publisher-country-filter').value = '';
+    document.getElementById('description-filter').value = '';
+    document.getElementById('category-contains-filter').value = '';
+    document.getElementById('mechanisms-contains-filter').value = '';
+    document.getElementById('notes-filter').value = '';
+    document.getElementById('min-weight').value = '';
+    document.getElementById('max-weight').value = '';
+    document.getElementById('best-player-count-filter').value = '';
 
-document.getElementById('notes-filter').value = '';
-document.getElementById('notes-filter-type').value = 'contains';
-document.getElementById('description-filter-type').value = 'contains';
+    // Reset dropdowns to default values
+    document.getElementById('notes-filter-type').value = 'contains';
+    document.getElementById('description-filter-type').value = 'contains';
+    document.getElementById('min-players-type').value = 'greater';
+    document.getElementById('max-players-type').value = 'less';
+    document.getElementById('min-playtime-type').value = 'greater';
+    document.getElementById('max-playtime-type').value = 'less';
+    document.getElementById('year-filter-type').value = 'exact';
+    document.getElementById('date-acquired-filter-type').value = 'exact';
+    document.getElementById('min-weight-type').value = 'greater';
+    document.getElementById('max-weight-type').value = 'less';
+    document.getElementById('designer-contains-filter-type').value = 'contains';
+    document.getElementById('designer-nationality-contains-filter-type').value = 'contains';
+    document.getElementById('artist-contains-filter-type').value = 'contains';
+    document.getElementById('publisher-filter-type').value = 'contains';
+    document.getElementById('publisher-country-filter-type').value = 'contains';
+    document.getElementById('category-contains-filter-type').value = 'contains';
+    document.getElementById('mechanisms-contains-filter-type').value = 'contains';
 
-// Reset dynamic card fields when clearing filters
-this.dynamicCardFields = [];
-document.getElementById('min-weight').value = '';
-document.getElementById('max-weight').value = '';
-document.getElementById('best-player-count-filter').value = '';
+    // Clear multiselect filters
+    document.querySelectorAll('#designer-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+    document.querySelectorAll('#designer-nationality-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+    document.querySelectorAll('#artist-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+    document.querySelectorAll('#publisher-dropdown-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+    document.querySelectorAll('#category-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+    document.querySelectorAll('#mechanisms-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
 
-// Clear multiselect filters
-document.querySelectorAll('#designer-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-document.querySelectorAll('#designer-nationality-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-document.querySelectorAll('#artist-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-document.querySelectorAll('#publisher-dropdown-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-document.querySelectorAll('#category-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-document.querySelectorAll('#mechanisms-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+    // Update multiselect displays
+    this.updateMultiselectDisplay('designer-filter', 'All Designers');
+    this.updateMultiselectDisplay('designer-nationality-filter', 'All Nationalities');
+    this.updateMultiselectDisplay('artist-filter', 'All Artists');
+    this.updateMultiselectDisplay('publisher-dropdown-filter', 'All Publishers');
+    this.updateMultiselectDisplay('category-filter', 'All Categories');
+    this.updateMultiselectDisplay('mechanisms-filter', 'All Mechanisms');
 
-// Update displays
-this.updateMultiselectDisplay('designer-filter', 'All Designers');
-this.updateMultiselectDisplay('designer-nationality-filter', 'All Nationalities');
-this.updateMultiselectDisplay('artist-filter', 'All Artists');
-this.updateMultiselectDisplay('publisher-dropdown-filter', 'All Publishers');
-this.updateMultiselectDisplay('category-filter', 'All Categories');
-this.updateMultiselectDisplay('mechanisms-filter', 'All Mechanisms');
+    // Clear custom filters
+    document.getElementById('custom-filters-container').innerHTML = '';
 
-document.getElementById('custom-filters-container').innerHTML = '';
+    // Reset internal state
+    this.currentFilters = {};
+    this.customFilters = [];
+    this.dynamicCardFields = [];
 
-this.currentFilters = {};
-this.customFilters = [];
-this.updateFilters();
-this.applyFilters();
-   }
+    // Update and apply filters
+    this.updateFilters();
+    this.applyFilters();
+}
 
    applyFilters() {
        this.updateFilters();
