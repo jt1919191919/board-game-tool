@@ -67,17 +67,30 @@
 .mobile-menu {
             position: fixed;
             top: 0;
-            right: -100%;
+            left: -100%;
             width: 250px;
             height: 100vh;
             background: rgba(102, 126, 234, 0.95);
             backdrop-filter: blur(10px);
-            transition: right 0.3s ease;
+            transition: left 0.3s ease;
             z-index: 1000;
-            padding: 2rem 1rem;
+            padding: 4rem 1rem 2rem 1rem;
             display: flex;
             flex-direction: column;
             gap: 1rem;
+        }
+
+        .mobile-menu-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            transition: transform 0.3s ease;
         }
 
         .mobile-menu.show {
@@ -968,17 +981,18 @@ button#clear-filters {
         </div>
 
 <div class="mobile-menu" id="mobile-menu">
+            <button class="mobile-menu-close" id="mobile-menu-close">✕</button>
             <button class="btn" id="mobile-filters-btn">Filters</button>
             <button class="btn btn-primary" id="mobile-add-game-btn">Add Game</button>
             <button class="btn" id="mobile-edit-mode-btn">Edit Mode</button>
-<div class="edit-mode-controls" id="mobile-edit-mode-controls">
-                <button class="btn btn-save" id="mobile-save-changes-btn">Save Changes</button>
+            <div class="edit-mode-controls" id="mobile-edit-mode-controls">
                 <button class="btn btn-discard" id="mobile-discard-changes-btn">Discard Changes</button>
+                <button class="btn btn-save" id="mobile-save-changes-btn">Save Changes</button>
             </div>
             <button class="btn" id="mobile-share-btn">Share Collection</button>
             <button class="btn" id="mobile-export-btn">Export Data</button>
             <button class="btn" id="mobile-import-btn">Import Data</button>
-<button class="columns-btn" id="mobile-columns-btn">1 Column</button>
+            <button class="columns-btn" id="mobile-columns-btn">2 Columns</button>
             <button class="btn" id="mobile-google-drive-signin" style="display: none;">Connect GitHub</button>
             <button class="btn" id="mobile-google-drive-signout" style="display: none;">Disconnect GitHub</button>
             <div id="mobile-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
@@ -2124,10 +2138,17 @@ bindEvents() {
            hamburgerBtn.addEventListener('click', () => {
                const mobileMenu = document.getElementById('mobile-menu');
                if (mobileMenu) {
-                   const isOpen = mobileMenu.classList.contains('show');
-                   mobileMenu.classList.toggle('show');
-                   hamburgerBtn.classList.toggle('open');
-                   hamburgerBtn.innerHTML = isOpen ? '☰' : '✕';
+                   mobileMenu.classList.add('show');
+               }
+           });
+       }
+
+       const mobileMenuClose = document.getElementById('mobile-menu-close');
+       if (mobileMenuClose) {
+           mobileMenuClose.addEventListener('click', () => {
+               const mobileMenu = document.getElementById('mobile-menu');
+               if (mobileMenu) {
+                   mobileMenu.classList.remove('show');
                }
            });
        }
@@ -2137,8 +2158,6 @@ document.addEventListener('click', (e) => {
            const hamburger = document.getElementById('hamburger-btn');
            if (menu && hamburger && !menu.contains(e.target) && !hamburger.contains(e.target)) {
                menu.classList.remove('show');
-               hamburger.classList.remove('open');
-               hamburger.innerHTML = '☰';
            }
        });
 
@@ -2911,6 +2930,38 @@ clearFilters() {
        if (this.isSharedView) {
            // Reset to original shared filters
            this.currentFilters = JSON.parse(JSON.stringify(this.originalSharedFilters || {}));
+           
+           // Clear all UI filters first
+           document.getElementById('search').value = '';
+           document.getElementById('mobile-search').value = '';
+           document.getElementById('min-players').value = '';
+           document.getElementById('max-players').value = '';
+           document.getElementById('min-playtime').value = '';
+           document.getElementById('max-playtime').value = '';
+           document.getElementById('year-filter').value = '';
+           document.getElementById('date-acquired-filter').value = '';
+           document.getElementById('publisher-filter').value = '';
+           document.getElementById('designer-contains-filter').value = '';
+           document.getElementById('designer-nationality-contains-filter').value = '';
+           document.getElementById('artist-contains-filter').value = '';
+           document.getElementById('publisher-country-filter').value = '';
+           document.getElementById('description-filter').value = '';
+           document.getElementById('category-contains-filter').value = '';
+           document.getElementById('mechanisms-contains-filter').value = '';
+           document.getElementById('notes-filter').value = '';
+           document.getElementById('min-weight').value = '';
+           document.getElementById('max-weight').value = '';
+           document.getElementById('best-player-count-filter').value = '';
+           
+           // Clear multiselect filters
+           document.querySelectorAll('#designer-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+           document.querySelectorAll('#designer-nationality-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+           document.querySelectorAll('#artist-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+           document.querySelectorAll('#publisher-dropdown-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+           document.querySelectorAll('#category-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+           document.querySelectorAll('#mechanisms-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+           
+           // Apply original shared filters to UI
            this.applyFiltersToUI(this.currentFilters);
            document.getElementById('sort-field').value = this.originalSharedSortField || 'name';
            document.getElementById('sort-order').value = this.originalSharedSortOrder || 'asc';
@@ -2926,76 +2977,60 @@ clearFilters() {
            this.applyFilters();
            return;
        }
-    
-    // Clear all text inputs
-    document.getElementById('search').value = '';
-    document.getElementById('mobile-search').value = '';
-    document.getElementById('min-players').value = '';
-    document.getElementById('max-players').value = '';
-    document.getElementById('min-playtime').value = '';
-    document.getElementById('max-playtime').value = '';
-    document.getElementById('year-filter').value = '';
-    document.getElementById('date-acquired-filter').value = '';
-    document.getElementById('publisher-filter').value = '';
-    document.getElementById('designer-contains-filter').value = '';
-    document.getElementById('designer-nationality-contains-filter').value = '';
-    document.getElementById('artist-contains-filter').value = '';
-    document.getElementById('publisher-country-filter').value = '';
-    document.getElementById('description-filter').value = '';
-    document.getElementById('category-contains-filter').value = '';
-    document.getElementById('mechanisms-contains-filter').value = '';
-    document.getElementById('notes-filter').value = '';
-    document.getElementById('min-weight').value = '';
-    document.getElementById('max-weight').value = '';
-    document.getElementById('best-player-count-filter').value = '';
+       
+       // Original clear behavior for personal collections
+document.getElementById('search').value = '';
+       document.getElementById('mobile-search').value = '';
+       document.getElementById('min-players').value = '';
+       document.getElementById('max-players').value = '';
+       document.getElementById('min-playtime').value = '';
+       document.getElementById('max-playtime').value = '';
+       document.getElementById('year-filter').value = '';
+document.getElementById('date-acquired-filter').value = '';
+       document.getElementById('publisher-filter').value = '';
+       document.getElementById('designer-contains-filter').value = '';
+       document.getElementById('designer-nationality-contains-filter').value = '';
+       document.getElementById('designer-nationality-filter').value = '';
+       document.getElementById('artist-filter').value = '';
+       document.getElementById('artist-contains-filter').value = '';
+document.getElementById('publisher-country-filter').value = '';
+document.getElementById('description-filter').value = '';
+document.getElementById('category-contains-filter').value = '';
+document.getElementById('mechanisms-contains-filter').value = '';
 
-    // Reset dropdowns to default values
-    document.getElementById('notes-filter-type').value = 'contains';
-    document.getElementById('description-filter-type').value = 'contains';
-    document.getElementById('min-players-type').value = 'greater';
-    document.getElementById('max-players-type').value = 'less';
-    document.getElementById('min-playtime-type').value = 'greater';
-    document.getElementById('max-playtime-type').value = 'less';
-    document.getElementById('year-filter-type').value = 'exact';
-    document.getElementById('date-acquired-filter-type').value = 'exact';
-    document.getElementById('min-weight-type').value = 'greater';
-    document.getElementById('max-weight-type').value = 'less';
-    document.getElementById('designer-contains-filter-type').value = 'contains';
-    document.getElementById('designer-nationality-contains-filter-type').value = 'contains';
-    document.getElementById('artist-contains-filter-type').value = 'contains';
-    document.getElementById('publisher-filter-type').value = 'contains';
-    document.getElementById('publisher-country-filter-type').value = 'contains';
-    document.getElementById('category-contains-filter-type').value = 'contains';
-    document.getElementById('mechanisms-contains-filter-type').value = 'contains';
+document.getElementById('notes-filter').value = '';
+document.getElementById('notes-filter-type').value = 'contains';
+document.getElementById('description-filter-type').value = 'contains';
 
-    // Clear multiselect filters
-    document.querySelectorAll('#designer-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-    document.querySelectorAll('#designer-nationality-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-    document.querySelectorAll('#artist-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-    document.querySelectorAll('#publisher-dropdown-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-    document.querySelectorAll('#category-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
-    document.querySelectorAll('#mechanisms-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+// Reset dynamic card fields when clearing filters
+this.dynamicCardFields = [];
+document.getElementById('min-weight').value = '';
+document.getElementById('max-weight').value = '';
+document.getElementById('best-player-count-filter').value = '';
 
-    // Update multiselect displays
-    this.updateMultiselectDisplay('designer-filter', 'All Designers');
-    this.updateMultiselectDisplay('designer-nationality-filter', 'All Nationalities');
-    this.updateMultiselectDisplay('artist-filter', 'All Artists');
-    this.updateMultiselectDisplay('publisher-dropdown-filter', 'All Publishers');
-    this.updateMultiselectDisplay('category-filter', 'All Categories');
-    this.updateMultiselectDisplay('mechanisms-filter', 'All Mechanisms');
+// Clear multiselect filters
+document.querySelectorAll('#designer-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+document.querySelectorAll('#designer-nationality-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+document.querySelectorAll('#artist-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+document.querySelectorAll('#publisher-dropdown-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+document.querySelectorAll('#category-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
+document.querySelectorAll('#mechanisms-filter-options input[type="checkbox"]').forEach(cb => cb.checked = false);
 
-    // Clear custom filters
-    document.getElementById('custom-filters-container').innerHTML = '';
+// Update displays
+this.updateMultiselectDisplay('designer-filter', 'All Designers');
+this.updateMultiselectDisplay('designer-nationality-filter', 'All Nationalities');
+this.updateMultiselectDisplay('artist-filter', 'All Artists');
+this.updateMultiselectDisplay('publisher-dropdown-filter', 'All Publishers');
+this.updateMultiselectDisplay('category-filter', 'All Categories');
+this.updateMultiselectDisplay('mechanisms-filter', 'All Mechanisms');
 
-    // Reset internal state
-    this.currentFilters = {};
-    this.customFilters = [];
-    this.dynamicCardFields = [];
+document.getElementById('custom-filters-container').innerHTML = '';
 
-    // Update and apply filters
-    this.updateFilters();
-    this.applyFilters();
-}
+this.currentFilters = {};
+this.customFilters = [];
+this.updateFilters();
+this.applyFilters();
+   }
 
    applyFilters() {
        this.updateFilters();
