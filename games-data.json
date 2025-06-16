@@ -5840,9 +5840,70 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1750093329506": {
+      "bggId": "1750093329506",
+      "bggUrl": "https://boardgamegeek.com/boardgame/369993/fuse-countdown",
+      "name": "FUSE Countdown",
+      "year": 2023,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 10,
+        "max": 10
+      },
+      "weight": 2.2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        4
+      ],
+      "designers": [
+        "Kane Klenko"
+      ],
+      "artists": [
+        "Josh Kasper",
+        "Chris Ostrowski"
+      ],
+      "publishers": [
+        "Renegade Game Studios",
+        "Banana Games",
+        "GaGa Games",
+        "Origames",
+        "Ігромаг"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/84WuZGfK-StN6NBQ3NEHeQ__original/img/StIqTB41LeCfAH1m_oM__ykYxAU=/0x0/filters:format(jpeg)/pic7050625.jpg",
+        "https://cf.geekdo-images.com/84WuZGfK-StN6NBQ3NEHeQ__thumb/img/ABWrdyPkia3V_G0zs-PheOBuLqo=/fit-in/200x150/filters:strip_icc()/pic7050625.jpg"
+      ],
+      "notes": "",
+      "description": "FUSE Countdown is a new entry in the FUSE family, one that&rsquo;s playable both standalone or as an expansion for the original FUSE!&#10;&#10;Originally launched in 2015 as one of Renegade&rsquo;s very first games, Kane Klenko&rsquo;s FUSE brought the tense action of bomb defusal to the tabletop, in a quick and simple, but extraordinarily challenging cooperative game! Taking just ten minutes to play and minutes to teach, FUSE has appeal for all types of gamers!&#10;&#10;Veteran FUSE bomb-disposal techs may think they have the original game down to a science, but FUSE Countdown will throw some new obstacles in their way while also providing some great new tools! Multi-colored dice, Spark cards, new configurations, and Roles all add new elements to the game! Multi-colored dice can fill spots of either color, allowing a new level of flexibility AND challenge!&#10;&#10;FUSE Countdown Includes:&#10;&#10;    Multi-colored Dice - can fulfill either color&#10;    Spark Cards - When you can&rsquo;t place a die, instead of rolling it and removing a related die, you draw a Spark card. They work like a mini-bomb card for you to fulfill. You cannot win the game unless all active Spark cards are resolved.&#10;    Roles - Each player has a special player power.&#10;    New Cards! New bomb cards using some of the new features/icons. *New Fuse cards featuring multiple colors/numbers&#10;&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Action / Dexterity",
+        "Dice",
+        "Real-time",
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Die Icon Resolution",
+        "Elapsed Real Time Ending",
+        "Open Drafting",
+        "Pattern Building",
+        "Real-Time",
+        "Variable Player Powers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T17:01:36.327Z",
+  "lastModified": "2025-06-16T17:02:09.506Z",
   "version": "1.0"
 }
