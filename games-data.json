@@ -4431,9 +4431,211 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1750081960049": {
+      "bggId": "1750081960049",
+      "bggUrl": "https://boardgamegeek.com/boardgame/331401/dog-park",
+      "name": "Dog Park",
+      "year": 2022,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 80,
+        "max": 80
+      },
+      "weight": 2.2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Lottie Hazell",
+        "Jack Hazell"
+      ],
+      "artists": [
+        "Kate Avery",
+        "Holly Exley",
+        "Dann May"
+      ],
+      "publishers": [
+        "Birdwood Games",
+        "Engames",
+        "Galakta",
+        "Gameology (Gameology Romania)",
+        "Games7Days",
+        "Gém Klub Kft.",
+        "Hobby World",
+        "iHRYsko",
+        "Kobold Spieleverlag",
+        "Last Level",
+        "Little Rocket Games",
+        "Lucky Duck Games",
+        "MINDOK"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/cCAAceyvbbqMXqX5QgwSmQ__original/img/xf9bMEHqyjw8QO2NgC6arF5jOnQ=/0x0/filters:format(jpeg)/pic6257426.jpg",
+        "https://cf.geekdo-images.com/cCAAceyvbbqMXqX5QgwSmQ__thumb/img/jrjnG4MTuOgIs_Z4l_W-P7Hy0ME=/fit-in/200x150/filters:strip_icc()/pic6257426.jpg"
+      ],
+      "notes": "",
+      "description": "Welcome to Dog Park, a mid-weight, competitive set-collection and point-to-point movement game in which players take on the role of dog walkers who recruit, walk, and care for their dogs over four rounds. Each round is split into four phases:&#10;&#10;&#10;     Recruitment Phase: Players compete in two rounds of offers to add dogs to their kennels. Offers are made with players' reputation (victory points), so must be placed wisely.&#10;     Selection Phase: Players decide which dogs to place on their lead to walk this round.&#10;     Walking Phase: Players journey through the dog park with their fellow walkers, collecting resources, earning reputation, and interacting with other walkers.&#10;     Home Time Phase: Players earn reputation for their walked dogs, and lose reputation for any unwalked dogs in their kennel.&#10;&#10;&#10;Players must choose their routes and dogs carefully to earn the best reputation and prove they are the most accomplished walker of them all. At the end of the game, the player with the most reputation wins.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Animals",
+        "Card Game"
+      ],
+      "mechanisms": [
+        "Auction / Bidding",
+        "Point to Point Movement",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Track Movement",
+        "Variable Set-up",
+        "Victory Points as a Resource",
+        "Worker Placement"
+      ],
+      "customFields": {}
+    },
+    "1750082004714": {
+      "bggId": "1750082004714",
+      "bggUrl": "https://boardgamegeek.com/boardgame/36218/dominion",
+      "name": "Dominion",
+      "year": 2008,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.3,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Donald X. Vaccarino"
+      ],
+      "artists": [
+        "Matthias Catrein",
+        "Julien Delval",
+        "Tomasz Jedruszek",
+        "Ryan Laukat",
+        "Harald Lieske",
+        "Michael Menzel",
+        "Marcel-André Casasola Merkle",
+        "Claus Stephan",
+        "Christof Tisch"
+      ],
+      "publishers": [
+        "Rio Grande Games",
+        "999 Games",
+        "Albi",
+        "Bard Centrum Gier",
+        "Conclave Editora",
+        "cutia.ro",
+        "Devir",
+        "Filosofia Éditions",
+        "Games Factory Publishing",
+        "Gém Klub Kft.",
+        "Hans im Glück",
+        "Hobby Japan",
+        "Hobby World",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Martinex",
+        "Runadrake",
+        "Smart Ltd",
+        "Stupor Mundi",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "Vennerød Forlag AS",
+        "Ystari Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__original/img/96COuakNiLRrjDLc1sM4Zxsw4WE=/0x0/filters:format(jpeg)/pic394356.jpg",
+        "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__thumb/img/B2u2ghwlmI_qsUtCwuvcbnBcIqU=/fit-in/200x150/filters:strip_icc()/pic394356.jpg"
+      ],
+      "notes": "",
+      "description": "&quot;You are a monarch, like your parents before you, a ruler of a small pleasant kingdom of rivers and evergreens. Unlike your parents, however, you have hopes and dreams! You want a bigger and more pleasant kingdom, with more rivers and a wider variety of trees. You want a Dominion! In all directions lie fiefs, freeholds, and feodums. All are small bits of land, controlled by petty lords and verging on anarchy. You will bring civilization to these people, uniting them under your banner.&#10;&#10;But wait! It must be something in the air; several other monarchs have had the exact same idea. You must race to get as much of the unclaimed land as possible, fending them off along the way. To do this you will hire minions, construct buildings, spruce up your castle, and fill the coffers of your treasury. Your parents wouldn't be proud, but your grandparents, on your mother's side, would be delighted.&quot;&#10;&#10;&mdash;description from the back of the box&#10;&#10;In Dominion, each player starts with an identical, very small deck of cards.  In the center of the table is a selection of other cards the players can &quot;buy&quot; as they can afford them.  Through their selection of cards to buy, and how they play their hands as they draw them, the players construct their deck on the fly, striving for the most efficient path to the precious victory points by game end.&#10;&#10;Dominion is not a Collectible Card Game (CCG), but the play of the game is similar to the construction and play of a CCG deck. The game comes with 500 cards. You select 10 of the 25 Kingdom card types to include in any given play&mdash;leading to immense variety.&#10;&#10;&mdash;user summary&#10;&#10;Part of the Dominion series.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Medieval"
+      ],
+      "mechanisms": [
+        "Deck",
+        "Bag",
+        "and Pool Building",
+        "Delayed Purchase",
+        "Hand Management",
+        "Open Drafting",
+        "Take That",
+        "Variable Set-up"
+      ],
+      "customFields": {}
+    },
+    "1750082046450": {
+      "bggId": "1750082046450",
+      "bggUrl": "https://boardgamegeek.com/boardgame/4069/dont-you-forget-it",
+      "name": "Don't You Forget It",
+      "year": 1983,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [],
+      "designers": [
+        "Garrett J. Donner",
+        "Michael S. Steer"
+      ],
+      "artists": [],
+      "publishers": [
+        "Jumbo",
+        "Kärnan",
+        "Pressman Toy Corp.",
+        "Schmidt Spiele"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/wmU9eBr0-SjDo0eLdqzsRw__original/img/CXgpxzk97gpmrQriWu0utzVJxbo=/0x0/filters:format(png)/pic6413321.png",
+        "https://cf.geekdo-images.com/wmU9eBr0-SjDo0eLdqzsRw__thumb/img/kD_ZMMLgDvvkK4qnHXT2Eg_xJr8=/fit-in/200x150/filters:strip_icc()/pic6413321.png"
+      ],
+      "notes": "",
+      "description": "(from box)  In Don't You Forget It, you're trying to be the first player to reach 500 points.  On each turn, roll the dice and try to score points...but here's the catch: At any time the special dice might spell out FORGET IT and cause you to lose any points you've earned for that round.  Roll the dice as many times as you wish, but you just might wish you stopped before the dice tell you to FORGET IT!&#10;&#10;",
+      "category": [
+        "Dice"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Push Your Luck"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T13:51:58.596Z",
+  "lastModified": "2025-06-16T13:54:06.451Z",
   "version": "1.0"
 }
