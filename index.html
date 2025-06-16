@@ -146,22 +146,6 @@
             background: #45a049;
         }
 
-        .columns-btn {
-            background: rgba(255,255,255,0.8);
-            color: #333;
-            padding: 0.75rem 1rem;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            font-size: 0.9rem;
-            transition: all 0.3s ease;
-        }
-
-        .columns-btn:hover {
-            background: rgba(255,255,255,0.9);
-            transform: translateY(-2px);
-        }
-
         .edit-mode-controls {
             display: none;
             gap: 1rem;
@@ -952,8 +936,7 @@ button#clear-filters {
             <button class="btn" id="share-btn">Share Collection</button>
             <button class="btn" id="export-btn">Export Data</button>
             <button class="btn" id="import-btn">Import Data</button>
-            <button class="columns-btn" id="columns-btn">5 Columns</button>
-        </div>
+</div>
 
         <div class="github-controls" style="position: absolute; top: 1rem; right: 1rem; display: flex; align-items: center; gap: 1rem;">
             <span id="google-drive-status" style="font-size: 0.9rem;">Loading GitHub...</span>
@@ -980,14 +963,16 @@ button#clear-filters {
             <button class="btn" id="mobile-share-btn">Share Collection</button>
             <button class="btn" id="mobile-export-btn">Export Data</button>
             <button class="btn" id="mobile-import-btn">Import Data</button>
-            <button class="columns-btn" id="mobile-columns-btn">2 Columns</button>
-            <button class="btn" id="mobile-google-drive-signin" style="display: none;">Connect GitHub</button>
+<button class="btn" id="mobile-google-drive-signin" style="display: none;">Connect GitHub</button>
             <button class="btn" id="mobile-google-drive-signout" style="display: none;">Disconnect GitHub</button>
             <div id="mobile-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
         </div>
 </div>
 
-    <div id="results-info" style="margin-bottom: 1rem; color: #666; font-size: 0.9rem; max-width: 98%; margin-left: auto; margin-right: auto; padding: 0 1rem;"></div>
+<div id="results-info" style="margin-bottom: 1rem; color: #666; font-size: 0.9rem; max-width: 98%; margin-left: auto; margin-right: auto; padding: 0 1rem; display: flex; justify-content: space-between; align-items: center;">
+        <span id="results-text"></span>
+        <span id="columns-control" style="cursor: pointer; color: #666; font-size: 0.9rem;"><i class="fa-solid fa-table-columns"></i> <span id="columns-text">5 Columns</span></span>
+    </div>
     <div class="filters" id="filters">
         <div class="filter-row">
             <div class="sort-controls">
@@ -2368,17 +2353,10 @@ if (mobileSaveChangesBtn) {
     });
 }
 
-       // Column controls
-const columnsBtn = document.getElementById('columns-btn');
-if (columnsBtn) {
-    columnsBtn.addEventListener('click', () => {
-        this.cycleColumns();
-    });
-}
-
-const mobileColumnsBtn = document.getElementById('mobile-columns-btn');
-if (mobileColumnsBtn) {
-    mobileColumnsBtn.addEventListener('click', () => {
+// Column controls
+const columnsControl = document.getElementById('columns-control');
+if (columnsControl) {
+    columnsControl.addEventListener('click', () => {
         this.cycleColumns();
     });
 }
@@ -2886,11 +2864,9 @@ setColumns(cols) {
        grid.className = `game-grid cols-${cols}`;
        
        const colText = `${cols} Column${cols !== 1 ? 's' : ''}`;
-       const desktopBtn = document.getElementById('columns-btn');
-       const mobileBtn = document.getElementById('mobile-columns-btn');
+       const columnsText = document.getElementById('columns-text');
        
-       if (desktopBtn) desktopBtn.textContent = colText;
-       if (mobileBtn) mobileBtn.textContent = colText;
+       if (columnsText) columnsText.textContent = colText;
    }
 
    deleteGameInEditMode(gameId) {
@@ -3583,12 +3559,20 @@ document.getElementById('add-game-form').querySelectorAll('input, textarea').for
        if (this.filteredGames.length === 0) {
            container.innerHTML = '';
            emptyState.style.display = 'block';
-           resultsInfo.textContent = '';
+const resultsText = document.getElementById('results-text');
+       if (resultsText) {
+           resultsText.textContent = '';
+       }
+       resultsInfo.textContent = '';
            return;
        }
 
        emptyState.style.display = 'none';
-       resultsInfo.textContent = `Showing ${this.filteredGames.length} of ${this.games.size} games`;
+const resultsText = document.getElementById('results-text');
+       if (resultsText) {
+           resultsText.textContent = `Showing ${this.filteredGames.length} of ${this.games.size} games`;
+       }
+       resultsInfo.textContent = '';
 
        container.innerHTML = this.filteredGames.map(game => {
            return this.isEditMode ? this.renderEditGameCard(game) : this.renderGameCard(game);
