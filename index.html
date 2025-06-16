@@ -59,15 +59,15 @@
             padding: 0.5rem;
         }
 
-        .mobile-menu {
+.mobile-menu {
             position: fixed;
             top: 0;
-            left: -100%;
+            right: -100%;
             width: 250px;
             height: 100vh;
             background: rgba(102, 126, 234, 0.95);
             backdrop-filter: blur(10px);
-            transition: left 0.3s ease;
+            transition: right 0.3s ease;
             z-index: 1000;
             padding: 2rem 1rem;
             display: flex;
@@ -76,7 +76,7 @@
         }
 
         .mobile-menu.show {
-            left: 0;
+            right: 0;
         }
 
         .mobile-menu .btn {
@@ -1859,7 +1859,8 @@ async checkForSharedView() {
                     this.games.set(gameId, game);
                     console.log(`Added shared game: ${game.name}`);
                 });
-                
+           
+
 // Apply shared configuration
                 if (config.filters) {
                     this.currentFilters = config.filters;
@@ -1880,6 +1881,7 @@ async checkForSharedView() {
 // Set shared view mode
 this.isSharedView = true;
 this.originalSharedFilters = JSON.parse(JSON.stringify(config.filters || {}));
+this.originalSharedPreferences = new Map(Object.entries(config.preferences || {}));
 this.originalSharedSortField = config.sortField || 'name';
 this.originalSharedSortOrder = config.sortOrder || 'asc';
 
@@ -1969,6 +1971,7 @@ return true;
     
     return false;
 }
+
 
 applyFiltersToUI(filters) {
     // Apply filters to the UI form fields so the filtering logic works
@@ -2078,24 +2081,38 @@ if (filters.typeContains && document.getElementById('type-contains-filter')) {
     document.getElementById('type-contains-filter').value = filters.typeContains;
     document.getElementById('type-contains-filter-type').value = filters.typeContainsType || 'contains';
 }
-if (filters.designer) {
-    document.getElementById('designer-filter').value = filters.designer;
-}
-if (filters.designerNationality) {
-    document.getElementById('designer-nationality-filter').value = filters.designerNationality;
-}
-if (filters.artist) {
-    document.getElementById('artist-filter').value = filters.artist;
-}
-if (filters.publisherDropdown) {
-    document.getElementById('publisher-dropdown-filter').value = filters.publisherDropdown;
-}
-if (filters.category) {
-    document.getElementById('category-filter').value = filters.category;
-}
-if (filters.mechanisms) {
-    document.getElementById('mechanisms-filter').value = filters.mechanisms;
-}
+
+    // Apply multiselect filters
+    if (filters.designer && Array.isArray(filters.designer)) {
+        document.querySelectorAll('#designer-filter-options input[type="checkbox"]').forEach(cb => {
+            cb.checked = filters.designer.includes(cb.value);
+        });
+    }
+    if (filters.designerNationality && Array.isArray(filters.designerNationality)) {
+        document.querySelectorAll('#designer-nationality-filter-options input[type="checkbox"]').forEach(cb => {
+            cb.checked = filters.designerNationality.includes(cb.value);
+        });
+    }
+    if (filters.artist && Array.isArray(filters.artist)) {
+        document.querySelectorAll('#artist-filter-options input[type="checkbox"]').forEach(cb => {
+            cb.checked = filters.artist.includes(cb.value);
+        });
+    }
+    if (filters.publisherDropdown && Array.isArray(filters.publisherDropdown)) {
+        document.querySelectorAll('#publisher-dropdown-filter-options input[type="checkbox"]').forEach(cb => {
+            cb.checked = filters.publisherDropdown.includes(cb.value);
+        });
+    }
+    if (filters.category && Array.isArray(filters.category)) {
+        document.querySelectorAll('#category-filter-options input[type="checkbox"]').forEach(cb => {
+            cb.checked = filters.category.includes(cb.value);
+        });
+    }
+    if (filters.mechanisms && Array.isArray(filters.mechanisms)) {
+        document.querySelectorAll('#mechanisms-filter-options input[type="checkbox"]').forEach(cb => {
+            cb.checked = filters.mechanisms.includes(cb.value);
+        });
+    }
 }
 
 bindEvents() {
@@ -2915,6 +2932,15 @@ clearFilters() {
         this.applyFiltersToUI(this.currentFilters);
         document.getElementById('sort-field').value = this.originalSharedSortField || 'name';
         document.getElementById('sort-order').value = this.originalSharedSortOrder || 'asc';
+        
+        // Update multiselect displays
+        this.updateMultiselectDisplay('designer-filter', 'All Designers');
+        this.updateMultiselectDisplay('designer-nationality-filter', 'All Nationalities');
+        this.updateMultiselectDisplay('artist-filter', 'All Artists');
+        this.updateMultiselectDisplay('publisher-dropdown-filter', 'All Publishers');
+        this.updateMultiselectDisplay('category-filter', 'All Categories');
+        this.updateMultiselectDisplay('mechanisms-filter', 'All Mechanisms');
+        
         this.applyFilters();
         return;
     }
