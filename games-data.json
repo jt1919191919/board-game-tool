@@ -6097,9 +6097,76 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1750093655633": {
+      "bggId": "1750093655633",
+      "bggUrl": "https://boardgamegeek.com/boardgame/246192/gizmos",
+      "name": "Gizmos",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 50,
+        "max": 50
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Phil Walker-Harding"
+      ],
+      "artists": [
+        "Hannah Cardoso",
+        "Júlia Ferrari",
+        "Giovanna BC Guimarães",
+        "Mathieu Harlaut",
+        "Saeed Jalabi"
+      ],
+      "publishers": [
+        "CMON Global Limited",
+        "ADC Blackfire Entertainment",
+        "Arclight Games",
+        "asmodee",
+        "Board Game VN",
+        "BoardM Factory",
+        "Broadway Toys LTD",
+        "Delta Vision Publishing",
+        "Edge Entertainment",
+        "GaGa Games",
+        "Galápagos Jogos",
+        "Lex Games",
+        "Planeta Igor",
+        "Portal Games",
+        "Yes Papa Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/zin82Hg4MXck86t8fzbsdA__original/img/_S-XINN0voB1OzExPPgePrOWurM=/0x0/filters:format(png)/pic4169718.png",
+        "https://cf.geekdo-images.com/zin82Hg4MXck86t8fzbsdA__thumb/img/e-UqOrMfsLCh2T_igK3wkoFrOu8=/fit-in/200x150/filters:strip_icc()/pic4169718.png"
+      ],
+      "notes": "",
+      "description": "The smartest minds of our generation are gathering together at the Great Science Fair. Everyone's been working hard on their creations, but only one will be crowned champion. Contestants have to think on the fly to build their machines quickly and efficiently. Whose project will be the best?&#10;&#10;In Gizmos, you win the game by gaining victory points from building engines. And engines help you get things done faster. Whoever builds the greatest machine and collects the most victory points wins!&#10;&#10;At the beginning of the game, you have 4 actions:&#10;&#10;     File : Put a card in the public to your Archive, allow you to build it later.&#10;     Pick : Take one energy marble from the 3D marble dispenser, to your storage.&#10;     Build : Build one machine and put it on action! You have to pay the marbles with colors corresponding to the card cost.&#10;     Research : Draw some cards, and you can then File or Build one of the drawn cards. The rest go to the bottom of their deck.&#10;&#10;&#10;Machines give you victory points, and allow you to do more actions when conditions are met. As you build, new attachments can trigger chain reactions, letting you do even more on your turn.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Action Queue",
+        "Contracts",
+        "Open Drafting"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T17:07:00.831Z",
+  "lastModified": "2025-06-16T17:07:35.634Z",
   "version": "1.0"
 }
