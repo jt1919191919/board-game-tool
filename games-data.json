@@ -5387,9 +5387,64 @@
         "Worker Placement"
       ],
       "customFields": {}
+    },
+    "1750093047371": {
+      "bggId": "1750093047371",
+      "bggUrl": "https://boardgamegeek.com/boardgame/245961/fleet-dice-game",
+      "name": "Fleet: The Dice Game",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.5,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Ben Pinchback",
+        "Matt Riddle"
+      ],
+      "artists": [
+        "Marius Janusonis",
+        "Nolan Nasser"
+      ],
+      "publishers": [
+        "Eagle-Gryphon Games",
+        "Dice High Company",
+        "FRED Distribution",
+        "Inc."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/XbfUcIO4lCp449zLmZ_4_g__original/img/bmL1d0dWkNNR2GUQapasZ27vBak=/0x0/filters:format(jpeg)/pic4460262.jpg",
+        "https://cf.geekdo-images.com/XbfUcIO4lCp449zLmZ_4_g__thumb/img/hPlbVjRgPqnW9XG3Ro7KQR-G_JY=/fit-in/200x150/filters:strip_icc()/pic4460262.jpg"
+      ],
+      "notes": "",
+      "description": "Fleet: The Dice Game is an exciting new strategic roll and write dice game from the creators of Fleet! Fleet: The Dice Game is heavier than many roll and write games and captures the tense, meaningful decisions of Fleet. Fleet: The Dice Game is for 1-4 players.&#10;&#10;In Fleet: The Dice Game, you are back in beautiful Ridback Bay to reap its rewards! Fleet: The Dice Game takes place over 10 rounds with each round having two phases, the Boat Phase and the Town Phase.&#10;&#10;In the boat phase, the active player rolls players plus one boat dice. In turn order, each player selects one die to use immediately. By selecting a boat die, they get to check off the matching boat type on their sheet - unlocking license powers and boat launches to catch fish. The die that remains after all players have selected is then used by all players.&#10;&#10;In the town phase, you roll town dice equal to players plus one boat die. Again, in turn order each player selects one die to use immediately. In the town phase, you unlock special buildings in the Wharf that grant bonuses, awesome ships in the harbor to earn points and catch more fish, or go to the market and gain income to generate bonus actions. The die that remains after all players have selected is then used by all players.&#10;&#10;Fishing occurs between phases in the even rounds and the player with the most points at game end wins!&#10;&#10;Fleet: The Dice Game also features a fully integrated solo mode where you battle Captain Ruth to earn the most points and reap the rewards of Ridback Bay.&#10;&#10;",
+      "category": [
+        "Dice",
+        "Nautical"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Paper-and-Pencil",
+        "Solo / Solitaire Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T16:56:59.013Z",
+  "lastModified": "2025-06-16T16:57:27.373Z",
   "version": "1.0"
 }
