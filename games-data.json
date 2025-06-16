@@ -5039,9 +5039,72 @@
         "Turn Order: Progressive"
       ],
       "customFields": {}
+    },
+    "1750092913415": {
+      "bggId": "1750092913415",
+      "bggUrl": "https://boardgamegeek.com/boardgame/13823/fairy-tale",
+      "name": "Fairy Tale",
+      "year": 2004,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.8,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Satoshi Nakamura"
+      ],
+      "artists": [
+        "Mariano Iannelli",
+        "Yoko Nachigami",
+        "Satoshi Nakamura"
+      ],
+      "publishers": [
+        "Yuhodo",
+        "Inc.",
+        "Z-Man Games",
+        "Edge Entertainment",
+        "Heidelberger Spieleverlag",
+        "HUCH!",
+        "Hutter Trade GmbH + Co KG",
+        "Lautapelit.fi",
+        "Red Glove",
+        "Ubik",
+        "What's Your Game?"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/J86NZuK4hEnKWST-fH7LcA__original/img/h3A-Cqc1ritIac-UJWGQhodDRV0=/0x0/filters:format(jpeg)/pic2024738.jpg",
+        "https://cf.geekdo-images.com/J86NZuK4hEnKWST-fH7LcA__thumb/img/wmsDgtzLQyDsW3qkZL78OVUZW-M=/fit-in/200x150/filters:strip_icc()/pic2024738.jpg"
+      ],
+      "notes": "",
+      "description": "Players use card drafting and simultaneous action selection to score points while interfering with other players' ability to do so.  The game consists of four rounds.  In each of them, players are dealt five cards.  They simultaneously select one each and pass the remainder, repeating until done.  Then, they start playing cards simultaneously, playing three and discarding two.  When the cards are revealed after each selection, card abilities turn other cards face-up or face-down.  At the end of the four rounds there are 12 cards in front of each player. The players each score based on their face-up cards.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Fantasy"
+      ],
+      "mechanisms": [
+        "Closed Drafting",
+        "Hand Management",
+        "Set Collection",
+        "Simultaneous Action Selection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-16T15:32:35.320Z",
+  "lastModified": "2025-06-16T16:55:13.418Z",
   "version": "1.0"
 }
