@@ -8498,9 +8498,90 @@
         "Solo / Solitaire Game"
       ],
       "customFields": {}
+    },
+    "1750127554105": {
+      "bggId": "1750127554105",
+      "bggUrl": "https://boardgamegeek.com/boardgame/590/mille-bornes",
+      "name": "Mille Bornes",
+      "year": 1954,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Edmond Dujardin"
+      ],
+      "artists": [
+        "Hergé",
+        "Pierre Praquin"
+      ],
+      "publishers": [
+        "AS Manufacturas",
+        "asmodee",
+        "Bojeux",
+        "Inc.",
+        "Desyllas Games",
+        "Dujardin",
+        "Editions Edmond Dujardin",
+        "Editrice Giochi",
+        "F.X. Schmid",
+        "Fundex",
+        "Gibsons",
+        "Grimaud",
+        "Hasbro",
+        "Heraclio Fournier",
+        "Hola Colina S.A. Colombia",
+        "Jumbo",
+        "Kärnan",
+        "Kirjalito",
+        "Litas Spil",
+        "Litor",
+        "Nilco S.A.",
+        "Parker Brothers",
+        "Piatnik",
+        "Play Value USA",
+        "Schmidt Spiele",
+        "TF1 Games",
+        "Tomy",
+        "Waddingtons",
+        "Winning Moves Games (USA)",
+        "Yetem S.A."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/kzLZY_DHTh-hBcqXP34a5w__original/img/v5fEmVXDcDomVNhd9O02bGsVskI=/0x0/filters:format(jpeg)/pic4330533.jpg",
+        "https://cf.geekdo-images.com/kzLZY_DHTh-hBcqXP34a5w__thumb/img/82b4hCqE8tTLkwexnLrp3ubGU_c=/fit-in/200x150/filters:strip_icc()/pic4330533.jpg"
+      ],
+      "notes": "",
+      "description": "One Thousand Milestones. On French roads there were small marker stones giving the distance in kilometres to the next town. In this famous old French card game, players compete to drive 1000 km, dealing with hazards along the way. Draw a card to your hand, play or discard. You must lay a green traffic light to start, play cards showing mileage, dump hazards (flat tire, speed limit) on the other players, remedy hazards (spare tire, end of limit) from yourself, play safety cards (puncture proof), and try to be the first to clock up the distance.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Racing"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Take That",
+        "Team-Based Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:31:23.323Z",
+  "lastModified": "2025-06-17T02:32:34.106Z",
   "version": "1.0"
 }
