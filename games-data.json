@@ -7779,9 +7779,69 @@
         "Take That"
       ],
       "customFields": {}
+    },
+    "1750126305682": {
+      "bggId": "1750126305682",
+      "bggUrl": "https://boardgamegeek.com/boardgame/227758/kokoro-avenue-kodama",
+      "name": "Kokoro: Avenue of the Kodama",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 8
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.5,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Kristian Amundsen Østby",
+        "Eilif Svensson"
+      ],
+      "artists": [
+        "Kwanchai Moriya",
+        "Daniel Solis"
+      ],
+      "publishers": [
+        "Indie Boards & Cards"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/JDw9V-hofFUx2J6lXDZAzw__original/img/lzaLKlw5wCoabV90BO2YbgdK2UA=/0x0/filters:format(jpeg)/pic3566028.jpg",
+        "https://cf.geekdo-images.com/JDw9V-hofFUx2J6lXDZAzw__thumb/img/se1r8ar18iB11YjLKtdO6nrSgHA=/fit-in/200x150/filters:strip_icc()/pic3566028.jpg"
+      ],
+      "notes": "",
+      "description": "The enchanted forest of the kodama is flourishing. But with so much growth, the ancient paths to the sanctuaries within have become overgrown and lost. Now the forest guardians call upon you, their loyal kodama, to restore these paths. Help your kodama build these paths, gather offerings for the guardians, and win their favor.&#10;&#10;Kokoro is an exciting family game that can be played with up to eight players! Each player has a forest map to draw their paths and turns are simultaneous so the game plays quickly. Connecting your sanctuaries to offerings will gain you favor. Choose wisely because you never know exactly when the sanctuary will score. And you shouldn't be too greedy, if a sanctuary is not connected to more offerings than your previous sanctuary, you lose points!&#10;&#10;",
+      "category": [
+        "Transportation"
+      ],
+      "mechanisms": [
+        "Bingo",
+        "Connections",
+        "End Game Bonuses",
+        "Line Drawing",
+        "Network and Route Building",
+        "Paper-and-Pencil",
+        "Simultaneous Action Selection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:11:20.810Z",
+  "lastModified": "2025-06-17T02:11:45.683Z",
   "version": "1.0"
 }
