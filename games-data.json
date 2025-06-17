@@ -10197,9 +10197,80 @@
         "Team-Based Game"
       ],
       "customFields": {}
+    },
+    "1750192750966": {
+      "bggId": "1750192750966",
+      "bggUrl": "https://boardgamegeek.com/boardgame/274960/point-salad",
+      "name": "Point Salad",
+      "year": 2019,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Molly Johnson",
+        "Robert Melvin",
+        "Shawn Stankewich"
+      ],
+      "artists": [
+        "Dylan Mangini"
+      ],
+      "publishers": [
+        "Alderac Entertainment Group",
+        "Arclight Games",
+        "Bard Centrum Gier",
+        "Black Sea Games",
+        "Broadway Toys LTD",
+        "Devir",
+        "Gigamic",
+        "HaKubia",
+        "Hobby World",
+        "IGAMES",
+        "Kaissa Chess & Games",
+        "Mandoo Games",
+        "Meanbook Games",
+        "MINDOK",
+        "MIPL",
+        "Pegasus Spiele",
+        "Reflexshop",
+        "Siam Board Games",
+        "White Goblin Games",
+        "Yes Papa Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/Xy0W9NtEpX0EVjwgxO3IEA__original/img/WdLBZcryNqysYsyC3PNF9FeaPWQ=/0x0/filters:format(png)/pic4621571.png",
+        "https://cf.geekdo-images.com/Xy0W9NtEpX0EVjwgxO3IEA__thumb/img/1gKeE2_50dXcL03gH3cEU-Ixj6c=/fit-in/200x150/filters:strip_icc()/pic4621571.png"
+      ],
+      "notes": "",
+      "description": "Point Salad is a fast and fun card drafting game for the whole family. There are over 100 ways to score points. Players may use a variety of strategies and every game of Point Salad is unique!&#10;&#10;Cards come in six different types of veggies, and the back of each card has a different scoring method. So for instance, one scoring method may award 2 points for every carrot you have, but deduct a point for every onion.  By drafting combinations of veggies and point cards that work for your strategy, you can amass the most points and win.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Card Game"
+      ],
+      "mechanisms": [
+        "Open Drafting",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T20:38:48.194Z",
+  "lastModified": "2025-06-17T20:39:10.967Z",
   "version": "1.0"
 }
