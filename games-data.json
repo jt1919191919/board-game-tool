@@ -11091,9 +11091,68 @@
         "Voting"
       ],
       "customFields": {}
+    },
+    "1750197575722": {
+      "bggId": "1750197575722",
+      "bggUrl": "https://boardgamegeek.com/boardgame/8107/risk-lord-rings-trilogy-edition",
+      "name": "Risk: The Lord of the Rings Trilogy Edition",
+      "year": 2003,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 180,
+        "max": 180
+      },
+      "weight": 2.4,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Stephen Baker",
+        "Barry Yearsley"
+      ],
+      "artists": [],
+      "publishers": [
+        "Hasbro",
+        "Parker Brothers",
+        "Winning Moves Germany",
+        "Winning Moves International Ltd",
+        "Winning Moves UK Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/uWhXkCi5we8neUrtRll1hQ__original/img/ZzmEZO2dkqbyJIo5Ruku1wVSjsw=/0x0/filters:format(jpeg)/pic6196985.jpg",
+        "https://cf.geekdo-images.com/uWhXkCi5we8neUrtRll1hQ__thumb/img/TqqfJMO45wxeSwPMZDLfDH5Mp0w=/fit-in/200x150/filters:strip_icc()/pic6196985.jpg"
+      ],
+      "notes": "",
+      "description": "From the publisher:&#10;&#10;In this expanded edition of RISK The Lord of the Rings Trilogy edition you will find: &#10;&#10;     The detailed gameboard reflects a complete map of Middle-Earth including the Gondor, Mordor, and Haradwaith territories.&#10;     Includes materials from the entire Lord of the Rings film trilogy.&#10;     Additional Territory cards.&#10;     Additional Battalions.&#10;     Additional Adventure Cards.&#10;     Alternate ways to play including special rules for alliance team play.&#10;&#10;&#10;From BGG:&#10; This game is essentially the regular Risk: LotR Edition with an additional board on the bottom and some new cards and revised rules.&#10;&#10;",
+      "category": [
+        "Adventure",
+        "Fantasy",
+        "Movies / TV / Radio theme",
+        "Novel-based",
+        "Territory Building",
+        "Wargame"
+      ],
+      "mechanisms": [
+        "Area Majority / Influence",
+        "Area Movement",
+        "Campaign / Battle Card Driven",
+        "Dice Rolling",
+        "Team-Based Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T21:59:11.440Z",
+  "lastModified": "2025-06-17T21:59:35.724Z",
   "version": "1.0"
 }
