@@ -7329,9 +7329,132 @@
         "Victory Points as a Resource"
       ],
       "customFields": {}
+    },
+    "1750121099332": {
+      "bggId": "1750121099332",
+      "bggUrl": "https://boardgamegeek.com/boardgame/2452/jenga",
+      "name": "Jenga",
+      "year": 1983,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 8
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Leslie Scott"
+      ],
+      "artists": [
+        "Tony Moore"
+      ],
+      "publishers": [
+        "(Unknown)",
+        "Barnes & Noble",
+        "Borras Plana S.A.",
+        "Brinquedos Junges",
+        "Cayro",
+        "The Games",
+        "Chad Valley Co Ltd.",
+        "Challenge Master Game Co Ltd",
+        "Creative Crafthouse",
+        "Dal Negro",
+        "Early Learning Centre",
+        "Estrela",
+        "Flying Tiger Copenhagen",
+        "Fratelli Fabbri Editori  (Fabbri Editore)",
+        "Full Base Union Enterprise Co.",
+        "Ltd.",
+        "Fundex",
+        "Go! Games",
+        "Goki",
+        "Grow Jogos e Brinquedos",
+        "Der Grüne Punkt",
+        "Hasbro",
+        "Hearth & Hand with Magnolia",
+        "IKEA",
+        "Inspirion",
+        "Irwin Toy Ltd.",
+        "John Jaques of London",
+        "Klee",
+        "Korea Boardgames",
+        "Lagoon Games",
+        "Leslie Scott Associates",
+        "London Transport Museum",
+        "MB Juegos",
+        "MB Spiele",
+        "Melco",
+        "Meridian Point Products",
+        "Milton Bradley",
+        "Mitra",
+        "NeoTroy Games",
+        "Noris Spiele",
+        "Okoïa-Addendo",
+        "The Op Games",
+        "OPEN'N PLAY",
+        "Paradigm Games Ltd",
+        "Parker Brothers",
+        "Pavilion",
+        "Planet Finska",
+        "Pokonobe Associates",
+        "Publijuego",
+        "Queen Games",
+        "Salco",
+        "Santa Teresa",
+        "Schmidt France",
+        "Siam Mandalay",
+        "Simba Toys",
+        "Skybound Tabletop",
+        "Spin Master Ltd.",
+        "SPM: Syarikat Permainan Malaysia",
+        "Stihl",
+        "Super Impulse",
+        "Tactic",
+        "Tesco",
+        "Tomy",
+        "Top-Game",
+        "Top-Toy",
+        "tridias",
+        "Underground Toys",
+        "Woodstock Spiele",
+        "WWF",
+        "Десятое королевство"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/YH5C06snaoJtDqKjwMROPw__original/img/gB1mfMGbSkXgYxU5FA4QWForCZk=/0x0/filters:format(jpeg)/pic5140451.jpg",
+        "https://cf.geekdo-images.com/YH5C06snaoJtDqKjwMROPw__thumb/img/cSHIiN_mZQEqKMI1G7qRbTMp4nk=/fit-in/200x150/filters:strip_icc()/pic5140451.jpg"
+      ],
+      "notes": "",
+      "description": "Jenga is tower building game played with 54 wooden blocks; each block is 3 times as long as it is wide, and slightly smaller in height than in width. The blocks are stacked in a tower formation; each story is three blocks placed adjacent to each other along their long side, and each story is placed perpendicular to the previous (so, for example, if the blocks in the first story are pointing north-south, the second story blocks will point east-west). There are therefore 18 stories to the Jenga tower. Since stacking the blocks neatly can be tedious, a plastic loading tray is included.&#10;&#10;Once the tower is built, the person who built the tower moves first. Moving in Jenga consists of taking one and only one block from any story except the completed top story of the tower at the time of the turn, and placing it on the topmost story in order to complete it. Only one hand at a time may be used to remove a block; both hands can be used, but only one hand may be on the tower at a time. Blocks may be bumped to find a loose block that will not disturb the rest of the tower. Any block that is moved out of place may be left out of place if it is determined that it will knock the tower over if it is removed. The turn ends when the next person to move touches the tower, although he or she can wait 10 seconds before moving for the previous turn to end if they believe the tower will fall in that time.&#10;&#10;The game ends when the tower falls in any significant way -- in other words, any piece falls from the tower, other than the piece being knocked out to move to the top. The loser is the person who made the tower fall (i.e. whose turn it was when the tower fell); the winner is the person who moved before the loser.&#10;&#10;The same game concept was published in 1984 by Fagus under the name &quot;Hoppla - eins zuviel!&quot; According to the designer, the game was developed from Takoradi blocks/bricks. &quot;Jenga&quot; is Swahili for &quot;build&quot;.&#10;&#10;",
+      "category": [
+        "Action / Dexterity",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Physical Removal",
+        "Single Loser Game",
+        "Stacking and Balancing"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T00:44:39.968Z",
+  "lastModified": "2025-06-17T00:44:59.333Z",
   "version": "1.0"
 }
