@@ -7592,9 +7592,68 @@
         "Worker Placement"
       ],
       "customFields": {}
+    },
+    "1750126234635": {
+      "bggId": "1750126234635",
+      "bggUrl": "https://boardgamegeek.com/boardgame/84732/kariba",
+      "name": "Kariba",
+      "year": 2010,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Reiner Knizia"
+      ],
+      "artists": [
+        "Felix Kindelan"
+      ],
+      "publishers": [
+        "Goliath Games",
+        "Helvetiq",
+        "Buró",
+        "Fabrika Igr",
+        "Gap Times",
+        "Gen-X Games",
+        "HRAS",
+        "Mandoo Games",
+        "PaperGames (III)",
+        "Reflexshop",
+        "Siam Board Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/K92SFm86Thp6flcFmAX0wQ__original/img/J5fE5LGjekRyEzLfAJo3fSHmw6A=/0x0/filters:format(png)/pic8624565.png",
+        "https://cf.geekdo-images.com/K92SFm86Thp6flcFmAX0wQ__thumb/img/BZsJT2pOJcDMUmDa3sKtTvcNKmM=/fit-in/200x150/filters:strip_icc()/pic8624565.png"
+      ],
+      "notes": "",
+      "description": "All animals are thirsty after an adventurous day in the savannah, so they've all trekked to the drinking grounds. Every animal wants to be the first to drink, but watch out! The elephant scares the rhino, the rhino scares the ostrich, and the ostrich scares the zebra. Anything can happen... The mice might even scare the elephant! The player who scares away the most animals wins.&#10;&#10;To set up Kariba, shuffle the cards and deal five to each player, placing the remainder face down as a deck. Place the game board in the center of the table.&#10;During a round, a player lays down one or more cards of the same animal, placing the cards in the corresponding position (1-9) around the lake.&#10;If at least 3 cards of the same animal are placed in front of the lake, then these animals scare weaker animal(s) (closest lower number) while they are drinking. The player picks all the cards from the weaker animal off the board and puts them face down in front of her/him. Each card is worth 1 point, and whoever has the most points wins.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Children's Game"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Rock-Paper-Scissors"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:10:10.821Z",
+  "lastModified": "2025-06-17T02:10:34.636Z",
   "version": "1.0"
 }
