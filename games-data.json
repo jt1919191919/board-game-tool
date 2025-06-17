@@ -9235,9 +9235,64 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1750178343686": {
+      "bggId": "1750178343686",
+      "bggUrl": "https://boardgamegeek.com/boardgame/192074/odins-ravens-second-edition",
+      "name": "Odin's Ravens (Second Edition)",
+      "year": 2016,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2
+      ],
+      "designers": [
+        "Thorsten Gimmler"
+      ],
+      "artists": [
+        "Johan Egerkrans",
+        "Harald Lieske",
+        "Marcin Minor"
+      ],
+      "publishers": [
+        "Osprey Games",
+        "Evrikus",
+        "HT Publishers",
+        "Nasza Księgarnia",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/NME9DO7GFaXbOyM8DPnFEQ__original/img/BFxRBohNGAoxWd_5-CPo8jIBF-U=/0x0/filters:format(jpeg)/pic2643412.jpg",
+        "https://cf.geekdo-images.com/NME9DO7GFaXbOyM8DPnFEQ__thumb/img/jFeo7CE887HRwbMiyWNOm09QryQ=/fit-in/200x150/filters:strip_icc()/pic2643412.jpg"
+      ],
+      "notes": "",
+      "description": "Every morning Odin sends his ravens, Huginn and Muninn, across the entire world to bring back news of what life is like on Earth. Naturally, after thousands of years, they've gotten a little competitive. Race through the landscape in opposite directions to be the first to return to Odin. Focus on speed, or enlist the help of the trickster god Loki to create shortcuts and hinder your opponent. Can you be certain Loki's changes won't help your opponent instead? There's only one way to find out!&#10;&#10;The revised second edition of Thorsten Gimmler's award-winning Odin's Ravens has been completely redesigned, with new rules and a beautiful new art style inspired by Norse mythology.&#10;&#10;FAQ&#10;Only the &quot;rotate&quot; action on the Loki cards can be used on a loop card, or a card which has been slid partially out of the path.&#10;&#10;",
+      "category": [
+        "Animals",
+        "Card Game",
+        "Mythology"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Race",
+        "Track Movement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T08:04:48.057Z",
+  "lastModified": "2025-06-17T16:39:03.687Z",
   "version": "1.0"
 }
