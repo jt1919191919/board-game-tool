@@ -9835,9 +9835,76 @@
         "Spelling"
       ],
       "customFields": {}
+    },
+    "1750192613735": {
+      "bggId": "1750192613735",
+      "bggUrl": "https://boardgamegeek.com/boardgame/330592/phantom-ink",
+      "name": "Phantom Ink",
+      "year": 2022,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "designers": [
+        "Mary Flanagan",
+        "Max Seidman"
+      ],
+      "artists": [
+        "Spring Yu"
+      ],
+      "publishers": [
+        "Resonym",
+        "Alley Cat Games",
+        "Games7Days",
+        "Gém Klub Kft.",
+        "Gigamic",
+        "Lavka Games",
+        "MEBO Games",
+        "MINDOK",
+        "Pegasus Spiele",
+        "Pendragon Game Studio",
+        "Popcorn Games",
+        "Portal Games",
+        "WindFans Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/uf-JTBfP9_jm7_FX3DQE3A__original/img/HGtNS9jtZuHim89ctPJ0zcRiXsM=/0x0/filters:format(jpeg)/pic6278116.jpg",
+        "https://cf.geekdo-images.com/uf-JTBfP9_jm7_FX3DQE3A__thumb/img/js2JYkxCnmwNfQ__f2uVFIlCWXU=/fit-in/200x150/filters:strip_icc()/pic6278116.jpg"
+      ],
+      "notes": "",
+      "description": "Renowned mediums are competing to figure out a secret object and prove they can connect with the &quot;World Beyond&quot;. The first team to figure out the secret object wins!&#10;&#10;To set up Phantom Ink, divide players so that the Sun team and the Moon team each have one Spirit and up to three Mediums. The mediums on a team share a hand of seven question cards, and the spirits begin the game by choosing one of the five objects on a card as the secret object. On a turn, the mediums pass two question cards to their spirit, with sample questions like &quot;What color is it most commonly?&quot;, &quot;What fictional character has it or uses it?&quot;, and &quot;If it were a musical instrument, what would it be?&quot;&#10;&#10;The spirit discards one question card face up, then returns the question card it's going to answer to their mediums, then slowly writes the answer one letter at a time for all to see. As soon as the mediums think they know what this clue word is, they yell &quot;Silencio&quot;, and the spirit stops writing. The other team of mediums might see only the letter &quot;Y&quot;, but if you know the question is &quot;What color is it?&quot;, then you know the clue must be &quot;yellow&quot;. To end your turn, draw two new question cards.&#10;&#10;On a turn, instead of handing over question cards, you can attempt to guess the answer &mdash; and to do so you write like the spirits, one letter at a time. If you write an incorrect letter, the spirits will stop you, marking out your error, with your partial guess giving the other team more information. If you guess the entire word correctly, you win!&#10;&#10;Awards &amp; Honors:&#10;Game Makers Guild - Seal of Approval&#10;The Dice Tower - Seal of Approval&#10;&#10;",
+      "category": [
+        "Deduction",
+        "Party Game",
+        "Puzzle",
+        "Word Game"
+      ],
+      "mechanisms": [
+        "Communication Limits",
+        "Deduction",
+        "Targeted Clues",
+        "Team-Based Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T20:36:16.841Z",
+  "lastModified": "2025-06-17T20:36:53.736Z",
   "version": "1.0"
 }
