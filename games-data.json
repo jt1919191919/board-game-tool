@@ -7706,9 +7706,82 @@
         "Worker Placement"
       ],
       "customFields": {}
+    },
+    "1750126280808": {
+      "bggId": "1750126280808",
+      "bggUrl": "https://boardgamegeek.com/boardgame/160499/king-new-york",
+      "name": "King of New York",
+      "year": 2014,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 1.9,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Richard Garfield"
+      ],
+      "artists": [
+        "Sébastien Lamirand",
+        "Igor Polouchine",
+        "Régis Torres",
+        "Alexey Yakovlev"
+      ],
+      "publishers": [
+        "IELLO",
+        "Devir",
+        "Egmont Polska",
+        "Enigma (Bergsala Enigma)",
+        "GaGa Games",
+        "Galápagos Jogos",
+        "GoKids 玩樂小子",
+        "Heidelberger Spieleverlag",
+        "Hobby Japan",
+        "HomoLudicus",
+        "Reflexshop",
+        "uplay.it edizioni"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/FGekxht_r5xqt8oSmQ9HZg__original/img/b5zgGvja0Qpte-Jqb5baQNWuG3c=/0x0/filters:format(jpeg)/pic2407103.jpg",
+        "https://cf.geekdo-images.com/FGekxht_r5xqt8oSmQ9HZg__thumb/img/DBoMebkqbcyZWJVLC5MRbF-YbnU=/fit-in/200x150/filters:strip_icc()/pic2407103.jpg"
+      ],
+      "notes": "",
+      "description": "There's always something happening in the city that never sleeps. Maybe it's the lights, maybe it's the energy, or maybe it's the giant monsters trying to demolish the place!&#10;&#10;King of New York is a standalone game from designer Richard Garfield that keeps the core ideas of King of Tokyo while introducing new ways to play. As in KoT, your goal is to be the first monster to collect 20 victory points (VPs) or to be the last monster standing. On your turn, you roll six dice up to three times, then carry out the actions on those dice. Claws cause damage to other monsters, hearts heal damage to yourself, and energy is stored up so that you can purchase power cards that provide unique effects not available to anyone else.&#10;&#10;What's new in King of New York is that you can now try to become a star in the big city; more specifically, you can achieve &quot;Fame&quot;, which nets you VPs, but superstar status is fleeting, so enjoy your time in the spotlight.&#10;&#10;The game board for King of New York is larger than in KoT with each monster occupying a district in the city and everyone trying to shine in Manhattan. When you attack, you can displace a monster in another district, whether to escape military forces or to find new smashing opportunities. Yes, smashing because you can now destroy buildings and get bonuses for doing so, but the more destruction you cause, the more intense the military response.&#10;&#10;The monsters from King of New York can be used in KoT and vice versa, but the power cards are specific to this game.&#10;&#10;Part of the King of Tokyo series.&#10;&#10;",
+      "category": [
+        "Dice",
+        "Fighting",
+        "Movies / TV / Radio theme",
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Die Icon Resolution",
+        "King of the Hill",
+        "Open Drafting",
+        "Player Elimination",
+        "Push Your Luck",
+        "Re-rolling and Locking",
+        "Tags",
+        "Take That"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:10:57.296Z",
+  "lastModified": "2025-06-17T02:11:20.810Z",
   "version": "1.0"
 }
