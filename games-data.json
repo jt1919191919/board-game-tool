@@ -10415,9 +10415,68 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1750196851839": {
+      "bggId": "1750196851839",
+      "bggUrl": "https://boardgamegeek.com/boardgame/266830/qe",
+      "name": "QE",
+      "year": 2019,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 5
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.5,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        5
+      ],
+      "designers": [
+        "Gavin Birnbaum"
+      ],
+      "artists": [
+        "Anca Gavril"
+      ],
+      "publishers": [
+        "BoardGameTables.com",
+        "Board Game Rookie",
+        "BoardM Factory",
+        "Broadway Toys LTD",
+        "Lucky Duck Games",
+        "SD Games",
+        "Strohmann Games",
+        "SUNNY BIRD",
+        "拾刻桌游（O'Clock Games）"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/47o_swlkRbfpMH3hnFZgtA__original/img/V6-uacjfLFXQyOVHcLmEOVoZgf8=/0x0/filters:format(png)/pic4383594.png",
+        "https://cf.geekdo-images.com/47o_swlkRbfpMH3hnFZgtA__thumb/img/gT07BJ5Ynlopp-UIQRIySERKUmI=/fit-in/200x150/filters:strip_icc()/pic4383594.png"
+      ],
+      "notes": "",
+      "description": "Financial crisis has occurred. Sixteen &quot;too big to fail&quot; companies from four countries need bailing out. The central banks have unlimited financial resources, so lots of money is going to be printed, but the central banks also face disaster &mdash; print too much money and the country they represent goes bust.&#10;&#10;In Q.E., a term that stands for &quot;quantitative easing&quot;, you play the role of a central bank. You bid on different size companies to accumulate various levels of victory points. The amount you bid is unlimited since you are the central bank and you own the printing press! After the initial &quot;open&quot; bid by the lead player, the other players bid in secret. After the sixteen companies have been &quot;bailed out&quot;, bonus victory points are awarded for company sets of nationalization, monopolization, and diversification.&#10;&#10;Player markers on the scoring track now reveal which player has the most victory points, but this is not the end. Players must now add up the amount of money they printed and the player who printed the most money loses all their victory points!&#10;&#10;Previous editions of Q.E. supported up to four players, with a fifth-player expansion being available separately. This new edition of Q.E. is playable with up to five players out of the box.&#10;&#10;",
+      "category": [
+        "Economic"
+      ],
+      "mechanisms": [
+        "Auction / Bidding",
+        "Auction: Sealed Bid",
+        "End Game Bonuses",
+        "Memory",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T20:39:58.822Z",
+  "lastModified": "2025-06-17T21:47:31.841Z",
   "version": "1.0"
 }
