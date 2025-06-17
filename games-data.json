@@ -7526,9 +7526,75 @@
         "Score-and-Reset Game"
       ],
       "customFields": {}
+    },
+    "1750126210819": {
+      "bggId": "1750126210819",
+      "bggUrl": "https://boardgamegeek.com/boardgame/200147/kanagawa",
+      "name": "Kanagawa",
+      "year": 2016,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Bruno Cathala",
+        "Charles Chevallier"
+      ],
+      "artists": [
+        "Jade Mosch"
+      ],
+      "publishers": [
+        "IELLO",
+        "2 Pionki",
+        "Albi",
+        "Bureau de Juegos",
+        "Devir",
+        "GoKids 玩樂小子",
+        "Korea Boardgames",
+        "Lavka Games",
+        "Mancalamaro",
+        "Portal Games",
+        "Redbox Editora (Redbox)",
+        "Reflexshop",
+        "Ігрова Майстерня"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/Rr2JrRztCFzzikJ9YL5-Dw__original/img/-v_1QOvedVYSmOkWsmQuROJCHI0=/0x0/filters:format(jpeg)/pic3105168.jpg",
+        "https://cf.geekdo-images.com/Rr2JrRztCFzzikJ9YL5-Dw__thumb/img/x9MtKEQlcQ_jS-5AVMeZ28NOC0s=/fit-in/200x150/filters:strip_icc()/pic3105168.jpg"
+      ],
+      "notes": "",
+      "description": "1840: In Kanagawa, the great bay of Tokyo, the Master Hokusai decided to open a painting school to share his art with his disciples. You are one of these disciples, and more than anything, you want to prove yourself worthy of the &ldquo;crazy, old artist&rdquo;. Follow his teachings to expand your studio and paint your preferred subjects (Trees, Animals, Characters, Buildings), all while paying attention to the changing of the seasons in order to make the most harmonious print&hellip; the one that will become the work of your lifetime!&#10;&#10;",
+      "category": [
+        "Animals",
+        "Card Game"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Open Drafting",
+        "Pattern Building",
+        "Push Your Luck",
+        "Set Collection",
+        "Turn Order: Claim Action",
+        "Worker Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T00:45:28.354Z",
+  "lastModified": "2025-06-17T02:10:10.821Z",
   "version": "1.0"
 }
