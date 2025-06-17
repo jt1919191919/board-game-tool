@@ -7452,9 +7452,83 @@
         "Stacking and Balancing"
       ],
       "customFields": {}
+    },
+    "1750121128353": {
+      "bggId": "1750121128353",
+      "bggUrl": "https://boardgamegeek.com/boardgame/254640/just-one",
+      "name": "Just One",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 7
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        7
+      ],
+      "designers": [
+        "Ludovic Roudy",
+        "Bruno Sautter"
+      ],
+      "artists": [
+        "Éric Azagury",
+        "Florian Poullet"
+      ],
+      "publishers": [
+        "Repos Production",
+        "ADC Blackfire Entertainment",
+        "Arclight Games",
+        "Brain Games",
+        "CoolPlay",
+        "FoxMind Israel",
+        "Fun Consortium",
+        "Galápagos Jogos",
+        "Geekach Games",
+        "Gém Klub Kft.",
+        "GoKids 玩樂小子",
+        "Happy Baobab",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lifestyle Boardgames Ltd",
+        "Maldón",
+        "Morapiaf",
+        "Nordic Games ehf",
+        "Rebel Sp. z o.o."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/mHiOQYYPdSkM2xjEO3CNfA__original/img/z1F6yfBZVuLtOGw9_k7Fdv1ybTc=/0x0/filters:format(png)/pic8933221.png",
+        "https://cf.geekdo-images.com/mHiOQYYPdSkM2xjEO3CNfA__thumb/img/SK9iEwW4--SZDt6t12HwgbzmBKc=/fit-in/200x150/filters:strip_icc()/pic8933221.png"
+      ],
+      "notes": "",
+      "description": "Just One is a cooperative party game in which you play together to discover as many mystery words as possible. Find the best clue to help your teammate. Be unique, as all identical clues will be cancelled!&#10;&#10;A complete game is played over 13 cards. The goal is to get a score as close to 13 as possible. In case of a right answer, the players score 1 point. In case of wrong answer, they lose the current card as well as the top card of the deck. Thus losing 2 points. In case of lack of answer, the players only lose the current card, and therefore only 1 point.&#10;&#10;You have the choice &ndash; make the difference!&#10;&#10;Small Historical Point:&#10;&#10;Originally, Just One was called We Are The Word and was published by Fun Consortium.&#10;&#10;Repos Production bought the rights in early 2018 and adapted the game. The Sombrero-wearing Belgians decided to improve the quality of the components, add 50 new words, and change the name of the game. Following this new edition, the game went from having only a French edition to having a world-wide edition.&#10;&#10;",
+      "category": [
+        "Deduction",
+        "Party Game",
+        "Word Game"
+      ],
+      "mechanisms": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Deduction",
+        "Score-and-Reset Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T00:44:59.333Z",
+  "lastModified": "2025-06-17T00:45:28.354Z",
   "version": "1.0"
 }
