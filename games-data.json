@@ -8975,9 +8975,88 @@
         "Worker Placement"
       ],
       "customFields": {}
+    },
+    "1750147412909": {
+      "bggId": "1750147412909",
+      "bggUrl": "https://boardgamegeek.com/boardgame/21241/neuroshima-hex-30",
+      "name": "Neuroshima Hex",
+      "year": 2006,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.6,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Michał Oracz"
+      ],
+      "artists": [
+        "Mateusz Bielski",
+        "Piotr Cieśliński",
+        "Piotr Foksowicz",
+        "Mariusz Gandzel",
+        "Jakub Jabłoński",
+        "Tomasz Jedruszek",
+        "Mateusz Kopacz",
+        "Hanna Kuik",
+        "Łukasz Lalko",
+        "M81 Studio",
+        "Michael Michera"
+      ],
+      "publishers": [
+        "Portal Games",
+        "FunBox Jogos",
+        "Heidelberger Spieleverlag",
+        "HomoLudicus",
+        "IELLO",
+        "Magellan",
+        "Rocks Games",
+        "Stratelibri",
+        "Z-Man Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/JKniOrcvHvLWRlWc-naC8w__original/img/ARpT9WzMYRVKbSib6LRxGimOpYQ=/0x0/filters:format(png)/pic8654429.png",
+        "https://cf.geekdo-images.com/JKniOrcvHvLWRlWc-naC8w__thumb/img/p7XKd7o6W3YRoFQye0ixdRYk-fU=/fit-in/200x150/filters:strip_icc()/pic8654429.png"
+      ],
+      "notes": "",
+      "description": "Neuroshima Hex! is a strategy game set in the post-apocalyptic world of Neuroshima, a Polish role-playing game. Each player leads one of four armies: Borgo, Hegemonia (Hegemony), Moloch, and Posterunek (Outpost). Each army deck consists of 34 tiles: soldiers, support tiles, and special actions. You win when all enemy headquarters are destroyed or when your headquarters is the least damaged at the end of the game.&#10;&#10;&#10;     In 2007 and 2013, the game had graphical facelifts, somewhat modifying the iconography. Note: each army (whether base game or expansion) is compatible with every version (1.0, 2.x, 3.0). Only the art styles and icon graphics differ mildly.&#10;     The game had different editions with different components/bonuses alongside the 4 base armies (big board, bonus army, puzzles, etc.). See different editions for details.&#10;     Tile width and thickness strongly varied depending on edition, and even on a same editor slightly varied over the years. This does not affect play, but may affect some storage solutions.&#10;&#10;&#10; Due to multiple versions and expansions, see the Neuroshima Hex! english FAQ&#10; The game is also expanded by Unofficial Neuroshima Hex! expansions, available here on BGG.&#10;&#10;Note:  There is no solitaire bot/AI/system to compete against. The only options for &quot;solo&quot; play are soloing multiple factions yourself, or solving puzzles (like Chess checkmate problems) available in some editions and expansions.&#10;&#10;",
+      "category": [
+        "Collectible Components",
+        "Fighting",
+        "Puzzle",
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Area Majority / Influence",
+        "Connections",
+        "Grid Movement",
+        "Hand Management",
+        "Hexagon Grid",
+        "Line of Sight",
+        "Player Elimination",
+        "Solo / Solitaire Game",
+        "Team-Based Game",
+        "Tile Placement",
+        "Variable Player Powers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T08:03:13.366Z",
+  "lastModified": "2025-06-17T08:03:32.910Z",
   "version": "1.0"
 }
