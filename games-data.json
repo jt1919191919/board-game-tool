@@ -8020,9 +8020,57 @@
         "Victory Points as a Resource"
       ],
       "customFields": {}
+    },
+    "1750126501579": {
+      "bggId": "1750126501579",
+      "bggUrl": "https://boardgamegeek.com/boardgame/147505/lords-ladies",
+      "name": "Lords & Ladies",
+      "year": 2014,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.6,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        4,
+        5
+      ],
+      "designers": [
+        "Jason Corace"
+      ],
+      "artists": [
+        "Jen Corace"
+      ],
+      "publishers": [
+        "Eagle-Gryphon Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/c5pRIj5vcR23Vf-3nFGzTQ__original/img/1ADCbkTTwYWPOq4A4i6s0_rpA78=/0x0/filters:format(jpeg)/pic1772343.jpg",
+        "https://cf.geekdo-images.com/c5pRIj5vcR23Vf-3nFGzTQ__thumb/img/kW8E3bBzxHjH-jw1MwNiQH5ASWQ=/fit-in/200x150/filters:strip_icc()/pic1772343.jpg"
+      ],
+      "notes": "",
+      "description": "Lords &amp; Ladies is a card game for 2 to 5 players where you control a turn of the 20th century noble family and their servants. Over the course of the game you build generations of a family by marrying off lords and ladies to available suitors, hiring servants to give you additional status and powers, attempting to have children with your married lords and ladies, and using gossip cards and servant powers to destroy your rival families' reputations.&#10;&#10;Lords and Ladies is played over a series of rounds where each player takes one turn. A player&rsquo;s turn is broken down into three parts: First they can either take two gold or a gossip card, then they can decide to either: hire an available servant, marry an available suitor, attempt to have a child with a married couple. or take an additional gold.&#10;&#10;At any point during the round players can team up to spread gossip about other families. This is accomplished by one player playing a gossip card on another player's family or servants. Gossip only becomes confirmed when another player plays the same gossip card or a True card against the targeted player. Unconfirmed, gossip cards only last one round and then are shuffled into the discard pile.&#10;&#10;Players can also use their servants' powers against other players, use their fortune to buy status and bribe other players to stop gossip. The game ends when the first player ends a round with 18 status points.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Humor"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Hand Management",
+        "Take That"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:14:37.186Z",
+  "lastModified": "2025-06-17T02:15:01.580Z",
   "version": "1.0"
 }
