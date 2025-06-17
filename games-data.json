@@ -8773,9 +8773,66 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1750127698806": {
+      "bggId": "1750127698806",
+      "bggUrl": "https://boardgamegeek.com/boardgame/387378/mlem-space-agency",
+      "name": "MLEM: Space Agency",
+      "year": 2024,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.7,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Reiner Knizia"
+      ],
+      "artists": [
+        "Joanna Rzepecka"
+      ],
+      "publishers": [
+        "Rebel Studio",
+        "ADC Blackfire Entertainment",
+        "Galápagos Jogos",
+        "Geekach Games",
+        "Gém Klub Kft.",
+        "MIPL"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/CQ9o1kqExmBpHcPMVk0qwQ__original/img/8jK4shZsnCk-UbNYf6zStqQRRYk=/0x0/filters:format(jpeg)/pic7926071.jpg",
+        "https://cf.geekdo-images.com/CQ9o1kqExmBpHcPMVk0qwQ__thumb/img/5HC7459wxxyXhy4Rtey5h_ZkahI=/fit-in/200x150/filters:strip_icc()/pic7926071.jpg"
+      ],
+      "notes": "",
+      "description": "Let me take you on a journey to the year 2075. Just as soon as they took control of the world, cats set their sights on a new frontier - space! The cr&egrave;me de la cr&egrave;me of feline specialists now compete for cosmic dominance, with their determination unmatched even by the lack of opposable thumbs. It's a fierce race, filled with catnip-fueled shenanigans and rockets that go boom! Who will emerge victorious in this epic race, claim their paws on the infinite treasures of the Milky Way, and become the true cosmic conquerors?&#10;&#10;MLEM: Space Agency is a family board game where you step into the shoes of fearless captains of cosmic expeditions. But hold on, these aren't your ordinary explorers - they're cats! These intrepid felines have long conquered the Earth with their unmatched bravery, and now they've set their sights on conquering the entire cosmos. However, their clumsiness might lead to some purrfectly chaotic cat-astrophes. Take the helm of a cosmic rocket, reach for the stars, or trust your cat instincts and bail out before things go up in flames. Fame and admiration from the entire meowing world await the most exceptional leader of the feline space agency. Get ready for an adventure that's out of this world!&#10;&#10;",
+      "category": [
+        "Animals",
+        "Dice",
+        "Space Exploration"
+      ],
+      "mechanisms": [
+        "Area Majority / Influence",
+        "Dice Rolling",
+        "Push Your Luck",
+        "Track Movement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:34:12.561Z",
+  "lastModified": "2025-06-17T02:34:58.807Z",
   "version": "1.0"
 }
