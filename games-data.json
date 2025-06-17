@@ -8899,9 +8899,85 @@
         "Tags"
       ],
       "customFields": {}
+    },
+    "1750147393364": {
+      "bggId": "1750147393364",
+      "bggUrl": "https://boardgamegeek.com/boardgame/195421/near-and-far",
+      "name": "Near and Far",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 120,
+        "max": 120
+      },
+      "weight": 2.9,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Ryan Laukat"
+      ],
+      "artists": [
+        "Ryan Laukat"
+      ],
+      "publishers": [
+        "Red Raven Games",
+        "Bard Centrum Gier",
+        "Devir",
+        "DV Games",
+        "Lavka Games",
+        "Lotus Frog Games",
+        "Lucky Duck Games",
+        "REXhry",
+        "Schwerkraft-Verlag"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/lm8OOgJupqd3Q-fZ3DsQhw__original/img/hTV2P_-UPntaLbQB3Dl17LYz42A=/0x0/filters:format(jpeg)/pic3605785.jpg",
+        "https://cf.geekdo-images.com/lm8OOgJupqd3Q-fZ3DsQhw__thumb/img/mZV5Pve42U5PlK-GkFSDTDXCzdg=/fit-in/200x150/filters:strip_icc()/pic3605785.jpg"
+      ],
+      "notes": "",
+      "description": "Four wanderers search for the Last Ruin, a city that legends say contains an artifact that will grant the greatest desires of the heart. A lost love, redemption, acceptance, a family rejoined-- these are the fires that fuel the wanderers' journeys, but can they overcome their own greed and inner demons on the way?&#10;&#10;In Near and Far, you and up to three friends explore many different maps in a search for the Last Ruin, recruiting adventurers, hunting for treasure, and competing to be the most storied traveler. You must collect food and equipment at town for long journeys to mysterious locales, making sure not to forget enough weapons to fight off bandits, living statues, and rusty robots! Sometimes in your travels you'll run into something unique and one of your friends will read what happens to you from a book of stories, giving you a choice of how to react, creating a new and memorable tale each time you play.&#10;&#10;Near and Far is a sequel to Above and Below and includes a book of encounters. This time players read over ten game sessions to reach the end of the story. Each chapter is played on a completely new map with unique art and adventures.&#10;&#10;Answer the call of the ruins and begin your journey.&#10;&#10;Errata&#10;&#10;",
+      "category": [
+        "Adventure",
+        "Exploration",
+        "Fantasy",
+        "Fighting"
+      ],
+      "mechanisms": [
+        "Closed Drafting",
+        "Contracts",
+        "Dice Rolling",
+        "End Game Bonuses",
+        "Hand Management",
+        "Movement Points",
+        "Multiple Maps",
+        "Narrative Choice / Paragraph",
+        "Network and Route Building",
+        "Open Drafting",
+        "Point to Point Movement",
+        "Push Your Luck",
+        "Resource to Move",
+        "Scenario / Mission / Campaign Game",
+        "Set Collection",
+        "Storytelling",
+        "Tags",
+        "Variable Player Powers",
+        "Worker Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:37:07.768Z",
+  "lastModified": "2025-06-17T08:03:13.366Z",
   "version": "1.0"
 }
