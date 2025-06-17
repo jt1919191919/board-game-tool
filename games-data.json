@@ -9536,9 +9536,60 @@
         "Spelling"
       ],
       "customFields": {}
+    },
+    "1750192470987": {
+      "bggId": "1750192470987",
+      "bggUrl": "https://boardgamegeek.com/boardgame/214491/paku-paku",
+      "name": "Paku Paku",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 10,
+        "max": 10
+      },
+      "weight": 1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Antoine Bauza"
+      ],
+      "artists": [
+        "Agence Cactus"
+      ],
+      "publishers": [
+        "Ravensburger"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/bBccKZFGhrh5uEv24kDrsA__original/img/JNBIogMqlXLV5Y2Huf-n8q0sU1A=/0x0/filters:format(jpeg)/pic5153335.jpg",
+        "https://cf.geekdo-images.com/bBccKZFGhrh5uEv24kDrsA__thumb/img/CrZuCM48GWOkqrbTBxvygqnsDXU=/fit-in/200x150/filters:strip_icc()/pic5153335.jpg"
+      ],
+      "notes": "",
+      "description": "Who stacks up cups and plates to wobbly heights? Who will start sweating when the other players push the dice towards them? And whose paws will stay calm in Paku Paku, a swift dice-rolling game for 2-8 pandas who are hungry for victory?&#10;&#10;",
+      "category": [
+        "Action / Dexterity",
+        "Dice",
+        "Party Game",
+        "Real-time"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Real-Time"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T16:44:10.625Z",
+  "lastModified": "2025-06-17T20:34:30.988Z",
   "version": "1.0"
 }
