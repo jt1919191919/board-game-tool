@@ -8722,9 +8722,60 @@
         "Turn Order: Role Order"
       ],
       "customFields": {}
+    },
+    "1750127652560": {
+      "bggId": "1750127652560",
+      "bggUrl": "https://boardgamegeek.com/boardgame/285533/miyabi",
+      "name": "Miyabi",
+      "year": 2019,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Michael Kiesling"
+      ],
+      "artists": [
+        "René Amthor"
+      ],
+      "publishers": [
+        "HABA"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/J8joN18TM0gLZfIj6lYIog__original/img/-8lVCUQlqJjZ4-FEKQl_mCOihUU=/0x0/filters:format(jpeg)/pic4886005.jpg",
+        "https://cf.geekdo-images.com/J8joN18TM0gLZfIj6lYIog__thumb/img/FO9n1zMRh_T30cL9oj7dP8tajVE=/fit-in/200x150/filters:strip_icc()/pic4886005.jpg"
+      ],
+      "notes": "",
+      "description": "Elegant, graceful, and refined &ndash; that&rsquo;s how you should design your Japanese garden! Careful planning and watchful eyes are needed as you tend your garden. Only by skillfully placing stones, bushes, trees, ponds and pagodas on multiple levels can a player become the best garden designer of the season. Think you&rsquo;ve got it figured out? Try one of the five included expansions!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Abstract Strategy",
+        "Puzzle"
+      ],
+      "mechanisms": [
+        "Layering",
+        "Open Drafting",
+        "Pattern Building",
+        "Set Collection",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:33:36.925Z",
+  "lastModified": "2025-06-17T02:34:12.561Z",
   "version": "1.0"
 }
