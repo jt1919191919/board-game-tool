@@ -9902,9 +9902,76 @@
         "Team-Based Game"
       ],
       "customFields": {}
+    },
+    "1750192645521": {
+      "bggId": "1750192645521",
+      "bggUrl": "https://boardgamegeek.com/boardgame/284108/pictures",
+      "name": "Pictures",
+      "year": 2019,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 5
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        5
+      ],
+      "designers": [
+        "Christian Stöhr",
+        "Daniela Stöhr"
+      ],
+      "artists": [
+        "Dominik Mayer",
+        "Daniela Stöhr",
+        "Christian Stöhr"
+      ],
+      "publishers": [
+        "PD-Verlag",
+        "Ediciones MasQueOca",
+        "Fun Games Shop",
+        "GaGa Games",
+        "Gém Klub Kft.",
+        "Hobby Japan",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "Matagot",
+        "MINDOK",
+        "Rebel Sp. z o.o.",
+        "Rio Grande Games",
+        "SuperHeated Neurons",
+        "Surfin' Meeple China"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/pR7dcr6bs5TIOHOhKIoe_A__original/img/YGaDDOA-Jtr9eS60TNUx51J36Ds=/0x0/filters:format(jpeg)/pic4946885.jpg",
+        "https://cf.geekdo-images.com/pR7dcr6bs5TIOHOhKIoe_A__thumb/img/YYa8rvA3RgJS6aT-HT2NRegGmuA=/fit-in/200x150/filters:strip_icc()/pic4946885.jpg"
+      ],
+      "notes": "",
+      "description": "Pictures is a quick-playing family game with very simple rules. Form the image on your secret picture card with one set of components, either shoelaces, color cubes, icon cards, sticks and stones or building blocks in such a way that the other players guess what image you have pictured:&#10;&#10;&#10;     Pull out a marker from the bag that determines your secret picture card.&#10;     Then form that image with your components in such a way that it is recognizable.&#10;     And finally guess what image each other player has pictured.&#10;&#10;&#10;The players get points for correctly guessing other players images and for other players guessing their image. The most points wins!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Deduction",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Communication Limits",
+        "Deduction",
+        "Pattern Recognition"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T20:36:53.736Z",
+  "lastModified": "2025-06-17T20:37:25.522Z",
   "version": "1.0"
 }
