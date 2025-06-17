@@ -11150,9 +11150,58 @@
         "Team-Based Game"
       ],
       "customFields": {}
+    },
+    "1750197597024": {
+      "bggId": "1750197597024",
+      "bggUrl": "https://boardgamegeek.com/boardgame/237229/roar-king-pride",
+      "name": "Roar: King of the Pride",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        4,
+        6
+      ],
+      "designers": [
+        "Daryl Andrews",
+        "Erica Bouyouris"
+      ],
+      "artists": [
+        "Vincent Dutrait"
+      ],
+      "publishers": [
+        "IDW Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/-3YuTU9yoRiRU74wbOGJtg__original/img/mB835hWgopY5L0Hbbv43FshYw_M=/0x0/filters:format(jpeg)/pic3879331.jpg",
+        "https://cf.geekdo-images.com/-3YuTU9yoRiRU74wbOGJtg__thumb/img/eapYGeGOLvuihkdoB4qFD9ke0aE=/fit-in/200x150/filters:strip_icc()/pic3879331.jpg"
+      ],
+      "notes": "",
+      "description": "In the wilds of Africa, lion prides rule over all beasts, but only one pride can rule over all the lions! In Roar: King of the Pride, three to six players compete to become the dominant pride of Africa. Managing your food supply, while expanding your territory and growing your pride size with cubs, will take strategic planning and key wits. Even the best-laid plans, however, can be interrupted by other prides' secret objectives, or worse&hellip;the encroachment of a new and deadly threat.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Animals",
+        "Educational",
+        "Territory Building"
+      ],
+      "mechanisms": [
+        "Area Majority / Influence",
+        "Worker Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T21:59:35.724Z",
+  "lastModified": "2025-06-17T21:59:57.025Z",
   "version": "1.0"
 }
