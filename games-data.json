@@ -8657,9 +8657,74 @@
         "Hand Management"
       ],
       "customFields": {}
+    },
+    "1750127616924": {
+      "bggId": "1750127616924",
+      "bggUrl": "https://boardgamegeek.com/boardgame/176920/mission-red-planet-second-edition",
+      "name": "Mission: Red Planet (Second/Third Edition)",
+      "year": 2015,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Bruno Cathala",
+        "Bruno Faidutti"
+      ],
+      "artists": [
+        "Andrew Bosley",
+        "Samuel R. Shimota",
+        "Alyn Spiller",
+        "Derek Stenning"
+      ],
+      "publishers": [
+        "Fantasy Flight Games",
+        "Matagot",
+        "Edge Entertainment",
+        "Galakta",
+        "Giochi Uniti",
+        "Heidelberger Spieleverlag",
+        "Hunter & Friends",
+        "Niza Gams"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/dqA_FWqa16taFKOqvdvCEA__original/img/H-cOJQRUO5I_LuDx1EaMcPi-3JU=/0x0/filters:format(jpeg)/pic8483896.jpg",
+        "https://cf.geekdo-images.com/dqA_FWqa16taFKOqvdvCEA__thumb/img/tv2UwUf9pKFHQKY7utSSq7xk9tI=/fit-in/200x150/filters:strip_icc()/pic8483896.jpg"
+      ],
+      "notes": "",
+      "description": "With technology rapidly developing and the human population growing, Victorian-era Earth is in dire need of fuel, land, and other natural resources. Fortunately, automated probes sent to Mars have discovered celerium, an ore that can be combusted to produce ten thousand times more power than a steam engine, and sylvanite, the densest substance ever found. More incredibly, the probes found ice that could be used in terraforming the planet, bringing the idea of colonizing Mars even closer to becoming a reality.&#10;&#10;As the head of a mining corporation, these minerals and ice found on Mars could make you unfathomably wealthy &ndash; if you can reach them before your competitors. You have ten rounds to send your astronauts into space, occupy the planet's most resource-rich zones, and harvest as much celerium, sylvanite, and ice as possible. At your command is a team of nine professionals. Each has a unique skill set, from helping your astronauts traverse the Red Planet to blowing up spaceships before they launch.&#10;&#10;In each round in Mission: Red Planet, players start by secretly deploying one of their character cards, with this card determining both when they place astronauts on the spaceships awaiting launch to Mars and which special action they take during the round. Each spaceship has a specified destination, and until an astronaut sets foot in a region, no one knows which resource they'll find. Players collect resources (worth points) three times during the game, and they each have a secret mission card that might grant them additional points at game's end. During the game, players might acquire an additional mission or a research card that changes the value of what awaits on Mars.&#10;&#10;The 2015 edition of Mission: Red Planet features the same gameplay as the original 2005 edition, but it includes:&#10;&#10;&#10;    Components for up to six players instead of five&#10;    Special two-player variant rules&#10;    New action cards and revised mission and discovery cards&#10;    Mars' moon Phobos as a new zone that astronauts can explore before possibly returning to the planet itself&#10;&#10;&#10;",
+      "category": [
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Action Retrieval",
+        "Area Majority / Influence",
+        "Area Movement",
+        "Hand Management",
+        "Simultaneous Action Selection",
+        "Take That",
+        "Turn Order: Role Order"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:33:09.172Z",
+  "lastModified": "2025-06-17T02:33:36.925Z",
   "version": "1.0"
 }
