@@ -8158,9 +8158,61 @@
         "Worker Placement"
       ],
       "customFields": {}
+    },
+    "1750127261763": {
+      "bggId": "1750127261763",
+      "bggUrl": "https://boardgamegeek.com/boardgame/205494/machi-koro-bright-lights-big-city",
+      "name": "Machi Koro: Bright Lights, Big City",
+      "year": 2016,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.8,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Masao Suganuma"
+      ],
+      "artists": [
+        "Noboru Hotta"
+      ],
+      "publishers": [
+        "IDW Games",
+        "Pandasaurus Games",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/e9Z1IOX7_HwspCzP54prPg__original/img/rQT2b1YEIHQMOusvfz4u011zr_c=/0x0/filters:format(png)/pic3119592.png",
+        "https://cf.geekdo-images.com/e9Z1IOX7_HwspCzP54prPg__thumb/img/hw04Z1zdSvxIV7REA5pryXVqZas=/fit-in/200x150/filters:strip_icc()/pic3119592.png"
+      ],
+      "notes": "",
+      "description": "You've done a great job as Mayor! Machi Koro: Bright Lights, Big City shows how popular Machi Koro has become! What started as a sleepy town of cheese factories and wheat fields has become a hot tourist destination!&#10;&#10;Explore the night life of Machi Koro with a new gameplay set-up that makes each game play unique without ever slowing down the high-paced fun or losing any of the original charm.&#10;&#10;Machi Koro: Bright Lights, Big City is a standalone, fast-paced game for 2-5 players. Each player wants to develop the city on their own terms in order to complete all of the landmarks under construction faster than their rivals. On their turn, each player rolls one or two dice. If the sum of the dice rolled matches the number of a building that a player owns, they get the effect of that building; in some cases opponents will also benefit from your die (just as you can benefit from theirs). Then, with money in hand a player can build a landmark or a new building, ideally adding to the wealth of his city on future turns. The first player to construct all of their landmarks wins!&#10;&#10;",
+      "category": [
+        "Card Game",
+        "City Building",
+        "Dice"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Open Drafting",
+        "Random Production"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:15:29.200Z",
+  "lastModified": "2025-06-17T02:27:41.764Z",
   "version": "1.0"
 }
