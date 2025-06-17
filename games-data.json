@@ -10668,9 +10668,66 @@
         "Roll / Spin and Move"
       ],
       "customFields": {}
+    },
+    "1750197103067": {
+      "bggId": "1750197103067",
+      "bggUrl": "https://boardgamegeek.com/boardgame/183006/qwinto",
+      "name": "Qwinto",
+      "year": 2015,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.3,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Bernhard Lach",
+        "Uwe Rapp"
+      ],
+      "artists": [
+        "Oliver Freudenreich"
+      ],
+      "publishers": [
+        "Nürnberger-Spielkarten-Verlag",
+        "Arclight Games",
+        "Fractal Juegos",
+        "Gigamic",
+        "Pandasaurus Games",
+        "Popcorn Games",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/AtaZZTKaILC7qK2019MZJQ__original/img/CvZukbasuksb88da5oiX5bh08IM=/0x0/filters:format(png)/pic4194080.png",
+        "https://cf.geekdo-images.com/AtaZZTKaILC7qK2019MZJQ__thumb/img/1QLthWkf6GJPeIKXOfnhDUvbbaQ=/fit-in/200x150/filters:strip_icc()/pic4194080.png"
+      ],
+      "notes": "",
+      "description": "Players in Qwinto all play at the same time, with everyone trying to fill the rows on their scoresheets with numbers as quickly &mdash; and as highly &mdash; as possible in order to score the most points.&#10;&#10;To set up, each player receives a scoresheet that contains three colored rows of shapes (mostly circles with a few pentagons); the rows don't completely overlap, but they do overlap enough to create five vertical columns of three shapes, with one pentagon being in each vertical row.&#10;&#10;On a turn, a player rolls 1&ndash;3 dice, with the dice being the same colors as the rows: orange, yellow, purple. Each player can place whatever sum is rolled into an empty shape in a row that matches the color of one of the dice. Two rules must be followed when placing a sum in a row:&#10;&#10;&#10;    All numbers in a row must increase from left to right.&#10;    No number can be repeated in a vertical column.&#10;&#10;&#10;A player does not have to enter the number in a row, but if the active player, the one who rolled the dice, doesn't do so, then they must mark a misthrow box on their scoresheet.&#10;&#10;The game continues until someone has filled two rows on their scoresheet or someone has tallied four misthrows. Players then tally their points: For each completed column on their scoresheet, a player scores points equal to the number in that column's pentagon. For each completed row on their scoresheet, a player scores points equal to the rightmost number in that row. For each incomplete row on their scoresheet, a player scores one point per number in that row. For each misthrow, a player loses five points. Whoever has the highest sum wins!&#10;&#10;",
+      "category": [
+        "Dice",
+        "Number"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Paper-and-Pencil",
+        "Pattern Building"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T21:48:54.598Z",
+  "lastModified": "2025-06-17T21:51:43.068Z",
   "version": "1.0"
 }
