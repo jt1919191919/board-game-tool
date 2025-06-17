@@ -10024,9 +10024,74 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1750192683615": {
+      "bggId": "1750192683615",
+      "bggUrl": "https://boardgamegeek.com/boardgame/252929/planet",
+      "name": "Planet",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.6,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Urtis Šulinskas"
+      ],
+      "artists": [
+        "Sabrina Miramon"
+      ],
+      "publishers": [
+        "Blue Orange (EU)",
+        "Arclight Games",
+        "Blue Orange Games",
+        "Brain Games",
+        "Coiledspring Games",
+        "FoxMind Israel",
+        "Fractal Juegos",
+        "Gém Klub Kft.",
+        "Happy Color",
+        "Korea Boardgames",
+        "Lautapelit.fi",
+        "PaperGames (III)",
+        "Rebel Sp. z o.o.",
+        "Rozum",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/bTE1oeN-8Y-RdSpjR0b-2A__original/img/u-ZcZzzK3CLQZZJ-SlHjmSJHzwE=/0x0/filters:format(png)/pic4199323.png",
+        "https://cf.geekdo-images.com/bTE1oeN-8Y-RdSpjR0b-2A__thumb/img/72I7C1n3SD0nxifUrB6A24tuIxw=/fit-in/200x150/filters:strip_icc()/pic4199323.png"
+      ],
+      "notes": "",
+      "description": "The spark of life is about to jump from your hands to spread out in the world. Deploy your mountain ranges and your deserts, spread out your oceans and your glaciers. Handle wisely your continents to form environments suitable for the apparition of animal life and maybe you'll manage to create the most densely populated planet!&#10;&#10;In Planet, each player receives a planet core without anything on it. Each turn, players choose a tile with mountain/ice/forest/desert on it and place it on the planet. Then the player who fulfills the most conditions for the appearance of certain animals gains its card.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Environmental",
+        "Puzzle",
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Open Drafting",
+        "Tile Placement",
+        "Turn Order: Progressive"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T20:37:44.702Z",
+  "lastModified": "2025-06-17T20:38:03.616Z",
   "version": "1.0"
 }
