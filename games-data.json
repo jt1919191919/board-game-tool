@@ -10623,9 +10623,54 @@
         "Turn Order: Claim Action"
       ],
       "customFields": {}
+    },
+    "1750196934598": {
+      "bggId": "1750196934598",
+      "bggUrl": "https://boardgamegeek.com/boardgame/6485/quidditch-the-game",
+      "name": "Quidditch: The Game",
+      "year": 2000,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 14
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.7,
+      "weightColor": "#008000",
+      "bestPlayerCount": [],
+      "designers": [
+        "(Uncredited)"
+      ],
+      "artists": [],
+      "publishers": [
+        "University Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/b_ZHjTv2AJI1bVpiN6XdiA__original/img/KoLLHHRVnOGf_xt-ilFg79KK004=/0x0/filters:format(jpeg)/pic872997.jpg",
+        "https://cf.geekdo-images.com/b_ZHjTv2AJI1bVpiN6XdiA__thumb/img/GMICspBaD5P5hBtOpWV-NPry3Uk=/fit-in/200x150/filters:strip_icc()/pic872997.jpg"
+      ],
+      "notes": "",
+      "description": "Players control 14 quidditch pieces on a hex board quidditch field. Teams take turns rolling and moving, turning over tiles to search for the snitch, or finding quaffles to shoot thru the hoops. Various other tiles reveal bonuses and penalties. When a player wants to score with a quaffle, he loads a quaffle ball into a miniature catapult and tries to launch it through hoop. That scores 10 points. If a seeker token finds the snitch, the team scores 150 points, ends the game, and more likely than not, wins.&#10;&#10;",
+      "category": [
+        "Action / Dexterity",
+        "Children's Game",
+        "Fantasy",
+        "Novel-based",
+        "Sports"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Roll / Spin and Move"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T21:48:15.779Z",
+  "lastModified": "2025-06-17T21:48:54.598Z",
   "version": "1.0"
 }
