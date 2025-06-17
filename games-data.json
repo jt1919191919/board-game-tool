@@ -10925,9 +10925,79 @@
         "Track Movement"
       ],
       "customFields": {}
+    },
+    "1750197503501": {
+      "bggId": "1750197503501",
+      "bggUrl": "https://boardgamegeek.com/boardgame/161417/red7",
+      "name": "Red7",
+      "year": 2014,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.7,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Carl Chudyk",
+        "Chris Cieslik"
+      ],
+      "artists": [
+        "Alanna Cervenak",
+        "TANSAN Inc."
+      ],
+      "publishers": [
+        "Asmadi Games",
+        "999 Games",
+        "Albi",
+        "Bureau de Juegos",
+        "Buró",
+        "Cranio Creations",
+        "Group SNE",
+        "Hobby World",
+        "Lucrum Games",
+        "MINDOK",
+        "MTS Games",
+        "Nuts! Publishing",
+        "PaperGames (III)",
+        "Tranjis Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/7zH6Kt5ebWEixjDGmHweNA__original/img/fABY4SjThfxj2NO1SL_G_FzbX7M=/0x0/filters:format(png)/pic2247258.png",
+        "https://cf.geekdo-images.com/7zH6Kt5ebWEixjDGmHweNA__thumb/img/PVkJyJhCtzo1ZwKO4iuRaqUyKJc=/fit-in/200x150/filters:strip_icc()/pic2247258.png"
+      ],
+      "notes": "",
+      "description": "The rules of &quot;Red&quot; are simple: highest card wins! But &quot;Red&quot; is just one of seven games you'll be playing in Red7, and if you're not winning the current game at the end of your turn, you're out! The last person standing wins the round.&#10;&#10;The deck in Red7 is 49 cards: each of the colors of the rainbow numbered 1 to 7. A hand takes just a couple minutes!&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Number"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Ladder Climbing",
+        "Move Through Deck",
+        "Multi-Use Cards",
+        "Pattern Building",
+        "Player Elimination",
+        "Score-and-Reset Game",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T21:57:59.202Z",
+  "lastModified": "2025-06-17T21:58:23.501Z",
   "version": "1.0"
 }
