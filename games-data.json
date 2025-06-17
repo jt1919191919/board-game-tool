@@ -8419,9 +8419,88 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1750127483322": {
+      "bggId": "1750127483322",
+      "bggUrl": "https://boardgamegeek.com/boardgame/318977/micromacro-crime-city",
+      "name": "MicroMacro: Crime City",
+      "year": 2020,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Johannes Sich"
+      ],
+      "artists": [
+        "Daniel Goll",
+        "Tobias Jochinke",
+        "Johannes Sich"
+      ],
+      "publishers": [
+        "Edition Spielwiese",
+        "Artipia Games",
+        "Blackrock Games",
+        "Brädspel.se",
+        "Brain Games",
+        "Galápagos Jogos",
+        "Hobby Japan",
+        "Jolly Thinkers",
+        "Lautapelit.fi",
+        "Lifestyle Boardgames Ltd",
+        "Lucky Duck Games",
+        "Mandoo Games",
+        "Meanbook Games",
+        "MINDOK",
+        "MS Edizioni",
+        "Nova Era (Нова Ера)",
+        "Oxygame",
+        "Pegasus Spiele",
+        "Ravnica",
+        "Rawstone",
+        "Reflexshop",
+        "SD Games",
+        "Siam Board Games",
+        "Spilaborg hf.",
+        "Vennerød Forlag AS",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/bLL3P-G25nIUkFjHxfJfnw__original/img/HBEhgjfb0QcF9pFrdJ8VYhBapoU=/0x0/filters:format(jpeg)/pic7632081.jpg",
+        "https://cf.geekdo-images.com/bLL3P-G25nIUkFjHxfJfnw__thumb/img/XY_Z5rRJe3IPLRfOvWp70OM2B68=/fit-in/200x150/filters:strip_icc()/pic7632081.jpg"
+      ],
+      "notes": "",
+      "description": "Crimes have taken place all over the city, and you want to figure out exactly what's happened, so you'll need to look closely at the giant city map (75 x 110 cm / 29.5 x 43 inches) to find all the hidden information and trace the trails of those who had it in for their foes.&#10;&#10;MicroMacro: Crime City includes 16 cases for you to solve. Each case includes a number of cards that ask you to find something on the map or uncover where someone has gone or otherwise reveal information relevant to a case. The city map serves as a map in time as well as space, so you'll typically find people in multiple locations throughout the streets and buildings, and you need to piece together what happened, whether by going through the case card by card or by reading only the starting card in the case and trying to figure out everything that happened for yourself. Will you be able to answer all questions about the case without fail?&#10;&#10;The second edition of MicroMacro: Crime City now marks each case with symbols so that parents can decide which cases the youngest investigators are cleared to research.&#10;&#10;",
+      "category": [
+        "Deduction",
+        "Murder / Mystery"
+      ],
+      "mechanisms": [
+        "Cooperative Game",
+        "Deduction",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:30:55.161Z",
+  "lastModified": "2025-06-17T02:31:23.323Z",
   "version": "1.0"
 }
