@@ -98,6 +98,21 @@
             position: relative;
         }
 
+.search-icon {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #333;
+            pointer-events: none;
+            transition: opacity 0.2s ease;
+            z-index: 1;
+        }
+
+        .search-icon.hidden {
+            opacity: 0;
+        }
+
         .controls .search-box {
             max-width: 300px;
         }
@@ -922,8 +937,9 @@ button#clear-filters {
         </h1>
         
  <div class="controls">
-            <div class="search-box">
-<input type="text" id="search" placeholder="&#xf002;">
+<div class="search-box">
+                <i class="fa-solid fa-magnifying-glass search-icon" id="search-icon"></i>
+                <input type="text" id="search" style="padding-left: 2.5rem;">
             </div>
 <button class="btn clear-thumbs-btn" id="clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i>/<i class="fa-solid fa-eye-slash"></i></button>
 <button class="btn" id="toggle-filters"><i class="fa-solid fa-filter"></i> Filters</button>
@@ -945,8 +961,9 @@ button#clear-filters {
         </div>
 
 <div class="mobile-controls">
-            <div class="search-box">
-<input type="text" id="mobile-search" placeholder="&#xf002;">
+<div class="search-box">
+                <i class="fa-solid fa-magnifying-glass search-icon" id="mobile-search-icon"></i>
+                <input type="text" id="mobile-search" style="padding-left: 2.5rem;">
             </div>
 <button class="btn clear-thumbs-btn" id="mobile-clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i>/<i class="fa-solid fa-eye-slash"></i></button>
             <button class="btn" id="mobile-toggle-filters"><i class="fa-solid fa-filter"></i> Filters</button>
@@ -2093,7 +2110,7 @@ bindEvents() {
            });
        }
 
-       const mobileSearchElement = document.getElementById('mobile-search');
+const mobileSearchElement = document.getElementById('mobile-search');
        console.log('mobile-search element:', mobileSearchElement);
        if (mobileSearchElement) {
            mobileSearchElement.addEventListener('input', (e) => {
@@ -2104,6 +2121,10 @@ bindEvents() {
                this.applyFilters();
            });
        }
+
+       // Search icon visibility
+       this.setupSearchIcon('search', 'search-icon');
+       this.setupSearchIcon('mobile-search', 'mobile-search-icon');
 
 // Mobile menu
        const hamburgerBtn = document.getElementById('hamburger-btn');
@@ -4327,6 +4348,33 @@ updateClearThumbsVisibility() {
        
        if (clearBtn) clearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
        if (mobileClearBtn) mobileClearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
+   }
+
+setupSearchIcon(inputId, iconId) {
+       const input = document.getElementById(inputId);
+       const icon = document.getElementById(iconId);
+       
+       if (!input || !icon) return;
+
+       const hideIcon = () => {
+           icon.classList.add('hidden');
+       };
+
+       const showIcon = () => {
+           if (!input.value.trim()) {
+               icon.classList.remove('hidden');
+           }
+       };
+
+       input.addEventListener('focus', hideIcon);
+       input.addEventListener('blur', showIcon);
+       input.addEventListener('input', () => {
+           if (input.value.trim()) {
+               hideIcon();
+           } else {
+               showIcon();
+           }
+       });
    }
 
    getMultiselectValues(filterId) {
