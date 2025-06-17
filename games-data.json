@@ -9787,9 +9787,57 @@
         "Worker Placement"
       ],
       "customFields": {}
+    },
+    "1750192576840": {
+      "bggId": "1750192576840",
+      "bggUrl": "https://boardgamegeek.com/boardgame/1161/perquackey",
+      "name": "Perquackey",
+      "year": 1956,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.6,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2
+      ],
+      "designers": [
+        "Robert E. Hollingsworth",
+        "Elbert K. Hollingsworth"
+      ],
+      "artists": [],
+      "publishers": [
+        "Action GT",
+        "Cardinal",
+        "Hollingsworth Bros.",
+        "Lakeside"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/M9EE5an8FiTLjItb4UdhPw__original/img/ITgCBizb7jmUuSypga5vj8fnqK4=/0x0/filters:format(jpeg)/pic2604364.jpg",
+        "https://cf.geekdo-images.com/M9EE5an8FiTLjItb4UdhPw__thumb/img/3q3Cw2dGa-B6pcokQeyBuVyb1YE=/fit-in/200x150/filters:strip_icc()/pic2604364.jpg"
+      ],
+      "notes": "",
+      "description": "Perquackey is the &quot;other&quot; three minute word game.  You roll ten dice (thirteen if you have 2000 points) and must make words of three letters or more.  You can only use a form of a word once, and are limited to five of any length.  After the time is up, you score points for each word on your list, plus bonus points for filling consecutive groups (100 bonus points for five 3-letter words and five 4-letter words).  The game is to 5000, but that's easy to do in three or four turns.  You can only re-roll if you get no vowels, or all vowels.  A good quick word game, and best in  a small group.&#10;&#10;Perquackey is a word dice game.&#10;&#10;",
+      "category": [
+        "Dice",
+        "Word Game"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Spelling"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T20:35:55.779Z",
+  "lastModified": "2025-06-17T20:36:16.841Z",
   "version": "1.0"
 }
