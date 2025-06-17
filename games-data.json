@@ -9290,9 +9290,69 @@
         "Track Movement"
       ],
       "customFields": {}
+    },
+    "1750178365737": {
+      "bggId": "1750178365737",
+      "bggUrl": "https://boardgamegeek.com/boardgame/270314/ohanami",
+      "name": "Ohanami",
+      "year": 2019,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Steffen Benndorf"
+      ],
+      "artists": [
+        "Christian Opperer"
+      ],
+      "publishers": [
+        "Nürnberger-Spielkarten-Verlag",
+        "Arclight Games",
+        "FunMill.ru",
+        "Kaissa Chess & Games",
+        "Mercurio",
+        "Mnogoknig Games",
+        "Oya",
+        "Pandasaurus Games",
+        "Popcorn Games",
+        "Pravi Junak",
+        "White Goblin Games",
+        "Нескучные игры"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/U05-_kgQMravE5OLGuYRnw__original/img/2FfV1ZZsBm6rmQrzwmPoCFS2P-I=/0x0/filters:format(png)/pic5591129.png",
+        "https://cf.geekdo-images.com/U05-_kgQMravE5OLGuYRnw__thumb/img/eIwj7bu5oPWzswDzGfm73GHaPak=/fit-in/200x150/filters:strip_icc()/pic5591129.png"
+      ],
+      "notes": "",
+      "description": "Ohanami consists of a deck of 120 cards that are numbered from 1-120, with each card having one of four symbols on it. The game lasts three rounds, with players scoring at the end of each round, in addition to bonus scoring at the end of the game.&#10;&#10;At the start of a round, each player receives a hand of ten cards. Each player chooses two cards, then passes the remaining cards to the left. All players reveal their cards at the same time, then decide whether to use 0, 1, or 2 of them in personal rows of cards. When you start a row, you can use any card; to add a card to an existing row, that card must be higher than the row's highest card or lower than the lowest one. A player can have at most three rows of cards. Discard any cards you don't use.&#10;&#10;Players repeat this drafting, passing, and playing process until they have played ten cards. The first round ends, and players now receive 3 points for each blue card in their rows.&#10;&#10;Players then receive a new hand of ten cards to start round 2, once again choosing two cards and passing the rest, but now to the right. Players continue building on the rows that they already have, scoring 3 points for each blue card and 4 points for each green card at the end of round two.&#10;&#10;For round three, players have ten more cards and pass cards to the left once again. At the end of this round, players once again score for their blue and green cards, while also receiving 7 points for each gray card in their rows. Additionally, each player scores for their pink cherry blossom cards, with these cards having a pyramidal scoring structure: one card = 1 point, two cards = 3, three cards = 6, etc. Whoever has the highest total score wins!&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Number"
+      ],
+      "mechanisms": [
+        "Closed Drafting",
+        "Ordering",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T16:39:03.687Z",
+  "lastModified": "2025-06-17T16:39:25.738Z",
   "version": "1.0"
 }
