@@ -7957,9 +7957,72 @@
         "Dice Rolling"
       ],
       "customFields": {}
+    },
+    "1750126477185": {
+      "bggId": "1750126477185",
+      "bggUrl": "https://boardgamegeek.com/boardgame/295374/long-shot-dice-game",
+      "name": "Long Shot: The Dice Game",
+      "year": 2022,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 8
+      },
+      "playtime": {
+        "min": 25,
+        "max": 25
+      },
+      "weight": 1.9,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Chris Handy (I)"
+      ],
+      "artists": [
+        "Clau Souza"
+      ],
+      "publishers": [
+        "Perplext",
+        "Delirium Games",
+        "Games7Days",
+        "Popcorn Games",
+        "Tabletop KZ"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/j9RO81ihYw0_oPj6iqV_bA__original/img/-jPNsFg5d9uA7D4WGDIP3TNLHX4=/0x0/filters:format(jpeg)/pic6682376.jpg",
+        "https://cf.geekdo-images.com/j9RO81ihYw0_oPj6iqV_bA__thumb/img/iRomFjZ0oELmm1pBVtJrNwyl4nc=/fit-in/200x150/filters:strip_icc()/pic6682376.jpg"
+      ],
+      "notes": "",
+      "description": "This is your ticket to the track!&#10;&#10;In Long Shot: The Dice Game, you and up to seven other players will strategize and push your luck as the action unfolds in a tense race of eight horses. During the game you buy horses, place bets, influence race movement, and utilize special abilities. The roll of the dice determines which horses move and the options available each turn, so be ready to adapt your plans. Once three horses cross the finish line, earnings are totaled. While there are many ways to earn money during a horse race, only the player that makes the most money will be declared the winner. Will you play it safe, or risk it big on a long shot?&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Dice",
+        "Racing",
+        "Sports"
+      ],
+      "mechanisms": [
+        "Bids As Wagers",
+        "Bingo",
+        "Dice Rolling",
+        "End Game Bonuses",
+        "Paper-and-Pencil",
+        "Solo / Solitaire Game",
+        "Victory Points as a Resource"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:14:12.779Z",
+  "lastModified": "2025-06-17T02:14:37.186Z",
   "version": "1.0"
 }
