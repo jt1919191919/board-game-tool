@@ -9969,9 +9969,64 @@
         "Pattern Recognition"
       ],
       "customFields": {}
+    },
+    "1750192664701": {
+      "bggId": "1750192664701",
+      "bggUrl": "https://boardgamegeek.com/boardgame/246200/piepmatz",
+      "name": "Piepmatz",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 2.1,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Ben Pinchback",
+        "Matt Riddle"
+      ],
+      "artists": [
+        "Klemens Franz",
+        "Mike Langman"
+      ],
+      "publishers": [
+        "ASS Altenburger Spielkarten",
+        "Funforge",
+        "Hobby Game Mall",
+        "Lookout Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/lM562k2J-ggPAC8poi5DtQ__original/img/tNjmBBvWhnFYVU5_BF40JQDNjeA=/0x0/filters:format(jpeg)/pic4130571.jpg",
+        "https://cf.geekdo-images.com/lM562k2J-ggPAC8poi5DtQ__thumb/img/E7HWXUc8ah3KTDXm7TMFfWRNVok=/fit-in/200x150/filters:strip_icc()/pic4130571.jpg"
+      ],
+      "notes": "",
+      "description": "In Piepmatz, you skillfully play bird cards from your hand to collect seeds and birds at the bird feeder. Seeds and mated pairs of birds in your collection are worth points. Single birds score only if you have the most of their species. The course of play is the same for all numbers of players. On a turn, you go through these three phases in order:&#10;&#10;&#10;    Play a card &mdash; Select a bird card from your hand and place it face up at a perch of your choice.&#10;    Resolve effects &mdash; Compare the birds on the ground with the bird at the perch. Take a seed card or add a bird to your collection. Move a bird to the feeder. &#10;    Draw new cards &mdash; Replenish your hand.&#10;&#10;&#10;The game end is triggered when you are supposed to draw a card from an empty feeder deck. Play continues until all players have had an equal number of turns. Each player now chooses two bird cards from their hand and discards them face down. Once all players have done this, add your remaining two bird cards to your collection and commence the scoring. You score points for seeds, mated pairs of birds, and species majorities. Whoever has the most points wins.&#10;&#10;",
+      "category": [
+        "Animals",
+        "Card Game",
+        "Number"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Open Drafting",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T20:37:25.522Z",
+  "lastModified": "2025-06-17T20:37:44.702Z",
   "version": "1.0"
 }
