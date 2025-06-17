@@ -9487,9 +9487,58 @@
         "Voting"
       ],
       "customFields": {}
+    },
+    "1750178428173": {
+      "bggId": "1750178428173",
+      "bggUrl": "https://boardgamegeek.com/boardgame/1985/overturn",
+      "name": "Overturn",
+      "year": 1987,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "playtime": {
+        "min": 10,
+        "max": 10
+      },
+      "weight": 1.6,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2
+      ],
+      "designers": [
+        "Ron Dubren",
+        "Pat Dubren"
+      ],
+      "artists": [],
+      "publishers": [
+        "Decipher",
+        "Holdson",
+        "Playtoy Industries",
+        "Pressman Toy Corp."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/2w9DPslUfIpc5mWOIckCUQ__original/img/7VEKPukosjfblZLYjpgPz4FmI7Y=/0x0/filters:format(png)/pic5474327.png",
+        "https://cf.geekdo-images.com/2w9DPslUfIpc5mWOIckCUQ__thumb/img/ZlTPFNz3YZQlOhaa5rFUoH8A5-E=/fit-in/200x150/filters:strip_icc()/pic5474327.png"
+      ],
+      "notes": "",
+      "description": "Overturn is a two-player word game that blends vocabulary skills with strategic play, reminiscent of Othello but with a linguistic twist. Players take turns forming words by placing colored rings over letters on a modular board. If a player uses a letter already claimed by the opponent, they can flip the ring to their own color, effectively &quot;overturning&quot; control of that space. The game continues until all letters are used or no more words can be formed, and the player with the most rings in their color wins.&#10;&#10;1993 Mensa Select&#10;&#10;",
+      "category": [
+        "Puzzle",
+        "Word Game"
+      ],
+      "mechanisms": [
+        "Area Movement",
+        "Modular Board",
+        "Spelling"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T16:40:06.866Z",
+  "lastModified": "2025-06-17T16:40:28.174Z",
   "version": "1.0"
 }
