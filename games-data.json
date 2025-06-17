@@ -10852,9 +10852,82 @@
         "Different Worker Types"
       ],
       "customFields": {}
+    },
+    "1750197479201": {
+      "bggId": "1750197479201",
+      "bggUrl": "https://boardgamegeek.com/boardgame/351040/ready-set-bet",
+      "name": "Ready Set Bet",
+      "year": 2022,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 9
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.3,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        9
+      ],
+      "designers": [
+        "John D. Clair"
+      ],
+      "artists": [
+        "Kirk W. Buckendorf",
+        "Athena Cagle"
+      ],
+      "publishers": [
+        "Alderac Entertainment Group",
+        "Boardgame Mall",
+        "Broadway Toys LTD",
+        "Choo Choo Games",
+        "CMON Global Limited",
+        "Devir",
+        "IELLO",
+        "Lucky Duck Games",
+        "Reflexshop",
+        "Strohmann Games",
+        "Sugorokuya",
+        "TLAMA games",
+        "Zito! Ώρα για παιχνίδι"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/4ZCV2o_OiGha0bknXDTfdA__original/img/3ITIxi3iZsBvjnYWAn2KWRBAO-M=/0x0/filters:format(jpeg)/pic6678381.jpg",
+        "https://cf.geekdo-images.com/4ZCV2o_OiGha0bknXDTfdA__thumb/img/S3t6BJifjuZMOwfnUQ6lcdUx9RA=/fit-in/200x150/filters:strip_icc()/pic6678381.jpg"
+      ],
+      "notes": "",
+      "description": "In Ready Set Bet, you and your friends head to the races for a day of cheering, jeering, and betting on your favorite horses, whose fates hang on every roll of the dice.&#10;&#10;Ready Set Bet is played over four rounds. Each round consists of a race followed by bet resolution. During each race, players freely place their bet tokens on the board while the race is going on. After each race, players win or lose money for each of their placed bet tokens, then receive a VIP Club Card to help them win more money in the following races. After four rounds, the player with the most money wins!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Animals",
+        "Party Game",
+        "Racing",
+        "Real-time",
+        "Sports"
+      ],
+      "mechanisms": [
+        "Betting and Bluffing",
+        "Dice Rolling",
+        "Real-Time",
+        "Track Movement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T21:57:22.266Z",
+  "lastModified": "2025-06-17T21:57:59.202Z",
   "version": "1.0"
 }
