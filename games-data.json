@@ -9435,9 +9435,61 @@
         "Voting"
       ],
       "customFields": {}
+    },
+    "1750178406866": {
+      "bggId": "1750178406866",
+      "bggUrl": "https://boardgamegeek.com/boardgame/346677/oneironauts",
+      "name": "Oneironauts",
+      "year": 2022,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        5,
+        6
+      ],
+      "designers": [
+        "Oleksandr Nevskiy"
+      ],
+      "artists": [
+        "Dmytro Kryvonos",
+        "M81 Studio"
+      ],
+      "publishers": [
+        "IGAMES"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/OsUPrWDQoZxvxsCECd6UFQ__original/img/Dj5eAm0iXV3KkHyIAbllgXEBQmo=/0x0/filters:format(jpeg)/pic6635856.jpg",
+        "https://cf.geekdo-images.com/OsUPrWDQoZxvxsCECd6UFQ__thumb/img/ZdL09t3HPtD5BRbztq6Y9boG6s0=/fit-in/200x150/filters:strip_icc()/pic6635856.jpg"
+      ],
+      "notes": "",
+      "description": "Welcome to the Oneironauts dive center! This is where your journey through the dream ocean will begin!&#10;&#10;In Oneironauts, all players play as one team. The game lasts a certain number of rounds. At the start of each round, take the top word card and place it face up. Each player chooses from their dream cards the one that matches the word on the card the best, then these cards are shuffled together with a random card before they're all revealed. Finally, all players simultaneously try to guess the card that was accidentally added. For each correct answer, the team scores 1 sheep. Players win if they collect 15 or more sheep before they run out of elixir; otherwise they lose.&#10;&#10;&mdash;description from the designer&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Humor",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Cooperative Game",
+        "Deduction",
+        "Simultaneous Action Selection",
+        "Targeted Clues",
+        "Voting"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T16:39:47.403Z",
+  "lastModified": "2025-06-17T16:40:06.866Z",
   "version": "1.0"
 }
