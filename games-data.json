@@ -10268,9 +10268,87 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1750192771484": {
+      "bggId": "1750192771484",
+      "bggUrl": "https://boardgamegeek.com/boardgame/180974/potion-explosion",
+      "name": "Potion Explosion",
+      "year": 2015,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.8,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Stefano Castelli",
+        "Andrea Crespi",
+        "Lorenzo Silva"
+      ],
+      "artists": [
+        "Giulia Ghigini"
+      ],
+      "publishers": [
+        "Horrible Guild",
+        "999 Games",
+        "ADC Blackfire Entertainment",
+        "BoardM Factory",
+        "CMON Global Limited",
+        "Cool Mini Or Not",
+        "Delta Vision Publishing",
+        "Edge Entertainment",
+        "Galápagos Jogos",
+        "Games7Days",
+        "Ghenos Games",
+        "HaKubia",
+        "HeidelBÄR Games",
+        "Heidelberger Spieleverlag",
+        "Hobby Japan",
+        "IELLO",
+        "InterHit",
+        "Lanlalen",
+        "MINDOK",
+        "Rebel Sp. z o.o.",
+        "SuperHeated Neurons",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/vwjYMFporFhvAU48k73MIw__original/img/6sAfG89R42SJRv2wjiItRTMmcoQ=/0x0/filters:format(jpeg)/pic7298696.jpg",
+        "https://cf.geekdo-images.com/vwjYMFporFhvAU48k73MIw__thumb/img/uNBrY-gqZLq7aiv1E_pDsc3vmyE=/fit-in/200x150/filters:strip_icc()/pic7298696.jpg"
+      ],
+      "notes": "",
+      "description": "Potion Explosion is a game for 2 to 4 players by Horrible Games.&#10;It was designed by Lorenzo Silva, Andrea Crespi and Stefano Castelli.&#10;&#10;Dear students, it's time for the final exams of the Potions class! The rules are always the same: Take an ingredient marble from the dispenser and watch the others fall. If you connect marbles of the same color, they explode and you can take them, too! Complete your potions using the marbles you collect, and drink them to unleash their magical power. Remember, though, that to win the Student of the Year award, being quick won't be enough: you'll also need to brew the most valuable potions in Potion Explosion!&#10;&#10;",
+      "category": [
+        "Fantasy",
+        "Puzzle"
+      ],
+      "mechanisms": [
+        "Contracts",
+        "Open Drafting",
+        "Pattern Recognition",
+        "Set Collection",
+        "Take That",
+        "Variable Set-up"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T20:39:10.967Z",
+  "lastModified": "2025-06-17T20:39:31.485Z",
   "version": "1.0"
 }
