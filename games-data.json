@@ -7839,9 +7839,70 @@
         "Simultaneous Action Selection"
       ],
       "customFields": {}
+    },
+    "1750126378861": {
+      "bggId": "1750126378861",
+      "bggUrl": "https://boardgamegeek.com/boardgame/160851/lanterns-harvest-festival",
+      "name": "Lanterns: The Harvest Festival",
+      "year": 2015,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.5,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Christopher Chung"
+      ],
+      "artists": [
+        "Christopher Chung",
+        "Alexey Kot",
+        "Beth Sobel"
+      ],
+      "publishers": [
+        "Foxtrot Games",
+        "Renegade Game Studios",
+        "Broadway Toys LTD",
+        "CrowD Games",
+        "Devir",
+        "Games Factory Publishing",
+        "Korea Boardgames",
+        "Lex Games",
+        "Matagot",
+        "Pegasus Spiele",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/JmY4nVWwW98qEn0NRbKdTw__original/img/a5OqnY-e8hhVO1IHp6wZKnXHWlY=/0x0/filters:format(png)/pic2372790.png",
+        "https://cf.geekdo-images.com/JmY4nVWwW98qEn0NRbKdTw__thumb/img/qQuRUZQAineOCl4abLvZgPjnqTE=/fit-in/200x150/filters:strip_icc()/pic2372790.png"
+      ],
+      "notes": "",
+      "description": "The harvest is in, and the artisans are hard at work preparing for the upcoming festival. Decorate the palace lake with floating lanterns and compete to become the most honored artisan when the festival begins.&#10;&#10;In Lanterns: The Harvest Festival, players have a hand of tiles depicting various color arrangements of floating lanterns, as well as an inventory of individual lantern cards of specific colors. When you place a tile, all players (you and your opponents) receive a lantern card corresponding to the color on the side of the tile facing them. Place carefully to earn cards and other bonuses for yourself, while also looking to deny your opponents. Players gain honor by dedicating sets of lantern cards &mdash; three pairs, for example, or all seven colors &mdash; and the player with the most honor at the end of the game wins.&#10;&#10;",
+      "category": [
+        "Abstract Strategy"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Pattern Building",
+        "Set Collection",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T02:11:45.683Z",
+  "lastModified": "2025-06-17T02:12:58.862Z",
   "version": "1.0"
 }
