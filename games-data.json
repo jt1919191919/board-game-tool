@@ -10783,9 +10783,78 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1750197442265": {
+      "bggId": "1750197442265",
+      "bggUrl": "https://boardgamegeek.com/boardgame/170042/raiders-north-sea",
+      "name": "Raiders of the North Sea",
+      "year": 2015,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 80,
+        "max": 80
+      },
+      "weight": 2.6,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Shem Phillips"
+      ],
+      "artists": [
+        "Mihajlo Dimitrievski"
+      ],
+      "publishers": [
+        "Garphill Games",
+        "Angry Lion Games",
+        "Banana Games",
+        "CrowD Games",
+        "Games Factory Publishing",
+        "Ghenos Games",
+        "Kaissa Chess & Games",
+        "MeepleBR",
+        "MIPL",
+        "Mosigra",
+        "Pixie Games",
+        "Primigenio",
+        "Renegade Game Studios",
+        "REXhry",
+        "Schwerkraft-Verlag",
+        "White Goblin Games",
+        "Ігромаг"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/hXdfAhgZ8OeyWLunt36wlw__original/img/f5wjooKB2dGPBlBzws5cDsuuJ-k=/0x0/filters:format(jpeg)/pic3578101.jpg",
+        "https://cf.geekdo-images.com/hXdfAhgZ8OeyWLunt36wlw__thumb/img/vh7ttK5C_kKf5YZNYOY4vfsgXHU=/fit-in/200x150/filters:strip_icc()/pic3578101.jpg"
+      ],
+      "notes": "",
+      "description": "Raiders of the North Sea is set in the central years of the Viking Age. As Viking warriors, players seek to impress the Chieftain by raiding unsuspecting settlements. To do so, players need to assemble a crew, collect provisions, and journey north to plunder gold, iron and livestock. Glory can be found in battle, even at the hands of the Valkyrie, so gather your warriors because it's raiding season!&#10;&#10;To impress the Chieftain, you need victory points (VPs), with those being acquired primarily by raiding settlements, taking plunder, and making offerings to the Chieftain. How you use your plunder is also vital to your success. Players take turns in clockwise order, and on a turn you place a worker and resolve its action, then pick up a different worker and resolve its action. Broadly speaking, those actions fall in one of two categories:&#10;&#10;&#10;     Work: Having a good crew and enough provisions are vital to successful raiding, so before making any raids, players need to do some work to prepare their crew and collect supplies. This is all done in the village at the bottom of the game board, with eight buildings offering various actions. You must first place your worker in an available building where no other worker is present, then pick up a different worker from a different building.&#10;&#10;&#10;&#10;     Raid: Once players have hired enough crew and collected provisions, you may choose to raid on your turn. To raid a settlement &mdash; whether a harbor, outpost, monastery or fortress &mdash; you need to meet three requirements: Having a large enough crew, having enough provisions (along with gold for monasteries and fortresses, and having a worker of the right color. Raiding offers various ways of scoring, such as military strength, plunder, and Valkyries, which is how grey and white workers enter the game.&#10;&#10;&#10;The game ends when only one fortress raid remains, all Valkyrie have been removed, or all offerings have been made, then players tally their scores.&#10;&#10;",
+      "category": [
+        "Medieval",
+        "Nautical"
+      ],
+      "mechanisms": [
+        "Contracts",
+        "Dice Rolling",
+        "Hand Management",
+        "Worker Placement",
+        "Worker Placement",
+        "Different Worker Types"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T21:56:54.577Z",
+  "lastModified": "2025-06-17T21:57:22.266Z",
   "version": "1.0"
 }
