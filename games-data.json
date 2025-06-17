@@ -9120,9 +9120,66 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1750147455819": {
+      "bggId": "1750147455819",
+      "bggUrl": "https://boardgamegeek.com/boardgame/306321/night-ninja",
+      "name": "Night of the Ninja",
+      "year": 2021,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 4,
+        "max": 11
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.9,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "designers": [
+        "Justin Gary"
+      ],
+      "artists": [
+        "Ben Charman"
+      ],
+      "publishers": [
+        "Brotherwise Games",
+        "Broadway Toys LTD",
+        "GaGa Games",
+        "狗吠火車"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__original/img/ylHi_WPL5I4FAHbQaaOm5QZW7uc=/0x0/filters:format(jpeg)/pic5426946.jpg",
+        "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__thumb/img/r6HitXm51jUA9MgnzrObznLnGUM=/fit-in/200x150/filters:strip_icc()/pic5426946.jpg"
+      ],
+      "notes": "",
+      "description": "Night of the Ninja is a fast-paced game of deadly secrets, midnight assassinations, and paper-thin alliances. In Night of the Ninja, your mission is to defeat a rival ninja House ...if you can figure out who they are!  Each round, you choose your ninja role: a Spy or Fortune Teller gains valuable information, but only a Shinobi or Blind Assassin can cut down an opponent. To win, you&rsquo;ll have to trick your opponents, figure out who can&rsquo;t be trusted, and fight for your House!&#10;&#10;Night of the Ninja supports 4-11 players, and a single round can play out within 5 minutes. Created by Justin Gary (Ascension, Shards of Infinity), it's designed to appeal to anyone from novice gamers to social deduction enthusiasts. Every card features papercraft art by Ben Charman, intricately hand-cut and photographed to create a unique, evocative visual style.&#10;&#10;Night of the Ninja offers several twists on the social deduction genre. The team-based play means you can win Honor even if you die, as long as your House prevails. Each round begins by drafting Ninja cards, and no role is strictly better than others. The deadliest cards are also the last to be played, and gathering information can be as valuable as assassinating another player.&#10;&#10;Night of the Ninja contains everything needed for up eleven players: 33 Ninja cards, 11 House cards, 11 Player standees, and 35 Honor tokens.&#10;&#10;",
+      "category": [
+        "Bluffing",
+        "Deduction",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Closed Drafting",
+        "Hidden Roles",
+        "Team-Based Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T08:03:52.506Z",
+  "lastModified": "2025-06-17T08:04:15.820Z",
   "version": "1.0"
 }
