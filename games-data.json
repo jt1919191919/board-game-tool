@@ -10346,9 +10346,78 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1750192798821": {
+      "bggId": "1750192798821",
+      "bggUrl": "https://boardgamegeek.com/boardgame/260180/project-l",
+      "name": "Project L",
+      "year": 2020,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 1.6,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Michal Mikeš",
+        "Jan Soukal",
+        "Adam Španěl"
+      ],
+      "artists": [
+        "Jaroslav Jurica",
+        "Marek Loskot",
+        "Pavel Richter"
+      ],
+      "publishers": [
+        "Boardcubator",
+        "ADC Blackfire Entertainment",
+        "CrowD Games",
+        "Galápagos Jogos",
+        "Gém Klub Kft.",
+        "Hobby Japan",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lord of Boards",
+        "Rebel Sp. z o.o.",
+        "Siam Board Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/Zwx2ZXS6r6PaxhkaVEe75Q__original/img/nBfsV9V5a-xc3uJkYhE0DN-QVjI=/0x0/filters:format(jpeg)/pic4309147.jpg",
+        "https://cf.geekdo-images.com/Zwx2ZXS6r6PaxhkaVEe75Q__thumb/img/3x5kSxZlvLK6PdeMHX9xd_sSTMs=/fit-in/200x150/filters:strip_icc()/pic4309147.jpg"
+      ],
+      "notes": "",
+      "description": "Build pieces, develop an engine, perfect your strategy, and win the game!&#10;&#10;Project L is a fast-paced, tile-matching brain burner with triple-layer 3D puzzles and acrylic pieces. Challenge your friends to a game of simple design but intricate gameplay that makes a lasting impression!&#10;&#10;The core of the game lies in using your pieces to complete puzzles. Starting with just two basic pieces, you use three actions every turn to develop a powerful engine. With more pieces of various types, you can efficiently complete even the most difficult puzzles. The puzzles you complete award you points or new pieces to further fuel your engine.&#10;&#10;Can you outsmart your opponents?&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Abstract Strategy",
+        "Puzzle",
+        "Video Game Theme"
+      ],
+      "mechanisms": [
+        "Action Points",
+        "Open Drafting",
+        "Pattern Building",
+        "Resource Queue",
+        "Solo / Solitaire Game",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-17T20:39:31.485Z",
+  "lastModified": "2025-06-17T20:39:58.822Z",
   "version": "1.0"
 }
