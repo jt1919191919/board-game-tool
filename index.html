@@ -2457,9 +2457,15 @@ if (mobileEditModeBtn) {
     mobileEditModeBtn.addEventListener('click', () => {
         this.toggleEditMode();
         const mobileMenu = document.getElementById('mobile-menu');
+        const hamburger = document.getElementById('hamburger-btn');
         if (mobileMenu) mobileMenu.classList.remove('show');
+        if (hamburger) {
+            hamburger.classList.remove('open');
+            hamburger.innerHTML = '☰';
+        }
     });
 }
+
 
 // Edit mode buttons - Desktop  
 const desktopEditModeBtn = document.getElementById('desktop-edit-mode-btn');
@@ -2470,23 +2476,6 @@ if (desktopEditModeBtn) {
         if (desktopMenu) desktopMenu.classList.remove('show');
     });
 }
-
-
-const desktopDiscardChangesBtn = document.getElementById('desktop-discard-changes-btn');
-       if (desktopDiscardChangesBtn) {
-           desktopDiscardChangesBtn.addEventListener('click', () => {
-               this.discardAllChanges();
-               document.getElementById('desktop-menu').classList.remove('show');
-           });
-       }
-
-const desktopSaveChangesBtn = document.getElementById('desktop-save-changes-btn');
-       if (desktopSaveChangesBtn) {
-           desktopSaveChangesBtn.addEventListener('click', () => {
-               this.saveAllChanges();
-               document.getElementById('desktop-menu').classList.remove('show');
-           });
-       }
 
 // Column controls
 const columnsControl = document.getElementById('columns-control');
@@ -2504,10 +2493,19 @@ if (columnsControl) {
            });
        }
 
-       document.getElementById('mobile-add-game-btn').addEventListener('click', () => {
-           document.getElementById('add-game-form').classList.add('show');
-           document.getElementById('mobile-menu').classList.remove('show');
-       });
+const mobileAddGameBtn = document.getElementById('mobile-add-game-btn');
+       if (mobileAddGameBtn) {
+           mobileAddGameBtn.addEventListener('click', () => {
+               document.getElementById('add-game-form').classList.add('show');
+               const mobileMenu = document.getElementById('mobile-menu');
+               const hamburger = document.getElementById('hamburger-btn');
+               if (mobileMenu) mobileMenu.classList.remove('show');
+               if (hamburger) {
+                   hamburger.classList.remove('open');
+                   hamburger.innerHTML = '☰';
+               }
+           });
+       }
 
        document.getElementById('close-form').addEventListener('click', () => {
            this.closeForm();
@@ -2555,32 +2553,12 @@ if (columnsControl) {
            this.importData(e.target.files[0]);
        });
 
+
 // Desktop menu controls
        document.getElementById('desktop-add-game-btn').addEventListener('click', () => {
            document.getElementById('add-game-form').classList.add('show');
            document.getElementById('desktop-menu').classList.remove('show');
        });
-
-document.getElementById('desktop-edit-mode-btn').addEventListener('click', () => {
-           this.toggleEditMode();
-           document.getElementById('desktop-menu').classList.remove('show');
-       });
-
-       const desktopDiscardChangesBtn = document.getElementById('desktop-discard-changes-btn');
-       if (desktopDiscardChangesBtn) {
-           desktopDiscardChangesBtn.addEventListener('click', () => {
-               this.discardAllChanges();
-               document.getElementById('desktop-menu').classList.remove('show');
-           });
-       }
-
-const desktopSaveChangesBtn = document.getElementById('desktop-save-changes-btn');
-       if (desktopSaveChangesBtn) {
-           desktopSaveChangesBtn.addEventListener('click', () => {
-               this.saveAllChanges();
-               document.getElementById('desktop-menu').classList.remove('show');
-           });
-       }
 
 // Header edit mode controls
 const saveChangesBtnHeader = document.getElementById('save-changes-btn');
@@ -2611,41 +2589,64 @@ if (mobileDiscardChangesBtnHeader) {
     });
 }
 
-       document.getElementById('desktop-share-btn').addEventListener('click', () => {
-           this.shareCollection();
-           document.getElementById('desktop-menu').classList.remove('show');
-       });
 
-       document.getElementById('desktop-export-btn').addEventListener('click', () => {
-           this.exportData();
-           document.getElementById('desktop-menu').classList.remove('show');
-       });
+// Desktop menu button event listeners
+       const desktopShareBtn = document.getElementById('desktop-share-btn');
+       if (desktopShareBtn) {
+           desktopShareBtn.addEventListener('click', () => {
+               this.shareCollection();
+               document.getElementById('desktop-menu').classList.remove('show');
+           });
+       }
 
-       document.getElementById('desktop-import-btn').addEventListener('click', () => {
-           document.getElementById('import-file').click();
-           document.getElementById('desktop-menu').classList.remove('show');
-       });
+       const desktopExportBtn = document.getElementById('desktop-export-btn');
+       if (desktopExportBtn) {
+           desktopExportBtn.addEventListener('click', () => {
+               this.exportData();
+               document.getElementById('desktop-menu').classList.remove('show');
+           });
+       }
 
-       document.getElementById('desktop-google-drive-signin').addEventListener('click', () => {
-           this.signInToGoogleDrive();
-           document.getElementById('desktop-menu').classList.remove('show');
-       });
+       const desktopImportBtn = document.getElementById('desktop-import-btn');
+       if (desktopImportBtn) {
+           desktopImportBtn.addEventListener('click', () => {
+               document.getElementById('import-file').click();
+               document.getElementById('desktop-menu').classList.remove('show');
+           });
+       }
 
-       document.getElementById('desktop-google-drive-signout').addEventListener('click', () => {
-           this.signOutFromGoogleDrive();
-           document.getElementById('desktop-menu').classList.remove('show');
-       });
+       const desktopGoogleDriveSignin = document.getElementById('desktop-google-drive-signin');
+       if (desktopGoogleDriveSignin) {
+           desktopGoogleDriveSignin.addEventListener('click', () => {
+               this.signInToGoogleDrive();
+               document.getElementById('desktop-menu').classList.remove('show');
+           });
+       }
+
+       const desktopGoogleDriveSignout = document.getElementById('desktop-google-drive-signout');
+       if (desktopGoogleDriveSignout) {
+           desktopGoogleDriveSignout.addEventListener('click', () => {
+               this.signOutFromGoogleDrive();
+               document.getElementById('desktop-menu').classList.remove('show');
+           });
+       }
 
        // Mobile Google Drive controls
-       document.getElementById('mobile-google-drive-signin').addEventListener('click', () => {
-           this.signInToGoogleDrive();
-           document.getElementById('mobile-menu').classList.remove('show');
-       });
+       const mobileGoogleDriveSignin = document.getElementById('mobile-google-drive-signin');
+       if (mobileGoogleDriveSignin) {
+           mobileGoogleDriveSignin.addEventListener('click', () => {
+               this.signInToGoogleDrive();
+               document.getElementById('mobile-menu').classList.remove('show');
+           });
+       }
 
-       document.getElementById('mobile-google-drive-signout').addEventListener('click', () => {
-           this.signOutFromGoogleDrive();
-           document.getElementById('mobile-menu').classList.remove('show');
-       });
+       const mobileGoogleDriveSignout = document.getElementById('mobile-google-drive-signout');
+       if (mobileGoogleDriveSignout) {
+           mobileGoogleDriveSignout.addEventListener('click', () => {
+               this.signOutFromGoogleDrive();
+               document.getElementById('mobile-menu').classList.remove('show');
+           });
+       }
 
        // Modal events
        document.addEventListener('click', (e) => {
