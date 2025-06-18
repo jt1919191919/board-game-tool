@@ -779,8 +779,12 @@ button#clear-filters {
                 justify-content: center;
             }
 
-            .hamburger {
+.hamburger {
                 display: block;
+            }
+            
+            #desktop-hamburger-btn {
+                display: none !important;
             }
             
             .controls {
@@ -975,7 +979,7 @@ button#clear-filters {
             <button class="hamburger" id="hamburger-btn" style="display: none;">☰</button>
         </h1>
         
- <div class="controls">
+<div class="controls">
 <div class="search-box">
                 <i class="fa-solid fa-magnifying-glass search-icon" id="search-icon"></i>
                 <input type="text" id="search" style="padding-left: 2.5rem; padding-right: 2rem;">
@@ -983,22 +987,11 @@ button#clear-filters {
             </div>
 <button class="btn" id="toggle-filters"><i class="fa-solid fa-arrow-down-wide-short"></i> Filters</button>
 <button class="btn clear-thumbs-btn" id="clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i> / <i class="fa-solid fa-eye-slash"></i></button>
-<button class="btn btn-primary" id="add-game-btn"><i class="fa-solid fa-plus"></i> Add Game</button>
-<button class="btn" id="edit-mode-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
-<div class="edit-mode-controls" id="edit-mode-controls">
-                <button class="btn btn-save" id="save-changes-btn">Save Changes</button>
-                <button class="btn btn-discard" id="discard-changes-btn">Discard Changes</button>
-            </div>
-<button class="btn" id="share-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Share Collection</button>
-<button class="btn" id="export-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i> Export Data</button>
-<button class="btn" id="import-btn"><i class="fa-solid fa-download"></i> Import Data</button>
 </div>
 
-        <div class="github-controls" style="position: absolute; top: 1rem; right: 1rem; display: flex; align-items: center; gap: 1rem;">
-            <span id="google-drive-status" style="font-size: 0.9rem;">Loading GitHub...</span>
-<button class="btn" id="google-drive-signin" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Connect GitHub</button>
-<button class="btn" id="google-drive-signout" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub</button>
-        </div>
+<button class="hamburger" id="desktop-hamburger-btn" style="position: absolute; top: 1rem; right: 1rem; display: block;">
+            <i class="fa-solid fa-circle-user"></i>
+        </button>
 
 <div class="mobile-controls" id="mobile-controls">
 <div class="search-box">
@@ -1024,7 +1017,22 @@ button#clear-filters {
 <button class="btn" id="mobile-import-btn"><i class="fa-solid fa-download"></i> Import Data</button>
 <button class="btn" id="mobile-google-drive-signin" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Connect GitHub</button>
 <button class="btn" id="mobile-google-drive-signout" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub</button>
-            <div id="mobile-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
+<div id="mobile-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
+        </div>
+
+<div class="mobile-menu" id="desktop-menu">
+<button class="btn btn-primary" id="desktop-add-game-btn"><i class="fa-solid fa-plus"></i> Add Game</button>
+<button class="btn" id="desktop-edit-mode-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
+            <div class="edit-mode-controls" id="desktop-edit-mode-controls">
+                <button class="btn btn-discard" id="desktop-discard-changes-btn">Discard Changes</button>
+                <button class="btn btn-save" id="desktop-save-changes-btn">Save Changes</button>
+            </div>
+<button class="btn" id="desktop-share-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Share Collection</button>
+<button class="btn" id="desktop-export-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i> Export Data</button>
+<button class="btn" id="desktop-import-btn"><i class="fa-solid fa-download"></i> Import Data</button>
+<button class="btn" id="desktop-google-drive-signin" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Connect GitHub</button>
+<button class="btn" id="desktop-google-drive-signout" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub</button>
+            <div id="desktop-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
         </div>
 </div>
 
@@ -1584,9 +1592,9 @@ async signOutFromGoogleDrive() {
 
 
 updateGoogleDriveUI() {
-    const signInBtn = document.getElementById('google-drive-signin');
-    const signOutBtn = document.getElementById('google-drive-signout');
-    const status = document.getElementById('google-drive-status');
+    const desktopSignInBtn = document.getElementById('desktop-google-drive-signin');
+    const desktopSignOutBtn = document.getElementById('desktop-google-drive-signout');
+    const desktopStatus = document.getElementById('desktop-google-drive-status');
     const mobileSignInBtn = document.getElementById('mobile-google-drive-signin');
     const mobileSignOutBtn = document.getElementById('mobile-google-drive-signout');
     const mobileStatus = document.getElementById('mobile-google-drive-status');
@@ -1594,18 +1602,18 @@ updateGoogleDriveUI() {
     const statusText = this.isSignedIn ? 'Connected to GitHub Storage' : 'Not connected to GitHub Storage';
     const statusColor = this.isSignedIn ? 'white' : 'red';
     
-    if (signInBtn && signOutBtn && status) {
+    if (desktopSignInBtn && desktopSignOutBtn && desktopStatus) {
         if (this.isSignedIn) {
-            signInBtn.style.display = 'none';
-            signOutBtn.style.display = 'inline-block';
+            desktopSignInBtn.style.display = 'none';
+            desktopSignOutBtn.style.display = 'block';
         } else {
-            signInBtn.style.display = 'inline-block';
-            signOutBtn.style.display = 'none';
+            desktopSignInBtn.style.display = 'block';
+            desktopSignOutBtn.style.display = 'none';
         }
-        signInBtn.innerHTML = '<i class="fa-solid fa-right-to-bracket"></i> Connect GitHub';
-        signOutBtn.innerHTML = '<i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub';
-        status.textContent = statusText;
-        status.style.color = statusColor;
+        desktopSignInBtn.innerHTML = '<i class="fa-solid fa-right-to-bracket"></i> Connect GitHub';
+        desktopSignOutBtn.innerHTML = '<i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub';
+        desktopStatus.textContent = statusText;
+        desktopStatus.style.color = statusColor;
     }
     
     if (mobileSignInBtn && mobileSignOutBtn && mobileStatus) {
@@ -2184,6 +2192,20 @@ this.setupClearSearch('mobile-search', 'mobile-search-clear');
            });
        }
 
+       // Desktop menu
+       const desktopHamburgerBtn = document.getElementById('desktop-hamburger-btn');
+       if (desktopHamburgerBtn) {
+           desktopHamburgerBtn.addEventListener('click', (e) => {
+               e.stopPropagation();
+               const desktopMenu = document.getElementById('desktop-menu');
+               if (desktopMenu) {
+                   const isOpen = desktopMenu.classList.contains('show');
+                   desktopMenu.classList.toggle('show');
+                   desktopHamburgerBtn.classList.toggle('open');
+                   desktopHamburgerBtn.innerHTML = isOpen ? '<i class="fa-solid fa-circle-user"></i>' : '✕';
+               }
+           });
+       }
 
 document.addEventListener('click', (e) => {
            const menu = document.getElementById('mobile-menu');
@@ -2192,6 +2214,14 @@ document.addEventListener('click', (e) => {
                menu.classList.remove('show');
                hamburger.classList.remove('open');
                hamburger.innerHTML = '☰';
+           }
+           
+           const desktopMenu = document.getElementById('desktop-menu');
+           const desktopHamburger = document.getElementById('desktop-hamburger-btn');
+           if (desktopMenu && desktopHamburger && !desktopMenu.contains(e.target) && !desktopHamburger.contains(e.target)) {
+               desktopMenu.classList.remove('show');
+               desktopHamburger.classList.remove('open');
+               desktopHamburger.innerHTML = '<i class="fa-solid fa-circle-user"></i>';
            }
        });
 
@@ -2506,13 +2536,56 @@ if (columnsControl) {
            this.importData(e.target.files[0]);
        });
 
-// Google Drive controls
-       document.getElementById('google-drive-signin').addEventListener('click', () => {
-           this.signInToGoogleDrive();
+// Desktop menu controls
+       document.getElementById('desktop-add-game-btn').addEventListener('click', () => {
+           document.getElementById('add-game-form').classList.add('show');
+           document.getElementById('desktop-menu').classList.remove('show');
        });
 
-       document.getElementById('google-drive-signout').addEventListener('click', () => {
+       document.getElementById('desktop-edit-mode-btn').addEventListener('click', () => {
+           this.toggleEditMode();
+           document.getElementById('desktop-menu').classList.remove('show');
+       });
+
+       const desktopDiscardChangesBtn = document.getElementById('desktop-discard-changes-btn');
+       if (desktopDiscardChangesBtn) {
+           desktopDiscardChangesBtn.addEventListener('click', () => {
+               this.discardAllChanges();
+               document.getElementById('desktop-menu').classList.remove('show');
+           });
+       }
+
+       const desktopSaveChangesBtn = document.getElementById('desktop-save-changes-btn');
+       if (desktopSaveChangesBtn) {
+           desktopSaveChangesBtn.addEventListener('click', () => {
+               this.saveAllChanges();
+               document.getElementById('desktop-menu').classList.remove('show');
+           });
+       }
+
+       document.getElementById('desktop-share-btn').addEventListener('click', () => {
+           this.shareCollection();
+           document.getElementById('desktop-menu').classList.remove('show');
+       });
+
+       document.getElementById('desktop-export-btn').addEventListener('click', () => {
+           this.exportData();
+           document.getElementById('desktop-menu').classList.remove('show');
+       });
+
+       document.getElementById('desktop-import-btn').addEventListener('click', () => {
+           document.getElementById('import-file').click();
+           document.getElementById('desktop-menu').classList.remove('show');
+       });
+
+       document.getElementById('desktop-google-drive-signin').addEventListener('click', () => {
+           this.signInToGoogleDrive();
+           document.getElementById('desktop-menu').classList.remove('show');
+       });
+
+       document.getElementById('desktop-google-drive-signout').addEventListener('click', () => {
            this.signOutFromGoogleDrive();
+           document.getElementById('desktop-menu').classList.remove('show');
        });
 
        // Mobile Google Drive controls
