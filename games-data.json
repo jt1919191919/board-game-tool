@@ -11792,9 +11792,120 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1750283114662": {
+      "bggId": "1750283114662",
+      "bggUrl": "https://boardgamegeek.com/boardgame/320/scrabble",
+      "name": "Scrabble",
+      "year": 1948,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.1,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Alfred Mosher Butts"
+      ],
+      "artists": [
+        "C. Leslie Crandall"
+      ],
+      "publishers": [
+        "(Unknown)",
+        "Alga",
+        "Barnes & Noble",
+        "Borras Plana S.A.",
+        "Brio AB",
+        "Cadaco",
+        "Cappelen Damm AS",
+        "Casa Estanciero S.R.L.",
+        "CEFA (Celulosa Fabril S. A.)",
+        "Chieftain Products",
+        "Clementoni",
+        "Dino Toys s. r. o.",
+        "Drechsler",
+        "Estrela",
+        "Falomir Juegos",
+        "Fundex",
+        "Habourdin International",
+        "Hasbro",
+        "Hearth & Hand with Magnolia",
+        "Holdson",
+        "Joker",
+        "Juegos Crone",
+        "Jumbo",
+        "KADABRA",
+        "Korea Boardgames",
+        "Kuvataide",
+        "Labo-Mix",
+        "Mattel",
+        "Inc.",
+        "Max Ploys",
+        "Milton Bradley",
+        "Murfett",
+        "N.W. Damm & Søn (Damm)",
+        "NeoTroy Games",
+        "The Op Games",
+        "Otto Maier Verlag",
+        "Parker Brothers",
+        "Paul Lamond Games Ltd",
+        "Piatnik",
+        "Playmix",
+        "Production & Marketing Company",
+        "Refax Oy",
+        "ren ehf.",
+        "Schowanek",
+        "Selchow & Righter",
+        "Sio",
+        "Spear's Games",
+        "Spectrum Games Corporation",
+        "Spil hf.",
+        "Super Impulse",
+        "SYU Creation",
+        "Tinderbox Entertainment",
+        "LLC",
+        "Tinderbox Games",
+        "ToyCo",
+        "T. R. Urban & Co.",
+        "Winning Moves Games (USA)",
+        "Winning Solutions (WS Game Company)",
+        "Xalingo Brinquedos",
+        "YOHAN",
+        "Zontik Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/mVmmntn2oQd0PfFrWBvwIQ__original/img/11jrKPiOVTNl5NwX83KGtTZEq40=/0x0/filters:format(jpeg)/pic404651.jpg",
+        "https://cf.geekdo-images.com/mVmmntn2oQd0PfFrWBvwIQ__thumb/img/RUmuGCB40FQH0en0R2nrcsSO7DE=/fit-in/200x150/filters:strip_icc()/pic404651.jpg"
+      ],
+      "notes": "",
+      "description": "In this classic word game, players use their seven drawn letter-tiles to form words on the gameboard. Each word laid out earns points based on the commonality of the letters used, with certain board spaces giving bonuses.  But a word can only be played if it uses at least one already-played tile or adds to an already-played word.  This leads to slightly tactical play, as potential words are rejected because they would give an opponent too much access to the better bonus spaces.&#10;&#10;Skip-a-cross was licensed by Selchow &amp; Righter and manufactured by Cadaco. Both games have identical rules but Skip-a-cross has tiles and racks made of cardboard instead of wood. The game was also published because not enough Scrabble games were manufactured to meet the demand.&#10;&#10;",
+      "category": [
+        "Word Game"
+      ],
+      "mechanisms": [
+        "End Game Bonuses",
+        "Hand Management",
+        "Spelling",
+        "Square Grid",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:44:46.455Z",
+  "lastModified": "2025-06-18T21:45:14.663Z",
   "version": "1.0"
 }
