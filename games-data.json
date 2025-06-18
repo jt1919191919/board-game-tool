@@ -12949,9 +12949,67 @@
         "Cooperative Game"
       ],
       "customFields": {}
+    },
+    "1750283716003": {
+      "bggId": "1750283716003",
+      "bggUrl": "https://boardgamegeek.com/boardgame/296626/sonora",
+      "name": "Sonora",
+      "year": 2020,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.1,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Rob Newton"
+      ],
+      "artists": [
+        "Tom Goyon",
+        "Michael Parla"
+      ],
+      "publishers": [
+        "Pandasaurus Games",
+        "Devir",
+        "Hobby World"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/Re1SNzgNsnh0IreSHD1ZNg__original/img/cqWtw2lBwkIZRf1zM3D0fBATswY=/0x0/filters:format(jpeg)/pic5183202.jpg",
+        "https://cf.geekdo-images.com/Re1SNzgNsnh0IreSHD1ZNg__thumb/img/wPOHAp1IYeZ-LOkoFdVCjGVQHoQ=/fit-in/200x150/filters:strip_icc()/pic5183202.jpg"
+      ],
+      "notes": "",
+      "description": "You have entered the Sonoran Desert, a place of vast beauty. Technicolor sunsets pop out over vistas revealing deep canyons, trickling tributaries, and ancient pueblo cliff dwellings. Immerse yourself in the secrets of the desert in a flick-and-write game in which cunning and dexterity meet.&#10;&#10;In Sonora, players flick wooden discs onto a game board representative of different vibrant landscapes across the Sonoran sands. Each area encompasses a different unique game, so skillful aim is required to play in the region of a player's choosing and score points on your dry-erase sheet! But watch out for other players eager to bump discs to score points for themselves.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Action / Dexterity",
+        "Animals"
+      ],
+      "mechanisms": [
+        "Action Points",
+        "Area Majority / Influence",
+        "Chaining",
+        "Enclosure",
+        "Flicking",
+        "Network and Route Building",
+        "Paper-and-Pencil",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:54:45.457Z",
+  "lastModified": "2025-06-18T21:55:16.003Z",
   "version": "1.0"
 }
