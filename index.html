@@ -989,9 +989,9 @@ button#clear-filters {
                 <button class="btn btn-save" id="save-changes-btn">Save Changes</button>
                 <button class="btn btn-discard" id="discard-changes-btn">Discard Changes</button>
             </div>
-<button class="btn" id="share-btn"><i class="fa-solid fa-share-from-square"></i> Share Collection</button>
-<button class="btn" id="export-btn"><i class="fa-solid fa-file-arrow-up"></i> Export Data</button>
-<button class="btn" id="import-btn"><i class="fa-solid fa-file-arrow-down"></i> Import Data</button>
+<button class="btn" id="share-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Share Collection</button>
+<button class="btn" id="export-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i> Export Data</button>
+<button class="btn" id="import-btn"><i class="fa-solid fa-download"></i> Import Data</button>
 </div>
 
         <div class="github-controls" style="position: absolute; top: 1rem; right: 1rem; display: flex; align-items: center; gap: 1rem;">
@@ -1007,22 +1007,21 @@ button#clear-filters {
                 <i class="fa-solid fa-times search-clear" id="mobile-search-clear" style="display: none;"></i>
             </div>
             <div class="mobile-buttons-row">
-<button class="btn" id="mobile-toggle-filters"><i class="fa-solid fa-arrow-down-wide-short"></i> Filters</button>
                 <button class="btn clear-thumbs-btn" id="mobile-clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i> / <i class="fa-solid fa-eye-slash"></i></button>
+<button class="btn" id="mobile-toggle-filters"><i class="fa-solid fa-arrow-down-wide-short"></i> Filters</button>
             </div>
         </div>
 
 <div class="mobile-menu" id="mobile-menu">
-<button class="btn" id="mobile-filters-btn"><i class="fa-solid fa-arrow-down-wide-short"></i> Filters</button>
 <button class="btn btn-primary" id="mobile-add-game-btn"><i class="fa-solid fa-plus"></i> Add Game</button>
 <button class="btn" id="mobile-edit-mode-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
             <div class="edit-mode-controls" id="mobile-edit-mode-controls">
                 <button class="btn btn-discard" id="mobile-discard-changes-btn">Discard Changes</button>
                 <button class="btn btn-save" id="mobile-save-changes-btn">Save Changes</button>
             </div>
-<button class="btn" id="mobile-share-btn"><i class="fa-solid fa-share-from-square"></i> Share Collection</button>
-<button class="btn" id="mobile-export-btn"><i class="fa-solid fa-file-arrow-up"></i> Export Data</button>
-<button class="btn" id="mobile-import-btn"><i class="fa-solid fa-file-arrow-down"></i> Import Data</button>
+<button class="btn" id="mobile-share-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Share Collection</button>
+<button class="btn" id="mobile-export-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i> Export Data</button>
+<button class="btn" id="mobile-import-btn"><i class="fa-solid fa-download"></i> Import Data</button>
 <button class="btn" id="mobile-google-drive-signin" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Connect GitHub</button>
 <button class="btn" id="mobile-google-drive-signout" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub</button>
             <div id="mobile-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
@@ -2245,31 +2244,6 @@ const mobileToggleFiltersBtn = document.getElementById('mobile-toggle-filters');
            });
        }
 
-const mobileFiltersBtn = document.getElementById('mobile-filters-btn');
-       if (mobileFiltersBtn) {
-           mobileFiltersBtn.addEventListener('click', () => {
-               const filters = document.getElementById('filters');
-               const mobileMenu = document.getElementById('mobile-menu');
-               const icon = mobileFiltersBtn.querySelector('i');
-               if (filters) {
-                   const isShowing = filters.classList.contains('show');
-                   filters.classList.toggle('show');
-                   
-                   if (isShowing) {
-                       // Closing filters
-                       icon.className = 'fa-solid fa-arrow-down-wide-short';
-                       mobileFiltersBtn.style.backgroundColor = '';
-                       mobileFiltersBtn.style.border = '';
-                   } else {
-                       // Opening filters
-                       icon.className = 'fa-solid fa-angle-up';
-                       mobileFiltersBtn.style.backgroundColor = '#744ea600';
-                       mobileFiltersBtn.style.border = '1px solid #ffffff';
-                   }
-               }
-               if (mobileMenu) mobileMenu.classList.remove('show');
-           });
-       }
 
 // Filter inputs
 const filterInputs = [
