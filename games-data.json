@@ -11502,9 +11502,112 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1750280381583": {
+      "bggId": "1750280381583",
+      "bggUrl": "https://boardgamegeek.com/boardgame/9220/saboteur",
+      "name": "Saboteur",
+      "year": 2004,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 10
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.3,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        10
+      ],
+      "designers": [
+        "Fréderic Moyersoen"
+      ],
+      "artists": [
+        "Andrea Boekhoff",
+        "Alexander Jung",
+        "Fréderic Moyersoen"
+      ],
+      "publishers": [
+        "AMIGO",
+        "999 Games",
+        "Albi",
+        "asmodee",
+        "Boardgame Space",
+        "Brain Games",
+        "Bureau de Juegos",
+        "Buró",
+        "Corfix",
+        "Dal Negro",
+        "Dr. Wood Challenge Centre",
+        "Fractal Juegos",
+        "G3",
+        "Gigamic",
+        "Giochi Uniti",
+        "HaKubia",
+        "Igroljub",
+        "Kaissa Chess & Games",
+        "Kikigagne?",
+        "Korea Boardgames",
+        "Land of Beautiful Mind (سرزمین ذهن زیبا)",
+        "Lautapelit.fi",
+        "Lifestyle Boardgames Ltd",
+        "Mayfair Games",
+        "Meeples Cafe",
+        "Mercurio",
+        "MIPL",
+        "Möbius Games",
+        "PaperGames (III)",
+        "Paradigm Infinitum Pte Ltd",
+        "Piatnik",
+        "Rebel Sp. z o.o.",
+        "Sun Team Day Hobby Company",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "VR Distribution",
+        "Z-Man Games",
+        "Взрослые дети",
+        "Ігромаг"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/0vJwP6NGa7GHPZKC3gplUw__original/img/TJDCd-PYySXmhQn-LC-y88JPA7U=/0x0/filters:format(jpeg)/pic3989824.jpg",
+        "https://cf.geekdo-images.com/0vJwP6NGa7GHPZKC3gplUw__thumb/img/B3j-is62fP09eHP34uFG_gsxNQs=/fit-in/200x150/filters:strip_icc()/pic3989824.jpg"
+      ],
+      "notes": "",
+      "description": "Players take on the role of dwarves. As miners, they are in a mine, hunting for gold. Suddenly, a pick axe swings down and shatters the mine lamp. The saboteur has struck. But which of the players are saboteurs? Will you find the gold, or will the fiendish actions of the saboteurs lead them to it first? After three rounds, the player with the most gold is the winner.&#10;&#10;With the help of Dwarf Cards, the players are assigned their role: either miner or saboteur. The roles are kept secret- they are only revealed at the end of the round.&#10;&#10;The Start Card and the three Goal Cards are placed onto the table, each seven cards away from the start and one card between each Goal Card. The Goal Cards are placed face-down. The gold is on one of the Goal Cards, but nobody knows which.&#10;&#10;Players have cards in hand. On a player's turn, he must do one of three things: place a Path Card into the mine, play an Action Card in front of a player, or pass.&#10;&#10;The Path Cards form paths leading to the Goal Cards. Path Cards must be played next to a already-played Path Card. All paths on the Path Card must match those on the already-played cards, and Path Cards may not be played sideways.&#10;&#10;The miners are trying to build an uninterrupted path from the Start Card to a Goal Card, while the saboteurs are trying to prevent this. They shouldn't try and be too obvious about it, however, lest they be immediately discovered.&#10;&#10;Action Cards can be placed in front of any player, including oneself. Action Cards let the players help or hinder one another, as well as obtain information about the Goal Cards.&#10;&#10;Once a player places a Path Card that reaches the gold, the round is over. The miners have won and receive cards with gold pieces as their reward.&#10;&#10;The round is also over if the gold could not be reached. In that case, the saboteurs have won and receive the gold pieces.&#10;&#10;Once the Gold Cards have been distributed, the next round begins. The game is over at the end of the third round, with the player with the most gold pieces being the winner.&#10;&#10;",
+      "category": [
+        "Bluffing",
+        "Card Game",
+        "Exploration",
+        "Fantasy",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Hidden Roles",
+        "Hidden Victory Points",
+        "Map Addition",
+        "Network and Route Building",
+        "Score-and-Reset Game",
+        "Take That",
+        "Traitor Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T16:46:40.363Z",
+  "lastModified": "2025-06-18T20:59:41.585Z",
   "version": "1.0"
 }
