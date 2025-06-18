@@ -1013,13 +1013,10 @@ button#clear-filters {
             </div>
         </div>
 
+
 <div class="mobile-menu" id="mobile-menu">
 <button class="btn btn-primary" id="mobile-add-game-btn"><i class="fa-solid fa-plus"></i> Add Game</button>
 <button class="btn" id="mobile-edit-mode-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
-            <div class="edit-mode-controls" id="mobile-edit-mode-controls">
-                <button class="btn btn-discard" id="mobile-discard-changes-btn">Discard Changes</button>
-                <button class="btn btn-save" id="mobile-save-changes-btn">Save Changes</button>
-            </div>
 <button class="btn" id="mobile-share-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Share Collection</button>
 <button class="btn" id="mobile-export-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i> Export Data</button>
 <button class="btn" id="mobile-import-btn"><i class="fa-solid fa-download"></i> Import Data</button>
@@ -1031,10 +1028,6 @@ button#clear-filters {
 <div class="mobile-menu" id="desktop-menu">
 <button class="btn btn-primary" id="desktop-add-game-btn"><i class="fa-solid fa-plus"></i> Add Game</button>
 <button class="btn" id="desktop-edit-mode-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
-            <div class="edit-mode-controls" id="desktop-edit-mode-controls">
-                <button class="btn btn-discard" id="desktop-discard-changes-btn">Discard Changes</button>
-                <button class="btn btn-save" id="desktop-save-changes-btn">Save Changes</button>
-            </div>
 <button class="btn" id="desktop-share-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Share Collection</button>
 <button class="btn" id="desktop-export-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i> Export Data</button>
 <button class="btn" id="desktop-import-btn"><i class="fa-solid fa-download"></i> Import Data</button>
@@ -2233,6 +2226,31 @@ document.addEventListener('click', (e) => {
            }
        });
 
+       // Close menus when menu buttons are clicked
+       document.addEventListener('click', (e) => {
+           // Mobile menu buttons
+           if (e.target.closest('#mobile-menu .btn')) {
+               const menu = document.getElementById('mobile-menu');
+               const hamburger = document.getElementById('hamburger-btn');
+               if (menu && hamburger) {
+                   menu.classList.remove('show');
+                   hamburger.classList.remove('open');
+                   hamburger.innerHTML = '☰';
+               }
+           }
+           
+           // Desktop menu buttons
+           if (e.target.closest('#desktop-menu .btn')) {
+               const desktopMenu = document.getElementById('desktop-menu');
+               const desktopHamburger = document.getElementById('desktop-hamburger-btn');
+               if (desktopMenu && desktopHamburger) {
+                   desktopMenu.classList.remove('show');
+                   desktopHamburger.classList.remove('open');
+                   desktopHamburger.innerHTML = '<i class="fa-solid fa-circle-user"></i>';
+               }
+           }
+       });
+
 // Filter controls
        const toggleFiltersBtn = document.getElementById('toggle-filters');
        if (toggleFiltersBtn) {
@@ -2454,22 +2472,21 @@ if (desktopEditModeBtn) {
 }
 
 
-const mobileDiscardChangesBtn = document.getElementById('mobile-discard-changes-btn');
-if (mobileDiscardChangesBtn) {
-    mobileDiscardChangesBtn.addEventListener('click', () => {
-        this.discardAllChanges();
-        document.getElementById('mobile-menu').classList.remove('show');
-    });
-}
+const desktopDiscardChangesBtn = document.getElementById('desktop-discard-changes-btn');
+       if (desktopDiscardChangesBtn) {
+           desktopDiscardChangesBtn.addEventListener('click', () => {
+               this.discardAllChanges();
+               document.getElementById('desktop-menu').classList.remove('show');
+           });
+       }
 
-const mobileSaveChangesBtn = document.getElementById('mobile-save-changes-btn');
-if (mobileSaveChangesBtn) {
-    mobileSaveChangesBtn.addEventListener('click', () => {
-        this.saveAllChanges();
-        document.getElementById('mobile-menu').classList.remove('show');
-    });
-}
-
+const desktopSaveChangesBtn = document.getElementById('desktop-save-changes-btn');
+       if (desktopSaveChangesBtn) {
+           desktopSaveChangesBtn.addEventListener('click', () => {
+               this.saveAllChanges();
+               document.getElementById('desktop-menu').classList.remove('show');
+           });
+       }
 
 // Column controls
 const columnsControl = document.getElementById('columns-control');
@@ -2544,14 +2561,10 @@ if (columnsControl) {
            document.getElementById('desktop-menu').classList.remove('show');
        });
 
-const desktopEditBtn = document.getElementById('desktop-edit-mode-btn');
-       if (desktopEditBtn) {
-           desktopEditBtn.addEventListener('click', () => {
-               this.toggleEditMode();
-               const desktopMenu = document.getElementById('desktop-menu');
-               if (desktopMenu) desktopMenu.classList.remove('show');
-           });
-       }
+document.getElementById('desktop-edit-mode-btn').addEventListener('click', () => {
+           this.toggleEditMode();
+           document.getElementById('desktop-menu').classList.remove('show');
+       });
 
        const desktopDiscardChangesBtn = document.getElementById('desktop-discard-changes-btn');
        if (desktopDiscardChangesBtn) {
