@@ -130,14 +130,14 @@
         }
 
 .clear-thumbs-btn {
-            background: rgba(86, 76, 175, 0.2) !important;
+            background: rgba(86, 76, 175, 1) !important;
             white-space: nowrap;
             flex-shrink: 0;
             backdrop-filter: blur(10px);
         }
 
         .clear-thumbs-btn:hover {
-            background: rgba(86, 76, 175, 0.3) !important;
+            background: rgba(86, 76, 175, 0.6) !important;
             transform: translateY(-2px);
         }
 
@@ -168,12 +168,12 @@
         }
 
 .btn-primary {
-            background: rgba(76, 175, 134, 0.2);
+            background: rgba(76, 175, 134, 1);
             backdrop-filter: blur(10px);
         }
 
         .btn-primary:hover {
-            background: rgba(76, 175, 134, 0.3);
+            background: rgba(76, 175, 134, 0.6);
             transform: translateY(-2px);
         }
 
@@ -982,7 +982,7 @@ button#clear-filters {
                 <i class="fa-solid fa-times search-clear" id="search-clear" style="display: none;"></i>
             </div>
 <button class="btn" id="toggle-filters"><i class="fa-solid fa-arrow-down-wide-short"></i> Filters</button>
-<button class="btn clear-thumbs-btn" id="clear-thumbs-btn" style="display: none;"><i class="fa-solid fa-rotate-left"></i> Reset <i class="fa-solid fa-thumbtack"></i>/<i class="fa-solid fa-eye-slash"></i></button>
+<button class="btn clear-thumbs-btn" id="clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i> / <i class="fa-solid fa-eye-slash"></i></button>
 <button class="btn btn-primary" id="add-game-btn"><i class="fa-solid fa-plus"></i> Add Game</button>
 <button class="btn" id="edit-mode-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
 <div class="edit-mode-controls" id="edit-mode-controls">
@@ -1008,7 +1008,7 @@ button#clear-filters {
             </div>
             <div class="mobile-buttons-row">
 <button class="btn" id="mobile-toggle-filters"><i class="fa-solid fa-arrow-down-wide-short"></i> Filters</button>
-                <button class="btn clear-thumbs-btn" id="mobile-clear-thumbs-btn" style="display: none;"><i class="fa-solid fa-rotate-left"></i> Reset <i class="fa-solid fa-thumbtack"></i>/<i class="fa-solid fa-eye-slash"></i></button>
+                <button class="btn clear-thumbs-btn" id="mobile-clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i> / <i class="fa-solid fa-eye-slash"></i></button>
             </div>
         </div>
 
@@ -1583,6 +1583,7 @@ async signOutFromGoogleDrive() {
        console.log('Credential response received');
    }
 
+
 updateGoogleDriveUI() {
     const signInBtn = document.getElementById('google-drive-signin');
     const signOutBtn = document.getElementById('google-drive-signout');
@@ -1602,8 +1603,8 @@ updateGoogleDriveUI() {
             signInBtn.style.display = 'inline-block';
             signOutBtn.style.display = 'none';
         }
-        signInBtn.textContent = 'Connect GitHub';
-        signOutBtn.textContent = 'Disconnect GitHub';
+        signInBtn.innerHTML = '<i class="fa-solid fa-right-to-bracket"></i> Connect GitHub';
+        signOutBtn.innerHTML = '<i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub';
         status.textContent = statusText;
         status.style.color = statusColor;
     }
@@ -1616,8 +1617,8 @@ updateGoogleDriveUI() {
             mobileSignInBtn.style.display = 'block';
             mobileSignOutBtn.style.display = 'none';
         }
-        mobileSignInBtn.textContent = 'Connect GitHub';
-        mobileSignOutBtn.textContent = 'Disconnect GitHub';
+        mobileSignInBtn.innerHTML = '<i class="fa-solid fa-right-to-bracket"></i> Connect GitHub';
+        mobileSignOutBtn.innerHTML = '<i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub';
         mobileStatus.textContent = statusText;
         mobileStatus.style.color = statusColor;
     }
