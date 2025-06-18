@@ -11978,9 +11978,71 @@
         "Sudden Death Ending"
       ],
       "customFields": {}
+    },
+    "1750283213961": {
+      "bggId": "1750283213961",
+      "bggUrl": "https://boardgamegeek.com/boardgame/265683/second-chance",
+      "name": "Second Chance",
+      "year": 2019,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 6
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Uwe Rosenberg"
+      ],
+      "artists": [
+        "Justine Nortjé",
+        "Max Prentis"
+      ],
+      "publishers": [
+        "Edition Spielwiese",
+        "Act in games",
+        "Compaya.hu: Gamer Café Kft.",
+        "Lautapelit.fi",
+        "MS Edizioni",
+        "Pegasus Spiele",
+        "SD Games",
+        "Stronghold Games",
+        "TLAMA games",
+        "White Goblin Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/l8YbahkVzd5JLw53SahSTw__original/img/Fgz9oBrr1DJs1lIPnBEmjGPgHtM=/0x0/filters:format(jpeg)/pic4948024.jpg",
+        "https://cf.geekdo-images.com/l8YbahkVzd5JLw53SahSTw__thumb/img/4vSADdVmmEAXE7U0D7JtVcU_IU8=/fit-in/200x150/filters:strip_icc()/pic4948024.jpg"
+      ],
+      "notes": "",
+      "description": "In Second Chance, each player starts with a 9&times;9 grid that they want to fill as completely as possible. To begin the game, everyone receives a different card with a starting tile and marks off its spaces on their grid.&#10;&#10;Every turn, two puzzle tile cards are revealed, and each player chooses one of them, then marks off squares on their personal grid that match the shape of the image shown on their chosen card. Multiple players can choose the same card. If a player cannot fit either revealed shape into their grid, they get a second chance and reveal one card from the deck just for them. If they can fit this shape in their grid, they do continue normally next round; otherwise they are eliminated from play.&#10;&#10;The game ends when all players have been eliminated, the deck of puzzle cards has run out, or a player has completely filled their grid. If someone has filled their grid, they win. If all players have been eliminated or the deck ran out of cards, then whoever has the fewest empty spaces wins.&#10;&#10;",
+      "category": [
+        "Card Game"
+      ],
+      "mechanisms": [
+        "Grid Coverage",
+        "Paper-and-Pencil",
+        "Player Elimination"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:46:02.265Z",
+  "lastModified": "2025-06-18T21:46:53.962Z",
   "version": "1.0"
 }
