@@ -795,27 +795,33 @@ button#clear-filters {
     flex-wrap: wrap;
 }
 
+.mobile-controls .search-box {
+    flex: 1;
+    min-width: 100px;
+}
+
 .mobile-controls.clear-visible {
     flex-direction: column;
     align-items: stretch;
+    gap: 0.5rem;
 }
 
 .mobile-controls.clear-visible .search-box {
     width: 100%;
-    margin-bottom: 0.5rem;
+    max-width: none;
+    margin-bottom: 0;
 }
 
 .mobile-controls.clear-visible .mobile-buttons-row {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
+    width: 100%;
 }
 
-            .mobile-controls .search-box {
-                flex: 1;
-                min-width: 100px;
-                max-width: 200px;
-            }
+.mobile-controls:not(.clear-visible) .mobile-buttons-row {
+    display: contents;
+}
             
             .header h1 {
                 font-size: 1.2rem;
@@ -4378,9 +4384,19 @@ updateClearThumbsVisibility() {
        
        const clearBtn = document.getElementById('clear-thumbs-btn');
        const mobileClearBtn = document.getElementById('mobile-clear-thumbs-btn');
+       const mobileControls = document.getElementById('mobile-controls');
        
        if (clearBtn) clearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
        if (mobileClearBtn) mobileClearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
+       
+       // Update mobile layout based on clear button visibility
+       if (mobileControls) {
+           if (hasUserThumbs) {
+               mobileControls.classList.add('clear-visible');
+           } else {
+               mobileControls.classList.remove('clear-visible');
+           }
+       }
    }
 
 setupClearSearch(inputId, clearId) {
