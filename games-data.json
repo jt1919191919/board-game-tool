@@ -13217,9 +13217,78 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1750283858778": {
+      "bggId": "1750283858778",
+      "bggUrl": "https://boardgamegeek.com/boardgame/372559/spots",
+      "name": "Spots",
+      "year": 2022,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.3,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Alex Hague",
+        "Jon Perry",
+        "Justin Vickers"
+      ],
+      "artists": [
+        "John Bond"
+      ],
+      "publishers": [
+        "CMYK",
+        "Choo Choo Games",
+        "CoolPlay",
+        "Devir",
+        "Galápagos Jogos",
+        "Game Harbor",
+        "Gém Klub Kft.",
+        "IELLO",
+        "Pegasus Spiele",
+        "Rebel Sp. z o.o.",
+        "Ігромаг"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/TCBUzmSNUYw_yqJAXGWnNQ__original/img/GklWmrbqMips7ref85Pa-X5eNQQ=/0x0/filters:format(png)/pic7592453.png",
+        "https://cf.geekdo-images.com/TCBUzmSNUYw_yqJAXGWnNQ__thumb/img/BgniZvPRJVenqn7XHd4TQtsSuwI=/fit-in/200x150/filters:strip_icc()/pic7592453.png"
+      ],
+      "notes": "",
+      "description": "Spots is a casual push your luck game from CMYK. On your turn, you'll be rolling and placing dice onto dog cards. Dice you can't place get buried in your yard. Bury too many dice and you bust. Complete 6 dogs and you win!&#10;&#10;-description from designer&#10;&#10;",
+      "category": [
+        "Animals",
+        "Card Game",
+        "Dice"
+      ],
+      "mechanisms": [
+        "Action Drafting",
+        "Contracts",
+        "Dice Rolling",
+        "Increase Value of Unchosen Resources",
+        "Push Your Luck",
+        "Race",
+        "Re-rolling and Locking",
+        "Set Collection",
+        "Variable Set-up"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:57:00.875Z",
+  "lastModified": "2025-06-18T21:57:38.779Z",
   "version": "1.0"
 }
