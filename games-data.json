@@ -11732,9 +11732,69 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1750283086453": {
+      "bggId": "1750283086453",
+      "bggUrl": "https://boardgamegeek.com/boardgame/298065/santa-monica",
+      "name": "Santa Monica",
+      "year": 2020,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.1,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Josh Wood"
+      ],
+      "artists": [
+        "Jeremy Nguyen",
+        "Josh Wood"
+      ],
+      "publishers": [
+        "Alderac Entertainment Group",
+        "Choo Choo Games",
+        "Delirium Games",
+        "FoxGames",
+        "Game Harbor",
+        "Little Rocket Games",
+        "Skellig Games",
+        "Vem Pra Mesa Jogos"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/6Jp00SquFOCnQSlP8RGHXw__original/img/A-Qi_hv3f8WifN6qKjYze4N9Gww=/0x0/filters:format(jpeg)/pic5177758.jpg",
+        "https://cf.geekdo-images.com/6Jp00SquFOCnQSlP8RGHXw__thumb/img/J781AyZsczoPDRhjyGFt-eN38Ig=/fit-in/200x150/filters:strip_icc()/pic5177758.jpg"
+      ],
+      "notes": "",
+      "description": "In Santa Monica, you are trying to create the most appealing neighborhood in southern California. Will you choose to create a calm, quiet beach focused on nature, a bustling beach full of tourists, or something in-between to appeal to the locals?&#10;&#10;Each turn, you draft a feature card from the display to build up either your beach or your street. These features work together to score you victory points. The player with the most points wins!&#10;&#10;&mdash;description from the publisher&#10;&#10;German:&#10;In Santa Monica versuchst du, den attraktivsten Strandabschnitt in S&uuml;dkalifornien zu schaffen. Entscheide dich f&uuml;r einen ruhigen, stillen Strand, der sich auf die Natur konzentriert, einen belebten Strand voller Touristen oder etwas dazwischen, das die Einheimischen anspricht?&#10;&#10;In jedem Zug ziehst du eine Spielkarte aus der Auslage, um entweder den Strand oder die Stra&szlig;e in deinem Abschnitt zu erweitern. Aber nur, wenn Stra&szlig;e und Strand aufeinander abgestimmt sind, bekommst du gen&uuml;gend Siegpunkte, um das Spiel zu gewinnen!&#10;&#10;&mdash;Beschreibung des Herausgebers&#10;&#10;",
+      "category": [
+        "City Building",
+        "Travel"
+      ],
+      "mechanisms": [
+        "Chaining",
+        "Open Drafting",
+        "Set Collection",
+        "Tags",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:01:09.813Z",
+  "lastModified": "2025-06-18T21:44:46.455Z",
   "version": "1.0"
 }
