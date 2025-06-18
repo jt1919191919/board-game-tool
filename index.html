@@ -987,6 +987,10 @@ button#clear-filters {
             </div>
 <button class="btn" id="toggle-filters"><i class="fa-solid fa-arrow-down-wide-short"></i> Filters</button>
 <button class="btn clear-thumbs-btn" id="clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i> / <i class="fa-solid fa-eye-slash"></i></button>
+            <div class="edit-mode-controls" id="edit-mode-controls">
+                <button class="btn btn-discard" id="discard-changes-btn">Discard Changes</button>
+                <button class="btn btn-save" id="save-changes-btn">Save Changes</button>
+            </div>
 </div>
 
 <button class="hamburger" id="desktop-hamburger-btn" style="position: absolute; top: 1rem; right: 1rem; display: block;">
@@ -1002,6 +1006,10 @@ button#clear-filters {
             <div class="mobile-buttons-row">
                 <button class="btn clear-thumbs-btn" id="mobile-clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i> / <i class="fa-solid fa-eye-slash"></i></button>
 <button class="btn" id="mobile-toggle-filters"><i class="fa-solid fa-arrow-down-wide-short"></i> Filters</button>
+            </div>
+            <div class="edit-mode-controls mobile-edit-controls" id="mobile-edit-mode-controls-header">
+                <button class="btn btn-discard" id="mobile-discard-changes-btn-header">Discard Changes</button>
+                <button class="btn btn-save" id="mobile-save-changes-btn-header">Save Changes</button>
             </div>
         </div>
 
@@ -2425,7 +2433,7 @@ if (addCustomFilterBtn) {
 }
 
 
-// Edit mode - only mobile edit button since desktop is now in menu
+// Edit mode buttons
 const mobileEditModeBtn = document.getElementById('mobile-edit-mode-btn');
 if (mobileEditModeBtn) {
     mobileEditModeBtn.addEventListener('click', () => {
@@ -2434,7 +2442,30 @@ if (mobileEditModeBtn) {
     });
 }
 
-// Edit mode controls don't exist in main header anymore - they're in the menus
+const desktopEditModeBtn = document.getElementById('desktop-edit-mode-btn');
+if (desktopEditModeBtn) {
+    desktopEditModeBtn.addEventListener('click', () => {
+        this.toggleEditMode();
+        document.getElementById('desktop-menu').classList.remove('show');
+    });
+}
+
+const mobileDiscardChangesBtn = document.getElementById('mobile-discard-changes-btn');
+if (mobileDiscardChangesBtn) {
+    mobileDiscardChangesBtn.addEventListener('click', () => {
+        this.discardAllChanges();
+        document.getElementById('mobile-menu').classList.remove('show');
+    });
+}
+
+const mobileSaveChangesBtn = document.getElementById('mobile-save-changes-btn');
+if (mobileSaveChangesBtn) {
+    mobileSaveChangesBtn.addEventListener('click', () => {
+        this.saveAllChanges();
+        document.getElementById('mobile-menu').classList.remove('show');
+    });
+}
+
 
 const mobileDiscardChangesBtn = document.getElementById('mobile-discard-changes-btn');
 if (mobileDiscardChangesBtn) {
@@ -2538,13 +2569,34 @@ if (columnsControl) {
            });
        }
 
-       const desktopSaveChangesBtn = document.getElementById('desktop-save-changes-btn');
-       if (desktopSaveChangesBtn) {
-           desktopSaveChangesBtn.addEventListener('click', () => {
-               this.saveAllChanges();
-               document.getElementById('desktop-menu').classList.remove('show');
-           });
-       }
+// Header edit mode controls
+const saveChangesBtnHeader = document.getElementById('save-changes-btn');
+if (saveChangesBtnHeader) {
+    saveChangesBtnHeader.addEventListener('click', () => {
+        this.saveAllChanges();
+    });
+}
+
+const discardChangesBtnHeader = document.getElementById('discard-changes-btn');
+if (discardChangesBtnHeader) {
+    discardChangesBtnHeader.addEventListener('click', () => {
+        this.discardAllChanges();
+    });
+}
+
+const mobileSaveChangesBtnHeader = document.getElementById('mobile-save-changes-btn-header');
+if (mobileSaveChangesBtnHeader) {
+    mobileSaveChangesBtnHeader.addEventListener('click', () => {
+        this.saveAllChanges();
+    });
+}
+
+const mobileDiscardChangesBtnHeader = document.getElementById('mobile-discard-changes-btn-header');
+if (mobileDiscardChangesBtnHeader) {
+    mobileDiscardChangesBtnHeader.addEventListener('click', () => {
+        this.discardAllChanges();
+    });
+}
 
        document.getElementById('desktop-share-btn').addEventListener('click', () => {
            this.shareCollection();
@@ -2854,11 +2906,12 @@ updateMechanismsFilter() {
 
 toggleEditMode() {
        this.isEditMode = !this.isEditMode;
-       const btn = document.getElementById('edit-mode-btn');
-       const mobileBtn = document.getElementById('mobile-edit-mode-btn');
        const controls = document.getElementById('edit-mode-controls');
-       const mobileControls = document.getElementById('mobile-edit-mode-controls');
+       const mobileControls = document.getElementById('mobile-edit-mode-controls-header');
+       const menuMobileControls = document.getElementById('mobile-edit-mode-controls');
+       const menuDesktopControls = document.getElementById('desktop-edit-mode-controls');
        
+
 if (this.isEditMode) {
            this.gameBackups.clear();
            this.games.forEach((game, id) => {
@@ -2866,33 +2919,17 @@ if (this.isEditMode) {
            });
 
            document.body.classList.add('edit-mode');
-           btn.style.display = 'none';
-           mobileBtn.style.display = 'none';
-           controls.classList.add('show');
+           if (controls) controls.classList.add('show');
            if (mobileControls) mobileControls.classList.add('show');
-           
-           // Hide share/import/export buttons
-           document.getElementById('share-btn').style.display = 'none';
-           document.getElementById('import-btn').style.display = 'none';
-           document.getElementById('export-btn').style.display = 'none';
-           document.getElementById('mobile-share-btn').style.display = 'none';
-           document.getElementById('mobile-import-btn').style.display = 'none';
-           document.getElementById('mobile-export-btn').style.display = 'none';
+           if (menuMobileControls) menuMobileControls.classList.add('show');
+           if (menuDesktopControls) menuDesktopControls.classList.add('show');
        } else {
            document.body.classList.remove('edit-mode');
-           btn.style.display = 'block';
-           mobileBtn.style.display = 'block';
-           controls.classList.remove('show');
+           if (controls) controls.classList.remove('show');
            if (mobileControls) mobileControls.classList.remove('show');
+           if (menuMobileControls) menuMobileControls.classList.remove('show');
+           if (menuDesktopControls) menuDesktopControls.classList.remove('show');
            this.gameBackups.clear();
-           
-           // Show share/import/export buttons
-           document.getElementById('share-btn').style.display = 'block';
-           document.getElementById('import-btn').style.display = 'block';
-           document.getElementById('export-btn').style.display = 'block';
-           document.getElementById('mobile-share-btn').style.display = 'block';
-           document.getElementById('mobile-import-btn').style.display = 'block';
-           document.getElementById('mobile-export-btn').style.display = 'block';
        }
        
        this.render();
