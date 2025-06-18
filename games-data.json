@@ -13414,9 +13414,72 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1750283968084": {
+      "bggId": "1750283968084",
+      "bggUrl": "https://boardgamegeek.com/boardgame/182631/star-realms-colony-wars",
+      "name": "Star Realms: Colony Wars",
+      "year": 2015,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.9,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        2
+      ],
+      "designers": [
+        "Robert Dougherty",
+        "Darwin Kastle"
+      ],
+      "artists": [
+        "Vito Gesualdi"
+      ],
+      "publishers": [
+        "Wise Wizard Games",
+        "ADC Blackfire Entertainment GmbH",
+        "Broadway Toys LTD",
+        "Devir",
+        "Games Factory",
+        "Games Factory Publishing",
+        "Hobby World",
+        "IELLO",
+        "IUVI Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/FKEjArvFzBTpPJRvU34t8A__original/img/Ixujer_N-Ro0jFErjGdmCdo152k=/0x0/filters:format(jpeg)/pic4324043.jpg",
+        "https://cf.geekdo-images.com/FKEjArvFzBTpPJRvU34t8A__thumb/img/v4xPFJ7qUbkc6f7Dpgsn21ZM5YQ=/fit-in/200x150/filters:strip_icc()/pic4324043.jpg"
+      ],
+      "notes": "",
+      "description": "Colony Wars is a deckbuilding game in the Star Realms series which is both a standalone box set for two players (featuring an 80-card trade deck, as in the original) and an expansion for the base Star Realms set that allows it to be played as a four-player game.&#10;&#10;In Colony Wars, as in Star Realms, players will start with a fleet (deck) of 10 basic ships, and can spend Trade to acquire more powerful ships and bases from a central trade row of 5 cards. This row is continuously replenished by random draws from the trade deck. Many ships and bases deal Combat damage which you can use to attack your opponent and/or destroy their bases. When you reduce your opponent's Authority to zero, you win.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Fighting",
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Deck",
+        "Bag",
+        "and Pool Building",
+        "Delayed Purchase",
+        "Hand Management",
+        "Open Drafting",
+        "Take That"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:58:35.759Z",
+  "lastModified": "2025-06-18T21:59:28.085Z",
   "version": "1.0"
 }
