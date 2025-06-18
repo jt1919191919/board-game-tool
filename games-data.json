@@ -12103,9 +12103,66 @@
         "Voting"
       ],
       "customFields": {}
+    },
+    "1750283308580": {
+      "bggId": "1750283308580",
+      "bggUrl": "https://boardgamegeek.com/boardgame/216428/seikatsu",
+      "name": "Seikatsu",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.5,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3
+      ],
+      "designers": [
+        "Matt Loomis",
+        "Isaac Shalev"
+      ],
+      "artists": [
+        "Neytirix",
+        "Peter Wocken"
+      ],
+      "publishers": [
+        "IDW Games",
+        "Funiverse",
+        "HUCH!",
+        "Kind Fortress",
+        "Summon Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/fw3N-Y8tINMF1pAfACDN_g__original/img/yYxg_mkU1Anm-MoDb_TzBbCAXBw=/0x0/filters:format(jpeg)/pic3918997.jpg",
+        "https://cf.geekdo-images.com/fw3N-Y8tINMF1pAfACDN_g__thumb/img/iE8DRXA-0EzhlstrfAyqwX7RT7k=/fit-in/200x150/filters:strip_icc()/pic3918997.jpg"
+      ],
+      "notes": "",
+      "description": "In Seikatsu, players take turns placing tiles into a shared garden area, with each tile showing a colored flower and colored bird. Players score for groups of birds as they place them, but they score for rows of flowers only at the end of the game and only for the rows of flowers that exist from their perspective, i.e., that are viewable as lines from where they sit at the game board.&#10;&#10;Seikatsu: A Pet's Life features the same gameplay as Seikatsu, but with players placing tiles that show pets sitting on pillows instead of birds resting on flowers.&#10;&#10;",
+      "category": [
+        "Abstract Strategy",
+        "Animals",
+        "Puzzle"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Pattern Building",
+        "Set Collection",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:47:54.399Z",
+  "lastModified": "2025-06-18T21:48:28.581Z",
   "version": "1.0"
 }
