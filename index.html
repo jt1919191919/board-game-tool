@@ -2433,20 +2433,23 @@ if (addCustomFilterBtn) {
 }
 
 
-// Edit mode buttons
+// Edit mode buttons - Mobile
 const mobileEditModeBtn = document.getElementById('mobile-edit-mode-btn');
 if (mobileEditModeBtn) {
     mobileEditModeBtn.addEventListener('click', () => {
         this.toggleEditMode();
-        document.getElementById('mobile-menu').classList.remove('show');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileMenu) mobileMenu.classList.remove('show');
     });
 }
 
+// Edit mode buttons - Desktop  
 const desktopEditModeBtn = document.getElementById('desktop-edit-mode-btn');
 if (desktopEditModeBtn) {
     desktopEditModeBtn.addEventListener('click', () => {
         this.toggleEditMode();
-        document.getElementById('desktop-menu').classList.remove('show');
+        const desktopMenu = document.getElementById('desktop-menu');
+        if (desktopMenu) desktopMenu.classList.remove('show');
     });
 }
 
@@ -2541,10 +2544,14 @@ if (columnsControl) {
            document.getElementById('desktop-menu').classList.remove('show');
        });
 
-       document.getElementById('desktop-edit-mode-btn').addEventListener('click', () => {
-           this.toggleEditMode();
-           document.getElementById('desktop-menu').classList.remove('show');
-       });
+const desktopEditBtn = document.getElementById('desktop-edit-mode-btn');
+       if (desktopEditBtn) {
+           desktopEditBtn.addEventListener('click', () => {
+               this.toggleEditMode();
+               const desktopMenu = document.getElementById('desktop-menu');
+               if (desktopMenu) desktopMenu.classList.remove('show');
+           });
+       }
 
        const desktopDiscardChangesBtn = document.getElementById('desktop-discard-changes-btn');
        if (desktopDiscardChangesBtn) {
