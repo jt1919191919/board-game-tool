@@ -12456,9 +12456,65 @@
         "Storytelling"
       ],
       "customFields": {}
+    },
+    "1750283462904": {
+      "bggId": "1750283462904",
+      "bggUrl": "https://boardgamegeek.com/boardgame/220517/shipwreck-arcana",
+      "name": "The Shipwreck Arcana",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Kevin Bishop"
+      ],
+      "artists": [
+        "Matthew Bishop"
+      ],
+      "publishers": [
+        "Meromorph Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/yv5EAl5uidhZ53WJI-bQ4g__original/img/M7dWeql-u4Xtcaff5tfSCa2AvSs=/0x0/filters:format(png)/pic4042715.png",
+        "https://cf.geekdo-images.com/yv5EAl5uidhZ53WJI-bQ4g__thumb/img/97sqsQ6PTxfoHXd12xQG0hl0pqE=/fit-in/200x150/filters:strip_icc()/pic4042715.png"
+      ],
+      "notes": "",
+      "description": "Trapped in a drowned world, you and your allies are doomed -- or are you? Using a mystical deck and a healthy dose of logic, you can predict each others' fates and escape unscathed.&#10;&#10;The Shipwreck Arcana is a compact, co-operative game of deduction, evaluation, and logic. Each player's doom constantly changes as they draw numbered fate tiles from the bag. By choosing which fate to give up and which card to play it on, you can give your allies enough information to identify the fate you're holding...which is important, as the active player cannot communicate with their allies during their turn!&#10;&#10;Each card has strict rules governing what fates can be played on it. As doom builds up, the cards themselves fade, becoming one-time powers to help the players while new cards cycle in from the deck.&#10;&#10;Skilled play requires carefully rationing powers, hints, and cycling, while paying attention to not only where each fate was played -- but more importantly, where it wasn't.&#10;&#10;The rotating active player creates a different group dynamic each turn, preventing any one player from dominating the game. Inexperienced players can still use the group deduction phase to ask questions (while they are not the active player).&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Deduction",
+        "Fantasy",
+        "Math",
+        "Number",
+        "Print & Play"
+      ],
+      "mechanisms": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Deduction",
+        "Hand Management",
+        "Pattern Building"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:50:36.155Z",
+  "lastModified": "2025-06-18T21:51:02.905Z",
   "version": "1.0"
 }
