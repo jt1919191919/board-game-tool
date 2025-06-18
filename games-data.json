@@ -12891,9 +12891,67 @@
         "Voting"
       ],
       "customFields": {}
+    },
+    "1750283685456": {
+      "bggId": "1750283685456",
+      "bggUrl": "https://boardgamegeek.com/boardgame/329839/so-clover",
+      "name": "So Clover!",
+      "year": 2021,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "François Romain"
+      ],
+      "artists": [],
+      "publishers": [
+        "Repos Production",
+        "Gameology (Gameology Romania)",
+        "Gém Klub Kft.",
+        "GoKids 玩樂小子",
+        "Hobby Japan",
+        "Kaissa Chess & Games",
+        "MIPL",
+        "Rebel Sp. z o.o.",
+        "TLAMA games",
+        "YellowBOX"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/8oipK9-ivkn53h7L5U2Yfg__original/img/KtvdQ2mT4ShhUaJekT9IvuOCvv8=/0x0/filters:format(png)/pic6588069.png",
+        "https://cf.geekdo-images.com/8oipK9-ivkn53h7L5U2Yfg__thumb/img/cBKt41XFKkdphyqZItit4EIC45k=/fit-in/200x150/filters:strip_icc()/pic6588069.png"
+      ],
+      "notes": "",
+      "description": "So Clover! is a cooperative word-association game. Play as a team to get the highest score. Get Keywords and secretly write their common features on your Clover board; these are your Clues. Then work together to try to figure out each player&rsquo;s Keywords. At the end of the game, add up your score according to how many Keywords you found and write it in the Record of Legends. Try to beat your high score each game!&#10;&#10;-description from the publisher&#10;&#10;",
+      "category": [
+        "Party Game",
+        "Word Game"
+      ],
+      "mechanisms": [
+        "Communication Limits",
+        "Cooperative Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:53:52.266Z",
+  "lastModified": "2025-06-18T21:54:45.457Z",
   "version": "1.0"
 }
