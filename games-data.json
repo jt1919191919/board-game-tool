@@ -13064,9 +13064,82 @@
         "Random Production"
       ],
       "customFields": {}
+    },
+    "1750283792053": {
+      "bggId": "1750283792053",
+      "bggUrl": "https://boardgamegeek.com/boardgame/299169/spicy",
+      "name": "Spicy",
+      "year": 2020,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.3,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Győri Zoltán Gábor"
+      ],
+      "artists": [
+        "Jimin Kim"
+      ],
+      "publishers": [
+        "HeidelBÄR Games",
+        "999 Games",
+        "ADC Blackfire Entertainment",
+        "Brain Games",
+        "Fractal Juegos",
+        "Gém Klub Kft.",
+        "Heidelbear Korea",
+        "Hobby World",
+        "IELLO",
+        "Kaissa Chess & Games",
+        "Ludicus Games",
+        "Ludofun",
+        "MEBO Games",
+        "MIPL",
+        "Play Plus",
+        "Portal Games",
+        "Serotonin Games",
+        "Studio Supernova",
+        "Swan Panasia Co.",
+        "Ltd.",
+        "UBO CnC",
+        "株式会社ケンビル (KenBill)"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/eLJJ7f5I106enEFkSfxmnQ__original/img/dH1wpQ36ZJDG-uur4JAAcoz8CY8=/0x0/filters:format(png)/pic5181748.png",
+        "https://cf.geekdo-images.com/eLJJ7f5I106enEFkSfxmnQ__thumb/img/nyTH5PgSWie1DZMZVJ7tnzEL-hk=/fit-in/200x150/filters:strip_icc()/pic5181748.png"
+      ],
+      "notes": "",
+      "description": "Once upon a time, three big cats became exhausted fighting to be top cat. They agreed to quit the fight and spice up their nine lives with a hot spice eating contest. Alas, everyone was soon cheating, so the cats invented a very hot, often tearful, bluffing game.&#10;&#10;Spicy is a bluffing card game for 2-6 players. The cards are played face down, so you can cheat when you announce your card. That said, this clever card game isn't just about bluffing for you can almost always play a card that is at least half right if you cleverly play your hand. This means tactically deciding which card to use to get through: Do I play a &quot;Pepper 10&quot; or a color wild on a &quot;Wasabi 9&quot; and declare it a &quot;Wasabi 10&quot;? Or do I better pass because surely someone has noticed me thinking for so long now?&#10;&#10;Spicy contains six game-variant cards, but even without these a high replayability is guaranteed.&#10;&#10;The cards are illustrated with forty separate pieces of art. In addition, not only the game box sparkles in chic metallic gold, but also the card backs are adorned with a gold-colored finish.&#10;&#10;",
+      "category": [
+        "Animals",
+        "Bluffing",
+        "Card Game"
+      ],
+      "mechanisms": [
+        "Betting and Bluffing",
+        "Hand Management"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:55:49.792Z",
+  "lastModified": "2025-06-18T21:56:32.054Z",
   "version": "1.0"
 }
