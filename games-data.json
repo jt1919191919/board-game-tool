@@ -12291,9 +12291,88 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1750283404046": {
+      "bggId": "1750283404046",
+      "bggUrl": "https://boardgamegeek.com/boardgame/157969/sheriff-nottingham",
+      "name": "Sheriff of Nottingham",
+      "year": 2014,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.7,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        5
+      ],
+      "designers": [
+        "Sérgio Halaban",
+        "André Zatz"
+      ],
+      "artists": [
+        "John Guytan",
+        "Lorraine Schleter",
+        "David Sladek"
+      ],
+      "publishers": [
+        "Arcane Wonders",
+        "ADC Blackfire Entertainment",
+        "asmodee",
+        "Asterion Press",
+        "Broadway Toys LTD",
+        "CMON Global Limited",
+        "Cool Mini Or Not",
+        "Edge Entertainment",
+        "Fantasmagoria",
+        "Galápagos Jogos",
+        "IELLO",
+        "Kaissa Chess & Games",
+        "Lavka Games",
+        "Lex Games",
+        "Rebel Sp. z o.o.",
+        "Reflexshop",
+        "Siam Board Games",
+        "SuperHeated Neurons"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/BBgLFKUzr6tcKtlIM2JSFw__original/img/fll2MuTBPVKb7fyBJ8D-4_c1XHM=/0x0/filters:format(jpeg)/pic2075830.jpg",
+        "https://cf.geekdo-images.com/BBgLFKUzr6tcKtlIM2JSFw__thumb/img/JD5L_XrtkaKINUj8ILZqFMGcTsE=/fit-in/200x150/filters:strip_icc()/pic2075830.jpg"
+      ],
+      "notes": "",
+      "description": "Prince John is coming to Nottingham! Players, in the role of merchants, see this as an opportunity to make quick profits by selling goods in the bustling city during the Prince's visit. However, players must first get their goods through the city gate, which is under the watch of the Sheriff of Nottingham. Should you play it safe with legal goods and make a profit, or risk it all by sneaking in illicit goods? Be mindful, though, as the Sheriff always has his eyes out for liars and tricksters and if he catches one, he very well may confiscate those goods for himself!&#10;&#10;In Sheriff of Nottingham, players will not only be able to experience Nottingham as a merchant of the city, but each turn one player will step into the shoes of the Sheriff himself. Players declare goods they wish to bring into the city, goods that are secretly stored in their burlap sack. The Sheriff must then determine who gets into the city with their goods, who gets inspected, and who may have their goods confiscated!&#10;&#10;Do you have what it takes to be seen as an honest merchant? Will you make a deal with the Sheriff to let you in? Or will you persuade the Sheriff to target another player while you quietly slip by the gate? Declare your goods, negotiate deals, and be on the lookout for the Sheriff of Nottingham!&#10;&#10;Sheriff of Nottingham is the first game in the Dice Tower Essentials Line from Arcane Wonders.&#10;&#10;",
+      "category": [
+        "Bluffing",
+        "Card Game",
+        "Humor",
+        "Medieval",
+        "Negotiation",
+        "Novel-based",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Betting and Bluffing",
+        "Bribery",
+        "Hand Management",
+        "Negotiation",
+        "Open Drafting",
+        "Role Playing",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:49:13.427Z",
+  "lastModified": "2025-06-18T21:50:04.047Z",
   "version": "1.0"
 }
