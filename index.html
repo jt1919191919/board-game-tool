@@ -2450,22 +2450,6 @@ if (desktopEditModeBtn) {
     });
 }
 
-const mobileDiscardChangesBtn = document.getElementById('mobile-discard-changes-btn');
-if (mobileDiscardChangesBtn) {
-    mobileDiscardChangesBtn.addEventListener('click', () => {
-        this.discardAllChanges();
-        document.getElementById('mobile-menu').classList.remove('show');
-    });
-}
-
-const mobileSaveChangesBtn = document.getElementById('mobile-save-changes-btn');
-if (mobileSaveChangesBtn) {
-    mobileSaveChangesBtn.addEventListener('click', () => {
-        this.saveAllChanges();
-        document.getElementById('mobile-menu').classList.remove('show');
-    });
-}
-
 
 const mobileDiscardChangesBtn = document.getElementById('mobile-discard-changes-btn');
 if (mobileDiscardChangesBtn) {
@@ -2482,6 +2466,7 @@ if (mobileSaveChangesBtn) {
         document.getElementById('mobile-menu').classList.remove('show');
     });
 }
+
 
 // Column controls
 const columnsControl = document.getElementById('columns-control');
@@ -2565,6 +2550,14 @@ if (columnsControl) {
        if (desktopDiscardChangesBtn) {
            desktopDiscardChangesBtn.addEventListener('click', () => {
                this.discardAllChanges();
+               document.getElementById('desktop-menu').classList.remove('show');
+           });
+       }
+
+const desktopSaveChangesBtn = document.getElementById('desktop-save-changes-btn');
+       if (desktopSaveChangesBtn) {
+           desktopSaveChangesBtn.addEventListener('click', () => {
+               this.saveAllChanges();
                document.getElementById('desktop-menu').classList.remove('show');
            });
        }
