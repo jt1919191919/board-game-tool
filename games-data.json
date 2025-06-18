@@ -12040,9 +12040,72 @@
         "Player Elimination"
       ],
       "customFields": {}
+    },
+    "1750283274398": {
+      "bggId": "1750283274398",
+      "bggUrl": "https://boardgamegeek.com/boardgame/347112/secret-identity",
+      "name": "Secret Identity",
+      "year": 2022,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 8
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 1.2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Johan Benvenuto",
+        "Alexandre Droit",
+        "Kévin Jost",
+        "Bertrand Roux"
+      ],
+      "artists": [
+        "Alain Boyer"
+      ],
+      "publishers": [
+        "Funnyfox",
+        "Gameology (Gameology Romania)",
+        "Gém Klub Kft.",
+        "Little Rocket Games",
+        "R&R Games",
+        "Rebel Sp. z o.o.",
+        "Strohmann Games",
+        "Tranjis Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/XyRiGDpXVhJ1pL24Q8-RjQ__original/img/CAe3ydh8u2eG02t2Ew0wEh2maqo=/0x0/filters:format(jpeg)/pic6399204.jpg",
+        "https://cf.geekdo-images.com/XyRiGDpXVhJ1pL24Q8-RjQ__thumb/img/2gCTseLhRRxGeSc3UUTwXbChZss=/fit-in/200x150/filters:strip_icc()/pic6399204.jpg"
+      ],
+      "notes": "",
+      "description": "ln Secret Identity, you must guess the hidden identity of your opponents while trying to make them guess yours.&#10;&#10;At the start of a round, you receive a key card that indicates your identity among the eight characters on the table. Using double-sided &quot;picto&quot; cards, you try to give clues to your character so that others can guess who you are, while simultaneously guessing their character &mdash; earning points for each success. Each round, new characters appear on the table, giving you and everyone else a fresh face to guess, but your supply of picto cards is never replenished, so you must be judicious when using them in order not to run out by game's end.&#10;&#10;After the fourth round, whoever has scored the most points wins. Will you be able to act both as a skilled informant and a sharp observer?&#10;&#10;",
+      "category": [
+        "Deduction",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Connections",
+        "Deduction",
+        "Hidden Roles",
+        "Voting"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:46:53.962Z",
+  "lastModified": "2025-06-18T21:47:54.399Z",
   "version": "1.0"
 }
