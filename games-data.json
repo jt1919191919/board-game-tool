@@ -13007,9 +13007,66 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1750283749791": {
+      "bggId": "1750283749791",
+      "bggUrl": "https://boardgamegeek.com/boardgame/242302/space-base",
+      "name": "Space Base",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.1,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "John D. Clair"
+      ],
+      "artists": [
+        "Chris Walton"
+      ],
+      "publishers": [
+        "Alderac Entertainment Group",
+        "Arclight Games",
+        "Broadway Toys LTD",
+        "Edge Entertainment",
+        "Lavka Games",
+        "Maldito Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/MHhQxXVjiaa6C-04nGiIWw__original/img/QyWen0FVOKD_4wf7Na7fdsMTjis=/0x0/filters:format(jpeg)/pic6640638.jpg",
+        "https://cf.geekdo-images.com/MHhQxXVjiaa6C-04nGiIWw__thumb/img/rgETRyeuYs_wiZ5y-9Zj5H8kyFo=/fit-in/200x150/filters:strip_icc()/pic6640638.jpg"
+      ],
+      "notes": "",
+      "description": "In Space Base, players assume the roles of Commodores of a small fleet of ships. Ships begin docked at their stations and are then deployed to sectors as new ships are commissioned under your command. Use cargo vessels to engage in trade and commerce; mining vessels to build reoccurring base income; and carriers to spread your influence. Establish new colonies for a new Commodore in a sector to gain even more influence. Gain enough influence and you can be promoted to Admiral!&#10;&#10;Space Base is a quick-to-learn, quick-to-play dice game using the core &quot;I roll, everyone gets stuff&quot; mechanism seen in other games. It's also a strategic engine builder using a player board (your space base) and tableaus of ship cards you can buy and add to your board. The cards you buy and the order you buy them in have interesting implications on your engine beyond just the ability on the card you buy, making for a different type of engine construction than seen in similar games. Players can take their engine in a number of directions: long odds and explosive gains, low luck and steady income, big end-game combos to launch from last to first, or a mix-and-match approach. Ultimately, Space Base is a game you can just start playing and teach everyone how to play in the first round or two and has a satisfying blend of dice-chucking luck and challenging strategic choices.&#10;&#10;",
+      "category": [
+        "Dice",
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Open Drafting",
+        "Random Production"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:55:16.003Z",
+  "lastModified": "2025-06-18T21:55:49.792Z",
   "version": "1.0"
 }
