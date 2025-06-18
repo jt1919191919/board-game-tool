@@ -12698,9 +12698,81 @@
         "Predictive Bid"
       ],
       "customFields": {}
+    },
+    "1750283579112": {
+      "bggId": "1750283579112",
+      "bggUrl": "https://boardgamegeek.com/boardgame/40692/small-world",
+      "name": "Small World",
+      "year": 2009,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 80,
+        "max": 80
+      },
+      "weight": 2.3,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        5
+      ],
+      "designers": [
+        "Philippe Keyaerts"
+      ],
+      "artists": [
+        "Miguel Coimbra",
+        "Cyrille Daujean"
+      ],
+      "publishers": [
+        "Days of Wonder",
+        "asmodee",
+        "Asterion Press",
+        "Compaya.hu: Gamer Café Kft.",
+        "Edge Entertainment",
+        "Enigma (Bergsala Enigma)",
+        "Galápagos Jogos",
+        "Gém Klub Kft.",
+        "Hobby Japan",
+        "Hobby World",
+        "Lord of Boards",
+        "Rebel Sp. z o.o.",
+        "Siam Board Games",
+        "Stratelibri"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/aoPM07XzoceB-RydLh08zA__original/img/bYLzrwZO9u-3h2wyU-PHc8aTOY4=/0x0/filters:format(jpeg)/pic428828.jpg",
+        "https://cf.geekdo-images.com/aoPM07XzoceB-RydLh08zA__thumb/img/o3Bw9heVDJRgPYlI_PksCvLAgnM=/fit-in/200x150/filters:strip_icc()/pic428828.jpg"
+      ],
+      "notes": "",
+      "description": "In Small World, players vie for conquest and control of a world that is simply too small to accommodate them all.&#10;&#10;Designed by Philippe Keyaerts as a fantasy follow-up to his award-winning Vinci, Small World is inhabited by a zany cast of characters such as dwarves, wizards, amazons, giants, orcs, and even humans, who use their troops to occupy territory and conquer adjacent lands in order to push the other races off the face of the earth.&#10;&#10;Picking the right combination from the 14 different fantasy races and 20 unique special powers, players rush to expand their empires - often at the expense of weaker neighbors. Yet they must also know when to push their own over-extended civilization into decline and ride a new one to victory!&#10;&#10;On each turn, you either use the multiple tiles of your chosen race (type of creatures) to occupy adjacent (normally) territories - possibly defeating weaker enemy races along the way, or you give up on your race letting it go &quot;into decline&quot;. A race in decline is designated by flipping the tiles over to their black-and-white side.&#10;&#10;At the end of your turn, you score one point (coin) for each territory your races occupy. You may have one active race and one race in decline on the board at the same time. Your occupation total can vary depending on the special abilities of your race and the territories they occupy. After the final round, the player with the most coins wins.&#10;&#10;Clarifications: available in a pinned forum post.&#10;&#10;",
+      "category": [
+        "Fantasy",
+        "Fighting",
+        "Territory Building"
+      ],
+      "mechanisms": [
+        "Area Majority / Influence",
+        "Area Movement",
+        "Dice Rolling",
+        "Hidden Victory Points",
+        "Increase Value of Unchosen Resources",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Victory Points as a Resource"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:52:31.621Z",
+  "lastModified": "2025-06-18T21:52:59.113Z",
   "version": "1.0"
 }
