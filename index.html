@@ -114,27 +114,15 @@
     right: 15px;
     top: 50%;
     transform: translateY(-50%);
-    width: 16px;
-    height: 16px;
-    background: rgba(0,0,0,0.3);
-    border-radius: 50%;
+    color: #999;
     cursor: pointer;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    z-index: 2;
+    font-size: 0.7rem;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
 }
 
 .search-clear:hover {
-    background: rgba(0,0,0,0.5);
-}
-
-.search-clear::before {
-    content: '×';
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 1;
+    opacity: 1;
 }
 
         .controls .search-box {
@@ -153,7 +141,7 @@
 
         .search-box input {
             width: 100%;
-            padding: 0.75rem;
+            padding: 0.65rem;
             border: none;
             border-radius: 25px;
             font-size: 1rem;
@@ -801,31 +789,33 @@ button#clear-filters {
 
 .mobile-controls {
     display: flex;
-    flex-wrap: wrap;
     gap: 0.5rem;
     align-items: center;
     margin-top: 0.5rem;
-    padding: 0 1rem;
+    flex-wrap: wrap;
 }
 
-.mobile-controls .search-box {
-    flex: 1;
-    min-width: 100px;
+.mobile-controls.clear-visible {
+    flex-direction: column;
+    align-items: stretch;
 }
 
-.mobile-controls.has-clear-btn .search-box {
+.mobile-controls.clear-visible .search-box {
     width: 100%;
     margin-bottom: 0.5rem;
 }
 
-.mobile-controls.has-clear-btn .btn {
-    flex: 1;
-    max-width: calc(50% - 0.25rem);
+.mobile-controls.clear-visible .mobile-buttons-row {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
-.mobile-controls .btn:not(.clear-thumbs-btn) {
-    flex-shrink: 0;
-}
+            .mobile-controls .search-box {
+                flex: 1;
+                min-width: 100px;
+                max-width: 200px;
+            }
             
             .header h1 {
                 font-size: 1.2rem;
@@ -977,10 +967,10 @@ button#clear-filters {
         
  <div class="controls">
 <div class="search-box">
-    <i class="fa-solid fa-magnifying-glass search-icon" id="search-icon"></i>
-    <input type="text" id="search" style="padding-left: 2.5rem; padding-right: 2.5rem;">
-    <div class="search-clear" id="search-clear"></div>
-</div>
+                <i class="fa-solid fa-magnifying-glass search-icon" id="search-icon"></i>
+                <input type="text" id="search" style="padding-left: 2.5rem; padding-right: 2rem;">
+                <i class="fa-solid fa-times search-clear" id="search-clear" style="display: none;"></i>
+            </div>
 <button class="btn clear-thumbs-btn" id="clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i>/<i class="fa-solid fa-eye-slash"></i></button>
 <button class="btn" id="toggle-filters"><i class="fa-solid fa-filter"></i> Filters</button>
 <button class="btn btn-primary" id="add-game-btn"><i class="fa-solid fa-plus"></i> Add Game</button>
@@ -1000,14 +990,16 @@ button#clear-filters {
             <button class="btn" id="google-drive-signout" style="display: none;">Disconnect GitHub</button>
         </div>
 
-<div class="mobile-controls">
+<div class="mobile-controls" id="mobile-controls">
 <div class="search-box">
-    <i class="fa-solid fa-magnifying-glass search-icon" id="mobile-search-icon"></i>
-    <input type="text" id="mobile-search" style="padding-left: 2.5rem; padding-right: 2.5rem;">
-    <div class="search-clear" id="mobile-search-clear"></div>
-</div>
+                <i class="fa-solid fa-magnifying-glass search-icon" id="mobile-search-icon"></i>
+                <input type="text" id="mobile-search" style="padding-left: 2.5rem; padding-right: 2rem;">
+                <i class="fa-solid fa-times search-clear" id="mobile-search-clear" style="display: none;"></i>
+            </div>
+            <div class="mobile-buttons-row">
 <button class="btn clear-thumbs-btn" id="mobile-clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i>/<i class="fa-solid fa-eye-slash"></i></button>
-            <button class="btn" id="mobile-toggle-filters"><i class="fa-solid fa-filter"></i> Filters</button>
+                <button class="btn" id="mobile-toggle-filters"><i class="fa-solid fa-filter"></i> Filters</button>
+            </div>
         </div>
 
 <div class="mobile-menu" id="mobile-menu">
@@ -2163,8 +2155,9 @@ const mobileSearchElement = document.getElementById('mobile-search');
            });
        }
 
-// Search icon visibility - removed auto-hide functionality
-this.setupSearchClearButtons();
+// Setup clear search functionality
+this.setupClearSearch('search', 'search-clear');
+this.setupClearSearch('mobile-search', 'mobile-search-clear');
 
 // Mobile menu
        const hamburgerBtn = document.getElementById('hamburger-btn');
@@ -4386,49 +4379,44 @@ updateClearThumbsVisibility() {
        const clearBtn = document.getElementById('clear-thumbs-btn');
        const mobileClearBtn = document.getElementById('mobile-clear-thumbs-btn');
        
-if (clearBtn) clearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
-if (mobileClearBtn) {
-    mobileClearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
-    // Update mobile layout when clear button visibility changes
-    const mobileControls = document.querySelector('.mobile-controls');
-    if (mobileControls) {
-        if (hasUserThumbs) {
-            mobileControls.classList.add('has-clear-btn');
-        } else {
-            mobileControls.classList.remove('has-clear-btn');
-        }
-    }
-}
+       if (clearBtn) clearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
+       if (mobileClearBtn) mobileClearBtn.style.display = hasUserThumbs ? 'inline-block' : 'none';
    }
 
-
-setupSearchClearButtons() {
-       const setupClear = (searchId, clearId) => {
-           const searchInput = document.getElementById(searchId);
-           const clearBtn = document.getElementById(clearId);
-           
-           if (!searchInput || !clearBtn) return;
-           
-           const updateClearVisibility = () => {
-               clearBtn.style.display = searchInput.value.trim() ? 'block' : 'none';
-           };
-           
-           searchInput.addEventListener('input', updateClearVisibility);
-           clearBtn.addEventListener('click', () => {
-               searchInput.value = '';
-               const otherSearch = searchId === 'search' ? 'mobile-search' : 'search';
-               document.getElementById(otherSearch).value = '';
-               this.currentFilters.search = '';
-               this.updateDynamicCardFields();
-               this.applyFilters();
-               updateClearVisibility();
-           });
-           
-           updateClearVisibility();
-       };
+setupClearSearch(inputId, clearId) {
+       const input = document.getElementById(inputId);
+       const clearIcon = document.getElementById(clearId);
        
-       setupClear('search', 'search-clear');
-       setupClear('mobile-search', 'mobile-search-clear');
+       if (!input || !clearIcon) return;
+
+       const updateClearVisibility = () => {
+           clearIcon.style.display = input.value.trim() ? 'block' : 'none';
+       };
+
+       input.addEventListener('input', updateClearVisibility);
+       
+       clearIcon.addEventListener('click', () => {
+           input.value = '';
+           clearIcon.style.display = 'none';
+           
+           if (this.isSharedView && this.originalSharedFilters) {
+               // Revert to original shared search
+               this.currentFilters.search = this.originalSharedFilters.search || '';
+               const otherSearchInput = inputId === 'search' ? 
+                   document.getElementById('mobile-search') : 
+                   document.getElementById('search');
+               if (otherSearchInput) otherSearchInput.value = this.currentFilters.search;
+           } else {
+               this.currentFilters.search = '';
+               const otherSearchInput = inputId === 'search' ? 
+                   document.getElementById('mobile-search') : 
+                   document.getElementById('search');
+               if (otherSearchInput) otherSearchInput.value = '';
+           }
+           
+           this.updateDynamicCardFields();
+           this.applyFilters();
+       });
    }
 
    getMultiselectValues(filterId) {
