@@ -2424,14 +2424,8 @@ if (addCustomFilterBtn) {
     });
 }
 
-       // Edit mode
-const editModeBtn = document.getElementById('edit-mode-btn');
-if (editModeBtn) {
-    editModeBtn.addEventListener('click', () => {
-        this.toggleEditMode();
-    });
-}
 
+// Edit mode - only mobile edit button since desktop is now in menu
 const mobileEditModeBtn = document.getElementById('mobile-edit-mode-btn');
 if (mobileEditModeBtn) {
     mobileEditModeBtn.addEventListener('click', () => {
@@ -2440,19 +2434,7 @@ if (mobileEditModeBtn) {
     });
 }
 
-const saveChangesBtn = document.getElementById('save-changes-btn');
-if (saveChangesBtn) {
-    saveChangesBtn.addEventListener('click', () => {
-        this.saveAllChanges();
-    });
-}
-
-const discardChangesBtn = document.getElementById('discard-changes-btn');
-if (discardChangesBtn) {
-    discardChangesBtn.addEventListener('click', () => {
-        this.discardAllChanges();
-    });
-}
+// Edit mode controls don't exist in main header anymore - they're in the menus
 
 const mobileDiscardChangesBtn = document.getElementById('mobile-discard-changes-btn');
 if (mobileDiscardChangesBtn) {
@@ -2478,10 +2460,13 @@ if (columnsControl) {
     });
 }
 
-       // Add game form
-       document.getElementById('add-game-btn').addEventListener('click', () => {
-           document.getElementById('add-game-form').classList.add('show');
-       });
+// Add game form - check if elements exist before adding listeners
+       const addGameBtn = document.getElementById('add-game-btn');
+       if (addGameBtn) {
+           addGameBtn.addEventListener('click', () => {
+               document.getElementById('add-game-form').classList.add('show');
+           });
+       }
 
        document.getElementById('mobile-add-game-btn').addEventListener('click', () => {
            document.getElementById('add-game-form').classList.add('show');
@@ -2504,33 +2489,31 @@ if (columnsControl) {
            this.saveGame();
        });
 
-       // Share and export
-       document.getElementById('share-btn').addEventListener('click', () => {
-           this.shareCollection();
-       });
 
-       document.getElementById('mobile-share-btn').addEventListener('click', () => {
-           this.shareCollection();
-           document.getElementById('mobile-menu').classList.remove('show');
-       });
+// Share and export - only add listeners for mobile buttons since desktop buttons are now in menu
+       const mobileShareBtn = document.getElementById('mobile-share-btn');
+       if (mobileShareBtn) {
+           mobileShareBtn.addEventListener('click', () => {
+               this.shareCollection();
+               document.getElementById('mobile-menu').classList.remove('show');
+           });
+       }
 
-       document.getElementById('export-btn').addEventListener('click', () => {
-           this.exportData();
-       });
+       const mobileExportBtn = document.getElementById('mobile-export-btn');
+       if (mobileExportBtn) {
+           mobileExportBtn.addEventListener('click', () => {
+               this.exportData();
+               document.getElementById('mobile-menu').classList.remove('show');
+           });
+       }
 
-       document.getElementById('mobile-export-btn').addEventListener('click', () => {
-           this.exportData();
-           document.getElementById('mobile-menu').classList.remove('show');
-       });
-
-       document.getElementById('import-btn').addEventListener('click', () => {
-           document.getElementById('import-file').click();
-       });
-
-       document.getElementById('mobile-import-btn').addEventListener('click', () => {
-           document.getElementById('import-file').click();
-           document.getElementById('mobile-menu').classList.remove('show');
-       });
+       const mobileImportBtn = document.getElementById('mobile-import-btn');
+       if (mobileImportBtn) {
+           mobileImportBtn.addEventListener('click', () => {
+               document.getElementById('import-file').click();
+               document.getElementById('mobile-menu').classList.remove('show');
+           });
+       }
 
        document.getElementById('import-file').addEventListener('change', (e) => {
            this.importData(e.target.files[0]);
