@@ -12573,9 +12573,64 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1750283526113": {
+      "bggId": "1750283526113",
+      "bggUrl": "https://boardgamegeek.com/boardgame/353815/skate-summer",
+      "name": "Skate Summer",
+      "year": 2022,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.1,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Randy Reiman"
+      ],
+      "artists": [
+        "Pape Ink"
+      ],
+      "publishers": [
+        "Pandasaurus Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/mgupzSAOkcb1tkXeiR2mjQ__original/img/5l7Qj8-gl-EKdlGRGSIM7-d0O2w=/0x0/filters:format(png)/pic6592671.png",
+        "https://cf.geekdo-images.com/mgupzSAOkcb1tkXeiR2mjQ__thumb/img/7V-_NonAE9F-rkrX4qRMRF0gOeE=/fit-in/200x150/filters:strip_icc()/pic6592671.png"
+      ],
+      "notes": "",
+      "description": "It's summer, and you're riding the sun-drenched half-pipes of Pelican Park. Locals know there's no ledge too high, no rail too long, and no ramp too dangerous for you and your crew. Nail rad trick combos and show off your skills, but be careful &mdash; the longer you stay on your board, the more likely you are to bail!&#10;&#10;The object of Skate Summer is to score the most points by doing trick combos, collecting goal tokens, and visiting S-K-A-T-E-R locations. The game is played in rounds. Each round has the following phases:&#10;&#10;1. COMBOS: Players simultaneously play trick cards, earn rewards, and roll dice to check their balance.&#10;2. SKILLS &amp; POINTS: Players simultaneously improve their skills and score points for combos.&#10;3. MOVES: Players take turns navigating the park, picking up goals and gear.&#10;4. ROUND END: Each player resets their board and draws up to their hand size, then the &quot;Pro Skater&quot; first player marker passes to the left.&#10;&#10;If any player's score has hit or passed the endgame token at the end of the round, the game ends and players count up their endgame points. The player with the highest score wins!&#10;&#10;",
+      "category": [
+        "Sports"
+      ],
+      "mechanisms": [
+        "Area Movement",
+        "Dice Rolling",
+        "Die Icon Resolution",
+        "Different Dice Movement",
+        "Hexagon Grid",
+        "Push Your Luck",
+        "Resource to Move",
+        "Set Collection",
+        "Simultaneous Action Selection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:51:28.415Z",
+  "lastModified": "2025-06-18T21:52:06.113Z",
   "version": "1.0"
 }
