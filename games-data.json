@@ -12512,9 +12512,70 @@
         "Pattern Building"
       ],
       "customFields": {}
+    },
+    "1750283488414": {
+      "bggId": "1750283488414",
+      "bggUrl": "https://boardgamegeek.com/boardgame/270673/silver-gold",
+      "name": "Silver & Gold",
+      "year": 2019,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Phil Walker-Harding"
+      ],
+      "artists": [
+        "Oliver Freudenreich"
+      ],
+      "publishers": [
+        "Nürnberger-Spielkarten-Verlag",
+        "Fractal Juegos",
+        "FunMill.ru",
+        "Kaissa Chess & Games",
+        "Mnogoknig Games",
+        "Oya",
+        "Pandasaurus Games",
+        "Popcorn Games",
+        "White Goblin Games",
+        "Нескучные игры"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/a6DA19Zb8GLJ3wxyamCiJw__original/img/0VTXqGyyc0PC_-AdDcOIllSQDMg=/0x0/filters:format(jpeg)/pic6974604.jpg",
+        "https://cf.geekdo-images.com/a6DA19Zb8GLJ3wxyamCiJw__thumb/img/YVYnsMuksuud8E7DfNenfuH5jis=/fit-in/200x150/filters:strip_icc()/pic6974604.jpg"
+      ],
+      "notes": "",
+      "description": "Distant islands with golden treasures &mdash; who hasn't dreamed of that?!&#10;&#10;Silver &amp; Gold combines simple rules, fast action, luck, and planning as players try to complete treasure map after treasure map, with the maps being printed on wipeable cards to allow for endless adventures...&#10;&#10;",
+      "category": [
+        "Adventure",
+        "Exploration"
+      ],
+      "mechanisms": [
+        "Bingo",
+        "Contracts",
+        "End Game Bonuses",
+        "Grid Coverage",
+        "Paper-and-Pencil",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:51:02.905Z",
+  "lastModified": "2025-06-18T21:51:28.415Z",
   "version": "1.0"
 }
