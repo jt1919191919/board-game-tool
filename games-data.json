@@ -12834,9 +12834,66 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1750283632264": {
+      "bggId": "1750283632264",
+      "bggUrl": "https://boardgamegeek.com/boardgame/337389/snakesss",
+      "name": "Snakesss",
+      "year": 2021,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 4,
+        "max": 8
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Phil Walker-Harding"
+      ],
+      "artists": [
+        "Ben Drummond"
+      ],
+      "publishers": [
+        "Big Potato Games",
+        "Gigamic",
+        "Hobby World",
+        "Korea Boardgames"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/IA8aPGqTk0buA0MpmHIlLw__original/img/O6aLeH0mqiyk7aQbUnS4jRrVm1U=/0x0/filters:format(png)/pic6145820.png",
+        "https://cf.geekdo-images.com/IA8aPGqTk0buA0MpmHIlLw__thumb/img/gTPs5hHvH9jHNjGRBQ2oX1beehE=/fit-in/200x150/filters:strip_icc()/pic6145820.png"
+      ],
+      "notes": "",
+      "description": "The group has a multiple-choice question and only two minutes to work it out. The snakes amongst you already know the right answer &mdash; and they'll stop at nothing to keep you away from it.&#10;&#10;In Snakesss, you deal out the cards and try to answer a multiple-choice question with the rest of the players. The more people who get it right, the more points you cash in &mdash; unless, of course, you get one of the snake cards. All the snakes already know the answer, so their job is a bit simpler. To score points, they have to sabotage the discussion and mislead the other players.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Bluffing",
+        "Card Game",
+        "Deduction",
+        "Humor",
+        "Party Game",
+        "Trivia"
+      ],
+      "mechanisms": [
+        "Hidden Roles",
+        "Team-Based Game",
+        "Voting"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:53:25.387Z",
+  "lastModified": "2025-06-18T21:53:52.266Z",
   "version": "1.0"
 }
