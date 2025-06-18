@@ -129,14 +129,16 @@
             max-width: 300px;
         }
 
-        .clear-thumbs-btn {
-            background: #af834c !important;
+.clear-thumbs-btn {
+            background: rgba(86, 76, 175, 0.2) !important;
             white-space: nowrap;
             flex-shrink: 0;
+            backdrop-filter: blur(10px);
         }
 
         .clear-thumbs-btn:hover {
-            background: #9a7043 !important;
+            background: rgba(86, 76, 175, 0.3) !important;
+            transform: translateY(-2px);
         }
 
         .search-box input {
@@ -165,12 +167,14 @@
             transform: translateY(-2px);
         }
 
-        .btn-primary {
-            background: #4CAF50;
+.btn-primary {
+            background: rgba(76, 175, 134, 0.2);
+            backdrop-filter: blur(10px);
         }
 
         .btn-primary:hover {
-            background: #45a049;
+            background: rgba(76, 175, 134, 0.3);
+            transform: translateY(-2px);
         }
 
         .edit-mode-controls {
@@ -977,23 +981,23 @@ button#clear-filters {
                 <input type="text" id="search" style="padding-left: 2.5rem; padding-right: 2rem;">
                 <i class="fa-solid fa-times search-clear" id="search-clear" style="display: none;"></i>
             </div>
-<button class="btn clear-thumbs-btn" id="clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i>/<i class="fa-solid fa-eye-slash"></i></button>
-<button class="btn" id="toggle-filters"><i class="fa-solid fa-filter"></i> Filters</button>
+<button class="btn" id="toggle-filters"><i class="fa-solid fa-arrow-down-wide-short"></i> Filters</button>
+<button class="btn clear-thumbs-btn" id="clear-thumbs-btn" style="display: none;"><i class="fa-solid fa-rotate-left"></i> Reset <i class="fa-solid fa-thumbtack"></i>/<i class="fa-solid fa-eye-slash"></i></button>
 <button class="btn btn-primary" id="add-game-btn"><i class="fa-solid fa-plus"></i> Add Game</button>
 <button class="btn" id="edit-mode-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
 <div class="edit-mode-controls" id="edit-mode-controls">
                 <button class="btn btn-save" id="save-changes-btn">Save Changes</button>
                 <button class="btn btn-discard" id="discard-changes-btn">Discard Changes</button>
             </div>
-            <button class="btn" id="share-btn">Share Collection</button>
-            <button class="btn" id="export-btn">Export Data</button>
-            <button class="btn" id="import-btn">Import Data</button>
+<button class="btn" id="share-btn"><i class="fa-solid fa-share-from-square"></i> Share Collection</button>
+<button class="btn" id="export-btn"><i class="fa-solid fa-file-arrow-up"></i> Export Data</button>
+<button class="btn" id="import-btn"><i class="fa-solid fa-file-arrow-down"></i> Import Data</button>
 </div>
 
         <div class="github-controls" style="position: absolute; top: 1rem; right: 1rem; display: flex; align-items: center; gap: 1rem;">
             <span id="google-drive-status" style="font-size: 0.9rem;">Loading GitHub...</span>
-            <button class="btn" id="google-drive-signin" style="display: none;">Connect GitHub</button>
-            <button class="btn" id="google-drive-signout" style="display: none;">Disconnect GitHub</button>
+<button class="btn" id="google-drive-signin" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Connect GitHub</button>
+<button class="btn" id="google-drive-signout" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub</button>
         </div>
 
 <div class="mobile-controls" id="mobile-controls">
@@ -1003,24 +1007,24 @@ button#clear-filters {
                 <i class="fa-solid fa-times search-clear" id="mobile-search-clear" style="display: none;"></i>
             </div>
             <div class="mobile-buttons-row">
-<button class="btn clear-thumbs-btn" id="mobile-clear-thumbs-btn" style="display: none;">Reset <i class="fa-solid fa-thumbtack"></i>/<i class="fa-solid fa-eye-slash"></i></button>
-                <button class="btn" id="mobile-toggle-filters"><i class="fa-solid fa-filter"></i> Filters</button>
+<button class="btn" id="mobile-toggle-filters"><i class="fa-solid fa-arrow-down-wide-short"></i> Filters</button>
+                <button class="btn clear-thumbs-btn" id="mobile-clear-thumbs-btn" style="display: none;"><i class="fa-solid fa-rotate-left"></i> Reset <i class="fa-solid fa-thumbtack"></i>/<i class="fa-solid fa-eye-slash"></i></button>
             </div>
         </div>
 
 <div class="mobile-menu" id="mobile-menu">
-<button class="btn" id="mobile-filters-btn"><i class="fa-solid fa-filter"></i> Filters</button>
+<button class="btn" id="mobile-filters-btn"><i class="fa-solid fa-arrow-down-wide-short"></i> Filters</button>
 <button class="btn btn-primary" id="mobile-add-game-btn"><i class="fa-solid fa-plus"></i> Add Game</button>
 <button class="btn" id="mobile-edit-mode-btn"><i class="fa-solid fa-pen-to-square"></i> Edit</button>
             <div class="edit-mode-controls" id="mobile-edit-mode-controls">
                 <button class="btn btn-discard" id="mobile-discard-changes-btn">Discard Changes</button>
                 <button class="btn btn-save" id="mobile-save-changes-btn">Save Changes</button>
             </div>
-            <button class="btn" id="mobile-share-btn">Share Collection</button>
-            <button class="btn" id="mobile-export-btn">Export Data</button>
-            <button class="btn" id="mobile-import-btn">Import Data</button>
-<button class="btn" id="mobile-google-drive-signin" style="display: none;">Connect GitHub</button>
-            <button class="btn" id="mobile-google-drive-signout" style="display: none;">Disconnect GitHub</button>
+<button class="btn" id="mobile-share-btn"><i class="fa-solid fa-share-from-square"></i> Share Collection</button>
+<button class="btn" id="mobile-export-btn"><i class="fa-solid fa-file-arrow-up"></i> Export Data</button>
+<button class="btn" id="mobile-import-btn"><i class="fa-solid fa-file-arrow-down"></i> Import Data</button>
+<button class="btn" id="mobile-google-drive-signin" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Connect GitHub</button>
+<button class="btn" id="mobile-google-drive-signout" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub</button>
             <div id="mobile-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
         </div>
 </div>
@@ -2191,29 +2195,77 @@ document.addEventListener('click', (e) => {
            }
        });
 
-       // Filter controls
+// Filter controls
        const toggleFiltersBtn = document.getElementById('toggle-filters');
        if (toggleFiltersBtn) {
            toggleFiltersBtn.addEventListener('click', () => {
                const filters = document.getElementById('filters');
-               if (filters) filters.classList.toggle('show');
+               const icon = toggleFiltersBtn.querySelector('i');
+               if (filters) {
+                   const isShowing = filters.classList.contains('show');
+                   filters.classList.toggle('show');
+                   
+                   if (isShowing) {
+                       // Closing filters
+                       icon.className = 'fa-solid fa-arrow-down-wide-short';
+                       toggleFiltersBtn.style.backgroundColor = '';
+                       toggleFiltersBtn.style.border = '';
+                   } else {
+                       // Opening filters
+                       icon.className = 'fa-solid fa-angle-up';
+                       toggleFiltersBtn.style.backgroundColor = '#744ea600';
+                       toggleFiltersBtn.style.border = '1px solid #ffffff';
+                   }
+               }
            });
        }
 
-       const mobileToggleFiltersBtn = document.getElementById('mobile-toggle-filters');
+const mobileToggleFiltersBtn = document.getElementById('mobile-toggle-filters');
        if (mobileToggleFiltersBtn) {
            mobileToggleFiltersBtn.addEventListener('click', () => {
                const filters = document.getElementById('filters');
-               if (filters) filters.classList.toggle('show');
+               const icon = mobileToggleFiltersBtn.querySelector('i');
+               if (filters) {
+                   const isShowing = filters.classList.contains('show');
+                   filters.classList.toggle('show');
+                   
+                   if (isShowing) {
+                       // Closing filters
+                       icon.className = 'fa-solid fa-arrow-down-wide-short';
+                       mobileToggleFiltersBtn.style.backgroundColor = '';
+                       mobileToggleFiltersBtn.style.border = '';
+                   } else {
+                       // Opening filters
+                       icon.className = 'fa-solid fa-angle-up';
+                       mobileToggleFiltersBtn.style.backgroundColor = '#744ea600';
+                       mobileToggleFiltersBtn.style.border = '1px solid #ffffff';
+                   }
+               }
            });
        }
 
-       const mobileFiltersBtn = document.getElementById('mobile-filters-btn');
+const mobileFiltersBtn = document.getElementById('mobile-filters-btn');
        if (mobileFiltersBtn) {
            mobileFiltersBtn.addEventListener('click', () => {
                const filters = document.getElementById('filters');
                const mobileMenu = document.getElementById('mobile-menu');
-               if (filters) filters.classList.toggle('show');
+               const icon = mobileFiltersBtn.querySelector('i');
+               if (filters) {
+                   const isShowing = filters.classList.contains('show');
+                   filters.classList.toggle('show');
+                   
+                   if (isShowing) {
+                       // Closing filters
+                       icon.className = 'fa-solid fa-arrow-down-wide-short';
+                       mobileFiltersBtn.style.backgroundColor = '';
+                       mobileFiltersBtn.style.border = '';
+                   } else {
+                       // Opening filters
+                       icon.className = 'fa-solid fa-angle-up';
+                       mobileFiltersBtn.style.backgroundColor = '#744ea600';
+                       mobileFiltersBtn.style.border = '1px solid #ffffff';
+                   }
+               }
                if (mobileMenu) mobileMenu.classList.remove('show');
            });
        }
