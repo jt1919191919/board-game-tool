@@ -11670,9 +11670,71 @@
         "Voting"
       ],
       "customFields": {}
+    },
+    "1750280469812": {
+      "bggId": "1750280469812",
+      "bggUrl": "https://boardgamegeek.com/boardgame/128667/samurai-sword",
+      "name": "Samurai Sword",
+      "year": 2012,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 7
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 1.7,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        4,
+        5,
+        6,
+        7,
+        7
+      ],
+      "designers": [
+        "Emiliano Sciarra"
+      ],
+      "artists": [
+        "Werther Dell'Edera"
+      ],
+      "publishers": [
+        "DV Games",
+        "ABACUSSPIELE",
+        "Albi",
+        "Bard Centrum Gier",
+        "Edge Entertainment",
+        "Hobby Japan",
+        "Hobby World",
+        "Swan Panasia Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/LoiCqvj7Zu7hsDPuyRDThA__original/img/mo7-wyR3OpL_Foi_hRMpTRjp5jM=/0x0/filters:format(jpeg)/pic1531841.jpg",
+        "https://cf.geekdo-images.com/LoiCqvj7Zu7hsDPuyRDThA__thumb/img/g951xTjoOG7uFdB4pZr3CTgTTEQ=/fit-in/200x150/filters:strip_icc()/pic1531841.jpg"
+      ],
+      "notes": "",
+      "description": "Game description from the publisher:&#10;&#10;Samurai Sword is a game based on the proven Bang! mechanisms and set in feudal Japan. In this game, the familiar features of Bang! are enhanced by more dynamic and fast-paced game play, and thanks to a new scoring system &ndash; based on honor points and resilience points &ndash; there is no player elimination. Everybody gets to fight to the very end! Also, weapons and attacks are fused into a single card.&#10;&#10;",
+      "category": [
+        "Bluffing",
+        "Card Game",
+        "Deduction",
+        "Fighting",
+        "Medieval"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Team-Based Game",
+        "Variable Player Powers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:00:43.103Z",
+  "lastModified": "2025-06-18T21:01:09.813Z",
   "version": "1.0"
 }
