@@ -13477,9 +13477,64 @@
         "Take That"
       ],
       "customFields": {}
+    },
+    "1750292935198": {
+      "bggId": "1750292935198",
+      "bggUrl": "https://boardgamegeek.com/boardgame/3284/star-wars-epic-duels",
+      "name": "Star Wars: Epic Duels",
+      "year": 2002,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.8,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ],
+      "designers": [
+        "Rob Daviau",
+        "Craig Van Ness"
+      ],
+      "artists": [],
+      "publishers": [
+        "Milton Bradley",
+        "Hasbro"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/wn1LAdKnmLSqSHpwp69_pA__original/img/Vymc8ceLF7bFDOBOiLAjlfXC_LM=/0x0/filters:format(jpeg)/pic1248093.jpg",
+        "https://cf.geekdo-images.com/wn1LAdKnmLSqSHpwp69_pA__thumb/img/j3A0Qv1tHmAHkFifmcsseF1tchw=/fit-in/200x150/filters:strip_icc()/pic1248093.jpg"
+      ],
+      "notes": "",
+      "description": "Individual battles between famous Star Wars characters set on different board locations. Players choose a major character that is accompanied by one or two minor characters. Each set of characters has its own deck of cards which are used for attack, defense, or special abilities. Each deck is unique with certain special powers relevant to the major character. There are different modes of play; one-on-one battles, up to three teams can play against each other, or up to six players can play a free-for-all battle.&#10;&#10;Battle fields included are Geonosis Arena, Emperor's Throne Room, Carbon-Freezing Chamber, and Kamino Platform. The game includes 31 decorated figures from across the entire Star Wars spectrum, 12 character cards (which have major and minor character life trackers on them), 378 action cards (31 per character group), 4 battle field boards, 1 movement die, wound markers, and rules.&#10;&#10;",
+      "category": [
+        "Fighting",
+        "Miniatures",
+        "Movies / TV / Radio theme",
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Campaign / Battle Card Driven",
+        "Player Elimination",
+        "Roll / Spin and Move",
+        "Variable Player Powers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-18T21:59:28.085Z",
+  "lastModified": "2025-06-19T00:28:55.199Z",
   "version": "1.0"
 }
