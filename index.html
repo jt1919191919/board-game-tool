@@ -2370,8 +2370,11 @@ this.setupClearSearch('mobile-search', 'mobile-search-clear');
            hamburgerBtn.addEventListener('click', (e) => {
                e.stopPropagation();
                const mobileMenu = document.getElementById('mobile-menu');
-               if (mobileMenu) {
+if (mobileMenu) {
                    const isOpen = mobileMenu.classList.contains('show');
+                   if (!isOpen) {
+                       history.pushState(null, '', window.location.href);
+                   }
                    mobileMenu.classList.toggle('show');
                    hamburgerBtn.classList.toggle('open');
                    hamburgerBtn.innerHTML = isOpen ? '☰' : '✕';
@@ -2889,34 +2892,48 @@ if (mobileDiscardChangesBtnHeader) {
            }
        });
 
-       // Browser back button support
+
+// Browser back button support
        window.addEventListener('popstate', (e) => {
+           e.preventDefault();
+           
            const gameModal = document.getElementById('game-modal');
            const lightboxModal = document.getElementById('lightbox-modal');
            const mobileMenu = document.getElementById('mobile-menu');
            const desktopMenu = document.getElementById('desktop-menu');
+           const addGameForm = document.getElementById('add-game-form');
            const hamburger = document.getElementById('hamburger-btn');
            const desktopHamburger = document.getElementById('desktop-hamburger-btn');
            
+           let somethingWasClosed = false;
+           
            if (gameModal && gameModal.style.display === 'block') {
                this.closeModal();
-               history.pushState(null, '', window.location.href);
+               somethingWasClosed = true;
            } else if (lightboxModal && lightboxModal.style.display === 'block') {
                this.closeLightbox();
-               history.pushState(null, '', window.location.href);
+               somethingWasClosed = true;
+           } else if (addGameForm && addGameForm.classList.contains('show')) {
+               this.closeForm();
+               somethingWasClosed = true;
            } else if (mobileMenu && mobileMenu.classList.contains('show')) {
                mobileMenu.classList.remove('show');
                if (hamburger) {
                    hamburger.classList.remove('open');
                    hamburger.innerHTML = '☰';
                }
-               history.pushState(null, '', window.location.href);
+               somethingWasClosed = true;
            } else if (desktopMenu && desktopMenu.classList.contains('show')) {
                desktopMenu.classList.remove('show');
                if (desktopHamburger) {
                    desktopHamburger.classList.remove('open');
                    desktopHamburger.innerHTML = '<i class="fa-solid fa-circle-user"></i>';
                }
+               somethingWasClosed = true;
+           }
+           
+           if (somethingWasClosed) {
+               // Push state back to prevent actual navigation
                history.pushState(null, '', window.location.href);
            }
        });
@@ -4332,6 +4349,7 @@ return `
        const content = document.getElementById('modal-game-content');
        
        content.innerHTML = this.renderGameModalContent(game);
+history.pushState(null, '', window.location.href);
        modal.style.display = 'block';
        
        if (game.images && game.images.length > 0) {
