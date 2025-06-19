@@ -680,43 +680,45 @@ button#clear-filters {
         }
 
 .loading {
-    text-align: center;
-    padding: 2rem;
-    color: #667eea;
-}
+            text-align: center;
+            padding: 2rem;
+            color: #667eea;
+        }
 
-.loading-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1500;
-    backdrop-filter: blur(5px);
-}
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(2px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1500;
+            display: none;
+        }
 
-.loading-spinner {
-    width: 40px;
-    height: 40px;
-    border: 4px solid #e1e5e9;
-    border-top: 4px solid #667eea;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-}
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
 
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
 
-.processing {
-    pointer-events: none;
-    opacity: 0.7;
-}
+        .loading-text {
+            margin-top: 1rem;
+            color: #667eea;
+            font-weight: 600;
+        }
 
         .error {
             background: #fee;
@@ -1366,11 +1368,6 @@ button#clear-filters {
        </div>
    </div>
 
-
-<div id="loading-overlay" class="loading-overlay" style="display: none;">
-    <div class="loading-spinner"></div>
-</div>
-
 <div class="container">
     <div class="add-game-form" id="add-game-form">
            <button class="close-btn" id="close-form">&times;</button>
@@ -1528,8 +1525,10 @@ this.currentColumns = 5; // Always start with 5 on desktop
 this.mobileColumns = 1; // Always start with 1 on mobile
 this.gamePreferences = new Map(); // stores thumbs up/down: 'up', 'down', or null
        this.originalSharedPreferences = new Map(); // for shared collections
-       this.searchTimeout = null;
+this.searchTimeout = null;
        this.filterTimeout = null;
+       this.renderTimeout = null;
+       this.isRendering = false;
        this.initGoogleDrive();
    }
 
@@ -1647,6 +1646,32 @@ async signOutFromGoogleDrive() {
        console.log('Credential response received');
    }
 
+showLoading(text = 'Loading...') {
+       const overlay = document.getElementById('loading-overlay');
+       const textEl = overlay.querySelector('.loading-text');
+       if (textEl) textEl.textContent = text;
+       overlay.style.display = 'flex';
+   }
+
+   hideLoading() {
+       const overlay = document.getElementById('loading-overlay');
+       overlay.style.display = 'none';
+   }
+
+   debounceRender() {
+       if (this.isRendering) return;
+       
+       clearTimeout(this.renderTimeout);
+       this.renderTimeout = setTimeout(() => {
+           this.isRendering = true;
+           this.render();
+           // Hide loading after render completes
+           setTimeout(() => {
+               this.isRendering = false;
+               this.hideLoading();
+           }, 50);
+       }, 100);
+   }
 
 updateGoogleDriveUI() {
     const desktopSignInBtn = document.getElementById('desktop-google-drive-signin');
@@ -2210,11 +2235,16 @@ bindEvents() {
        const searchElement = document.getElementById('search');
        console.log('search element:', searchElement);
        if (searchElement) {
-           searchElement.addEventListener('input', (e) => {
+searchElement.addEventListener('input', (e) => {
                this.currentFilters.search = e.target.value;
                const mobileSearch = document.getElementById('mobile-search');
                if (mobileSearch) mobileSearch.value = e.target.value;
                this.updateDynamicCardFields();
+               
+               // Show loading immediately on mobile
+               if (window.innerWidth <= 768) {
+                   this.showLoading('Searching...');
+               }
                
                // Debounce search
                clearTimeout(this.searchTimeout);
@@ -2227,11 +2257,14 @@ bindEvents() {
 const mobileSearchElement = document.getElementById('mobile-search');
        console.log('mobile-search element:', mobileSearchElement);
        if (mobileSearchElement) {
-           mobileSearchElement.addEventListener('input', (e) => {
+mobileSearchElement.addEventListener('input', (e) => {
                this.currentFilters.search = e.target.value;
                const mainSearch = document.getElementById('search');
                if (mainSearch) mainSearch.value = e.target.value;
                this.updateDynamicCardFields();
+               
+               // Show loading immediately on mobile
+               this.showLoading('Searching...');
                
                // Debounce search
                clearTimeout(this.searchTimeout);
@@ -2382,9 +2415,14 @@ const filterInputs = [
 filterInputs.forEach(id => {
            const element = document.getElementById(id);
            if (element) {
-               element.addEventListener('input', () => {
+element.addEventListener('input', () => {
                    this.updateFilters();
                    this.updateDynamicCardFields();
+                   
+                   // Show loading on mobile
+                   if (window.innerWidth <= 768) {
+                       this.showLoading('Filtering...');
+                   }
                    
                    // Debounce filtering
                    clearTimeout(this.filterTimeout);
@@ -3322,403 +3360,403 @@ clearFilters() {
        this.applyFilters();
    }
 
-applyFilters() {
-    // Show loading for mobile or complex operations
-    const isMobile = window.innerWidth <= 768;
-    const isComplexOperation = this.games.size > 50;
-    
-    if (isMobile || isComplexOperation) {
-        this.showLoading();
-    }
-    
-    // Use setTimeout to allow loading animation to show
-    setTimeout(() => {
-        this.updateFilters();
-        
-        let filtered = Array.from(this.games.values());
+   applyFilters() {
+       this.updateFilters();
+       
+       let filtered = Array.from(this.games.values());
 
-        if (this.currentFilters.search) {
-            const search = this.currentFilters.search.toLowerCase();
-            filtered = filtered.filter(game => 
-                game.name.toLowerCase().includes(search) ||
-                (game.notes && game.notes.toLowerCase().includes(search)) ||
-                (game.description && game.description.toLowerCase().includes(search)) ||
-                (game.designers && game.designers.some(d => d.toLowerCase().includes(search))) ||
-                (game.publishers && game.publishers.some(p => p.toLowerCase().includes(search))) ||
-                (game.category && game.category.some(c => c.toLowerCase().includes(search))) ||
-                (game.mechanisms && game.mechanisms.some(m => m.toLowerCase().includes(search)))
-            );
-        }
+if (this.currentFilters.search) {
+    const search = this.currentFilters.search.toLowerCase();
+    filtered = filtered.filter(game => 
+        game.name.toLowerCase().includes(search) ||
+        (game.notes && game.notes.toLowerCase().includes(search)) ||
+        (game.description && game.description.toLowerCase().includes(search)) ||
+        (game.designers && game.designers.some(d => d.toLowerCase().includes(search))) ||
+(game.publishers && game.publishers.some(p => p.toLowerCase().includes(search))) ||
+        (game.category && game.category.some(c => c.toLowerCase().includes(search))) ||
+        (game.mechanisms && game.mechanisms.some(m => m.toLowerCase().includes(search)))
+    );
+}
 
-        if (this.currentFilters.minPlayers) {
-            const type = this.currentFilters.minPlayersType;
-            const value = this.currentFilters.minPlayers;
-            filtered = filtered.filter(game => {
-                if (!game.players) return false;
-                if (type === 'exact') return game.players.min === value;
-                if (type === 'greater') return game.players.max >= value;
-                if (type === 'less') return game.players.min <= value;
-                return true;
-            });
-        }
+       if (this.currentFilters.minPlayers) {
+           const type = this.currentFilters.minPlayersType;
+           const value = this.currentFilters.minPlayers;
+           filtered = filtered.filter(game => {
+               if (!game.players) return false;
+               if (type === 'exact') return game.players.min === value;
+               if (type === 'greater') return game.players.max >= value;
+               if (type === 'less') return game.players.min <= value;
+               return true;
+           });
+       }
 
-        if (this.currentFilters.maxPlayers) {
-            const type = this.currentFilters.maxPlayersType;
-            const value = this.currentFilters.maxPlayers;
-            filtered = filtered.filter(game => {
-                if (!game.players) return false;
-                if (type === 'exact') return game.players.max === value;
-                if (type === 'less') return game.players.min <= value;
-                if (type === 'greater') return game.players.max >= value;
-                return true;
-            });
-        }
+       if (this.currentFilters.maxPlayers) {
+           const type = this.currentFilters.maxPlayersType;
+           const value = this.currentFilters.maxPlayers;
+           filtered = filtered.filter(game => {
+               if (!game.players) return false;
+               if (type === 'exact') return game.players.max === value;
+               if (type === 'less') return game.players.min <= value;
+               if (type === 'greater') return game.players.max >= value;
+               return true;
+           });
+       }
 
-        if (this.currentFilters.minPlaytime) {
-            const type = this.currentFilters.minPlaytimeType;
-            const value = this.currentFilters.minPlaytime;
-            filtered = filtered.filter(game => {
-                if (!game.playtime) return false;
-                if (type === 'exact') return game.playtime.min === value;
-                if (type === 'greater') return game.playtime.max >= value;
-                if (type === 'less') return game.playtime.min <= value;
-                return true;
-            });
-        }
+       if (this.currentFilters.minPlaytime) {
+           const type = this.currentFilters.minPlaytimeType;
+           const value = this.currentFilters.minPlaytime;
+           filtered = filtered.filter(game => {
+               if (!game.playtime) return false;
+               if (type === 'exact') return game.playtime.min === value;
+               if (type === 'greater') return game.playtime.max >= value;
+               if (type === 'less') return game.playtime.min <= value;
+               return true;
+           });
+       }
 
-        if (this.currentFilters.maxPlaytime) {
-            const type = this.currentFilters.maxPlaytimeType;
-            const value = this.currentFilters.maxPlaytime;
-            filtered = filtered.filter(game => {
-                if (!game.playtime) return false;
-                if (type === 'exact') return game.playtime.max === value;
-                if (type === 'less') return game.playtime.min <= value;
-                if (type === 'greater') return game.playtime.max >= value;
-                return true;
-            });
-        }
+       if (this.currentFilters.maxPlaytime) {
+           const type = this.currentFilters.maxPlaytimeType;
+           const value = this.currentFilters.maxPlaytime;
+           filtered = filtered.filter(game => {
+               if (!game.playtime) return false;
+               if (type === 'exact') return game.playtime.max === value;
+               if (type === 'less') return game.playtime.min <= value;
+               if (type === 'greater') return game.playtime.max >= value;
+               return true;
+           });
+       }
 
-        if (this.currentFilters.year) {
-            const type = this.currentFilters.yearType;
-            const value = this.currentFilters.year;
-            filtered = filtered.filter(game => {
-                if (!game.year) return false;
-                if (type === 'exact') return game.year === value;
-                if (type === 'greater') return game.year > value;
-                if (type === 'less') return game.year < value;
-                return true;
-            });
-        }
+if (this.currentFilters.year) {
+           const type = this.currentFilters.yearType;
+           const value = this.currentFilters.year;
+           filtered = filtered.filter(game => {
+               if (!game.year) return false;
+               if (type === 'exact') return game.year === value;
+               if (type === 'greater') return game.year > value;
+               if (type === 'less') return game.year < value;
+               return true;
+           });
+       }
 
-        if (this.currentFilters.dateAcquired) {
-            const type = this.currentFilters.dateAcquiredType;
-            const filterDate = new Date(this.currentFilters.dateAcquired);
-            filtered = filtered.filter(game => {
-                if (!game.dateAcquired) return false;
-                const gameDate = new Date(game.dateAcquired);
-                if (type === 'exact') return gameDate.getFullYear() === filterDate.getFullYear();
-                if (type === 'greater') return gameDate > filterDate;
-                if (type === 'less') return gameDate < filterDate;
-                return true;
-            });
-        }
+if (this.currentFilters.dateAcquired) {
+           const type = this.currentFilters.dateAcquiredType;
+           const filterDate = new Date(this.currentFilters.dateAcquired);
+           filtered = filtered.filter(game => {
+               if (!game.dateAcquired) return false;
+               const gameDate = new Date(game.dateAcquired);
+               if (type === 'exact') return gameDate.getFullYear() === filterDate.getFullYear();
+               if (type === 'greater') return gameDate > filterDate;
+               if (type === 'less') return gameDate < filterDate;
+               return true;
+           });
+       }
 
-        if (this.currentFilters.minWeight) {
-            const type = this.currentFilters.minWeightType;
-            const value = this.currentFilters.minWeight;
-            filtered = filtered.filter(game => {
-                if (game.weight === null || game.weight === undefined) return false;
-                if (type === 'exact') return Math.abs(game.weight - value) < 0.1;
-                if (type === 'greater') return game.weight > value;
-                return true;
-            });
-        }
+       if (this.currentFilters.minWeight) {
+           const type = this.currentFilters.minWeightType;
+           const value = this.currentFilters.minWeight;
+           filtered = filtered.filter(game => {
+               if (game.weight === null || game.weight === undefined) return false;
+               if (type === 'exact') return Math.abs(game.weight - value) < 0.1;
+               if (type === 'greater') return game.weight > value;
+               return true;
+           });
+       }
 
-        if (this.currentFilters.maxWeight) {
-            const type = this.currentFilters.maxWeightType;
-            const value = this.currentFilters.maxWeight;
-            filtered = filtered.filter(game => {
-                if (game.weight === null || game.weight === undefined) return false;
-                if (type === 'exact') return Math.abs(game.weight - value) < 0.1;
-                if (type === 'less') return game.weight < value;
-                return true;
-            });
-        }
+       if (this.currentFilters.maxWeight) {
+           const type = this.currentFilters.maxWeightType;
+           const value = this.currentFilters.maxWeight;
+           filtered = filtered.filter(game => {
+               if (game.weight === null || game.weight === undefined) return false;
+               if (type === 'exact') return Math.abs(game.weight - value) < 0.1;
+               if (type === 'less') return game.weight < value;
+               return true;
+           });
+       }
 
-        if (this.currentFilters.publisher) {
-            const type = this.currentFilters.publisherType;
-            const value = this.currentFilters.publisher.toLowerCase();
-            filtered = filtered.filter(game => {
-                if (!game.publishers) return false;
-                const publisherText = game.publishers.join(' ').toLowerCase();
-                if (type === 'contains') return publisherText.includes(value);
-                if (type === 'exact') return game.publishers.some(p => p.toLowerCase() === value);
-                if (type === 'not-contains') return !publisherText.includes(value);
-                return true;
-            });
-        }
+       if (this.currentFilters.publisher) {
+           const type = this.currentFilters.publisherType;
+           const value = this.currentFilters.publisher.toLowerCase();
+           filtered = filtered.filter(game => {
+               if (!game.publishers) return false;
+               const publisherText = game.publishers.join(' ').toLowerCase();
+               if (type === 'contains') return publisherText.includes(value);
+               if (type === 'exact') return game.publishers.some(p => p.toLowerCase() === value);
+               if (type === 'not-contains') return !publisherText.includes(value);
+               return true;
+           });
+       }
 
-        if (this.currentFilters.designer && this.currentFilters.designer.length > 0) {
-            filtered = filtered.filter(game => {
-                if (!game.designers) return false;
-                return this.currentFilters.designer.some(designer => game.designers.includes(designer));
-            });
-        }
+if (this.currentFilters.designer && this.currentFilters.designer.length > 0) {
+           filtered = filtered.filter(game => {
+               if (!game.designers) return false;
+               return this.currentFilters.designer.some(designer => game.designers.includes(designer));
+           });
+       }
 
-        if (this.currentFilters.publisherDropdown && this.currentFilters.publisherDropdown.length > 0) {
-            filtered = filtered.filter(game => {
-                if (!game.publishers) return false;
-                return this.currentFilters.publisherDropdown.some(publisher => game.publishers.includes(publisher));
-            });
-        }
+if (this.currentFilters.publisherDropdown && this.currentFilters.publisherDropdown.length > 0) {
+           filtered = filtered.filter(game => {
+               if (!game.publishers) return false;
+               return this.currentFilters.publisherDropdown.some(publisher => game.publishers.includes(publisher));
+           });
+       }
 
-        if (this.currentFilters.designerContains) {
-            const type = this.currentFilters.designerContainsType;
-            const value = this.currentFilters.designerContains.toLowerCase();
-            filtered = filtered.filter(game => {
-                if (!game.designers) return false;
-                const designerText = game.designers.join(' ').toLowerCase();
-                if (type === 'contains') return designerText.includes(value);
-                if (type === 'exact') return game.designers.some(d => d.toLowerCase() === value);
-                if (type === 'not-contains') return !designerText.includes(value);
-                return true;
-            });
-        }
+       if (this.currentFilters.designerContains) {
+           const type = this.currentFilters.designerContainsType;
+           const value = this.currentFilters.designerContains.toLowerCase();
+           filtered = filtered.filter(game => {
+               if (!game.designers) return false;
+               const designerText = game.designers.join(' ').toLowerCase();
+               if (type === 'contains') return designerText.includes(value);
+               if (type === 'exact') return game.designers.some(d => d.toLowerCase() === value);
+               if (type === 'not-contains') return !designerText.includes(value);
+               return true;
+           });
+       }
 
-        if (this.currentFilters.designerNationalityContains) {
-            const type = this.currentFilters.designerNationalityContainsType;
-            const value = this.currentFilters.designerNationalityContains.toLowerCase();
-            filtered = filtered.filter(game => {
-                if (!game.designerNationality) return false;
-                const nationalityText = Array.isArray(game.designerNationality) ? 
-                    game.designerNationality.join(' ').toLowerCase() : 
-                    game.designerNationality.toLowerCase();
-                if (type === 'contains') return nationalityText.includes(value);
-                if (type === 'exact') return nationalityText === value;
-                if (type === 'not-contains') return !nationalityText.includes(value);
-                return true;
-            });
-        }
+if (this.currentFilters.designerNationalityContains) {
+           const type = this.currentFilters.designerNationalityContainsType;
+           const value = this.currentFilters.designerNationalityContains.toLowerCase();
+           filtered = filtered.filter(game => {
+               if (!game.designerNationality) return false;
+               const nationalityText = Array.isArray(game.designerNationality) ? 
+                   game.designerNationality.join(' ').toLowerCase() : 
+                   game.designerNationality.toLowerCase();
+               if (type === 'contains') return nationalityText.includes(value);
+               if (type === 'exact') return nationalityText === value;
+               if (type === 'not-contains') return !nationalityText.includes(value);
+               return true;
+           });
+       }
 
-        if (this.currentFilters.designerNationality && this.currentFilters.designerNationality.length > 0) {
-            filtered = filtered.filter(game => {
-                if (!game.designerNationality) return false;
-                const nationalities = Array.isArray(game.designerNationality) ? 
-                    game.designerNationality : game.designerNationality.split(',').map(s => s.trim());
-                return this.currentFilters.designerNationality.some(nationality => nationalities.includes(nationality));
-            });
-        }
+if (this.currentFilters.designerNationality && this.currentFilters.designerNationality.length > 0) {
+           filtered = filtered.filter(game => {
+               if (!game.designerNationality) return false;
+               const nationalities = Array.isArray(game.designerNationality) ? 
+                   game.designerNationality : game.designerNationality.split(',').map(s => s.trim());
+               return this.currentFilters.designerNationality.some(nationality => nationalities.includes(nationality));
+           });
+       }
 
-        if (this.currentFilters.artist && this.currentFilters.artist.length > 0) {
-            filtered = filtered.filter(game => {
-                if (!game.artists) return false;
-                return this.currentFilters.artist.some(artist => game.artists.includes(artist));
-            });
-        }
+if (this.currentFilters.artist && this.currentFilters.artist.length > 0) {
+           filtered = filtered.filter(game => {
+               if (!game.artists) return false;
+               return this.currentFilters.artist.some(artist => game.artists.includes(artist));
+           });
+       }
 
-        if (this.currentFilters.artistContains) {
-            const type = this.currentFilters.artistContainsType;
-            const value = this.currentFilters.artistContains.toLowerCase();
-            filtered = filtered.filter(game => {
-                if (!game.artists) return false;
-                const artistText = game.artists.join(' ').toLowerCase();
-                if (type === 'contains') return artistText.includes(value);
-                if (type === 'exact') return game.artists.some(a => a.toLowerCase() === value);
-                if (type === 'not-contains') return !artistText.includes(value);
-                return true;
-            });
-        }
+       if (this.currentFilters.artistContains) {
+           const type = this.currentFilters.artistContainsType;
+           const value = this.currentFilters.artistContains.toLowerCase();
+           filtered = filtered.filter(game => {
+               if (!game.artists) return false;
+               const artistText = game.artists.join(' ').toLowerCase();
+               if (type === 'contains') return artistText.includes(value);
+               if (type === 'exact') return game.artists.some(a => a.toLowerCase() === value);
+               if (type === 'not-contains') return !artistText.includes(value);
+               return true;
+           });
+       }
 
-        if (this.currentFilters.publisherCountry) {
-            const type = this.currentFilters.publisherCountryType;
-            const value = this.currentFilters.publisherCountry.toLowerCase();
-            filtered = filtered.filter(game => {
-                if (!game.publisherCountry) return false;
-                const countryText = Array.isArray(game.publisherCountry) ? 
-                    game.publisherCountry.join(' ').toLowerCase() : 
-                    game.publisherCountry.toLowerCase();
-                if (type === 'contains') return countryText.includes(value);
-                if (type === 'exact') return countryText === value;
-                if (type === 'not-contains') return !countryText.includes(value);
-                return true;
-            });
-        }
+if (this.currentFilters.publisherCountry) {
+           const type = this.currentFilters.publisherCountryType;
+           const value = this.currentFilters.publisherCountry.toLowerCase();
+           filtered = filtered.filter(game => {
+               if (!game.publisherCountry) return false;
+               const countryText = Array.isArray(game.publisherCountry) ? 
+                   game.publisherCountry.join(' ').toLowerCase() : 
+                   game.publisherCountry.toLowerCase();
+               if (type === 'contains') return countryText.includes(value);
+               if (type === 'exact') return countryText === value;
+               if (type === 'not-contains') return !countryText.includes(value);
+               return true;
+           });
+       }
 
-        if (this.currentFilters.notes) {
-            const type = this.currentFilters.notesType;
-            const value = this.currentFilters.notes.toLowerCase();
-            filtered = filtered.filter(game => {
-                if (!game.notes) return false;
-                const notesText = game.notes.toLowerCase();
-                if (type === 'contains') return notesText.includes(value);
-                if (type === 'exact') return notesText === value;
-                if (type === 'not-contains') return !notesText.includes(value);
-                return true;
-            });
-        }
+if (this.currentFilters.notes) {
+    const type = this.currentFilters.notesType;
+    const value = this.currentFilters.notes.toLowerCase();
+    filtered = filtered.filter(game => {
+        if (!game.notes) return false;
+        const notesText = game.notes.toLowerCase();
+        if (type === 'contains') return notesText.includes(value);
+        if (type === 'exact') return notesText === value;
+        if (type === 'not-contains') return !notesText.includes(value);
+        return true;
+    });
+}
 
-        if (this.currentFilters.description) {
-            const type = this.currentFilters.descriptionType;
-            const value = this.currentFilters.description.toLowerCase();
-            filtered = filtered.filter(game => {
-                const desc = (game.description || '').toLowerCase();
-                if (!desc.trim()) return false;
-                if (type === 'contains') return desc.includes(value);
-                if (type === 'exact') return desc === value;
-                if (type === 'not-contains') return !desc.includes(value);
-                return true;
-            });
-        }
+if (this.currentFilters.description) {
+    const type = this.currentFilters.descriptionType;
+    const value = this.currentFilters.description.toLowerCase();
+    filtered = filtered.filter(game => {
+        const desc = (game.description || '').toLowerCase();
+        if (!desc.trim()) return false;
+        if (type === 'contains') return desc.includes(value);
+        if (type === 'exact') return desc === value;
+        if (type === 'not-contains') return !desc.includes(value);
+        return true;
+    });
+}
 
-        if (this.currentFilters.category && this.currentFilters.category.length > 0) {
-            filtered = filtered.filter(game => {
-                if (!game.category) return false;
-                return this.currentFilters.category.some(category => game.category.includes(category));
-            });
-        }
 
-        if (this.currentFilters.categoryContains) {
-            const type = this.currentFilters.categoryContainsType;
-            const value = this.currentFilters.categoryContains.toLowerCase();
-            filtered = filtered.filter(game => {
-                if (!game.category) return false;
-                const categoryText = game.category.join(' ').toLowerCase();
-                if (type === 'contains') return categoryText.includes(value);
-                if (type === 'exact') return game.category.some(c => c.toLowerCase() === value);
-                if (type === 'not-contains') return !categoryText.includes(value);
-                return true;
-            });
-        }
+if (this.currentFilters.category && this.currentFilters.category.length > 0) {
+    filtered = filtered.filter(game => {
+        if (!game.category) return false;
+        return this.currentFilters.category.some(category => game.category.includes(category));
+    });
+}
 
-        if (this.currentFilters.mechanisms && this.currentFilters.mechanisms.length > 0) {
-            filtered = filtered.filter(game => {
-                if (!game.mechanisms) return false;
-                return this.currentFilters.mechanisms.some(mechanism => game.mechanisms.includes(mechanism));
-            });
-        }
+if (this.currentFilters.categoryContains) {
+    const type = this.currentFilters.categoryContainsType;
+    const value = this.currentFilters.categoryContains.toLowerCase();
+    filtered = filtered.filter(game => {
+        if (!game.category) return false;
+        const categoryText = game.category.join(' ').toLowerCase();
+        if (type === 'contains') return categoryText.includes(value);
+        if (type === 'exact') return game.category.some(c => c.toLowerCase() === value);
+        if (type === 'not-contains') return !categoryText.includes(value);
+        return true;
+    });
+}
 
-        if (this.currentFilters.mechanismsContains) {
-            const type = this.currentFilters.mechanismsContainsType;
-            const value = this.currentFilters.mechanismsContains.toLowerCase();
-            filtered = filtered.filter(game => {
-                if (!game.mechanisms) return false;
-                const mechanismsText = game.mechanisms.join(' ').toLowerCase();
-                if (type === 'contains') return mechanismsText.includes(value);
-                if (type === 'exact') return game.mechanisms.some(m => m.toLowerCase() === value);
-                if (type === 'not-contains') return !mechanismsText.includes(value);
-                return true;
-            });
-        }
+if (this.currentFilters.mechanisms && this.currentFilters.mechanisms.length > 0) {
+    filtered = filtered.filter(game => {
+        if (!game.mechanisms) return false;
+        return this.currentFilters.mechanisms.some(mechanism => game.mechanisms.includes(mechanism));
+    });
+}
 
-        if (this.currentFilters.bestPlayerCount) {
-            const counts = this.currentFilters.bestPlayerCount.split(',').map(s => parseInt(s.trim())).filter(n => !isNaN(n));
-            if (counts.length > 0) {
-                filtered = filtered.filter(game => {
-                    if (!game.bestPlayerCount || game.bestPlayerCount.length === 0) return false;
-                    return counts.some(count => game.bestPlayerCount.includes(count));
-                });
-            }
-        }
+if (this.currentFilters.mechanismsContains) {
+    const type = this.currentFilters.mechanismsContainsType;
+    const value = this.currentFilters.mechanismsContains.toLowerCase();
+    filtered = filtered.filter(game => {
+        if (!game.mechanisms) return false;
+        const mechanismsText = game.mechanisms.join(' ').toLowerCase();
+        if (type === 'contains') return mechanismsText.includes(value);
+        if (type === 'exact') return game.mechanisms.some(m => m.toLowerCase() === value);
+        if (type === 'not-contains') return !mechanismsText.includes(value);
+        return true;
+    });
+}
 
-        this.customFilters.forEach(filter => {
-            filtered = filtered.filter(game => {
-                let gameValue;
-                
-                if (filter.field.includes('.')) {
-                    const [field, subField] = filter.field.split('.');
-                    gameValue = game[field] ? game[field][subField] : null;
-                } else {
-                    gameValue = game[filter.field];
-                }
+       if (this.currentFilters.bestPlayerCount) {
+           const counts = this.currentFilters.bestPlayerCount.split(',').map(s => parseInt(s.trim())).filter(n => !isNaN(n));
+           if (counts.length > 0) {
+               filtered = filtered.filter(game => {
+                   if (!game.bestPlayerCount || game.bestPlayerCount.length === 0) return false;
+                   return counts.some(count => game.bestPlayerCount.includes(count));
+               });
+           }
+       }
 
-                if (gameValue === null || gameValue === undefined) return false;
+       this.customFilters.forEach(filter => {
+           filtered = filtered.filter(game => {
+               let gameValue;
+               
+               if (filter.field.includes('.')) {
+                   const [field, subField] = filter.field.split('.');
+                   gameValue = game[field] ? game[field][subField] : null;
+               } else {
+                   gameValue = game[filter.field];
+               }
 
-                const filterValue = filter.value.toLowerCase();
-                
-                if (Array.isArray(gameValue)) {
-                    const arrayText = gameValue.join(' ').toLowerCase();
-                    switch (filter.type) {
-                        case 'contains': return arrayText.includes(filterValue);
-                        case 'exact': return gameValue.some(v => v.toLowerCase() === filterValue);
-                        case 'not-contains': return !arrayText.includes(filterValue);
-                        default: return false;
-                    }
-                } else if (typeof gameValue === 'string') {
-                    const stringValue = gameValue.toLowerCase();
-                    switch (filter.type) {
-                        case 'contains': return stringValue.includes(filterValue);
-                        case 'exact': return stringValue === filterValue;
-                        case 'not-contains': return !stringValue.includes(filterValue);
-                        default: return false;
-                    }
-                } else if (typeof gameValue === 'number') {
-                    const numValue = parseFloat(filter.value);
-                    if (isNaN(numValue)) return false;
-                    switch (filter.type) {
-                        case 'exact': return gameValue === numValue;
-                        case 'greater': return gameValue > numValue;
-                        case 'less': return gameValue < numValue;
-                        case 'greater-equal': return gameValue >= numValue;
-                        case 'less-equal': return gameValue <= numValue;
-                        case 'contains': return gameValue.toString().includes(filter.value);
-                        default: return false;
-                    }
-                }
-                
-                return false;
-            });
-        });
+               if (gameValue === null || gameValue === undefined) return false;
 
-        // Always include thumbs up games, even if they don't match filters
-        const thumbsUpGames = Array.from(this.games.values()).filter(game => 
-            this.gamePreferences.get(game.bggId) === 'up'
-        );
+               const filterValue = filter.value.toLowerCase();
+               
+               if (Array.isArray(gameValue)) {
+                   const arrayText = gameValue.join(' ').toLowerCase();
+                   switch (filter.type) {
+                       case 'contains': return arrayText.includes(filterValue);
+                       case 'exact': return gameValue.some(v => v.toLowerCase() === filterValue);
+                       case 'not-contains': return !arrayText.includes(filterValue);
+                       default: return false;
+                   }
+               } else if (typeof gameValue === 'string') {
+                   const stringValue = gameValue.toLowerCase();
+                   switch (filter.type) {
+                       case 'contains': return stringValue.includes(filterValue);
+                       case 'exact': return stringValue === filterValue;
+                       case 'not-contains': return !stringValue.includes(filterValue);
+                       default: return false;
+                   }
+               } else if (typeof gameValue === 'number') {
+                   const numValue = parseFloat(filter.value);
+                   if (isNaN(numValue)) return false;
+                   switch (filter.type) {
+                       case 'exact': return gameValue === numValue;
+                       case 'greater': return gameValue > numValue;
+                       case 'less': return gameValue < numValue;
+                       case 'greater-equal': return gameValue >= numValue;
+                       case 'less-equal': return gameValue <= numValue;
+                       case 'contains': return gameValue.toString().includes(filter.value);
+                       default: return false;
+                   }
+               }
+               
+               return false;
+           });
+       });
 
-        // Apply thumb preferences to filtered games (hide thumbs down)
-        filtered = filtered.filter(game => {
-            const preference = this.gamePreferences.get(game.bggId);
-            if (preference === 'down') return false; // Hide thumbs down
-            return true; // Show everything else (neutral)
-        });
+// Always include thumbs up games, even if they don't match filters
+const thumbsUpGames = Array.from(this.games.values()).filter(game => 
+    this.gamePreferences.get(game.bggId) === 'up'
+);
 
-        // Combine thumbs up games with filtered games, removing duplicates
-        const filteredIds = new Set(filtered.map(game => game.bggId));
-        const uniqueThumbsUp = thumbsUpGames.filter(game => !filteredIds.has(game.bggId));
-        filtered = [...thumbsUpGames.filter(game => filteredIds.has(game.bggId)), ...uniqueThumbsUp, ...filtered.filter(game => this.gamePreferences.get(game.bggId) !== 'up')];
+// Apply thumb preferences to filtered games (hide thumbs down)
+filtered = filtered.filter(game => {
+    const preference = this.gamePreferences.get(game.bggId);
+    if (preference === 'down') return false; // Hide thumbs down
+    return true; // Show everything else (neutral)
+});
 
-        const sortField = document.getElementById('sort-field').value;
-        const sortOrder = document.getElementById('sort-order').value;
+// Combine thumbs up games with filtered games, removing duplicates
+const filteredIds = new Set(filtered.map(game => game.bggId));
+const uniqueThumbsUp = thumbsUpGames.filter(game => !filteredIds.has(game.bggId));
+filtered = [...thumbsUpGames.filter(game => filteredIds.has(game.bggId)), ...uniqueThumbsUp, ...filtered.filter(game => this.gamePreferences.get(game.bggId) !== 'up')];
 
-        filtered.sort((a, b) => {
-            let aVal, bVal;
+const sortField = document.getElementById('sort-field').value;
+       const sortOrder = document.getElementById('sort-order').value;
 
-            if (sortField.includes('.')) {
-                const [field, subField] = sortField.split('.');
-                aVal = a[field] ? a[field][subField] : 0;
-                bVal = b[field] ? b[field][subField] : 0;
-            } else {
-                aVal = a[sortField];
-                bVal = b[sortField];
-            }
+       filtered.sort((a, b) => {
+           let aVal, bVal;
 
-            if (typeof aVal === 'string') {
-                aVal = aVal.toLowerCase();
-                bVal = bVal.toLowerCase();
-                // Remove "The " from beginning for sorting
-                if (sortField === 'name') {
-                    aVal = aVal.replace(/^the\s+/, '');
-                    bVal = bVal.replace(/^the\s+/, '');
-                }
-            }
+           if (sortField.includes('.')) {
+               const [field, subField] = sortField.split('.');
+               aVal = a[field] ? a[field][subField] : 0;
+               bVal = b[field] ? b[field][subField] : 0;
+           } else {
+               aVal = a[sortField];
+               bVal = b[sortField];
+           }
 
-            if (aVal < bVal) return sortOrder === 'asc' ? -1 : 1;
-            if (aVal > bVal) return sortOrder === 'asc' ? 1 : -1;
-            return 0;
-        });
+           if (typeof aVal === 'string') {
+               aVal = aVal.toLowerCase();
+               bVal = bVal.toLowerCase();
+               // Remove "The " from beginning for sorting
+               if (sortField === 'name') {
+                   aVal = aVal.replace(/^the\s+/, '');
+                   bVal = bVal.replace(/^the\s+/, '');
+               }
+           }
 
-        this.filteredGames = filtered;
-this.render();
-async fetchBGGData() {
+           if (aVal < bVal) return sortOrder === 'asc' ? -1 : 1;
+           if (aVal > bVal) return sortOrder === 'asc' ? 1 : -1;
+           return 0;
+       });
+
+this.filteredGames = filtered;
+       
+       if (window.innerWidth <= 768 && this.filteredGames.length > 20) {
+           this.showLoading('Updating results...');
+           this.debounceRender();
+       } else {
+           this.render();
+           this.hideLoading();
+       }
+   }
+
+   async fetchBGGData() {
        const url = document.getElementById('bgg-url').value;
        if (!url) return;
 
@@ -3895,6 +3933,12 @@ render() {
        const container = document.getElementById('game-grid');
        const emptyState = document.getElementById('empty-state');
        const resultsInfo = document.getElementById('results-info');
+       
+       // For mobile with many games, show loading
+       const isMobile = window.innerWidth <= 768;
+       if (isMobile && this.filteredGames.length > 15) {
+           this.showLoading('Rendering games...');
+       }
 
        if (this.filteredGames.length === 0) {
            container.innerHTML = '';
@@ -3940,7 +3984,12 @@ pagination: {
                    const icon = e.target.querySelector('.toggle-icon');
                    icon.textContent = content.classList.contains('show') ? '▼' : '▶';
                });
-           });
+});
+       }
+       
+       // Hide loading after render
+       if (window.innerWidth <= 768) {
+           setTimeout(() => this.hideLoading(), 50);
        }
    }
 
@@ -4774,23 +4823,7 @@ optionDiv.innerHTML = `
        this.updateMultiselectDisplay(filterId, defaultText);
    }
 
-showLoading() {
-    const overlay = document.getElementById('loading-overlay');
-    if (overlay) {
-        overlay.style.display = 'flex';
-    }
-    document.body.classList.add('processing');
-}
-
-hideLoading() {
-    const overlay = document.getElementById('loading-overlay');
-    if (overlay) {
-        overlay.style.display = 'none';
-    }
-    document.body.classList.remove('processing');
-}
-
-updateMultiselectDisplay(filterId, defaultText) {
+   updateMultiselectDisplay(filterId, defaultText) {
        const selectedDiv = document.querySelector(`#${filterId}-dropdown .multiselect-selected`);
        const selected = this.getMultiselectValues(filterId);
        
@@ -4824,6 +4857,13 @@ document.addEventListener('DOMContentLoaded', async () => {
        <span class="close-modal" onclick="boardGameApp.closeModal()">&times;</span>
        <div id="modal-game-content"></div>
    </div>
+</div>
+
+<div id="loading-overlay" class="loading-overlay">
+    <div>
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading...</div>
+    </div>
 </div>
 
 <div id="lightbox-modal" class="lightbox" style="display: none;">
