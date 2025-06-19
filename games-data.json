@@ -14010,9 +14010,69 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1750344600222": {
+      "bggId": "1750344600222",
+      "bggUrl": "https://boardgamegeek.com/boardgame/908/tally-ho",
+      "name": "Tally Ho!",
+      "year": 1973,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.5,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2
+      ],
+      "designers": [
+        "Rudi Hoffmann"
+      ],
+      "artists": [
+        "Rudi Hoffmann",
+        "Hanne Horstkötter",
+        "Franz Vohwinkel"
+      ],
+      "publishers": [
+        "999 Games",
+        "Albi",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "KOSMOS",
+        "MINDOK",
+        "Paper Iyagi",
+        "Rio Grande Games",
+        "Spear's Games",
+        "Tilsit"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/9nNl8qfnp344TJUPLQhJhw__original/img/FSPiY99KzVr7kbibwKRqISrWPO0=/0x0/filters:format(jpeg)/pic2855889.jpg",
+        "https://cf.geekdo-images.com/9nNl8qfnp344TJUPLQhJhw__thumb/img/6E8ARH3FZPABYjW1NTY6aWU6liA=/fit-in/200x150/filters:strip_icc()/pic2855889.jpg"
+      ],
+      "notes": "",
+      "description": "What happens when the hunter becomes the hunted?&#10;&#10;In Tally Ho!, one player takes the role of the hunters and the lumberjacks; the other takes the role of the foxes and bears. Both players hunt each other!&#10;&#10;At first the forest lies peacefully under the face-down tiles. As the players turn the tiles over and move them on the board, the forest awakens and the hunt destroys the serenity of the forest. The lumberjacks cut swaths through the forest to provide hunting fields for the hunters. The bears then use these same aisles to track the hunters and lumberjacks. And both sides hunt the ducks who are just trying to live in peace!&#10;&#10;The two sides are balanced with luck dominating the early game, but skill taking over at the end. Good hunting!&#10;&#10;Originally published by Spear Spiele in 1973 as Jag und Schlag, Kosmos republished the game in 2000 as Tally Ho! / Halali! as part of its Kosmos two-player series.&#10;&#10;",
+      "category": [
+        "Animals"
+      ],
+      "mechanisms": [
+        "End Game Bonuses",
+        "Grid Movement",
+        "Square Grid",
+        "Static Capture",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-19T14:49:15.072Z",
+  "lastModified": "2025-06-19T14:50:00.223Z",
   "version": "1.0"
 }
