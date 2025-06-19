@@ -324,12 +324,37 @@ button#clear-filters {
             object-fit: cover;
         }
 
-        .image-loading {
+.image-loading {
             opacity: 0.7;
             transition: opacity 0.3s ease;
         }
 
         .image-loaded {
+            opacity: 1;
+        }
+
+        .image-placeholder {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%), 
+                        linear-gradient(-45deg, #f0f0f0 25%, transparent 25%), 
+                        linear-gradient(45deg, transparent 75%, #f0f0f0 75%), 
+                        linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
+            background-size: 20px 20px;
+            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        .swiper-slide img[data-src] {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .swiper-slide img.loaded {
             opacity: 1;
         }
 
@@ -1527,8 +1552,10 @@ this.gamePreferences = new Map(); // stores thumbs up/down: 'up', 'down', or nul
        this.originalSharedPreferences = new Map(); // for shared collections
 this.searchTimeout = null;
        this.filterTimeout = null;
-       this.renderTimeout = null;
+this.renderTimeout = null;
        this.isRendering = false;
+       this.imageLoadQueue = new Set();
+       this.visibilityObserver = null;
        this.initGoogleDrive();
    }
 
@@ -1671,6 +1698,65 @@ showLoading(text = 'Loading...') {
                this.hideLoading();
            }, 50);
        }, 100);
+   }
+
+initImageObserver() {
+       if (this.visibilityObserver) return;
+       
+       this.visibilityObserver = new IntersectionObserver((entries) => {
+           entries.forEach(entry => {
+               if (entry.isIntersecting) {
+                   this.loadCardImages(entry.target);
+                   this.visibilityObserver.unobserve(entry.target);
+               }
+           });
+       }, { 
+           rootMargin: '50px',
+           threshold: 0.1 
+       });
+   }
+
+   loadCardImages(card) {
+       const gameId = card.dataset.gameId;
+       if (!gameId || this.imageLoadQueue.has(gameId)) return;
+       
+       this.imageLoadQueue.add(gameId);
+       
+       const images = card.querySelectorAll('img[data-src]');
+       images.forEach((img, index) => {
+           // Load first image immediately, others with delay
+           const delay = index === 0 ? 0 : index * 100;
+           
+           setTimeout(() => {
+               const src = img.dataset.src;
+               if (src) {
+                   img.onload = () => {
+                       img.classList.add('loaded');
+                       img.classList.remove('image-loading');
+                   };
+                   img.onerror = () => {
+                       img.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg==';
+                       img.classList.add('loaded');
+                   };
+                   img.src = src;
+                   img.removeAttribute('data-src');
+               }
+           }, delay);
+       });
+   }
+
+   optimizeGameCards() {
+       // Use requestIdleCallback if available, otherwise setTimeout
+       const runWhenIdle = window.requestIdleCallback || ((cb) => setTimeout(cb, 1));
+       
+       runWhenIdle(() => {
+           const cards = document.querySelectorAll('.game-card[data-game-id]');
+           cards.forEach(card => {
+               if (this.visibilityObserver) {
+                   this.visibilityObserver.observe(card);
+               }
+           });
+       });
    }
 
 updateGoogleDriveUI() {
@@ -3958,23 +4044,34 @@ render() {
            return this.isEditMode ? this.renderEditGameCard(game) : this.renderGameCard(game);
        }).join('');
        
-       if (!this.isEditMode) {
-           this.filteredGames.forEach((game, index) => {
-               if (game.images && game.images.length > 0) {
-                   new Swiper(`#swiper-${game.bggId}`, {
-                       navigation: {
-                           nextEl: `#swiper-${game.bggId} .swiper-button-next`,
-                           prevEl: `#swiper-${game.bggId} .swiper-button-prev`,
-                       },
-
-pagination: {
-                           el: `#swiper-${game.bggId} .swiper-pagination`,
-                           clickable: true,
-                       },
-                       loop: game.images.length > 1,
-                       autoHeight: true,
-                   });
-               }
+if (!this.isEditMode) {
+           // Initialize image observer
+           this.initImageObserver();
+           
+           // Defer Swiper initialization to improve render speed
+           const runWhenIdle = window.requestIdleCallback || ((cb) => setTimeout(cb, 1));
+           
+           runWhenIdle(() => {
+               this.filteredGames.forEach((game, index) => {
+                   if (game.images && game.images.length > 1) {
+                       new Swiper(`#swiper-${game.bggId}`, {
+                           navigation: {
+                               nextEl: `#swiper-${game.bggId} .swiper-button-next`,
+                               prevEl: `#swiper-${game.bggId} .swiper-button-prev`,
+                           },
+                           pagination: {
+                               el: `#swiper-${game.bggId} .swiper-pagination`,
+                               clickable: true,
+                           },
+                           loop: true,
+                           autoHeight: true,
+                           lazy: true
+                       });
+                   }
+               });
+               
+               // Start observing cards for image loading
+               this.optimizeGameCards();
            });
 
            container.querySelectorAll('.details-toggle').forEach(btn => {
@@ -3987,9 +4084,9 @@ pagination: {
 });
        }
        
-       // Hide loading after render
+// Hide loading after render
        if (window.innerWidth <= 768) {
-           setTimeout(() => this.hideLoading(), 50);
+           setTimeout(() => this.hideLoading(), 30);
        }
    }
 
@@ -4004,7 +4101,10 @@ pagination: {
                <div class="swiper-wrapper">
 ${game.images.map((img, index) => `
 <div class="swiper-slide">
-                           <img src="${img}" alt="${game.name}" class="image-loading" loading="${index === 0 ? 'eager' : 'lazy'}" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');">
+                           ${index === 0 ? 
+                               `<img src="${img}" alt="${game.name}" class="image-loading" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');">` :
+                               `<div class="image-placeholder">Loading...</div><img data-src="${img}" alt="${game.name}" class="image-loading" style="display: none;">`
+                           }
                        </div>
                    `).join('')}
                </div>
