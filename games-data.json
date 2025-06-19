@@ -13789,9 +13789,75 @@
         "Simultaneous Action Selection"
       ],
       "customFields": {}
+    },
+    "1750293139512": {
+      "bggId": "1750293139512",
+      "bggUrl": "https://boardgamegeek.com/boardgame/192291/sushi-go-party",
+      "name": "Sushi Go Party!",
+      "year": 2016,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.3,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Phil Walker-Harding"
+      ],
+      "artists": [
+        "Nan Rangsima"
+      ],
+      "publishers": [
+        "Gamewright",
+        "AURUM",
+        "Inc.",
+        "Cocktail Games",
+        "Devir",
+        "Hemz Universal Games Co. Ltd.",
+        "Rebel Sp. z o.o.",
+        "Reflexshop",
+        "uplay.it edizioni",
+        "White Goblin Games",
+        "Zoch Verlag"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/2f9uTicUSXkdPp2Yks6zFw__original/img/WQcFmlhYBMIp8f6gNNVhnnue1w4=/0x0/filters:format(jpeg)/pic5885689.jpg",
+        "https://cf.geekdo-images.com/2f9uTicUSXkdPp2Yks6zFw__thumb/img/_mXR9Tlo0f-i80h6pfhDEOBgvpY=/fit-in/200x150/filters:strip_icc()/pic5885689.jpg"
+      ],
+      "notes": "",
+      "description": "Sushi Go Party! expands Sushi Go! with a party platter of mega maki, super sashimi, and endless edamame. You still earn points by picking winning sushi combos, but now you can customize each game by choosing &agrave; la carte from a menu of more than twenty delectable dishes. What's more, up to eight players can join in on the sushi-feast. Let the good times roll!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Closed Drafting",
+        "End Game Bonuses",
+        "Hand Management",
+        "Set Collection",
+        "Simultaneous Action Selection",
+        "Variable Set-up"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-19T00:31:44.928Z",
+  "lastModified": "2025-06-19T00:32:19.513Z",
   "version": "1.0"
 }
