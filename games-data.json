@@ -13532,9 +13532,58 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1750292971981": {
+      "bggId": "1750292971981",
+      "bggUrl": "https://boardgamegeek.com/boardgame/3285/star-wars-jedi-unleashed",
+      "name": "Star Wars: Jedi Unleashed",
+      "year": 2002,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.4,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        4,
+        5
+      ],
+      "designers": [
+        "Craig Van Ness"
+      ],
+      "artists": [],
+      "publishers": [
+        "Hasbro",
+        "Milton Bradley"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/L4HxhhrQ-O9NgaVu8WIjiw__original/img/modLwBSooIUk5P4IgbxafMowpkE=/0x0/filters:format(jpeg)/pic331979.jpg",
+        "https://cf.geekdo-images.com/L4HxhhrQ-O9NgaVu8WIjiw__thumb/img/KbDR5NUMWZkHlZw2lfTQTl7FkEY=/fit-in/200x150/filters:strip_icc()/pic331979.jpg"
+      ],
+      "notes": "",
+      "description": "Two to Five players take on the roll of the Jedi in a battle against creatures and droids on the Geonosis battle field.  Players receive a number of Jedi cards from a random draw.  The Jedi are distributed around the circular battle field as are the enemy.  Players then move one of their Jedi and attack the enemy, followed by moving one of the enemy and attacking an opposing player's Jedi.  The advanced game includes the Reek which players may try to climb upon and/or crush their opponents with. There is a built in mechanism that will end the game through use of Yoda moving along a track when a &quot;Yoda&quot; die face comes up.  When he reaches the end of the track, it's game over (unless everything has been destroyed before then). Players win by destroying the most creatures, counting only those on their surviving Jedi cards.  There is also a nice mechanism to allow an eliminated player back into the game using unclaimed Jedi cards.&#10;&#10;The game comes with a sturdy mounted board, 18 Jedi cards, 3 special dice with attack labels, 74 hard cardboard Pawns with plastic stands, and rules.&#10;&#10;FROM THE BOX: The Jedi have been thrown into a perilous fight against a swarm of enemy creatures.  Severely outnumbered, you are up against unthinkable odds... Who will you target first, the Genosians?  Count Dooku?  Jango Fett?&#10;&#10;",
+      "category": [
+        "Dice",
+        "Fighting",
+        "Movies / TV / Radio theme",
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Grid Movement",
+        "Player Elimination"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-19T00:28:55.199Z",
+  "lastModified": "2025-06-19T00:29:31.982Z",
   "version": "1.0"
 }
