@@ -3717,12 +3717,8 @@ applyFilters() {
         });
 
         this.filteredGames = filtered;
-        this.render();
-        this.hideLoading();
-    }, isMobile ? 50 : 10); // Longer delay on mobile for smoother UX
-}
-       
-       let filtered = Array.from(this.games.values());
+this.render();
+async fetchBGGData() {
 
 if (this.currentFilters.search) {
     const search = this.currentFilters.search.toLowerCase();
@@ -4107,6 +4103,15 @@ const sortField = document.getElementById('sort-field').value;
        this.filteredGames = filtered;
        this.render();
    }
+
+
+
+
+
+
+
+
+
 
    async fetchBGGData() {
        const url = document.getElementById('bgg-url').value;
