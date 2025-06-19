@@ -318,6 +318,22 @@ button#clear-filters {
             object-fit: cover;
         }
 
+.swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .image-loading {
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
+        }
+
+        .image-loaded {
+            opacity: 1;
+        }
+
+
         .swiper-button-next,
         .swiper-button-prev {
             color: white;
@@ -1473,8 +1489,10 @@ class BoardGameCollection {
 this.currentColumns = 5; // Always start with 5 on desktop
 this.mobileColumns = 1; // Always start with 1 on mobile
 this.gamePreferences = new Map(); // stores thumbs up/down: 'up', 'down', or null
-this.originalSharedPreferences = new Map(); // for shared collections
-this.initGoogleDrive();
+       this.originalSharedPreferences = new Map(); // for shared collections
+       this.searchTimeout = null;
+       this.filterTimeout = null;
+       this.initGoogleDrive();
    }
 
 async init() {
@@ -2149,7 +2167,8 @@ if (filters.mechanismsContains) {
 bindEvents() {
        console.log('Starting bindEvents...');
        
-       // Search functionality
+
+// Search functionality with debouncing
        const searchElement = document.getElementById('search');
        console.log('search element:', searchElement);
        if (searchElement) {
@@ -2158,7 +2177,12 @@ bindEvents() {
                const mobileSearch = document.getElementById('mobile-search');
                if (mobileSearch) mobileSearch.value = e.target.value;
                this.updateDynamicCardFields();
-               this.applyFilters();
+               
+               // Debounce search
+               clearTimeout(this.searchTimeout);
+               this.searchTimeout = setTimeout(() => {
+                   this.applyFilters();
+               }, 300);
            });
        }
 
@@ -2170,7 +2194,12 @@ const mobileSearchElement = document.getElementById('mobile-search');
                const mainSearch = document.getElementById('search');
                if (mainSearch) mainSearch.value = e.target.value;
                this.updateDynamicCardFields();
-               this.applyFilters();
+               
+               // Debounce search
+               clearTimeout(this.searchTimeout);
+               this.searchTimeout = setTimeout(() => {
+                   this.applyFilters();
+               }, 300);
            });
        }
 
@@ -2252,7 +2281,7 @@ document.addEventListener('click', (e) => {
        });
 
 // Filter controls
-       const toggleFiltersBtn = document.getElementById('toggle-filters');
+const toggleFiltersBtn = document.getElementById('toggle-filters');
        if (toggleFiltersBtn) {
            toggleFiltersBtn.addEventListener('click', () => {
                const filters = document.getElementById('filters');
@@ -2271,6 +2300,7 @@ document.addEventListener('click', (e) => {
                        icon.className = 'fa-solid fa-angle-up';
                        toggleFiltersBtn.style.backgroundColor = '#744ea600';
                        toggleFiltersBtn.style.border = '1px solid #ffffff';
+                       window.scrollTo({ top: 0, behavior: 'smooth' });
                    }
                }
            });
@@ -2295,11 +2325,11 @@ const mobileToggleFiltersBtn = document.getElementById('mobile-toggle-filters');
                        icon.className = 'fa-solid fa-angle-up';
                        mobileToggleFiltersBtn.style.backgroundColor = '#744ea600';
                        mobileToggleFiltersBtn.style.border = '1px solid #ffffff';
+                       window.scrollTo({ top: 0, behavior: 'smooth' });
                    }
                }
            });
        }
-
 
 // Filter inputs
 const filterInputs = [
@@ -2311,13 +2341,18 @@ const filterInputs = [
 'category-contains-filter', 'mechanisms-contains-filter', 'type-contains-filter'
 ];
        
-       filterInputs.forEach(id => {
+filterInputs.forEach(id => {
            const element = document.getElementById(id);
            if (element) {
                element.addEventListener('input', () => {
                    this.updateFilters();
                    this.updateDynamicCardFields();
-                   this.applyFilters();
+                   
+                   // Debounce filtering
+                   clearTimeout(this.filterTimeout);
+                   this.filterTimeout = setTimeout(() => {
+                       this.applyFilters();
+                   }, 150);
                });
            }
            
@@ -2486,14 +2521,15 @@ if (columnsControl) {
 }
 
 // Add game form - check if elements exist before adding listeners
-       const addGameBtn = document.getElementById('add-game-btn');
+const addGameBtn = document.getElementById('add-game-btn');
        if (addGameBtn) {
            addGameBtn.addEventListener('click', () => {
                document.getElementById('add-game-form').classList.add('show');
+               window.scrollTo({ top: 0, behavior: 'smooth' });
            });
        }
 
-const mobileAddGameBtn = document.getElementById('mobile-add-game-btn');
+       const mobileAddGameBtn = document.getElementById('mobile-add-game-btn');
        if (mobileAddGameBtn) {
            mobileAddGameBtn.addEventListener('click', () => {
                document.getElementById('add-game-form').classList.add('show');
@@ -2504,6 +2540,7 @@ const mobileAddGameBtn = document.getElementById('mobile-add-game-btn');
                    hamburger.classList.remove('open');
                    hamburger.innerHTML = '☰';
                }
+               window.scrollTo({ top: 0, behavior: 'smooth' });
            });
        }
 
@@ -2558,6 +2595,7 @@ const mobileAddGameBtn = document.getElementById('mobile-add-game-btn');
        document.getElementById('desktop-add-game-btn').addEventListener('click', () => {
            document.getElementById('add-game-form').classList.add('show');
            document.getElementById('desktop-menu').classList.remove('show');
+           window.scrollTo({ top: 0, behavior: 'smooth' });
        });
 
 // Header edit mode controls
@@ -2648,13 +2686,76 @@ if (mobileDiscardChangesBtnHeader) {
            });
        }
 
-       // Modal events
+// Modal events
        document.addEventListener('click', (e) => {
            if (e.target.id === 'game-modal') {
                this.closeModal();
            }
            if (e.target.id === 'lightbox-modal') {
                this.closeLightbox();
+           }
+       });
+
+       // Keyboard and browser back button support
+       document.addEventListener('keydown', (e) => {
+           if (e.key === 'Escape') {
+               // Close modals first, then menus
+               const gameModal = document.getElementById('game-modal');
+               const lightboxModal = document.getElementById('lightbox-modal');
+               const mobileMenu = document.getElementById('mobile-menu');
+               const desktopMenu = document.getElementById('desktop-menu');
+               const hamburger = document.getElementById('hamburger-btn');
+               const desktopHamburger = document.getElementById('desktop-hamburger-btn');
+               
+               if (gameModal && gameModal.style.display === 'block') {
+                   this.closeModal();
+               } else if (lightboxModal && lightboxModal.style.display === 'block') {
+                   this.closeLightbox();
+               } else if (mobileMenu && mobileMenu.classList.contains('show')) {
+                   mobileMenu.classList.remove('show');
+                   if (hamburger) {
+                       hamburger.classList.remove('open');
+                       hamburger.innerHTML = '☰';
+                   }
+               } else if (desktopMenu && desktopMenu.classList.contains('show')) {
+                   desktopMenu.classList.remove('show');
+                   if (desktopHamburger) {
+                       desktopHamburger.classList.remove('open');
+                       desktopHamburger.innerHTML = '<i class="fa-solid fa-circle-user"></i>';
+                   }
+               }
+           }
+       });
+
+       // Browser back button support
+       window.addEventListener('popstate', (e) => {
+           const gameModal = document.getElementById('game-modal');
+           const lightboxModal = document.getElementById('lightbox-modal');
+           const mobileMenu = document.getElementById('mobile-menu');
+           const desktopMenu = document.getElementById('desktop-menu');
+           const hamburger = document.getElementById('hamburger-btn');
+           const desktopHamburger = document.getElementById('desktop-hamburger-btn');
+           
+           if (gameModal && gameModal.style.display === 'block') {
+               this.closeModal();
+               history.pushState(null, '', window.location.href);
+           } else if (lightboxModal && lightboxModal.style.display === 'block') {
+               this.closeLightbox();
+               history.pushState(null, '', window.location.href);
+           } else if (mobileMenu && mobileMenu.classList.contains('show')) {
+               mobileMenu.classList.remove('show');
+               if (hamburger) {
+                   hamburger.classList.remove('open');
+                   hamburger.innerHTML = '☰';
+               }
+               history.pushState(null, '', window.location.href);
+           } else if (desktopMenu && desktopMenu.classList.contains('show')) {
+               desktopMenu.classList.remove('show');
+               if (desktopHamburger) {
+                   desktopHamburger.classList.remove('open');
+                   desktopHamburger.innerHTML = '<i class="fa-solid fa-circle-user"></i>';
+               }
+               history.pushState(null, '', window.location.href);
            }
        });
 
@@ -3808,8 +3909,8 @@ pagination: {
            <div class="swiper" id="swiper-${game.bggId}">
                <div class="swiper-wrapper">
                    ${game.images.map(img => `
-                       <div class="swiper-slide">
-                           <img src="${img}" alt="${game.name}" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='">
+<div class="swiper-slide">
+                           <img src="${img}" alt="${game.name}" class="image-loading" loading="${index === 0 ? 'eager' : 'lazy'}" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');">
                        </div>
                    `).join('')}
                </div>
