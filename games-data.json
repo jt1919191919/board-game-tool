@@ -13581,9 +13581,77 @@
         "Player Elimination"
       ],
       "customFields": {}
+    },
+    "1750293012485": {
+      "bggId": "1750293012485",
+      "bggUrl": "https://boardgamegeek.com/boardgame/162007/steampunk-rally",
+      "name": "Steampunk Rally",
+      "year": 2015,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 2.6,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Orin Bishop"
+      ],
+      "artists": [
+        "Lina Cossette",
+        "David Forest"
+      ],
+      "publishers": [
+        "Roxley",
+        "(Web published)",
+        "Games Factory Publishing",
+        "MYBG Co.",
+        "Ltd."
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/x7ZIq-jb6z10UJiv_8wsyg__original/img/s3KmeeFsWo3DzkaVzfORXEHfGWM=/0x0/filters:format(jpeg)/pic2073821.jpg",
+        "https://cf.geekdo-images.com/x7ZIq-jb6z10UJiv_8wsyg__thumb/img/URNMA8H29TNXaMhjNvxdV4Xvql8=/fit-in/200x150/filters:strip_icc()/pic2073821.jpg"
+      ],
+      "notes": "",
+      "description": "Steampunk Rally is a strategy game that incorporates steampunk as more than just a bit of chrome. Using a unique dice-placement mechanism, players take on the roles of famous inventors from the turn of the last century like Nikola Tesla and Marie Curie, constructing fantastical contraptions that make use of steam, heat and electricity in an attempt to win a no-holds-barred race through the Swiss alps.&#10;&#10;Each round starts with a card draft in which players carefully select machine parts to add to their invention and one-shot boost cards to aid them or hinder opponents. Players also have the option of discarding drafted cards for dice or cogs to power their invention, but they must make this tricky choice when each card is drafted.&#10;&#10;Then, after venting dice to revitalize their machines, players roll their dice and use them to activate machine parts which provide things like movement, shielding, and additional dice with which to activate more parts. Driving through terrain causes damage, and if a player's damage gauge ends up in the red at the end of the turn, they must lose parts from their invention. These will need to be replaced in the draft phase, constantly forcing players to discover new synergies.&#10;&#10;",
+      "category": [
+        "Dice",
+        "Racing",
+        "Science Fiction"
+      ],
+      "mechanisms": [
+        "Closed Drafting",
+        "Deck",
+        "Bag",
+        "and Pool Building",
+        "Dice Rolling",
+        "Modular Board",
+        "Race",
+        "Resource to Move",
+        "Simultaneous Action Selection",
+        "Track Movement",
+        "Variable Player Powers",
+        "Worker Placement with Dice Workers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-19T00:29:31.982Z",
+  "lastModified": "2025-06-19T00:30:12.486Z",
   "version": "1.0"
 }
