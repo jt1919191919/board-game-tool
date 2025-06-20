@@ -2571,6 +2571,13 @@ searchElement.addEventListener('input', (e) => {
                if (mobileSearch) mobileSearch.value = e.target.value;
                this.updateDynamicCardFields();
                
+// Debounce search
+clearTimeout(this.searchTimeout);
+this.searchTimeout = setTimeout(() => {
+    this.applyFilters();
+}, 800);
+           });
+       }
 
 const mobileSearchElement = document.getElementById('mobile-search');
        console.log('mobile-search element:', mobileSearchElement);
@@ -4957,11 +4964,16 @@ console.log('Creating Gist with data:', gistData);
         }
 
 } catch (error) {
-    console.error('Error creating share link:', error);
-    alert('Failed to create share link. Please check your GitHub connection and try again.');
-} finally {
-    this.hideLoading();
-}
+            console.error('Error creating share link:', error);
+            alert('Failed to create share link. Please check your GitHub connection and try again.');
+        }
+} catch (error) {
+            console.error('Error creating share link:', error);
+            alert('Failed to create share link. Please check your GitHub connection and try again.');
+        }
+    } finally {
+        this.hideLoading();
+    }
 }
 
    exportData() {
