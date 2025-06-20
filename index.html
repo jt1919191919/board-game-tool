@@ -3799,14 +3799,7 @@ const sortField = document.getElementById('sort-field').value;
        });
 
 this.filteredGames = filtered;
-       
-       if (window.innerWidth <= 768 && this.filteredGames.length > 20) {
-           this.showLoading('Updating results...');
-           this.debounceRender();
-       } else {
-           this.render();
-           this.hideLoading();
-       }
+this.render();
    }
 
    async fetchBGGData() {
@@ -3987,11 +3980,6 @@ render() {
        const emptyState = document.getElementById('empty-state');
        const resultsInfo = document.getElementById('results-info');
        
-       // For mobile with many games, show loading
-       const isMobile = window.innerWidth <= 768;
-       if (isMobile && this.filteredGames.length > 15) {
-           this.showLoading('Rendering games...');
-       }
 
        if (this.filteredGames.length === 0) {
            container.innerHTML = '';
@@ -4040,7 +4028,6 @@ if (!this.isEditMode) {
 });
        }
        
-this.hideLoading();
    }
 
    renderGameCard(game) {
