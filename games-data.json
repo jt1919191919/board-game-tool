@@ -14196,9 +14196,61 @@
         "Paper-and-Pencil"
       ],
       "customFields": {}
+    },
+    "1750389227880": {
+      "bggId": "1750389227880",
+      "bggUrl": "https://boardgamegeek.com/boardgame/220784/legend-cherry-tree-blossoms-every-ten-years",
+      "name": "The Legend of the Cherry Tree that Blossoms Every Ten Years",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.5,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4
+      ],
+      "designers": [
+        "折口 日向 (Hinata Origuchi)"
+      ],
+      "artists": [
+        "Tohad"
+      ],
+      "publishers": [
+        "IELLO",
+        "FoxGames",
+        "Fractal Juegos",
+        "Reflexshop",
+        "TCG Factory",
+        "Zito! Ώρα για παιχνίδι"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/UuAF29nmbvDg5bILPBPrIg__original/img/ZAaRgjkzkK1Nxsvb4f4l_rkJMkU=/0x0/filters:format(png)/pic3907805.png",
+        "https://cf.geekdo-images.com/UuAF29nmbvDg5bILPBPrIg__thumb/img/TaC4eNz2Kkgktz-3uv_GDMgbyVE=/fit-in/200x150/filters:strip_icc()/pic3907805.png"
+      ],
+      "notes": "",
+      "description": "Do you know the legend of the cherry tree that blossomed every ten years? The story goes that once every decade, the cherry tree would shroud itself in beautiful flowers during the first days of spring. Thousands of buds grew on its branches and stretched elegantly toward the sky before becoming magnificent flowers of inestimable quality.&#10;&#10;When the flowers on the cherry tree begin to fall softly to the ground, you rush to collect them before they wither: The one who can gather the most flowers will have their wish granted by the cherry tree. But if you are too greedy, the cherry tree will find you unworthy of its gift, and you will lose the chance to make your dream come true...&#10;&#10;The flowers on the cherry tree have begun their delicate fall and are ready to be collected. Each turn, draw one or more flowers from the bag and try to gather as many as possible without being too greedy. At the end of your turn, put your flowers either in front of your screen to gain victory points based on your sets of flowers, or behind your screen to gain victory points by having the largest groups of flowers.&#10;&#10;The player who has the most victory points at the end of The Legend of the Cherry Tree that Blossoms Every Ten Years wins.&#10;&#10;",
+      "category": [
+        "Deduction",
+        "Fantasy"
+      ],
+      "mechanisms": [
+        "Push Your Luck",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-19T14:51:38.687Z",
+  "lastModified": "2025-06-20T03:13:47.883Z",
   "version": "1.0"
 }
