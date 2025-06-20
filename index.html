@@ -3701,10 +3701,16 @@ clearFilters() {
        this.applyFilters();
    }
 
-   applyFilters() {
-       this.updateFilters();
-       
-       let filtered = Array.from(this.games.values());
+applyFilters() {
+    // Show loading for operations that might take time
+    if (this.games.size > 50) {
+        this.showLoading('Filtering games...');
+    }
+    
+    try {
+        this.updateFilters();
+        
+        let filtered = Array.from(this.games.values());
 
 if (this.currentFilters.search) {
     const search = this.currentFilters.search.toLowerCase();
@@ -4088,6 +4094,11 @@ const sortField = document.getElementById('sort-field').value;
 
 this.filteredGames = filtered;
 this.render();
+    } finally {
+        if (this.games.size > 50) {
+            this.hideLoading();
+        }
+    }
    }
 
    async fetchBGGData() {
