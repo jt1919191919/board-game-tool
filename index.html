@@ -2290,12 +2290,7 @@ searchElement.addEventListener('input', (e) => {
                if (mobileSearch) mobileSearch.value = e.target.value;
                this.updateDynamicCardFields();
                
-               // Show loading immediately on mobile
-               if (window.innerWidth <= 768) {
-                   this.showLoading('Searching...');
-               }
-               
-               // Debounce search
+// Debounce search
                clearTimeout(this.searchTimeout);
                this.searchTimeout = setTimeout(() => {
                    this.applyFilters();
@@ -2312,10 +2307,7 @@ mobileSearchElement.addEventListener('input', (e) => {
                if (mainSearch) mainSearch.value = e.target.value;
                this.updateDynamicCardFields();
                
-               // Show loading immediately on mobile
-               this.showLoading('Searching...');
-               
-               // Debounce search
+// Debounce search
                clearTimeout(this.searchTimeout);
                this.searchTimeout = setTimeout(() => {
                    this.applyFilters();
@@ -4024,34 +4016,23 @@ render() {
            return this.isEditMode ? this.renderEditGameCard(game) : this.renderGameCard(game);
        }).join('');
        
+
 if (!this.isEditMode) {
-           // Initialize image observer
-           this.initImageObserver();
-           
-           // Defer Swiper initialization to improve render speed
-           const runWhenIdle = window.requestIdleCallback || ((cb) => setTimeout(cb, 1));
-           
-           runWhenIdle(() => {
-               this.filteredGames.forEach((game, index) => {
-                   if (game.images && game.images.length > 1) {
-                       new Swiper(`#swiper-${game.bggId}`, {
-                           navigation: {
-                               nextEl: `#swiper-${game.bggId} .swiper-button-next`,
-                               prevEl: `#swiper-${game.bggId} .swiper-button-prev`,
-                           },
-                           pagination: {
-                               el: `#swiper-${game.bggId} .swiper-pagination`,
-                               clickable: true,
-                           },
-                           loop: true,
-                           autoHeight: true,
-                           lazy: true
-                       });
-                   }
-               });
-               
-               // Start observing cards for image loading
-               this.optimizeGameCards();
+           this.filteredGames.forEach((game, index) => {
+               if (game.images && game.images.length > 1) {
+                   new Swiper(`#swiper-${game.bggId}`, {
+                       navigation: {
+                           nextEl: `#swiper-${game.bggId} .swiper-button-next`,
+                           prevEl: `#swiper-${game.bggId} .swiper-button-prev`,
+                       },
+                       pagination: {
+                           el: `#swiper-${game.bggId} .swiper-pagination`,
+                           clickable: true,
+                       },
+                       loop: game.images.length > 1,
+                       autoHeight: true,
+                   });
+               }
            });
 
            container.querySelectorAll('.details-toggle').forEach(btn => {
@@ -4064,10 +4045,7 @@ if (!this.isEditMode) {
 });
        }
        
-// Hide loading after render
-       if (window.innerWidth <= 768) {
-           setTimeout(() => this.hideLoading(), 30);
-       }
+this.hideLoading();
    }
 
    renderGameCard(game) {
@@ -4081,10 +4059,7 @@ if (!this.isEditMode) {
                <div class="swiper-wrapper">
 ${game.images.map((img, index) => `
 <div class="swiper-slide">
-                           ${index === 0 ? 
-                               `<img src="${img}" alt="${game.name}" class="image-loading" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');">` :
-                               `<div class="image-placeholder">Loading...</div><img data-src="${img}" alt="${game.name}" class="image-loading" style="display: none;">`
-                           }
+                           <img src="${img}" alt="${game.name}" class="image-loading" loading="${index === 0 ? 'eager' : 'lazy'}" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');">
                        </div>
                    `).join('')}
                </div>
