@@ -2208,18 +2208,6 @@ async saveToCache() {
     }
 }
 
-async loadCachedImage(url) {
-    if (!this.cacheManager.isReady) return url;
-    
-    try {
-        const cachedUrl = await this.cacheManager.getCachedImageUrl(url);
-        return cachedUrl || url;
-    } catch (error) {
-        console.warn('Failed to load cached image:', url);
-        return url;
-    }
-}
-
 async refreshCache() {
     if (!this.cacheManager.isReady) return;
     
@@ -4397,10 +4385,6 @@ if (!this.isEditMode) {
                });
 });
        }
-       
-if (!this.isEditMode) {
-    this.initializeLazyImages();
-}
 
    }
 
@@ -4477,23 +4461,8 @@ renderInBatches() {
     
     requestAnimationFrame(renderBatch);
 
-if (!this.isEditMode) {
-    this.initializeLazyImages();
-}
 }
 
-
-async initializeLazyImages() {
-    const lazyImages = document.querySelectorAll('.lazy-image');
-    
-    for (const img of lazyImages) {
-        const originalSrc = img.getAttribute('data-src');
-        if (originalSrc) {
-            const cachedSrc = await this.loadCachedImage(originalSrc);
-            img.src = cachedSrc;
-        }
-    }
-}
 
    renderGameCard(game) {
        const playerRange = game.players ? `${game.players.min}-${game.players.max}` : 'Unknown';
@@ -4506,7 +4475,7 @@ async initializeLazyImages() {
                <div class="swiper-wrapper">
 ${game.images.map((img, index) => `
 <div class="swiper-slide">
-<img data-src="${img}" alt="${game.name}" class="image-loading lazy-image" loading="${index === 0 ? 'eager' : 'lazy'}" decoding="async" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');" style="will-change: auto;">
+<img src="${img}" alt="${game.name}" class="image-loading" loading="${index === 0 ? 'eager' : 'lazy'}" decoding="async" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');" style="will-change: auto;">
                        </div>
                    `).join('')}
                </div>
@@ -5391,13 +5360,6 @@ document.addEventListener('DOMContentLoaded', async () => {
    </div>
 </div>
 
-<!-- Loading overlay for general operations -->
-<div id="loading-overlay" class="loading-overlay" style="display: none;">
-    <div style="text-align: center;">
-        <div class="loading-spinner"></div>
-        <div class="loading-text">Loading...</div>
-    </div>
-</div>
 
 </body>
 </html>
