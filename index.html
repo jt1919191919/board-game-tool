@@ -1795,8 +1795,10 @@ await this.cacheManager.init();
         console.log('Applied shared filters to UI after dropdown population');
     }
     
-    console.log('About to apply filters...');
-    this.applyFilters();
+console.log('About to apply filters...');
+this.showLoading('Loading your collection...');
+this.applyFilters();
+this.hideLoading();
     
     console.log('App initialization complete');
 }
@@ -2570,7 +2572,7 @@ searchElement.addEventListener('input', (e) => {
                clearTimeout(this.searchTimeout);
                this.searchTimeout = setTimeout(() => {
                    this.applyFilters();
-               }, 800);
+               }, 300);
            });
        }
 
@@ -2587,7 +2589,7 @@ mobileSearchElement.addEventListener('input', (e) => {
                clearTimeout(this.searchTimeout);
                this.searchTimeout = setTimeout(() => {
                    this.applyFilters();
-               }, 800);
+               }, 300);
            });
        }
 
@@ -2743,7 +2745,7 @@ element.addEventListener('input', () => {
 clearTimeout(this.filterTimeout);
 this.filterTimeout = setTimeout(() => {
     this.applyFilters();
-}, 500);
+}, 200);
                });
            }
            
@@ -3469,10 +3471,15 @@ if (this.isEditMode) {
        }
        
 // Use requestAnimationFrame to defer render
-requestAnimationFrame(() => this.render());
+this.showLoading('Switching mode...');
+requestAnimationFrame(() => {
+    this.render();
+    this.hideLoading();
+});
    }
 
 saveAllChanges() {
+    this.showLoading('Saving changes...');
     document.querySelectorAll('.game-card.edit-mode').forEach(card => {
            const gameId = card.dataset.gameId;
            const game = this.games.get(gameId);
@@ -3544,6 +3551,7 @@ this.updateCategoryFilter();
 this.updateMechanismsFilter();
 this.toggleEditMode();
 this.applyFilters();
+this.hideLoading();
 alert('All changes saved successfully!');
    }
 
@@ -3712,8 +3720,10 @@ applyFilters() {
         this.showLoading('Filtering games...');
     }
     
-    try {
-        this.updateFilters();
+    // Use requestAnimationFrame to prevent blocking the UI
+    requestAnimationFrame(() => {
+        try {
+            this.updateFilters();
         
         let filtered = Array.from(this.games.values());
 
@@ -4098,12 +4108,15 @@ const sortField = document.getElementById('sort-field').value;
        });
 
 this.filteredGames = filtered;
-this.render();
-    } finally {
-        if (this.games.size > 50) {
-            this.hideLoading();
+            this.render();
+        } catch (error) {
+            console.error('Error in applyFilters:', error);
+        } finally {
+            if (this.games.size > 50) {
+                this.hideLoading();
+            }
         }
-    }
+    });
    }
 
    async fetchBGGData() {
@@ -4345,7 +4358,7 @@ if (!this.isEditMode) {
                <div class="swiper-wrapper">
 ${game.images.map((img, index) => `
 <div class="swiper-slide">
-                           <img src="${img}" alt="${game.name}" class="image-loading" loading="${index === 0 ? 'eager' : 'lazy'}" decoding="async" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');">
+<img src="${img}" alt="${game.name}" class="image-loading" loading="${index === 0 ? 'eager' : 'lazy'}" decoding="async" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');" style="will-change: auto;">
                        </div>
                    `).join('')}
                </div>
@@ -4851,7 +4864,9 @@ editGameFromModal(gameId) {
 
 
 async shareCollection() {
+    this.showLoading('Creating share link...');
     if (!this.githubReady || !this.isSignedIn || !this.GITHUB_TOKEN) {
+        this.hideLoading();
         alert('You must be connected to GitHub to share your collection.');
         return;
     }
@@ -4951,9 +4966,11 @@ console.log('Creating Gist with data:', gistData);
             alert(`Share URL copied to clipboard!\n\nThis will show ${this.filteredGames.length} games with your current filters and sorting applied.`);
         }
 
-    } catch (error) {
+} catch (error) {
         console.error('Error creating share link:', error);
         alert('Failed to create share link. Please check your GitHub connection and try again.');
+    } finally {
+        this.hideLoading();
     }
 }
 
