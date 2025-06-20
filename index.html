@@ -1822,12 +1822,7 @@ await this.cacheManager.init();
     }
     
 console.log('About to apply filters...');
-this.showLoading('Loading your collection...');
-// Use setTimeout to ensure loading shows before heavy operation
-setTimeout(() => {
-    this.applyFilters();
-    this.hideLoading();
-}, 50);
+this.applyFilters();
     
     console.log('App initialization complete');
 }
@@ -2144,20 +2139,16 @@ async loadFromStorage() {
         return;
     }
     
-    this.showLoading('Loading your collection...');
+    // Try GitHub first, then localStorage, then cache as backup
+    if (this.githubReady && this.isSignedIn) {
+        await this.loadFromGitHub();
+    } else {
+        this.loadFromLocalStorage();
+    }
     
-    try {
-        // Try cache first, then fallback to storage
-        const cacheLoaded = await this.loadFromCache();
-        if (!cacheLoaded) {
-            if (this.githubReady && this.isSignedIn) {
-                await this.loadFromGitHub();
-            } else {
-                this.loadFromLocalStorage();
-            }
-        }
-    } finally {
-        this.hideLoading();
+    // If still no games, try cache as backup
+    if (this.games.size === 0) {
+        await this.loadFromCache();
     }
 }
 
@@ -4375,7 +4366,9 @@ if (!this.isEditMode) {
                    });
                }
            });
-
+// Initialize cached images
+           this.initializeLazyImages();
+       }
            container.querySelectorAll('.details-toggle').forEach(btn => {
                btn.addEventListener('click', (e) => {
                    const content = e.target.nextElementSibling;
@@ -4451,16 +4444,50 @@ renderInBatches() {
             }
         }
         
-        currentBatch++;
+currentBatch++;
         
         // Schedule next batch
         if (end < this.filteredGames.length) {
             requestAnimationFrame(renderBatch);
+        } else {
+            // Initialize cached images after all batches are rendered
+            setTimeout(() => this.initializeLazyImages(), 100);
         }
     };
     
     requestAnimationFrame(renderBatch);
 
+}
+
+async loadCachedImage(url) {
+    if (!this.cacheManager.isReady) return url;
+    
+    try {
+        const cachedUrl = await this.cacheManager.getCachedImageUrl(url);
+        return cachedUrl || url;
+    } catch (error) {
+        console.warn('Failed to load cached image:', url);
+        return url;
+    }
+}
+
+async initializeLazyImages() {
+    const lazyImages = document.querySelectorAll('img[data-src]');
+    
+    for (const img of lazyImages) {
+        const originalSrc = img.getAttribute('data-src');
+        if (originalSrc) {
+            try {
+                const cachedSrc = await this.loadCachedImage(originalSrc);
+                img.src = cachedSrc;
+                img.removeAttribute('data-src');
+            } catch (error) {
+                console.warn('Failed to load image:', originalSrc);
+                img.src = originalSrc;
+                img.removeAttribute('data-src');
+            }
+        }
+    }
 }
 
 
@@ -4475,7 +4502,7 @@ renderInBatches() {
                <div class="swiper-wrapper">
 ${game.images.map((img, index) => `
 <div class="swiper-slide">
-<img src="${img}" alt="${game.name}" class="image-loading" loading="${index === 0 ? 'eager' : 'lazy'}" decoding="async" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');" style="will-change: auto;">
+<img data-src="${img}" alt="${game.name}" class="image-loading" loading="${index === 0 ? 'eager' : 'lazy'}" decoding="async" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');" style="will-change: auto;">
                        </div>
                    `).join('')}
                </div>
