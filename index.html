@@ -2092,18 +2092,13 @@ loadFromLocalStorage() {
 
 async saveToStorage() {
     if (!this.isSharedView) {
-        this.showLoading('Saving...');
-        try {
-            if (this.githubReady && this.isSignedIn) {
-                await this.saveToGitHub();
-            } else {
-                this.saveToLocalStorage();
-            }
-            // Also save to cache
-            await this.saveToCache();
-        } finally {
-            this.hideLoading();
+        if (this.githubReady && this.isSignedIn) {
+            await this.saveToGitHub();
+        } else {
+            this.saveToLocalStorage();
         }
+        // Also save to cache
+        await this.saveToCache();
     }
 }
 
@@ -3472,10 +3467,8 @@ if (this.isEditMode) {
        this.render();
    }
 
-async saveAllChanges() {
-    this.showLoading('Saving changes...');
-    try {
-        document.querySelectorAll('.game-card.edit-mode').forEach(card => {
+saveAllChanges() {
+    document.querySelectorAll('.game-card.edit-mode').forEach(card => {
            const gameId = card.dataset.gameId;
            const game = this.games.get(gameId);
            if (!game) return;
@@ -3547,9 +3540,7 @@ this.updateMechanismsFilter();
 this.toggleEditMode();
 this.applyFilters();
 alert('All changes saved successfully!');
-    } finally {
-        this.hideLoading();
-    }
+   }
 
    discardAllChanges() {
        if (confirm('Discard all changes? This cannot be undone.')) {
