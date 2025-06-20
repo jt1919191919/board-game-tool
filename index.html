@@ -1573,6 +1573,166 @@ document.addEventListener('DOMContentLoaded', () => {
    console.log('DOM loaded, buttons should work now');
 });
 
+class CacheManager {
+    constructor() {
+        this.dbName = 'BoardGameCollectionDB';
+        this.dbVersion = 1;
+        this.db = null;
+        this.isReady = false;
+    }
+
+    async init() {
+        return new Promise((resolve, reject) => {
+            if (!('indexedDB' in window)) {
+                console.warn('IndexedDB not supported, caching disabled');
+                resolve(false);
+                return;
+            }
+
+            const request = indexedDB.open(this.dbName, this.dbVersion);
+            
+            request.onerror = () => {
+                console.error('Failed to open IndexedDB');
+                resolve(false);
+            };
+            
+            request.onsuccess = (event) => {
+                this.db = event.target.result;
+                this.isReady = true;
+                resolve(true);
+            };
+            
+            request.onupgradeneeded = (event) => {
+                const db = event.target.result;
+                
+                if (!db.objectStoreNames.contains('games')) {
+                    db.createObjectStore('games', { keyPath: 'bggId' });
+                }
+                
+                if (!db.objectStoreNames.contains('images')) {
+                    db.createObjectStore('images', { keyPath: 'url' });
+                }
+                
+                if (!db.objectStoreNames.contains('metadata')) {
+                    db.createObjectStore('metadata', { keyPath: 'key' });
+                }
+            };
+        });
+    }
+
+    async cacheGame(game) {
+        if (!this.isReady) return false;
+        
+        try {
+            const transaction = this.db.transaction(['games'], 'readwrite');
+            const store = transaction.objectStore('games');
+            await this.promisifyRequest(store.put(game));
+            return true;
+        } catch (error) {
+            console.error('Failed to cache game:', error);
+            return false;
+        }
+    }
+
+    async getCachedGame(bggId) {
+        if (!this.isReady) return null;
+        
+        try {
+            const transaction = this.db.transaction(['games'], 'readonly');
+            const store = transaction.objectStore('games');
+            const result = await this.promisifyRequest(store.get(bggId));
+            return result;
+        } catch (error) {
+            console.error('Failed to get cached game:', error);
+            return null;
+        }
+    }
+
+    async cacheImage(url, blob) {
+        if (!this.isReady) return false;
+        
+        try {
+            const transaction = this.db.transaction(['images'], 'readwrite');
+            const store = transaction.objectStore('images');
+            await this.promisifyRequest(store.put({ url, blob, cachedAt: Date.now() }));
+            return true;
+        } catch (error) {
+            console.error('Failed to cache image:', error);
+            return false;
+        }
+    }
+
+    async getCachedImageUrl(url) {
+        if (!this.isReady) return null;
+        
+        try {
+            const transaction = this.db.transaction(['images'], 'readonly');
+            const store = transaction.objectStore('images');
+            const result = await this.promisifyRequest(store.get(url));
+            
+            if (result && result.blob) {
+                return URL.createObjectURL(result.blob);
+            }
+            return null;
+        } catch (error) {
+            console.error('Failed to get cached image:', error);
+            return null;
+        }
+    }
+
+    async setMetadata(key, value) {
+        if (!this.isReady) return false;
+        
+        try {
+            const transaction = this.db.transaction(['metadata'], 'readwrite');
+            const store = transaction.objectStore('metadata');
+            await this.promisifyRequest(store.put({ key, value, updatedAt: Date.now() }));
+            return true;
+        } catch (error) {
+            console.error('Failed to set metadata:', error);
+            return false;
+        }
+    }
+
+    async getMetadata(key) {
+        if (!this.isReady) return null;
+        
+        try {
+            const transaction = this.db.transaction(['metadata'], 'readonly');
+            const store = transaction.objectStore('metadata');
+            const result = await this.promisifyRequest(store.get(key));
+            return result ? result.value : null;
+        } catch (error) {
+            console.error('Failed to get metadata:', error);
+            return null;
+        }
+    }
+
+    promisifyRequest(request) {
+        return new Promise((resolve, reject) => {
+            request.onsuccess = () => resolve(request.result);
+            request.onerror = () => reject(request.error);
+        });
+    }
+
+    async clearCache() {
+        if (!this.isReady) return false;
+        
+        try {
+            const transaction = this.db.transaction(['games', 'images', 'metadata'], 'readwrite');
+            await Promise.all([
+                this.promisifyRequest(transaction.objectStore('games').clear()),
+                this.promisifyRequest(transaction.objectStore('images').clear()),
+                this.promisifyRequest(transaction.objectStore('metadata').clear())
+            ]);
+            return true;
+        } catch (error) {
+            console.error('Failed to clear cache:', error);
+            return false;
+        }
+    }
+}
+
 class BoardGameCollection {
    constructor() {
        this.games = new Map();
@@ -1591,13 +1751,16 @@ this.gamePreferences = new Map(); // stores thumbs up/down: 'up', 'down', or nul
        this.originalSharedPreferences = new Map(); // for shared collections
 this.searchTimeout = null;
        this.filterTimeout = null;
-       this.cacheManager = null;
+this.cacheManager = new CacheManager();
        this.initGoogleDrive();
    }
 
 async init() {
     console.log('Initializing app...');
     
+// Initialize cache
+await this.cacheManager.init();
+
     // Check for shared view FIRST, before loading any storage
     const isSharedCollection = await this.checkForSharedView();
     console.log('Is shared collection:', isSharedCollection);
@@ -1949,10 +2112,126 @@ async loadFromStorage() {
         return;
     }
     
-    if (this.githubReady && this.isSignedIn) {
-        await this.loadFromGitHub();
-    } else {
-        this.loadFromLocalStorage();
+    // Try cache first, then fallback to storage
+    const cacheLoaded = await this.loadFromCache();
+    if (!cacheLoaded) {
+        if (this.githubReady && this.isSignedIn) {
+            await this.loadFromGitHub();
+        } else {
+            this.loadFromLocalStorage();
+        }
+    }
+}
+
+async loadFromCache() {
+    if (!this.cacheManager.isReady) return false;
+    
+    try {
+        const cachedGames = await this.cacheManager.getMetadata('games');
+        const cachedPreferences = await this.cacheManager.getMetadata('preferences');
+        
+        if (cachedGames && Object.keys(cachedGames).length > 0) {
+            this.games.clear();
+            Object.entries(cachedGames).forEach(([id, game]) => {
+                this.games.set(id, game);
+            });
+            
+            if (cachedPreferences) {
+                this.gamePreferences.clear();
+                Object.entries(cachedPreferences).forEach(([id, pref]) => {
+                    this.gamePreferences.set(id, pref);
+                });
+            }
+            
+            console.log('Loaded collection from cache');
+            return true;
+        }
+    } catch (error) {
+        console.error('Error loading from cache:', error);
+    }
+    
+    return false;
+}
+
+async saveToCache() {
+    if (!this.cacheManager.isReady) return;
+    
+    try {
+        const gamesData = Object.fromEntries(this.games);
+        const preferencesData = Object.fromEntries(this.gamePreferences);
+        
+        await this.cacheManager.setMetadata('games', gamesData);
+        await this.cacheManager.setMetadata('preferences', preferencesData);
+        await this.cacheManager.setMetadata('lastCached', new Date().toISOString());
+        
+        console.log('Saved collection to cache');
+    } catch (error) {
+        console.error('Error saving to cache:', error);
+    }
+}
+
+async refreshCache() {
+    if (!this.cacheManager.isReady) return;
+    
+    const cacheOverlay = document.getElementById('cache-loading');
+    const progressFill = document.getElementById('cache-progress-fill');
+    const statusText = document.getElementById('cache-status');
+    
+    try {
+        cacheOverlay.style.display = 'flex';
+        statusText.textContent = 'Clearing old cache...';
+        progressFill.style.width = '10%';
+        
+        await this.cacheManager.clearCache();
+        
+        statusText.textContent = 'Caching games...';
+        progressFill.style.width = '30%';
+        
+        // Cache all games
+        const games = Array.from(this.games.values());
+        for (let i = 0; i < games.length; i++) {
+            await this.cacheManager.cacheGame(games[i]);
+            const progress = 30 + (i / games.length) * 40;
+            progressFill.style.width = `${progress}%`;
+        }
+        
+        statusText.textContent = 'Caching images...';
+        progressFill.style.width = '70%';
+        
+        // Cache images
+        const allImages = games.flatMap(game => game.images || []);
+        for (let i = 0; i < allImages.length; i++) {
+            try {
+                const response = await fetch(allImages[i]);
+                if (response.ok) {
+                    const blob = await response.blob();
+                    await this.cacheManager.cacheImage(allImages[i], blob);
+                }
+            } catch (error) {
+                console.warn('Failed to cache image:', allImages[i]);
+            }
+            const progress = 70 + (i / allImages.length) * 25;
+            progressFill.style.width = `${progress}%`;
+        }
+        
+        statusText.textContent = 'Finalizing...';
+        progressFill.style.width = '95%';
+        
+        await this.saveToCache();
+        
+        progressFill.style.width = '100%';
+        statusText.textContent = 'Cache refresh complete!';
+        
+        setTimeout(() => {
+            cacheOverlay.style.display = 'none';
+        }, 1000);
+        
+    } catch (error) {
+        console.error('Cache refresh failed:', error);
+        statusText.textContent = 'Cache refresh failed';
+        setTimeout(() => {
+            cacheOverlay.style.display = 'none';
+        }, 2000);
     }
 }
 
