@@ -325,8 +325,7 @@ button#clear-filters {
         }
 
 .image-loading {
-            opacity: 0.7;
-            transition: opacity 0.3s ease;
+            opacity: 0;
         }
 
         .image-loaded {
@@ -2213,7 +2212,7 @@ async refreshCache() {
     
     try {
         cacheOverlay.style.display = 'flex';
-statusText.textContent = 'Loading game collection - doing this the first time may take up to a minute';
+statusText.textContent = 'Loading game collection';
         progressFill.style.width = '10%';
         
         await this.cacheManager.clearCache();
@@ -2221,7 +2220,7 @@ statusText.textContent = 'Loading game collection - doing this the first time ma
         // Cache all games
         const games = Array.from(this.games.values());
         for (let i = 0; i < games.length; i++) {
-            statusText.textContent = `Loading game collection - caching game ${i + 1} of ${games.length}`;
+statusText.textContent = `Loading collection - caching game ${i + 1} of ${games.length}`;
             await this.cacheManager.cacheGame(games[i]);
             const progress = 10 + (i / games.length) * 60;
             progressFill.style.width = `${progress}%`;
@@ -2230,7 +2229,7 @@ statusText.textContent = 'Loading game collection - doing this the first time ma
         // Cache images
         const allImages = games.flatMap(game => game.images || []);
         for (let i = 0; i < allImages.length; i++) {
-            statusText.textContent = `Loading game collection - caching image ${i + 1} of ${allImages.length}`;
+statusText.textContent = `Loading collection - caching image ${i + 1} of ${allImages.length}`;
             try {
                 const response = await fetch(allImages[i]);
                 if (response.ok) {
@@ -2244,7 +2243,7 @@ statusText.textContent = 'Loading game collection - doing this the first time ma
             progressFill.style.width = `${progress}%`;
         }
         
-        statusText.textContent = 'Loading game collection - finalizing cache';
+        statusText.textContent = 'Loading collection - finalizing cache';
         progressFill.style.width = '95%';
         
         await this.saveToCache();
@@ -3741,7 +3740,7 @@ clearFilters() {
 
 applyFilters() {
     // Show loading for operations that might take time
-    if (this.games.size > 20) {
+    if (this.games.size > 50) {
         this.showLoading('Filtering games...');
     }
     
@@ -4336,8 +4335,8 @@ render() {
        const fragment = document.createDocumentFragment();
        const tempDiv = document.createElement('div');
        
-       // Batch render in chunks for better responsiveness
-       const chunkSize = 20;
+// Batch render in chunks for better responsiveness
+       const chunkSize = window.innerWidth <= 768 ? 10 : 30;
        const renderChunk = (startIndex) => {
            const endIndex = Math.min(startIndex + chunkSize, this.filteredGames.length);
            const html = this.filteredGames.slice(startIndex, endIndex).map(game => {
@@ -4350,8 +4349,8 @@ render() {
            }
            
            if (endIndex < this.filteredGames.length) {
-               // Use setTimeout to allow UI updates between chunks
-               setTimeout(() => renderChunk(endIndex), 0);
+               // Use requestAnimationFrame for smoother rendering
+               requestAnimationFrame(() => renderChunk(endIndex));
            } else {
                // All chunks rendered, update DOM once
                container.innerHTML = '';
@@ -4363,6 +4362,7 @@ render() {
        renderChunk(0);
        
    }
+
 
 initializeSwipersAfterRender() {
        if (!this.isEditMode) {
@@ -4381,7 +4381,6 @@ initializeSwipersAfterRender() {
                            },
                            loop: game.images.length > 1,
                            autoHeight: true,
-                           lazy: true,
                        });
                    }
                }
@@ -4410,8 +4409,7 @@ initializeSwipersAfterRender() {
                <div class="swiper-wrapper">
 ${game.images.map((img, index) => `
 <div class="swiper-slide">
-                           <img data-src="${img}" alt="${game.name}" class="image-loading swiper-lazy" loading="lazy" decoding="async" onload="this.classList.remove('image-loading'); this.classList.add('image-loaded');" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg=='; this.classList.remove('image-loading'); this.classList.add('image-loaded');">
-                           <div class="swiper-lazy-preloader"></div>
+                           <img src="${img}" alt="${game.name}" loading="lazy" decoding="async" style="opacity: 0; transition: opacity 0.3s ease;" onload="this.style.opacity = 1;" onerror="this.style.display = 'none';">
                        </div>
                    `).join('')}
                </div>
@@ -5280,8 +5278,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <div class="cache-progress-fill" id="cache-progress-fill"></div>
             </div>
         </div>
-        <div id="cache-status">Loading game collection...</div>
-        <div id="cache-help-text">First time loading may take up to a minute</div>
+        <div id="cache-status">Loading collection...</div>
+        <div id="cache-help-text">First time loading may take a minute</div>
     </div>
 </div>
 
