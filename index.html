@@ -372,6 +372,14 @@ button#clear-filters {
             text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
         }
 
+#cache-help-text {
+            color: white;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+            opacity: 0.8;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+        }
+
         .swiper-button-next,
         .swiper-button-prev {
             color: white;
@@ -774,9 +782,10 @@ button#clear-filters {
             display: none;
         }
 
-        .cache-content {
+.cache-content {
             text-align: center;
-            width: 300px;
+            max-width: 400px;
+            padding: 2rem;
         }
 
         .error {
@@ -5190,10 +5199,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 <!-- Cache loading overlay -->
 <div id="cache-loading" class="cache-loading">
     <div class="cache-content">
-        <div class="cache-progress-bar">
-            <div class="cache-progress-fill" id="cache-progress-fill"></div>
+        <div class="cache-progress">
+            <div class="cache-progress-bar">
+                <div class="cache-progress-fill" id="cache-progress-fill"></div>
+            </div>
         </div>
         <div id="cache-status">Loading game collection...</div>
+        <div id="cache-help-text">First time loading may take up to a minute</div>
     </div>
 </div>
 
