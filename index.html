@@ -3468,7 +3468,8 @@ if (this.isEditMode) {
            this.gameBackups.clear();
        }
        
-       this.render();
+// Use requestAnimationFrame to defer render
+requestAnimationFrame(() => this.render());
    }
 
 saveAllChanges() {
@@ -5226,4 +5227,3 @@ document.addEventListener('DOMContentLoaded', async () => {
 </div>
 </body>
 </html>
-
