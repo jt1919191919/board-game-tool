@@ -1135,6 +1135,7 @@ button#clear-filters {
 <button class="btn" id="mobile-share-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Share Collection</button>
 <button class="btn" id="mobile-export-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i> Export Data</button>
 <button class="btn" id="mobile-import-btn"><i class="fa-solid fa-download"></i> Import Data</button>
+<button class="btn" id="mobile-refresh-cache-btn"><i class="fa-solid fa-arrows-rotate"></i> Refresh Cache</button>
 <button class="btn" id="mobile-google-drive-signin" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Connect GitHub</button>
 <button class="btn" id="mobile-google-drive-signout" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub</button>
 <div id="mobile-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
@@ -1146,6 +1147,7 @@ button#clear-filters {
 <button class="btn" id="desktop-share-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Share Collection</button>
 <button class="btn" id="desktop-export-btn"><i class="fa-solid fa-arrow-up-from-bracket"></i> Export Data</button>
 <button class="btn" id="desktop-import-btn"><i class="fa-solid fa-download"></i> Import Data</button>
+<button class="btn" id="desktop-refresh-cache-btn"><i class="fa-solid fa-arrows-rotate"></i> Refresh Cache</button>
 <button class="btn" id="desktop-google-drive-signin" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Connect GitHub</button>
 <button class="btn" id="desktop-google-drive-signout" style="display: none;"><i class="fa-solid fa-right-to-bracket"></i> Disconnect GitHub</button>
             <div id="desktop-google-drive-status" style="font-size: 0.9rem; padding: 0.5rem; text-align: center;">Loading GitHub...</div>
@@ -2102,6 +2104,8 @@ async saveToStorage() {
         } else {
             this.saveToLocalStorage();
         }
+        // Also save to cache
+        await this.saveToCache();
     }
 }
 
@@ -2980,6 +2984,14 @@ const addGameBtn = document.getElementById('add-game-btn');
            });
        }
 
+const mobileRefreshCacheBtn = document.getElementById('mobile-refresh-cache-btn');
+       if (mobileRefreshCacheBtn) {
+           mobileRefreshCacheBtn.addEventListener('click', () => {
+               this.refreshCache();
+               document.getElementById('mobile-menu').classList.remove('show');
+           });
+       }
+
        document.getElementById('import-file').addEventListener('change', (e) => {
            this.importData(e.target.files[0]);
        });
@@ -3043,6 +3055,14 @@ if (mobileDiscardChangesBtnHeader) {
        if (desktopImportBtn) {
            desktopImportBtn.addEventListener('click', () => {
                document.getElementById('import-file').click();
+               document.getElementById('desktop-menu').classList.remove('show');
+           });
+       }
+
+const desktopRefreshCacheBtn = document.getElementById('desktop-refresh-cache-btn');
+       if (desktopRefreshCacheBtn) {
+           desktopRefreshCacheBtn.addEventListener('click', () => {
+               this.refreshCache();
                document.getElementById('desktop-menu').classList.remove('show');
            });
        }
