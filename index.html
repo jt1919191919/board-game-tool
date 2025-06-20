@@ -333,29 +333,34 @@ button#clear-filters {
             opacity: 1;
         }
 
-        .image-placeholder {
+        .cache-progress {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            text-align: center;
+            z-index: 2000;
+            min-width: 300px;
+        }
+
+        .cache-progress-bar {
             width: 100%;
+            height: 20px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 1rem 0;
+        }
+
+        .cache-progress-fill {
             height: 100%;
-            background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%), 
-                        linear-gradient(-45deg, #f0f0f0 25%, transparent 25%), 
-                        linear-gradient(45deg, transparent 75%, #f0f0f0 75%), 
-                        linear-gradient(-45deg, transparent 75%, #f0f0f0 75%);
-            background-size: 20px 20px;
-            background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #999;
-            font-size: 0.9rem;
-        }
-
-        .swiper-slide img[data-src] {
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .swiper-slide img.loaded {
-            opacity: 1;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            transition: width 0.3s ease;
+            border-radius: 10px;
         }
 
 
@@ -743,6 +748,40 @@ button#clear-filters {
             margin-top: 1rem;
             color: #667eea;
             font-weight: 600;
+        }
+
+.cache-loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(102, 126, 234, 0.95);
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 3000;
+            color: white;
+            display: none;
+        }
+
+        .cache-content {
+            text-align: center;
+            max-width: 400px;
+            padding: 2rem;
+        }
+
+        .cache-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .cache-message {
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            line-height: 1.5;
         }
 
         .error {
@@ -1552,10 +1591,7 @@ this.gamePreferences = new Map(); // stores thumbs up/down: 'up', 'down', or nul
        this.originalSharedPreferences = new Map(); // for shared collections
 this.searchTimeout = null;
        this.filterTimeout = null;
-this.renderTimeout = null;
-       this.isRendering = false;
-       this.imageLoadQueue = new Set();
-       this.visibilityObserver = null;
+       this.cacheManager = null;
        this.initGoogleDrive();
    }
 
@@ -1685,79 +1721,6 @@ showLoading(text = 'Loading...') {
        overlay.style.display = 'none';
    }
 
-   debounceRender() {
-       if (this.isRendering) return;
-       
-       clearTimeout(this.renderTimeout);
-       this.renderTimeout = setTimeout(() => {
-           this.isRendering = true;
-           this.render();
-           // Hide loading after render completes
-           setTimeout(() => {
-               this.isRendering = false;
-               this.hideLoading();
-           }, 50);
-       }, 100);
-   }
-
-initImageObserver() {
-       if (this.visibilityObserver) return;
-       
-       this.visibilityObserver = new IntersectionObserver((entries) => {
-           entries.forEach(entry => {
-               if (entry.isIntersecting) {
-                   this.loadCardImages(entry.target);
-                   this.visibilityObserver.unobserve(entry.target);
-               }
-           });
-       }, { 
-           rootMargin: '50px',
-           threshold: 0.1 
-       });
-   }
-
-   loadCardImages(card) {
-       const gameId = card.dataset.gameId;
-       if (!gameId || this.imageLoadQueue.has(gameId)) return;
-       
-       this.imageLoadQueue.add(gameId);
-       
-       const images = card.querySelectorAll('img[data-src]');
-       images.forEach((img, index) => {
-           // Load first image immediately, others with delay
-           const delay = index === 0 ? 0 : index * 100;
-           
-           setTimeout(() => {
-               const src = img.dataset.src;
-               if (src) {
-                   img.onload = () => {
-                       img.classList.add('loaded');
-                       img.classList.remove('image-loading');
-                   };
-                   img.onerror = () => {
-                       img.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjBmMGYwIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPk5vIEltYWdlPC90ZXh0Pjwvc3ZnPg==';
-                       img.classList.add('loaded');
-                   };
-                   img.src = src;
-                   img.removeAttribute('data-src');
-               }
-           }, delay);
-       });
-   }
-
-   optimizeGameCards() {
-       // Use requestIdleCallback if available, otherwise setTimeout
-       const runWhenIdle = window.requestIdleCallback || ((cb) => setTimeout(cb, 1));
-       
-       runWhenIdle(() => {
-           const cards = document.querySelectorAll('.game-card[data-game-id]');
-           cards.forEach(card => {
-               if (this.visibilityObserver) {
-                   this.visibilityObserver.observe(card);
-               }
-           });
-       });
-   }
 
 updateGoogleDriveUI() {
     const desktopSignInBtn = document.getElementById('desktop-google-drive-signin');
