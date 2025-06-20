@@ -338,7 +338,7 @@ button#clear-filters {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background: white;
+            background: transparent;
             padding: 2rem;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
@@ -367,8 +367,9 @@ button#clear-filters {
 #cache-status {
             color: white;
             font-weight: 600;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
-            margin-top: 0.5rem;
+            font-size: 1rem;
+            margin-top: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
         }
 
         .swiper-button-next,
@@ -770,33 +771,12 @@ button#clear-filters {
             align-items: center;
             justify-content: center;
             z-index: 3000;
-            color: white;
             display: none;
         }
 
         .cache-content {
             text-align: center;
-            max-width: 400px;
-            padding: 2rem;
-            background: rgba(0, 0, 0, 0.3);
-            border-radius: 15px;
-            backdrop-filter: blur(10px);
-        }
-
-        .cache-title {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            font-weight: 600;
-            color: white;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
-        }
-
-        .cache-message {
-            margin-bottom: 2rem;
-            opacity: 0.95;
-            line-height: 1.5;
-            color: white;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+            width: 300px;
         }
 
         .error {
@@ -2198,28 +2178,24 @@ async refreshCache() {
     
     try {
         cacheOverlay.style.display = 'flex';
-        statusText.textContent = 'Clearing old cache...';
+statusText.textContent = 'Loading game collection - doing this the first time may take up to a minute';
         progressFill.style.width = '10%';
         
         await this.cacheManager.clearCache();
         
-        statusText.textContent = 'Caching games...';
-        progressFill.style.width = '30%';
-        
         // Cache all games
         const games = Array.from(this.games.values());
         for (let i = 0; i < games.length; i++) {
+            statusText.textContent = `Loading game collection - caching game ${i + 1} of ${games.length}`;
             await this.cacheManager.cacheGame(games[i]);
-            const progress = 30 + (i / games.length) * 40;
+            const progress = 10 + (i / games.length) * 60;
             progressFill.style.width = `${progress}%`;
         }
-        
-        statusText.textContent = 'Caching images...';
-        progressFill.style.width = '70%';
         
         // Cache images
         const allImages = games.flatMap(game => game.images || []);
         for (let i = 0; i < allImages.length; i++) {
+            statusText.textContent = `Loading game collection - caching image ${i + 1} of ${allImages.length}`;
             try {
                 const response = await fetch(allImages[i]);
                 if (response.ok) {
@@ -2233,13 +2209,13 @@ async refreshCache() {
             progressFill.style.width = `${progress}%`;
         }
         
-        statusText.textContent = 'Finalizing...';
+        statusText.textContent = 'Loading game collection - finalizing cache';
         progressFill.style.width = '95%';
         
         await this.saveToCache();
         
         progressFill.style.width = '100%';
-        statusText.textContent = 'Cache refresh complete!';
+        statusText.textContent = 'Collection loaded successfully!';
         
         setTimeout(() => {
             cacheOverlay.style.display = 'none';
@@ -5214,14 +5190,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 <!-- Cache loading overlay -->
 <div id="cache-loading" class="cache-loading">
     <div class="cache-content">
-        <div class="cache-title">Setting up your collection...</div>
-        <div class="cache-message">First time loading may take up to a minute while we cache your games and images for faster future access.</div>
-        <div class="cache-progress">
-            <div class="cache-progress-bar">
-                <div class="cache-progress-fill" id="cache-progress-fill"></div>
-            </div>
-            <div id="cache-status">Preparing...</div>
+        <div class="cache-progress-bar">
+            <div class="cache-progress-fill" id="cache-progress-fill"></div>
         </div>
+        <div id="cache-status">Loading game collection...</div>
     </div>
 </div>
 
