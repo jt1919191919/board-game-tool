@@ -2463,16 +2463,11 @@ element.addEventListener('input', () => {
                    this.updateFilters();
                    this.updateDynamicCardFields();
                    
-                   // Show loading on mobile
-                   if (window.innerWidth <= 768) {
-                       this.showLoading('Filtering...');
-                   }
-                   
-                   // Debounce filtering
-                   clearTimeout(this.filterTimeout);
-                   this.filterTimeout = setTimeout(() => {
-                       this.applyFilters();
-                   }, 150);
+// Debounce filtering
+clearTimeout(this.filterTimeout);
+this.filterTimeout = setTimeout(() => {
+    this.applyFilters();
+}, 150);
                });
            }
            
@@ -4915,10 +4910,17 @@ document.addEventListener('DOMContentLoaded', async () => {
    </div>
 </div>
 
-<div id="loading-overlay" class="loading-overlay">
-    <div>
-        <div class="loading-spinner"></div>
-        <div class="loading-text">Loading...</div>
+<!-- Cache loading overlay -->
+<div id="cache-loading" class="cache-loading">
+    <div class="cache-content">
+        <div class="cache-title">Setting up your collection...</div>
+        <div class="cache-message">First time loading may take up to a minute while we cache your games and images for faster future access.</div>
+        <div class="cache-progress">
+            <div class="cache-progress-bar">
+                <div class="cache-progress-fill" id="cache-progress-fill"></div>
+            </div>
+            <div id="cache-status">Preparing...</div>
+        </div>
     </div>
 </div>
 
