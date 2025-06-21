@@ -3753,9 +3753,19 @@ clearFilters() {
    }
 
 applyFilters() {
-    // Always show loading for filtering operations
-    this.showLoading('Filtering games...');
-    
+    // For mobile, force loading to show before heavy operations
+    if (window.innerWidth <= 768) {
+        this.showLoading('Filtering games...');
+        // Use requestAnimationFrame to ensure loading shows before blocking operations
+        requestAnimationFrame(() => {
+            this.performFiltering();
+        });
+    } else {
+        this.performFiltering();
+    }
+}
+
+performFiltering() {
     try {
         this.updateFilters();
         
@@ -4144,8 +4154,9 @@ const sortField = document.getElementById('sort-field').value;
 this.filteredGames = filtered;
 this.render();
 } finally {
-        // Always hide loading after filtering
-        this.hideLoading();
+        if (window.innerWidth <= 768) {
+            this.hideLoading();
+        }
     }
    }
 
@@ -4368,6 +4379,7 @@ render() {
                container.innerHTML = '';
 container.appendChild(fragment);
                this.initializeSwipersAfterRender();
+               this.forceImageLoading();
                this.hideLoading();
            }
        };
@@ -4411,6 +4423,24 @@ initializeSwipersAfterRender() {
        }
    }
 
+initializeSwipersAfterRender() {
+       // existing code stays the same...
+   }
+
+   forceImageLoading() {
+       // Force image loading on desktop by triggering load events
+       if (window.innerWidth > 768) {
+           const images = document.querySelectorAll('.game-card img');
+           images.forEach(img => {
+               if (!img.complete) {
+                   const newSrc = img.src;
+                   img.src = '';
+                   img.src = newSrc;
+               }
+           });
+       }
+   }
+
    renderGameCard(game) {
        const playerRange = game.players ? `${game.players.min}-${game.players.max}` : 'Unknown';
        const playtimeText = game.playtime ? `${game.playtime.min}${game.playtime.min !== game.playtime.max ? `-${game.playtime.max}` : ''} min` : 'Unknown';
@@ -4422,7 +4452,7 @@ initializeSwipersAfterRender() {
                <div class="swiper-wrapper">
 ${game.images.map((img, index) => `
 <div class="swiper-slide">
-<img src="${img}" alt="${game.name}" ${window.innerWidth <= 768 ? 'loading="lazy"' : ''} decoding="async" style="opacity: 0; transition: opacity 0.3s ease;" onload="this.style.opacity = 1;" onerror="this.style.display = 'none';">
+                           <img src="${img}" alt="${game.name}" ${window.innerWidth <= 768 ? 'loading="lazy" style="opacity: 0; transition: opacity 0.3s ease;" onload="this.style.opacity = 1;"' : ''} onerror="this.style.display = 'none';">
                        </div>
                    `).join('')}
                </div>
