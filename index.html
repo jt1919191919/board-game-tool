@@ -842,14 +842,15 @@ button#clear-filters {
             justify-content: center;
         }
 
-        .close-lightbox {
+.close-lightbox {
             position: absolute;
             top: 2rem;
             right: 2rem;
             font-size: 3rem;
             cursor: pointer;
-            color: white;
+            color: #999;
             z-index: 3001;
+            text-shadow: 0 0 4px rgba(255, 255, 255, 0.8);
         }
 
         /* Mobile Controls Layout */
@@ -1749,6 +1750,7 @@ this.cacheManager = new CacheManager();
        this.initGoogleDrive();
    }
 
+
 async init() {
     console.log('Initializing app...');
     this.showLoading('Initializing collection...');
@@ -1764,11 +1766,13 @@ await this.cacheManager.init();
     // Only load from storage if it's NOT a shared collection
     if (!isSharedCollection) {
         console.log('Loading from storage...');
+        this.showLoading('Loading your collection...');
         await this.loadFromStorage();
     } else {
         console.log('Skipping storage load for shared collection');
     }
     
+    this.showLoading('Setting up interface...');
     this.bindEvents();
     const isMobile = window.innerWidth <= 768;
     this.setColumns(isMobile ? 1 : this.currentColumns);
@@ -1779,8 +1783,10 @@ await this.cacheManager.init();
     }
     
     console.log('About to render...', 'Games count:', this.games.size, 'Filtered games:', this.filteredGames.length);
+    this.showLoading('Rendering games...');
     this.render();
     
+    this.showLoading('Building filters...');
     this.updateDesignerFilter();
     this.updatePublisherFilter();
     this.updateDesignerNationalityFilter();
@@ -1801,6 +1807,7 @@ await this.cacheManager.init();
 console.log('App initialization complete');
     this.hideLoading();
 }
+
 
 // Initialize GitHub file storage
 initGoogleDrive() {
@@ -3181,11 +3188,11 @@ const desktopRefreshCacheBtn = document.getElementById('desktop-refresh-cache-bt
            
            let somethingWasClosed = false;
            
-           if (gameModal && gameModal.style.display === 'block') {
-               this.closeModal();
-               somethingWasClosed = true;
-           } else if (lightboxModal && lightboxModal.style.display === 'block') {
+           if (lightboxModal && lightboxModal.style.display === 'block') {
                this.closeLightbox();
+               somethingWasClosed = true;
+           } else if (gameModal && gameModal.style.display === 'block') {
+               this.closeModal();
                somethingWasClosed = true;
            } else if (addGameForm && addGameForm.classList.contains('show')) {
                this.closeForm();
@@ -3740,7 +3747,7 @@ clearFilters() {
 
 applyFilters() {
     // Show loading for operations that might take time
-    if (this.games.size > 50) {
+    if (this.games.size > 20) {
         this.showLoading('Filtering games...');
     }
     
@@ -4131,8 +4138,8 @@ const sortField = document.getElementById('sort-field').value;
 
 this.filteredGames = filtered;
 this.render();
-    } finally {
-        if (this.games.size > 50) {
+} finally {
+        if (this.games.size > 20) {
             this.hideLoading();
         }
     }
@@ -4159,19 +4166,19 @@ this.render();
            const controller = new AbortController();
            const timeoutId = setTimeout(() => controller.abort(), 15000); // 15 second timeout
            
-           const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(`https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`)}`, {
+const response = await fetch(`https://corsproxy.io/?${encodeURIComponent(`https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`)}`, {
                signal: controller.signal
            });
            
-           clearTimeout(timeoutId);
-           const data = await response.json();
+clearTimeout(timeoutId);
+           const data = await response.text();
            
            if (!response.ok) {
                throw new Error('Failed to fetch from BoardGameGeek');
            }
 
            const parser = new DOMParser();
-           const xmlDoc = parser.parseFromString(data.contents, 'text/xml');
+           const xmlDoc = parser.parseFromString(data, 'text/xml');
            const item = xmlDoc.querySelector('item');
 
            if (!item) {
