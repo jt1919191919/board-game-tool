@@ -14787,9 +14787,86 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1750519410734": {
+      "bggId": "1750519410734",
+      "bggUrl": "https://boardgamegeek.com/boardgame/152242/ultimate-werewolf-deluxe-edition",
+      "name": "Ultimate Werewolf: Deluxe Edition",
+      "year": 2014,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 5,
+        "max": 75
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.5,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "designers": [
+        "Ted Alspach"
+      ],
+      "artists": [
+        "Sanjana Baijnath"
+      ],
+      "publishers": [
+        "Bézier Games",
+        "Siam Board Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/dncdxD1g4dxMh9e8oKlzbg__original/img/o-44FqDtvZ28uqX_V_rcpEnzqsI=/0x0/filters:format(png)/pic1878492.png",
+        "https://cf.geekdo-images.com/dncdxD1g4dxMh9e8oKlzbg__thumb/img/Wd1gXoEgJjq9vG3ZCP8_H1hP2eE=/fit-in/200x150/filters:strip_icc()/pic1878492.png"
+      ],
+      "notes": "",
+      "description": "Ultimate Werewolf is an interactive game of deduction for two teams: Villagers and Werewolves. The Villagers don't know who the Werewolves are, and the Werewolves are trying to remain undiscovered while they slowly eliminate the Villagers one at a time. A Moderator (who isn't on a team) runs the game.&#10;&#10;Ultimate Werewolf takes place over a series of game days and nights. Each day, the players discuss who among them is a Werewolf and vote out a player. Each night, the Werewolves choose a player to eliminate, while the Seer learns whether one player is a Werewolf or not. The game is over when either all the Villagers or all the Werewolves are eliminated.&#10;&#10;Ultimate Werewolf: Deluxe Edition features all new artwork, a great new design, totally rewritten and more comprehensive rules, and an even better moderator scorepad. What's more, it supports more players than ever: 75 of your closest friends can converge on one or more villages using the components in this box.&#10;&#10;",
+      "category": [
+        "Bluffing",
+        "Card Game",
+        "Deduction",
+        "Horror",
+        "Murder / Mystery",
+        "Negotiation",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Player Elimination",
+        "Role Playing",
+        "Team-Based Game",
+        "Traitor Game",
+        "Variable Player Powers",
+        "Voting"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T12:18:15.239Z",
+  "lastModified": "2025-06-21T15:23:30.736Z",
   "version": "1.0"
 }
