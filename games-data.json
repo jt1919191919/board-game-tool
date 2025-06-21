@@ -14558,9 +14558,53 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1750508230671": {
+      "bggId": "1750508230671",
+      "bggUrl": "https://boardgamegeek.com/boardgame/110698/travel-wheel-fortune",
+      "name": "Travel Wheel of Fortune",
+      "year": 1988,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 0,
+      "weightColor": "#008000",
+      "bestPlayerCount": [],
+      "designers": [
+        "(Uncredited)"
+      ],
+      "artists": [
+        "(Uncredited)"
+      ],
+      "publishers": [
+        "Pressman Toy Corp.",
+        "Tyco"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/_tBDMBswO9qsPfnw-82rhQ__original/img/HqK_W_MipE6UWESc4FSo5QGGHt8=/0x0/filters:format(jpeg)/pic1123074.jpg",
+        "https://cf.geekdo-images.com/_tBDMBswO9qsPfnw-82rhQ__thumb/img/GHsMC5NNiN7gsxj_UuKvxHFsQ6g=/fit-in/200x150/filters:strip_icc()/pic1123074.jpg"
+      ],
+      "notes": "",
+      "description": "Editions vary, but a familiar phrase or name is hidden on the gameboard. The number of words and the number of letters in each word along with the category of the puzzle is on the clue sheet chosen at random. The gameboard is marked thusly. Before guessing letter, a player must spin the eponymous Wheel of Fortune to determine how much each letter, if revealed, is worth to one&rsquo;s account. Every spin is risk, however, because one could lose a turn or spin &quot;Bankrupt&quot; which means lose a turn and forfeit one&rsquo;s earnings! Consonants only can be guessed after spinning the wheel; vowels can be guessed at a cost.&#10;&#10;A player can continue taking one&rsquo;s turn until a wrong guess is made and then the turn passes to the next player. Only the player who solves the word puzzle can keep the earnings made for that round. The player who has made the most money after a predetermined number of puzzles is the winner.&#10;&#10;As the title of the game suggests, this version of the game is designed for portability and to be played without a gamemaster to verify responses. The players can check their own responses without revealing to much of the puzzles ahead of time.&#10;&#10;The game is a faithful adaptation to the wildly popular television series.&#10;&#10;&#10;",
+      "category": [
+        "Movies / TV / Radio theme",
+        "Word Game"
+      ],
+      "mechanisms": [
+        "Push Your Luck"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T12:16:28.346Z",
+  "lastModified": "2025-06-21T12:17:10.672Z",
   "version": "1.0"
 }
