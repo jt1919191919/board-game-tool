@@ -14965,9 +14965,74 @@
         "Speed Matching"
       ],
       "customFields": {}
+    },
+    "1750519777540": {
+      "bggId": "1750519777540",
+      "bggUrl": "https://boardgamegeek.com/boardgame/194690/viral",
+      "name": "Viral",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 5
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.6,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "designers": [
+        "Gil d'Orey",
+        "Antonio Sousa Lara"
+      ],
+      "artists": [
+        "Mihajlo Dimitrievski"
+      ],
+      "publishers": [
+        "MEBO Games",
+        "MESAboardgames",
+        "Arcane Wonders",
+        "Corax Games",
+        "DICE TOWER ESSENTIALS",
+        "Edge Entertainment",
+        "Ediciones MasQueOca",
+        "Lavka Games",
+        "MoveTheGame Edizioni",
+        "PaperGames (III)"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/NeZO7t39b9_PM4juLEluSw__original/img/IuSKAbgCefvOLsCfRlTemO0pea0=/0x0/filters:format(jpeg)/pic3399864.jpg",
+        "https://cf.geekdo-images.com/NeZO7t39b9_PM4juLEluSw__thumb/img/k6HQegk6BmEj3fuVF1bcRA8jFoY=/fit-in/200x150/filters:strip_icc()/pic3399864.jpg"
+      ],
+      "notes": "",
+      "description": "You are a VIRUS that has just infected a human body. Now you have to spread out and mutate your virus in order to infect other organs to gain VIRAL POINTS. But watch out for the other VIRUS controlled by other players and the powerful IMMUNE SYSTEM!&#10;&#10;VIRAL is a 2-5 players competitive boardgame in which each player controls a virus that is growing inside a human body. Players will simultaneously play cards to place tokens on the board and move them around to gain control of zones to score Viral Points. Players also score points when they cause a crisis in an organ, thus activating the anti-virus (the immune system). Players also can play cards that allows them to attack other players. The player with the most Viral Points when the event deck runs out is the winner of the game VIRAL!&#10;&#10;",
+      "category": [
+        "Humor",
+        "Medical"
+      ],
+      "mechanisms": [
+        "Area Majority / Influence",
+        "Area Movement",
+        "Catch the Leader",
+        "Deck",
+        "Bag",
+        "and Pool Building",
+        "Hand Management",
+        "Simultaneous Action Selection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:29:12.860Z",
+  "lastModified": "2025-06-21T15:29:37.541Z",
   "version": "1.0"
 }
