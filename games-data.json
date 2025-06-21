@@ -14506,9 +14506,61 @@
         "Stacking and Balancing"
       ],
       "customFields": {}
+    },
+    "1750508188344": {
+      "bggId": "1750508188344",
+      "bggUrl": "https://boardgamegeek.com/boardgame/297204/traintopia",
+      "name": "Traintopia",
+      "year": 2020,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2.2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Przemek Wojtkowiak"
+      ],
+      "artists": [
+        "Jakub Fajtanowski",
+        "Zbigniew Umgelter"
+      ],
+      "publishers": [
+        "Board&Dice"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/-7fTO3EiGxUVLRN1JGNTaA__original/img/CI4shR3w8pVcyvl9kNB2DkBP330=/0x0/filters:format(jpeg)/pic5139857.jpg",
+        "https://cf.geekdo-images.com/-7fTO3EiGxUVLRN1JGNTaA__thumb/img/_7Mz6KWNxpBOq0E-CgQSonSZdWg=/fit-in/200x150/filters:strip_icc()/pic5139857.jpg"
+      ],
+      "notes": "",
+      "description": "It is a truly wonderful day indeed as today we start our great competition! At the dawn of the nation of Traintopia &mdash; a country of clean, efficient, and fast transportation &mdash; we are looking for a new president, and we know exactly who we want for the job!&#10;&#10;In Traintopia, you must create a futuristic train paradise with networks and routes for goods, commuters, and tourists. Exactly how do you do that? It's simple! On your turn:&#10;&#10;&#10;     Draft a tile, commuter, tourist, mailbag, or a train from the current offer.&#10;     Expand your network by adding the newly drafted component to it.&#10;&#10;&#10;Tiles expand your routes. Commuters and tourists score victory points when placed. Mailbags and trains provide end-game bonuses. In more detail, the game tiles feature train tracks passing through different types of districts sought after by different types of commuters. Additionally, along the route you will find various landmarks that draw tourists. You must strike the right balance to maximize your scoring potential.&#10;&#10;After eight or nine rounds (depending on the number of players), the game ends, then players score completed routes and gain bonus victory points from individual goal cards.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Trains"
+      ],
+      "mechanisms": [
+        "End Game Bonuses",
+        "Open Drafting",
+        "Tile Placement",
+        "Turn Order: Progressive",
+        "Variable Set-up"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T12:00:25.713Z",
+  "lastModified": "2025-06-21T12:16:28.346Z",
   "version": "1.0"
 }
