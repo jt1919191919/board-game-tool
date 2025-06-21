@@ -14919,9 +14919,55 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1750519752859": {
+      "bggId": "1750519752859",
+      "bggUrl": "https://boardgamegeek.com/boardgame/378271/the-uzzle",
+      "name": "The Uzzle",
+      "year": 2021,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.7,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "Uzzle Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/xr_pGh2-Dw1KxuzwTzY8sw__original/img/5fo6EN9oF3Q20SYGNyeEgnUbYvQ=/0x0/filters:format(jpeg)/pic8848341.jpg",
+        "https://cf.geekdo-images.com/xr_pGh2-Dw1KxuzwTzY8sw__thumb/img/xGleWJ-bL7A7ikRorr0fs6OSLr0=/fit-in/200x150/filters:strip_icc()/pic8848341.jpg"
+      ],
+      "notes": "",
+      "description": "What is the Uzzle?&#10;It is the most fun, competitive, and challenging game you will ever play.&#10;&#10;We combined the challenge of puzzles with the competitiveness of board games, and were able to develop the Uzzle.&#10;&#10;Shuffle the playing cards and leave them stacked in the center of the table. Then distribute 5 blocks to each player. Flip over the top card and race to see who can solve the Uzzle first by matching the blocks to the pattern on the card. Once you finish, shout &quot;Uzzle!&quot; and grab the card. After taking the card, let the other players examine whether you have correctly arranged your blocks. If you have correctly solved the Uzzle, you get to keep the card and now have 1 win. Players vote on how many wins to play to.&#10;&#10;The Uzzle was designed with 4 difficulty levels, so anyone ages 4+ can play! Order more sets of blocks to include more players.&#10;&#10;",
+      "category": [
+        "Puzzle"
+      ],
+      "mechanisms": [
+        "Matching",
+        "Pattern Recognition",
+        "Solo / Solitaire Game",
+        "Speed Matching"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:23:52.864Z",
+  "lastModified": "2025-06-21T15:29:12.860Z",
   "version": "1.0"
 }
