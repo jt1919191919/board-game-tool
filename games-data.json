@@ -16440,9 +16440,54 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1750520441224": {
+      "bggId": "1750520441224",
+      "bggUrl": "https://boardgamegeek.com/boardgame/300329/harry-potter-strike-dice-game",
+      "name": "Harry Potter Strike Dice Game",
+      "year": 2020,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        4,
+        5,
+        5
+      ],
+      "designers": [
+        "Dieter Nüßle"
+      ],
+      "artists": [],
+      "publishers": [
+        "Ravensburger"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/rIaFkvXqJgxbxMz2Z0ahIw__original/img/mAszKjJf_GkiWr055d6NXQRkFqs=/0x0/filters:format(jpeg)/pic5643037.jpg",
+        "https://cf.geekdo-images.com/rIaFkvXqJgxbxMz2Z0ahIw__thumb/img/S0469fW1GyBhIVQt32PUTzPbLDI=/fit-in/200x150/filters:strip_icc()/pic5643037.jpg"
+      ],
+      "notes": "",
+      "description": "Harry Potter Strike Dice Game combines elements of Strike and Impact, with players rolling dice into an arena to attempt to cast spells and win dice back from the arena.&#10;&#10;In more detail, each player starts with the same number of six-sided dice, and one die starts in the arena. On a turn, the active player rolls a die into the arena. If no die faces in the arena match, the player can end their turn or roll again; if the player rolls an X (or hits any dice that then show an X face as a result), those dice are removed from play; if two or more dice have matching non-X faces, then the player casts the spell matching the die face, then recovers those matching dice from the arena (unless the spell says to do something different).&#10;&#10;If you run out of dice, then you're out of the game. The last player with dice wins!&#10;&#10;",
+      "category": [
+        "Dice"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Player Elimination"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:38:21.830Z",
+  "lastModified": "2025-06-21T15:40:41.225Z",
   "version": "1.0"
 }
