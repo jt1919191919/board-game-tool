@@ -15548,9 +15548,58 @@
         "Paper-and-Pencil"
       ],
       "customFields": {}
+    },
+    "1750519947174": {
+      "bggId": "1750519947174",
+      "bggUrl": "https://boardgamegeek.com/boardgame/247191/ya-blew-it",
+      "name": "Ya Blew It!",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.6,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "Prospero Hall",
+        "Brian Kirk"
+      ],
+      "artists": [],
+      "publishers": [
+        "Wonder Forge"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/s3YZNAIxYJd37YBnXnzDFA__original/img/E2kZeGJu6z5ifs1nMg2Rqc5RMYU=/0x0/filters:format(png)/pic4192150.png",
+        "https://cf.geekdo-images.com/s3YZNAIxYJd37YBnXnzDFA__thumb/img/Kzf9O2_SSUMKvmbKrKfAcRfidkM=/fit-in/200x150/filters:strip_icc()/pic4192150.png"
+      ],
+      "notes": "",
+      "description": "Warning: shouts of &ldquo;Fire in the Hole!&rdquo; might erupt as you engage in this risk-taking social game. Players dig deep in the card deck to mine for diamonds and stake their claim. However, other prospectors may try to steal from you and give you the shaft!  You can play it safe, or push your luck looking for a bigger claim, either way it&rsquo;s explosive, and you&rsquo;ll enjoy the fun with every suspenseful roll of the unique 8-sided dynamite dice!&#10;&#10;Information provided by publisher&#10;&#10;",
+      "category": [
+        "Dice"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Push Your Luck",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:32:10.852Z",
+  "lastModified": "2025-06-21T15:32:27.175Z",
   "version": "1.0"
 }
