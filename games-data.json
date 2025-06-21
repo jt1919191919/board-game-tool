@@ -16227,9 +16227,90 @@
         "Take That"
       ],
       "customFields": {}
+    },
+    "1750520191620": {
+      "bggId": "1750520191620",
+      "bggUrl": "https://boardgamegeek.com/boardgame/54/tikal",
+      "name": "Tikal",
+      "year": 1999,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 90,
+        "max": 90
+      },
+      "weight": 2.8,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Michael Kiesling",
+        "Wolfgang Kramer"
+      ],
+      "artists": [
+        "Mariusz Gandzel",
+        "Paul Mafayon",
+        "Christophe Swal",
+        "Franz Vohwinkel"
+      ],
+      "publishers": [
+        "Ravensburger",
+        "Super Meeple",
+        "ABACUSSPIELE",
+        "CMON Global Limited",
+        "Conclave Editora",
+        "DV Games",
+        "Egmont Polska",
+        "Gém Klub Kft.",
+        "Hobby Game Mall",
+        "Keep Exploring Games",
+        "Maldito Games",
+        "Rio Grande Games",
+        "Siam Board Games",
+        "YOKA Games",
+        "Zvezda"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/ajU3xzGDUKihjNdvjCR1Hw__original/img/6dCgK1EESbk9GNuCiwQ4XiqIW3Y=/0x0/filters:format(jpeg)/pic3328391.jpg",
+        "https://cf.geekdo-images.com/ajU3xzGDUKihjNdvjCR1Hw__thumb/img/pXR57sUMEJ-GJydf-yyAu0ZLgZw=/fit-in/200x150/filters:strip_icc()/pic3328391.jpg"
+      ],
+      "notes": "",
+      "description": "Tikal is a game of exploration within the Central American jungles in search of lost temples and the treasures within. Players send their team of explorers into the jungle, exposing more and more of the terrain.  Along the way, you find temples that require further uncovering and treasures.  Players attempt to score points for occupying temples and holding onto treasure.&#10;&#10;Tikal is the first game of the Mask Trilogy.&#10;&#10;Sequel:&#10;&#10;     Tikal II: The Lost Temple&#10;&#10;&#10;",
+      "category": [
+        "Adventure",
+        "Ancient",
+        "Exploration",
+        "Territory Building"
+      ],
+      "mechanisms": [
+        "Action Points",
+        "Area Majority / Influence",
+        "Auction / Bidding",
+        "Events",
+        "Grid Movement",
+        "Hexagon Grid",
+        "Kill Steal",
+        "Layering",
+        "Map Addition",
+        "Modular Board",
+        "Set Collection",
+        "Tile Placement",
+        "Victory Points as a Resource"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:33:20.571Z",
+  "lastModified": "2025-06-21T15:36:31.622Z",
   "version": "1.0"
 }
