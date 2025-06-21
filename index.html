@@ -3746,13 +3746,16 @@ clearFilters() {
    }
 
 applyFilters() {
-    // Show loading for operations that might take time
-    if (this.games.size > 20) {
+    // Always show loading for filter operations on mobile
+    const isMobile = window.innerWidth <= 768;
+    if (isMobile || this.games.size > 50) {
         this.showLoading('Filtering games...');
     }
     
-    try {
-        this.updateFilters();
+    // Use setTimeout to ensure loading shows before heavy work
+    setTimeout(() => {
+        try {
+            this.updateFilters();
         
         let filtered = Array.from(this.games.values());
 
@@ -4138,11 +4141,13 @@ const sortField = document.getElementById('sort-field').value;
 
 this.filteredGames = filtered;
 this.render();
-} finally {
-        if (this.games.size > 20) {
-            this.hideLoading();
+        } finally {
+            // Always hide loading if we showed it
+            if (isMobile || this.games.size > 50) {
+                this.hideLoading();
+            }
         }
-    }
+    }, 10); // Small delay to ensure loading shows
    }
 
    async fetchBGGData() {
@@ -4318,6 +4323,7 @@ document.getElementById('add-game-form').querySelectorAll('input, textarea').for
        document.getElementById('error-message').style.display = 'none';
    }
 
+
 render() {
        const container = document.getElementById('game-grid');
        const emptyState = document.getElementById('empty-state');
@@ -4338,15 +4344,32 @@ render() {
            resultsText.textContent = `Showing ${this.filteredGames.length} of ${this.games.size} games`;
        }
 
-       // Use DocumentFragment for better performance
-       const fragment = document.createDocumentFragment();
-       const tempDiv = document.createElement('div');
+       const isMobile = window.innerWidth <= 768;
        
-// Batch render in chunks for better responsiveness
-       const chunkSize = window.innerWidth <= 768 ? 10 : 30;
-       const renderChunk = (startIndex) => {
-           const endIndex = Math.min(startIndex + chunkSize, this.filteredGames.length);
-           const html = this.filteredGames.slice(startIndex, endIndex).map(game => {
+       // CHUNKED RENDERING FOR MOBILE - REVERT SECTION START
+       if (isMobile && this.filteredGames.length > 20) {
+           this.renderChunked();
+       } else {
+           // ORIGINAL RENDERING FOR DESKTOP OR SMALL COLLECTIONS
+           this.renderAll();
+       }
+       // CHUNKED RENDERING FOR MOBILE - REVERT SECTION END
+   }
+
+   // CHUNKED RENDERING FOR MOBILE - REVERT METHOD START
+   renderChunked() {
+       const container = document.getElementById('game-grid');
+       container.innerHTML = '';
+       
+       const chunkSize = 15;
+       let currentIndex = 0;
+       
+       const renderNextChunk = () => {
+           const endIndex = Math.min(currentIndex + chunkSize, this.filteredGames.length);
+           const fragment = document.createDocumentFragment();
+           const tempDiv = document.createElement('div');
+           
+           const html = this.filteredGames.slice(currentIndex, endIndex).map(game => {
                return this.isEditMode ? this.renderEditGameCard(game) : this.renderGameCard(game);
            }).join('');
            
@@ -4355,19 +4378,44 @@ render() {
                fragment.appendChild(tempDiv.firstChild);
            }
            
-           if (endIndex < this.filteredGames.length) {
-               // Use requestAnimationFrame for smoother rendering
-               requestAnimationFrame(() => renderChunk(endIndex));
+           container.appendChild(fragment);
+           currentIndex = endIndex;
+           
+           if (currentIndex < this.filteredGames.length) {
+               // Continue rendering next chunk
+               requestAnimationFrame(() => {
+                   setTimeout(renderNextChunk, 10);
+               });
            } else {
-               // All chunks rendered, update DOM once
-               container.innerHTML = '';
-               container.appendChild(fragment);
+               // All chunks rendered
                this.initializeSwipersAfterRender();
            }
        };
        
-       renderChunk(0);
+       renderNextChunk();
+   }
+   // CHUNKED RENDERING FOR MOBILE - REVERT METHOD END
+
+   // ORIGINAL RENDERING METHOD
+   renderAll() {
+       const container = document.getElementById('game-grid');
        
+       // Use DocumentFragment for better performance
+       const fragment = document.createDocumentFragment();
+       const tempDiv = document.createElement('div');
+       
+       const html = this.filteredGames.map(game => {
+           return this.isEditMode ? this.renderEditGameCard(game) : this.renderGameCard(game);
+       }).join('');
+       
+       tempDiv.innerHTML = html;
+       while (tempDiv.firstChild) {
+           fragment.appendChild(tempDiv.firstChild);
+       }
+       
+       container.innerHTML = '';
+       container.appendChild(fragment);
+       this.initializeSwipersAfterRender();
    }
 
 
@@ -4416,7 +4464,7 @@ initializeSwipersAfterRender() {
                <div class="swiper-wrapper">
 ${game.images.map((img, index) => `
 <div class="swiper-slide">
-                           <img src="${img}" alt="${game.name}" loading="lazy" decoding="async" style="opacity: 0; transition: opacity 0.3s ease;" onload="this.style.opacity = 1;" onerror="this.style.display = 'none';">
+                           <img src="${img}" alt="${game.name}" ${window.innerWidth <= 768 ? 'loading="lazy"' : ''} decoding="async" style="opacity: 0; transition: opacity 0.3s ease;" onload="this.style.opacity = 1;" onerror="this.style.display = 'none';">
                        </div>
                    `).join('')}
                </div>
