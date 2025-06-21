@@ -14864,9 +14864,64 @@
         "Voting"
       ],
       "customFields": {}
+    },
+    "1750519432863": {
+      "bggId": "1750519432863",
+      "bggUrl": "https://boardgamegeek.com/boardgame/217085/unearth",
+      "name": "Unearth",
+      "year": 2017,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.9,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Jason Harner",
+        "Matthew Ransom"
+      ],
+      "artists": [
+        "David Pietrandrea",
+        "Jesse Riggle"
+      ],
+      "publishers": [
+        "Brotherwise Games",
+        "Edge Entertainment",
+        "GaGa Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/0olGvNCDk-VmFW2LDOnI_Q__original/img/sugvsPhhLdQrUxD5SH970FN-Fuc=/0x0/filters:format(jpeg)/pic3579391.jpg",
+        "https://cf.geekdo-images.com/0olGvNCDk-VmFW2LDOnI_Q__thumb/img/3J2ogaftEzBzwUO3kyJ7DXH-3HE=/fit-in/200x150/filters:strip_icc()/pic3579391.jpg"
+      ],
+      "notes": "",
+      "description": "Long ago, your ancestors built great cities across the world. Now your tribe must explore forests, deserts, islands, mountains, and caverns to find these lost cities. Claim the ruins, build places of power, and restore the glory of a bygone age.&#10;&#10;Unearth is a bend-your-luck game of dice placement and set collection. Designed by Jason Harner and Matthew Ransom, it plays in under an hour with 2-4 players. Each player leads a tribe of Delvers, represented by five dice (3 six-sided, 1 four-sided, and 1 eight-sided). Players take turns rolling and placing dice in an attempt to claim Ruins.&#10;&#10;The game's elegant core mechanic is accessible to players of all skill levels. High rolls help players claim Ruins, while low rolls help players collect Stones. This opens two paths to victory: claiming sets of Ruins or using Stones to build Wonders. Delver cards help you affect your dice rolls or dice in play, and Wonders can grant abilities that impact the late game.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Dice",
+        "Exploration"
+      ],
+      "mechanisms": [
+        "Dice Rolling",
+        "Kill Steal",
+        "Set Collection",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:23:30.736Z",
+  "lastModified": "2025-06-21T15:23:52.864Z",
   "version": "1.0"
 }
