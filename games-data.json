@@ -14256,9 +14256,82 @@
         "Team-Based Game"
       ],
       "customFields": {}
+    },
+    "1750480765666": {
+      "bggId": "1750480765666",
+      "bggUrl": "https://boardgamegeek.com/boardgame/85256/timeline-inventions",
+      "name": "Timeline: Inventions",
+      "year": 2010,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        8
+      ],
+      "designers": [
+        "Frédéric Henry"
+      ],
+      "artists": [
+        "Xavier Collette",
+        "Jérémie Fleury",
+        "Nicolas Fructus",
+        "Gaël Lannurien",
+        "Mikmak Studio"
+      ],
+      "publishers": [
+        "asmodee",
+        "Hazgaard Editions",
+        "ADC Blackfire Entertainment",
+        "Asterion Press",
+        "Esdevium",
+        "Galápagos Jogos",
+        "Gém Klub Kft.",
+        "GoKids 玩樂小子",
+        "Hobby Japan",
+        "Kaissa Chess & Games",
+        "Korea Boardgames",
+        "Lifestyle Boardgames Ltd",
+        "More Fun Co.",
+        "Ltd.",
+        "Rebel Sp. z o.o.",
+        "REXhry",
+        "Zygomatic"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/lm4VudewCcllbE9GzBOhww__original/img/2QYxy8WPFa0_jdZToXSZ4qLz3B8=/0x0/filters:format(jpeg)/pic7108036.jpg",
+        "https://cf.geekdo-images.com/lm4VudewCcllbE9GzBOhww__thumb/img/uRICnAkYAEFegymSkJHYQAZCN34=/fit-in/200x150/filters:strip_icc()/pic7108036.jpg"
+      ],
+      "notes": "",
+      "description": "Timeline: Inventions is a card game played using 55 cards. Each card depicts an invention on both sides, with the year in which that invention was created on only one side. Players take turns placing a card from their hand in a row on the table. After placing the card, the player reveals the date on it. If the card was placed correctly with the date in chronological order with all other cards on the table, the card stays in place; otherwise the card is removed from play and the player takes another card from the deck.&#10;&#10;The first player to get rid of all their cards by placing them correctly wins. If multiple players go out in the same round, then everyone else is eliminated from play and each of those players are dealt one more card for another round of play. If only one player has no cards after a bonus round, he wins; otherwise play continues until a single player goes out.&#10;&#10;Timeline: Inventions can be combined with any other title in the Timeline series.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Educational",
+        "Trivia"
+      ],
+      "mechanisms": [
+        "Ordering"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T03:01:45.063Z",
+  "lastModified": "2025-06-21T04:39:25.668Z",
   "version": "1.0"
 }
