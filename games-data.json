@@ -14196,9 +14196,69 @@
         "Paper-and-Pencil"
       ],
       "customFields": {}
+    },
+    "1750474905061": {
+      "bggId": "1750474905061",
+      "bggUrl": "https://boardgamegeek.com/boardgame/36553/times-title-recall",
+      "name": "Time's Up! Title Recall!",
+      "year": 2008,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 4,
+        "max": 18
+      },
+      "playtime": {
+        "min": 60,
+        "max": 60
+      },
+      "weight": 1.2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        16,
+        18,
+        18
+      ],
+      "designers": [
+        "Michael Adams",
+        "Peter Sarrett"
+      ],
+      "artists": [],
+      "publishers": [
+        "R&R Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/XVqx-bp37COAHcyYUB7KNQ__original/img/dbdo3WivCtIItVGNj8FvJv3LnkQ=/0x0/filters:format(jpeg)/pic3690447.jpg",
+        "https://cf.geekdo-images.com/XVqx-bp37COAHcyYUB7KNQ__thumb/img/8i8qQZPAwkAm7yyaLbdn8I6mjmM=/fit-in/200x150/filters:strip_icc()/pic3690447.jpg"
+      ],
+      "notes": "",
+      "description": "Based on the popular game Time's Up!, Time's Up: Title Recall challenges players to guess the titles of books, films, songs, and more. Players try to get their teammates to guess the same set of titles over three rounds. In each round, one member of a team tries to get their teammates to guess as many titles as possible in 30 seconds. In round 1, almost any kind of clue is allowed. In round 2, no more than one word can be used in each clue (but unlimited sounds and gestures are permitted.) In round 3, no words are allowed at all.&#10;&#10;",
+      "category": [
+        "Humor",
+        "Movies / TV / Radio theme",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Acting",
+        "Communication Limits",
+        "Memory",
+        "Team-Based Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-20T21:38:53.953Z",
+  "lastModified": "2025-06-21T03:01:45.063Z",
   "version": "1.0"
 }
