@@ -15485,9 +15485,72 @@
         "Turn Order: Progressive"
       ],
       "customFields": {}
+    },
+    "1750519930851": {
+      "bggId": "1750519930851",
+      "bggUrl": "https://boardgamegeek.com/boardgame/66588/wits-wagers-family",
+      "name": "Wits & Wagers Family",
+      "year": 2010,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 3,
+        "max": 10
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        10
+      ],
+      "designers": [
+        "Dominic Crapuchettes"
+      ],
+      "artists": [
+        "Ali Douglass",
+        "Shawn Wilson (I)"
+      ],
+      "publishers": [
+        "Mattel",
+        "Inc.",
+        "NorthStar Game Studio",
+        "Egmont Polska",
+        "Jumbo",
+        "Mandoo Games",
+        "Popcorn Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/ScQODaP8QC5mXrRn8qTHOg__original/img/7MXWKE61NrrCY3WF6hixhTNIqVc=/0x0/filters:format(jpeg)/pic664569.jpg",
+        "https://cf.geekdo-images.com/ScQODaP8QC5mXrRn8qTHOg__thumb/img/_l_W7kLA12ioz0QcaxceZnNHJ1A=/fit-in/200x150/filters:strip_icc()/pic664569.jpg"
+      ],
+      "notes": "",
+      "description": "Wits &amp; Wagers Family is the family version of the most award winning party game in history.&#10;This edition is more simple, has less down time, and is more portable than the original Wits & Wagers.  It also removes the &quot;gambling&quot; element and has questions that are appropriate for kids and the whole family.  Most importantly, Wits &amp; Wagers Family makes use of the beloved Meeple playing piece!&#10;&#10;How to Play&#10;1) A question is asked.&#10;2) Everyone writes down a guess.&#10;3) The guesses are placed face-up on the table and ordered smallest to largest.&#10;4) Place your Meeples on the guess that you think is closest to the right answer.&#10;&#10;Feeling confident?  Place a Meeple on your guess.&#10;Think your kids knows better?  Place your Meeples on their guess.&#10;Have no idea?  Bet on any guess and hope you get lucky!&#10;&#10;Scoring&#10;You can score up to 4 points on each question:&#10; 1 point for correctly placing the Small Meeple&#10; 2 points for correctly placing the Large Meeple&#10; 1 point if your guess is closest&#10;&#10;The first player to 15 points wins.&#10;&#10;Contents&#10;125 Question Cards (150 in first edition)&#10;5 Dry Erase Boards&#10;5 Dry Erase Pens&#10;1 Permanent Answer Board (with a &quot;1&quot;)&#10;5 Large Meeples (worth 2 points)&#10;5 Small Meeples (worth 1 point)&#10;1 Dry Erase Score Board&#10;1 Full-color Rules&#10;&#10;",
+      "category": [
+        "Children's Game",
+        "Educational",
+        "Party Game",
+        "Trivia"
+      ],
+      "mechanisms": [
+        "Betting and Bluffing",
+        "Paper-and-Pencil"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:31:53.713Z",
+  "lastModified": "2025-06-21T15:32:10.852Z",
   "version": "1.0"
 }
