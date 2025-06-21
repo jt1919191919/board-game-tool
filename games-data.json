@@ -15234,9 +15234,110 @@
         "Team-Based Game"
       ],
       "customFields": {}
+    },
+    "1750519867779": {
+      "bggId": "1750519867779",
+      "bggUrl": "https://boardgamegeek.com/boardgame/233867/welcome",
+      "name": "Welcome To...",
+      "year": 2018,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 100
+      },
+      "playtime": {
+        "min": 25,
+        "max": 25
+      },
+      "weight": 1.8,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        30
+      ],
+      "designers": [
+        "Benoit Turpin"
+      ],
+      "artists": [
+        "Anne Heidsieck"
+      ],
+      "publishers": [
+        "Blue Cocker Games",
+        "Broadway Toys LTD",
+        "Deep Water Games",
+        "Dude Games",
+        "Engames",
+        "Fever Games",
+        "GateOnGames",
+        "Gém Klub Kft.",
+        "Hid Konem (Хід Конем)",
+        "Jumping Turtle Games",
+        "Kaissa Chess & Games",
+        "Lautapelit.fi",
+        "Lifestyle Boardgames Ltd",
+        "Lord of Boards",
+        "Ludofy Creative",
+        "Pegasus Spiele",
+        "Rebel Sp. z o.o.",
+        "REXhry",
+        "SD Games",
+        "sternenschimmermeer"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/g4XmxyKhNVdhC3QPd1purQ__original/img/pb6XFQZFUNOr6OPysOHB3usVDFk=/0x0/filters:format(jpeg)/pic3761012.jpg",
+        "https://cf.geekdo-images.com/g4XmxyKhNVdhC3QPd1purQ__thumb/img/e3bCyIvM1IOGFYnKGj2jIn5mbKY=/fit-in/200x150/filters:strip_icc()/pic3761012.jpg"
+      ],
+      "notes": "",
+      "description": "As an architect in Welcome To..., you want to build the best new town in the United States of the 1950s by adding resources to a pool, hiring employees, and more.&#10;&#10;Welcome To... plays like a roll-and-write dice game in which you mark results on a score-sheet...but without dice. Instead you flip cards from three piles to make three different action sets with both a house number and a corresponding action from which everyone chooses one. You use the number to fill in a house on your street in numerical order. Then you take the action to increase the point value of estates you build or score points at the end for building parks and pools. Players also have the option of taking actions to alter or duplicate their house numbers. And everyone is racing to be the first to complete public goals. There's lots to do and many paths to becoming the best suburban architect in Welcome To...!&#10;&#10;Because of the communal actions, game play is simultaneous and thus supports large groups of players. With many varying strategies and completely randomized action sets, no two games will feel the same!&#10;&#10;",
+      "category": [
+        "City Building"
+      ],
+      "mechanisms": [
+        "Bingo",
+        "Contracts",
+        "End Game Bonuses",
+        "Multi-Use Cards",
+        "Open Drafting",
+        "Paper-and-Pencil",
+        "Pattern Building",
+        "Simultaneous Action Selection",
+        "Solo / Solitaire Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:30:48.164Z",
+  "lastModified": "2025-06-21T15:31:07.780Z",
   "version": "1.0"
 }
