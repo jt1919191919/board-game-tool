@@ -15108,9 +15108,61 @@
         "Different Worker Types"
       ],
       "customFields": {}
+    },
+    "1750519811491": {
+      "bggId": "1750519811491",
+      "bggUrl": "https://boardgamegeek.com/boardgame/33154/wasabi",
+      "name": "Wasabi!",
+      "year": 2008,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.9,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        2,
+        3,
+        4,
+        4
+      ],
+      "designers": [
+        "Josh Cappel",
+        "Adam Gertzbein"
+      ],
+      "artists": [
+        "Josh Cappel"
+      ],
+      "publishers": [
+        "Pegasus Spiele",
+        "Z-Man Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/nQMrIeXPBdcwD2H0yJKVAA__original/img/IjMRk4px4srOH2jYx7B0Ge15mIc=/0x0/filters:format(jpeg)/pic273575.jpg",
+        "https://cf.geekdo-images.com/nQMrIeXPBdcwD2H0yJKVAA__thumb/img/3bKQplnJ8NdHYy5i0wlHsg1prec=/fit-in/200x150/filters:strip_icc()/pic273575.jpg"
+      ],
+      "notes": "",
+      "description": "Wasabi! is a light and fast game where you compete against other players to assemble your quota of unique sushi recipes in a rapidly dwindling space.  Players draw a variety of delicious ingredients into their hand from the pantry and play them one at a time onto the board, building off of each other's previously-placed ingredients in the attempt to complete recipes of varying difficulty.&#10;&#10;Completing a recipe earns you your choice of special actions from the kitchen to perform later (Chop!, Stack!, Switch!, Spicy!, and the dreaded Wasabi!) that will help you in your efforts or disrupt your opponents' carefully arranged creations-in-progress.&#10;&#10;Completing a recipe with style will earn you bonus points, but you might not always have the time to set up such stylish maneuvers... balancing speed with technique will be crucial if you plan to win the game!&#10;&#10;Victory comes as soon as the board fills up with ingredients.  Points for completed recipes plus bonuses are tabulated, and the winner is the player with the most points.  An extremely skilled player might score an instant victory by completing their quota of recipes before the board fills up.&#10;&#10;",
+      "category": [
+        "Territory Building"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Pattern Building",
+        "Set Collection",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:29:54.121Z",
+  "lastModified": "2025-06-21T15:30:11.491Z",
   "version": "1.0"
 }
