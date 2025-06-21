@@ -15597,9 +15597,66 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1750519965430": {
+      "bggId": "1750519965430",
+      "bggUrl": "https://boardgamegeek.com/boardgame/4154/yu-gi-oh-trading-card-game",
+      "name": "Yu-Gi-Oh! Trading Card Game",
+      "year": 1999,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 2
+      },
+      "playtime": {
+        "min": 20,
+        "max": 20
+      },
+      "weight": 2.8,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [
+        1,
+        2,
+        2
+      ],
+      "designers": [
+        "Big Bocca",
+        "Kazuki Takahashi"
+      ],
+      "artists": [
+        "Kazuki Takahashi"
+      ],
+      "publishers": [
+        "Konami Digital Entertainment B.V.",
+        "Upper Deck Entertainment"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/-XHDK4alOFH__fv_RQegog__original/img/lBXeGch3ZK22v1o6xKQ_syyqiL0=/0x0/filters:format(jpeg)/pic97625.jpg",
+        "https://cf.geekdo-images.com/-XHDK4alOFH__fv_RQegog__thumb/img/ne-ak65mUhPcGe85_Kl-bzK2sv0=/fit-in/200x150/filters:strip_icc()/pic97625.jpg"
+      ],
+      "notes": "",
+      "description": "Yu-Gi-Oh! Trading Card Game is a collectible card game based on the hit TV series' own collectible card game.  It plays differently in the beginning of the show, but nearly identically in the later seasons.&#10;&#10;Players each have 8000 Life Points, and the last player with those points remaining is the winner.  Players summon (play) monsters (cards) to the play area, and must sacrifice (discard) the weaker monsters to summon stronger monsters.  Spell (formerly Magic) and trap cards are played to boost your monsters, weaken your opponent's monsters, and otherwise give yourself an advantage.&#10;&#10;",
+      "category": [
+        "Card Game",
+        "Collectible Components",
+        "Fantasy",
+        "Fighting",
+        "Movies / TV / Radio theme"
+      ],
+      "mechanisms": [
+        "Deck Construction",
+        "Hand Management",
+        "Secret Unit Deployment",
+        "Set Collection",
+        "Take That",
+        "Variable Player Powers"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:32:27.175Z",
+  "lastModified": "2025-06-21T15:32:45.431Z",
   "version": "1.0"
 }
