@@ -14671,9 +14671,61 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1750508280960": {
+      "bggId": "1750508280960",
+      "bggUrl": "https://boardgamegeek.com/boardgame/298060/truffle-shuffle",
+      "name": "Truffle Shuffle",
+      "year": 2020,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.3,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2,
+        3,
+        4
+      ],
+      "designers": [
+        "Molly Johnson",
+        "Robert Melvin",
+        "Shawn Stankewich"
+      ],
+      "artists": [
+        "Dylan Mangini"
+      ],
+      "publishers": [
+        "Alderac Entertainment Group",
+        "Arrakis Games",
+        "Mandoo Games",
+        "Popcorn Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/nTEKC1bZ2GGANIoV204T3Q__original/img/Ajd-NvwUtnHPR8XCb9NAbm3TxtQ=/0x0/filters:format(jpeg)/pic5159393.jpg",
+        "https://cf.geekdo-images.com/nTEKC1bZ2GGANIoV204T3Q__thumb/img/8kZMzfKlRf3HYF3QqFRClSV9qWg=/fit-in/200x150/filters:strip_icc()/pic5159393.jpg"
+      ],
+      "notes": "",
+      "description": "In the quick-playing, card-drafting game Truffle Shuffle, players take turns selecting truffles from a shared box of overlapping cards in order to make their own arrangements of chocolates to sell. Players can complete a variety of sets, using special modifiers and action cards. With so many different chocolate truffles to unwrap and different ways to combine them, every game of Truffle Shuffle is unique!&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Card Game"
+      ],
+      "mechanisms": [
+        "Open Drafting",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T12:17:32.223Z",
+  "lastModified": "2025-06-21T12:18:00.961Z",
   "version": "1.0"
 }
