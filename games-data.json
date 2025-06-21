@@ -15160,9 +15160,83 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1750519848163": {
+      "bggId": "1750519848163",
+      "bggUrl": "https://boardgamegeek.com/boardgame/262543/wavelength",
+      "name": "Wavelength",
+      "year": 2019,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 12
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 1.1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        12
+      ],
+      "designers": [
+        "Alex Hague",
+        "Justin Vickers",
+        "Wolfgang Warsch"
+      ],
+      "artists": [
+        "Sofie Hannibal",
+        "Nan Na Hvass"
+      ],
+      "publishers": [
+        "Palm Court",
+        "Arrakis Games",
+        "CMYK",
+        "GaGa Games",
+        "Galápagos Jogos",
+        "Gém Klub Kft.",
+        "GoKids 玩樂小子",
+        "Hid Konem (Хід Конем)",
+        "Hobby Japan",
+        "Korea Boardgames",
+        "Lord of Boards",
+        "Rebel Sp. z o.o.",
+        "Schmidt Spiele",
+        "Zito! Ώρα για παιχνίδι"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/z4fbPdmJg_5yphJEvql4ZA__original/img/bP1gM8RC-o5iz20_WazBaBNDHnU=/0x0/filters:format(png)/pic4552862.png",
+        "https://cf.geekdo-images.com/z4fbPdmJg_5yphJEvql4ZA__thumb/img/bxLuHVLF-Y06jWRSKA-tuQ3YYcE=/fit-in/200x150/filters:strip_icc()/pic4552862.png"
+      ],
+      "notes": "",
+      "description": "Wavelength is a social guessing game in which two teams compete to read each other's minds. Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team &mdash; the Psychic &mdash; knows exactly where the bullseye is, and draws a card with a pair of binaries on it (such as: Job - Career, Rough - Smooth, Fantasy - Sci-Fi, Sad Song - Happy Song, etc). The Psychic must then provide a clue that is *conceptually* where the bullseye is located between those two binaries.&#10;&#10;For example, if the card this round is HOT-COLD and the bullseye is slightly to the &quot;cold&quot; side of the centre, the Psychic needs to give a clue somewhere in that region. Perhaps &quot;salad&quot;?&#10;&#10;After the Psychic gives their clue, their team discusses where they think the bullseye is located and turns the dial to that location on that spectrum. The closer to the center of the bullseye the team guess, the more points they score!&#10;&#10;",
+      "category": [
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Race",
+        "Targeted Clues",
+        "Team-Based Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:30:11.491Z",
+  "lastModified": "2025-06-21T15:30:48.164Z",
   "version": "1.0"
 }
