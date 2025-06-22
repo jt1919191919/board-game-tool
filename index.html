@@ -4394,20 +4394,42 @@ initializeSwipersAfterRender() {
        if (!this.isEditMode) {
            this.filteredGames.forEach((game, index) => {
                if (game.images && game.images.length > 1) {
-                   const swiperEl = document.getElementById(`swiper-${game.bggId}`);
+const swiperEl = document.getElementById(`swiper-${game.bggId}`);
                    if (swiperEl && !swiperEl.swiper) {
-                       new Swiper(`#swiper-${game.bggId}`, {
-                           navigation: {
-                               nextEl: `#swiper-${game.bggId} .swiper-button-next`,
-                               prevEl: `#swiper-${game.bggId} .swiper-button-prev`,
-                           },
-                           pagination: {
-                               el: `#swiper-${game.bggId} .swiper-pagination`,
-                               clickable: true,
-                           },
-                           loop: game.images.length > 1,
-                           autoHeight: true,
-                       });
+                       if (window.innerWidth <= 768) {
+                           // Lazy initialize swipers on mobile - only when user interacts
+                           swiperEl.addEventListener('touchstart', function initMobileSwiper() {
+                               if (!this.swiper) {
+                                   new Swiper(`#swiper-${game.bggId}`, {
+                                       navigation: {
+                                           nextEl: `#swiper-${game.bggId} .swiper-button-next`,
+                                           prevEl: `#swiper-${game.bggId} .swiper-button-prev`,
+                                       },
+                                       pagination: {
+                                           el: `#swiper-${game.bggId} .swiper-pagination`,
+                                           clickable: true,
+                                       },
+                                       loop: game.images.length > 1,
+                                       autoHeight: true,
+                                   });
+                               }
+                               this.removeEventListener('touchstart', initMobileSwiper);
+                           }, { once: true });
+                       } else {
+                           // Desktop: initialize immediately
+                           new Swiper(`#swiper-${game.bggId}`, {
+                               navigation: {
+                                   nextEl: `#swiper-${game.bggId} .swiper-button-next`,
+                                   prevEl: `#swiper-${game.bggId} .swiper-button-prev`,
+                               },
+                               pagination: {
+                                   el: `#swiper-${game.bggId} .swiper-pagination`,
+                                   clickable: true,
+                               },
+                               loop: game.images.length > 1,
+                               autoHeight: true,
+                           });
+                       }
                    }
                }
            });
