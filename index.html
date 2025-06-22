@@ -4340,10 +4340,11 @@ render() {
        const resultsInfo = document.getElementById('results-info');
        
 
-       if (this.filteredGames.length === 0) {
+if (this.filteredGames.length === 0) {
            container.innerHTML = '';
            emptyState.style.display = 'block';
            resultsInfo.style.display = 'none';
+           this.hideLoading();
            return;
        }
 
@@ -4421,10 +4422,6 @@ initializeSwipersAfterRender() {
                });
            });
        }
-   }
-
-initializeSwipersAfterRender() {
-       // existing code stays the same...
    }
 
    forceImageLoading() {
@@ -4953,7 +4950,7 @@ editGameFromModal(gameId) {
            if (gameCard) {
                gameCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
            }
-       }, 100);
+       }, 500);
    }
 
 
