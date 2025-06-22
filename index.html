@@ -4449,7 +4449,7 @@ initializeSwipersAfterRender() {
                <div class="swiper-wrapper">
 ${game.images.map((img, index) => `
 <div class="swiper-slide">
-                           <img src="${img}" alt="${game.name}" ${window.innerWidth <= 768 ? 'loading="lazy" style="opacity: 0; transition: opacity 0.3s ease;" onload="this.style.opacity = 1;"' : ''} onerror="this.style.display = 'none';">
+<img src="${img}" alt="${game.name}" ${window.innerWidth <= 768 ? 'loading="lazy" style="opacity: 0; transition: opacity 0.3s ease;" onload="this.style.opacity = 1;" decoding="async"' : ''} onerror="this.style.display = 'none';">
                        </div>
                    `).join('')}
                </div>
@@ -4944,13 +4944,14 @@ editGameFromModal(gameId) {
        if (!this.isEditMode) {
            this.toggleEditMode();
        }
-       // Wait for render to complete, then scroll to the game
+// Wait for render to complete, then scroll to the game
+       const scrollDelay = window.innerWidth <= 768 ? 800 : 300;
        setTimeout(() => {
            const gameCard = document.querySelector(`[data-game-id="${gameId}"]`);
            if (gameCard) {
                gameCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
            }
-       }, 500);
+       }, scrollDelay);
    }
 
 
