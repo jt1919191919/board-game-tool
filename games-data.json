@@ -16535,9 +16535,56 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1750642600390": {
+      "bggId": "1750642600390",
+      "bggUrl": "https://boardgamegeek.com/boardgame/407805/caution-signs",
+      "name": "Caution Signs",
+      "year": 2024,
+      "dateAcquired": "2025-06-22",
+      "players": {
+        "min": 3,
+        "max": 9
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        5,
+        6
+      ],
+      "designers": [
+        "Scott Brady",
+        "Danielle Reynolds"
+      ],
+      "artists": [],
+      "publishers": [
+        "Wacky Wizard Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/LifvqQQ93R-vHK6LJTtjCQ__original/img/t0KozbAmuAKfSNlSyEOR6sDaV1g=/0x0/filters:format(jpeg)/pic8197105.jpg",
+        "https://cf.geekdo-images.com/LifvqQQ93R-vHK6LJTtjCQ__thumb/img/TwT73AbZJtOtkVpCsAEDFfooudQ=/fit-in/200x150/filters:strip_icc()/pic8197105.jpg"
+      ],
+      "notes": "Got at Origins 2025",
+      "description": "Each round in Caution Signs, you're presented with a secret combination of adjective and noun: stylish rhino, gassy monkeys, flexible cow, melting babies &mdash; ten thousand combinations are possible. You have twenty seconds to sketch an image of this combo on a caution sign.&#10;&#10;All of these images are then revealed to the round's guesser, along with the individual adjectives and nouns, and the guesser tries to figure out what each sign is warning them about.&#10;&#10;",
+      "category": [
+        "Party Game",
+        "Real-time"
+      ],
+      "mechanisms": [
+        "Drawing",
+        "Player Judge",
+        "Real-Time"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-23T01:35:56.879Z",
+  "lastModified": "2025-06-23T01:36:40.391Z",
   "version": "1.0"
 }
