@@ -16485,9 +16485,59 @@
         "Player Elimination"
       ],
       "customFields": {}
+    },
+    "1750642556877": {
+      "bggId": "1750642556877",
+      "bggUrl": "https://boardgamegeek.com/boardgame/428636/oddland",
+      "name": "Oddland",
+      "year": 2025,
+      "dateAcquired": "2025-06-22",
+      "players": {
+        "min": 1,
+        "max": 5
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [
+        3
+      ],
+      "designers": [
+        "Dan Schumacher"
+      ],
+      "artists": [
+        "Cam Kendell"
+      ],
+      "publishers": [
+        "Allplay"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/ExANT6uZ3Hxuh2-3c9RWvA__original/img/ffrRVqqFL3G7t6RdSvAt7BdsfAg=/0x0/filters:format(jpeg)/pic8430844.jpg",
+        "https://cf.geekdo-images.com/ExANT6uZ3Hxuh2-3c9RWvA__thumb/img/DDJZl_8ZRsfCnEHN8Ng30FkdEMw=/fit-in/200x150/filters:strip_icc()/pic8430844.jpg"
+      ],
+      "notes": "Got at Origins 2025 after demoing it and winning with biz mandy sarah cody. Need to add a sand timer to box for me lol",
+      "description": "Eureka! The fascinating flora and fauna on this strange island are unlike any you&rsquo;ve ever seen! How&hellip; odd!&#10;&#10;As an intrepid investigator of all things idiosyncratic, your job is to explore the island and document these fantastic creatures. On your turn, explore by placing a terrain card somewhere on the island (with the ability to cover up previous terrain!).&#10;&#10;Then, place one of your seven flora or fauna tokens on the card you&rsquo;ve just played. These tokens score based on their surroundings&ndash;for example, the pigehorse scores better adjacent to a longer coastline.&#10;&#10;&mdash;description from the publisher&#10;&#10;",
+      "category": [
+        "Animals",
+        "Environmental",
+        "Exploration"
+      ],
+      "mechanisms": [
+        "Connections",
+        "Layering",
+        "Pattern Building",
+        "Solo / Solitaire Game",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-21T15:40:41.225Z",
+  "lastModified": "2025-06-23T01:35:56.879Z",
   "version": "1.0"
 }
