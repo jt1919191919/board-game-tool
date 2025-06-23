@@ -3636,7 +3636,7 @@
         "Crisloid",
         "Decipher",
         "Double Diamond",
-        "E. S. Lowe Company Inc.",
+        "E. S. Lowe Company",
         "EnumeroCribbageBoards",
         "Fame Products",
         "Field Mfg. Co.",
@@ -3652,7 +3652,6 @@
         "JK Games",
         "John Jaques of London",
         "John N. Hansen Co.",
-        "Inc.",
         "John Player & Sons",
         "John Waddington Ltd.",
         "Lash's Bitters",
@@ -3675,7 +3674,6 @@
         "Waddingtons",
         "Whitman",
         "Wm F. Drueke & Sons",
-        "Inc.",
         "Wood Expressions",
         "Woodstock Spiele",
         "WorldWise Imports"
@@ -16512,6 +16510,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-23T23:08:49.014Z",
+  "lastModified": "2025-06-23T23:12:57.300Z",
   "version": "1.0"
 }
