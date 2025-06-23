@@ -11358,7 +11358,6 @@
         "Goliath Games",
         "Grow Jogos e Brinquedos",
         "H. I. T. INDUSTRIES",
-        "LTD.",
         "Hansa Toy Co.",
         "Hasbro",
         "HEMA",
@@ -11372,7 +11371,6 @@
         "Kaissa Chess & Games",
         "Kärnan",
         "Kawada",
-        "Co. Ltd",
         "Kingstone International",
         "Kirjalito",
         "Kod Kod",
@@ -12364,8 +12362,7 @@
         "Lord of Boards",
         "Rawstone",
         "Ystari Games",
-        "二見書房 ( Futami Shobo Publishing Co.",
-        "Ltd. )"
+        "二見書房 ( Futami Shobo Publishing Co."
       ],
       "designerNationality": [],
       "publisherCountry": [],
@@ -16510,6 +16507,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-23T23:12:57.300Z",
+  "lastModified": "2025-06-23T23:17:50.628Z",
   "version": "1.0"
 }
