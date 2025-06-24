@@ -2077,7 +2077,7 @@ loadFromLocalStorage() {
             const data = JSON.parse(stored);
             if (data.games) {
                 Object.entries(data.games).forEach(([id, game]) => {
-                    this.games.set(id, game);
+                    this.games.set(id, this.migrateGameData(game));
                 });
                 
                 if (data.preferences) {
@@ -2085,8 +2085,7 @@ loadFromLocalStorage() {
                         this.gamePreferences.set(id, pref);
                     });
                 }
-
-} else {
+            } else {
                 // Legacy format - data is directly the games object
                 Object.entries(data).forEach(([id, game]) => {
                     this.games.set(id, this.migrateGameData(game));
