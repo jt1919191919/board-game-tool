@@ -10775,8 +10775,7 @@
         "Dice Rolling",
         "Hand Management",
         "Worker Placement",
-        "Worker Placement",
-        "Different Worker Types"
+        "Worker Placement, Different Worker Types"
       ],
       "customFields": {}
     },
@@ -14986,7 +14985,7 @@
         "https://cf.geekdo-images.com/l_PRU2lVlX9seScRFcvFlA__thumb/img/pULDtVd75QZgGfvSMhr6Rs07vK8=/fit-in/200x150/filters:strip_icc()/pic6500949.jpg"
       ],
       "notes": "",
-      "description": "In Viticulture, the players find themselves in the roles of people in rustic, pre-modern Tuscany who have inherited meagre vineyards. They have a few plots of land, an old crush pad, a tiny cellar, and three workers. They each have a dream of being the first to call their winery a true success.&#10;&#10;The players are in the position of determining how they want to allocate their workers throughout the year. Every season is different on a vineyard, so the workers have different tasks they can take care of in the summer and winter. There's competition over those tasks, and often the first worker to get to the job has an advantage over subsequent workers.&#10;&#10;Fortunately for the vineyard owners, people love to visit wineries, and it just so happens that many of those visitors are willing to help out around the vineyard when they visit as long as you assign a worker to take care of them. Their visits (in the form of cards) are brief but can be very helpful. Using those workers and visitors, the vineyard owners can expand their vineyards by building structures, planting vines, and filling wine orders, working towards the goal of running the most successful winery in Tuscany.&#10;&#10;Viticulture Essential Edition includes the base game of Viticulture and a few of the most popular modules from the original Tuscany expansion, including Mamas &amp; Papas, Fields (previously known as Properties), expanded and revised Visitors, and Automa cards for a solo variant, along with a few minor rule changes.&#10;&#10;",
+      "description": "In Viticulture, the players find themselves in the roles of people in rustic, pre-modern Tuscany who have inherited meagre vineyards. They have a few plots of land, an old crush pad, a tiny cellar, and three workers. They each have a dream of being the first to call their winery a true success.\n\nThe players are in the position of determining how they want to allocate their workers throughout the year. Every season is different on a vineyard, so the workers have different tasks they can take care of in the summer and winter. There's competition over those tasks, and often the first worker to get to the job has an advantage over subsequent workers.\n\nFortunately for the vineyard owners, people love to visit wineries, and it just so happens that many of those visitors are willing to help out around the vineyard when they visit as long as you assign a worker to take care of them. Their visits (in the form of cards) are brief but can be very helpful. Using those workers and visitors, the vineyard owners can expand their vineyards by building structures, planting vines, and filling wine orders, working towards the goal of running the most successful winery in Tuscany.\n\nViticulture Essential Edition includes the base game of Viticulture and a few of the most popular modules from the original Tuscany expansion, including Mamas & Papas, Fields (previously known as Properties), expanded and revised Visitors, and Automa cards for a solo variant, along with a few minor rule changes.\n\n",
       "category": [
         "Economic",
         "Farming"
@@ -14999,8 +14998,7 @@
         "Turn Order: Auction",
         "Victory Points as a Resource",
         "Worker Placement",
-        "Worker Placement",
-        "Different Worker Types"
+        "Worker Placement, Different Worker Types"
       ],
       "customFields": {}
     },
@@ -16479,6 +16477,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-24T01:55:46.900Z",
+  "lastModified": "2025-06-24T01:58:40.149Z",
   "version": "1.0"
 }
