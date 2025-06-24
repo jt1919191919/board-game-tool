@@ -2449,8 +2449,7 @@
       "mechanisms": [
         "End Game Bonuses",
         "Hidden Victory Points",
-        "I Cut",
-        "You Choose",
+        "I Cut, You Choose",
         "Increase Value of Unchosen Resources",
         "Pattern Building",
         "Set Collection",
@@ -6313,8 +6312,7 @@
       ],
       "mechanisms": [
         "Closed Drafting",
-        "I Cut",
-        "You Choose",
+        "I Cut, You Choose",
         "Neighbor Scope",
         "Score-and-Reset Game",
         "Simultaneous Action Selection",
@@ -6451,8 +6449,7 @@
         "Area Majority / Influence",
         "Force Commitment",
         "Hand Management",
-        "I Cut",
-        "You Choose",
+        "I Cut, You Choose",
         "Open Drafting",
         "Race"
       ],
@@ -14698,14 +14695,13 @@
         "https://cf.geekdo-images.com/bOTxzLrmwptfbAre3JnS3w__thumb/img/IrDl-OdPhX04kz6oNGcl-FzRivw=/fit-in/200x150/filters:strip_icc()/pic5456717.png"
       ],
       "notes": "",
-      "description": "Tussie mussies exemplified the Victorian custom of assigning meaning to the flowers that friends and lovers exchanged. Inspired by the ideals of elegance and discretion, these bouquets were carefully made to convey subtle messages to their recipients. Now you can choose the right flowers to make a winning tussie mussie of your own!&#10;&#10;Tussie-Mussie is based on a Victorian fad that assigned meanings to the flowers that friends and lovers exchanged.&#10;&#10;Featuring I-Divide-You-Choose drafting, this microgame of 18 cards is played over three rounds. In turn, players look at the top two cards of the deck, then offer them, one face-up and one facedown, to an opponent.  That opponent takes one, leaving the other for the active player.&#10;&#10;A round ends when each player has four cards, at which point the scores are tallied. The highest score after three rounds wins!&#10;&#10;&mdash;description from the designer&#10;&#10;&#10;Co-winner of the GenCan't Design Contest.&#10;Released in the September 2019 Board Game of the Month Club $20+ package.&#10;&#10;",
+      "description": "Tussie mussies exemplified the Victorian custom of assigning meaning to the flowers that friends and lovers exchanged. Inspired by the ideals of elegance and discretion, these bouquets were carefully made to convey subtle messages to their recipients. Now you can choose the right flowers to make a winning tussie mussie of your own!\n\nTussie-Mussie is based on a Victorian fad that assigned meanings to the flowers that friends and lovers exchanged.\n\nFeaturing I-Divide-You-Choose drafting, this microgame of 18 cards is played over three rounds. In turn, players look at the top two cards of the deck, then offer them, one face-up and one facedown, to an opponent.  That opponent takes one, leaving the other for the active player.\n\nA round ends when each player has four cards, at which point the scores are tallied. The highest score after three rounds wins!\n\n—description from the designer\n\n\nCo-winner of the GenCan't Design Contest.\nReleased in the September 2019 Board Game of the Month Club $20+ package.\n\n",
       "category": [
         "Card Game",
         "Print & Play"
       ],
       "mechanisms": [
-        "I Cut",
-        "You Choose",
+        "I Cut, You Choose",
         "Open Drafting",
         "Set Collection"
       ],
@@ -16507,6 +16503,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-24T01:22:37.132Z",
+  "lastModified": "2025-06-24T01:52:40.714Z",
   "version": "1.0"
 }
