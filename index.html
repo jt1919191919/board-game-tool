@@ -1494,23 +1494,23 @@ button#clear-filters {
                </div>
                <div class="form-group">
                    <label>Designers</label>
-                   <input type="text" id="game-designers" placeholder="Comma separated">
+<input type="text" id="game-designers" placeholder="Semicolon separated">
                </div>
                <div class="form-group">
                    <label>Artists</label>
-                   <input type="text" id="game-artists" placeholder="Comma separated">
+                   <input type="text" id="game-artists" placeholder="Semicolon separated">
                </div>
 <div class="form-group">
                    <label>Publishers</label>
-                   <input type="text" id="game-publishers" placeholder="Comma separated">
+                   <input type="text" id="game-publishers" placeholder="Semicolon separated">
                </div>
 <div class="form-group">
                    <label>Designer Nationality</label>
-                   <input type="text" id="game-designer-nationality" placeholder="Comma separated">
+                   <input type="text" id="game-designer-nationality" placeholder="Semicolon separated">
                </div>
                <div class="form-group">
                    <label>Publisher Country</label>
-                   <input type="text" id="game-publisher-country" placeholder="Comma separated">
+                   <input type="text" id="game-publisher-country" placeholder="Semicolon separated">
                </div>
            </div>
 
@@ -1532,12 +1532,12 @@ button#clear-filters {
 </div>
 <div class="form-row">
     <div class="form-group">
-        <label>Category</label>
-        <input type="text" id="game-category" placeholder="Strategy, Family, Party, etc. (comma separated)">
+<label>Category</label>
+        <input type="text" id="game-category" placeholder="Strategy; Family; Party; etc. (semicolon separated)">
     </div>
     <div class="form-group">
         <label>Mechanisms</label>
-        <input type="text" id="game-mechanisms" placeholder="Dice Rolling, Worker Placement, etc. (comma separated)">
+        <input type="text" id="game-mechanisms" placeholder="Dice Rolling; Worker Placement; etc. (semicolon separated)">
     </div>
 </div>
 
@@ -2086,19 +2086,45 @@ loadFromLocalStorage() {
                     });
                 }
             } else {
-                // Legacy format - data is directly the games object
+// Legacy format - data is directly the games object
                 Object.entries(data).forEach(([id, game]) => {
-                    this.games.set(id, game);
+                    this.games.set(id, this.migrateGameData(game));
+                });
+            } else {
+                Object.entries(data.games).forEach(([id, game]) => {
+                    this.games.set(id, this.migrateGameData(game));
                 });
             }
             console.log('Loaded collection from localStorage');
         }
     } catch (e) {
         console.warn('Could not load from localStorage:', e);
-    }
-    
-    // Only load sample data if we have no games AND we're not in shared view
-    if (this.games.size === 0 && !this.isSharedView) {
+}
+
+   migrateGameData(game) {
+       // Auto-migrate comma-separated fields to semicolon-separated
+       const fieldsToMigrate = ['designers', 'artists', 'publishers', 'category', 'mechanisms'];
+       
+       fieldsToMigrate.forEach(field => {
+           if (game[field] && typeof game[field] === 'string') {
+               // Convert comma-separated string to array, then back to proper array
+               game[field] = game[field].split(',').map(s => s.trim()).filter(s => s);
+           }
+       });
+       
+       // Handle nationality and country fields
+       if (game.designerNationality && typeof game.designerNationality === 'string') {
+           game.designerNationality = game.designerNationality.split(',').map(s => s.trim()).filter(s => s);
+       }
+       if (game.publisherCountry && typeof game.publisherCountry === 'string') {
+           game.publisherCountry = game.publisherCountry.split(',').map(s => s.trim()).filter(s => s);
+       }
+       
+       return game;
+   }
+   
+   // Only load sample data if we have no games AND we're not in shared view
+   if (this.games.size === 0 && !this.isSharedView) {
         console.log('Loading sample data...');
         this.loadSampleData();
     }
@@ -3537,29 +3563,30 @@ game.dateAcquired = card.querySelector('[data-field="dateAcquired"]').value || '
 game.weightColor = card.querySelector('[data-field="weightColor"]').value || '#008000';
            game.notes = card.querySelector('[data-field="notes"]').value;
 
-           const designersField = card.querySelector('[data-field="designers"]');
+
+const designersField = card.querySelector('[data-field="designers"]');
            if (designersField) {
-               game.designers = designersField.value.split(',').map(s => s.trim()).filter(s => s);
+               game.designers = designersField.value.split(';').map(s => s.trim()).filter(s => s);
            }
 
            const artistsField = card.querySelector('[data-field="artists"]');
            if (artistsField) {
-               game.artists = artistsField.value.split(',').map(s => s.trim()).filter(s => s);
+               game.artists = artistsField.value.split(';').map(s => s.trim()).filter(s => s);
            }
 
            const publishersField = card.querySelector('[data-field="publishers"]');
 if (publishersField) {
-               game.publishers = publishersField.value.split(',').map(s => s.trim()).filter(s => s);
+               game.publishers = publishersField.value.split(';').map(s => s.trim()).filter(s => s);
            }
 
 const designerNationalityField = card.querySelector('[data-field="designerNationality"]');
            if (designerNationalityField) {
-               game.designerNationality = designerNationalityField.value.split(',').map(s => s.trim()).filter(s => s);
+               game.designerNationality = designerNationalityField.value.split(';').map(s => s.trim()).filter(s => s);
            }
 
            const publisherCountryField = card.querySelector('[data-field="publisherCountry"]');
            if (publisherCountryField) {
-               game.publisherCountry = publisherCountryField.value.split(',').map(s => s.trim()).filter(s => s);
+               game.publisherCountry = publisherCountryField.value.split(';').map(s => s.trim()).filter(s => s);
            }
 
            const bestPlayersField = card.querySelector('[data-field="bestPlayerCount"]');
@@ -3572,12 +3599,12 @@ game.images = Array.from(imageInputs).map(input => input.value.trim()).filter(ur
 
 const categoryField = card.querySelector('[data-field="category"]');
 if (categoryField) {
-    game.category = categoryField.value.split(',').map(s => s.trim()).filter(s => s);
+    game.category = categoryField.value.split(';').map(s => s.trim()).filter(s => s);
 }
 
 const mechanismsField = card.querySelector('[data-field="mechanisms"]');
 if (mechanismsField) {
-    game.mechanisms = mechanismsField.value.split(',').map(s => s.trim()).filter(s => s);
+    game.mechanisms = mechanismsField.value.split(';').map(s => s.trim()).filter(s => s);
 }
        });
 
@@ -4248,13 +4275,13 @@ if (weight >= 2.5) {
            document.getElementById('game-playtime').value = playtime;
            document.getElementById('game-weight').value = weight.toFixed(1);
            document.getElementById('game-best-players').value = bestPlayerCount.join(', ');
-document.getElementById('game-designers').value = designers.join(', ');
-document.getElementById('game-artists').value = artists.join(', ');
-document.getElementById('game-publishers').value = publishers.join(', ');
+document.getElementById('game-designers').value = designers.join('; ');
+document.getElementById('game-artists').value = artists.join('; ');
+document.getElementById('game-publishers').value = publishers.join('; ');
 document.getElementById('game-images').value = images.join('\n');
 document.getElementById('game-description').value = description;
-document.getElementById('game-category').value = categories.join(', ');
-document.getElementById('game-mechanisms').value = mechanisms.join(', ');
+document.getElementById('game-category').value = categories.join('; ');
+document.getElementById('game-mechanisms').value = mechanisms.join('; ');
 
 // Set the weight color dropdown if it exists
            const weightColorSelect = document.getElementById('game-weight-color');
@@ -4292,16 +4319,16 @@ dateAcquired: document.getElementById('game-date-acquired').value || '1991-11-19
 weight: parseFloat(document.getElementById('game-weight').value) || 0,
 weightColor: document.getElementById('game-weight-color').value || '#008000',
            bestPlayerCount: document.getElementById('game-best-players').value.split(',').map(s => parseInt(s.trim())).filter(n => !isNaN(n)),
-           designers: document.getElementById('game-designers').value.split(',').map(s => s.trim()).filter(s => s),
-           artists: document.getElementById('game-artists').value.split(',').map(s => s.trim()).filter(s => s),
-publishers: document.getElementById('game-publishers').value.split(',').map(s => s.trim()).filter(s => s),
-designerNationality: document.getElementById('game-designer-nationality').value.split(',').map(s => s.trim()).filter(s => s),
-           publisherCountry: document.getElementById('game-publisher-country').value.split(',').map(s => s.trim()).filter(s => s),
+designers: document.getElementById('game-designers').value.split(';').map(s => s.trim()).filter(s => s),
+           artists: document.getElementById('game-artists').value.split(';').map(s => s.trim()).filter(s => s),
+publishers: document.getElementById('game-publishers').value.split(';').map(s => s.trim()).filter(s => s),
+designerNationality: document.getElementById('game-designer-nationality').value.split(';').map(s => s.trim()).filter(s => s),
+           publisherCountry: document.getElementById('game-publisher-country').value.split(';').map(s => s.trim()).filter(s => s),
 images: document.getElementById('game-images').value.split('\n').map(s => s.trim()).filter(s => s),
 notes: document.getElementById('game-notes').value,
 description: document.getElementById('game-description').value,
-category: document.getElementById('game-category').value.split(',').map(s => s.trim()).filter(s => s),
-mechanisms: document.getElementById('game-mechanisms').value.split(',').map(s => s.trim()).filter(s => s),
+category: document.getElementById('game-category').value.split(';').map(s => s.trim()).filter(s => s),
+mechanisms: document.getElementById('game-mechanisms').value.split(';').map(s => s.trim()).filter(s => s),
 customFields: {}
        };
 
@@ -4593,11 +4620,11 @@ return `
 <div class="edit-row">
     <div class="edit-group">
         <label>Category</label>
-        <input type="text" class="edit-field" data-field="category" value="${Array.isArray(game.category) ? game.category.join(', ') : (game.category || '')}" placeholder="Strategy, Family, Party, etc.">
+<input type="text" class="edit-field" data-field="category" value="${Array.isArray(game.category) ? game.category.join('; ') : (game.category || '')}" placeholder="Strategy; Family; Party; etc.">
     </div>
     <div class="edit-group">
         <label>Mechanisms</label>
-        <input type="text" class="edit-field" data-field="mechanisms" value="${Array.isArray(game.mechanisms) ? game.mechanisms.join(', ') : (game.mechanisms || '')}" placeholder="Dice Rolling, Worker Placement, etc.">
+        <input type="text" class="edit-field" data-field="mechanisms" value="${Array.isArray(game.mechanisms) ? game.mechanisms.join('; ') : (game.mechanisms || '')}" placeholder="Dice Rolling; Worker Placement; etc.">
     </div>
 </div>
                        <div class="edit-row">
@@ -4652,23 +4679,23 @@ return `
                        <div class="edit-row">
                            <div class="edit-group">
                                <label>Designers</label>
-                               <input type="text" class="edit-field" data-field="designers" value="${game.designers ? game.designers.join(', ') : ''}" placeholder="Comma separated">
+<input type="text" class="edit-field" data-field="designers" value="${game.designers ? game.designers.join('; ') : ''}" placeholder="Semicolon separated">
                            </div>
                            <div class="edit-group">
                                <label>Artists</label>
-                               <input type="text" class="edit-field" data-field="artists" value="${game.artists ? game.artists.join(', ') : ''}" placeholder="Comma separated">
+                               <input type="text" class="edit-field" data-field="artists" value="${game.artists ? game.artists.join('; ') : ''}" placeholder="Semicolon separated">
                            </div>
-<div class="edit-group">
+                           <div class="edit-group">
                                <label>Publishers</label>
-                               <input type="text" class="edit-field" data-field="publishers" value="${game.publishers ? game.publishers.join(', ') : ''}" placeholder="Comma separated">
+                               <input type="text" class="edit-field" data-field="publishers" value="${game.publishers ? game.publishers.join('; ') : ''}" placeholder="Semicolon separated">
                            </div>
 <div class="edit-group">
                                <label>Designer Nationality</label>
-                               <input type="text" class="edit-field" data-field="designerNationality" value="${Array.isArray(game.designerNationality) ? game.designerNationality.join(', ') : (game.designerNationality || '')}" placeholder="Comma separated">
+                               <input type="text" class="edit-field" data-field="designerNationality" value="${Array.isArray(game.designerNationality) ? game.designerNationality.join('; ') : (game.designerNationality || '')}" placeholder="Semicolon separated">
                            </div>
                            <div class="edit-group">
                                <label>Publisher Country</label>
-                               <input type="text" class="edit-field" data-field="publisherCountry" value="${Array.isArray(game.publisherCountry) ? game.publisherCountry.join(', ') : (game.publisherCountry || '')}" placeholder="Comma separated">
+                               <input type="text" class="edit-field" data-field="publisherCountry" value="${Array.isArray(game.publisherCountry) ? game.publisherCountry.join('; ') : (game.publisherCountry || '')}" placeholder="Semicolon separated">
                            </div>
         <div class="edit-group">
             <label>BoardGameGeek URL</label>
