@@ -2085,13 +2085,10 @@ loadFromLocalStorage() {
                         this.gamePreferences.set(id, pref);
                     });
                 }
-            } else {
-// Legacy format - data is directly the games object
+
+} else {
+                // Legacy format - data is directly the games object
                 Object.entries(data).forEach(([id, game]) => {
-                    this.games.set(id, this.migrateGameData(game));
-                });
-            } else {
-                Object.entries(data.games).forEach(([id, game]) => {
                     this.games.set(id, this.migrateGameData(game));
                 });
             }
@@ -2099,32 +2096,37 @@ loadFromLocalStorage() {
         }
     } catch (e) {
         console.warn('Could not load from localStorage:', e);
+    }
+    
+    // Only load sample data if we have no games AND we're not in shared view
+    if (this.games.size === 0 && !this.isSharedView) {
+        console.log('Loading sample data...');
+        this.loadSampleData();
+    }
 }
 
-   migrateGameData(game) {
-       // Auto-migrate comma-separated fields to semicolon-separated
-       const fieldsToMigrate = ['designers', 'artists', 'publishers', 'category', 'mechanisms'];
-       
-       fieldsToMigrate.forEach(field => {
-           if (game[field] && typeof game[field] === 'string') {
-               // Convert comma-separated string to array, then back to proper array
-               game[field] = game[field].split(',').map(s => s.trim()).filter(s => s);
-           }
-       });
-       
-       // Handle nationality and country fields
-       if (game.designerNationality && typeof game.designerNationality === 'string') {
-           game.designerNationality = game.designerNationality.split(',').map(s => s.trim()).filter(s => s);
-       }
-       if (game.publisherCountry && typeof game.publisherCountry === 'string') {
-           game.publisherCountry = game.publisherCountry.split(',').map(s => s.trim()).filter(s => s);
-       }
-       
-       return game;
-   }
-   
-   // Only load sample data if we have no games AND we're not in shared view
-   if (this.games.size === 0 && !this.isSharedView) {
+migrateGameData(game) {
+    // Auto-migrate comma-separated fields to semicolon-separated
+    const fieldsToMigrate = ['designers', 'artists', 'publishers', 'category', 'mechanisms'];
+    
+    fieldsToMigrate.forEach(field => {
+        if (game[field] && typeof game[field] === 'string') {
+            // Convert comma-separated string to array, then back to proper array
+            game[field] = game[field].split(',').map(s => s.trim()).filter(s => s);
+        }
+    });
+    
+    // Handle nationality and country fields
+    if (game.designerNationality && typeof game.designerNationality === 'string') {
+        game.designerNationality = game.designerNationality.split(',').map(s => s.trim()).filter(s => s);
+    }
+    if (game.publisherCountry && typeof game.publisherCountry === 'string') {
+        game.publisherCountry = game.publisherCountry.split(',').map(s => s.trim()).filter(s => s);
+    }
+    
+    return game;
+}
+
         console.log('Loading sample data...');
         this.loadSampleData();
     }
