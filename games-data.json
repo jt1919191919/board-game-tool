@@ -5521,7 +5521,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/420087/flip-7",
       "name": "Flip 7",
       "year": 2024,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2025-04-12",
       "players": {
         "min": 3,
         "max": 99
@@ -5533,23 +5533,12 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
         5,
         6,
         7,
         8,
         9,
-        10,
-        11,
-        12,
-        16,
-        17,
-        25,
-        26,
-        27
+        10
       ],
       "designers": [
         "Eric Olsen"
@@ -5570,7 +5559,8 @@
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
-        "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__thumb/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg"
+        "https://cf.geekdo-images.com/dPiEAZbHTD1RGhnFfxuNQw__imagepage/img/vnb_KOlMc79uPgLw_KbvhAF0W2c=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8602238.jpg",
+        "https://cf.geekdo-images.com/lan2hqdEC2meEEciNjccNg__imagepage/img/7yFOvW1_cLdjvkzNN2Hw1FhBYZk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8414056.jpg"
       ],
       "notes": "",
       "description": "Flip over cards one by one without flipping the same number twice.\n\nSound easy? Think again! This isn't just any deck of cards… In Flip 7 there's only one 1 card, two 2's, three 3’s, etc plus a bunch of special cards that can score you extra points, give you a second chance, or freeze you or your opponents in your tracks.\n\nAre you the type of player to play it safe and bank points before you bust, or are you going to risk it all and go for the bonus points by flipping over seven in a row? Press your luck meets strategy in this addictive card game that's sure to be the greatest card game you’ve ever played!\n\n—description from the publisher\n\n",
@@ -5591,7 +5581,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/172/sale",
       "name": "For Sale",
       "year": 1997,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-06-12",
       "players": {
         "min": 3,
         "max": 6
@@ -5603,10 +5593,6 @@
       "weight": 1.3,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
         5,
         6
       ],
@@ -5664,11 +5650,18 @@
         "Нескучные игры",
         "פרש משחקים: Game Knight"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Kentucky"
+      ],
       "images": [
         "https://cf.geekdo-images.com/dJh9HkZC346NgPTAicJq_A__original/img/6ib2NLakSlsf69WYwCOe9NNLcsc=/0x0/filters:format(jpeg)/pic1513085.jpg",
-        "https://cf.geekdo-images.com/dJh9HkZC346NgPTAicJq_A__thumb/img/3cgW5aP-JJeKSpZMjA0NFheMnfY=/fit-in/200x150/filters:strip_icc()/pic1513085.jpg"
+        "https://cf.geekdo-images.com/_vUgnyXyagfMUHbDuvwAKQ__imagepage/img/J7orWl2F8PdEFj9E20rCakKVHr0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic726618.jpg",
+        "https://cf.geekdo-images.com/JlRByc8ir-_LHPvNWb98Lw__imagepage/img/eMwyoQdyfFCvu94twKT7SGlbMFA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic111382.jpg",
+        "https://cf.geekdo-images.com/DGDGlYtAAOanHN2n02jksw__imagepage/img/vOtAB-zOKalZ7YMuNtc_7y-9iKs=/fit-in/900x600/filters:no_upscale():strip_icc()/pic144058.jpg"
       ],
       "notes": "",
       "description": "For Sale is a quick, fun game nominally about buying and selling real estate. During the game's two distinct phases, players first bid for several buildings then, after all buildings have been bought, sell the buildings for the greatest profit possible.\n\nThe original Ravensburger/FX Schmid edition (1997/98) has slightly different rules than later English editions, and only 20 buildings instead of 30.\n The Ãœberplay 2005 Edition has new art, rules and card distribution changes, and it accommodates 3-6 players.\n\nThe Gryphon 2009 Edition uses the Überplay art for the faces of the property cards, while replacing most other art.  The rules are the same as the Überplay edition, with the exception of the rounding rule (which was stated in different ways in different printings of the Überplay edition).\n\nRounding rule\n\nThe rounding rule preferred by the designer Stefan Dorra is that players get back half of their bid rounded DOWN (not UP), as confirmed in correspondence with him here and here.  A history of how the rounding rule has changed in different editions is documented here.\n\n",
@@ -5690,7 +5683,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/296043/four-gardens",
       "name": "Four Gardens",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-04-04",
       "players": {
         "min": 2,
         "max": 4
@@ -5702,7 +5695,6 @@
       "weight": 2.3,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -5723,11 +5715,19 @@
         "Reflexshop",
         "uplay.it edizioni"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Czechia"
+      ],
+      "publisherCountry": [
+        "South Korea"
+      ],
       "images": [
         "https://cf.geekdo-images.com/JJQaHg0OuH_Enf9pLBqwsQ__original/img/v2vwnxKj96ft2zanA9CUds4osrg=/0x0/filters:format(jpeg)/pic5484239.jpg",
-        "https://cf.geekdo-images.com/JJQaHg0OuH_Enf9pLBqwsQ__thumb/img/bSa4gN61Ie3tUz3tPfJ97X1xPvU=/fit-in/200x150/filters:strip_icc()/pic5484239.jpg"
+        "https://cf.geekdo-images.com/QJVF3lRxo3XyIDWxh8xnjA__imagepage/img/jkHV4NS3FFVjk_J0EpmD7ipSmwY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5557981.jpg",
+        "https://cf.geekdo-images.com/K6S2_Q2cvCBW--OGmCasBg__imagepage/img/4RR1ZU6muJPhpZyoWyqLRfHsjwc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8453659.jpg",
+        "https://cf.geekdo-images.com/oN594qrTB86Cfa_iQalwmQ__imagepage/img/f6dhpzdh-xOE8h2-Tc2kqTiVPFU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8453663.jpg",
+        "https://cf.geekdo-images.com/3HD6FwTC1lTL8WUkT1ZWkA__imagepage/img/G7Fyk0NXYehGfqxWZQKPPxXN_Dc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8440763.jpg",
+        "https://cf.geekdo-images.com/tkW7o8Ug3GwULhI5oa4uew__imagepage/img/W7rsHBReER4Mq1mhGECfptmuogY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8440764.jpg"
       ],
       "notes": "",
       "description": "Long ago, in a beautiful Eastern kingdom, a queen and her people pleased their Gods by building a mystical pagoda. The pagoda housed the four Gods and towered strong over the magnificent kingdom. As time passed, the queen fell ill, and she summoned her people to compete for her crown. The crown would be passed on to the person who could build the most pristine garden around the pagoda. The heir would be chosen by the four Gods themselves.\n\nThe goal of Four Gardens is to accumulate the most points on the score board by completing landscape cards and finishing sets. Each finished set creates a panoramic view of a garden, and these sets are called (no surprise) \"panoramas\".\n\nPlayers can finish panoramas by first laying groundwork cards, acquiring resources by turning the 3D pagoda, and allocating those resources to satisfy the requirements of each groundwork card. Once satisfied, a groundwork card becomes a landscape card. Multiple landscape cards laid in the correct order create a panorama. Each God has their own satisfaction meter which expresses their goodwill towards the gardens and their builders. Players try to please the Gods by completing landscape cards and finishing panoramas.\n\n—description from the publisher\n\n",
@@ -5748,7 +5748,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/11738/four-letter-words",
       "name": "Four Letter Words",
       "year": 1975,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-15",
       "players": {
         "min": 2,
         "max": 4
@@ -5768,10 +5768,11 @@
         "Lakeside"
       ],
       "designerNationality": [],
-      "publisherCountry": [],
+      "publisherCountry": [
+        "USA"
+      ],
       "images": [
-        "https://cf.geekdo-images.com/22CPVlxYaJyD-bps6LRdBw__original/img/I_IFnfAPZ9fwunGcddDxBW5UmaM=/0x0/filters:format(jpeg)/pic47492.jpg",
-        "https://cf.geekdo-images.com/22CPVlxYaJyD-bps6LRdBw__thumb/img/9qxvXPM-q5-84O_deJE3MQpVyyU=/fit-in/200x150/filters:strip_icc()/pic47492.jpg"
+        "https://cf.geekdo-images.com/22CPVlxYaJyD-bps6LRdBw__original/img/I_IFnfAPZ9fwunGcddDxBW5UmaM=/0x0/filters:format(jpeg)/pic47492.jpg"
       ],
       "notes": "",
       "description": "Using a 4x4x4 3D tic-tac-toe board, players try to make four letter words.\n\nSimilar to:\n\n    Letter Go\n\n\n",
@@ -5786,7 +5787,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/370164/fun-facts",
       "name": "Fun Facts",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-06-12",
       "players": {
         "min": 4,
         "max": 8
@@ -5798,11 +5799,8 @@
       "weight": 1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        4,
-        5,
         6,
         7,
-        8,
         8
       ],
       "designers": [
@@ -5815,13 +5813,19 @@
         "Gém Klub Kft.",
         "Lord of Boards"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Denmark"
+      ],
+      "publisherCountry": [
+        "Belgium"
+      ],
       "images": [
         "https://cf.geekdo-images.com/wkj9lur-J5Bxun09mnI2rQ__original/img/4qUgF74h0l6EMn-HPzGI4Nydszk=/0x0/filters:format(jpeg)/pic7070521.jpg",
-        "https://cf.geekdo-images.com/wkj9lur-J5Bxun09mnI2rQ__thumb/img/WD6rjSm3DZS3JD2Bb4EXM9fL5bk=/fit-in/200x150/filters:strip_icc()/pic7070521.jpg"
+        "https://cf.geekdo-images.com/kq_7x1IwhaUMKgRB-eSmWg__original/img/9PcLVmIFn48cP3hBFb0NEuHBDUU=/0x0/filters:format(png)/pic7054800.png",
+        "https://cf.geekdo-images.com/r967mZBUewegopNf4BFU6w__imagepagezoom/img/FMEXVJ6zDYO45IbWL-pB2bHNPU8=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic7190915.jpg",
+        "https://cf.geekdo-images.com/8lVG-6JfQXFyuc9w4sb7-A__imagepage/img/XAXy9GlrB92uP2gwnuCgIk_gUe0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7555359.jpg"
       ],
-      "notes": "",
+      "notes": "Repos owned by Asmodee.",
       "description": "Each round in Fun Facts, a question is placed in the center of the table, e.g., \"How long is the perfect nap?\", then everyone secretly writes their answer on their colored arrow and places that arrow face down on the table. (You write your name on the other side of the arrow so that everyone knows which arrow is whose.)\n\nOnce everyone has written their answer, take turns placing your arrow in relation to the other players from low to high: \"I know that Mom is super sleepy, so I should definitely place my arrow below hers.\" After everyone has placed their answer in the center of the table, the starting player has the opportunity to move their own arrow — without touching anyone else's!\n\nThen you reveal everyone's numbers, and removes each arrow that is out of order. Each remaining arrow represents a correct answer and provides one point for the entire team. After eight rounds, record the team's score in the Record of Legends. Can you possibly achieve a perfect score?\n\n",
       "category": [
         "Party Game"
@@ -5837,7 +5841,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/318084/furnace",
       "name": "Furnace",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-07-12",
       "players": {
         "min": 2,
         "max": 4
@@ -5849,10 +5853,7 @@
       "weight": 2.3,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -5887,7 +5888,9 @@
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/7UK6bLlP0Cz3EFYCqhtcSw__original/img/jc4av13AOJpkqfvcpJ39HyoeCoM=/0x0/filters:format(png)/pic5934958.png",
-        "https://cf.geekdo-images.com/7UK6bLlP0Cz3EFYCqhtcSw__thumb/img/7WjwLTkySTiSMQu89ClZRhspd5Q=/fit-in/200x150/filters:strip_icc()/pic5934958.png"
+        "https://cf.geekdo-images.com/Uo0dHYWLhBl7ebuyZdvQeg__imagepage/img/U8elaX-HpZVkgeF4MSX9QLnmyTg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8083505.jpg",
+        "https://cf.geekdo-images.com/YX68dbyfSsZb51Vs4JbGrA__imagepage/img/uEWgZPR4APJ-u34Nb8MBb9LyV4U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5688203.jpg",
+        "https://cf.geekdo-images.com/2Mp7qdi6vrQAEXjh0hYXYg__imagepage/img/ILqLly-nbjJ9NwRFwXg39GSwRoo=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5874724.jpg"
       ],
       "notes": "",
       "description": "Furnace is an engine-building Eurogame in which players take on the roles of 19th-century capitalists building their industrial corporations and aspiring to make as much money as they can by purchasing companies, extracting resources, and processing them in the best combinations possible.\n\nEach player starts the game with a random start-up card, the resources depicted at the top of that card, and four colored discs valued 1-4.\n\nThe game is played over four rounds, and each round consists of two phases: Auction and Production. During the auction, 6-8 company cards are laid out with their basic sides face up. Players take turns placing one of their discs on one of these cards, but you cannot place a disc on a card if a disc of the same value or color is already present. Thus, you'll place discs on four cards.\n\nOnce all the discs are placed, the cards are resolved from left to right. Whoever placed the highest-valued disc will claim this card, but first anyone with a lower-valued disc on this card will gain compensation, either the resources depicted multiplied by the value of their disc or a processing ability (exchange X for Y) up to as many times as the value of their disc.\n\nOnce all the cards have been claimed or discarded, players enter the production phase, using their cards in the order of their choice. Each company card has one action — either production or processing — on its basic side and two actions on its upgraded side. During the production phase, you can use each of your cards once to gain resources, process those resources into other resources or money, and upgrade your cards.\n\nAt the end of four rounds, whoever has the most money wins.\n\nFurnace also includes capitalist cards that contain unique effects, and if you want, you can choose to deal one out to each player at the start of the game. For an additional challenge, you can require players to create a \"production chain\", with each newly acquired company card being placed somewhere in that chain and locked in position for the remainder of the game.\n\n",
@@ -5917,20 +5920,21 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/369993/fuse-countdown",
       "name": "FUSE Countdown",
       "year": 2023,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-07-19",
       "players": {
         "min": 1,
         "max": 4
       },
       "playtime": {
         "min": 10,
-        "max": 10
+        "max": 30
       },
       "weight": 2.2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
         1,
         2,
+        3,
         4
       ],
       "designers": [
@@ -5951,7 +5955,8 @@
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/84WuZGfK-StN6NBQ3NEHeQ__original/img/StIqTB41LeCfAH1m_oM__ykYxAU=/0x0/filters:format(jpeg)/pic7050625.jpg",
-        "https://cf.geekdo-images.com/84WuZGfK-StN6NBQ3NEHeQ__thumb/img/ABWrdyPkia3V_G0zs-PheOBuLqo=/fit-in/200x150/filters:strip_icc()/pic7050625.jpg"
+        "https://cf.geekdo-images.com/bEMSE-15vpukvmOFa2nZow__imagepage/img/EGrYghIND6L2ttrgufLgmaVqsqY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8546196.jpg",
+        "https://cf.geekdo-images.com/lLAtLUV7Ez3AbopT9RZKiA__imagepage/img/yDbipluhit2Bd8GkzYBdWzHA7sk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7422312.jpg"
       ],
       "notes": "",
       "description": "FUSE Countdown is a new entry in the FUSE family, one that’s playable both standalone or as an expansion for the original FUSE!\n\nOriginally launched in 2015 as one of Renegade’s very first games, Kane Klenko’s FUSE brought the tense action of bomb defusal to the tabletop, in a quick and simple, but extraordinarily challenging cooperative game! Taking just ten minutes to play and minutes to teach, FUSE has appeal for all types of gamers!\n\nVeteran FUSE bomb-disposal techs may think they have the original game down to a science, but FUSE Countdown will throw some new obstacles in their way while also providing some great new tools! Multi-colored dice, Spark cards, new configurations, and Roles all add new elements to the game! Multi-colored dice can fill spots of either color, allowing a new level of flexibility AND challenge!\n\nFUSE Countdown Includes:\n\n    Multi-colored Dice - can fulfill either color\n    Spark Cards - When you can’t place a die, instead of rolling it and removing a related die, you draw a Spark card. They work like a mini-bomb card for you to fulfill. You cannot win the game unless all active Spark cards are resolved.\n    Roles - Each player has a special player power.\n    New Cards! New bomb cards using some of the new features/icons. *New Fuse cards featuring multiple colors/numbers\n\n\n—description from the publisher\n\n",
@@ -16188,6 +16193,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-25T03:30:07.928Z",
+  "lastModified": "2025-06-25T04:17:06.555Z",
   "version": "1.0"
 }
