@@ -5094,7 +5094,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/13823/fairy-tale",
       "name": "Fairy Tale",
       "year": 2004,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-08-16",
       "players": {
         "min": 2,
         "max": 5
@@ -5106,8 +5106,6 @@
       "weight": 1.8,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5
       ],
@@ -5131,13 +5129,19 @@
         "Ubik",
         "What's Your Game?"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Japan"
+      ],
+      "publisherCountry": [
+        "USA",
+        "New York"
+      ],
       "images": [
         "https://cf.geekdo-images.com/J86NZuK4hEnKWST-fH7LcA__original/img/h3A-Cqc1ritIac-UJWGQhodDRV0=/0x0/filters:format(jpeg)/pic2024738.jpg",
-        "https://cf.geekdo-images.com/J86NZuK4hEnKWST-fH7LcA__thumb/img/wmsDgtzLQyDsW3qkZL78OVUZW-M=/fit-in/200x150/filters:strip_icc()/pic2024738.jpg"
+        "https://cf.geekdo-images.com/06EmIFLbqwWxGmjMuBdUfA__imagepagezoom/img/4xSDTFz8WkexIXlTHtmN266AgPY=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic765794.jpg",
+        "https://cf.geekdo-images.com/PzBkHMCkPwvbYPpCgUTMUg__imagepage/img/hL10r2OkjNWbkGMVTBoVwEL3tKw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2789653.jpg"
       ],
-      "notes": "",
+      "notes": "Z-Man owned by Asmodee",
       "description": "Players use card drafting and simultaneous action selection to score points while interfering with other players' ability to do so.  The game consists of four rounds.  In each of them, players are dealt five cards.  They simultaneously select one each and pass the remainder, repeating until done.  Then, they start playing cards simultaneously, playing three and discarding two.  When the cards are revealed after each selection, card abilities turn other cards face-up or face-down.  At the end of the four rounds there are 12 cards in front of each player. The players each score based on their face-up cards.\n\n",
       "category": [
         "Card Game",
@@ -5156,7 +5160,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/223040/fantasy-realms",
       "name": "Fantasy Realms",
       "year": 2017,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-12-25",
       "players": {
         "min": 2,
         "max": 6
@@ -5168,12 +5172,7 @@
       "weight": 1.8,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
         5,
-        6,
         6
       ],
       "designers": [
@@ -5199,11 +5198,17 @@
         "REXhry",
         "Strohmann Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Virginia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "New Jersey"
+      ],
       "images": [
         "https://cf.geekdo-images.com/A7IOpPt-lHrMYsbRmxXWdQ__original/img/kaYIVoFZkbWe0z80bvcqJdFCNlo=/0x0/filters:format(jpeg)/pic6177962.jpg",
-        "https://cf.geekdo-images.com/A7IOpPt-lHrMYsbRmxXWdQ__thumb/img/XoD3fXgApfY7-dfYyFeE6FVkbfY=/fit-in/200x150/filters:strip_icc()/pic6177962.jpg"
+        "https://cf.geekdo-images.com/flvPDipWYB6j66yc87dknQ__imagepagezoom/img/wNBhguMuD3NxUrXiPsAnc7VPM2o=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic7788748.jpg"
       ],
       "notes": "",
       "description": "As ruler, it's up to you to build the mightiest realm in the world! Will you choose to follow military tactics and sweep away all in your path with a massive army? Will you turn towards sorcery and control an inaccessible island surrounded by impenetrable flames? The choice is yours, and no two realms will ever be the same in Fantasy Realms, a combo-licious card game.\n\nFantasy Realms takes seconds to learn: Draw a card, discard a card — though you can draw from the deck or the discard area!\n\nMake the best hand you can by making the best combos. The game ends when ten cards are in the discard area. Aim for the highest score to win!\n\nTo make scoring easier, the WizKids Games Companion offers a scoring helper for Fantasy Realms! After your game is complete, input your cards into the app & instantly see who won! Also a handy lookup of all cards! Available on iOS and Google Play.\n\n",
@@ -5225,22 +5230,20 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/138161/firefly-game",
       "name": "Firefly: The Game",
       "year": 2013,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-01-20",
       "players": {
         "min": 1,
         "max": 4
       },
       "playtime": {
-        "min": 240,
+        "min": 120,
         "max": 240
       },
       "weight": 3,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
         1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -5257,11 +5260,20 @@
         "Devir",
         "Heidelberger Spieleverlag"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Virginia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Virginia"
+      ],
       "images": [
         "https://cf.geekdo-images.com/iRkRCqB6-J428N8JPjL5fg__original/img/hZEedxgN2GQ8UENAGkWAX_E2bZA=/0x0/filters:format(png)/pic1727008.png",
-        "https://cf.geekdo-images.com/iRkRCqB6-J428N8JPjL5fg__thumb/img/kR9xjgvm2GkSGpSuyngRuUuHwTg=/fit-in/200x150/filters:strip_icc()/pic1727008.png"
+        "https://cf.geekdo-images.com/IistcX5QufC5S2gw0c5Hiw__imagepagezoom/img/a57MLtx3GOpUAnvUtIW-V1qHqU0=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic8798860.jpg",
+        "https://cf.geekdo-images.com/ZO0uTi2QwvuVLBQvpJgWPA__imagepage/img/A8g_xA-qwrSF8I1EzCS2LSB25OM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1748847.jpg",
+        "https://cf.geekdo-images.com/TNm6nCFTyarjilN2OXE2BQ__imagepagezoom/img/zEQpDFYJtcWL2NoA-q4VAnT8oDg=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic1786027.jpg",
+        "https://cf.geekdo-images.com/pfJhM254CahoneCnphYvEQ__imagepage/img/7Vj0CqL8RNa59AETb9eUhIwU41M=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1749650.jpg"
       ],
       "notes": "",
       "description": "Players begin with a ship, and travel from planet to planet, hiring crew, purchasing ship upgrades, and picking up cargo to deliver (jobs) all in the form of cards. Some crew and cargo are illegal, and can be confiscated if your ship is boarded by an alliance vessel. Travelling from planet to planet requires turning over \"full burn\" cards, one for each space moved. Most do nothing, but you can also encounter an Alliance ship, have a breakdown, or even run into Reavers. Completing jobs gets you cash. First player to complete the story goals wins.\n\nGame description from the publisher:\n\nIn Firefly: The Game – based on the popular Firefly television series created by Joss Whedon – players captain their own Firefly-class transport ship, traveling the 'Verse with a handpicked crew of fighters, mechanics and other travelers. As a captain desperate for work, players are compelled to take on any job — so long as it pays. Double-dealing employers, heavy-handed Alliance patrols, and marauding Reavers are all in a day's work for a ship's captain at the edge of the 'Verse. Firefly: The Game is a high-end thematic tabletop boardgame from Gale Force Nine (GF9) and the first in a series of tabletop hobby board games and miniatures games from GF9 set in the Firefly Universe.\n\n",
@@ -5290,22 +5302,19 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/157354/five-tribes",
       "name": "Five Tribes: The Djinns of Naqala",
       "year": 2014,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-03-24",
       "players": {
         "min": 2,
         "max": 4
       },
       "playtime": {
-        "min": 80,
+        "min": 40,
         "max": 80
       },
       "weight": 2.8,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -5326,13 +5335,21 @@
         "Maldito Games",
         "Rebel Sp. z o.o."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France",
+        "Switzerland"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/dmo-WD6HZHVUPrbVHunaTw__original/img/PS9HXrThM8Pepbd-cuA1tX8KCYU=/0x0/filters:format(jpeg)/pic2055255.jpg",
-        "https://cf.geekdo-images.com/dmo-WD6HZHVUPrbVHunaTw__thumb/img/I6KVJlQgS1GfWDPSWAFNqce4Cgc=/fit-in/200x150/filters:strip_icc()/pic2055255.jpg"
+        "https://cf.geekdo-images.com/sp1HdlCePoJV3Cz2d1wFFg__imagepage/img/FSIGBJrPfDMP8Gk1WBdv80hKkeE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7867466.jpg",
+        "https://cf.geekdo-images.com/uKkX1V9RcAowxb2cVwuJOg__imagepage/img/X3_ME8PTZdeLp-MCp4C18_OlOj8=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2207278.jpg",
+        "https://cf.geekdo-images.com/gZhInj-ts27_Zq_gAQ6OEw__imagepage/img/6JdqkfbE8WOB4Qz8rQCp8eBVSLQ=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2215372.jpg"
       ],
-      "notes": "",
+      "notes": "Days of Wonder owned by Asmodee",
       "description": "Crossing into the Land of 1001 Nights, your caravan arrives at the fabled Sultanate of Naqala. The old sultan just died and control of Naqala is up for grabs! The oracles foretold of strangers who would maneuver the Five Tribes to gain influence over the legendary city-state. Will you fulfill the prophecy? Invoke the old Djinns and move the Tribes into position at the right time, and the Sultanate may become yours!\n\nDesigned by Bruno Cathala, Five Tribes builds on a long tradition of German-style games that feature wooden meeples. Here, in a unique twist on the now-standard \"worker placement\" genre, the game begins with the meeples already in place – and players must cleverly maneuver them over the villages, markets, oases, and sacred places tiles that make up Naqala. How, when, and where you dis-place these Five Tribes of Assassins, Elders, Builders, Merchants, and Viziers determine your victory or failure.\n\nAs befitting a Days of Wonder game, the rules are straightforward and easy to learn. But devising a winning strategy will take a more calculated approach than our standard fare. You need to carefully consider what moves can score you well and put your opponents at a disadvantage. You need to weigh many different pathways to victory, including the summoning of powerful Djinns that may help your cause as you attempt to control this legendary Sultanate.\n\n",
       "category": [
         "Arabian",
@@ -5361,7 +5378,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/336986/flamecraft",
       "name": "Flamecraft",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-11-03",
       "players": {
         "min": 1,
         "max": 5
@@ -5373,11 +5390,7 @@
       "weight": 2.2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
         4,
-        5,
         5
       ],
       "designers": [
@@ -5407,11 +5420,19 @@
         "White Goblin Games",
         "Ігромаг"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "California"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/EvGtnsBDcfnKiqSiXHothQ__original/img/7yj8nA0ObuZ1w5AYCThEOK6meWA=/0x0/filters:format(jpeg)/pic6605448.jpg",
-        "https://cf.geekdo-images.com/EvGtnsBDcfnKiqSiXHothQ__thumb/img/bQcyvzYRdMFFvcdQkFVnIRiCPjE=/fit-in/200x150/filters:strip_icc()/pic6605448.jpg"
+        "https://cf.geekdo-images.com/2F1gKAJUI-3Wxref8qRNSw__imagepagezoom/img/R6v3dPECg4CnfDAdWQzuUaBcVU0=/fit-in/1200x900/filters:no_upscale():strip_icc()/pic7970080.jpg",
+        "https://cf.geekdo-images.com/3QZva5fA1RS--oCmTYjhbg__imagepage/img/3k3gBVk8JKJsAzoI-QDB7O_ajPU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7560928.jpg",
+        "https://cf.geekdo-images.com/Wy4i4imh0CPY2-z8W4wXPA__imagepage/img/ZH186RcXlXFhpK1M57xVs3UerlM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7589767.jpg"
       ],
       "notes": "",
       "description": "Artisan dragons, the smaller and magically talented versions of their larger (and destructive) cousins, are sought by shopkeepers so that they may delight customers with their flamecraft. You are a Flamekeeper, skilled in the art of conversing with dragons, placing them in their ideal home and using enchantments to entice them to produce wondrous things. Your reputation will grow as you aid the dragons and shopkeepers, and the Flamekeeper with the most reputation will be known as the Master of Flamecraft.\n\nIn Flamecraft, 1-5 players take on the role of Flamekeepers, gathering items, placing dragons and casting enchantments to enhance the shops of the town. Dragons are specialized (bread, meat, iron, crystal, plant and potion) and the Flamekeepers know which shops are the best home for each. Visit a shop to gain items and a favor from one of the dragons there.  Gathered items can be used to enchant a shop, gaining reputation and the favors of all the dragons in the shop. If you are fortunate enough to attract fancy dragons then you will have opportunities to secure even more reputation.\n\n—description from the publisher\n\n",
@@ -5439,22 +5460,21 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/245961/fleet-dice-game",
       "name": "Fleet: The Dice Game",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-07-03",
       "players": {
         "min": 1,
-        "max": 4
+        "max": 5
       },
       "playtime": {
-        "min": 45,
+        "min": 30,
         "max": 45
       },
       "weight": 2.5,
-      "weightColor": "#ff0000",
+      "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4
+        4,
+        5
       ],
       "designers": [
         "Ben Pinchback",
@@ -5469,13 +5489,21 @@
         "Dice High Company",
         "FRED Distribution"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Michigan",
+        "Detroit"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Kentucky"
+      ],
       "images": [
         "https://cf.geekdo-images.com/XbfUcIO4lCp449zLmZ_4_g__original/img/bmL1d0dWkNNR2GUQapasZ27vBak=/0x0/filters:format(jpeg)/pic4460262.jpg",
-        "https://cf.geekdo-images.com/XbfUcIO4lCp449zLmZ_4_g__thumb/img/hPlbVjRgPqnW9XG3Ro7KQR-G_JY=/fit-in/200x150/filters:strip_icc()/pic4460262.jpg"
+        "https://cf.geekdo-images.com/f6jeT8SApXrnxE8HD1lEpQ__imagepage/img/t_1BQv0qUrmMJfFyEgJ_a3IiST0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4080280.jpg",
+        "https://cf.geekdo-images.com/YEDOiDQNL8Z2OWtQV3mkGA__imagepage/img/ehAcFTF-ObtdbgQPxZiZKLEsEgg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4082603.jpg"
       ],
-      "notes": "",
+      "notes": "Sticky note in box explains 5th player variant.",
       "description": "Fleet: The Dice Game is an exciting new strategic roll and write dice game from the creators of Fleet! Fleet: The Dice Game is heavier than many roll and write games and captures the tense, meaningful decisions of Fleet. Fleet: The Dice Game is for 1-4 players.\n\nIn Fleet: The Dice Game, you are back in beautiful Ridback Bay to reap its rewards! Fleet: The Dice Game takes place over 10 rounds with each round having two phases, the Boat Phase and the Town Phase.\n\nIn the boat phase, the active player rolls players plus one boat dice. In turn order, each player selects one die to use immediately. By selecting a boat die, they get to check off the matching boat type on their sheet - unlocking license powers and boat launches to catch fish. The die that remains after all players have selected is then used by all players.\n\nIn the town phase, you roll town dice equal to players plus one boat die. Again, in turn order each player selects one die to use immediately. In the town phase, you unlock special buildings in the Wharf that grant bonuses, awesome ships in the harbor to earn points and catch more fish, or go to the market and gain income to generate bonus actions. The die that remains after all players have selected is then used by all players.\n\nFishing occurs between phases in the even rounds and the player with the most points at game end wins!\n\nFleet: The Dice Game also features a fully integrated solo mode where you battle Captain Ruth to earn the most points and reap the rewards of Ridback Bay.\n\n",
       "category": [
         "Dice",
@@ -16160,6 +16188,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-25T02:34:44.212Z",
+  "lastModified": "2025-06-25T03:30:07.928Z",
   "version": "1.0"
 }
