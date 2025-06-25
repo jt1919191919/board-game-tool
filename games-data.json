@@ -4870,22 +4870,20 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/175621/epic-card-game",
       "name": "Epic Card Game",
       "year": 2015,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2018-04-08",
       "players": {
         "min": 2,
         "max": 4
       },
       "playtime": {
-        "min": 40,
+        "min": 20,
         "max": 40
       },
       "weight": 2.5,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
         2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -4909,11 +4907,17 @@
         "Devir",
         "IELLO"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Massachusetts"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Massachusetts"
+      ],
       "images": [
         "https://cf.geekdo-images.com/DfhQjeh-IzvUMFH__QUDXA__original/img/o7b9oFEfBQ4BOtY_bOhDQ6C4Jlw=/0x0/filters:format(jpeg)/pic2691347.jpg",
-        "https://cf.geekdo-images.com/DfhQjeh-IzvUMFH__QUDXA__thumb/img/TrfK1csWE7BMdCMmG8TQWLb5fAE=/fit-in/200x150/filters:strip_icc()/pic2691347.jpg"
+        "https://cf.geekdo-images.com/elXRMqqqxuBoP9ClSUMNxA__imagepage/img/--Lpcc-GKqfrsGZccbTJ8JW0biw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2724080.jpg"
       ],
       "notes": "",
       "description": "Epic is a fantasy card game by White Wizard Games which aims to recreate the TCG-style experience from a single box, with no additional purchases required.\n\nEpic is a card game designed to start quickly but also to reward deep, strategic plays. In Epic, you take on the role of an elder god, in conflict with other elder gods. The cards in your deck are your champions, who fight for you, and events, which represent your will imposed on the mortal realm.   In Epic, the turn sequence is easy but there are many options to choose from. You begin the game with a hand of five cards – each card costs either one gold or is free. You get one gold each turn — you don’t need to draw special resource cards or energy cards just to play with your other cards. Instead of figuring out which cards you might be allowed to play, you choose which card you want to play.\n\nEpic is non-collectable, so every box contains the same 120 unique event and champion cards, with 8 double-sided cards to represent temporary \"token\" champions. One box supports preconstructed, sealed and draft formats for 2-4 players, two boxes up to 8 players, and three if you want to create a full constructed deck or a \"cube\" environment for drafting.\n\n",
@@ -4938,24 +4942,20 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/82168/escape-aliens-outer-space",
       "name": "Escape from the Aliens in Outer Space",
       "year": 2010,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-03-10",
       "players": {
         "min": 2,
         "max": 8
       },
       "playtime": {
-        "min": 45,
+        "min": 20,
         "max": 45
       },
       "weight": 2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        3,
-        4,
-        5,
         6,
         7,
-        8,
         8
       ],
       "designers": [
@@ -4975,11 +4975,18 @@
         "Osprey Games",
         "Santa Ragione"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Italy"
+      ],
+      "publisherCountry": [
+        "UK",
+        "Oxford"
+      ],
       "images": [
         "https://cf.geekdo-images.com/RMpQKySngukhwS8Vd0Z5DA__original/img/qzsupfBs3THT83OPVNKPb68xzgA=/0x0/filters:format(png)/pic2792336.png",
-        "https://cf.geekdo-images.com/RMpQKySngukhwS8Vd0Z5DA__thumb/img/sq3Z4wWsk2l5dDjMzQPP7g4PoVA=/fit-in/200x150/filters:strip_icc()/pic2792336.png"
+        "https://cf.geekdo-images.com/FC_b1hpInbC92OPSAHiDBg__imagepage/img/CFKXrpLqGmWeG1y9L3xPcbPmnVE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3033259.jpg",
+        "https://cf.geekdo-images.com/lcV__raz5yWsA1lat0zLjA__imagepage/img/xiwNP4V2cPuO9EWxFh14LhHhH1g=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3029751.jpg",
+        "https://cf.geekdo-images.com/t3csfRtPgh0fxg_loWIuMw__imagepage/img/-Ghdo3hEdVc1z7Inm7wt-JBy3TM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3045379.jpg"
       ],
       "notes": "",
       "description": "Escape from the Aliens in Outer Space is a card game of strategy and bluff set on a badly damaged deep space research ship. On-board systems have failed, plunging the ship into darkness. But even worse: A mysterious alien plague has crept aboard and is transforming the human crew into horrendous monsters! The remaining crewmen desperately try to save their lives by escaping from the derelict spaceship, but in the darkness the aliens are lurking...hungry for human flesh.\n\nThe game is played on a hexagon-based map that represents the spaceship. Each player is given a map sheet and a pencil. Map sheets must be of the same zone, and every zone has its specific name. Starting from the first player and continuing clockwise, every turn, each player must make a movement. To do so, the player must write on their map sheet the coordinates of the sector to which they are moving. Every time the players move to the gray (dangerous) sectors they have to draw a card; these cards make the players tell the others their position or lie about it, depending on the card. Every card is kept secret from other players.\n\nThe humans' objective is to save themselves using the escape hatches, while the aliens' objective is to hunt down the humans. Each player's identity and position is kept secret; you will need to interpret the movements and behaviors of the other players to learn who and where they really are.\n\n",
@@ -5006,7 +5013,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/155703/evolution",
       "name": "Evolution",
       "year": 2014,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-09-13",
       "players": {
         "min": 2,
         "max": 6
@@ -5018,11 +5025,9 @@
       "weight": 2.4,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
         3,
         4,
         5,
-        6,
         6
       ],
       "designers": [
@@ -5050,11 +5055,18 @@
         "Schmidt Spiele",
         "Siam Board Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Maryland"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Maryland"
+      ],
       "images": [
         "https://cf.geekdo-images.com/wo_EYno7S66psGPMl_JtiQ__original/img/buKqUQr48Cb41noIhoaAJzWBLQA=/0x0/filters:format(jpeg)/pic3543505.jpg",
-        "https://cf.geekdo-images.com/wo_EYno7S66psGPMl_JtiQ__thumb/img/_30uXRkyUuk9vMeeedlSqQ3oJwA=/fit-in/200x150/filters:strip_icc()/pic3543505.jpg"
+        "https://cf.geekdo-images.com/h_u0U7Xd5eaD83Uuztoc6g__imagepage/img/1AJoMJUMaJQNEE-Loz1ixLVIYi4=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2825462.jpg",
+        "https://cf.geekdo-images.com/SVITqyNj3OaV9nrPvIkX4g__imagepage/img/Zhq3Swlj-mvAa8epOqo84m22M3k=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3637431.jpg"
       ],
       "notes": "",
       "description": "In Evolution, players adapt their species in a dynamic ecosystem where food is scarce and predators lurk.  Traits like Hard Shell and Horns will protect your species from Carnivores, while a Long Neck will help them get food that others cannot reach. With over 4,000 ways to evolve your species, every game becomes a different adventure.\n\nEvolution is played in a variable number of rounds. Each round, players draw 3 Trait cards to enhance their species, create new species or feed their existing animals. Play continues until the Trait deck has been finished and needs to be reshuffled.  Reshuffling the Trait cards signals the final round of the game.  At the end of the game the player with the most food, traits, and population wins.\n\nEvolution packs a surprising amount of variety for a game with simple rules.  The variety comes from the synergies between the trait cards and from the different personalities at the table.  Some players thrive on creating Carnivores to wreak havoc on their fellow players.  Others prefer to stay protected and mind their own business.  Evolution encourages both play styles by giving each of them multiple paths to victory.  And it is the mix of play styles at the table that ultimately determines the ecosystem in which the players are adapting.  So gather your friends and see who can best adapt to the changing world around them.\n\n",
@@ -16148,6 +16160,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-25T01:51:20.376Z",
+  "lastModified": "2025-06-25T02:34:44.212Z",
   "version": "1.0"
 }
