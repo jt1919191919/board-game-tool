@@ -2960,6 +2960,7 @@
         "Spółdzielnia Rzemieślnicza"
       ],
       "designerNationality": [
+        "UK",
         "England"
       ],
       "publisherCountry": [
@@ -16211,6 +16212,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-25T04:51:00.513Z",
+  "lastModified": "2025-06-25T12:03:27.193Z",
   "version": "1.0"
 }
