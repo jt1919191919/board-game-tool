@@ -6137,7 +6137,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/198408/gekido-bot-battles",
       "name": "Gekido: Bot Battles",
       "year": 2017,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-10-07",
       "players": {
         "min": 2,
         "max": 4
@@ -6149,7 +6149,8 @@
       "weight": 1.9,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3
+        3,
+        4
       ],
       "designers": [
         "Fel Barros",
@@ -6161,13 +6162,19 @@
         "CMON Global Limited",
         "Spaghetti Western Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Brazil"
+      ],
+      "publisherCountry": [
+        "Singapore"
+      ],
       "images": [
         "https://cf.geekdo-images.com/mLzP2F54jd4whA-39hdkmA__original/img/1BvSue6A1aAjz8l6GCWQVq6uqHU=/0x0/filters:format(png)/pic3297540.png",
-        "https://cf.geekdo-images.com/mLzP2F54jd4whA-39hdkmA__thumb/img/e_esx06tGxdZjkHYugP3MGQdD3g=/fit-in/200x150/filters:strip_icc()/pic3297540.png"
+        "https://cf.geekdo-images.com/CQRJA0XdVHyKRBOvtbSnBg__imagepage/img/G3dmihKwSDQqlj30x7iuKrxHF3A=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3600891.jpg",
+        "https://cf.geekdo-images.com/WDRyVfhGFxUiGGUNmERp9g__imagepage/img/j3RXVNJNOqmdxEl5JIdIdKsTbDM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3677188.jpg",
+        "https://cf.geekdo-images.com/FhlNKwT3pgsuwoR_iOo1VA__imagepage/img/MDUpZMU5lQucTiDRiILdEv8nmns=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3297541.png"
       ],
-      "notes": "",
+      "notes": "CMON was Hong Kong stock exchange, was a website originally.",
       "description": "In the not-too-distant future, the most entertaining sport in the world requires killer reflexes, a passion to succeed, and a degree in science or engineering. Bot battling is all the rage, and Gekido: Bot Battles gives 2-4 players the chance to enter the arena and face off in 30-minute fights. Each round, the bots lock onto a target, then roll dice to execute attacks. Through cunning moves and swift strikes, players can activate secret powers in the arena and eliminate the competition. The last bot standing takes home the electric glory!\n\n•••\n\nDescription of the first edition:\n\nFor a long time the Lord of Gems — Jikan, the mightiest dragon of all — feared that another dragon could take his place as the most powerful dragon. Soon he realized that only his sons could compete with him, so Jikan swallowed them. For many years Jikan lived happily as the king, eating whole worlds for breakfast. But one day, during a heartburn crisis, he saw that his sons were battling in his stomach. The first one to win and escape the belly of Jikan will be the next Lord of Gems!\n\nGekido is a dice game in which each player controls a dragon, trying to beat other players by knocking their life dices from 6 points to zero. At each round, players rolls six 6 sided dice and try to score one of many combinations showed in his character sheet (pairs, three of a kind, four of a kind, etc), but watch out! If you fail on your gamble attempt you can hurt yourself instead of the enemy! As the battle gets more fierce, however, players would unlock new powers: when one of your life dices is reduced to zero, you gain new special abilities! The player who remains in play, knocking all opponent's life dices, wins the game.\n\n",
       "category": [
         "Dice",
@@ -6184,19 +6191,18 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/246192/gizmos",
       "name": "Gizmos",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-12-06",
       "players": {
         "min": 2,
         "max": 4
       },
       "playtime": {
-        "min": 50,
+        "min": 40,
         "max": 50
       },
       "weight": 2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -6227,13 +6233,19 @@
         "Portal Games",
         "Yes Papa Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Australia"
+      ],
+      "publisherCountry": [
+        "Singapore"
+      ],
       "images": [
         "https://cf.geekdo-images.com/zin82Hg4MXck86t8fzbsdA__original/img/_S-XINN0voB1OzExPPgePrOWurM=/0x0/filters:format(png)/pic4169718.png",
-        "https://cf.geekdo-images.com/zin82Hg4MXck86t8fzbsdA__thumb/img/e-UqOrMfsLCh2T_igK3wkoFrOu8=/fit-in/200x150/filters:strip_icc()/pic4169718.png"
+        "https://cf.geekdo-images.com/kqrNzQD-CLKMWotoxhWxxQ__imagepage/img/K3RKv4R9Rnsmu7dUevBCQ0zgRAg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7818423.jpg",
+        "https://cf.geekdo-images.com/38OizIHwpIETKe4ufcW_FQ__imagepage/img/KM0WCXiW9rslAY5ZD5GdLvrZ6js=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4480825.jpg",
+        "https://cf.geekdo-images.com/hFgGU7U0XOfH-LpxF36Yag__imagepage/img/CQEUjsm2yPYOU2vbgbKLnIBZ4z4=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4902063.jpg"
       ],
-      "notes": "",
+      "notes": "CMON was Hong Kong stock exchange, was a website originally.",
       "description": "The smartest minds of our generation are gathering together at the Great Science Fair. Everyone's been working hard on their creations, but only one will be crowned champion. Contestants have to think on the fly to build their machines quickly and efficiently. Whose project will be the best?\n\nIn Gizmos, you win the game by gaining victory points from building engines. And engines help you get things done faster. Whoever builds the greatest machine and collects the most victory points wins!\n\nAt the beginning of the game, you have 4 actions:\n\n     File : Put a card in the public to your Archive, allow you to build it later.\n     Pick : Take one energy marble from the 3D marble dispenser, to your storage.\n     Build : Build one machine and put it on action! You have to pay the marbles with colors corresponding to the card cost.\n     Research : Draw some cards, and you can then File or Build one of the drawn cards. The rest go to the bottom of their deck.\n\n\nMachines give you victory points, and allow you to do more actions when conditions are met. As you build, new attachments can trigger chain reactions, letting you do even more on your turn.\n\n",
       "category": [
         "Card Game",
@@ -16199,6 +16211,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-25T04:43:38.913Z",
+  "lastModified": "2025-06-25T04:51:00.513Z",
   "version": "1.0"
 }
