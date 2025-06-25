@@ -4334,10 +4334,10 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/39856/dixit",
       "name": "Dixit",
       "year": 2008,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-12-25",
       "players": {
         "min": 3,
-        "max": 8
+        "max": 6
       },
       "playtime": {
         "min": 30,
@@ -4346,14 +4346,8 @@
       "weight": 1.2,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
-        4,
         5,
-        6,
-        7,
-        8,
-        8
+        6
       ],
       "designers": [
         "Jean-Louis Roubira"
@@ -4384,13 +4378,18 @@
         "Swan Panasia Co.",
         "Ігромаг"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/J0PlHArkZDJ57H-brXW2Fw__original/img/jt3kFCHJ3HJ2079dMLwipFZqdQg=/0x0/filters:format(jpeg)/pic6738336.jpg",
-        "https://cf.geekdo-images.com/J0PlHArkZDJ57H-brXW2Fw__thumb/img/QVwPXskFikQwBQlrdLJBAiRGgdg=/fit-in/200x150/filters:strip_icc()/pic6738336.jpg"
+        "https://cf.geekdo-images.com/tpluz0anCR1PuuLJuQPNAw__imagepage/img/0q-CQ-76XsxhdwLvElpS3ev5usY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5313704.jpg",
+        "https://cf.geekdo-images.com/35WkLOXdB7RBU6w--A8YqQ__imagepage/img/XMU61LZ8fZWFfxatmQKVpr2R3LA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1174707.jpg"
       ],
-      "notes": "",
+      "notes": "Expansions: Odyssey, Quest, Harmonies, Mirrors, Memories. \nLibellud owned by Asmodee",
       "description": "Each turn in Dixit, one player is the storyteller who chooses one of the six cards in their hand, then expresses an idea, with sounds or words, that is reflected on that card's image, and places the card face down on the playing surface. Each other player then selects the card that best matches that expression, and passes the selected card to the storyteller, face down.\n\nThe storyteller shuffles all the cards together, then turns them over to reveal them. Each player other than the storyteller then secretly guesses which card belongs to the storyteller. If nobody or everybody guesses the correct card, the storyteller scores 0 points, and each other player scores 2 points. Otherwise, the storyteller and whoever found the correct answer score 3 points. Additionally, the non-storyteller players score 1 point for every vote received by their card.\n\nThe game ends when the deck is empty or if a player has scored at least 30 points. In either case, the player with the most points wins.\n\nThe Dixit base game and each expansion contain 84 cards, and the cards can be mixed together as desired.\n\n",
       "category": [
         "Card Game",
@@ -4411,7 +4410,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/254683/dodos-riding-dinos",
       "name": "Dodos Riding Dinos",
       "year": 2021,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-12-26",
       "players": {
         "min": 1,
         "max": 8
@@ -4423,12 +4422,10 @@
       "weight": 1.6,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
         4,
         5,
         6,
         7,
-        8,
         8
       ],
       "designers": [
@@ -4448,7 +4445,9 @@
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/qqpMTyv4vy-q7qYpl0NLFA__original/img/zOuoaKc0Q3Zc8m1gJLxGJlqvrXI=/0x0/filters:format(png)/pic5182751.png",
-        "https://cf.geekdo-images.com/qqpMTyv4vy-q7qYpl0NLFA__thumb/img/KFXWd_rCsR68wNLUXg6aOu2M5BQ=/fit-in/200x150/filters:strip_icc()/pic5182751.png"
+        "https://cf.geekdo-images.com/lbBSEB83q3Pl-zSJq-SD4g__imagepage/img/JC3w5cBjTIz1lb8VPQl66_SjwP0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6565994.jpg",
+        "https://cf.geekdo-images.com/y7AUCm1rvZj-kJA-CQsOBw__imagepage/img/qybIJkxw2jwOvSs4k1K90mfFMCw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6717968.png",
+        "https://cf.geekdo-images.com/ZiprhK9txrEidwD3T54fog__imagepage/img/QGu5zAIYOKXxzIJdRuWaHXbchRA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7716195.jpg"
       ],
       "notes": "",
       "description": "Choose your favorite Dodo/Dino miniature!\nAdvance with blue or red cards and solve their whacky effects. Some will test your dexterity against your rivals by throwing bananas, flicking dodo eggs or making meteors fall.\n\nRed cards are extra powerful but if too many players pick them during the same round, their effects will be ignored. Green cards allow the Dodo to react at any time.\n\nDamage your rivals so they discard cards, with no cards in hand their Dodos will retrocede as a penalty and draw some cards.\n\nAt the end of each round, the Dodo in the lead advances an extra space while the rest get to draw a card.\n\nThe fastest Dodo and Dino will be saved from extinction!\n\nOne to six players compete in Dodos Riding Dinosaurs, a competitive family dexterity game that presents a crazy race.\n\n",
@@ -4471,20 +4470,18 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/331401/dog-park",
       "name": "Dog Park",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-11-28",
       "players": {
         "min": 1,
         "max": 4
       },
       "playtime": {
-        "min": 80,
+        "min": 40,
         "max": 80
       },
       "weight": 2.2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -4516,7 +4513,9 @@
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/cCAAceyvbbqMXqX5QgwSmQ__original/img/xf9bMEHqyjw8QO2NgC6arF5jOnQ=/0x0/filters:format(jpeg)/pic6257426.jpg",
-        "https://cf.geekdo-images.com/cCAAceyvbbqMXqX5QgwSmQ__thumb/img/jrjnG4MTuOgIs_Z4l_W-P7Hy0ME=/fit-in/200x150/filters:strip_icc()/pic6257426.jpg"
+        "https://cf.geekdo-images.com/k5QzR1L0rA_MJKckhTHtZw__imagepage/img/Gu7RFwTWt3uYrQMhHRxJ2in7J-s=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7061614.jpg",
+        "https://cf.geekdo-images.com/z8J8ILMX730uN-asAje5NA__imagepage/img/LOHXb3X1RN4KiVgXkH3EkhwKlaM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6385277.jpg",
+        "https://boardgamegeek.com/image/6393450/dog-park"
       ],
       "notes": "",
       "description": "Welcome to Dog Park, a mid-weight, competitive set-collection and point-to-point movement game in which players take on the role of dog walkers who recruit, walk, and care for their dogs over four rounds. Each round is split into four phases:\n\n\n     Recruitment Phase: Players compete in two rounds of offers to add dogs to their kennels. Offers are made with players' reputation (victory points), so must be placed wisely.\n     Selection Phase: Players decide which dogs to place on their lead to walk this round.\n     Walking Phase: Players journey through the dog park with their fellow walkers, collecting resources, earning reputation, and interacting with other walkers.\n     Home Time Phase: Players earn reputation for their walked dogs, and lose reputation for any unwalked dogs in their kennel.\n\n\nPlayers must choose their routes and dogs carefully to earn the best reputation and prove they are the most accomplished walker of them all. At the end of the game, the player with the most reputation wins.\n\n—description from the publisher\n\n",
@@ -4541,7 +4540,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/36218/dominion",
       "name": "Dominion",
       "year": 2008,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2018-04-03",
       "players": {
         "min": 2,
         "max": 4
@@ -4553,10 +4552,7 @@
       "weight": 2.3,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -4598,11 +4594,19 @@
         "Vennerød Forlag AS",
         "Ystari Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "New York"
+      ],
+      "publisherCountry": [
+        "USA",
+        "New Mexico"
+      ],
       "images": [
         "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__original/img/96COuakNiLRrjDLc1sM4Zxsw4WE=/0x0/filters:format(jpeg)/pic394356.jpg",
-        "https://cf.geekdo-images.com/j6iQpZ4XkemZP07HNCODBA__thumb/img/B2u2ghwlmI_qsUtCwuvcbnBcIqU=/fit-in/200x150/filters:strip_icc()/pic394356.jpg"
+        "https://cf.geekdo-images.com/cFkXhpVHGqb_EtfvSgl39g__imagepage/img/o7-CursZ7eGLy3bmCQm-OdRAIJA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1889212.jpg",
+        "https://cf.geekdo-images.com/UKsI1SQCa1EZdU1TL6Fi1g__imagepage/img/AR0ht4FZ6b4DTz52rAnp7p3t09Y=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1532692.jpg",
+        "https://cf.geekdo-images.com/yYlyllIgqYzLzrXiHUhtsw__imagepage/img/QSHsZIwH5_L8Uv4e3UNtCDVjuoU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2630448.jpg"
       ],
       "notes": "",
       "description": "\"You are a monarch, like your parents before you, a ruler of a small pleasant kingdom of rivers and evergreens. Unlike your parents, however, you have hopes and dreams! You want a bigger and more pleasant kingdom, with more rivers and a wider variety of trees. You want a Dominion! In all directions lie fiefs, freeholds, and feodums. All are small bits of land, controlled by petty lords and verging on anarchy. You will bring civilization to these people, uniting them under your banner.\n\nBut wait! It must be something in the air; several other monarchs have had the exact same idea. You must race to get as much of the unclaimed land as possible, fending them off along the way. To do this you will hire minions, construct buildings, spruce up your castle, and fill the coffers of your treasury. Your parents wouldn't be proud, but your grandparents, on your mother's side, would be delighted.\"\n\n—description from the back of the box\n\nIn Dominion, each player starts with an identical, very small deck of cards.  In the center of the table is a selection of other cards the players can \"buy\" as they can afford them.  Through their selection of cards to buy, and how they play their hands as they draw them, the players construct their deck on the fly, striving for the most efficient path to the precious victory points by game end.\n\nDominion is not a Collectible Card Game (CCG), but the play of the game is similar to the construction and play of a CCG deck. The game comes with 500 cards. You select 10 of the 25 Kingdom card types to include in any given play—leading to immense variety.\n\n—user summary\n\nPart of the Dominion series.\n\n",
@@ -4625,7 +4629,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/4069/dont-you-forget-it",
       "name": "Don't You Forget It",
       "year": 1983,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-12-28",
       "players": {
         "min": 2,
         "max": 6
@@ -4651,8 +4655,7 @@
       "designerNationality": [],
       "publisherCountry": [],
       "images": [
-        "https://cf.geekdo-images.com/wmU9eBr0-SjDo0eLdqzsRw__original/img/CXgpxzk97gpmrQriWu0utzVJxbo=/0x0/filters:format(png)/pic6413321.png",
-        "https://cf.geekdo-images.com/wmU9eBr0-SjDo0eLdqzsRw__thumb/img/kD_ZMMLgDvvkK4qnHXT2Eg_xJr8=/fit-in/200x150/filters:strip_icc()/pic6413321.png"
+        "https://cf.geekdo-images.com/wmU9eBr0-SjDo0eLdqzsRw__original/img/CXgpxzk97gpmrQriWu0utzVJxbo=/0x0/filters:format(png)/pic6413321.png"
       ],
       "notes": "",
       "description": "(from box)  In Don't You Forget It, you're trying to be the first player to reach 500 points.  On each turn, roll the dice and try to score points...but here's the catch: At any time the special dice might spell out FORGET IT and cause you to lose any points you've earned for that round.  Roll the dice as many times as you wish, but you just might wish you stopped before the dice tell you to FORGET IT!\n\n",
@@ -4670,23 +4673,20 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/334379/doodle-dash",
       "name": "Doodle Dash",
       "year": 2021,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-11-23",
       "players": {
         "min": 3,
         "max": 7
       },
       "playtime": {
-        "min": 20,
+        "min": 15,
         "max": 20
       },
       "weight": 1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
-        4,
         5,
         6,
-        7,
         7
       ],
       "designers": [
@@ -4713,7 +4713,8 @@
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/Vg3qEly2Sx379Vo1t73XCw__original/img/LDmpxaaOo_fx21coXhOTgyr7FpM=/0x0/filters:format(png)/pic6102105.png",
-        "https://cf.geekdo-images.com/Vg3qEly2Sx379Vo1t73XCw__thumb/img/wUZ5pVRZeOPdU9_lZXeIzng3Kxo=/fit-in/200x150/filters:strip_icc()/pic6102105.png"
+        "https://cf.geekdo-images.com/xDfCa9lbxa-bOSZTGediFQ__imagepage/img/VLb6EcF8HNAi0uU4I_8kxwcZ0tc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8013461.jpg",
+        "https://cf.geekdo-images.com/FcNxpnMqKPnNQckEnDFyqA__imagepage/img/HbW4wn9WqOHcIKPEpTH-TpvQIG0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6724536.jpg"
       ],
       "notes": "",
       "description": "Doodle Dash is a party game where the players draw the same word at the same time.\nIt's a drawing competition where speed can beat skill, so anyone can win!\nWin by being the fastest doodler, but watch out – you only score if the guesser can actually tell what your drawing is!\n\nEach round, one player is the guesser, and all other players are drawers. The drawers try to draw a word as fast and accurate as they can. \nThe guesser takes turns guessing the word for that round from each drawing, beginning with the player who finished their drawing first.\nThe player whose drawing is the first to be guessed correctly, wins the round, and the guesser and that drawer receive 1 point each.\n\nAt the end of the game, the player with the most points wins.\n\n—description from the designer\n\nAWARDS AND HONORS:\n\n2022/23 Norwegian Party Game of the Year WINNER\n2022/23 Norwegian Party Game of the Year NOMINEE\n2021 Golden Geek Best Party Game Nominee\n2021 Dice Tower Best Party Game Nominee\n\n",
@@ -4730,7 +4731,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/13004/downfall-pompeii",
       "name": "The Downfall of Pompeii",
       "year": 2004,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-06-02",
       "players": {
         "min": 2,
         "max": 4
@@ -4742,9 +4743,7 @@
       "weight": 1.8,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -4759,13 +4758,19 @@
         "Maldito Games",
         "Mayfair Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Chicago"
+      ],
       "images": [
         "https://cf.geekdo-images.com/eZjGZ9O4hdUnc47rDgAgRg__original/img/dH4prpq1jPIi9IS_7a44MlBm6J4=/0x0/filters:format(jpeg)/pic1685805.jpg",
-        "https://cf.geekdo-images.com/eZjGZ9O4hdUnc47rDgAgRg__thumb/img/Ii0rodwBgEzpHofswh32VECo1xk=/fit-in/200x150/filters:strip_icc()/pic1685805.jpg"
+        "https://cf.geekdo-images.com/l7nceSw77e8baxOTGrezDg__imagepage/img/eIKrNewGx0AGKgBAEVRAqAHpg7o=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8084610.jpg",
+        "https://cf.geekdo-images.com/yjk3IVIqVbwovBzT0DmB1w__imagepage/img/lyh_Ypl74Cvj-EJGEcCyu7YLJdg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic419319.jpg"
       ],
-      "notes": "",
+      "notes": "Mayfair Chicago closed/owned by Asmodee",
       "description": "The year is AD 79. Pompeii, sitting at the foot of Vesuvius, is at the high point in its development. People come to the city from far and wide to try to make their luck in the city. So far nobody has dreamed of the danger that will bury all of their dreams under mountains of ash just ten years later. Who will survive the eruption of Vesuvius unscathed?\n\nThe simple rules make it easy to get started with The Downfall of Pompeii, a game in which a lot of tactical know-how is required – along with a little luck – in order to bring your pieces out of the city at the right time.\n\nThe game falls into two halves: before and after the eruption of Vesuvius. Before the eruption, players play cards to place their pieces in buildings. After the first eruption, they can also place as many relatives as the number of pieces already in the building they placed their piece in. When Omen cards are drawn, the player can take any opponent's piece and throw it into the erupting volcano. In this manner, players try to get as many pieces onto the board as close to the exits from the city as possible.\n\nAfter the second eruption, the game changes. Now each player places a lava tile, which kills any pieces on that square and may block exits from the city. Then they move two pieces toward the exits, moving them a number of squares equal to the pieces on the square from which they started. The player who gets the most pieces out of the city wins.\n\n•••\n\nThe 2013 second edition of The Downfall of Pompeii includes three dual vent tiles and a new \"Dual Vent\" variant.\n\n",
       "category": [
         "Ancient"
@@ -4790,21 +4795,18 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/102548/dungeon-fighter",
       "name": "Dungeon Fighter",
       "year": 2011,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-09-27",
       "players": {
         "min": 1,
         "max": 6
       },
       "playtime": {
-        "min": 60,
+        "min": 45,
         "max": 60
       },
       "weight": 1.8,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
         4,
         5,
         6
@@ -4830,13 +4832,18 @@
         "More Fun Co.",
         "One Moment Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Italy"
+      ],
+      "publisherCountry": [
+        "Italy"
+      ],
       "images": [
         "https://cf.geekdo-images.com/ukPf_rrA7ity7UQEVjWPNw__original/img/Oss0hzRILIZgXlqQGJaa7HCH_Zo=/0x0/filters:format(png)/pic2411495.png",
-        "https://cf.geekdo-images.com/ukPf_rrA7ity7UQEVjWPNw__thumb/img/St4DMjt5DCEImqj7CEXpjFg4KEw=/fit-in/200x150/filters:strip_icc()/pic2411495.png"
+        "https://cf.geekdo-images.com/zjW-RtUTBWLktleJn1kD9Q__imagepage/img/XoY_s3EcDqXo1Go_MmNJZ7hJXpQ=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4071591.jpg",
+        "https://cf.geekdo-images.com/vV551cOuUfmRn_PZZ2dfsQ__imagepage/img/gM5_3DlVNuulO7lE-2fm_T6MocU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1589385.jpg"
       ],
-      "notes": "",
+      "notes": "Horrible Guild (Horrible Games)",
       "description": "Explore spooky dungeons, find glorious treasure, buy powerful magic items, and challenge the most horrible creatures. Will your party be able to defeat the final boss?\n\nIn Dungeon Fighter, a fully cooperative board game, players take on the roles of heroes venturing deep into a three-tier dungeon. Along the way, they explore the dungeon, search its many rooms, and face endless hordes of vicious monsters. Best of all, your skill determines the ability of your character. Can you kill Medusa without looking into her eyes, defeat the Minotaur in the labyrinth, or resist the breath of the dragon? Will you be able to hit a target by throwing the dice under your leg with your eyes closed?\n\nYou will feel truly part of a centuries-old battle between good and evil...with a touch of foolish stupidity.\n\n",
       "category": [
         "Action / Dexterity",
@@ -16141,6 +16148,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-24T23:44:32.551Z",
+  "lastModified": "2025-06-25T01:51:20.376Z",
   "version": "1.0"
 }
