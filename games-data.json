@@ -6264,13 +6264,13 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-lion",
       "name": "Gloomhaven: Jaws of the Lion",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-06-22",
       "players": {
         "min": 1,
         "max": 4
       },
       "playtime": {
-        "min": 120,
+        "min": 90,
         "max": 120
       },
       "weight": 3.6,
@@ -6279,7 +6279,6 @@
         1,
         2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -6305,11 +6304,19 @@
         "Meanbook Games",
         "Siam Board Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Indiana",
+        "Lafayette"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Indiana",
+        "Lafayette"
+      ],
       "images": [
         "https://cf.geekdo-images.com/_HhIdavYW-hid20Iq3hhmg__original/img/PBzsLRqNKQKJxGnzpb7o3qLWPQM=/0x0/filters:format(jpeg)/pic5055631.jpg",
-        "https://cf.geekdo-images.com/_HhIdavYW-hid20Iq3hhmg__thumb/img/OMkN_E5eyWrkID_cHCnQEbIixGM=/fit-in/200x150/filters:strip_icc()/pic5055631.jpg"
+        "https://cf.geekdo-images.com/ynVB8-AA3mHZMB1GiJuNDw__imagepage/img/Bsg1dpDQxZDLo5fJ7HuooELNlYM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5470016.png"
       ],
       "notes": "",
       "description": "Gloomhaven: Jaws of the Lion is a standalone game that takes place before the events of Gloomhaven. The game includes four new characters — Valrath Red Guard (tank, crowd control), Inox Hatchet (ranged damage), Human Voidwarden (support, mind control), and Quatryl Demolitionist (melee damage, obstacle manipulation) — that can also be used in the original Gloomhaven game.\n\nThe game also includes 16 monster types (including seven new standard monsters and three new bosses) and a new campaign with 25 scenarios that invites the heroes to investigate a case of mysterious disappearances within the city. Is it the work of Vermlings, or is something far more sinister going on?\n\nGloomhaven: Jaws of the Lion is aimed at a more casual audience to get people into the gameplay more quickly. All of the hard-to-organize cardboard map tiles have been removed, and instead players will play on the scenario book itself, which features new artwork unique to each scenario. The last barrier to entry — i.e., learning the game — has also been lowered through a simplified rule set and a five-scenario tutorial that will ease new players into the experience.\n\n",
@@ -6349,7 +6356,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/340834/gravwell-2nd-edition",
       "name": "Gravwell: 2nd Edition",
       "year": 2021,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-01-06",
       "players": {
         "min": 2,
         "max": 6
@@ -6361,8 +6368,7 @@
       "weight": 2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        3,
-        4,
+        5,
         6
       ],
       "designers": [
@@ -6378,7 +6384,9 @@
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/BIBF6pERwJAHOemVBY_DWg__original/img/9UGXRV5QWGb63K5-Eu1CCm5KpEs=/0x0/filters:format(jpeg)/pic6106638.jpg",
-        "https://cf.geekdo-images.com/BIBF6pERwJAHOemVBY_DWg__thumb/img/vcV7-dJdIL8poJ_wLcskNQh4_aA=/fit-in/200x150/filters:strip_icc()/pic6106638.jpg"
+        "https://cf.geekdo-images.com/0sBzH4dfx3pvlf7BZBMHzg__imagepage/img/DnU6Z1wF7tSsPJdFQGRcv9O9o40=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6293659.jpg",
+        "https://cf.geekdo-images.com/ZDnOwjhT9xuZeooqcF6GKQ__imagepage/img/naNiZ8iKUyFYQcmyfYjWu1A9D-g=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6293664.jpg",
+        "https://cf.geekdo-images.com/fEXETa6wzx5fOyKHiIdvpw__imagepage/img/K2EZQf417WMzEvErQy-8h4PJiHU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6818094.jpg"
       ],
       "notes": "",
       "description": "In Gravwell, players command spaceships that have been pulled through a black hole, transporting them into a different dimension. With each ship lacking fuel to get home, each player must collect basic elements from surrounding asteroids, using the gravity of the dimension and what little resources they have in order to reach the warp gate that will take them home. But in this dimension, moving ships will travel towards the nearest object, which is usually another ship, and when those objects are moving either forward or backward, reaching the warp gate isn't always easy. Time is running out to save your crew and your ship! As a grim reminder of the cost of failing to escape, the frozen hulks of dead spacecraft litter the escape route — but with careful card play, you can slingshot past these derelict craft and be the first to escape from the Gravwell!\n\nGravwell uses 26 alphabetized cards to determine movement order and thrust; most cards move your ship towards the nearest object, but a few move you away from it. At the start of each round, players draft fuel cards, picking up three pairs of two cards, with only the top card of each pile being visible; you get some information as to which moves you can expect from the other spaceships, but you won't know which moves you'll be forced to make when you draft your cards!\n\nDuring a round, each player will play all of their fuel cards in the order of their choosing. During each phase of a round, each player chooses one card, then all cards are revealed and resolved in alphabetical order. When your opponents move in ways you didn't expect, you won't always be heading in the direction you thought you would! Each player holds an \"Emergency Stop\" card that they may tactically play only once per round to avoid such a situation.\n\nWhoever first reaches the warp gate wins, but if no one has escaped after six rounds, then the player who is closest to the gate wins.\n\nGravwell: 2nd Edition features the same gameplay as earlier editions of the game, but now 40 fuel cards are included, which allows up to six players in the game at the same time. (Earlier editions maxed out at four players.) Additionally, ship ability cards are included that can give a unique power to each ship's captain trying to find their way home.\n\n",
@@ -6401,7 +6409,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/366752/the-great-split",
       "name": "The Great Split",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-11-29",
       "players": {
         "min": 2,
         "max": 7
@@ -6413,8 +6421,6 @@
       "weight": 2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        3,
-        4,
         5,
         6,
         7
@@ -6438,7 +6444,10 @@
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/pPXbuNKh5TPSRTwAvwuTpw__original/img/3StIG3EC2vhApAP8d_tKH22eIBY=/0x0/filters:format(jpeg)/pic6971167.jpg",
-        "https://cf.geekdo-images.com/pPXbuNKh5TPSRTwAvwuTpw__thumb/img/M3Yw--HL04ms_8CHnF0inAbq4Zc=/fit-in/200x150/filters:strip_icc()/pic6971167.jpg"
+        "https://cf.geekdo-images.com/6Qu-OO5s0y2YAE0-Ew8S6g__imagepage/img/6gD0Nex7wvajYgGO-P_L8fRqDbo=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7205971.jpg",
+        "https://cf.geekdo-images.com/HCCoQd-_KtncW20bcRy50w__imagepage/img/vudv-w9tu3TgkdlNkuSvnZ4V4-A=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7232618.jpg",
+        "https://cf.geekdo-images.com/UhIjkoQ5_fkQSxaK-zyLnA__imagepage/img/501t5zfsx6GJTnTf8vUeVbPDh1c=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7199628.jpg",
+        "https://cf.geekdo-images.com/PX1s8hrWDjVvqRLj47stdg__imagepage/img/g84lFyRTZvbqlE2OXli5G9eCI_s=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7665284.jpg"
       ],
       "notes": "",
       "description": "In The Great Split, you draft cards to collect riches such as gems, gold, artwork, and tomes, adding them to your collection to make it the most prestigious of all!\n\nYou start each round by splitting your cards into two groups, then you pass your wallet to the player on your left — but only one group of cards will be given back to you. You split, they choose! Don't despair, though, because while your opponent is looking at your split, you also receive a similar offer from the player on your right, so choose wisely. When your hand is complete, play your cards to add all those riches to your collection.\n\nEach type of riches awards you prestige points in different ways, so maintain a balanced collection of gems, keep an eye on the value of the art market as it evolves, and pile up priceless tomes. Depending on how each player builds their collection, different riches will take on a different value for each of them. Show off your best haggling skills in crafting your split, and create the perfect offer to push your opponent to take what you want them to take...leaving you with the tastiest loot!\n\nBe prepared for when the mid-game scorings are triggered. Manage your gold reserves sensibly to get additional riches, and make your collection just right!\n\n—description from publisher\n\n",
@@ -16212,6 +16221,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-06-25T12:03:27.193Z",
+  "lastModified": "2025-06-26T01:35:01.603Z",
   "version": "1.0"
 }
