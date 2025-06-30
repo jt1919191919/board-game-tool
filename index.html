@@ -202,6 +202,26 @@
             display: none;
         }
 
+.filter-row.gray {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin: 0 -1rem;
+}
+
+.filter-row.white {
+    background-color: white;
+    padding: 1rem;
+    margin: 0 -1rem;
+}
+
+@media (max-width: 768px) {
+    .filter-row.gray,
+    .filter-row.white {
+        margin: 0;
+        padding: 1rem 0;
+    }
+}
+
         .filters.show {
             display: block;
         }
@@ -221,7 +241,7 @@
 
         .filter-group label {
             font-weight: 600;
-            color: #555;
+            color: #000;
             font-size: 0.9rem;
         }
 
@@ -254,7 +274,7 @@ button#clear-filters {
         }
 
 #results-info {
-    margin: 0.5rem 0rem !important;
+    margin: 0.5rem auto !important;
 }
 
         .container {
@@ -1151,290 +1171,336 @@ button#clear-filters {
         <span id="results-text"></span>
         <span id="columns-control" style="cursor: pointer; color: #666; font-size: 0.9rem;"><i class="fa-solid fa-table-columns"></i> <span id="columns-text">5 Columns</span></span>
     </div>
-    <div class="filters" id="filters">
-        <div class="filter-row">
-            <div class="sort-controls">
-                <label>Sort by:</label>
-<select id="sort-field">
-                    <option value="name">Name</option>
-                    <option value="year">Year Published</option>
-                    <option value="dateAcquired">Date Acquired</option>
-                    <option value="players.min">Min Players</option>
-                    <option value="players.max">Max Players</option>
-                    <option value="playtime.min">Playtime</option>
-                    <option value="weight">Complexity</option>
+
+
+<div class="filters" id="filters">
+    <!-- White row: Sort By and clear filters -->
+    <div class="filter-row white">
+        <div class="sort-controls">
+            <label>Sort by:</label>
+            <select id="sort-field">
+                <option value="name">Name</option>
+                <option value="year">Year Published</option>
+                <option value="dateAcquired">Date Acquired</option>
+                <option value="players.min">Min Players</option>
+                <option value="players.max">Max Players</option>
+                <option value="playtime.min">Playtime</option>
+                <option value="weight">Complexity</option>
+            </select>
+            <select id="sort-order">
+                <option value="asc">Ascending</option>
+                <option value="desc">Descending</option>
+            </select>
+        </div>
+        <button class="btn" id="clear-filters">Clear All</button>
+    </div>
+
+    <!-- Gray row: Best Player Count, Min Players, Max Players -->
+    <div class="filter-row gray">
+        <div class="filter-group">
+            <label>Best Player Count</label>
+            <input type="text" id="best-player-count-filter" placeholder="2,3,4 (comma separated)">
+        </div>
+        <div class="filter-group">
+            <label>Min Players</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="min-players-type">
+                    <option value="greater">Greater than</option>
+                    <option value="exact">Exactly</option>
+                    <option value="less">Less than</option>
                 </select>
-                <select id="sort-order">
-                    <option value="asc">Ascending</option>
-                    <option value="desc">Descending</option>
+                <input type="number" id="min-players" min="1" placeholder="1">
+            </div>
+        </div>
+        <div class="filter-group">
+            <label>Max Players</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="max-players-type">
+                    <option value="less">Less than</option>
+                    <option value="exact">Exactly</option>
+                    <option value="greater">Greater than</option>
                 </select>
+                <input type="number" id="max-players" min="1" placeholder="10">
             </div>
-            <button class="btn" id="clear-filters">Clear All</button>
-        </div>
-        <div class="filter-row">
-<div class="filter-group">
-    <label>Best Player Count</label>
-    <input type="text" id="best-player-count-filter" placeholder="2,3,4 (comma separated)">
-</div>
-            <div class="filter-group">
-                <label>Min Players</label>
-                <div style="display: flex; gap: 0.5rem;">
-                    <select id="min-players-type">
-                        <option value="greater">Greater than</option>
-                        <option value="exact">Exactly</option>
-                        <option value="less">Less than</option>
-                    </select>
-                    <input type="number" id="min-players" min="1" placeholder="1">
-                </div>
-            </div>
-            <div class="filter-group">
-                <label>Max Players</label>
-                <div style="display: flex; gap: 0.5rem;">
-                    <select id="max-players-type">
-                        <option value="less">Less than</option>
-                        <option value="exact">Exactly</option>
-                        <option value="greater">Greater than</option>
-                    </select>
-                    <input type="number" id="max-players" min="1" placeholder="10">
-                </div>
-            </div>
-            <div class="filter-group">
-                <label>Min Playtime</label>
-                <div style="display: flex; gap: 0.5rem;">
-                    <select id="min-playtime-type">
-                        <option value="greater">Greater than</option>
-                        <option value="exact">Exactly</option>
-                        <option value="less">Less than</option>
-                    </select>
-                    <input type="number" id="min-playtime" min="0" placeholder="30">
-                </div>
-            </div>
-            <div class="filter-group">
-                <label>Max Playtime</label>
-                <div style="display: flex; gap: 0.5rem;">
-                    <select id="max-playtime-type">
-                        <option value="less">Less than</option>
-                        <option value="exact">Exactly</option>
-                        <option value="greater">Greater than</option>
-                    </select>
-                    <input type="number" id="max-playtime" min="0" placeholder="120">
-                </div>
-            </div>
-<div class="filter-group">
-                <label>Year Published</label>
-                <div style="display: flex; gap: 0.5rem;">
-                    <select id="year-filter-type">
-                        <option value="exact">Exactly</option>
-                        <option value="greater">After</option>
-                        <option value="less">Before</option>
-                    </select>
-                    <input type="number" id="year-filter" min="1900" max="2030" placeholder="2020">
-                </div>
-</div>
-<div class="filter-group">
-                <label>Date Acquired</label>
-                <div style="display: flex; gap: 0.5rem;">
-                    <select id="date-acquired-filter-type">
-                        <option value="exact">Same Year As...</option>
-                        <option value="greater">After</option>
-                        <option value="less">Before</option>
-                    </select>
-                    <input type="date" id="date-acquired-filter">
-                </div>
-            </div>
-<div class="filter-group">
-    <label>Complexity (1-5)</label>
-    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-                    <div style="display: flex; gap: 0.25rem; align-items: center;">
-                        <span style="font-size: 0.8rem;">Min:</span>
-                        <select id="min-weight-type" style="width: auto;">
-                            <option value="greater">></option>
-                            <option value="exact">=</option>
-                        </select>
-                        <input type="number" id="min-weight" min="1" max="5" step="0.1" placeholder="1.0" style="width: 70px;">
-                    </div>
-                    <div style="display: flex; gap: 0.25rem; align-items: center;">
-                        <span style="font-size: 0.8rem;">Max:</span>
-                        <select id="max-weight-type" style="width: auto;">
-                            <option value="less"><</option>
-                            <option value="exact">=</option>
-                        </select>
-                        <input type="number" id="max-weight" min="1" max="5" step="0.1" placeholder="5.0" style="width: 70px;">
-                    </div>
-                </div>
-            </div>
-<div class="filter-group">
-    <label>Designer (select multiple)</label>
-    <div class="multiselect-container">
-        <div class="multiselect-dropdown" id="designer-filter-dropdown">
-            <div class="multiselect-selected">All Designers</div>
-            <div class="multiselect-options" id="designer-filter-options"></div>
         </div>
     </div>
-</div>
-            <div class="filter-group">
-                <label>Designer Contains</label>
-                <div style="display: flex; gap: 0.5rem;">
-                    <select id="designer-contains-filter-type">
-                        <option value="contains">Contains</option>
-                        <option value="exact">Exact</option>
-                        <option value="not-contains">Does not contain</option>
+
+    <!-- White row: Complexity -->
+    <div class="filter-row white">
+        <div class="filter-group">
+            <label>Complexity (1-5)</label>
+            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                <div style="display: flex; gap: 0.25rem; align-items: center;">
+                    <span style="font-size: 0.8rem;">Min:</span>
+                    <select id="min-weight-type" style="width: auto;">
+                        <option value="greater">></option>
+                        <option value="exact">=</option>
                     </select>
-                    <input type="text" id="designer-contains-filter" placeholder="Designer name">
+                    <input type="number" id="min-weight" min="1" max="5" step="0.1" placeholder="1.0" style="width: 70px;">
+                </div>
+                <div style="display: flex; gap: 0.25rem; align-items: center;">
+                    <span style="font-size: 0.8rem;">Max:</span>
+                    <select id="max-weight-type" style="width: auto;">
+                        <option value="less"><</option>
+                        <option value="exact">=</option>
+                    </select>
+                    <input type="number" id="max-weight" min="1" max="5" step="0.1" placeholder="5.0" style="width: 70px;">
                 </div>
             </div>
-<div class="filter-group">
-    <label>Designer Nationality (select multiple)</label>
-    <div class="multiselect-container">
-        <div class="multiselect-dropdown" id="designer-nationality-filter-dropdown">
-            <div class="multiselect-selected">All Nationalities</div>
-            <div class="multiselect-options" id="designer-nationality-filter-options"></div>
         </div>
     </div>
-</div>
-<div class="filter-group">
-                <label>Designer Nationality Contains</label>
-                <div style="display: flex; gap: 0.5rem;">
-                    <select id="designer-nationality-contains-filter-type">
-                        <option value="contains">Contains</option>
-                        <option value="exact">Exact</option>
-                        <option value="not-contains">Does not contain</option>
-                    </select>
-                    <input type="text" id="designer-nationality-contains-filter" placeholder="Nationality">
+
+    <!-- Gray row: Year Published, Date Acquired -->
+    <div class="filter-row gray">
+        <div class="filter-group">
+            <label>Year Published</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="year-filter-type">
+                    <option value="exact">Exactly</option>
+                    <option value="greater">After</option>
+                    <option value="less">Before</option>
+                </select>
+                <input type="number" id="year-filter" min="1900" max="2030" placeholder="2020">
+            </div>
+        </div>
+        <div class="filter-group">
+            <label>Date Acquired</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="date-acquired-filter-type">
+                    <option value="exact">Same Year As...</option>
+                    <option value="greater">After</option>
+                    <option value="less">Before</option>
+                </select>
+                <input type="date" id="date-acquired-filter">
+            </div>
+        </div>
+    </div>
+
+    <!-- White row: Min Playtime, Max Playtime -->
+    <div class="filter-row white">
+        <div class="filter-group">
+            <label>Min Playtime</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="min-playtime-type">
+                    <option value="greater">Greater than</option>
+                    <option value="exact">Exactly</option>
+                    <option value="less">Less than</option>
+                </select>
+                <input type="number" id="min-playtime" min="0" placeholder="30">
+            </div>
+        </div>
+        <div class="filter-group">
+            <label>Max Playtime</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="max-playtime-type">
+                    <option value="less">Less than</option>
+                    <option value="exact">Exactly</option>
+                    <option value="greater">Greater than</option>
+                </select>
+                <input type="number" id="max-playtime" min="0" placeholder="120">
+            </div>
+        </div>
+    </div>
+
+    <!-- Gray row: Designer (select multiple), Designer Does Not Contain -->
+    <div class="filter-row gray">
+        <div class="filter-group">
+            <label>Designer (select multiple)</label>
+            <div class="multiselect-container">
+                <div class="multiselect-dropdown" id="designer-filter-dropdown">
+                    <div class="multiselect-selected">All Designers</div>
+                    <div class="multiselect-options" id="designer-filter-options"></div>
                 </div>
             </div>
-<div class="filter-group">
-    <label>Artist (select multiple)</label>
-    <div class="multiselect-container">
-        <div class="multiselect-dropdown" id="artist-filter-dropdown">
-            <div class="multiselect-selected">All Artists</div>
-            <div class="multiselect-options" id="artist-filter-options"></div>
+        </div>
+        <div class="filter-group">
+            <label>Designer Does Not Contain</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="designer-contains-filter-type">
+                    <option value="contains">Contains</option>
+                    <option value="not-contains" selected>Does not contain</option>
+                </select>
+                <input type="text" id="designer-contains-filter" placeholder="Designer name">
+            </div>
         </div>
     </div>
-</div>
-            <div class="filter-group">
-                <label>Artist Contains</label>
-                <div style="display: flex; gap: 0.5rem;">
-                    <select id="artist-contains-filter-type">
-                        <option value="contains">Contains</option>
-                        <option value="exact">Exact</option>
-                        <option value="not-contains">Does not contain</option>
-                    </select>
-                    <input type="text" id="artist-contains-filter" placeholder="Artist name">
+
+    <!-- White row: Designer Nationality (select multiple), Designer Nationality Does Not Contain -->
+    <div class="filter-row white">
+        <div class="filter-group">
+            <label>Designer Nationality (select multiple)</label>
+            <div class="multiselect-container">
+                <div class="multiselect-dropdown" id="designer-nationality-filter-dropdown">
+                    <div class="multiselect-selected">All Nationalities</div>
+                    <div class="multiselect-options" id="designer-nationality-filter-options"></div>
                 </div>
             </div>
-<div class="filter-group">
-    <label>Publisher (select multiple)</label>
-    <div class="multiselect-container">
-        <div class="multiselect-dropdown" id="publisher-dropdown-filter-dropdown">
-            <div class="multiselect-selected">All Publishers</div>
-            <div class="multiselect-options" id="publisher-dropdown-filter-options"></div>
         </div>
-    </div>
-</div>
-<div class="filter-group">
-                <label>Publisher Contains</label>
-                <div style="display: flex; gap: 0.5rem;">
-                    <select id="publisher-filter-type">
-                        <option value="contains">Contains</option>
-                        <option value="exact">Exact</option>
-                        <option value="not-contains">Does not contain</option>
-                    </select>
-                    <input type="text" id="publisher-filter" placeholder="Publisher name">
-</div>
+        <div class="filter-group">
+            <label>Designer Nationality Does Not Contain</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="designer-nationality-contains-filter-type">
+                    <option value="contains">Contains</option>
+                    <option value="not-contains" selected>Does not contain</option>
+                </select>
+                <input type="text" id="designer-nationality-contains-filter" placeholder="Nationality">
             </div>
-<div class="filter-group">
-    <label>Publisher Countries (select multiple)</label>
-    <div class="multiselect-container">
-        <div class="multiselect-dropdown" id="publisher-country-dropdown-filter-dropdown">
-            <div class="multiselect-selected">All Publisher Countries</div>
-            <div class="multiselect-options" id="publisher-country-dropdown-filter-options"></div>
         </div>
     </div>
-</div>
-<div class="filter-group">
-    <label>Publisher Country Contains</label>
-    <div style="display: flex; gap: 0.5rem;">
-        <select id="publisher-country-filter-type">
-            <option value="contains">Contains</option>
-            <option value="exact">Exact</option>
-            <option value="not-contains">Does not contain</option>
-        </select>
-        <input type="text" id="publisher-country-filter" placeholder="Country">
-    </div>
-</div>
-<div class="filter-group">
-    <label>Notes</label>
-    <div style="display: flex; gap: 0.5rem;">
-        <select id="notes-filter-type">
-            <option value="contains">Contains</option>
-            <option value="exact">Exact</option>
-            <option value="not-contains">Does not contain</option>
-        </select>
-        <input type="text" id="notes-filter" placeholder="Search notes">
-    </div>
-</div>
-<div class="filter-group">
-    <label>Description</label>
-    <div style="display: flex; gap: 0.5rem;">
-        <select id="description-filter-type">
-            <option value="contains">Contains</option>
-            <option value="exact">Exact</option>
-            <option value="not-contains">Does not contain</option>
-        </select>
-        <input type="text" id="description-filter" placeholder="Search descriptions">
-    </div>
-</div>
-<div class="filter-group">
-    <label>Category (select multiple)</label>
-    <div class="multiselect-container">
-        <div class="multiselect-dropdown" id="category-filter-dropdown">
-            <div class="multiselect-selected">All Categories</div>
-            <div class="multiselect-options" id="category-filter-options"></div>
+
+    <!-- Gray row: Artist (select multiple), Artist Does Not Contain -->
+    <div class="filter-row gray">
+        <div class="filter-group">
+            <label>Artist (select multiple)</label>
+            <div class="multiselect-container">
+                <div class="multiselect-dropdown" id="artist-filter-dropdown">
+                    <div class="multiselect-selected">All Artists</div>
+                    <div class="multiselect-options" id="artist-filter-options"></div>
+                </div>
+            </div>
+        </div>
+        <div class="filter-group">
+            <label>Artist Does Not Contain</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="artist-contains-filter-type">
+                    <option value="contains">Contains</option>
+                    <option value="not-contains" selected>Does not contain</option>
+                </select>
+                <input type="text" id="artist-contains-filter" placeholder="Artist name">
+            </div>
         </div>
     </div>
-</div>
-<div class="filter-group">
-    <label>Category Contains</label>
-    <div style="display: flex; gap: 0.5rem;">
-        <select id="category-contains-filter-type">
-            <option value="contains">Contains</option>
-            <option value="exact">Exact</option>
-            <option value="not-contains">Does not contain</option>
-        </select>
-        <input type="text" id="category-contains-filter" placeholder="Category name">
-    </div>
-</div>
-<div class="filter-group">
-    <label>Mechanisms (select multiple)</label>
-    <div class="multiselect-container">
-        <div class="multiselect-dropdown" id="mechanisms-filter-dropdown">
-            <div class="multiselect-selected">All Mechanisms</div>
-            <div class="multiselect-options" id="mechanisms-filter-options"></div>
+
+    <!-- White row: Publisher (select multiple), Publisher Does Not Contain -->
+    <div class="filter-row white">
+        <div class="filter-group">
+            <label>Publisher (select multiple)</label>
+            <div class="multiselect-container">
+                <div class="multiselect-dropdown" id="publisher-dropdown-filter-dropdown">
+                    <div class="multiselect-selected">All Publishers</div>
+                    <div class="multiselect-options" id="publisher-dropdown-filter-options"></div>
+                </div>
+            </div>
+        </div>
+        <div class="filter-group">
+            <label>Publisher Does Not Contain</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="publisher-filter-type">
+                    <option value="contains">Contains</option>
+                    <option value="not-contains" selected>Does not contain</option>
+                </select>
+                <input type="text" id="publisher-filter" placeholder="Publisher name">
+            </div>
         </div>
     </div>
-</div>
-<div class="filter-group">
-    <label>Mechanisms Contains</label>
-    <div style="display: flex; gap: 0.5rem;">
-        <select id="mechanisms-contains-filter-type">
-            <option value="contains">Contains</option>
-            <option value="exact">Exact</option>
-            <option value="not-contains">Does not contain</option>
-        </select>
-        <input type="text" id="mechanisms-contains-filter" placeholder="Mechanism name">
+
+    <!-- Gray row: Publisher Location (select multiple), Publisher Location Does Not Contain -->
+    <div class="filter-row gray">
+        <div class="filter-group">
+            <label>Publisher Location (select multiple)</label>
+            <div class="multiselect-container">
+                <div class="multiselect-dropdown" id="publisher-country-dropdown-filter-dropdown">
+                    <div class="multiselect-selected">All Publisher Countries</div>
+                    <div class="multiselect-options" id="publisher-country-dropdown-filter-options"></div>
+                </div>
+            </div>
+        </div>
+        <div class="filter-group">
+            <label>Publisher Location Does Not Contain</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="publisher-country-filter-type">
+                    <option value="contains">Contains</option>
+                    <option value="not-contains" selected>Does not contain</option>
+                </select>
+                <input type="text" id="publisher-country-filter" placeholder="Country">
+            </div>
+        </div>
+    </div>
+
+    <!-- White row: Notes, Description -->
+    <div class="filter-row white">
+        <div class="filter-group">
+            <label>Notes</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="notes-filter-type">
+                    <option value="contains">Contains</option>
+                    <option value="exact">Exact</option>
+                    <option value="not-contains">Does not contain</option>
+                </select>
+                <input type="text" id="notes-filter" placeholder="Search notes">
+            </div>
+        </div>
+        <div class="filter-group">
+            <label>Description</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="description-filter-type">
+                    <option value="contains">Contains</option>
+                    <option value="exact">Exact</option>
+                    <option value="not-contains">Does not contain</option>
+                </select>
+                <input type="text" id="description-filter" placeholder="Search descriptions">
+            </div>
+        </div>
+    </div>
+
+    <!-- Gray row: Category (select multiple), Category Contains -->
+    <div class="filter-row gray">
+        <div class="filter-group">
+            <label>Category (select multiple)</label>
+            <div class="multiselect-container">
+                <div class="multiselect-dropdown" id="category-filter-dropdown">
+                    <div class="multiselect-selected">All Categories</div>
+                    <div class="multiselect-options" id="category-filter-options"></div>
+                </div>
+            </div>
+        </div>
+        <div class="filter-group">
+            <label>Category Contains</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="category-contains-filter-type">
+                    <option value="contains">Contains</option>
+                    <option value="exact">Exact</option>
+                    <option value="not-contains">Does not contain</option>
+                </select>
+                <input type="text" id="category-contains-filter" placeholder="Category name">
+            </div>
+        </div>
+    </div>
+
+    <!-- White row: Mechanisms (select multiple), Mechanisms Contains -->
+    <div class="filter-row white">
+        <div class="filter-group">
+            <label>Mechanisms (select multiple)</label>
+            <div class="multiselect-container">
+                <div class="multiselect-dropdown" id="mechanisms-filter-dropdown">
+                    <div class="multiselect-selected">All Mechanisms</div>
+                    <div class="multiselect-options" id="mechanisms-filter-options"></div>
+                </div>
+            </div>
+        </div>
+        <div class="filter-group">
+            <label>Mechanisms Contains</label>
+            <div style="display: flex; gap: 0.5rem;">
+                <select id="mechanisms-contains-filter-type">
+                    <option value="contains">Contains</option>
+                    <option value="exact">Exact</option>
+                    <option value="not-contains">Does not contain</option>
+                </select>
+                <input type="text" id="mechanisms-contains-filter" placeholder="Mechanism name">
+            </div>
+        </div>
+    </div>
+
+    <!-- Gray row: Custom Filters -->
+    <div class="filter-row gray">
+        <div class="filter-group">
+            <label>Custom Filters</label>
+            <button class="btn" id="add-custom-filter">Add Custom Filter</button>
+        </div>
+        <div id="custom-filters-container"></div>
     </div>
 </div>
 
-        </div>
-       <div class="filter-row">
-           <div class="filter-group">
-               <label>Custom Filters</label>
-               <button class="btn" id="add-custom-filter">Add Custom Filter</button>
-           </div>
-           <div id="custom-filters-container"></div>
-       </div>
-   </div>
 
 <div class="container">
     <div class="add-game-form" id="add-game-form">
