@@ -16218,92 +16218,9 @@
         "Real-Time"
       ],
       "customFields": {}
-    },
-    "1751520856987": {
-      "bggId": "1751520856987",
-      "bggUrl": "https://boardgamegeek.com/boardgame/68448/7-wonders",
-      "name": "7 Wonders",
-      "year": 2010,
-      "dateAcquired": "1991-11-19",
-      "players": {
-        "min": 2,
-        "max": 7
-      },
-      "playtime": {
-        "min": 30,
-        "max": 30
-      },
-      "weight": 2.3,
-      "weightColor": "#cfa200",
-      "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        7
-      ],
-      "designers": [
-        "Antoine Bauza"
-      ],
-      "artists": [
-        "Dimitri Chappuis",
-        "Miguel Coimbra",
-        "Etienne Hebinger",
-        "Cyril Nouvel"
-      ],
-      "publishers": [
-        "Repos Production",
-        "ADC Blackfire Entertainment",
-        "Asterion Press",
-        "Galápagos Jogos",
-        "Gém Klub Kft.",
-        "Hobby Japan",
-        "Kaissa Chess & Games",
-        "Korea Boardgames",
-        "Lautapelit.fi",
-        "Lifestyle Boardgames Ltd",
-        "NeoTroy Games",
-        "Rebel Sp. z o.o.",
-        "Siam Board Games"
-      ],
-      "designerNationality": [],
-      "publisherCountry": [],
-      "images": [
-        "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__original/img/jt70jJDZ1y1FWJs4ZQf5FI8APVY=/0x0/filters:format(jpeg)/pic7149798.jpg",
-        "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__thumb/img/BUOso8b0M1aUOkU80FWlhE8uuxc=/fit-in/200x150/filters:strip_icc()/pic7149798.jpg"
-      ],
-      "notes": "",
-      "description": "You are the leader of one of the 7 great cities of the Ancient World. Gather resources, develop commercial routes, and affirm your military supremacy. Build your city and erect an architectural wonder which will transcend future times.&#10;&#10;7 Wonders lasts three ages. In each age, players receive seven cards from a particular deck, choose one of those cards, then pass the remainder to an adjacent player. Players reveal their cards simultaneously, paying resources if needed or collecting resources or interacting with other players in various ways. (Players have individual boards with special powers on which to organize their cards, and the boards are double-sided). Each player then chooses another card from the deck they were passed, and the process repeats until players have six cards in play from that age. After three ages, the game ends.&#10;&#10;In essence, 7 Wonders is a card development game. Some cards have immediate effects, while others provide bonuses or upgrades later in the game. Some cards provide discounts on future purchases. Some provide military strength to overpower your neighbors and others give nothing but victory points. Each card is played immediately after being drafted, so you'll know which cards your neighbor is receiving and how her choices might affect what you've already built up. Cards are passed left-right-left over the three ages, so you need to keep an eye on the neighbors in both directions.&#10;&#10;Though the box of earlier editions is listed as being for 3&ndash;7 players, there is an official 2-player variant included in the instructions.&#10;&#10;",
-      "category": [
-        "Ancient",
-        "Card Game",
-        "City Building",
-        "Civilization",
-        "Economic"
-      ],
-      "mechanisms": [
-        "Closed Drafting",
-        "End Game Bonuses",
-        "Hand Management",
-        "Melding and Splaying",
-        "Multi-Use Cards",
-        "Neighbor Scope",
-        "Once-Per-Game Abilities",
-        "Score-and-Reset Game",
-        "Set Collection",
-        "Simultaneous Action Selection",
-        "Tags",
-        "Tech Trees / Tech Tracks",
-        "Variable Player Powers",
-        "Variable Set-up"
-      ],
-      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-03T05:34:16.987Z",
+  "lastModified": "2025-07-03T20:23:35.064Z",
   "version": "1.0"
 }
