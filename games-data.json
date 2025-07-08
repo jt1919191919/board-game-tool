@@ -7404,7 +7404,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/28023/jamaica",
       "name": "Jamaica",
       "year": 2007,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-01-04",
       "players": {
         "min": 2,
         "max": 6
@@ -7416,11 +7416,8 @@
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5,
-        6,
         6
       ],
       "designers": [
@@ -7441,13 +7438,17 @@
         "Popcorn Games",
         "Rebel Sp. z o.o."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/jZRfv3isrBG5waCzEx60Cw__original/img/aLqKSqw-RWyR4wyfFUywWMQXUTc=/0x0/filters:format(png)/pic6434838.png",
         "https://cf.geekdo-images.com/jZRfv3isrBG5waCzEx60Cw__thumb/img/6q5nirF5yn1d0qtjm2UEI5HV874=/fit-in/200x150/filters:strip_icc()/pic6434838.png"
       ],
-      "notes": "",
+      "notes": "Space Cowboys owned by Asmodee",
       "description": "Summary: This is a pirate-themed tactical race game with player interaction and side goals (e.g. detouring for treasure).  The winner is the player who best balances their position in the race with their success at the side goals.\n\nSetting: Jamaica, 1675.\nAfter a long career in piracy, Captain Henry Morgan skillfully gets appointed to be Governor of Jamaica, with the explicit order to cleanse the Caribbean of pirates and buccaneers! Instead, he invites all of his former \"colleagues\" to join him in his retirement, to enjoy the fruits of their looting with impunity. Each year, in remembrance  of the \"good old days,\" Morgan organizes the Great Challenge, a race around the island, and at its end, the Captain with the most gold is declared Grand Winner.\n\nGoal: The game ends on the turn when at least one player's ship reaches the finish line, completing one circuit around the island of Jamaica. At that point, players are awarded different amounts of gold in accordance with how far away from the finish line they were when the race concluded. This gold is added to any gold a player gathered along the way by detouring from the race to search for valuable treasure, by stealing gold or treasure from other players, or just by loading gold as directed by the cards the player played during the race. The player with the most total gold acquired through all these means is then declared the winner.\n\nGameplay: The game is played in rounds. Each player always has a hand of three cards, and a personal board depicting the five \"holds\" of their ship, into which goods can be loaded during the game. Each round, one player is designated as \"captain,\" with the next clockwise player being captain in the following round, and so on. The captain rolls two standard D6 dice, examines her cards, then announces which die will correspond to the \"day\" and which to the \"night.\" Each player then simultaneously selects a card from their hand and places it face down in front of them. Each card has two symbols on it, one on the left - corresponding to \"day\" - and one on the right (\"night\"). The symbols indicate either ship movement (forward or backward) or the loading of a type of good. After every player has selected a card, all cards are revealed simultaneously and then resolved clockwise one by one, starting with the captain's. When it is a player's turn to resolve her card, for first the left symbol on her card and then for the right symbol, the player will load a number of goods or move a number of spaces equal to the number of pips showing on the corresponding day or night die for that round. Thus the main decision each player makes during the game is which of their current three cards would best serve them on a particular turn, given the values of the day and night dice.  Finally, during the race, when a player lands on a spot already occupied by another player, there is a battle. Battles are mainly resolved by rolling a \"combat\" die, but players may improve their chances by using \"gunpowder\" tokens from their holds, if they loaded any on previous turns. The winner of a battle may steal some goods or treasure from the loser.\n\n",
       "category": [
         "Nautical",
@@ -7484,16 +7485,7 @@
       },
       "weight": 1.1,
       "weightColor": "#008000",
-      "bestPlayerCount": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        8
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Leslie Scott"
       ],
@@ -7572,7 +7564,10 @@
         "Десятое королевство"
       ],
       "designerNationality": [],
-      "publisherCountry": [],
+      "publisherCountry": [
+        "USA",
+        "Rhode Island"
+      ],
       "images": [
         "https://cf.geekdo-images.com/YH5C06snaoJtDqKjwMROPw__original/img/gB1mfMGbSkXgYxU5FA4QWForCZk=/0x0/filters:format(jpeg)/pic5140451.jpg",
         "https://cf.geekdo-images.com/YH5C06snaoJtDqKjwMROPw__thumb/img/cSHIiN_mZQEqKMI1G7qRbTMp4nk=/fit-in/200x150/filters:strip_icc()/pic5140451.jpg"
@@ -7595,7 +7590,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/254640/just-one",
       "name": "Just One",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-09-13",
       "players": {
         "min": 3,
         "max": 7
@@ -7607,11 +7602,8 @@
       "weight": 1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
-        4,
         5,
         6,
-        7,
         7
       ],
       "designers": [
@@ -7643,13 +7635,18 @@
         "Nordic Games ehf",
         "Rebel Sp. z o.o."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France",
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Belgium"
+      ],
       "images": [
         "https://cf.geekdo-images.com/mHiOQYYPdSkM2xjEO3CNfA__original/img/z1F6yfBZVuLtOGw9_k7Fdv1ybTc=/0x0/filters:format(png)/pic8933221.png",
         "https://cf.geekdo-images.com/mHiOQYYPdSkM2xjEO3CNfA__thumb/img/SK9iEwW4--SZDt6t12HwgbzmBKc=/fit-in/200x150/filters:strip_icc()/pic8933221.png"
       ],
-      "notes": "",
+      "notes": "Designers of 7th Continent. Repos owned by Asmodee",
       "description": "Just One is a cooperative party game in which you play together to discover as many mystery words as possible. Find the best clue to help your teammate. Be unique, as all identical clues will be cancelled!\n\nA complete game is played over 13 cards. The goal is to get a score as close to 13 as possible. In case of a right answer, the players score 1 point. In case of wrong answer, they lose the current card as well as the top card of the deck. Thus losing 2 points. In case of lack of answer, the players only lose the current card, and therefore only 1 point.\n\nYou have the choice – make the difference!\n\nSmall Historical Point:\n\nOriginally, Just One was called We Are The Word and was published by Fun Consortium.\n\nRepos Production bought the rights in early 2018 and adapted the game. The Sombrero-wearing Belgians decided to improve the quality of the components, add 50 new words, and change the name of the game. Following this new edition, the game went from having only a French edition to having a world-wide edition.\n\n",
       "category": [
         "Deduction",
@@ -16263,6 +16260,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-08T16:26:38.131Z",
+  "lastModified": "2025-07-08T16:46:15.390Z",
   "version": "1.0"
 }
