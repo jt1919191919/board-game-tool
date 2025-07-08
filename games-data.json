@@ -6826,7 +6826,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/177524/icecool",
       "name": "ICECOOL",
       "year": 2016,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-06-07",
       "players": {
         "min": 2,
         "max": 4
@@ -6838,9 +6838,11 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
         4,
-        4
+        5,
+        6,
+        7,
+        8
       ],
       "designers": [
         "Brian Gomez"
@@ -6866,8 +6868,12 @@
         "SD Games",
         "Swan Panasia Co."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Latvia"
+      ],
+      "publisherCountry": [
+        "Latvia"
+      ],
       "images": [
         "https://cf.geekdo-images.com/xVx8ex1fjO9C7W8rRvWdVQ__original/img/rIyNSXqNgGs4Yqt0xL5CdTp9grg=/0x0/filters:format(png)/pic3320017.png",
         "https://cf.geekdo-images.com/xVx8ex1fjO9C7W8rRvWdVQ__thumb/img/7ZeCdaJWigksF5wUHTGGXmmfP6Y=/fit-in/200x150/filters:strip_icc()/pic3320017.png"
@@ -6891,7 +6897,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/244513/icecool2",
       "name": "ICECOOL2",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-03-13",
       "players": {
         "min": 2,
         "max": 4
@@ -6903,10 +6909,11 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
         4,
-        4
+        5,
+        6,
+        7,
+        8
       ],
       "designers": [
         "Brian Gomez"
@@ -6923,8 +6930,12 @@
         "SD Games",
         "Swan Panasia Co."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Latvia"
+      ],
+      "publisherCountry": [
+        "Latvia"
+      ],
       "images": [
         "https://cf.geekdo-images.com/IgZB5TaWWO1QLHH5T00MYQ__original/img/Zqbelz4KwjKLRehko4XfhV45g-Y=/0x0/filters:format(png)/pic3950733.png",
         "https://cf.geekdo-images.com/IgZB5TaWWO1QLHH5T00MYQ__thumb/img/v0Fd9V6xE541Qy_NIue77K9cMc8=/fit-in/200x150/filters:strip_icc()/pic3950733.png"
@@ -6948,7 +6959,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/191862/imhotep",
       "name": "Imhotep",
       "year": 2016,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-01-03",
       "players": {
         "min": 2,
         "max": 4
@@ -6960,8 +6971,6 @@
       "weight": 2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -6986,8 +6995,12 @@
         "Vennerød Forlag AS",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Australia"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/HkAt5n4R8XM0vNozl7fftA__original/img/934t5i7J90wlw6mb6p2m_3u98i0=/0x0/filters:format(jpeg)/pic3029488.jpg",
         "https://cf.geekdo-images.com/HkAt5n4R8XM0vNozl7fftA__thumb/img/1JpxGZSWJf3mxnZZGaGOTqExoH4=/fit-in/200x150/filters:strip_icc()/pic3029488.jpg"
@@ -7012,7 +7025,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/15512/diamant",
       "name": "Incan Gold",
       "year": 2005,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-06-15",
       "players": {
         "min": 3,
         "max": 8
@@ -7024,12 +7037,9 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
-        4,
         5,
         6,
         7,
-        8,
         8
       ],
       "designers": [
@@ -7072,8 +7082,14 @@
         "Swan Panasia Co.",
         "Yes Papa Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK",
+        "England"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Kentucky"
+      ],
       "images": [
         "https://cf.geekdo-images.com/xPuQ_NYaoKWEUhugIDA3yA__original/img/kPOT6llwnZBDjeRq8LopasPm1Go=/0x0/filters:format(jpeg)/pic8279658.jpg",
         "https://cf.geekdo-images.com/xPuQ_NYaoKWEUhugIDA3yA__thumb/img/osrBmn2JqDeBylg8bvqaVOCVGTI=/fit-in/200x150/filters:strip_icc()/pic8279658.jpg"
@@ -7096,7 +7112,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/233678/indian-summer",
       "name": "Indian Summer",
       "year": 2017,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-05-03",
       "players": {
         "min": 1,
         "max": 4
@@ -7108,8 +7124,6 @@
       "weight": 2.1,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -7135,13 +7149,18 @@
         "Stronghold Games",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA",
+        "New Jersey"
+      ],
       "images": [
         "https://cf.geekdo-images.com/bloH9_cfn7U0ZxilTblA9w__original/img/IjHukKO5WsikTedbIT5aQw4Q8wk=/0x0/filters:format(jpeg)/pic3749870.jpg",
         "https://cf.geekdo-images.com/bloH9_cfn7U0ZxilTblA9w__thumb/img/8L96NRWJxXeFgtYSivzGYPtMlNU=/fit-in/200x150/filters:strip_icc()/pic3749870.jpg"
       ],
-      "notes": "",
+      "notes": "Stronghold merged with Indie Boards Cards",
       "description": "Before winter makes its appearance, a particularly warm fall bathes the forest in a golden shimmer. During the Indian Summer, New England blossoms one last time. Treetops are ablaze with countless colors — a living rainbow, from green to orange to red. Slowly the first leaves are starting to fall. Meanwhile, our steps and the diligent squirrels rustle the colorful foliage.\n\nOn our walks through the woods, we discover all kinds of little treasures; we collect berries, nuts, mushrooms and feathers. We pause for a moment to watch the shy inhabitants of the forest before we set off towards home once again. There, a good book and a hot tea are already awaiting.\n\nIndian Summer is the second part of Uwe Rosenberg's puzzle trilogy following 2016's Cottage Garden, and this game is firmly geared towards experienced players. At the heart of the game are puzzle tiles with holes that are placed on individual forest boards to cover up treasures. When players get their hands on these, they gain more options and an edge over their opponents. All that counts in the end is to be the first to cover your forest floor completely with leaves.\n\n",
       "category": [
         "Abstract Strategy",
@@ -7162,7 +7181,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/9674/ingenious",
       "name": "Ingenious",
       "year": 2004,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-19",
       "players": {
         "min": 1,
         "max": 4
@@ -7174,8 +7193,6 @@
       "weight": 1.9,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -7224,8 +7241,12 @@
         "Tilsit",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/_qEEUfI9DxtfVxYCerAvsQ__original/img/2s1PbJDhGgIHkdF_-_S3dmcTW_8=/0x0/filters:format(jpeg)/pic7633115.jpg",
         "https://cf.geekdo-images.com/_qEEUfI9DxtfVxYCerAvsQ__thumb/img/03ERw7OIGzvbuGKm3L5fWO1bqFQ=/fit-in/200x150/filters:strip_icc()/pic7633115.jpg"
@@ -7250,7 +7271,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/324278/inkling",
       "name": "Inkling",
       "year": 2021,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-08-05",
       "players": {
         "min": 3,
         "max": 6
@@ -7276,8 +7297,13 @@
         "Lucrum Games",
         "Osprey Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK"
+      ],
+      "publisherCountry": [
+        "UK",
+        "Oxford"
+      ],
       "images": [
         "https://cf.geekdo-images.com/4qz5VHR_8PPZtH0bbwe9lg__original/img/NHTGnCQMsBsP4NT2RPDDN_K9ANc=/0x0/filters:format(jpeg)/pic5777989.jpg",
         "https://cf.geekdo-images.com/4qz5VHR_8PPZtH0bbwe9lg__thumb/img/UgmvMjFNzO7cGv2uvGhcbF9Pd7I=/fit-in/200x150/filters:strip_icc()/pic5777989.jpg"
@@ -7296,7 +7322,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/281259/isle-cats",
       "name": "The Isle of Cats",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-04-15",
       "players": {
         "min": 1,
         "max": 4
@@ -7308,10 +7334,7 @@
       "weight": 2.4,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -7338,8 +7361,16 @@
         "Yayoi The Dreamer",
         "YOKA Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK",
+        "England",
+        "Bristol"
+      ],
+      "publisherCountry": [
+        "UK",
+        "England",
+        "Bristol"
+      ],
       "images": [
         "https://cf.geekdo-images.com/AuAheDzhkLufiZFE9JaRNA__original/img/pKq-l1Ms78olHwMbZYMa_x6m-fM=/0x0/filters:format(jpeg)/pic4781085.jpg",
         "https://cf.geekdo-images.com/AuAheDzhkLufiZFE9JaRNA__thumb/img/gENtMHYJDff6XaGGOYw9oSZShCs=/fit-in/200x150/filters:strip_icc()/pic4781085.jpg"
@@ -16232,6 +16263,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-08T16:12:00.350Z",
+  "lastModified": "2025-07-08T16:26:38.131Z",
   "version": "1.0"
 }
