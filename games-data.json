@@ -6470,7 +6470,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/269144/hadara",
       "name": "Hadara",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-01-04",
       "players": {
         "min": 2,
         "max": 5
@@ -6482,8 +6482,6 @@
       "weight": 2.2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5
       ],
@@ -6508,13 +6506,18 @@
         "Piatnik",
         "Z-Man Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA",
+        "New York"
+      ],
       "images": [
         "https://cf.geekdo-images.com/17wJNXSBYuVmKryV9lEKsQ__original/img/3z-EkL0nYgFKPWI9jr0Hd8qeLBk=/0x0/filters:format(jpeg)/pic5099398.jpg",
         "https://cf.geekdo-images.com/17wJNXSBYuVmKryV9lEKsQ__thumb/img/nVMvEWrTFCoOE9Y3tqFLelkjYWw=/fit-in/200x150/filters:strip_icc()/pic5099398.jpg"
       ],
-      "notes": "",
+      "notes": "ZMan owned by Asmodee",
       "description": "Hadara carries you off into the world of cultures and countries of this earth. Over three epochs, you will experience the transformation of your new world from a small settlement to a high culture. You want to populate this world with people who come from different cultures and continents as well as different ages. To bring glory and honor to your world, you should choose the persons and accomplishments skillfully. But you should not ignore agriculture, culture, and military power, otherwise one of your competitors might get bigger and more successful than you. Who will succeed first in creating a new flourishing high culture?\n\n—description from the publisher\n\n•••\n\nHadara entführt dich in die Welt der Kulturen und Länder dieser Erde.\n\nÜber 3 Epochen hinweg erlebst du die Verwandlung deiner neuen Welt von einer kleinen Siedlung zu einer Hochkultur.\nDu willst diese Welt mit Personen besiedeln, die dabei aus verschiedenen Kulturkreisen, Kontinenten aber auch Zeitaltern stammen. \nUm deiner Welt zu viel Ruhm und Ehre zu verhelfen, solltest du die Personen und Errungenschaften geschickt aussuchen. Dabei solltest du aber die Landwirtschaft, die Kultur und die militärische Macht nicht außer Acht lassen, sonst kann es passieren, dass einer deiner Mitkonkurrenten größer und erfolgreicher wird. Wem gelingt es zuerst, eine neue blühende Hochkultur zu erschaffen?\n—description from the publisher (German)\n\n",
       "category": [
         "City Building",
@@ -6534,7 +6537,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/158600/hanamikoji",
       "name": "Hanamikoji",
       "year": 2013,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-04-11",
       "players": {
         "min": 2,
         "max": 2
@@ -6546,7 +6549,6 @@
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         2
       ],
       "designers": [
@@ -6577,8 +6579,12 @@
         "White Goblin Games",
         "Zvezda"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Japan"
+      ],
+      "publisherCountry": [
+        "Taiwan"
+      ],
       "images": [
         "https://cf.geekdo-images.com/uiVZ7QVfRFQx3EBG8eDU8w__original/img/tLBrF40IDpARzoiUor4wwUvWXgY=/0x0/filters:format(png)/pic6339446.png",
         "https://cf.geekdo-images.com/uiVZ7QVfRFQx3EBG8eDU8w__thumb/img/SUy42NMiK5gx-kLqmV47drIxEU0=/fit-in/200x150/filters:strip_icc()/pic6339446.png"
@@ -6604,7 +6610,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/195314/herbaceous",
       "name": "Herbaceous",
       "year": 2017,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2025-04-16",
       "players": {
         "min": 1,
         "max": 4
@@ -6616,8 +6622,6 @@
       "weight": 1.2,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -6663,7 +6667,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/341416/high-score",
       "name": "High Score",
       "year": 2021,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2025-04-27",
       "players": {
         "min": 2,
         "max": 5
@@ -6713,7 +6717,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/201308/hive-mind",
       "name": "Hive Mind",
       "year": 2011,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-12-01",
       "players": {
         "min": 3,
         "max": 12
@@ -6726,7 +6730,12 @@
       "weightColor": "#008000",
       "bestPlayerCount": [
         6,
-        10
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
       ],
       "designers": [
         "Richard Garfield"
@@ -6759,7 +6768,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/302520/hues-and-cues",
       "name": "Hues and Cues",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-06-22",
       "players": {
         "min": 3,
         "max": 10
@@ -6771,9 +6780,6 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
-        4,
-        5,
         6,
         7,
         8,
@@ -6789,13 +6795,18 @@
         "CMON Global Limited",
         "Lanlalen"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__original/img/i8nlw_c9CYgJMzixadYVh7GTTPc=/0x0/filters:format(jpeg)/pic5390676.jpg",
         "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__thumb/img/EJ5gcczwsYvSavYuO4UoNPS45vo=/fit-in/200x150/filters:strip_icc()/pic5390676.jpg"
       ],
-      "notes": "",
+      "notes": "The OP is formerly called USAopoly.",
       "description": "What hue do you think of when we say “apple”? Hues and Cues is a vibrant game of colorful communication where players are challenged to make connections to colors with words. Using only one and two-word cues, players try to get others to guess a specific hue from the 480 colors on the game board. The closer the guesses are to the target, the more points you earn. Since everyone imagines colors differently, connecting colors and clues has never been this much fun!\n\nGather around with three to ten people to play a quick and simple game with a prism of possibilities! First, a “cue giver” hides a specific color they’ve chosen out of a deck of cards. There are 480 shades on the board in front of you! After getting one- and two-word cues, everyone places their marker on which color they think is being described. “Coffee.” Is it dark brown, as in freshly brewed? “Au lait.” With milk. That means I should pick a lighter shade!\n\nUse examples from everyday life, from nature to pop culture, or materials and moods. Everyone around the table gets a turn to give cues and guess. The better your hints or guesses, the more points you earn. Play off others' experiences to narrow down what they have in mind!\n\n—description from the publisher\n\n",
       "category": [
         "Deduction",
@@ -16080,7 +16091,7 @@
     "1750520441224": {
       "bggId": "1750520441224",
       "bggUrl": "https://boardgamegeek.com/boardgame/300329/harry-potter-strike-dice-game",
-      "name": "Harry Potter Strike Dice Game",
+      "name": "Strike Dice Game (Harry Potter edition)",
       "year": 2020,
       "dateAcquired": "1991-11-19",
       "players": {
@@ -16221,6 +16232,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-03T20:23:35.064Z",
+  "lastModified": "2025-07-08T16:12:00.350Z",
   "version": "1.0"
 }
