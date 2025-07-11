@@ -9076,7 +9076,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/195421/near-and-far",
       "name": "Near and Far",
       "year": 2017,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-06-20",
       "players": {
         "min": 2,
         "max": 4
@@ -9088,8 +9088,6 @@
       "weight": 2.9,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -9152,7 +9150,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/21241/neuroshima-hex-30",
       "name": "Neuroshima Hex",
       "year": 2006,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-03-24",
       "players": {
         "min": 1,
         "max": 4
@@ -9164,10 +9162,7 @@
       "weight": 2.6,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -9197,8 +9192,12 @@
         "Stratelibri",
         "Z-Man Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Poland"
+      ],
+      "publisherCountry": [
+        "Poland"
+      ],
       "images": [
         "https://cf.geekdo-images.com/JKniOrcvHvLWRlWc-naC8w__original/img/ARpT9WzMYRVKbSib6LRxGimOpYQ=/0x0/filters:format(png)/pic8654429.png",
         "https://cf.geekdo-images.com/JKniOrcvHvLWRlWc-naC8w__thumb/img/p7XKd7o6W3YRoFQye0ixdRYk-fU=/fit-in/200x150/filters:strip_icc()/pic8654429.png"
@@ -9231,7 +9230,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/300877/new-york-zoo",
       "name": "New York Zoo",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-05-29",
       "players": {
         "min": 1,
         "max": 5
@@ -9243,8 +9242,6 @@
       "weight": 1.9,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4,
         5
@@ -9269,8 +9266,12 @@
         "Super Meeple",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/8vqr1uYik715mqDqy0W9vg__original/img/n_Q1WMkgDeNke6RdnagDS6j1lcc=/0x0/filters:format(jpeg)/pic5673404.jpg",
         "https://cf.geekdo-images.com/8vqr1uYik715mqDqy0W9vg__thumb/img/Bu97VesRjdbQO2PxfuOrdC6icd8=/fit-in/200x150/filters:strip_icc()/pic5673404.jpg"
@@ -9297,7 +9298,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/306321/night-ninja",
       "name": "Night of the Ninja",
       "year": 2021,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-05-05",
       "players": {
         "min": 4,
         "max": 11
@@ -9309,7 +9310,6 @@
       "weight": 1.9,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        5,
         6,
         7,
         8,
@@ -9329,8 +9329,14 @@
         "GaGa Games",
         "狗吠火車"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Nevada"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__original/img/ylHi_WPL5I4FAHbQaaOm5QZW7uc=/0x0/filters:format(jpeg)/pic5426946.jpg",
         "https://cf.geekdo-images.com/pa0kO7-PZkfuqEAvX384oQ__thumb/img/r6HitXm51jUA9MgnzrObznLnGUM=/fit-in/200x150/filters:strip_icc()/pic5426946.jpg"
@@ -9354,7 +9360,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/269752/noctiluca",
       "name": "Noctiluca",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-12-28",
       "players": {
         "min": 1,
         "max": 4
@@ -9366,8 +9372,6 @@
       "weight": 1.3,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -16306,6 +16310,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-11T22:32:43.436Z",
+  "lastModified": "2025-07-11T22:47:37.405Z",
   "version": "1.0"
 }
