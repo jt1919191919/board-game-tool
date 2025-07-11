@@ -7999,7 +7999,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/160851/lanterns-harvest-festival",
       "name": "Lanterns: The Harvest Festival",
       "year": 2015,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-04-30",
       "players": {
         "min": 2,
         "max": 4
@@ -8011,7 +8011,6 @@
       "weight": 1.5,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -8036,13 +8035,20 @@
         "Pegasus Spiele",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Massachusetts"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Texas",
+        "Dallas"
+      ],
       "images": [
         "https://cf.geekdo-images.com/JmY4nVWwW98qEn0NRbKdTw__original/img/a5OqnY-e8hhVO1IHp6wZKnXHWlY=/0x0/filters:format(png)/pic2372790.png",
         "https://cf.geekdo-images.com/JmY4nVWwW98qEn0NRbKdTw__thumb/img/qQuRUZQAineOCl4abLvZgPjnqTE=/fit-in/200x150/filters:strip_icc()/pic2372790.png"
       ],
-      "notes": "",
+      "notes": "Foxtrot Games co publishers with Renegade.",
       "description": "The harvest is in, and the artisans are hard at work preparing for the upcoming festival. Decorate the palace lake with floating lanterns and compete to become the most honored artisan when the festival begins.\n\nIn Lanterns: The Harvest Festival, players have a hand of tiles depicting various color arrangements of floating lanterns, as well as an inventory of individual lantern cards of specific colors. When you place a tile, all players (you and your opponents) receive a lantern card corresponding to the color on the side of the tile facing them. Place carefully to earn cards and other bonuses for yourself, while also looking to deny your opponents. Players gain honor by dedicating sets of lantern cards — three pairs, for example, or all seven colors — and the player with the most honor at the end of the game wins.\n\n",
       "category": [
         "Abstract Strategy"
@@ -8060,7 +8066,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/3522/lcr",
       "name": "Left Right Center",
       "year": 1983,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-12-26",
       "players": {
         "min": 3,
         "max": 12
@@ -8071,20 +8077,7 @@
       },
       "weight": 1,
       "weightColor": "#008000",
-      "bestPlayerCount": [
-        1,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        12
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "(Uncredited)"
       ],
@@ -8117,7 +8110,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/295374/long-shot-dice-game",
       "name": "Long Shot: The Dice Game",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-04-21",
       "players": {
         "min": 1,
         "max": 8
@@ -8129,10 +8122,6 @@
       "weight": 1.9,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
         5,
         6,
         7,
@@ -8151,8 +8140,14 @@
         "Popcorn Games",
         "Tabletop KZ"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "California"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/j9RO81ihYw0_oPj6iqV_bA__original/img/-jPNsFg5d9uA7D4WGDIP3TNLHX4=/0x0/filters:format(jpeg)/pic6682376.jpg",
         "https://cf.geekdo-images.com/j9RO81ihYw0_oPj6iqV_bA__thumb/img/iRomFjZ0oELmm1pBVtJrNwyl4nc=/fit-in/200x150/filters:strip_icc()/pic6682376.jpg"
@@ -8180,7 +8175,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/147505/lords-ladies",
       "name": "Lords & Ladies",
       "year": 2014,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-02-12",
       "players": {
         "min": 2,
         "max": 5
@@ -8204,8 +8199,13 @@
       "publishers": [
         "Eagle-Gryphon Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Kentucky"
+      ],
       "images": [
         "https://cf.geekdo-images.com/c5pRIj5vcR23Vf-3nFGzTQ__original/img/1ADCbkTTwYWPOq4A4i6s0_rpA78=/0x0/filters:format(jpeg)/pic1772343.jpg",
         "https://cf.geekdo-images.com/c5pRIj5vcR23Vf-3nFGzTQ__thumb/img/kW8E3bBzxHjH-jw1MwNiQH5ASWQ=/fit-in/200x150/filters:strip_icc()/pic1772343.jpg"
@@ -8228,10 +8228,10 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/110327/lords-waterdeep",
       "name": "Lords of Waterdeep",
       "year": 2012,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-27",
       "players": {
         "min": 2,
-        "max": 5
+        "max": 6
       },
       "playtime": {
         "min": 120,
@@ -8240,12 +8240,9 @@
       "weight": 2.5,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
         4,
         5,
-        5
+        6
       ],
       "designers": [
         "Peter Lee",
@@ -8289,13 +8286,18 @@
       "publishers": [
         "Wizards of the Coast"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Washington"
+      ],
       "images": [
         "https://cf.geekdo-images.com/-hk8f8iGk_DyWyMrfiPBkg__original/img/GWNOhno3y7g0XE00VacKaRxoczk=/0x0/filters:format(jpeg)/pic1116080.jpg",
         "https://cf.geekdo-images.com/-hk8f8iGk_DyWyMrfiPBkg__thumb/img/dBqYOO8uLXAumxUGuYtuiRGQ1Y8=/fit-in/200x150/filters:strip_icc()/pic1116080.jpg"
       ],
-      "notes": "",
+      "notes": "Wizards of the Coast owned by Hasbro. We also own expansion Scoundrels of Skullport which adds player.",
       "description": "Game description from the publisher:\n\nWaterdeep, the City of Splendors – the most resplendent jewel in the Forgotten Realms, and a den of political intrigue and shady back-alley dealings. In this game, the players are powerful lords vying for control of this great city. Its treasures and resources are ripe for the taking, and that which cannot be gained through trickery and negotiation must be taken by force!\n\nIn Lords of Waterdeep, a strategy board game for 2-5 players, you take on the role of one of the masked Lords of Waterdeep, secret rulers of the city. Through your agents, you recruit adventurers to go on quests on your behalf, earning rewards and increasing your influence over the city. Expand the city by purchasing new buildings that open up new actions on the board, and hinder – or help – the other lords by playing Intrigue cards to enact your carefully laid plans.\n\nDuring the course of play, you may gain points or resources through completing quests, constructing buildings, playing intrigue cards or having other players utilize the buildings you have constructed.  At the end of 8 rounds of play, the player who has accrued the most points wins the game.\n\n",
       "category": [
         "City Building",
@@ -16089,7 +16091,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/220784/legend-cherry-tree-blossoms-every-ten-years",
       "name": "The Legend of the Cherry Tree that Blossoms Every Ten Years",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-08-05",
       "players": {
         "min": 2,
         "max": 4
@@ -16118,8 +16120,13 @@
         "TCG Factory",
         "Zito! Ώρα για παιχνίδι"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Japan"
+      ],
+      "publisherCountry": [
+        "Franve",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/UuAF29nmbvDg5bILPBPrIg__original/img/ZAaRgjkzkK1Nxsvb4f4l_rkJMkU=/0x0/filters:format(png)/pic3907805.png",
         "https://cf.geekdo-images.com/UuAF29nmbvDg5bILPBPrIg__thumb/img/TaC4eNz2Kkgktz-3uv_GDMgbyVE=/fit-in/200x150/filters:strip_icc()/pic3907805.png"
@@ -16280,6 +16287,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-08T21:57:54.664Z",
+  "lastModified": "2025-07-11T00:18:18.667Z",
   "version": "1.0"
 }
