@@ -8594,7 +8594,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/318977/micromacro-crime-city",
       "name": "MicroMacro: Crime City",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-12-18",
       "players": {
         "min": 1,
         "max": 4
@@ -8606,10 +8606,7 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -8648,8 +8645,12 @@
         "Vennerød Forlag AS",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/bLL3P-G25nIUkFjHxfJfnw__original/img/HBEhgjfb0QcF9pFrdJ8VYhBapoU=/0x0/filters:format(jpeg)/pic7632081.jpg",
         "https://cf.geekdo-images.com/bLL3P-G25nIUkFjHxfJfnw__thumb/img/XY_Z5rRJe3IPLRfOvWp70OM2B68=/fit-in/200x150/filters:strip_icc()/pic7632081.jpg"
@@ -8673,7 +8674,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/590/mille-bornes",
       "name": "Mille Bornes",
       "year": 1954,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-15",
       "players": {
         "min": 2,
         "max": 6
@@ -8684,13 +8685,7 @@
       },
       "weight": 1.2,
       "weightColor": "#008000",
-      "bestPlayerCount": [
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Edmond Dujardin"
       ],
@@ -8729,13 +8724,18 @@
         "Winning Moves Games (USA)",
         "Yetem S.A."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Massachusetts"
+      ],
       "images": [
         "https://cf.geekdo-images.com/kzLZY_DHTh-hBcqXP34a5w__original/img/v5fEmVXDcDomVNhd9O02bGsVskI=/0x0/filters:format(jpeg)/pic4330533.jpg",
         "https://cf.geekdo-images.com/kzLZY_DHTh-hBcqXP34a5w__thumb/img/82b4hCqE8tTLkwexnLrp3ubGU_c=/fit-in/200x150/filters:strip_icc()/pic4330533.jpg"
       ],
-      "notes": "",
+      "notes": "Game published by others first and bought by Parker Brothers, which is owned by Hasbro.",
       "description": "One Thousand Milestones. On French roads there were small marker stones giving the distance in kilometres to the next town. In this famous old French card game, players compete to drive 1000 km, dealing with hazards along the way. Draw a card to your hand, play or discard. You must lay a green traffic light to start, play cards showing mileage, dump hazards (flat tire, speed limit) on the other players, remedy hazards (spare tire, end of limit) from yourself, play safety cards (puncture proof), and try to be the first to clock up the distance.\n\n",
       "category": [
         "Card Game",
@@ -8753,7 +8753,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/244992/mind",
       "name": "The Mind",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-12-25",
       "players": {
         "min": 2,
         "max": 4
@@ -8764,13 +8764,7 @@
       },
       "weight": 1.1,
       "weightColor": "#008000",
-      "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
-        4
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Wolfgang Warsch"
       ],
@@ -8806,13 +8800,19 @@
         "White Goblin Games",
         "YellowBOX"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Texas",
+        "Austin"
+      ],
       "images": [
         "https://cf.geekdo-images.com/q_JGK291hrhnhiRB0667oA__original/img/8VjZEG278faO9JZwzce3v3EKssI=/0x0/filters:format(png)/pic3979766.png",
         "https://cf.geekdo-images.com/q_JGK291hrhnhiRB0667oA__thumb/img/PUrzEmTo5kOcK5BOb4cbOOcH86I=/fit-in/200x150/filters:strip_icc()/pic3979766.png"
       ],
-      "notes": "",
+      "notes": "German game originally",
       "description": "The Mind is more than just a game. It's an experiment, a journey, a team experience in which you can't exchange information, yet will become one to defeat all the levels of the game.\n\nIn more detail, the deck contains cards numbered 1-100, and during the game you try to complete 12, 10, or 8 levels of play with 2, 3, or 4 players. In a level, each player receives a hand of cards equal to the number of the level: one card in level 1, two cards in level 2, etc. Collectively you must play these cards into the center of the table on a single discard pile in ascending order but you cannot communicate with one another in any way as to which cards you hold. You simply stare into one another's eyes, and when you feel the time is right, you play your lowest card. If no one holds a card lower than what you played, great, the game continues! If someone did, all players discard face up all cards lower than what you played, and you lose one life.\n\nYou start the game with a number of lives equal to the number of players. Lose all your lives, and you lose the game. You start with one shuriken as well, and if everyone wants to use a shuriken, each player discards their lowest card face up, giving everyone information and getting you closer to completing the level. As you complete levels, you might receive a reward of a shuriken or an extra life. Complete all the levels, and you win!\n\nFor an extra challenge, play The Mind in extreme mode with all played cards going onto the stack face down. You don't look at the cards played until the end of a level, losing lives at that time for cards played out of order.\n\n",
       "category": [
         "Card Game",
@@ -8830,7 +8830,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/176920/mission-red-planet-second-edition",
       "name": "Mission: Red Planet (Second/Third Edition)",
       "year": 2015,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-04-11",
       "players": {
         "min": 2,
         "max": 6
@@ -8842,8 +8842,6 @@
       "weight": 2.2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5,
         6
@@ -8868,8 +8866,14 @@
         "Hunter & Friends",
         "Niza Gams"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France",
+        "Switzerland"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Minnesota"
+      ],
       "images": [
         "https://cf.geekdo-images.com/dqA_FWqa16taFKOqvdvCEA__original/img/H-cOJQRUO5I_LuDx1EaMcPi-3JU=/0x0/filters:format(jpeg)/pic8483896.jpg",
         "https://cf.geekdo-images.com/dqA_FWqa16taFKOqvdvCEA__thumb/img/tv2UwUf9pKFHQKY7utSSq7xk9tI=/fit-in/200x150/filters:strip_icc()/pic8483896.jpg"
@@ -8895,7 +8899,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/285533/miyabi",
       "name": "Miyabi",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-11-01",
       "players": {
         "min": 2,
         "max": 4
@@ -8907,7 +8911,6 @@
       "weight": 2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -8920,13 +8923,19 @@
       "publishers": [
         "HABA"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany",
+        "USA",
+        "New York"
+      ],
       "images": [
         "https://cf.geekdo-images.com/J8joN18TM0gLZfIj6lYIog__original/img/-8lVCUQlqJjZ4-FEKQl_mCOihUU=/0x0/filters:format(jpeg)/pic4886005.jpg",
         "https://cf.geekdo-images.com/J8joN18TM0gLZfIj6lYIog__thumb/img/FO9n1zMRh_T30cL9oj7dP8tajVE=/fit-in/200x150/filters:strip_icc()/pic4886005.jpg"
       ],
-      "notes": "",
+      "notes": "HABA is a German wood manufacturing company with a US Marketing and Distribution branch in Skaneateles, NY.",
       "description": "Elegant, graceful, and refined – that’s how you should design your Japanese garden! Careful planning and watchful eyes are needed as you tend your garden. Only by skillfully placing stones, bushes, trees, ponds and pagodas on multiple levels can a player become the best garden designer of the season. Think you’ve got it figured out? Try one of the five included expansions!\n\n—description from the publisher\n\n",
       "category": [
         "Abstract Strategy",
@@ -8946,7 +8955,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/387378/mlem-space-agency",
       "name": "MLEM: Space Agency",
       "year": 2024,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-07-18",
       "players": {
         "min": 2,
         "max": 5
@@ -8958,8 +8967,6 @@
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5
       ],
@@ -9003,7 +9010,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/194607/mystic-vale",
       "name": "Mystic Vale",
       "year": 2016,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2025-03-04",
       "players": {
         "min": 2,
         "max": 4
@@ -9015,7 +9022,6 @@
       "weight": 2.3,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -16300,6 +16306,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-11T10:42:49.336Z",
+  "lastModified": "2025-07-11T22:32:43.436Z",
   "version": "1.0"
 }
