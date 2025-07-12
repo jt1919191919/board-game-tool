@@ -9416,7 +9416,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/192074/odins-ravens-second-edition",
       "name": "Odin's Ravens (Second Edition)",
       "year": 2016,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-01-02",
       "players": {
         "min": 2,
         "max": 2
@@ -9445,8 +9445,13 @@
         "Nasza Księgarnia",
         "Swan Panasia Co."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "UK",
+        "Oxford"
+      ],
       "images": [
         "https://cf.geekdo-images.com/NME9DO7GFaXbOyM8DPnFEQ__original/img/BFxRBohNGAoxWd_5-CPo8jIBF-U=/0x0/filters:format(jpeg)/pic2643412.jpg",
         "https://cf.geekdo-images.com/NME9DO7GFaXbOyM8DPnFEQ__thumb/img/jFeo7CE887HRwbMiyWNOm09QryQ=/fit-in/200x150/filters:strip_icc()/pic2643412.jpg"
@@ -9470,7 +9475,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/270314/ohanami",
       "name": "Ohanami",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-10-06",
       "players": {
         "min": 2,
         "max": 4
@@ -9482,7 +9487,6 @@
       "weight": 1.2,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -9506,8 +9510,14 @@
         "White Goblin Games",
         "Нескучные игры"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Texas",
+        "Austin"
+      ],
       "images": [
         "https://cf.geekdo-images.com/U05-_kgQMravE5OLGuYRnw__original/img/2FfV1ZZsBm6rmQrzwmPoCFS2P-I=/0x0/filters:format(png)/pic5591129.png",
         "https://cf.geekdo-images.com/U05-_kgQMravE5OLGuYRnw__thumb/img/eIwj7bu5oPWzswDzGfm73GHaPak=/fit-in/200x150/filters:strip_icc()/pic5591129.png"
@@ -9530,7 +9540,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/1234/once-upon-time-storytelling-card-game",
       "name": "Once Upon a Time: The Storytelling Card Game",
       "year": 1993,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-06-06",
       "players": {
         "min": 2,
         "max": 6
@@ -9542,11 +9552,7 @@
       "weight": 1.4,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
-        4,
         5,
-        6,
         6
       ],
       "designers": [
@@ -9586,8 +9592,14 @@
         "Truant Spiele",
         "Unicorn (I)"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK",
+        "England"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Minnesota"
+      ],
       "images": [
         "https://cf.geekdo-images.com/IHYBF2QWcZwlYfH4doj06Q__original/img/YzblvnFHp0ez4tJGmtI4ywKJ2Cw=/0x0/filters:format(jpeg)/pic1494028.jpg",
         "https://cf.geekdo-images.com/IHYBF2QWcZwlYfH4doj06Q__thumb/img/XkT-0Bj73aLec9BYdqWSqIpIKis=/fit-in/200x150/filters:strip_icc()/pic1494028.jpg"
@@ -9613,7 +9625,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/346677/oneironauts",
       "name": "Oneironauts",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-10-05",
       "players": {
         "min": 2,
         "max": 6
@@ -9638,8 +9650,12 @@
       "publishers": [
         "IGAMES"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Ukraine"
+      ],
+      "publisherCountry": [
+        "Ukraine"
+      ],
       "images": [
         "https://cf.geekdo-images.com/OsUPrWDQoZxvxsCECd6UFQ__original/img/Dj5eAm0iXV3KkHyIAbllgXEBQmo=/0x0/filters:format(jpeg)/pic6635856.jpg",
         "https://cf.geekdo-images.com/OsUPrWDQoZxvxsCECd6UFQ__thumb/img/ZdL09t3HPtD5BRbztq6Y9boG6s0=/fit-in/200x150/filters:strip_icc()/pic6635856.jpg"
@@ -9665,7 +9681,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/1985/overturn",
       "name": "Overturn",
       "year": 1987,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-15",
       "players": {
         "min": 2,
         "max": 2
@@ -9676,9 +9692,7 @@
       },
       "weight": 1.6,
       "weightColor": "#008000",
-      "bestPlayerCount": [
-        2
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Ron Dubren",
         "Pat Dubren"
@@ -9690,8 +9704,12 @@
         "Playtoy Industries",
         "Pressman Toy Corp."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA"
+      ],
+      "publisherCountry": [
+        "USA"
+      ],
       "images": [
         "https://cf.geekdo-images.com/2w9DPslUfIpc5mWOIckCUQ__original/img/7VEKPukosjfblZLYjpgPz4FmI7Y=/0x0/filters:format(png)/pic5474327.png",
         "https://cf.geekdo-images.com/2w9DPslUfIpc5mWOIckCUQ__thumb/img/ZlTPFNz3YZQlOhaa5rFUoH8A5-E=/fit-in/200x150/filters:strip_icc()/pic5474327.png"
@@ -16228,7 +16246,9 @@
       "weight": 2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        3
+        3,
+        4,
+        5
       ],
       "designers": [
         "Dan Schumacher"
@@ -16310,6 +16330,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-11T22:47:37.405Z",
+  "lastModified": "2025-07-12T06:25:59.103Z",
   "version": "1.0"
 }
