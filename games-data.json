@@ -10170,7 +10170,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/246200/piepmatz",
       "name": "Piepmatz",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-10-07",
       "players": {
         "min": 2,
         "max": 4
@@ -10182,7 +10182,6 @@
       "weight": 2.1,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -10200,8 +10199,13 @@
         "Hobby Game Mall",
         "Lookout Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA Michigan",
+        "Detroit"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/lM562k2J-ggPAC8poi5DtQ__original/img/tNjmBBvWhnFYVU5_BF40JQDNjeA=/0x0/filters:format(jpeg)/pic4130571.jpg",
         "https://cf.geekdo-images.com/lM562k2J-ggPAC8poi5DtQ__thumb/img/E7HWXUc8ah3KTDXm7TMFfWRNVok=/fit-in/200x150/filters:strip_icc()/pic4130571.jpg"
@@ -10225,7 +10229,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/252929/planet",
       "name": "Planet",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-06-22",
       "players": {
         "min": 2,
         "max": 4
@@ -10237,7 +10241,6 @@
       "weight": 1.6,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -10264,13 +10267,19 @@
         "Rozum",
         "Swan Panasia Co."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Lithuania"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California",
+        "San Francisco"
+      ],
       "images": [
         "https://cf.geekdo-images.com/bTE1oeN-8Y-RdSpjR0b-2A__original/img/u-ZcZzzK3CLQZZJ-SlHjmSJHzwE=/0x0/filters:format(png)/pic4199323.png",
         "https://cf.geekdo-images.com/bTE1oeN-8Y-RdSpjR0b-2A__thumb/img/72I7C1n3SD0nxifUrB6A24tuIxw=/fit-in/200x150/filters:strip_icc()/pic4199323.png"
       ],
-      "notes": "",
+      "notes": "this game is EU branch of Blue Orange",
       "description": "The spark of life is about to jump from your hands to spread out in the world. Deploy your mountain ranges and your deserts, spread out your oceans and your glaciers. Handle wisely your continents to form environments suitable for the apparition of animal life and maybe you'll manage to create the most densely populated planet!\n\nIn Planet, each player receives a planet core without anything on it. Each turn, players choose a tile with mountain/ice/forest/desert on it and place it on the planet. Then the player who fulfills the most conditions for the appearance of certain animals gains its card.\n\n—description from the publisher\n\n",
       "category": [
         "Environmental",
@@ -16337,6 +16346,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-13T14:48:41.195Z",
+  "lastModified": "2025-07-13T16:49:54.471Z",
   "version": "1.0"
 }
