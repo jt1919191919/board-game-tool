@@ -9988,7 +9988,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/1161/perquackey",
       "name": "Perquackey",
       "year": 1956,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-15",
       "players": {
         "min": 2,
         "max": 6
@@ -9999,9 +9999,7 @@
       },
       "weight": 1.6,
       "weightColor": "#008000",
-      "bestPlayerCount": [
-        2
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Robert E. Hollingsworth",
         "Elbert K. Hollingsworth"
@@ -10013,8 +10011,12 @@
         "Hollingsworth Bros.",
         "Lakeside"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA"
+      ],
+      "publisherCountry": [
+        "USA"
+      ],
       "images": [
         "https://cf.geekdo-images.com/M9EE5an8FiTLjItb4UdhPw__original/img/ITgCBizb7jmUuSypga5vj8fnqK4=/0x0/filters:format(jpeg)/pic2604364.jpg",
         "https://cf.geekdo-images.com/M9EE5an8FiTLjItb4UdhPw__thumb/img/3q3Cw2dGa-B6pcokQeyBuVyb1YE=/fit-in/200x150/filters:strip_icc()/pic2604364.jpg"
@@ -10036,7 +10038,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/330592/phantom-ink",
       "name": "Phantom Ink",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2025-05-23",
       "players": {
         "min": 2,
         "max": 8
@@ -10048,9 +10050,6 @@
       "weight": 1.2,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
-        4,
-        5,
         6,
         8
       ],
@@ -10103,10 +10102,10 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/284108/pictures",
       "name": "Pictures",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2025-04-18",
       "players": {
         "min": 3,
-        "max": 5
+        "max": 8
       },
       "playtime": {
         "min": 30,
@@ -10115,10 +10114,11 @@
       "weight": 1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
         4,
         5,
-        5
+        6,
+        7,
+        8
       ],
       "designers": [
         "Christian Stöhr",
@@ -16337,6 +16337,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-13T09:53:18.370Z",
+  "lastModified": "2025-07-13T14:48:41.195Z",
   "version": "1.0"
 }
