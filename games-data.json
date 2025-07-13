@@ -9859,7 +9859,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/141572/paperback",
       "name": "Paperback",
       "year": 2014,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2025-04-11",
       "players": {
         "min": 2,
         "max": 5
@@ -9871,11 +9871,8 @@
       "weight": 2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4,
-        5,
         5
       ],
       "designers": [
@@ -9920,7 +9917,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/266524/parks",
       "name": "PARKS",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-12-25",
       "players": {
         "min": 1,
         "max": 5
@@ -9932,8 +9929,6 @@
       "weight": 2.1,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4,
         5
@@ -9954,8 +9949,15 @@
         "Surfin' Meeple China",
         "Tranjis Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Philadelphia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Georgia",
+        "Athens"
+      ],
       "images": [
         "https://cf.geekdo-images.com/mF2cSNRk2O6HtE45Sl9TcA__original/img/_KNgPoC_4l7iN0ntbFILexOJpfc=/0x0/filters:format(jpeg)/pic4852372.jpg",
         "https://cf.geekdo-images.com/mF2cSNRk2O6HtE45Sl9TcA__thumb/img/K2AgL-KE_CTcvwahWd7zlt9YR0U=/fit-in/200x150/filters:strip_icc()/pic4852372.jpg"
@@ -16335,6 +16337,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-12T18:52:19.177Z",
+  "lastModified": "2025-07-13T09:53:18.370Z",
   "version": "1.0"
 }
