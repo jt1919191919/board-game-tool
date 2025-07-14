@@ -10298,7 +10298,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/365104/planted-game-nature-nurture",
       "name": "Planted: A Game of Nature & Nurture",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-05-04",
       "players": {
         "min": 2,
         "max": 5
@@ -10310,7 +10310,6 @@
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
         4,
         5
@@ -10324,8 +10323,14 @@
       "publishers": [
         "Buffalo Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Australia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "New York",
+        "Buffalo"
+      ],
       "images": [
         "https://cf.geekdo-images.com/w05q02PbXAw64GKtd4H4qg__original/img/UEjgCd1LgTU3rCuGyjCNVsqyD-4=/0x0/filters:format(jpeg)/pic6978684.jpg",
         "https://cf.geekdo-images.com/w05q02PbXAw64GKtd4H4qg__thumb/img/MYOOXanLTSiv-vGmyPJ1fy-RIiQ=/fit-in/200x150/filters:strip_icc()/pic6978684.jpg"
@@ -10349,7 +10354,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/312786/poetry-neanderthals",
       "name": "Poetry for Neanderthals",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-10-05",
       "players": {
         "min": 2,
         "max": 12
@@ -10361,10 +10366,10 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        4,
         6,
         8,
-        10
+        10,
+        12
       ],
       "designers": [
         "Elan Lee"
@@ -10379,8 +10384,16 @@
         "Hobby World",
         "Rozum"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "California",
+        "LA"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California",
+        "LA"
+      ],
       "images": [
         "https://cf.geekdo-images.com/CDlBjXSPT-3Zyrj8ENBkvQ__original/img/FgAyx5Q1pe7TyHsYskhbab_S_os=/0x0/filters:format(jpeg)/pic5702797.jpg",
         "https://cf.geekdo-images.com/CDlBjXSPT-3Zyrj8ENBkvQ__thumb/img/0ON18UcLepuwPLhwkRtRUjhvAZ8=/fit-in/200x150/filters:strip_icc()/pic5702797.jpg"
@@ -10406,7 +10419,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/274960/point-salad",
       "name": "Point Salad",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-01-21",
       "players": {
         "min": 2,
         "max": 6
@@ -10418,11 +10431,9 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
         4,
         5,
-        6,
         6
       ],
       "designers": [
@@ -10455,13 +10466,22 @@
         "White Goblin Games",
         "Yes Papa Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Washington",
+        "Seattle",
+        "Canada",
+        "Winnipeg"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/Xy0W9NtEpX0EVjwgxO3IEA__original/img/WdLBZcryNqysYsyC3PNF9FeaPWQ=/0x0/filters:format(png)/pic4621571.png",
         "https://cf.geekdo-images.com/Xy0W9NtEpX0EVjwgxO3IEA__thumb/img/1gKeE2_50dXcL03gH3cEU-Ixj6c=/fit-in/200x150/filters:strip_icc()/pic4621571.png"
       ],
-      "notes": "",
+      "notes": "Flatout Games made it",
       "description": "Point Salad is a fast and fun card drafting game for the whole family. There are over 100 ways to score points. Players may use a variety of strategies and every game of Point Salad is unique!\n\nCards come in six different types of veggies, and the back of each card has a different scoring method. So for instance, one scoring method may award 2 points for every carrot you have, but deduct a point for every onion.  By drafting combinations of veggies and point cards that work for your strategy, you can amass the most points and win.\n\n—description from the publisher\n\n",
       "category": [
         "Card Game"
@@ -10477,7 +10497,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/180974/potion-explosion",
       "name": "Potion Explosion",
       "year": 2015,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-08",
       "players": {
         "min": 2,
         "max": 4
@@ -10489,10 +10509,7 @@
       "weight": 1.8,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -10527,13 +10544,17 @@
         "SuperHeated Neurons",
         "Swan Panasia Co."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Italy"
+      ],
+      "publisherCountry": [
+        "Italy"
+      ],
       "images": [
         "https://cf.geekdo-images.com/vwjYMFporFhvAU48k73MIw__original/img/6sAfG89R42SJRv2wjiItRTMmcoQ=/0x0/filters:format(jpeg)/pic7298696.jpg",
         "https://cf.geekdo-images.com/vwjYMFporFhvAU48k73MIw__thumb/img/uNBrY-gqZLq7aiv1E_pDsc3vmyE=/fit-in/200x150/filters:strip_icc()/pic7298696.jpg"
       ],
-      "notes": "",
+      "notes": "CMON is usa",
       "description": "Potion Explosion is a game for 2 to 4 players by Horrible Games.\nIt was designed by Lorenzo Silva, Andrea Crespi and Stefano Castelli.\n\nDear students, it's time for the final exams of the Potions class! The rules are always the same: Take an ingredient marble from the dispenser and watch the others fall. If you connect marbles of the same color, they explode and you can take them, too! Complete your potions using the marbles you collect, and drink them to unleash their magical power. Remember, though, that to win the Student of the Year award, being quick won't be enough: you'll also need to brew the most valuable potions in Potion Explosion!\n\n",
       "category": [
         "Fantasy",
@@ -10554,7 +10575,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/260180/project-l",
       "name": "Project L",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-06-13",
       "players": {
         "min": 1,
         "max": 4
@@ -10566,10 +10587,7 @@
       "weight": 1.6,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -16346,6 +16364,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-13T16:49:54.471Z",
+  "lastModified": "2025-07-14T01:11:07.027Z",
   "version": "1.0"
 }
