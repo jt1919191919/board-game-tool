@@ -10641,7 +10641,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/266830/qe",
       "name": "QE",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-17",
       "players": {
         "min": 3,
         "max": 5
@@ -10653,9 +10653,7 @@
       "weight": 1.5,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
         4,
-        5,
         5
       ],
       "designers": [
@@ -10675,8 +10673,13 @@
         "SUNNY BIRD",
         "拾刻桌游（O'Clock Games）"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Kansas"
+      ],
       "images": [
         "https://cf.geekdo-images.com/47o_swlkRbfpMH3hnFZgtA__original/img/V6-uacjfLFXQyOVHcLmEOVoZgf8=/0x0/filters:format(png)/pic4383594.png",
         "https://cf.geekdo-images.com/47o_swlkRbfpMH3hnFZgtA__thumb/img/gT07BJ5Ynlopp-UIQRIySERKUmI=/fit-in/200x150/filters:strip_icc()/pic4383594.png"
@@ -10700,7 +10703,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/244521/quacks-quedlinburg",
       "name": "Quacks",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-04-16",
       "players": {
         "min": 2,
         "max": 4
@@ -10712,10 +10715,7 @@
       "weight": 1.9,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -10745,8 +10745,12 @@
         "Swan Panasia Co.",
         "YellowBOX"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/B1bLRWzTASZ-xx9NoAE79A__original/img/HulJk6gFzp_bxl0wzc2XEMq8NLM=/0x0/filters:format(png)/pic8780293.png",
         "https://cf.geekdo-images.com/B1bLRWzTASZ-xx9NoAE79A__thumb/img/deG3pr-ORZ3JrGvQA-oQNrwh0l0=/fit-in/200x150/filters:strip_icc()/pic8780293.png"
@@ -10778,7 +10782,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/232043/queendomino",
       "name": "Queendomino",
       "year": 2017,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-11-19",
       "players": {
         "min": 2,
         "max": 4
@@ -10790,7 +10794,6 @@
       "weight": 2.1,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -10816,8 +10819,15 @@
         "テンデイズゲームズ (TendaysGames)",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France",
+        "Switzerland"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California",
+        "San Francisco"
+      ],
       "images": [
         "https://cf.geekdo-images.com/_6VtTmeI4e7cORxFWRC7Og__original/img/Uem_ewrSp4uzwG19S2CSnHwrmEU=/0x0/filters:format(png)/pic3672901.png",
         "https://cf.geekdo-images.com/_6VtTmeI4e7cORxFWRC7Og__thumb/img/uzS2wD_CvrjO8KQsNZDoT0RBvmY=/fit-in/200x150/filters:strip_icc()/pic3672901.png"
@@ -10890,7 +10900,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/183006/qwinto",
       "name": "Qwinto",
       "year": 2015,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-10-05",
       "players": {
         "min": 2,
         "max": 6
@@ -10902,7 +10912,6 @@
       "weight": 1.3,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
         4,
         5
@@ -10923,8 +10932,14 @@
         "Popcorn Games",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Texas",
+        "Austin"
+      ],
       "images": [
         "https://cf.geekdo-images.com/AtaZZTKaILC7qK2019MZJQ__original/img/CvZukbasuksb88da5oiX5bh08IM=/0x0/filters:format(png)/pic4194080.png",
         "https://cf.geekdo-images.com/AtaZZTKaILC7qK2019MZJQ__thumb/img/1QLthWkf6GJPeIKXOfnhDUvbbaQ=/fit-in/200x150/filters:strip_icc()/pic4194080.png"
@@ -16364,6 +16379,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-14T01:11:07.027Z",
+  "lastModified": "2025-07-14T13:34:35.260Z",
   "version": "1.0"
 }
