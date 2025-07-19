@@ -11345,12 +11345,7 @@
       },
       "weight": 2.4,
       "weightColor": "#cfa200",
-      "bestPlayerCount": [
-        2,
-        3,
-        4,
-        4
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Stephen Baker",
         "Barry Yearsley"
@@ -11363,13 +11358,19 @@
         "Winning Moves International Ltd",
         "Winning Moves UK Ltd."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "England",
+        "USA"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Massachusetts"
+      ],
       "images": [
         "https://cf.geekdo-images.com/uWhXkCi5we8neUrtRll1hQ__original/img/ZzmEZO2dkqbyJIo5Ruku1wVSjsw=/0x0/filters:format(jpeg)/pic6196985.jpg",
         "https://cf.geekdo-images.com/uWhXkCi5we8neUrtRll1hQ__thumb/img/TqqfJMO45wxeSwPMZDLfDH5Mp0w=/fit-in/200x150/filters:strip_icc()/pic6196985.jpg"
       ],
-      "notes": "",
+      "notes": "Parker Bros owned by Hasbro",
       "description": "From the publisher:\n\nIn this expanded edition of RISK The Lord of the Rings Trilogy edition you will find: \n\n     The detailed gameboard reflects a complete map of Middle-Earth including the Gondor, Mordor, and Haradwaith territories.\n     Includes materials from the entire Lord of the Rings film trilogy.\n     Additional Territory cards.\n     Additional Battalions.\n     Additional Adventure Cards.\n     Alternate ways to play including special rules for alliance team play.\n\n\nFrom BGG:\n This game is essentially the regular Risk: LotR Edition with an additional board on the bottom and some new cards and revised rules.\n\n",
       "category": [
         "Adventure",
@@ -11393,7 +11394,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/237229/roar-king-pride",
       "name": "Roar: King of the Pride",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-05-12",
       "players": {
         "min": 3,
         "max": 6
@@ -11405,7 +11406,7 @@
       "weight": 2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        4,
+        5,
         6
       ],
       "designers": [
@@ -11418,8 +11419,14 @@
       "publishers": [
         "IDW Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Canada",
+        "Toronto"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/-3YuTU9yoRiRU74wbOGJtg__original/img/mB835hWgopY5L0Hbbv43FshYw_M=/0x0/filters:format(jpeg)/pic3879331.jpg",
         "https://cf.geekdo-images.com/-3YuTU9yoRiRU74wbOGJtg__thumb/img/eapYGeGOLvuihkdoB4qFD9ke0aE=/fit-in/200x150/filters:strip_icc()/pic3879331.jpg"
@@ -11442,7 +11449,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/18/roborally",
       "name": "RoboRally",
       "year": 1994,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-04-02",
       "players": {
         "min": 2,
         "max": 8
@@ -11454,14 +11461,7 @@
       "weight": 2.4,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        8
+        6
       ],
       "designers": [
         "Richard Garfield"
@@ -11485,8 +11485,14 @@
         "Hasbro",
         "Play Factory"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Philadelphia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Rhode Island"
+      ],
       "images": [
         "https://cf.geekdo-images.com/eJx8hRJ6-86C2VrhECwEPA__original/img/-9I8B82hDOO1n0h9urwZUdz6bqc=/0x0/filters:format(jpeg)/pic1000553.jpg",
         "https://cf.geekdo-images.com/eJx8hRJ6-86C2VrhECwEPA__thumb/img/J1PlqFqtN-hxuXM4eEi-ekANPP4=/fit-in/200x150/filters:strip_icc()/pic1000553.jpg"
@@ -16386,6 +16392,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-19T05:43:18.808Z",
+  "lastModified": "2025-07-19T07:48:11.076Z",
   "version": "1.0"
 }
