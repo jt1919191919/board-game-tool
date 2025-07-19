@@ -10962,7 +10962,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/254386/raccoon-tycoon",
       "name": "Raccoon Tycoon",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-03-13",
       "players": {
         "min": 2,
         "max": 5
@@ -10974,10 +10974,7 @@
       "weight": 2.2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
-        3,
         4,
-        5,
         5
       ],
       "designers": [
@@ -10994,13 +10991,19 @@
         "Piatnik",
         "Tavern Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Chicago"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Chicago"
+      ],
       "images": [
         "https://cf.geekdo-images.com/W9HX05eyz2zQbwWdrjKUzQ__original/img/ScCURHDoqBbVK4_DjMuAywANBwE=/0x0/filters:format(jpeg)/pic4161982.jpg",
         "https://cf.geekdo-images.com/W9HX05eyz2zQbwWdrjKUzQ__thumb/img/Qdfn4yBiilfyFLcSMXLsg8UHZAg=/fit-in/200x150/filters:strip_icc()/pic4161982.jpg"
       ],
-      "notes": "",
+      "notes": "Forbidden owned by Glenn Drover founder of Eagle Games",
       "description": "Astoria is a land bustling with productivity and growth! New towns, factories, and railroads are springing up across the land. A few savvy business tycoons (you and your opponents) are determined to make your fortunes on the crest of this wave. These tycoons start out as the producers of the key commodities: wheat to feed the growing towns and factories, wood and iron to build them, coal to fuel the trains and factories, and manufactured goods and luxuries to fill the insatiable demand of the animals of Astoria.\n\nCornering the market for the most valuable commodities can create small fortunes that can be invested in the new businesses, turning them into huge fortunes. The sky is the limit during this Gilded Age!\n\nIn Raccoon Tycoon, players try to produce the most valuable commodities in an ever-changing marketplace. They then use those commodities to build towns, or sell them at the best price to secure great profits that can be used to win auctions for the all-important railroads. The profits may also be used to buy powerful buildings that give the players power-ups or bonuses in production. Owning the best towns and railroads determines victory. There can be only one \"top dog\" in Astoria. Is it you?\n\n",
       "category": [
         "Animals",
@@ -11020,7 +11023,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/170042/raiders-north-sea",
       "name": "Raiders of the North Sea",
       "year": 2015,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-10-15",
       "players": {
         "min": 2,
         "max": 4
@@ -11032,8 +11035,6 @@
       "weight": 2.6,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -11062,8 +11063,12 @@
         "White Goblin Games",
         "Ігромаг"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "New Zealand"
+      ],
+      "publisherCountry": [
+        "New Zealand"
+      ],
       "images": [
         "https://cf.geekdo-images.com/hXdfAhgZ8OeyWLunt36wlw__original/img/f5wjooKB2dGPBlBzws5cDsuuJ-k=/0x0/filters:format(jpeg)/pic3578101.jpg",
         "https://cf.geekdo-images.com/hXdfAhgZ8OeyWLunt36wlw__thumb/img/vh7ttK5C_kKf5YZNYOY4vfsgXHU=/fit-in/200x150/filters:strip_icc()/pic3578101.jpg"
@@ -11088,7 +11093,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/351040/ready-set-bet",
       "name": "Ready Set Bet",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-12-25",
       "players": {
         "min": 2,
         "max": 9
@@ -11100,15 +11105,9 @@
       "weight": 1.3,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
-        5,
         6,
         7,
         8,
-        9,
         9
       ],
       "designers": [
@@ -11161,10 +11160,10 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/161417/red7",
       "name": "Red7",
       "year": 2014,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-12-28",
       "players": {
         "min": 2,
-        "max": 4
+        "max": 5
       },
       "playtime": {
         "min": 30,
@@ -11173,10 +11172,8 @@
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
         4,
-        4
+        5
       ],
       "designers": [
         "Carl Chudyk",
@@ -11202,13 +11199,19 @@
         "PaperGames (III)",
         "Tranjis Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Poland"
+      ],
+      "publisherCountry": [
+        "USA",
+        "MA",
+        "Arlington"
+      ],
       "images": [
         "https://cf.geekdo-images.com/7zH6Kt5ebWEixjDGmHweNA__original/img/fABY4SjThfxj2NO1SL_G_FzbX7M=/0x0/filters:format(png)/pic2247258.png",
         "https://cf.geekdo-images.com/7zH6Kt5ebWEixjDGmHweNA__thumb/img/PVkJyJhCtzo1ZwKO4iuRaqUyKJc=/fit-in/200x150/filters:strip_icc()/pic2247258.png"
       ],
-      "notes": "",
+      "notes": "VARIANT 5player, play like normal but you might run out of cards",
       "description": "The rules of \"Red\" are simple: highest card wins! But \"Red\" is just one of seven games you'll be playing in Red7, and if you're not winning the current game at the end of your turn, you're out! The last person standing wins the round.\n\nThe deck in Red7 is 49 cards: each of the colors of the rainbow numbered 1 to 7. A hand takes just a couple minutes!\n\n",
       "category": [
         "Card Game",
@@ -11231,7 +11234,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/41114/resistance",
       "name": "The Resistance",
       "year": 2009,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-05-27",
       "players": {
         "min": 5,
         "max": 10
@@ -11243,8 +11246,6 @@
       "weight": 1.6,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        5,
         6,
         7,
         8,
@@ -11293,8 +11294,14 @@
         "Raven Distribution",
         "Wargames Club Publishing"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Chicago"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/cAPTkL2BR3snLO71dkH8rw__original/img/_UahoIUTqh39xRqzCc2jwgdYbSA=/0x0/filters:format(jpeg)/pic2576459.jpg",
         "https://cf.geekdo-images.com/cAPTkL2BR3snLO71dkH8rw__thumb/img/5lDn1W82rlLXtVG7nPIYR9Orn-4=/fit-in/200x150/filters:strip_icc()/pic2576459.jpg"
@@ -16379,6 +16386,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-14T13:34:35.260Z",
+  "lastModified": "2025-07-19T05:43:18.808Z",
   "version": "1.0"
 }
