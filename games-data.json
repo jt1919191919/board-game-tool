@@ -13921,7 +13921,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/341530/super-mega-lucky-box",
       "name": "Super Mega Lucky Box",
       "year": 2021,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-05-25",
       "players": {
         "min": 1,
         "max": 6
@@ -13933,10 +13933,6 @@
       "weight": 1.2,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
         5,
         6
       ],
@@ -13958,8 +13954,13 @@
         "Rebel Sp. z o.o.",
         "Reflexshop"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Australia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Massachusetts"
+      ],
       "images": [
         "https://cf.geekdo-images.com/grnvMmEKa_jRg4ZBX5Fadw__original/img/2jFwR_GdPUCUv6QjDxsgw3DQCkQ=/0x0/filters:format(png)/pic6254861.png",
         "https://cf.geekdo-images.com/grnvMmEKa_jRg4ZBX5Fadw__thumb/img/Fs2vCJ0dkPZxMHm4A_vEkl0yiT0=/fit-in/200x150/filters:strip_icc()/pic6254861.png"
@@ -13981,7 +13982,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/133473/sushi-go",
       "name": "Sushi Go!",
       "year": 2013,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2017-06-01",
       "players": {
         "min": 2,
         "max": 5
@@ -13993,10 +13994,7 @@
       "weight": 1.2,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
         4,
-        5,
         5
       ],
       "designers": [
@@ -14032,8 +14030,13 @@
         "White Goblin Games",
         "Zoch Verlag"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Australia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Massachusetts"
+      ],
       "images": [
         "https://cf.geekdo-images.com/Fn3PSPZVxa3YurlorITQ1Q__original/img/5vRsn2TT9eJmq27i9HtLWKpB_xs=/0x0/filters:format(jpeg)/pic1900075.jpg",
         "https://cf.geekdo-images.com/Fn3PSPZVxa3YurlorITQ1Q__thumb/img/6XF493O0tSyLyZP5ArlcZrOTMXQ=/fit-in/200x150/filters:strip_icc()/pic1900075.jpg"
@@ -14059,7 +14062,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/192291/sushi-go-party",
       "name": "Sushi Go Party!",
       "year": 2016,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-10-10",
       "players": {
         "min": 2,
         "max": 8
@@ -14071,9 +14074,6 @@
       "weight": 1.3,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
-        4,
         5,
         6,
         7,
@@ -14097,8 +14097,13 @@
         "White Goblin Games",
         "Zoch Verlag"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Australia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Massachusetts"
+      ],
       "images": [
         "https://cf.geekdo-images.com/2f9uTicUSXkdPp2Yks6zFw__original/img/WQcFmlhYBMIp8f6gNNVhnnue1w4=/0x0/filters:format(jpeg)/pic5885689.jpg",
         "https://cf.geekdo-images.com/2f9uTicUSXkdPp2Yks6zFw__thumb/img/_mXR9Tlo0f-i80h6pfhDEOBgvpY=/fit-in/200x150/filters:strip_icc()/pic5885689.jpg"
@@ -16295,10 +16300,10 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/300329/harry-potter-strike-dice-game",
       "name": "Strike Dice Game (Harry Potter edition)",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-12",
       "players": {
         "min": 2,
-        "max": 5
+        "max": 6
       },
       "playtime": {
         "min": 15,
@@ -16307,9 +16312,8 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        4,
         5,
-        5
+        6
       ],
       "designers": [
         "Dieter Nüßle"
@@ -16318,8 +16322,12 @@
       "publishers": [
         "Ravensburger"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/rIaFkvXqJgxbxMz2Z0ahIw__original/img/mAszKjJf_GkiWr055d6NXQRkFqs=/0x0/filters:format(jpeg)/pic5643037.jpg",
         "https://cf.geekdo-images.com/rIaFkvXqJgxbxMz2Z0ahIw__thumb/img/S0469fW1GyBhIVQt32PUTzPbLDI=/fit-in/200x150/filters:strip_icc()/pic5643037.jpg"
@@ -16436,6 +16444,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-21T15:59:48.975Z",
+  "lastModified": "2025-07-21T17:33:18.024Z",
   "version": "1.0"
 }
