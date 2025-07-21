@@ -13763,14 +13763,7 @@
       },
       "weight": 1.8,
       "weightColor": "#008000",
-      "bestPlayerCount": [
-        2,
-        3,
-        4,
-        5,
-        6,
-        6
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Rob Daviau",
         "Craig Van Ness"
@@ -13780,13 +13773,19 @@
         "Milton Bradley",
         "Hasbro"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Massachusetts"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Massachusetts"
+      ],
       "images": [
         "https://cf.geekdo-images.com/wn1LAdKnmLSqSHpwp69_pA__original/img/Vymc8ceLF7bFDOBOiLAjlfXC_LM=/0x0/filters:format(jpeg)/pic1248093.jpg",
         "https://cf.geekdo-images.com/wn1LAdKnmLSqSHpwp69_pA__thumb/img/j3A0Qv1tHmAHkFifmcsseF1tchw=/fit-in/200x150/filters:strip_icc()/pic1248093.jpg"
       ],
-      "notes": "",
+      "notes": "Milton Bradley owned by Hasbro. ",
       "description": "Individual battles between famous Star Wars characters set on different board locations. Players choose a major character that is accompanied by one or two minor characters. Each set of characters has its own deck of cards which are used for attack, defense, or special abilities. Each deck is unique with certain special powers relevant to the major character. There are different modes of play; one-on-one battles, up to three teams can play against each other, or up to six players can play a free-for-all battle.\n\nBattle fields included are Geonosis Arena, Emperor's Throne Room, Carbon-Freezing Chamber, and Kamino Platform. The game includes 31 decorated figures from across the entire Star Wars spectrum, 12 character cards (which have major and minor character life trackers on them), 378 action cards (31 per character group), 4 battle field boards, 1 movement die, wound markers, and rules.\n\n",
       "category": [
         "Fighting",
@@ -13818,10 +13817,7 @@
       },
       "weight": 1.4,
       "weightColor": "#008000",
-      "bestPlayerCount": [
-        4,
-        5
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Craig Van Ness"
       ],
@@ -13830,13 +13826,19 @@
         "Hasbro",
         "Milton Bradley"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Massachusetts"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Massachusetts"
+      ],
       "images": [
         "https://cf.geekdo-images.com/L4HxhhrQ-O9NgaVu8WIjiw__original/img/modLwBSooIUk5P4IgbxafMowpkE=/0x0/filters:format(jpeg)/pic331979.jpg",
         "https://cf.geekdo-images.com/L4HxhhrQ-O9NgaVu8WIjiw__thumb/img/KbDR5NUMWZkHlZw2lfTQTl7FkEY=/fit-in/200x150/filters:strip_icc()/pic331979.jpg"
       ],
-      "notes": "",
+      "notes": "Milton Bradley owned by Hasbro. ",
       "description": "Two to Five players take on the roll of the Jedi in a battle against creatures and droids on the Geonosis battle field.  Players receive a number of Jedi cards from a random draw.  The Jedi are distributed around the circular battle field as are the enemy.  Players then move one of their Jedi and attack the enemy, followed by moving one of the enemy and attacking an opposing player's Jedi.  The advanced game includes the Reek which players may try to climb upon and/or crush their opponents with. There is a built in mechanism that will end the game through use of Yoda moving along a track when a \"Yoda\" die face comes up.  When he reaches the end of the track, it's game over (unless everything has been destroyed before then). Players win by destroying the most creatures, counting only those on their surviving Jedi cards.  There is also a nice mechanism to allow an eliminated player back into the game using unclaimed Jedi cards.\n\nThe game comes with a sturdy mounted board, 18 Jedi cards, 3 special dice with attack labels, 74 hard cardboard Pawns with plastic stands, and rules.\n\nFROM THE BOX: The Jedi have been thrown into a perilous fight against a swarm of enemy creatures.  Severely outnumbered, you are up against unthinkable odds... Who will you target first, the Genosians?  Count Dooku?  Jango Fett?\n\n",
       "category": [
         "Dice",
@@ -13856,7 +13858,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/162007/steampunk-rally",
       "name": "Steampunk Rally",
       "year": 2015,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-07-13",
       "players": {
         "min": 2,
         "max": 8
@@ -13868,8 +13870,6 @@
       "weight": 2.6,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5,
         6,
@@ -16436,6 +16436,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-21T15:53:43.493Z",
+  "lastModified": "2025-07-21T15:59:48.975Z",
   "version": "1.0"
 }
