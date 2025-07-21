@@ -11523,7 +11523,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/37380/roll-through-ages-bronze-age",
       "name": "Roll Through the Ages: The Bronze Age",
       "year": 2008,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-11-30",
       "players": {
         "min": 1,
         "max": 4
@@ -11535,8 +11535,6 @@
       "weight": 1.8,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -11560,8 +11558,14 @@
         "Swan Panasia Co.",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Minnesota"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Kentucky"
+      ],
       "images": [
         "https://cf.geekdo-images.com/VoLyy7ScO6aAU9Neo7KCiA__original/img/Va3l1ZkSn20zIMRt4-xpglPRmy0=/0x0/filters:format(jpeg)/pic986758.jpg",
         "https://cf.geekdo-images.com/VoLyy7ScO6aAU9Neo7KCiA__thumb/img/sdS7GaTnYXsIsvex3eCwoeMVArg=/fit-in/200x150/filters:strip_icc()/pic986758.jpg"
@@ -11591,7 +11595,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/811/rummikub",
       "name": "Rummikub",
       "year": 1977,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-15",
       "players": {
         "min": 2,
         "max": 4
@@ -11602,12 +11606,7 @@
       },
       "weight": 1.7,
       "weightColor": "#008000",
-      "bestPlayerCount": [
-        2,
-        3,
-        4,
-        4
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Ephraim Hertzano"
       ],
@@ -11721,13 +11720,16 @@
         "Yangxin Industrial Company Limited",
         "놀이속의세상"
       ],
-      "designerNationality": [],
+      "designerNationality": [
+        "Israel",
+        "Romania"
+      ],
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/LeaLDlTTmeN639MfuflcMw__original/img/fusGQFpm4srwqhM8CDlEDzh0NyQ=/0x0/filters:format(jpeg)/pic2286966.jpg",
         "https://cf.geekdo-images.com/LeaLDlTTmeN639MfuflcMw__thumb/img/CSPEyoFAcA3WwtzDekp3Mfepcek=/fit-in/200x150/filters:strip_icc()/pic2286966.jpg"
       ],
-      "notes": "",
+      "notes": "Designer born in Romania",
       "description": "Rummikub is similar to several central European card games which are played with two decks of playing cards, including Machiavelli and Vatikan. Ephraim Hertzano invented the tile game Rummikub in the 1940s when card-playing was outlawed under the Communist regime. After World War II, Hertzano immigrated to British Mandate of Palestine (now Israel) and developed the first sets with his family. Over the years, the Hertzano family licensed it to other countries and Rummikub became Israel's best-selling export game.\n\nHertzano's Official Rummikub Book, published in 1978, describes three different versions of the game: American, Sabra, and International. Modern Rummikub sets include only the Sabra version rules, with no mention of the others, and there are variations in the rules between publishers.\n\nIn Turkey, the game is known as Okey and is widely played by families at gatherings or at local cafes.\n\nLike Rummy that you play with cards, you try to get rid of all your tiles by forming numbers into runs of 3 tiles or more, or 3 to 4 of a kind. The colors of the numbers on the tiles are like card suits. This game may start rather uneventfully, but when the players start putting more and more tiles in play, the options for your upcoming turns can become more complex, challenging, and exciting (from areyougame.com).\n\n",
       "category": [
         "Abstract Strategy",
@@ -16392,6 +16394,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-19T07:48:11.076Z",
+  "lastModified": "2025-07-21T13:38:04.958Z",
   "version": "1.0"
 }
