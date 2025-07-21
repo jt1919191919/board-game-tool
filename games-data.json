@@ -13483,7 +13483,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/372559/spots",
       "name": "Spots",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-05-21",
       "players": {
         "min": 1,
         "max": 4
@@ -13495,9 +13495,7 @@
       "weight": 1.3,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -13552,7 +13550,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/253684/spring-meadow",
       "name": "Spring Meadow",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-12-18",
       "players": {
         "min": 1,
         "max": 4
@@ -13564,8 +13562,6 @@
       "weight": 1.8,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -13587,13 +13583,18 @@
         "Stronghold Games",
         "White Goblin Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA",
+        "New Jersey"
+      ],
       "images": [
         "https://cf.geekdo-images.com/RyoXSs5ukUtep7WbiWqTLg__original/img/KRysWsX0z8pQLNbTxad7sOaC06o=/0x0/filters:format(jpeg)/pic4149719.jpg",
         "https://cf.geekdo-images.com/RyoXSs5ukUtep7WbiWqTLg__thumb/img/Ev9hcbV_yI-PKaRqY8ZZSVLJpPY=/fit-in/200x150/filters:strip_icc()/pic4149719.jpg"
       ],
-      "notes": "",
+      "notes": "Stronghold merged with Indie Boards Cards.",
       "description": "The first delicate flowers herald the end of a harsh winter. The sun shines longer day by day and pushes the snow back. Lush meadows bloom, and curious marmots slowly awaken from hibernation. Finally, spring is coming into the mountains — the perfect time for a hike. Choose your route carefully, watch out for the burrows of the marmots, and pack enough snacks. Your chances to earn an edelweiss hiking pin are rather low if you sit hungry in the snow.\n\nSpring Meadow is the grand finale of Uwe Rosenberg's puzzle trilogy following 2016's Cottage Garden and 2017's Indian Summer. The complexity of this game — the most interactive of the trilogy — is set in between those two games, and fans of the trilogy will find familiar elements combined in an innovative way.\n\nPlace your meadow tiles with 0-2 holes skillfully on your mountain board to receive extra tiles when creating or expanding groups of holes. Find your way around the burrows of the marmots because they can restrict you during tile placement. Scoring takes place depending on the players' selection of meadow tiles from a central game board. Whoever has the largest meadow during a scoring receives a hiking pin, and the first player to earn their second hiking pin during scoring wins.\n\nNew puzzle challenges are guaranteed with 172 tiles in 49 shapes.\n\n",
       "category": [
         "Abstract Strategy",
@@ -13612,10 +13613,10 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/147020/star-realms",
       "name": "Star Realms",
       "year": 2014,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2018-04-08",
       "players": {
         "min": 2,
-        "max": 2
+        "max": 6
       },
       "playtime": {
         "min": 20,
@@ -13624,9 +13625,9 @@
       "weight": 1.9,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
-        2
+        4,
+        5,
+        6
       ],
       "designers": [
         "Robert Dougherty",
@@ -13647,8 +13648,14 @@
         "IELLO",
         "IUVI Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Massachusetts"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Massachusetts"
+      ],
       "images": [
         "https://cf.geekdo-images.com/EsJqPL5CB_TMt0MYL-lnVg__original/img/QXgamCDRuBoRJyU1PQjeh58Pvr8=/0x0/filters:format(jpeg)/pic1903816.jpg",
         "https://cf.geekdo-images.com/EsJqPL5CB_TMt0MYL-lnVg__thumb/img/s_CE1b1XXUnYj9auTPhLrvkNsYA=/fit-in/200x150/filters:strip_icc()/pic1903816.jpg"
@@ -13678,10 +13685,10 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/182631/star-realms-colony-wars",
       "name": "Star Realms: Colony Wars",
       "year": 2015,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2018-04-08",
       "players": {
         "min": 2,
-        "max": 2
+        "max": 6
       },
       "playtime": {
         "min": 20,
@@ -13690,9 +13697,9 @@
       "weight": 1.9,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        2
+        4,
+        5,
+        6
       ],
       "designers": [
         "Robert Dougherty",
@@ -13712,8 +13719,14 @@
         "IELLO",
         "IUVI Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Massachusetts"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Massachusetts"
+      ],
       "images": [
         "https://cf.geekdo-images.com/FKEjArvFzBTpPJRvU34t8A__original/img/Ixujer_N-Ro0jFErjGdmCdo152k=/0x0/filters:format(jpeg)/pic4324043.jpg",
         "https://cf.geekdo-images.com/FKEjArvFzBTpPJRvU34t8A__thumb/img/v4xPFJ7qUbkc6f7Dpgsn21ZM5YQ=/fit-in/200x150/filters:strip_icc()/pic4324043.jpg"
@@ -16423,6 +16436,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-21T15:22:25.721Z",
+  "lastModified": "2025-07-21T15:53:43.493Z",
   "version": "1.0"
 }
