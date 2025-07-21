@@ -11747,7 +11747,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/9220/saboteur",
       "name": "Saboteur",
       "year": 2004,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-06-02",
       "players": {
         "min": 3,
         "max": 10
@@ -11759,14 +11759,9 @@
       "weight": 1.3,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
-        4,
-        5,
-        6,
         7,
         8,
         9,
-        10,
         10
       ],
       "designers": [
@@ -11817,8 +11812,13 @@
         "Взрослые дети",
         "Ігромаг"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Belgium"
+      ],
+      "publisherCountry": [
+        "Germany",
+        "Texas"
+      ],
       "images": [
         "https://cf.geekdo-images.com/0vJwP6NGa7GHPZKC3gplUw__original/img/TJDCd-PYySXmhQn-LC-y88JPA7U=/0x0/filters:format(jpeg)/pic3989824.jpg",
         "https://cf.geekdo-images.com/0vJwP6NGa7GHPZKC3gplUw__thumb/img/B3j-is62fP09eHP34uFG_gsxNQs=/fit-in/200x150/filters:strip_icc()/pic3989824.jpg"
@@ -11849,7 +11849,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/175549/salem-1692",
       "name": "Salem 1692",
       "year": 2015,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2025-05-23",
       "players": {
         "min": 4,
         "max": 12
@@ -11861,8 +11861,6 @@
       "weight": 2.1,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        5,
-        6,
         7,
         8,
         9,
@@ -11914,7 +11912,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/128667/samurai-sword",
       "name": "Samurai Sword",
       "year": 2012,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-11-30",
       "players": {
         "min": 3,
         "max": 7
@@ -11926,10 +11924,7 @@
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        4,
-        5,
         6,
-        7,
         7
       ],
       "designers": [
@@ -11948,8 +11943,12 @@
         "Hobby World",
         "Swan Panasia Co."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Italy"
+      ],
+      "publisherCountry": [
+        "Italy"
+      ],
       "images": [
         "https://cf.geekdo-images.com/LoiCqvj7Zu7hsDPuyRDThA__original/img/mo7-wyR3OpL_Foi_hRMpTRjp5jM=/0x0/filters:format(jpeg)/pic1531841.jpg",
         "https://cf.geekdo-images.com/LoiCqvj7Zu7hsDPuyRDThA__thumb/img/g951xTjoOG7uFdB4pZr3CTgTTEQ=/fit-in/200x150/filters:strip_icc()/pic1531841.jpg"
@@ -11975,7 +11974,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/298065/santa-monica",
       "name": "Santa Monica",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-11-19",
       "players": {
         "min": 2,
         "max": 4
@@ -11987,8 +11986,6 @@
       "weight": 2.1,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -12009,8 +12006,15 @@
         "Skellig Games",
         "Vem Pra Mesa Jogos"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "California",
+        "LA"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/6Jp00SquFOCnQSlP8RGHXw__original/img/A-Qi_hv3f8WifN6qKjYze4N9Gww=/0x0/filters:format(jpeg)/pic5177758.jpg",
         "https://cf.geekdo-images.com/6Jp00SquFOCnQSlP8RGHXw__thumb/img/J781AyZsczoPDRhjyGFt-eN38Ig=/fit-in/200x150/filters:strip_icc()/pic5177758.jpg"
@@ -12046,12 +12050,7 @@
       },
       "weight": 2.1,
       "weightColor": "#cfa200",
-      "bestPlayerCount": [
-        2,
-        3,
-        4,
-        4
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Alfred Mosher Butts"
       ],
@@ -12144,7 +12143,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/367220/sea-salt-and-paper",
       "name": "Sea Salt & Paper",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2025-02-14",
       "players": {
         "min": 2,
         "max": 4
@@ -12156,7 +12155,6 @@
       "weight": 1.5,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -16394,6 +16392,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-21T13:38:04.958Z",
+  "lastModified": "2025-07-21T13:54:23.895Z",
   "version": "1.0"
 }
