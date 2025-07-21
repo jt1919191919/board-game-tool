@@ -12534,7 +12534,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/157969/sheriff-nottingham",
       "name": "Sheriff of Nottingham",
       "year": 2014,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2018-08-31",
       "players": {
         "min": 3,
         "max": 5
@@ -12546,9 +12546,6 @@
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
-        4,
-        5,
         5
       ],
       "designers": [
@@ -12580,8 +12577,13 @@
         "Siam Board Games",
         "SuperHeated Neurons"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Brazil"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Texas"
+      ],
       "images": [
         "https://cf.geekdo-images.com/BBgLFKUzr6tcKtlIM2JSFw__original/img/fll2MuTBPVKb7fyBJ8D-4_c1XHM=/0x0/filters:format(jpeg)/pic2075830.jpg",
         "https://cf.geekdo-images.com/BBgLFKUzr6tcKtlIM2JSFw__thumb/img/JD5L_XrtkaKINUj8ILZqFMGcTsE=/fit-in/200x150/filters:strip_icc()/pic2075830.jpg"
@@ -12613,7 +12615,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/2511/sherlock-holmes-consulting-detective-thames-murder",
       "name": "Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases",
       "year": 1981,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2015-09-03",
       "players": {
         "min": 1,
         "max": 8
@@ -12625,15 +12627,9 @@
       "weight": 2.7,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
         2,
         3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        8
+        4
       ],
       "designers": [
         "Raymond Edwards",
@@ -12669,13 +12665,17 @@
         "Ystari Games",
         "二見書房 ( Futami Shobo Publishing Co."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/ptDZ2tJ6dSNiONAx3HH8Tw__original/img/iu21NR45DwHyFY-UPW0m7hwY_vw=/0x0/filters:format(jpeg)/pic3514298.jpg",
         "https://cf.geekdo-images.com/ptDZ2tJ6dSNiONAx3HH8Tw__thumb/img/TKoDj4fKzLa_m45TCQeDGcBf63o=/fit-in/200x150/filters:strip_icc()/pic3514298.jpg"
       ],
-      "notes": "",
+      "notes": "Date acquired is just an estimate.",
       "description": "Have you ever had the desire to walk the streets of Victorian London with Sherlock Holmes in search of Professor Moriarty? To search the docks for the giant rat of Sumatra? To walk up Baker Street as the fog is rolling in and hear Holmes cry out, \"Come, Watson, come! The game is afoot!\"? Now you can! You can enter the opium den beneath the Bar of Gold, but beware, that may be Colonel Sebastian Moran lurking around the corner. You can capture the mystery and excitement of Holmes' London in this challenging and informative game. You, the player, will match your deductive abilities against your opponents and the master sleuth himself, Sherlock Holmes.\n\nIn Sherlock Holmes Consulting Detective, you are presented with a mystery to solve, and it is then up to you to trace the threads of evidence through the byways and mansions of nineteenth century London. You will interview suspects, search the newspapers for clues, and put together the facts to reach a solution.\n\nWhy were two lions murdered in Hyde Park? Who is responsible for the missing paintings from the National Gallery? Who murdered Oswald Mason and why? These are just a few of the cases that will challenge your ingenuity and deductive abilities.\n\nThis is not a board game: No dice, no luck, but a challenge to your mental ability. The game has been thoroughly researched for Holmesian and Victorian accuracy so as to capture a feeling of that bygone era.\n\n",
       "category": [
         "Deduction",
@@ -12698,7 +12698,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/220517/shipwreck-arcana",
       "name": "The Shipwreck Arcana",
       "year": 2017,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-04-25",
       "players": {
         "min": 2,
         "max": 5
@@ -12710,8 +12710,6 @@
       "weight": 2.2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5
       ],
@@ -12724,8 +12722,14 @@
       "publishers": [
         "Meromorph Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Maryland"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Maryland"
+      ],
       "images": [
         "https://cf.geekdo-images.com/yv5EAl5uidhZ53WJI-bQ4g__original/img/M7dWeql-u4Xtcaff5tfSCa2AvSs=/0x0/filters:format(png)/pic4042715.png",
         "https://cf.geekdo-images.com/yv5EAl5uidhZ53WJI-bQ4g__thumb/img/97sqsQ6PTxfoHXd12xQG0hl0pqE=/fit-in/200x150/filters:strip_icc()/pic4042715.png"
@@ -12754,7 +12758,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/270673/silver-gold",
       "name": "Silver & Gold",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-04-16",
       "players": {
         "min": 2,
         "max": 4
@@ -12766,7 +12770,6 @@
       "weight": 1.2,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -12788,8 +12791,13 @@
         "White Goblin Games",
         "Нескучные игры"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Australia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Texas"
+      ],
       "images": [
         "https://cf.geekdo-images.com/a6DA19Zb8GLJ3wxyamCiJw__original/img/0VTXqGyyc0PC_-AdDcOIllSQDMg=/0x0/filters:format(jpeg)/pic6974604.jpg",
         "https://cf.geekdo-images.com/a6DA19Zb8GLJ3wxyamCiJw__thumb/img/YVYnsMuksuud8E7DfNenfuH5jis=/fit-in/200x150/filters:strip_icc()/pic6974604.jpg"
@@ -12815,7 +12823,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/353815/skate-summer",
       "name": "Skate Summer",
       "year": 2022,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-12-25",
       "players": {
         "min": 2,
         "max": 5
@@ -12827,8 +12835,6 @@
       "weight": 2.1,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5
       ],
@@ -12870,10 +12876,10 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/92415/skull",
       "name": "Skull",
       "year": 2011,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-05-05",
       "players": {
         "min": 3,
-        "max": 6
+        "max": 12
       },
       "playtime": {
         "min": 45,
@@ -12882,13 +12888,12 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
         5,
         6,
-        6
+        7,
+        8,
+        9,
+        10
       ],
       "designers": [
         "Hervé Marly"
@@ -12913,13 +12918,18 @@
         "Siam Board Games",
         "Space Cowboys"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France",
+        "Paris"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/OPrd2iXm43dir7BwKAMOuQ__original/img/ygPnbmg8FCpA7jO5gXw38uyNQ10=/0x0/filters:format(jpeg)/pic6097488.jpg",
         "https://cf.geekdo-images.com/OPrd2iXm43dir7BwKAMOuQ__thumb/img/yEnb4YWN-Cp41KWTQ2EeNkrqlZI=/fit-in/200x150/filters:strip_icc()/pic6097488.jpg"
       ],
-      "notes": "",
+      "notes": "accidentally got this on Cinco De Mayo lol. Space Cowboys owned by Asmodee.",
       "description": "Edited description from Bruno Faidutti's write-up of the game in his Ideal Game Library:\n\nSkull & Roses is the quintessence of bluffing, a game in which everything is played in the players' heads. Each player plays a face-down card, then each player in turn adds one more card – until someone feels safe enough to state that he can turn a number of cards face up and get only roses. Other players can then overbid him, saying they can turn even more cards face up. The highest bidder must then turn that number of cards face up, starting with his own. If he shows only roses, he wins; if he reveals a skull, he loses, placing one of his cards out of play. Two successful challenges wins the game. Skull & Roses is not a game of luck; it's a game of poker face and meeting eyes.\n\nSkull & Roses Red features the same gameplay as Skull & Roses, with the only change being alternate rules that allow each player to control two biker gangs. Both Skull & Roses Red and Skull are playable on their own, with each game containing six different biker gangs. Each Skull or Skull & Roses set can be combined with another to allow for games with more than six players.\n\n",
       "category": [
         "Bluffing",
@@ -12940,7 +12950,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/40692/small-world",
       "name": "Small World",
       "year": 2009,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2018-04-07",
       "players": {
         "min": 2,
         "max": 5
@@ -12952,11 +12962,7 @@
       "weight": 2.3,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
         4,
-        5,
         5
       ],
       "designers": [
@@ -12982,13 +12988,18 @@
         "Siam Board Games",
         "Stratelibri"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Belgium"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/aoPM07XzoceB-RydLh08zA__original/img/bYLzrwZO9u-3h2wyU-PHc8aTOY4=/0x0/filters:format(jpeg)/pic428828.jpg",
         "https://cf.geekdo-images.com/aoPM07XzoceB-RydLh08zA__thumb/img/o3Bw9heVDJRgPYlI_PksCvLAgnM=/fit-in/200x150/filters:strip_icc()/pic428828.jpg"
       ],
-      "notes": "",
+      "notes": "Days of Wonder owned by Asmodee. ",
       "description": "In Small World, players vie for conquest and control of a world that is simply too small to accommodate them all.\n\nDesigned by Philippe Keyaerts as a fantasy follow-up to his award-winning Vinci, Small World is inhabited by a zany cast of characters such as dwarves, wizards, amazons, giants, orcs, and even humans, who use their troops to occupy territory and conquer adjacent lands in order to push the other races off the face of the earth.\n\nPicking the right combination from the 14 different fantasy races and 20 unique special powers, players rush to expand their empires - often at the expense of weaker neighbors. Yet they must also know when to push their own over-extended civilization into decline and ride a new one to victory!\n\nOn each turn, you either use the multiple tiles of your chosen race (type of creatures) to occupy adjacent (normally) territories - possibly defeating weaker enemy races along the way, or you give up on your race letting it go \"into decline\". A race in decline is designated by flipping the tiles over to their black-and-white side.\n\nAt the end of your turn, you score one point (coin) for each territory your races occupy. You may have one active race and one race in decline on the board at the same time. Your occupation total can vary depending on the special abilities of your race and the territories they occupy. After the final round, the player with the most coins wins.\n\nClarifications: available in a pinned forum post.\n\n",
       "category": [
         "Fantasy",
@@ -13012,7 +13023,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/246684/smartphone-inc",
       "name": "Smartphone Inc.",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-12-24",
       "players": {
         "min": 1,
         "max": 5
@@ -13024,11 +13035,8 @@
       "weight": 2.8,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4,
-        5,
         5
       ],
       "designers": [
@@ -13047,8 +13055,14 @@
         "Maldito Games",
         "Portal Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Russia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Texas",
+        "Russia"
+      ],
       "images": [
         "https://cf.geekdo-images.com/Ndctxvd7kBXYubeYRKRqzw__original/img/gGL8Fh-pFgTqB3lF-47ClLYLu8s=/0x0/filters:format(jpeg)/pic4258616.jpg",
         "https://cf.geekdo-images.com/Ndctxvd7kBXYubeYRKRqzw__thumb/img/hJtPqShJYdb8DsdnTvpdkXrx-CU=/fit-in/200x150/filters:strip_icc()/pic4258616.jpg"
@@ -13076,7 +13090,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/337389/snakesss",
       "name": "Snakesss",
       "year": 2021,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-12-18",
       "players": {
         "min": 4,
         "max": 8
@@ -13105,8 +13119,12 @@
         "Hobby World",
         "Korea Boardgames"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Australia"
+      ],
+      "publisherCountry": [
+        "USA"
+      ],
       "images": [
         "https://cf.geekdo-images.com/IA8aPGqTk0buA0MpmHIlLw__original/img/O6aLeH0mqiyk7aQbUnS4jRrVm1U=/0x0/filters:format(png)/pic6145820.png",
         "https://cf.geekdo-images.com/IA8aPGqTk0buA0MpmHIlLw__thumb/img/gTPs5hHvH9jHNjGRBQ2oX1beehE=/fit-in/200x150/filters:strip_icc()/pic6145820.png"
@@ -13133,7 +13151,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/329839/so-clover",
       "name": "So Clover!",
       "year": 2021,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-03-13",
       "players": {
         "min": 3,
         "max": 6
@@ -13145,11 +13163,8 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5,
-        6,
         6
       ],
       "designers": [
@@ -13168,13 +13183,17 @@
         "TLAMA games",
         "YellowBOX"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "Belgium"
+      ],
       "images": [
         "https://cf.geekdo-images.com/8oipK9-ivkn53h7L5U2Yfg__original/img/KtvdQ2mT4ShhUaJekT9IvuOCvv8=/0x0/filters:format(png)/pic6588069.png",
         "https://cf.geekdo-images.com/8oipK9-ivkn53h7L5U2Yfg__thumb/img/cBKt41XFKkdphyqZItit4EIC45k=/fit-in/200x150/filters:strip_icc()/pic6588069.png"
       ],
-      "notes": "",
+      "notes": "Repos owned by Asmodee. ",
       "description": "So Clover! is a cooperative word-association game. Play as a team to get the highest score. Get Keywords and secretly write their common features on your Clover board; these are your Clues. Then work together to try to figure out each player’s Keywords. At the end of the game, add up your score according to how many Keywords you found and write it in the Record of Legends. Try to beat your high score each game!\n\n-description from the publisher\n\n",
       "category": [
         "Party Game",
@@ -13191,7 +13210,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/296626/sonora",
       "name": "Sonora",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-06-30",
       "players": {
         "min": 1,
         "max": 4
@@ -13203,8 +13222,6 @@
       "weight": 2.1,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -13220,8 +13237,15 @@
         "Devir",
         "Hobby World"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Colorado"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Texas",
+        "Austin"
+      ],
       "images": [
         "https://cf.geekdo-images.com/Re1SNzgNsnh0IreSHD1ZNg__original/img/cqWtw2lBwkIZRf1zM3D0fBATswY=/0x0/filters:format(jpeg)/pic5183202.jpg",
         "https://cf.geekdo-images.com/Re1SNzgNsnh0IreSHD1ZNg__thumb/img/wPOHAp1IYeZ-LOkoFdVCjGVQHoQ=/fit-in/200x150/filters:strip_icc()/pic5183202.jpg"
@@ -13249,7 +13273,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/242302/space-base",
       "name": "Space Base",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-12-25",
       "players": {
         "min": 2,
         "max": 5
@@ -13261,9 +13285,6 @@
       "weight": 2.1,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
         4,
         5
       ],
@@ -13281,8 +13302,15 @@
         "Lavka Games",
         "Maldito Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "California",
+        "LA"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/MHhQxXVjiaa6C-04nGiIWw__original/img/QyWen0FVOKD_4wf7Na7fdsMTjis=/0x0/filters:format(jpeg)/pic6640638.jpg",
         "https://cf.geekdo-images.com/MHhQxXVjiaa6C-04nGiIWw__thumb/img/rgETRyeuYs_wiZ5y-9Zj5H8kyFo=/fit-in/200x150/filters:strip_icc()/pic6640638.jpg"
@@ -13306,7 +13334,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/299169/spicy",
       "name": "Spicy",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2025-05-23",
       "players": {
         "min": 2,
         "max": 6
@@ -13318,11 +13346,7 @@
       "weight": 1.3,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
-        4,
         5,
-        6,
         6
       ],
       "designers": [
@@ -13378,7 +13402,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/148228/splendor",
       "name": "Splendor",
       "year": 2014,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-12-25",
       "players": {
         "min": 2,
         "max": 4
@@ -13390,10 +13414,7 @@
       "weight": 1.8,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -13432,13 +13453,17 @@
         "Siam Board Games",
         "Z-Man Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/vNFe4JkhKAERzi4T0Ntwpw__original/img/rqcUdtu_N4v-SpI96XVmpYHnJww=/0x0/filters:format(png)/pic8234167.png",
         "https://cf.geekdo-images.com/vNFe4JkhKAERzi4T0Ntwpw__thumb/img/KKU_42Uswt4tKCpf1zY5kTzgr-g=/fit-in/200x150/filters:strip_icc()/pic8234167.png"
       ],
-      "notes": "",
+      "notes": "Space Cowboys owned by Asmodee. ",
       "description": "Splendor is a game of chip-collecting and card development. Players are merchants of the Renaissance trying to buy gem mines, means of transportation, shops—all in order to acquire the most prestige points. If you're wealthy enough, you might even receive a visit from a noble at some point, which of course will further increase your prestige.\n\nOn your turn, you may (1) collect chips (gems), or (2) buy and build a card, or (3) reserve one card. If you collect chips, you take either three different kinds of chips or two chips of the same kind. If you buy a card, you pay its price in chips and add it to your playing area. To reserve a card—in order to make sure you get it, or, why not, your opponents don't get it—you place it in front of you face down for later building; this costs you a round, but you also get gold in the form of a joker chip, which you can use as any gem.\n\nAll of the cards you buy increase your wealth as they give you a permanent gem bonus for later buys; some of the cards also give you prestige points. In order to win the game, you must reach 15 prestige points before your opponents do.\n\n",
       "category": [
         "Card Game",
@@ -16398,6 +16423,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-21T14:27:56.136Z",
+  "lastModified": "2025-07-21T15:22:25.721Z",
   "version": "1.0"
 }
