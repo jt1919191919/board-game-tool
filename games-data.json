@@ -15414,7 +15414,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/33154/wasabi",
       "name": "Wasabi!",
       "year": 2008,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-04-18",
       "players": {
         "min": 2,
         "max": 4
@@ -15426,9 +15426,7 @@
       "weight": 1.9,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -15442,8 +15440,15 @@
         "Pegasus Spiele",
         "Z-Man Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Canada",
+        "Ontario",
+        "Toronto"
+      ],
+      "publisherCountry": [
+        "USA",
+        "New York"
+      ],
       "images": [
         "https://cf.geekdo-images.com/nQMrIeXPBdcwD2H0yJKVAA__original/img/IjMRk4px4srOH2jYx7B0Ge15mIc=/0x0/filters:format(jpeg)/pic273575.jpg",
         "https://cf.geekdo-images.com/nQMrIeXPBdcwD2H0yJKVAA__thumb/img/3bKQplnJ8NdHYy5i0wlHsg1prec=/fit-in/200x150/filters:strip_icc()/pic273575.jpg"
@@ -15466,7 +15471,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/262543/wavelength",
       "name": "Wavelength",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-12-26",
       "players": {
         "min": 2,
         "max": 12
@@ -15478,18 +15483,12 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
-        5,
         6,
         7,
         8,
         9,
         10,
         11,
-        12,
         12
       ],
       "designers": [
@@ -15540,7 +15539,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/233867/welcome",
       "name": "Welcome To...",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2022-04-25",
       "players": {
         "min": 1,
         "max": 100
@@ -15552,8 +15551,6 @@
       "weight": 1.8,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4,
         5,
@@ -15612,8 +15609,12 @@
         "SD Games",
         "sternenschimmermeer"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/g4XmxyKhNVdhC3QPd1purQ__original/img/pb6XFQZFUNOr6OPysOHB3usVDFk=/0x0/filters:format(jpeg)/pic3761012.jpg",
         "https://cf.geekdo-images.com/g4XmxyKhNVdhC3QPd1purQ__thumb/img/e3bCyIvM1IOGFYnKGj2jIn5mbKY=/fit-in/200x150/filters:strip_icc()/pic3761012.jpg"
@@ -15641,7 +15642,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/245422/werewords-deluxe-edition",
       "name": "Werewords Deluxe Edition",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2023-11-01",
       "players": {
         "min": 2,
         "max": 20
@@ -15672,8 +15673,14 @@
       "publishers": [
         "Bézier Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Tennessee"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Tennessee"
+      ],
       "images": [
         "https://cf.geekdo-images.com/77oWoTv9Jrd-haIPL_SwwA__original/img/zbdeVtSQSRwoPcIX4t8vNjFXm4I=/0x0/filters:format(jpeg)/pic3966906.jpg",
         "https://cf.geekdo-images.com/77oWoTv9Jrd-haIPL_SwwA__thumb/img/uSPzvF4DktolqeFY-HYVdaGMqz0=/fit-in/200x150/filters:strip_icc()/pic3966906.jpg"
@@ -16490,6 +16497,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-28T14:47:21.642Z",
+  "lastModified": "2025-07-28T14:59:20.513Z",
   "version": "1.0"
 }
