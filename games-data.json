@@ -14541,7 +14541,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/85256/timeline-inventions",
       "name": "Timeline: Inventions",
       "year": 2010,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-23",
       "players": {
         "min": 2,
         "max": 8
@@ -14553,13 +14553,9 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
-        4,
         5,
         6,
         7,
-        8,
         8
       ],
       "designers": [
@@ -14590,8 +14586,12 @@
         "REXhry",
         "Zygomatic"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/lm4VudewCcllbE9GzBOhww__original/img/2QYxy8WPFa0_jdZToXSZ4qLz3B8=/0x0/filters:format(jpeg)/pic7108036.jpg",
         "https://cf.geekdo-images.com/lm4VudewCcllbE9GzBOhww__thumb/img/uRICnAkYAEFegymSkJHYQAZCN34=/fit-in/200x150/filters:strip_icc()/pic7108036.jpg"
@@ -14613,7 +14613,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/131325/timeline-general-interest",
       "name": "Timeline: General Interest / Diversity",
       "year": 2012,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-23",
       "players": {
         "min": 2,
         "max": 8
@@ -14625,13 +14625,9 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
-        4,
         5,
         6,
         7,
-        8,
         8
       ],
       "designers": [
@@ -14653,8 +14649,12 @@
         "Rebel Sp. z o.o.",
         "REXhry"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/E5jsUTUueJK9cIjqktSPKw__original/img/m42vSZ987QO9w9Rv_aLeCBWmKqM=/0x0/filters:format(png)/pic8286827.png",
         "https://cf.geekdo-images.com/E5jsUTUueJK9cIjqktSPKw__thumb/img/PVBokM8A9A84p5Fyy6Oojn-ycpA=/fit-in/200x150/filters:strip_icc()/pic8286827.png"
@@ -14678,7 +14678,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/113401/timeline-events",
       "name": "Timeline: Events / Historical ",
       "year": 2011,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-23",
       "players": {
         "min": 2,
         "max": 8
@@ -14690,14 +14690,9 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4,
         5,
         6,
         7,
-        8,
         8
       ],
       "designers": [
@@ -14720,8 +14715,12 @@
         "REXhry",
         "Zygomatic"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/V-LCKnzAZvzdim9_PMPGpw__original/img/nj33ZARrJI6yCp9kTZC911kh7A4=/0x0/filters:format(jpeg)/pic5872050.jpg",
         "https://cf.geekdo-images.com/V-LCKnzAZvzdim9_PMPGpw__thumb/img/nzjHPY6A8sqP_cv1JY3ENCD6z9E=/fit-in/200x150/filters:strip_icc()/pic5872050.jpg"
@@ -14742,10 +14741,10 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/215463/tokyo-highway",
       "name": "Tokyo Highway",
       "year": 2016,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-08-26",
       "players": {
         "min": 2,
-        "max": 2
+        "max": 4
       },
       "playtime": {
         "min": 50,
@@ -14754,8 +14753,8 @@
       "weight": 1.4,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        2
+        3,
+        4
       ],
       "designers": [
         "Naotaka Shimamoto",
@@ -14767,8 +14766,12 @@
       "publishers": [
         "itten"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Japan"
+      ],
+      "publisherCountry": [
+        "Japan"
+      ],
       "images": [
         "https://cf.geekdo-images.com/dF6ZKbrhMWz-c01iD3gg6Q__original/img/prAM6yU26EQqcKeqLvn68_uik2A=/0x0/filters:format(jpeg)/pic8485703.jpg",
         "https://cf.geekdo-images.com/dF6ZKbrhMWz-c01iD3gg6Q__thumb/img/6zZobzuDSxfMhTJyIZiZLRz0520=/fit-in/200x150/filters:strip_icc()/pic8485703.jpg"
@@ -14789,7 +14792,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/297204/traintopia",
       "name": "Traintopia",
       "year": 2020,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-17",
       "players": {
         "min": 2,
         "max": 4
@@ -14800,12 +14803,7 @@
       },
       "weight": 2.2,
       "weightColor": "#cfa200",
-      "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Przemek Wojtkowiak"
       ],
@@ -14816,8 +14814,12 @@
       "publishers": [
         "Board&Dice"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Poland"
+      ],
+      "publisherCountry": [
+        "Poland"
+      ],
       "images": [
         "https://cf.geekdo-images.com/-7fTO3EiGxUVLRN1JGNTaA__original/img/CI4shR3w8pVcyvl9kNB2DkBP330=/0x0/filters:format(jpeg)/pic5139857.jpg",
         "https://cf.geekdo-images.com/-7fTO3EiGxUVLRN1JGNTaA__thumb/img/_7Mz6KWNxpBOq0E-CgQSonSZdWg=/fit-in/200x150/filters:strip_icc()/pic5139857.jpg"
@@ -14841,7 +14843,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/110698/travel-wheel-fortune",
       "name": "Travel Wheel of Fortune",
       "year": 1988,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-15",
       "players": {
         "min": 1,
         "max": 4
@@ -14864,7 +14866,9 @@
         "Tyco"
       ],
       "designerNationality": [],
-      "publisherCountry": [],
+      "publisherCountry": [
+        "USA"
+      ],
       "images": [
         "https://cf.geekdo-images.com/_tBDMBswO9qsPfnw-82rhQ__original/img/HqK_W_MipE6UWESc4FSo5QGGHt8=/0x0/filters:format(jpeg)/pic1123074.jpg",
         "https://cf.geekdo-images.com/_tBDMBswO9qsPfnw-82rhQ__thumb/img/GHsMC5NNiN7gsxj_UuKvxHFsQ6g=/fit-in/200x150/filters:strip_icc()/pic1123074.jpg"
@@ -14885,7 +14889,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/242639/treasure-island",
       "name": "Treasure Island",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-04-20",
       "players": {
         "min": 2,
         "max": 5
@@ -14897,10 +14901,7 @@
       "weight": 2.2,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
-        3,
         4,
-        5,
         5
       ],
       "designers": [
@@ -14922,8 +14923,12 @@
         "Surfin' Meeple China",
         "WoodCat"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "France"
+      ],
+      "publisherCountry": [
+        "France"
+      ],
       "images": [
         "https://cf.geekdo-images.com/tHEYd09coOFilcJZf3-I9A__original/img/dsvADohNa_xOOW6-9A-YhfFsKq0=/0x0/filters:format(jpeg)/pic6974459.jpg",
         "https://cf.geekdo-images.com/tHEYd09coOFilcJZf3-I9A__thumb/img/DIbtdKy0v43ncP_fBcBZoIPQ2cs=/fit-in/200x150/filters:strip_icc()/pic6974459.jpg"
@@ -14990,7 +14995,7 @@
         "https://cf.geekdo-images.com/nTEKC1bZ2GGANIoV204T3Q__original/img/Ajd-NvwUtnHPR8XCb9NAbm3TxtQ=/0x0/filters:format(jpeg)/pic5159393.jpg",
         "https://cf.geekdo-images.com/nTEKC1bZ2GGANIoV204T3Q__thumb/img/8kZMzfKlRf3HYF3QqFRClSV9qWg=/fit-in/200x150/filters:strip_icc()/pic5159393.jpg"
       ],
-      "notes": "",
+      "notes": "Flatout Games made it.",
       "description": "In the quick-playing, card-drafting game Truffle Shuffle, players take turns selecting truffles from a shared box of overlapping cards in order to make their own arrangements of chocolates to sell. Players can complete a variety of sets, using special modifiers and action cards. With so many different chocolate truffles to unwrap and different ways to combine them, every game of Truffle Shuffle is unique!\n\n—description from the publisher\n\n",
       "category": [
         "Card Game"
@@ -16463,6 +16468,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-28T14:11:26.566Z",
+  "lastModified": "2025-07-28T14:24:51.036Z",
   "version": "1.0"
 }
