@@ -15082,7 +15082,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/152242/ultimate-werewolf-deluxe-edition",
       "name": "Ultimate Werewolf: Deluxe Edition",
       "year": 2014,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-04-19",
       "players": {
         "min": 5,
         "max": 75
@@ -15094,6 +15094,8 @@
       "weight": 1.5,
       "weightColor": "#008000",
       "bestPlayerCount": [
+        7,
+        8,
         9,
         10,
         11,
@@ -15127,8 +15129,14 @@
         "Bézier Games",
         "Siam Board Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Tennessee"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Tennessee"
+      ],
       "images": [
         "https://cf.geekdo-images.com/dncdxD1g4dxMh9e8oKlzbg__original/img/o-44FqDtvZ28uqX_V_rcpEnzqsI=/0x0/filters:format(png)/pic1878492.png",
         "https://cf.geekdo-images.com/dncdxD1g4dxMh9e8oKlzbg__thumb/img/Wd1gXoEgJjq9vG3ZCP8_H1hP2eE=/fit-in/200x150/filters:strip_icc()/pic1878492.png"
@@ -15159,7 +15167,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/217085/unearth",
       "name": "Unearth",
       "year": 2017,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2018-11-20",
       "players": {
         "min": 2,
         "max": 4
@@ -15171,7 +15179,6 @@
       "weight": 1.9,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
         3,
         4
       ],
@@ -15188,13 +15195,18 @@
         "Edge Entertainment",
         "GaGa Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/0olGvNCDk-VmFW2LDOnI_Q__original/img/sugvsPhhLdQrUxD5SH970FN-Fuc=/0x0/filters:format(jpeg)/pic3579391.jpg",
         "https://cf.geekdo-images.com/0olGvNCDk-VmFW2LDOnI_Q__thumb/img/3J2ogaftEzBzwUO3kyJ7DXH-3HE=/fit-in/200x150/filters:strip_icc()/pic3579391.jpg"
       ],
-      "notes": "",
+      "notes": "these are not the brothers that own company.",
       "description": "Long ago, your ancestors built great cities across the world. Now your tribe must explore forests, deserts, islands, mountains, and caverns to find these lost cities. Claim the ruins, build places of power, and restore the glory of a bygone age.\n\nUnearth is a bend-your-luck game of dice placement and set collection. Designed by Jason Harner and Matthew Ransom, it plays in under an hour with 2-4 players. Each player leads a tribe of Delvers, represented by five dice (3 six-sided, 1 four-sided, and 1 eight-sided). Players take turns rolling and placing dice in an attempt to claim Ruins.\n\nThe game's elegant core mechanic is accessible to players of all skill levels. High rolls help players claim Ruins, while low rolls help players collect Stones. This opens two paths to victory: claiming sets of Ruins or using Stones to build Wonders. Delver cards help you affect your dice rolls or dice in play, and Wonders can grant abilities that impact the late game.\n\n",
       "category": [
         "Card Game",
@@ -15214,7 +15226,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/378271/the-uzzle",
       "name": "The Uzzle",
       "year": 2021,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2024-11-28",
       "players": {
         "min": 1,
         "max": 4
@@ -15225,12 +15237,7 @@
       },
       "weight": 1.7,
       "weightColor": "#008000",
-      "bestPlayerCount": [
-        1,
-        2,
-        3,
-        4
-      ],
+      "bestPlayerCount": [],
       "designers": [],
       "artists": [],
       "publishers": [
@@ -16476,6 +16483,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-28T14:27:25.224Z",
+  "lastModified": "2025-07-28T14:34:26.362Z",
   "version": "1.0"
 }
