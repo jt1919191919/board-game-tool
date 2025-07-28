@@ -14287,7 +14287,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/908/tally-ho",
       "name": "Tally Ho!",
       "year": 1973,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-01-06",
       "players": {
         "min": 2,
         "max": 2
@@ -14321,8 +14321,12 @@
         "Spear's Games",
         "Tilsit"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/9nNl8qfnp344TJUPLQhJhw__original/img/FSPiY99KzVr7kbibwKRqISrWPO0=/0x0/filters:format(jpeg)/pic2855889.jpg",
         "https://cf.geekdo-images.com/9nNl8qfnp344TJUPLQhJhw__thumb/img/6E8ARH3FZPABYjW1NTY6aWU6liA=/fit-in/200x150/filters:strip_icc()/pic2855889.jpg"
@@ -14347,7 +14351,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/269207/taverns-tiefenthal",
       "name": "The Taverns of Tiefenthal",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-06-22",
       "players": {
         "min": 2,
         "max": 4
@@ -14359,8 +14363,6 @@
       "weight": 2.7,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4
       ],
@@ -14385,8 +14387,14 @@
         "NorthStar Game Studio",
         "YellowBOX"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany",
+        "USA",
+        "Maryland"
+      ],
       "images": [
         "https://cf.geekdo-images.com/H-AU-nhjCbaxWlWj_O-eFw__original/img/lA3TNJgLhVo-hB9rPKxr66js5j0=/0x0/filters:format(jpeg)/pic4873141.jpg",
         "https://cf.geekdo-images.com/H-AU-nhjCbaxWlWj_O-eFw__thumb/img/K_cH8KNrKA2FdgvqtUMubNvoRQU=/fit-in/200x150/filters:strip_icc()/pic4873141.jpg"
@@ -14413,7 +14421,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/153016/telestrations-12-player-party-pack",
       "name": "Telestrations: 12 Player Party Pack",
       "year": 2011,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-11-13",
       "players": {
         "min": 4,
         "max": 12
@@ -14425,15 +14433,12 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        4,
-        5,
         6,
         7,
         8,
         9,
         10,
         11,
-        12,
         12
       ],
       "designers": [
@@ -14471,7 +14476,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/36553/times-title-recall",
       "name": "Time's Up! Title Recall!",
       "year": 2008,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-23",
       "players": {
         "min": 4,
         "max": 18
@@ -14483,18 +14488,18 @@
       "weight": 1.2,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        4,
-        5,
         6,
         7,
         8,
         9,
         10,
+        11,
         12,
         13,
         14,
+        15,
         16,
-        18,
+        17,
         18
       ],
       "designers": [
@@ -14505,8 +14510,13 @@
       "publishers": [
         "R&R Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Florida"
+      ],
       "images": [
         "https://cf.geekdo-images.com/XVqx-bp37COAHcyYUB7KNQ__original/img/dbdo3WivCtIItVGNj8FvJv3LnkQ=/0x0/filters:format(jpeg)/pic3690447.jpg",
         "https://cf.geekdo-images.com/XVqx-bp37COAHcyYUB7KNQ__thumb/img/8i8qQZPAwkAm7yyaLbdn8I6mjmM=/fit-in/200x150/filters:strip_icc()/pic3690447.jpg"
@@ -16086,7 +16096,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/54/tikal",
       "name": "Tikal",
       "year": 1999,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-04-08",
       "players": {
         "min": 2,
         "max": 4
@@ -16098,10 +16108,7 @@
       "weight": 2.8,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
-        2,
         3,
-        4,
         4
       ],
       "designers": [
@@ -16131,8 +16138,13 @@
         "YOKA Games",
         "Zvezda"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "USA",
+        "New Mexico"
+      ],
       "images": [
         "https://cf.geekdo-images.com/ajU3xzGDUKihjNdvjCR1Hw__original/img/6dCgK1EESbk9GNuCiwQ4XiqIW3Y=/0x0/filters:format(jpeg)/pic3328391.jpg",
         "https://cf.geekdo-images.com/ajU3xzGDUKihjNdvjCR1Hw__thumb/img/pXR57sUMEJ-GJydf-yyAu0ZLgZw=/fit-in/200x150/filters:strip_icc()/pic3328391.jpg"
@@ -16167,7 +16179,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/14996/ticket-ride-europe",
       "name": "Ticket to Ride: Europe",
       "year": 2005,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2017-11-12",
       "players": {
         "min": 2,
         "max": 5
@@ -16179,10 +16191,7 @@
       "weight": 1.9,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        2,
-        3,
         4,
-        5,
         5
       ],
       "designers": [
@@ -16219,13 +16228,19 @@
         "Runadrake",
         "Smart Ltd"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK",
+        "England"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/0K1AOciqlMVUWFPLTJSiww__original/img/O37sCRSJLq4S8EpCxFDNVsNBuxE=/0x0/filters:format(jpeg)/pic66668.jpg",
         "https://cf.geekdo-images.com/0K1AOciqlMVUWFPLTJSiww__thumb/img/RDvu2FvsYVVH8icp1VsilUlqUGI=/fit-in/200x150/filters:strip_icc()/pic66668.jpg"
       ],
-      "notes": "",
+      "notes": "Days of Wonder owned by Asmodee. ",
       "description": "Ticket to Ride: Europe takes you on a new train adventure across Europe. From Edinburgh to Constantinople and from Lisbon to Moscow, you'll visit great cities of turn-of-the-century Europe. Like the original Ticket to Ride, the game remains elegantly simple, can be learned in 5 minutes, and appeals to both families and experienced gamers. Ticket to Ride: Europe is a complete, new game and does not require the original version.\n\nMore than just a new map, Ticket to Ride: Europe features brand new gameplay elements. Tunnels may require you to pay extra cards to build on them, Ferries require locomotive cards in order to claim them, and Stations allow you to sacrifice a few points in order to use an opponent's route to connect yours. The game also includes larger format cards and Train Station game pieces.\n\nThe overall goal remains the same: collect and play train cards in order to place your pieces on the board, attempting to connect cities on your ticket cards. Points are earned both from placing trains and completing tickets but uncompleted tickets lose you points. The player who has the most points at the end of the game wins.\n\nCopyright 2002-2014 Days of Wonder, inc.\n\nPart of the Ticket to Ride series.\n\n",
       "category": [
         "Trains"
@@ -16448,6 +16463,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-22T00:09:51.260Z",
+  "lastModified": "2025-07-28T14:11:26.566Z",
   "version": "1.0"
 }
