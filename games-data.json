@@ -15267,7 +15267,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/194690/viral",
       "name": "Viral",
       "year": 2017,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-01-03",
       "players": {
         "min": 1,
         "max": 5
@@ -15279,8 +15279,6 @@
       "weight": 2.6,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        2,
-        3,
         4,
         5
       ],
@@ -15303,8 +15301,13 @@
         "MoveTheGame Edizioni",
         "PaperGames (III)"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Portugal"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Texas"
+      ],
       "images": [
         "https://cf.geekdo-images.com/NeZO7t39b9_PM4juLEluSw__original/img/IuSKAbgCefvOLsCfRlTemO0pea0=/0x0/filters:format(jpeg)/pic3399864.jpg",
         "https://cf.geekdo-images.com/NeZO7t39b9_PM4juLEluSw__thumb/img/k6HQegk6BmEj3fuVF1bcRA8jFoY=/fit-in/200x150/filters:strip_icc()/pic3399864.jpg"
@@ -15330,7 +15333,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/183394/viticulture-essential-edition",
       "name": "Viticulture Essential Edition",
       "year": 2015,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-12-07",
       "players": {
         "min": 1,
         "max": 6
@@ -15342,9 +15345,6 @@
       "weight": 2.9,
       "weightColor": "#ff0000",
       "bestPlayerCount": [
-        1,
-        2,
-        3,
         4,
         5,
         6
@@ -15378,8 +15378,15 @@
         "Surfin' Meeple China",
         "Tower Tactic Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Virginia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Missouri",
+        "St. Louis"
+      ],
       "images": [
         "https://cf.geekdo-images.com/l_PRU2lVlX9seScRFcvFlA__original/img/gDL7OZFlzoOFgU0VYlREs8P5hCQ=/0x0/filters:format(jpeg)/pic6500949.jpg",
         "https://cf.geekdo-images.com/l_PRU2lVlX9seScRFcvFlA__thumb/img/pULDtVd75QZgGfvSMhr6Rs07vK8=/fit-in/200x150/filters:strip_icc()/pic6500949.jpg"
@@ -16483,6 +16490,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-28T14:34:26.362Z",
+  "lastModified": "2025-07-28T14:47:21.642Z",
   "version": "1.0"
 }
