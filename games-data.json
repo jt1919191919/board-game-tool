@@ -15707,7 +15707,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/266192/wingspan",
       "name": "Wingspan",
       "year": 2019,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2020-12-08",
       "players": {
         "min": 1,
         "max": 5
@@ -15719,11 +15719,8 @@
       "weight": 2.5,
       "weightColor": "#cfa200",
       "bestPlayerCount": [
-        1,
-        2,
         3,
         4,
-        5,
         5
       ],
       "designers": [
@@ -15767,8 +15764,15 @@
         "Surfin' Meeple China",
         "Ігромаг"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Maryland"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Missouri",
+        "St. Louis"
+      ],
       "images": [
         "https://cf.geekdo-images.com/yLZJCVLlIx4c7eJEWUNJ7w__original/img/cI782Zis9cT66j2MjSHKJGnFPNw=/0x0/filters:format(jpeg)/pic4458123.jpg",
         "https://cf.geekdo-images.com/yLZJCVLlIx4c7eJEWUNJ7w__thumb/img/VNToqgS2-pOGU6MuvIkMPKn_y-s=/fit-in/200x150/filters:strip_icc()/pic4458123.jpg"
@@ -15798,7 +15802,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/66588/wits-wagers-family",
       "name": "Wits & Wagers Family",
       "year": 2010,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2021-05-30",
       "players": {
         "min": 3,
         "max": 10
@@ -15810,15 +15814,14 @@
       "weight": 1.1,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        3,
-        4,
         5,
         6,
         7,
         8,
         9,
         10,
-        10
+        11,
+        12
       ],
       "designers": [
         "Dominic Crapuchettes"
@@ -15835,13 +15838,18 @@
         "Mandoo Games",
         "Popcorn Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Maryland"
+      ],
       "images": [
         "https://cf.geekdo-images.com/ScQODaP8QC5mXrRn8qTHOg__original/img/7MXWKE61NrrCY3WF6hixhTNIqVc=/0x0/filters:format(jpeg)/pic664569.jpg",
         "https://cf.geekdo-images.com/ScQODaP8QC5mXrRn8qTHOg__thumb/img/_l_W7kLA12ioz0QcaxceZnNHJ1A=/fit-in/200x150/filters:strip_icc()/pic664569.jpg"
       ],
-      "notes": "",
+      "notes": "6 player normally, but can probably add more players by just adding more meeples/ player markers.",
       "description": "Wits & Wagers Family is the family version of the most award winning party game in history.\nThis edition is more simple, has less down time, and is more portable than the original Wits & Wagers.  It also removes the \"gambling\" element and has questions that are appropriate for kids and the whole family.  Most importantly, Wits & Wagers Family makes use of the beloved Meeple playing piece!\n\nHow to Play\n1) A question is asked.\n2) Everyone writes down a guess.\n3) The guesses are placed face-up on the table and ordered smallest to largest.\n4) Place your Meeples on the guess that you think is closest to the right answer.\n\nFeeling confident?  Place a Meeple on your guess.\nThink your kids knows better?  Place your Meeples on their guess.\nHave no idea?  Bet on any guess and hope you get lucky!\n\nScoring\nYou can score up to 4 points on each question:\n 1 point for correctly placing the Small Meeple\n 2 points for correctly placing the Large Meeple\n 1 point if your guess is closest\n\nThe first player to 15 points wins.\n\nContents\n125 Question Cards (150 in first edition)\n5 Dry Erase Boards\n5 Dry Erase Pens\n1 Permanent Answer Board (with a \"1\")\n5 Large Meeples (worth 2 points)\n5 Small Meeples (worth 1 point)\n1 Dry Erase Score Board\n1 Full-color Rules\n\n",
       "category": [
         "Children's Game",
@@ -15860,7 +15868,7 @@
       "bggUrl": "https://boardgamegeek.com/boardgame/247191/ya-blew-it",
       "name": "Ya Blew It!",
       "year": 2018,
-      "dateAcquired": "1991-11-19",
+      "dateAcquired": "2019-01-12",
       "players": {
         "min": 3,
         "max": 6
@@ -15872,9 +15880,6 @@
       "weight": 1.6,
       "weightColor": "#008000",
       "bestPlayerCount": [
-        2,
-        3,
-        4,
         5,
         6
       ],
@@ -15886,8 +15891,14 @@
       "publishers": [
         "Wonder Forge"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Seattle"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Seattle"
+      ],
       "images": [
         "https://cf.geekdo-images.com/s3YZNAIxYJd37YBnXnzDFA__original/img/E2kZeGJu6z5ifs1nMg2Rqc5RMYU=/0x0/filters:format(png)/pic4192150.png",
         "https://cf.geekdo-images.com/s3YZNAIxYJd37YBnXnzDFA__thumb/img/Kzf9O2_SSUMKvmbKrKfAcRfidkM=/fit-in/200x150/filters:strip_icc()/pic4192150.png"
@@ -15920,11 +15931,7 @@
       },
       "weight": 2.8,
       "weightColor": "#ff0000",
-      "bestPlayerCount": [
-        1,
-        2,
-        2
-      ],
+      "bestPlayerCount": [],
       "designers": [
         "Big Bocca",
         "Kazuki Takahashi"
@@ -15936,8 +15943,12 @@
         "Konami Digital Entertainment B.V.",
         "Upper Deck Entertainment"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Japan"
+      ],
+      "publisherCountry": [
+        "Japan"
+      ],
       "images": [
         "https://cf.geekdo-images.com/-XHDK4alOFH__fv_RQegog__original/img/lBXeGch3ZK22v1o6xKQ_syyqiL0=/0x0/filters:format(jpeg)/pic97625.jpg",
         "https://cf.geekdo-images.com/-XHDK4alOFH__fv_RQegog__thumb/img/ne-ak65mUhPcGe85_Kl-bzK2sv0=/fit-in/200x150/filters:strip_icc()/pic97625.jpg"
@@ -16497,6 +16508,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-07-28T14:59:20.513Z",
+  "lastModified": "2025-07-28T15:06:50.373Z",
   "version": "1.0"
 }
