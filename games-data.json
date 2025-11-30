@@ -16507,7 +16507,7 @@
     },
     "1764522629249": {
       "bggId": "1764522629249",
-      "bggUrl": "https://boardgamegeek.com/boardgame/429293/the-lord-of-the-rings-the-fellowship-of-the-ring-t",
+      "bggUrl": "The Lord of the Rings: The Fellowship of the Ring – Trick-Taking Game ",
       "name": "The Lord of the Rings: The Fellowship of the Ring – Trick-Taking Game ",
       "year": null,
       "dateAcquired": "2025-11-29",
@@ -16527,7 +16527,11 @@
       "publishers": [],
       "designerNationality": [],
       "publisherCountry": [],
-      "images": [],
+      "images": [
+        "https://cf.geekdo-images.com/uC4N_3kQdoHefNPesAHCzQ__itemrep@2x/img/SYxagNMNuyInZ-zFJlzL78ZZj0E=/fit-in/492x600/filters:strip_icc()/pic8437787.png",
+        "https://cf.geekdo-images.com/o3nI0BM_aMNigQPahP-abQ__imagepage@2x/img/TWrjOa-XXR5kKdjWdPgGeQIQd7U=/fit-in/1800x1200/filters:strip_icc()/pic8437788.png",
+        "https://cf.geekdo-images.com/AxNJPpek2YMoDPzNy35wzg__imagepage/img/arRGfLZYDpRaesfWVX-2f_gaB4w=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8661481.jpg"
+      ],
       "notes": "",
       "description": "",
       "category": [],
@@ -16536,6 +16540,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-11-30T17:10:29.250Z",
+  "lastModified": "2025-11-30T17:17:13.199Z",
   "version": "1.0"
 }
