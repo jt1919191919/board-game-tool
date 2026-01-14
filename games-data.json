@@ -5923,7 +5923,7 @@
       "dateAcquired": "2024-07-19",
       "players": {
         "min": 1,
-        "max": 4
+        "max": 5
       },
       "playtime": {
         "min": 10,
@@ -5935,7 +5935,8 @@
         1,
         2,
         3,
-        4
+        4,
+        5
       ],
       "designers": [
         "Kane Klenko"
@@ -5958,7 +5959,7 @@
         "https://cf.geekdo-images.com/bEMSE-15vpukvmOFa2nZow__imagepage/img/EGrYghIND6L2ttrgufLgmaVqsqY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8546196.jpg",
         "https://cf.geekdo-images.com/lLAtLUV7Ez3AbopT9RZKiA__imagepage/img/yDbipluhit2Bd8GkzYBdWzHA7sk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7422312.jpg"
       ],
-      "notes": "",
+      "notes": "5 player works fine. Just deal another player in exactly the same way. No changes needed.",
       "description": "FUSE Countdown is a new entry in the FUSE family, one that’s playable both standalone or as an expansion for the original FUSE!\n\nOriginally launched in 2015 as one of Renegade’s very first games, Kane Klenko’s FUSE brought the tense action of bomb defusal to the tabletop, in a quick and simple, but extraordinarily challenging cooperative game! Taking just ten minutes to play and minutes to teach, FUSE has appeal for all types of gamers!\n\nVeteran FUSE bomb-disposal techs may think they have the original game down to a science, but FUSE Countdown will throw some new obstacles in their way while also providing some great new tools! Multi-colored dice, Spark cards, new configurations, and Roles all add new elements to the game! Multi-colored dice can fill spots of either color, allowing a new level of flexibility AND challenge!\n\nFUSE Countdown Includes:\n\n    Multi-colored Dice - can fulfill either color\n    Spark Cards - When you can’t place a die, instead of rolling it and removing a related die, you draw a Spark card. They work like a mini-bomb card for you to fulfill. You cannot win the game unless all active Spark cards are resolved.\n    Roles - Each player has a special player power.\n    New Cards! New bomb cards using some of the new features/icons. *New Fuse cards featuring multiple colors/numbers\n\n\n—description from the publisher\n\n",
       "category": [
         "Action / Dexterity",
@@ -16564,6 +16565,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2025-11-30T17:28:37.247Z",
+  "lastModified": "2026-01-14T14:40:32.327Z",
   "version": "1.0"
 }
