@@ -4722,8 +4722,15 @@
         "Pressman Toy Corp.",
         "Schmidt Spiele"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Michigan",
+        "Canton"
+      ],
+      "publisherCountry": [
+        "USA",
+        "New York City"
+      ],
       "images": [
         "https://cf.geekdo-images.com/wmU9eBr0-SjDo0eLdqzsRw__original/img/CXgpxzk97gpmrQriWu0utzVJxbo=/0x0/filters:format(png)/pic6413321.png"
       ],
@@ -4779,8 +4786,14 @@
         "Popcorn Games",
         "Zvezda"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Norway",
+        "Konnerud"
+      ],
+      "publisherCountry": [
+        "Norway",
+        "Konnerud"
+      ],
       "images": [
         "https://cf.geekdo-images.com/Vg3qEly2Sx379Vo1t73XCw__original/img/LDmpxaaOo_fx21coXhOTgyr7FpM=/0x0/filters:format(png)/pic6102105.png",
         "https://cf.geekdo-images.com/xDfCa9lbxa-bOSZTGediFQ__imagepage/img/VLb6EcF8HNAi0uU4I_8kxwcZ0tc=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8013461.jpg",
@@ -16643,6 +16656,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-19T23:32:11.718Z",
+  "lastModified": "2026-02-19T23:36:03.072Z",
   "version": "1.0"
 }
