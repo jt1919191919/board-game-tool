@@ -5638,8 +5638,15 @@
         "Randolph",
         "Rebel Sp. z o.o."
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Idaho",
+        "Boise"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
         "https://cf.geekdo-images.com/dPiEAZbHTD1RGhnFfxuNQw__imagepage/img/vnb_KOlMc79uPgLw_KbvhAF0W2c=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8602238.jpg",
@@ -5967,8 +5974,15 @@
         "Midnight Jungle",
         "Vagabund"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Russia",
+        "Moscow",
+        "Moldova"
+      ],
+      "publisherCountry": [
+        "Russia",
+        "Moscow"
+      ],
       "images": [
         "https://cf.geekdo-images.com/7UK6bLlP0Cz3EFYCqhtcSw__original/img/jc4av13AOJpkqfvcpJ39HyoeCoM=/0x0/filters:format(png)/pic5934958.png",
         "https://cf.geekdo-images.com/Uo0dHYWLhBl7ebuyZdvQeg__imagepage/img/U8elaX-HpZVkgeF4MSX9QLnmyTg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8083505.jpg",
@@ -6035,8 +6049,16 @@
         "Origames",
         "Ігромаг"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Wisconsin",
+        "Madison"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California",
+        "Escondido"
+      ],
       "images": [
         "https://cf.geekdo-images.com/84WuZGfK-StN6NBQ3NEHeQ__original/img/StIqTB41LeCfAH1m_oM__ykYxAU=/0x0/filters:format(jpeg)/pic7050625.jpg",
         "https://cf.geekdo-images.com/bEMSE-15vpukvmOFa2nZow__imagepage/img/EGrYghIND6L2ttrgufLgmaVqsqY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8546196.jpg",
@@ -6464,7 +6486,11 @@
         "Renegade Game Studios"
       ],
       "designerNationality": [],
-      "publisherCountry": [],
+      "publisherCountry": [
+        "USA",
+        "California",
+        "Escondido"
+      ],
       "images": [
         "https://cf.geekdo-images.com/BIBF6pERwJAHOemVBY_DWg__original/img/9UGXRV5QWGb63K5-Eu1CCm5KpEs=/0x0/filters:format(jpeg)/pic6106638.jpg",
         "https://cf.geekdo-images.com/0sBzH4dfx3pvlf7BZBMHzg__imagepage/img/DnU6Z1wF7tSsPJdFQGRcv9O9o40=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6293659.jpg",
@@ -14535,7 +14561,10 @@
         "The Op Games"
       ],
       "designerNationality": [],
-      "publisherCountry": [],
+      "publisherCountry": [
+        "USA",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/nIbj81W8PSOr4Ei4XgubRg__original/img/V1GXT-bEO1maRFu9IsBveYr5M_0=/0x0/filters:format(jpeg)/pic4740642.jpg",
         "https://cf.geekdo-images.com/nIbj81W8PSOr4Ei4XgubRg__thumb/img/Sd6GtpueVjrhJehHkwBuZW65LxY=/fit-in/200x150/filters:strip_icc()/pic4740642.jpg"
@@ -16656,6 +16685,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-19T23:36:03.072Z",
+  "lastModified": "2026-02-19T23:53:40.685Z",
   "version": "1.0"
 }
