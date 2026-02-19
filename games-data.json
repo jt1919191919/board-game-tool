@@ -3753,7 +3753,12 @@
         "Woodstock Spiele",
         "WorldWise Imports"
       ],
-      "designerNationality": [],
+      "designerNationality": [
+        "UK",
+        "England",
+        "Whitton",
+        "Middlesex"
+      ],
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/EHTu2qG_Nr52NrNMzv_bXw__original/img/xLP9Vul05Qx1wEK1meMKnJvwlqc=/0x0/filters:format(jpeg)/pic121093.jpg"
@@ -16523,11 +16528,19 @@
       "publishers": [
         "Wacky Wizard Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Illinois",
+        "Iowa"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Massachusetts",
+        "Sudbury"
+      ],
       "images": [
         "https://cf.geekdo-images.com/LifvqQQ93R-vHK6LJTtjCQ__original/img/t0KozbAmuAKfSNlSyEOR6sDaV1g=/0x0/filters:format(jpeg)/pic8197105.jpg",
-        "https://cf.geekdo-images.com/LifvqQQ93R-vHK6LJTtjCQ__thumb/img/TwT73AbZJtOtkVpCsAEDFfooudQ=/fit-in/200x150/filters:strip_icc()/pic8197105.jpg"
+        "https://cf.geekdo-images.com/__FTw1GZ3_NAFDfrRLRnog__imagepage/img/8toi20dWPZv5HdHsCmn3aKCG0vE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8478979.jpg"
       ],
       "notes": "Got at Origins 2025",
       "description": "Each round in Caution Signs, you're presented with a secret combination of adjective and noun: stylish rhino, gassy monkeys, flexible cow, melting babies — ten thousand combinations are possible. You have twenty seconds to sketch an image of this combo on a caution sign.\n\nAll of these images are then revealed to the round's guesser, along with the individual adjectives and nouns, and the guesser tries to figure out what each sign is warning them about.\n\n",
@@ -16601,6 +16614,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-19T23:20:21.601Z",
+  "lastModified": "2026-02-19T23:25:13.918Z",
   "version": "1.0"
 }
