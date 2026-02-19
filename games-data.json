@@ -28,8 +28,12 @@
         "Format Games",
         "Mega Bleu"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK"
+      ],
+      "publisherCountry": [
+        "UK"
+      ],
       "images": [
         "https://cf.geekdo-images.com/upswhqsXmF4NMcqg1NuvTA__original/img/5QNokcLr5SQlEPmFzEl-fJ-ZVBI=/0x0/filters:format(png)/pic8322566.png",
         "https://cf.geekdo-images.com/ER45Z5LPYKrQmhM6siU_eA__imagepage/img/Px2i337OePv1mzPm8csxOm3iFWE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8322567.jpg",
@@ -335,8 +339,16 @@
         "Mysterious Island Games",
         "Schwerkraft-Verlag"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Utah",
+        "Salt Lake City"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Utah",
+        "Salt Lake City"
+      ],
       "images": [
         "https://cf.geekdo-images.com/U0wpvRmBe65e4vwGf0Jbpg__original/img/gIlpowYQ7XzumYO0jZyVldxosBA=/0x0/filters:format(jpeg)/pic2398773.jpg",
         "https://cf.geekdo-images.com/bspddrbfrZSulnhe-KndWA__imagepage/img/3Wssj9_MtcZ5-VKfdsJEtZKOXp8=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2757249.jpg",
@@ -707,7 +719,10 @@
         "SuperHeated Neurons",
         "Zvezda"
       ],
-      "designerNationality": [],
+      "designerNationality": [
+        "Germany",
+        "Bremen"
+      ],
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/843kZ6WR0HfyXWEybA6L7A__original/img/VtYGvhy_YCSw14FpV8FGzv0eMe4=/0x0/filters:format(jpeg)/pic4930887.jpg",
@@ -16565,6 +16580,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-01-14T14:40:32.327Z",
+  "lastModified": "2026-02-19T23:09:05.089Z",
   "version": "1.0"
 }
