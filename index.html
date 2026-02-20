@@ -4327,81 +4327,52 @@ const timeoutId = null; // managed per-proxy now
 
            
 const bggApiUrl = `https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`;
-const proxyFetchers = [
-    async () => {
-        const c = new AbortController();
-        setTimeout(() => c.abort(), 10000);
-        const r = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(bggApiUrl)}`, { signal: c.signal });
-        const j = await r.json();
-        return j.contents;
-    },
-    async () => {
-        const c = new AbortController();
-        setTimeout(() => c.abort(), 10000);
-        const r = await fetch(`https://thingproxy.freeboard.io/fetch/${bggApiUrl}`, { signal: c.signal });
-        return await r.text();
-    },
-    async () => {
-        const c = new AbortController();
-        setTimeout(() => c.abort(), 10000);
-        const r = await fetch(`https://corsproxy.io/?${encodeURIComponent(bggApiUrl)}`, { signal: c.signal });
-        return await r.text();
-    }
-];
 
+const c = new AbortController();
+setTimeout(() => c.abort(), 15000);
+
+// Try BGG JSON wrapper first (purpose-built, has proper CORS)
 let data = null;
-for (const fetcher of proxyFetchers) {
-    try {
-data = await fetcher();
-        console.log('Proxy returned:', data ? data.substring(0, 200) : 'null');
-        if (data && data.includes('<item')) break;
-} catch (e) {
-        console.log('Proxy failed with error:', e.message);
-        continue;
+let usedJsonWrapper = false;
+
+try {
+    const r = await fetch(`https://bgg-json.azurewebsites.net/thing/${bggId}`, { signal: c.signal });
+    if (r.ok) {
+        const json = await r.json();
+        console.log('BGG JSON wrapper result:', JSON.stringify(json).substring(0, 300));
+        if (json && json.gameId) {
+            usedJsonWrapper = true;
+            data = json;
+        }
     }
+} catch(e) {
+    console.log('BGG JSON wrapper failed:', e.message);
 }
-console.log('BGG fetch result:', data ? data.substring(0, 500) : 'null');
+
 if (!data) throw new Error('Failed to fetch from BoardGameGeek');
 
-           const parser = new DOMParser();
-           const xmlDoc = parser.parseFromString(data, 'text/xml');
-           const item = xmlDoc.querySelector('item');
-
-           if (!item) {
-               throw new Error('Game not found on BoardGameGeek');
-           }
-
-           const name = item.querySelector('name[type="primary"]')?.getAttribute('value') || '';
-           const year = parseInt(item.querySelector('yearpublished')?.getAttribute('value')) || '';
-           const minPlayers = parseInt(item.querySelector('minplayers')?.getAttribute('value')) || 1;
-           const maxPlayers = parseInt(item.querySelector('maxplayers')?.getAttribute('value')) || 1;
-           const playtime = parseInt(item.querySelector('playingtime')?.getAttribute('value')) || 0;
-           const weight = parseFloat(item.querySelector('statistics averageweight')?.getAttribute('value')) || 0;
-
-           const bestPlayerCount = [];
-           const polls = item.querySelectorAll('poll[name="suggested_numplayers"] results');
-           polls.forEach(result => {
-               const numPlayers = result.getAttribute('numplayers');
-               const best = result.querySelector('result[value="Best"]');
-               const numVotes = best ? parseInt(best.getAttribute('numvotes')) : 0;
-               if (numVotes > 0 && numPlayers !== '+') {
-                   bestPlayerCount.push(parseInt(numPlayers));
-               }
-           });
-
-           const designers = Array.from(item.querySelectorAll('link[type="boardgamedesigner"]')).map(el => el.getAttribute('value'));
-           const artists = Array.from(item.querySelectorAll('link[type="boardgameartist"]')).map(el => el.getAttribute('value'));
-           const publishers = Array.from(item.querySelectorAll('link[type="boardgamepublisher"]')).map(el => el.getAttribute('value'));
-           const primaryImage = item.querySelector('image')?.textContent || '';
-           const thumbnail = item.querySelector('thumbnail')?.textContent || '';
-const images = [primaryImage, thumbnail].filter(img => img && img !== primaryImage || img === primaryImage);
+ const name = data.name || '';
+const year = data.yearPublished || '';
+const minPlayers = data.minPlayers || 1;
+const maxPlayers = data.maxPlayers || 1;
+const playtime = data.maxPlaytime || 0;
+const weight = data.averageWeight || 0;
 
 
+const bestPlayerCount = [];
+// bgg-json doesn't provide best player count polling data, leave empty
 
-const description = item.querySelector('description')?.textContent?.trim() || '';
+const designers = (data.designers || []).map(d => d.name || d);
+const artists = (data.artists || []).map(a => a.name || a);
+const publishers = (data.publishers || []).map(p => p.name || p);
+const primaryImage = data.image || '';
+const thumbnail = data.thumbnail || '';
+const images = [primaryImage, thumbnail].filter(Boolean);
 
-const categories = Array.from(item.querySelectorAll('link[type="boardgamecategory"]')).map(el => el.getAttribute('value'));
-const mechanisms = Array.from(item.querySelectorAll('link[type="boardgamemechanic"]')).map(el => el.getAttribute('value'));
+const description = data.description || '';
+
+const categories = (data.categories || []).map(c => c.value || c);
+const mechanisms = (data.mechanics || []).map(m => m.value || m);
 
 
 // Set default weight color based on complexity
