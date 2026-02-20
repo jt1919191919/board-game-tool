@@ -4323,38 +4323,42 @@ this.render();
 
            const bggId = bggIdMatch[1];
            
-           const controller = new AbortController();
-           const timeoutId = setTimeout(() => controller.abort(), 15000); // 15 second timeout
+const timeoutId = null; // managed per-proxy now
+
            
 const bggApiUrl = `https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`;
-const proxies = [
+const proxyFetchers = [
     async () => {
-        const r = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(bggApiUrl)}`, { signal: controller.signal });
+        const c = new AbortController();
+        setTimeout(() => c.abort(), 10000);
+        const r = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(bggApiUrl)}`, { signal: c.signal });
         const j = await r.json();
         return j.contents;
     },
     async () => {
-        const r = await fetch(`https://thingproxy.freeboard.io/fetch/${bggApiUrl}`, { signal: controller.signal });
+        const c = new AbortController();
+        setTimeout(() => c.abort(), 10000);
+        const r = await fetch(`https://thingproxy.freeboard.io/fetch/${bggApiUrl}`, { signal: c.signal });
         return await r.text();
     },
     async () => {
-        const r = await fetch(`https://corsproxy.io/?${encodeURIComponent(bggApiUrl)}`, { signal: controller.signal });
+        const c = new AbortController();
+        setTimeout(() => c.abort(), 10000);
+        const r = await fetch(`https://corsproxy.io/?${encodeURIComponent(bggApiUrl)}`, { signal: c.signal });
         return await r.text();
     }
 ];
 
 let data = null;
-for (const proxy of proxies) {
+for (const fetcher of proxyFetchers) {
     try {
-        data = await proxy();
+        data = await fetcher();
         if (data && data.includes('<item')) break;
     } catch (e) {
         continue;
     }
 }
-clearTimeout(timeoutId);
-if (!data) throw new Error('Failed to fetch from BoardGameGeek');
-           
+if (!data) throw new Error('Failed to fetch from BoardGameGeek');           
 
            const parser = new DOMParser();
            const xmlDoc = parser.parseFromString(data, 'text/xml');
