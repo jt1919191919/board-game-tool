@@ -17020,9 +17020,52 @@
         "Trick-taking"
       ],
       "customFields": {}
+    },
+    "1771620573403": {
+      "bggId": "1771620573403",
+      "bggUrl": "https://boardgamegeek.com/boardgame/9851/shut-the-box",
+      "name": "Shut the Box",
+      "year": 1750,
+      "dateAcquired": "2025-12-25",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.08,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        2
+      ],
+      "designers": [
+        "(Uncredited)"
+      ],
+      "artists": [
+        "(Uncredited)"
+      ],
+      "publishers": [],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/OZ3XUuJaRtjwtGiAbw0GZg__imagepage/img/KFM9UKDEaZ4wkaK__85efKR0kwk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9024400.jpg",
+        "https://cf.geekdo-images.com/9O6HZ-JyI5ya4TpgPn-bNQ__imagepage/img/DLCq-qNiYbgcxJS2iNe4hMdKUYk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9272695.jpg"
+      ],
+      "notes": "mom got us 2 different copies randomly",
+      "description": "In Shut the Box, players match rolls of the dice to numbers on the game. The game 'box' has levers labelled from one to nine or twelve. Initially all the levers are in the 'up' position.\n\nThe first player rolls two dice. He or she then knocks down the levers as follows:\n\nOne number which is the combined value of both dice or Two numbers whose total adds up to the combined total of each dice.\n\nThere are several methods of scoring.\n\nIn the traditional pub gambling game, you add up all the levers left uncovered. The games pays out after one round (one turn per player who paid into the pool). If you manage to \"shut the box\" you win instantly and get double the stake from each player.\nIn other scoring methods, you play multiple rounds, with players adding points to their previous score. As players reach forty-five (or other set number) they go 'bust' and must drop out of the game. The game then ends when only one player remains in the game. He or she is the winner.\nIf any player knocks down ALL the levers in his or her turn, and thus 'shuts the box', they are automatically declared the winner!",
+      "category": [
+        "Dice",
+        "Number"
+      ],
+      "mechanisms": [
+        "Dice Rolling"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-20T20:41:02.839Z",
+  "lastModified": "2026-02-20T20:49:33.403Z",
   "version": "1.0"
 }
