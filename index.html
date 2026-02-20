@@ -4305,6 +4305,7 @@ this.render();
     }
    }
 
+async fetchBGGData() {
 
 const url = document.getElementById('bgg-url').value;
 if (!url) return;
@@ -4389,6 +4390,7 @@ Then return ONLY a valid JSON object with exactly these fields (no explanation, 
 } finally {
     loadingEl.style.display = 'none';
 }
+   }
 
    saveGame() {
 const formData = {
