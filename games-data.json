@@ -17063,9 +17063,55 @@
         "Dice Rolling"
       ],
       "customFields": {}
+    },
+    "1771621109128": {
+      "bggId": "1771621109128",
+      "bggUrl": "https://boardgamegeek.com/boardgame/409745/the-uzzle-stack-royale",
+      "name": " The Uzzle: Stack Royale",
+      "year": 2023,
+      "dateAcquired": "2025-12-25",
+      "players": {
+        "min": 1,
+        "max": 4
+      },
+      "playtime": {
+        "min": 15,
+        "max": 15
+      },
+      "weight": 1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [],
+      "designers": [
+        "Niall Crabtree"
+      ],
+      "artists": [
+        "(Uncredited)"
+      ],
+      "publishers": [
+        "Uzzle Games"
+      ],
+      "designerNationality": [
+        "UK"
+      ],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/_AJL7NIxmbHbLOp3WrTR6g__imagepage/img/cRWpexk-WT1klHdAcgau3_SHK7Y=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8849588.jpg",
+        "https://cf.geekdo-images.com/gdsbA2pR2qdHgb7LhsOnng__imagepage/img/KNZWyuPnb4-jjTbvamKP5NRmYjY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8846900.jpg"
+      ],
+      "notes": "mom got us for Christmas",
+      "description": "FAST-PACED AND ACTION-PACKED: Players race to build the structure on the card by using their set of 8 colored blocks to match the colors and arrangement of the structure. Sharp eyes, fast hands, and quick minds prevail in this fun-filled structure building frenzy!\nSUPER FUN AND EASY TO LEARN: Uzzle games are loved by over 100,000 families in the USA. Stack Royale can be learned in 10 minutes and played for a lifetime.\nBOOSTS COGNITIVE SKILLS: You will need sharp eyes, quick thinking ability, strong observation power, and fast hand speed all at the same time. It is great for enhancing problem-solving and many cognitive skills in children.\nFUN FOR ALL AGES: The Uzzle Stack Royale comes with 32 colored wooden blocks, 160 cards, & 4 difficulty levels. Levels 1-2 are great for young kids. Whereas, levels 3-4 are extremely difficult for adults.\nA PERFECT GIFT: Stack Royale is the perfect gift for Christmas, birthday gifts, back to school, and for classroom activities! It's also a great choice for travel games.",
+      "category": [
+        "Action / Dexterity",
+        "Children's Game",
+        "Real-time"
+      ],
+      "mechanisms": [
+        "Stacking and Balancing"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-20T20:49:33.403Z",
+  "lastModified": "2026-02-20T20:58:29.128Z",
   "version": "1.0"
 }
