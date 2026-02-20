@@ -4305,155 +4305,90 @@ this.render();
     }
    }
 
-   async fetchBGGData() {
-       const url = document.getElementById('bgg-url').value;
-       if (!url) return;
 
-       const loadingEl = document.getElementById('loading-indicator');
-       const errorEl = document.getElementById('error-message');
-       
-       loadingEl.style.display = 'block';
-       errorEl.style.display = 'none';
+const url = document.getElementById('bgg-url').value;
+if (!url) return;
 
-       try {
-           const bggIdMatch = url.match(/\/boardgame\/(\d+)/);
-           if (!bggIdMatch) {
-               throw new Error('Invalid BoardGameGeek URL');
-           }
+const loadingEl = document.getElementById('loading-indicator');
+const errorEl = document.getElementById('error-message');
 
-           const bggId = bggIdMatch[1];
-           
-const timeoutId = null; // managed per-proxy now
-
-           
-const bggApiUrl = `https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`;
-
-const c = new AbortController();
-const cTimer = setTimeout(() => c.abort(), 20000);
-
-// Try BGG JSON wrapper first (purpose-built, has proper CORS)
-let data = null;
-let usedJsonWrapper = false;
+loadingEl.style.display = 'block';
+errorEl.style.display = 'none';
 
 try {
-    const r = await fetch(`https://bgg-json.azurewebsites.net/thing/${bggId}`, { signal: c.signal });
-    if (r.ok) {
-        const json = await r.json();
-        console.log('BGG JSON wrapper result:', JSON.stringify(json).substring(0, 300));
-        if (json && json.gameId) {
-            usedJsonWrapper = true;
-            data = json;
-        }
-    }
-} catch(e) {
-    console.log('BGG JSON wrapper failed:', e.message);
+    const bggIdMatch = url.match(/\/boardgame\/(\d+)/);
+    if (!bggIdMatch) throw new Error('Invalid BoardGameGeek URL');
+    const bggId = bggIdMatch[1];
+
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            model: 'claude-sonnet-4-20250514',
+            max_tokens: 1000,
+            messages: [{
+                role: 'user',
+                content: `Fetch the BoardGameGeek XML API for game ID ${bggId} using this URL: https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1
+
+Then return ONLY a valid JSON object with exactly these fields (no explanation, no markdown, just raw JSON):
+{
+  "name": "primary name",
+  "yearPublished": 2020,
+  "minPlayers": 1,
+  "maxPlayers": 4,
+  "playingTime": 60,
+  "averageWeight": 2.5,
+  "description": "full description text",
+  "designers": ["Name1", "Name2"],
+  "artists": ["Name1"],
+  "publishers": ["Publisher1"],
+  "image": "https://...",
+  "thumbnail": "https://...",
+  "categories": ["Category1"],
+  "mechanics": ["Mechanic1"]
+}`
+            }]
+        })
+    });
+
+    const apiData = await response.json();
+    console.log('Claude API response:', JSON.stringify(apiData).substring(0, 500));
+    
+    const text = apiData.content?.[0]?.text;
+    if (!text) throw new Error('No response from Claude API');
+
+    const clean = text.replace(/```json|```/g, '').trim();
+    const data = JSON.parse(clean);
+
+    const weight = data.averageWeight || 0;
+    let defaultWeightColor = '#008000';
+    if (weight >= 2.5) defaultWeightColor = '#ff0000';
+    else if (weight >= 1.9) defaultWeightColor = '#cfa200';
+
+    document.getElementById('game-name').value = data.name || '';
+    document.getElementById('game-year').value = data.yearPublished || '';
+    document.getElementById('game-min-players').value = data.minPlayers || 1;
+    document.getElementById('game-max-players').value = data.maxPlayers || 1;
+    document.getElementById('game-playtime').value = data.playingTime || 0;
+    document.getElementById('game-weight').value = weight.toFixed(1);
+    document.getElementById('game-best-players').value = '';
+    document.getElementById('game-designers').value = (data.designers || []).join('; ');
+    document.getElementById('game-artists').value = (data.artists || []).join('; ');
+    document.getElementById('game-publishers').value = (data.publishers || []).join('; ');
+    document.getElementById('game-images').value = [data.image, data.thumbnail].filter(Boolean).join('\n');
+    document.getElementById('game-description').value = data.description || '';
+    document.getElementById('game-category').value = (data.categories || []).join('; ');
+    document.getElementById('game-mechanisms').value = (data.mechanics || []).join('; ');
+
+    const weightColorSelect = document.getElementById('game-weight-color');
+    if (weightColorSelect) weightColorSelect.value = defaultWeightColor;
+
+} catch (error) {
+    errorEl.textContent = error.message;
+    errorEl.style.display = 'block';
+} finally {
+    loadingEl.style.display = 'none';
 }
-
-clearTimeout(cTimer);
-
-// If that failed, try direct BGG API via a different proxy
-if (!data) {
-    try {
-        const r2 = await fetch(`https://api.codetabs.com/v1/proxy?quest=https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`);
-        if (r2.ok) {
-            const xml = await r2.text();
-            console.log('codetabs result:', xml.substring(0, 300));
-            if (xml.includes('<item')) {
-                // parse XML into same shape
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(xml, 'text/xml');
-                const item = xmlDoc.querySelector('item');
-                if (item) {
-                    data = {
-                        name: item.querySelector('name[type="primary"]')?.getAttribute('value') || '',
-                        yearPublished: parseInt(item.querySelector('yearpublished')?.getAttribute('value')) || '',
-                        minPlayers: parseInt(item.querySelector('minplayers')?.getAttribute('value')) || 1,
-                        maxPlayers: parseInt(item.querySelector('maxplayers')?.getAttribute('value')) || 1,
-                        maxPlaytime: parseInt(item.querySelector('playingtime')?.getAttribute('value')) || 0,
-                        averageWeight: parseFloat(item.querySelector('statistics averageweight')?.getAttribute('value')) || 0,
-                        designers: Array.from(item.querySelectorAll('link[type="boardgamedesigner"]')).map(el => el.getAttribute('value')),
-                        artists: Array.from(item.querySelectorAll('link[type="boardgameartist"]')).map(el => el.getAttribute('value')),
-                        publishers: Array.from(item.querySelectorAll('link[type="boardgamepublisher"]')).map(el => el.getAttribute('value')),
-                        image: item.querySelector('image')?.textContent || '',
-                        thumbnail: item.querySelector('thumbnail')?.textContent || '',
-                        description: item.querySelector('description')?.textContent?.trim() || '',
-                        categories: Array.from(item.querySelectorAll('link[type="boardgamecategory"]')).map(el => el.getAttribute('value')),
-                        mechanics: Array.from(item.querySelectorAll('link[type="boardgamemechanic"]')).map(el => el.getAttribute('value')),
-                    };
-                }
-            }
-        }
-    } catch(e2) {
-        console.log('codetabs failed:', e2.message);
-    }
-}
-
-if (!data) throw new Error('Failed to fetch from BoardGameGeek');
-
- const name = data.name || '';
-const year = data.yearPublished || '';
-const minPlayers = data.minPlayers || 1;
-const maxPlayers = data.maxPlayers || 1;
-const playtime = data.maxPlaytime || 0;
-const weight = data.averageWeight || 0;
-
-
-const bestPlayerCount = [];
-// bgg-json doesn't provide best player count polling data, leave empty
-
-const designers = (data.designers || []).map(d => d.name || d);
-const artists = (data.artists || []).map(a => a.name || a);
-const publishers = (data.publishers || []).map(p => p.name || p);
-const primaryImage = data.image || '';
-const thumbnail = data.thumbnail || '';
-const images = [primaryImage, thumbnail].filter(Boolean);
-
-const description = data.description || '';
-
-const categories = (data.categories || []).map(c => c.value || c);
-const mechanisms = (data.mechanics || []).map(m => m.value || m);
-
-
-// Set default weight color based on complexity
-let defaultWeightColor = '#008000';
-if (weight >= 2.5) {
-    defaultWeightColor = '#ff0000';
-} else if (weight >= 1.9) {
-    defaultWeightColor = '#cfa200';
-}
-
-           document.getElementById('game-name').value = name;
-           document.getElementById('game-year').value = year;
-           document.getElementById('game-min-players').value = minPlayers;
-           document.getElementById('game-max-players').value = maxPlayers;
-           document.getElementById('game-playtime').value = playtime;
-           document.getElementById('game-weight').value = weight.toFixed(1);
-           document.getElementById('game-best-players').value = bestPlayerCount.join(', ');
-document.getElementById('game-designers').value = designers.join('; ');
-document.getElementById('game-artists').value = artists.join('; ');
-document.getElementById('game-publishers').value = publishers.join('; ');
-document.getElementById('game-images').value = images.join('\n');
-document.getElementById('game-description').value = description;
-document.getElementById('game-category').value = categories.join('; ');
-document.getElementById('game-mechanisms').value = mechanisms.join('; ');
-
-// Set the weight color dropdown if it exists
-           const weightColorSelect = document.getElementById('game-weight-color');
-           if (weightColorSelect) {
-               weightColorSelect.value = defaultWeightColor;
-           }
-
-       } catch (error) {
-           if (error.name === 'AbortError') {
-               errorEl.textContent = 'Request timed out. BGG might be slow, please try again.';
-           } else {
-               errorEl.textContent = error.message;
-           }
-           errorEl.style.display = 'block';
-       } finally {
-           loadingEl.style.display = 'none';
-       }
-   }
 
    saveGame() {
 const formData = {
