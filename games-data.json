@@ -17231,9 +17231,64 @@
         "Take That"
       ],
       "customFields": {}
+    },
+    "1771631771843": {
+      "bggId": "1771631771843",
+      "bggUrl": "https://boardgamegeek.com/boardgame/1406/monopoly",
+      "name": "Monopoly",
+      "year": 1935,
+      "dateAcquired": "2025-11-19",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 180,
+        "max": 180
+      },
+      "weight": 1.6,
+      "weightColor": "#008000",
+      "bestPlayerCount": [],
+      "designers": [
+        "Charles Darrow",
+        "Elizabeth J. Magie (Phillips)"
+      ],
+      "artists": [
+        "(Uncredited)",
+        "Charles Darrow",
+        "Edison Girard"
+      ],
+      "publishers": [
+        "Parker Brothers",
+        "(Self-Published)",
+        "(Unknown)",
+        "A. F. Tompson & Son Ltd.",
+        "Åhlén & Åkerlund",
+        "Alga"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/9nGoBZ0MRbi6rdH47sj2Qg__itemrep/img/8EP4ErNA709diOt6fUyJH30FtbU=/fit-in/246x300/filters:strip_icc()/pic5786795.jpg",
+        "https://cf.geekdo-images.com/9nGoBZ0MRbi6rdH47sj2Qg__itemrep/img/8EP4ErNA709diOt6fUyJH30FtbU=/fit-in/246x300/filters:strip_icc()/pic5786795.jpg"
+      ],
+      "notes": "Aunt Ruth got me a \"Toledopoly\" version for my birthday and wrote a heartfelt letter about her love of games and Toledo.",
+      "description": "Theme\nPlayers take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes.\n\nGameplay\nOn their turn, a player rolls two dice and moves that number of spaces around the board. If the player lands on an as-yet-unowned property, they has the opportunity to buy it or auction it to the highest bidder. If a player owns all the spaces within a color group, they may then build houses and hotels on these spaces, generating even more income from opponents who land there. If they lands on a property owned by another player, they must pay that player rent according to the value of the land and any buildings on it. There are other places on the board which can not be bought, but instead require the player to draw a card and perform the action on the card, pay taxes, collect income, or even go to jail.\n\nGoal\nThe goal of the game is to be the last player remaining with any money. (though some editions end the game when the first player goes bankrupt)\n\nCultural impact on rules\nMonopoly is unusual in that the game has official, printed rules, but most players learn how to play from others, never actually learning the correct way to play. This has led to the canonization of a number of house rules that make the game more palatable to children (and sore losers) but harm the gameplay by preventing players from going bankrupt or slowing down the rate of property acquisition. One common house rule has players put any money paid to the bank in the center of the board, which jackpot a player may earn by landing on Free Parking. This prevents the game from removing money from play, and since players collect $200 each time they pass Go, this results in ever-increasing bankrolls and players surviving rents that should have bankrupted them. Another house rule allows players to take &quot;loans&quot; from the bank instead of going bankrupt, which means the game will never end. Some house rules arise out of ignorance rather than attempts to improve the game. For instance, many players don't know that properties landed on but left unbought go up for auction, and even some that know to auction don't know that the bidding starts at $1, meaning a player may pay well below the listed price for an auctioned property.",
+      "category": [
+        "Economic"
+      ],
+      "mechanisms": [
+        "Auction / Bidding",
+        "Auction: English",
+        "Income",
+        "Loans",
+        "Lose a Turn",
+        "Ownership"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-20T23:53:45.835Z",
+  "lastModified": "2026-02-20T23:56:11.844Z",
   "version": "1.0"
 }
