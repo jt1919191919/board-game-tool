@@ -15534,7 +15534,7 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/dncdxD1g4dxMh9e8oKlzbg__original/img/o-44FqDtvZ28uqX_V_rcpEnzqsI=/0x0/filters:format(png)/pic1878492.png",
-        "https://cf.geekdo-images.com/dncdxD1g4dxMh9e8oKlzbg__thumb/img/Wd1gXoEgJjq9vG3ZCP8_H1hP2eE=/fit-in/200x150/filters:strip_icc()/pic1878492.png"
+        "https://cf.geekdo-images.com/gM3Gxfltpgp0B8TQOqrOHw__imagepage/img/OiOEK304CeWNRLK_ZbeghU5Oavs=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3017439.jpg"
       ],
       "notes": "",
       "description": "Ultimate Werewolf is an interactive game of deduction for two teams: Villagers and Werewolves. The Villagers don't know who the Werewolves are, and the Werewolves are trying to remain undiscovered while they slowly eliminate the Villagers one at a time. A Moderator (who isn't on a team) runs the game.\n\nUltimate Werewolf takes place over a series of game days and nights. Each day, the players discuss who among them is a Werewolf and vote out a player. Each night, the Werewolves choose a player to eliminate, while the Seer learns whether one player is a Werewolf or not. The game is over when either all the Villagers or all the Werewolves are eliminated.\n\nUltimate Werewolf: Deluxe Edition features all new artwork, a great new design, totally rewritten and more comprehensive rules, and an even better moderator scorepad. What's more, it supports more players than ever: 75 of your closest friends can converge on one or more villages using the components in this box.\n\n",
@@ -15591,7 +15591,8 @@
         "GaGa Games"
       ],
       "designerNationality": [
-        "USA"
+        "USA",
+        "Michigan"
       ],
       "publisherCountry": [
         "USA",
@@ -15599,9 +15600,10 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/0olGvNCDk-VmFW2LDOnI_Q__original/img/sugvsPhhLdQrUxD5SH970FN-Fuc=/0x0/filters:format(jpeg)/pic3579391.jpg",
-        "https://cf.geekdo-images.com/0olGvNCDk-VmFW2LDOnI_Q__thumb/img/3J2ogaftEzBzwUO3kyJ7DXH-3HE=/fit-in/200x150/filters:strip_icc()/pic3579391.jpg"
+        "https://cf.geekdo-images.com/s9EKnUYxvXJkL5QOOhByYQ__imagepage/img/P72Krb-WSQ5MRnri2Rufubh6v6U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3753368.jpg",
+        "https://cf.geekdo-images.com/-iFy-mjfY6LG5iwjSTGVVg__imagepage/img/S_7Yxhib_DmkBXFMcQwartKZxXE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3685135.jpg"
       ],
-      "notes": "these are not the brothers that own company.",
+      "notes": "Not designed by the brothers that own Brotherwise Games.",
       "description": "Long ago, your ancestors built great cities across the world. Now your tribe must explore forests, deserts, islands, mountains, and caverns to find these lost cities. Claim the ruins, build places of power, and restore the glory of a bygone age.\n\nUnearth is a bend-your-luck game of dice placement and set collection. Designed by Jason Harner and Matthew Ransom, it plays in under an hour with 2-4 players. Each player leads a tribe of Delvers, represented by five dice (3 six-sided, 1 four-sided, and 1 eight-sided). Players take turns rolling and placing dice in an attempt to claim Ruins.\n\nThe game's elegant core mechanic is accessible to players of all skill levels. High rolls help players claim Ruins, while low rolls help players collect Stones. This opens two paths to victory: claiming sets of Ruins or using Stones to build Wonders. Delver cards help you affect your dice rolls or dice in play, and Wonders can grant abilities that impact the late game.\n\n",
       "category": [
         "Card Game",
@@ -15633,16 +15635,23 @@
       "weight": 1.7,
       "weightColor": "#008000",
       "bestPlayerCount": [],
-      "designers": [],
-      "artists": [],
+      "designers": [
+        "(Uncredited)"
+      ],
+      "artists": [
+        "(Uncredited)"
+      ],
       "publishers": [
         "Uzzle Games"
       ],
       "designerNationality": [],
-      "publisherCountry": [],
+      "publisherCountry": [
+        "USA",
+        "Texas"
+      ],
       "images": [
         "https://cf.geekdo-images.com/xr_pGh2-Dw1KxuzwTzY8sw__original/img/5fo6EN9oF3Q20SYGNyeEgnUbYvQ=/0x0/filters:format(jpeg)/pic8848341.jpg",
-        "https://cf.geekdo-images.com/xr_pGh2-Dw1KxuzwTzY8sw__thumb/img/xGleWJ-bL7A7ikRorr0fs6OSLr0=/fit-in/200x150/filters:strip_icc()/pic8848341.jpg"
+        "https://cf.geekdo-images.com/PvcvDvCrLhBWmK84eLFqTg__imagepage/img/QhSsxFe7BR4lwARBUdekU9HjiT8=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8846924.jpg"
       ],
       "notes": "",
       "description": "What is the Uzzle?\nIt is the most fun, competitive, and challenging game you will ever play.\n\nWe combined the challenge of puzzles with the competitiveness of board games, and were able to develop the Uzzle.\n\nShuffle the playing cards and leave them stacked in the center of the table. Then distribute 5 blocks to each player. Flip over the top card and race to see who can solve the Uzzle first by matching the blocks to the pattern on the card. Once you finish, shout \"Uzzle!\" and grab the card. After taking the card, let the other players examine whether you have correctly arranged your blocks. If you have correctly solved the Uzzle, you get to keep the card and now have 1 win. Players vote on how many wins to play to.\n\nThe Uzzle was designed with 4 difficulty levels, so anyone ages 4+ can play! Order more sets of blocks to include more players.\n\n",
@@ -16987,6 +16996,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-20T07:47:56.879Z",
+  "lastModified": "2026-02-20T20:13:51.393Z",
   "version": "1.0"
 }
