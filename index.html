@@ -4355,9 +4355,6 @@ for (const proxy of proxies) {
 clearTimeout(timeoutId);
 if (!data) throw new Error('Failed to fetch from BoardGameGeek');
            
-           if (!response.ok) {
-               throw new Error('Failed to fetch from BoardGameGeek');
-           }
 
            const parser = new DOMParser();
            const xmlDoc = parser.parseFromString(data, 'text/xml');
