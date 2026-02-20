@@ -119,7 +119,11 @@ cloudfare.com
 Google login
 Worker named:
 https://bgg-proxy.jamiertifft.workers.dev/
-
+Summary:
+Cloudflare Worker as your personal proxy (free, reliable, no CORS issues)
+Scraping the BGG game page instead of using their XML API (which now blocks non-browser requests)
+Parsing the embedded GEEK.geekitemPreload JSON that BGG injects into every game page, which has all the data you need
+One thing to be aware of: the Worker is currently hardcoded with your worker URL in the HTML. If you ever need to update the Worker code in the future, you just go back to the Cloudflare dashboard — your HTML doesn't need to change as long as the Worker URL stays the same.
 
 
 Method 2: Manual Entry
