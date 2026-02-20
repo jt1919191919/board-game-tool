@@ -4352,9 +4352,11 @@ const proxyFetchers = [
 let data = null;
 for (const fetcher of proxyFetchers) {
     try {
-        data = await fetcher();
+data = await fetcher();
+        console.log('Proxy returned:', data ? data.substring(0, 200) : 'null');
         if (data && data.includes('<item')) break;
-    } catch (e) {
+} catch (e) {
+        console.log('Proxy failed with error:', e.message);
         continue;
     }
 }
