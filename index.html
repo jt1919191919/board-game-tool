@@ -4329,7 +4329,7 @@ const timeoutId = null; // managed per-proxy now
 const bggApiUrl = `https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`;
 
 const c = new AbortController();
-setTimeout(() => c.abort(), 15000);
+const cTimer = setTimeout(() => c.abort(), 20000);
 
 // Try BGG JSON wrapper first (purpose-built, has proper CORS)
 let data = null;
@@ -4347,6 +4347,45 @@ try {
     }
 } catch(e) {
     console.log('BGG JSON wrapper failed:', e.message);
+}
+
+clearTimeout(cTimer);
+
+// If that failed, try direct BGG API via a different proxy
+if (!data) {
+    try {
+        const r2 = await fetch(`https://api.codetabs.com/v1/proxy?quest=https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`);
+        if (r2.ok) {
+            const xml = await r2.text();
+            console.log('codetabs result:', xml.substring(0, 300));
+            if (xml.includes('<item')) {
+                // parse XML into same shape
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xml, 'text/xml');
+                const item = xmlDoc.querySelector('item');
+                if (item) {
+                    data = {
+                        name: item.querySelector('name[type="primary"]')?.getAttribute('value') || '',
+                        yearPublished: parseInt(item.querySelector('yearpublished')?.getAttribute('value')) || '',
+                        minPlayers: parseInt(item.querySelector('minplayers')?.getAttribute('value')) || 1,
+                        maxPlayers: parseInt(item.querySelector('maxplayers')?.getAttribute('value')) || 1,
+                        maxPlaytime: parseInt(item.querySelector('playingtime')?.getAttribute('value')) || 0,
+                        averageWeight: parseFloat(item.querySelector('statistics averageweight')?.getAttribute('value')) || 0,
+                        designers: Array.from(item.querySelectorAll('link[type="boardgamedesigner"]')).map(el => el.getAttribute('value')),
+                        artists: Array.from(item.querySelectorAll('link[type="boardgameartist"]')).map(el => el.getAttribute('value')),
+                        publishers: Array.from(item.querySelectorAll('link[type="boardgamepublisher"]')).map(el => el.getAttribute('value')),
+                        image: item.querySelector('image')?.textContent || '',
+                        thumbnail: item.querySelector('thumbnail')?.textContent || '',
+                        description: item.querySelector('description')?.textContent?.trim() || '',
+                        categories: Array.from(item.querySelectorAll('link[type="boardgamecategory"]')).map(el => el.getAttribute('value')),
+                        mechanics: Array.from(item.querySelectorAll('link[type="boardgamemechanic"]')).map(el => el.getAttribute('value')),
+                    };
+                }
+            }
+        }
+    } catch(e2) {
+        console.log('codetabs failed:', e2.message);
+    }
 }
 
 if (!data) throw new Error('Failed to fetch from BoardGameGeek');
