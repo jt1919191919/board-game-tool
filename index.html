@@ -4326,13 +4326,34 @@ this.render();
            const controller = new AbortController();
            const timeoutId = setTimeout(() => controller.abort(), 15000); // 15 second timeout
            
-const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(`https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`)}`, {
-               signal: controller.signal
-           });
-           
+const bggApiUrl = `https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`;
+const proxies = [
+    async () => {
+        const r = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(bggApiUrl)}`, { signal: controller.signal });
+        const j = await r.json();
+        return j.contents;
+    },
+    async () => {
+        const r = await fetch(`https://thingproxy.freeboard.io/fetch/${bggApiUrl}`, { signal: controller.signal });
+        return await r.text();
+    },
+    async () => {
+        const r = await fetch(`https://corsproxy.io/?${encodeURIComponent(bggApiUrl)}`, { signal: controller.signal });
+        return await r.text();
+    }
+];
+
+let data = null;
+for (const proxy of proxies) {
+    try {
+        data = await proxy();
+        if (data && data.includes('<item')) break;
+    } catch (e) {
+        continue;
+    }
+}
 clearTimeout(timeoutId);
-           const json = await response.json();
-const data = json.contents;
+if (!data) throw new Error('Failed to fetch from BoardGameGeek');
            
            if (!response.ok) {
                throw new Error('Failed to fetch from BoardGameGeek');
