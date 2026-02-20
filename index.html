@@ -4358,7 +4358,8 @@ for (const fetcher of proxyFetchers) {
         continue;
     }
 }
-if (!data) throw new Error('Failed to fetch from BoardGameGeek');           
+console.log('BGG fetch result:', data ? data.substring(0, 500) : 'null');
+if (!data) throw new Error('Failed to fetch from BoardGameGeek');
 
            const parser = new DOMParser();
            const xmlDoc = parser.parseFromString(data, 'text/xml');
