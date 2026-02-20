@@ -97,6 +97,13 @@ File: games-data.json (where collection is stored)
 
 Repository Setup
 Create a GitHub repository named board-game-tool (or update the code with your preferred name).
+
+! How to Update Code
+Go to github.com and sign in. Go here (or click on the file name ‘index.html’) https://github.com/jt1919191919/board-game-tool/blob/refs/heads/main/index.html
+Hit the Pencil. Make changes. Hit Commit Changes.
+Each update should show up in the Actions tab on github to refer back to.
+
+
 Using the Tool
 Adding Games
 Method 1: BoardGameGeek Import
