@@ -4305,89 +4305,58 @@ const sortField = document.getElementById('sort-field').value;
     }
    }
 
-   async fetchBGGData() {
 
-const url = document.getElementById('bgg-url').value;
-if (!url) return;
+async fetchBGGData() {
+    const url = document.getElementById('bgg-url').value;
+    if (!url) return;
 
-const loadingEl = document.getElementById('loading-indicator');
-const errorEl = document.getElementById('error-message');
+    const loadingEl = document.getElementById('loading-indicator');
+    const errorEl = document.getElementById('error-message');
 
-loadingEl.style.display = 'block';
-errorEl.style.display = 'none';
+    loadingEl.style.display = 'block';
+    errorEl.style.display = 'none';
 
-try {
-    const bggIdMatch = url.match(/\/boardgame\/(\d+)/);
-    if (!bggIdMatch) throw new Error('Invalid BoardGameGeek URL');
-    const bggId = bggIdMatch[1];
+    try {
+        const bggIdMatch = url.match(/\/boardgame\/(\d+)/);
+        if (!bggIdMatch) throw new Error('Invalid BoardGameGeek URL');
+        const bggId = bggIdMatch[1];
 
-    const response = await fetch(`https://bgg-proxy.jamiertifft.workers.dev?id=${bggId}`);
-    if (!response.ok) throw new Error('Failed to fetch from BoardGameGeek');
-    const text = await response.text();
+        const response = await fetch(`https://bgg-proxy.jamiertifft.workers.dev/?id=${bggId}`);
+        if (!response.ok) throw new Error('Failed to fetch from BoardGameGeek');
+        const data = await response.json();
 
-    const parser = new DOMParser();
-    const xmlDoc = parser.parseFromString(text, 'text/xml');
-    const item = xmlDoc.querySelector('item');
-    if (!item) throw new Error('Game not found on BoardGameGeek');
+        if (!data.name) throw new Error('Game not found on BoardGameGeek');
 
-    const name = item.querySelector('name[type="primary"]')?.getAttribute('value') || '';
-    const year = parseInt(item.querySelector('yearpublished')?.getAttribute('value')) || '';
-    const minPlayers = parseInt(item.querySelector('minplayers')?.getAttribute('value')) || 1;
-    const maxPlayers = parseInt(item.querySelector('maxplayers')?.getAttribute('value')) || 1;
-    const playtime = parseInt(item.querySelector('playingtime')?.getAttribute('value')) || 0;
-    const weight = parseFloat(item.querySelector('statistics averageweight')?.getAttribute('value')) || 0;
+        const weight = data.averageWeight || 0;
+        let defaultWeightColor = '#008000';
+        if (weight >= 2.5) defaultWeightColor = '#ff0000';
+        else if (weight >= 1.9) defaultWeightColor = '#cfa200';
 
-    const bestPlayerCount = [];
-    const polls = item.querySelectorAll('poll[name="suggested_numplayers"] results');
-    polls.forEach(result => {
-        const numPlayers = result.getAttribute('numplayers');
-        const best = result.querySelector('result[value="Best"]');
-        const numVotes = best ? parseInt(best.getAttribute('numvotes')) : 0;
-        if (numVotes > 0 && numPlayers !== '+') {
-            bestPlayerCount.push(parseInt(numPlayers));
-        }
-    });
+        document.getElementById('game-name').value = data.name || '';
+        document.getElementById('game-year').value = data.yearPublished || '';
+        document.getElementById('game-min-players').value = data.minPlayers || 1;
+        document.getElementById('game-max-players').value = data.maxPlayers || 1;
+        document.getElementById('game-playtime').value = data.playingTime || 0;
+        document.getElementById('game-weight').value = weight.toFixed(1);
+        document.getElementById('game-best-players').value = '';
+        document.getElementById('game-designers').value = (data.designers || []).join('; ');
+        document.getElementById('game-artists').value = (data.artists || []).join('; ');
+        document.getElementById('game-publishers').value = (data.publishers || []).join('; ');
+        document.getElementById('game-images').value = [data.image, data.thumbnail].filter(Boolean).join('\n');
+        document.getElementById('game-description').value = (data.description || '').replace(/<[^>]+>/g, '').trim();
+        document.getElementById('game-category').value = (data.categories || []).join('; ');
+        document.getElementById('game-mechanisms').value = (data.mechanics || []).join('; ');
 
-    const designers = Array.from(item.querySelectorAll('link[type="boardgamedesigner"]')).map(el => el.getAttribute('value'));
-    const artists = Array.from(item.querySelectorAll('link[type="boardgameartist"]')).map(el => el.getAttribute('value'));
-    const publishers = Array.from(item.querySelectorAll('link[type="boardgamepublisher"]')).map(el => el.getAttribute('value'));
-    const primaryImage = item.querySelector('image')?.textContent || '';
-    const thumbnail = item.querySelector('thumbnail')?.textContent || '';
-    const images = [primaryImage, thumbnail].filter(Boolean);
+        const weightColorSelect = document.getElementById('game-weight-color');
+        if (weightColorSelect) weightColorSelect.value = defaultWeightColor;
 
-    const description = item.querySelector('description')?.textContent?.trim() || '';
-    const categories = Array.from(item.querySelectorAll('link[type="boardgamecategory"]')).map(el => el.getAttribute('value'));
-    const mechanisms = Array.from(item.querySelectorAll('link[type="boardgamemechanic"]')).map(el => el.getAttribute('value'));
-
-    let defaultWeightColor = '#008000';
-    if (weight >= 2.5) defaultWeightColor = '#ff0000';
-    else if (weight >= 1.9) defaultWeightColor = '#cfa200';
-
-    document.getElementById('game-name').value = name;
-    document.getElementById('game-year').value = year;
-    document.getElementById('game-min-players').value = minPlayers;
-    document.getElementById('game-max-players').value = maxPlayers;
-    document.getElementById('game-playtime').value = playtime;
-    document.getElementById('game-weight').value = weight.toFixed(1);
-    document.getElementById('game-best-players').value = bestPlayerCount.join(', ');
-    document.getElementById('game-designers').value = designers.join('; ');
-    document.getElementById('game-artists').value = artists.join('; ');
-    document.getElementById('game-publishers').value = publishers.join('; ');
-    document.getElementById('game-images').value = images.join('\n');
-    document.getElementById('game-description').value = description;
-    document.getElementById('game-category').value = categories.join('; ');
-    document.getElementById('game-mechanisms').value = mechanisms.join('; ');
-
-    const weightColorSelect = document.getElementById('game-weight-color');
-    if (weightColorSelect) weightColorSelect.value = defaultWeightColor;
-
-} catch (error) {
-    errorEl.textContent = error.message;
-    errorEl.style.display = 'block';
-} finally {
-    loadingEl.style.display = 'none';
+    } catch (error) {
+        errorEl.textContent = error.message;
+        errorEl.style.display = 'block';
+    } finally {
+        loadingEl.style.display = 'none';
+    }
 }
-   }
 
    saveGame() {
 const formData = {
