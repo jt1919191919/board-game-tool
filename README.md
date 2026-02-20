@@ -106,14 +106,21 @@ Each update should show up in the Actions tab on github to refer back to.
 
 Using the Tool
 Adding Games
-Method 1: BoardGameGeek Import
 
+Method 1: BoardGameGeek Import
 Click "Add Game"
 Paste a BGG URL (e.g., https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1)
 Click "Fetch Game Data"
 Review auto-filled data
 Add personal notes
 Click "Save Game"
+FETCHING UPDATED. No longer fetching through CORS/APIs since bgg blocks them all it seems. Instead I’m doing cloudfare as a middleman. Basically I made a free cloudfare account with google logins, made a Worker, added custom code in there that scrapes the actual page of a bgg url i give it, looks for all info, spits it back as clean json code that then imports into the fields in the Tool. Works perfectly!
+cloudfare.com
+Google login
+Worker named:
+https://bgg-proxy.jamiertifft.workers.dev/
+
+
 
 Method 2: Manual Entry
 
