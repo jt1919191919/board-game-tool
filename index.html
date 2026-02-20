@@ -4326,12 +4326,13 @@ this.render();
            const controller = new AbortController();
            const timeoutId = setTimeout(() => controller.abort(), 15000); // 15 second timeout
            
-const response = await fetch(`https://corsproxy.io/?${encodeURIComponent(`https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`)}`, {
+const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(`https://boardgamegeek.com/xmlapi2/thing?id=${bggId}&stats=1`)}`, {
                signal: controller.signal
            });
            
 clearTimeout(timeoutId);
-           const data = await response.text();
+           const json = await response.json();
+const data = json.contents;
            
            if (!response.ok) {
                throw new Error('Failed to fetch from BoardGameGeek');
