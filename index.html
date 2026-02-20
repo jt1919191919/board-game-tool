@@ -4296,9 +4296,9 @@ const sortField = document.getElementById('sort-field').value;
            return 0;
        });
 
-this.filteredGames = filtered;
-this.render();
-} finally {
+       this.filteredGames = filtered;
+       this.render();
+       } finally {
         if (window.innerWidth <= 768) {
             this.hideLoading();
         }
