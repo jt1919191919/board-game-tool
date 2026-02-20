@@ -17112,9 +17112,66 @@
         "Stacking and Balancing"
       ],
       "customFields": {}
+    },
+    "1771621446302": {
+      "bggId": "1771621446302",
+      "bggUrl": "https://boardgamegeek.com/boardgame/147151/concept",
+      "name": "Concept",
+      "year": 2013,
+      "dateAcquired": "2025-12-25",
+      "players": {
+        "min": 4,
+        "max": 12
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 1.38,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        5
+      ],
+      "designers": [
+        "Gaëtan Beaujannot",
+        "Alain Rivollet"
+      ],
+      "artists": [
+        "Éric Azagury",
+        "Cédric Chevalier"
+      ],
+      "publishers": [
+        "Repos Production",
+        "ADC Blackfire Entertainment",
+        "asmodee",
+        "Asterion Press",
+        "Galápagos Jogos",
+        "Gém Klub Kft.",
+        "Hobby Japan"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/UVwQO6QCwXw4gM3NNdp2EA__imagepage/img/TTMUocDyrtHCiDkAO1jtsFxjhdA=/fit-in/900x600/filters:no_upscale():strip_icc()/pic1907628.jpg",
+        "https://cf.geekdo-images.com/LU-dO-55kMKwbz_QVvQrww__imagepage/img/ViOELAiDYC77qpMVd-6iFbPry8k=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2432884.jpg",
+        "https://cf.geekdo-images.com/PK6WPc5mbYbzAkXcdBkqwQ__imagepage/img/yStfsh2RefOsCe2N1YU9k6rL31A=/fit-in/900x600/filters:no_upscale():strip_icc()/pic2467989.jpg"
+      ],
+      "notes": "mom got us it for Christmas",
+      "description": "In Concept, your goal is to guess words through the association of icons. A team of two players – neighbors at the table – choose a word or phrase that the other players need to guess. Acting together, this team places pieces judiciously on the available icons on the game board.\n\nTo get others to guess \"milk\", for example, the team might place the question mark icon (which signifies the main concept) on the liquid icon, then cubes of this color on the icons for \"food/drink\" and \"white\". For a more complicated concept, such as \"Leonardo DiCaprio\", the team can use the main concept and its matching cubes to clue players into the hidden phrase being an actor or director, while then using sub-concept icons and their matching cubes to gives clues to particular movies in which DiCaprio starred, such as Titanic or Inception.\n\nThe first player to discover the word or phrase receives 2 victory points, the team receives points as well, and the player who ends up with the most points wins.",
+      "category": [
+        "Deduction",
+        "Party Game",
+        "Word Game"
+      ],
+      "mechanisms": [
+        "Communication Limits",
+        "Race",
+        "Team-Based Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-20T20:59:25.176Z",
+  "lastModified": "2026-02-20T21:04:06.303Z",
   "version": "1.0"
 }
