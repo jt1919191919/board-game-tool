@@ -17093,7 +17093,10 @@
       "designerNationality": [
         "UK"
       ],
-      "publisherCountry": [],
+      "publisherCountry": [
+        "USA",
+        "Texas"
+      ],
       "images": [
         "https://cf.geekdo-images.com/_AJL7NIxmbHbLOp3WrTR6g__imagepage/img/cRWpexk-WT1klHdAcgau3_SHK7Y=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8849588.jpg",
         "https://cf.geekdo-images.com/gdsbA2pR2qdHgb7LhsOnng__imagepage/img/KNZWyuPnb4-jjTbvamKP5NRmYjY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8846900.jpg"
@@ -17112,6 +17115,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-20T20:58:29.128Z",
+  "lastModified": "2026-02-20T20:59:25.176Z",
   "version": "1.0"
 }
