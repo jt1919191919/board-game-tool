@@ -17286,9 +17286,57 @@
         "Ownership"
       ],
       "customFields": {}
+    },
+    "1771631968937": {
+      "bggId": "1771631968937",
+      "bggUrl": "https://boardgamegeek.com/boardgame/421649/you-know-it",
+      "name": "You Know It!",
+      "year": 2025,
+      "dateAcquired": "2026-01-22",
+      "players": {
+        "min": 3,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        5,
+        6
+      ],
+      "designers": [
+        "Vivienne Egan",
+        "Jon Gracey"
+      ],
+      "artists": [
+        "Matthew Hancock"
+      ],
+      "publishers": [
+        "(Self-Published)",
+        "Invisible Typewriter"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/f1MwCl_xDT1SxzLsgbmr-A__itemrep/img/3yZcR_gItZ_q4ZiAhVzn9T5H0Lk=/fit-in/246x300/filters:strip_icc()/pic8221807.png",
+        "https://cf.geekdo-images.com/f1MwCl_xDT1SxzLsgbmr-A__itemrep/img/3yZcR_gItZ_q4ZiAhVzn9T5H0Lk=/fit-in/246x300/filters:strip_icc()/pic8221807.png"
+      ],
+      "notes": "",
+      "description": "A trivia party game where, aside from trying to answer the questions right, you can get points by betting on how many of the group know the right answer, know knows the right answer and who doesn't know the right answer from a bunch of five questions.",
+      "category": [
+        "Bluffing",
+        "Trivia"
+      ],
+      "mechanisms": [
+        "Betting and Bluffing"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-20T23:56:11.844Z",
+  "lastModified": "2026-02-20T23:59:28.938Z",
   "version": "1.0"
 }
