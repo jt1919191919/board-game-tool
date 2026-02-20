@@ -4919,7 +4919,8 @@
         "Italy"
       ],
       "publisherCountry": [
-        "Italy"
+        "Italy",
+        "Milan"
       ],
       "images": [
         "https://cf.geekdo-images.com/ukPf_rrA7ity7UQEVjWPNw__original/img/Oss0hzRILIZgXlqQGJaa7HCH_Zo=/0x0/filters:format(png)/pic2411495.png",
@@ -6485,7 +6486,11 @@
       "publishers": [
         "Renegade Game Studios"
       ],
-      "designerNationality": [],
+      "designerNationality": [
+        "USA",
+        "Ohio",
+        "Dayton"
+      ],
       "publisherCountry": [
         "USA",
         "California",
@@ -6549,8 +6554,13 @@
         "Hobby Japan",
         "IELLO"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Italy"
+      ],
+      "publisherCountry": [
+        "Italy",
+        "Milan"
+      ],
       "images": [
         "https://cf.geekdo-images.com/pPXbuNKh5TPSRTwAvwuTpw__original/img/3StIG3EC2vhApAP8d_tKH22eIBY=/0x0/filters:format(jpeg)/pic6971167.jpg",
         "https://cf.geekdo-images.com/6Qu-OO5s0y2YAE0-Ew8S6g__imagepage/img/6gD0Nex7wvajYgGO-P_L8fRqDbo=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7205971.jpg",
@@ -6624,7 +6634,8 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/17wJNXSBYuVmKryV9lEKsQ__original/img/3z-EkL0nYgFKPWI9jr0Hd8qeLBk=/0x0/filters:format(jpeg)/pic5099398.jpg",
-        "https://cf.geekdo-images.com/17wJNXSBYuVmKryV9lEKsQ__thumb/img/nVMvEWrTFCoOE9Y3tqFLelkjYWw=/fit-in/200x150/filters:strip_icc()/pic5099398.jpg"
+        "https://cf.geekdo-images.com/6nWBHdICgtfCS9H_cuHfBg__imagepage/img/4Go5dZSHT4AM3m3vYloQH4BOc98=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4550569.jpg",
+        "https://cf.geekdo-images.com/NYxAgScev6Mq5uTjneKn5g__imagepage/img/WISQfxxsuUqkHE7gRQhVGCLFMjk=/fit-in/900x600/filters:no_upscale():strip_icc()/pic4677017.jpg"
       ],
       "notes": "ZMan owned by Asmodee",
       "description": "Hadara carries you off into the world of cultures and countries of this earth. Over three epochs, you will experience the transformation of your new world from a small settlement to a high culture. You want to populate this world with people who come from different cultures and continents as well as different ages. To bring glory and honor to your world, you should choose the persons and accomplishments skillfully. But you should not ignore agriculture, culture, and military power, otherwise one of your competitors might get bigger and more successful than you. Who will succeed first in creating a new flourishing high culture?\n\n—description from the publisher\n\n•••\n\nHadara entführt dich in die Welt der Kulturen und Länder dieser Erde.\n\nÜber 3 Epochen hinweg erlebst du die Verwandlung deiner neuen Welt von einer kleinen Siedlung zu einer Hochkultur.\nDu willst diese Welt mit Personen besiedeln, die dabei aus verschiedenen Kulturkreisen, Kontinenten aber auch Zeitaltern stammen. \nUm deiner Welt zu viel Ruhm und Ehre zu verhelfen, solltest du die Personen und Errungenschaften geschickt aussuchen. Dabei solltest du aber die Landwirtschaft, die Kultur und die militärische Macht nicht außer Acht lassen, sonst kann es passieren, dass einer deiner Mitkonkurrenten größer und erfolgreicher wird. Wem gelingt es zuerst, eine neue blühende Hochkultur zu erschaffen?\n—description from the publisher (German)\n\n",
@@ -6696,7 +6707,7 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/uiVZ7QVfRFQx3EBG8eDU8w__original/img/tLBrF40IDpARzoiUor4wwUvWXgY=/0x0/filters:format(png)/pic6339446.png",
-        "https://cf.geekdo-images.com/uiVZ7QVfRFQx3EBG8eDU8w__thumb/img/SUy42NMiK5gx-kLqmV47drIxEU0=/fit-in/200x150/filters:strip_icc()/pic6339446.png"
+        "https://cf.geekdo-images.com/Wv5wwMy3CJqqYMoT9ssqgA__imagepage/img/mVQGzZfNJHee6LgHpd9dnHP_IDQ=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3113011.jpg"
       ],
       "notes": "",
       "description": "Welcome to the most famed Geisha street in the old capital, Hanamikoji. Geishas are elegant and graceful women who are skilled in art, music, dance, and a variety of performances and ceremonies. Greatly respected and adored, Geishas are masters of entertainment.\n\nIn Hanamikoji, two players compete to earn the favor of seven illustrious Geishas by collecting each Geisha’s preferred performance item. With careful speculation and a few bold moves, can you outsmart your opponent to win the favor of the most Geishas?\n\nJixia Academy features the same gameplay as Hanamikoji, but with different artwork.\n\nHanamikoji FAQ\n\n",
@@ -6752,11 +6763,20 @@
         "Matagot",
         "Quality Beast"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "California",
+        "Mountain View"
+      ],
+      "publisherCountry": [
+        "USA",
+        "California",
+        "Mountain View"
+      ],
       "images": [
         "https://cf.geekdo-images.com/0HHqYFhJvOwk8Z0Dt-EvTA__original/img/PUZECnFJTnvhRL48lpUzR5TR48w=/0x0/filters:format(jpeg)/pic7083274.jpg",
-        "https://cf.geekdo-images.com/0HHqYFhJvOwk8Z0Dt-EvTA__thumb/img/EwiBLR6QywbISk0aGe-Vya4zXws=/fit-in/200x150/filters:strip_icc()/pic7083274.jpg"
+        "https://cf.geekdo-images.com/ygTrMPPl3KcSFNUThZxbJQ__imagepage/img/aemjWkBGWhc_I3okQWWwdV-Is84=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3399435.jpg",
+        "https://cf.geekdo-images.com/8eXEREfyYNjimt971ki2Gg__imagepage/img/uXCfrq2akeCMtCX0PCFNw9r47G4=/fit-in/900x600/filters:no_upscale():strip_icc()/pic3037841.jpg"
       ],
       "notes": "",
       "description": "In Herbaceous, herb collectors compete to grow and store the most valuable medley of herbs. Everyone starts with four containers, each of which allows a different grouping action:\n\n\n     Group herbs of same type\n     Group different types\n     Group pairs\n     Group any three types (same or different)\n\n\nOn your turn, you draw a herb, then decide to either keep it in your personal collection or put in into the communal pile. If kept, the next card goes to the communal pile; if placed in the communal pile, the next card goes in your personal collection.\n\nAt the start of your turn, you can decide to use a container. If so, you assemble cards from personal and communal spaces, group them, then turn them all over. You have then \"collected\" those and can't use the container again.\n\nAt the end of the game, collectors determine the best collection as a combination of value from their collection, matching herbs, and herb sets.\n\n",
@@ -6804,11 +6824,15 @@
         "Devir",
         "IELLO"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/0wJuIvwDVBaJSzBD2UL8-Q__original/img/hMjvVVBpdhZUFwqWQy3cqA-asro=/0x0/filters:format(jpeg)/pic7233503.jpg",
-        "https://cf.geekdo-images.com/0wJuIvwDVBaJSzBD2UL8-Q__thumb/img/162rGGAWKVOzBWHct2g_anMVnTw=/fit-in/200x150/filters:strip_icc()/pic7233503.jpg"
+        "https://cf.geekdo-images.com/BB6TAEn42dD86515zMk-BQ__imagepage/img/Q1nDiODfcBxDvo72X3ftxf6PI5s=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7777092.jpg"
       ],
       "notes": "",
       "description": "High Score is an ingenious dice game with unique challenges. Turning over a new challenge card tells players how to score points this round and how you can re-roll your dice. Will even numbers score 0 points this round? What effect will the vortex have this round?\n\nAfter the first player finishes their turn, the other players can attempt to beat their score, but risk too much and you may come away empty-handed. Whoever has the most points after seven rounds wins.\n\n",
@@ -6855,11 +6879,19 @@
       "publishers": [
         "Calliope Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "Philadelphia"
+      ],
+      "publisherCountry": [
+        "USA",
+        "North Carolina",
+        "Spindale"
+      ],
       "images": [
-        "https://cf.geekdo-images.com/CdPotpqnreo8BjI0053MOQ__original/img/hScvBhtH5avBIrXQJLCqGFqHPtQ=/0x0/filters:format(png)/pic6706273.png",
-        "https://cf.geekdo-images.com/CdPotpqnreo8BjI0053MOQ__thumb/img/BufM56uPpL8K8c6IacQElBTmhtc=/fit-in/200x150/filters:strip_icc()/pic6706273.png"
+        "https://cf.geekdo-images.com/CdPotpqnreo8BjI0053MOQ__imagepage/img/Yi7C7YRFdXfz_O01vOceRR4ACoQ=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6706273.png",
+        "https://cf.geekdo-images.com/Q9IWfP9JHU0G31oX6MFPfw__imagepage/img/vrvGdjZogehWI-AkSrfSeD-4O6I=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8747125.jpg",
+        "https://cf.geekdo-images.com/J6M5MHsjo5TokiOXKwXV_Q__imagepage/img/CQUPiYWwc6UQO0PNhQBh_gWUEeE=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8747126.jpg"
       ],
       "notes": "",
       "description": "Richard Garfield introduces Hive Mind™, a party game that rewards thinking alike, and there are no wrong answers! Gather 3-12 friends and family, then choose and ask questions everyone might answer the same, because thinking differently might send you right off the board! \"What are 3 unusual pets?\" \"What are the 4 best ice cream flavors?\"\n\nIn Hive Mind™, players answer trivia and opinion questions trying to match their answers with other players, scoring points for each match they achieve. They don’t have to be correct! They just have to be the same as what other players think. Each round, players will roll the die to determine how many lowest scoring answers move down the player board. Then a question will be asked, and answers given and scored. Once one or more players moves lower than level six, they are eliminated from the Hive Mind and everyone else wins!\n\n",
@@ -6905,7 +6937,9 @@
         "Lanlalen"
       ],
       "designerNationality": [
-        "USA"
+        "USA",
+        "Illinois",
+        "Iowa"
       ],
       "publisherCountry": [
         "USA",
@@ -6913,7 +6947,7 @@
       ],
       "images": [
         "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__original/img/i8nlw_c9CYgJMzixadYVh7GTTPc=/0x0/filters:format(jpeg)/pic5390676.jpg",
-        "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__thumb/img/EJ5gcczwsYvSavYuO4UoNPS45vo=/fit-in/200x150/filters:strip_icc()/pic5390676.jpg"
+        "https://cf.geekdo-images.com/3LAf_8Z_8h5AyBky9c9ACg__imagepage/img/i5QpZSmHcUUWzloogvv_QJfSDik=/fit-in/900x600/filters:no_upscale():strip_icc()/pic5413867.jpg"
       ],
       "notes": "The OP is formerly called USAopoly.",
       "description": "What hue do you think of when we say “apple”? Hues and Cues is a vibrant game of colorful communication where players are challenged to make connections to colors with words. Using only one and two-word cues, players try to get others to guess a specific hue from the 480 colors on the game board. The closer the guesses are to the target, the more points you earn. Since everyone imagines colors differently, connecting colors and clues has never been this much fun!\n\nGather around with three to ten people to play a quick and simple game with a prism of possibilities! First, a “cue giver” hides a specific color they’ve chosen out of a deck of cards. There are 480 shades on the board in front of you! After getting one- and two-word cues, everyone places their marker on which color they think is being described. “Coffee.” Is it dark brown, as in freshly brewed? “Au lait.” With milk. That means I should pick a lighter shade!\n\nUse examples from everyday life, from nature to pop culture, or materials and moods. Everyone around the table gets a turn to give cues and guess. The better your hints or guesses, the more points you earn. Play off others' experiences to narrow down what they have in mind!\n\n—description from the publisher\n\n",
@@ -9093,7 +9127,9 @@
         "Gém Klub Kft.",
         "MIPL"
       ],
-      "designerNationality": [],
+      "designerNationality": [
+        "Germany"
+      ],
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/CQ9o1kqExmBpHcPMVk0qwQ__original/img/8jK4shZsnCk-UbNYf6zStqQRRYk=/0x0/filters:format(jpeg)/pic7926071.jpg",
@@ -10657,7 +10693,8 @@
         "Italy"
       ],
       "publisherCountry": [
-        "Italy"
+        "Italy",
+        "Milan"
       ],
       "images": [
         "https://cf.geekdo-images.com/vwjYMFporFhvAU48k73MIw__original/img/6sAfG89R42SJRv2wjiItRTMmcoQ=/0x0/filters:format(jpeg)/pic7298696.jpg",
@@ -16221,7 +16258,10 @@
       "publishers": [
         "Wizards of the Coast"
       ],
-      "designerNationality": [],
+      "designerNationality": [
+        "USA",
+        "Philadelphia"
+      ],
       "publisherCountry": [],
       "images": [
         "https://cf.geekdo-images.com/CxJmNl4wR4InjqyNrMdBTw__original/img/TKQgvl_i6zVYld8Gac8oU-c2ezE=/0x0/filters:format(jpeg)/pic163749.jpg",
@@ -16685,6 +16725,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-19T23:53:40.685Z",
+  "lastModified": "2026-02-20T00:09:26.216Z",
   "version": "1.0"
 }
