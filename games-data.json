@@ -17318,13 +17318,18 @@
         "(Self-Published)",
         "Invisible Typewriter"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "UK"
+      ],
+      "publisherCountry": [
+        "UK"
+      ],
       "images": [
         "https://cf.geekdo-images.com/f1MwCl_xDT1SxzLsgbmr-A__itemrep/img/3yZcR_gItZ_q4ZiAhVzn9T5H0Lk=/fit-in/246x300/filters:strip_icc()/pic8221807.png",
-        "https://cf.geekdo-images.com/f1MwCl_xDT1SxzLsgbmr-A__itemrep/img/3yZcR_gItZ_q4ZiAhVzn9T5H0Lk=/fit-in/246x300/filters:strip_icc()/pic8221807.png"
+        "https://cf.geekdo-images.com/44yNezeVWsNRFrgzFitDUw__imagepage/img/QIaqcMLYRt8GQbnG6TwH-bdOh9U=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8221782.png",
+        "https://cf.geekdo-images.com/D2HS8QJUfXmuQjpBfRH3tg__imagepage/img/i7Pq8kAdBFKYCwhUce8tgd4xkPg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8221787.png"
       ],
-      "notes": "",
+      "notes": "we Kickstarted it! No Rolls Barred.",
       "description": "A trivia party game where, aside from trying to answer the questions right, you can get points by betting on how many of the group know the right answer, know knows the right answer and who doesn't know the right answer from a bunch of five questions.",
       "category": [
         "Bluffing",
@@ -17337,6 +17342,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-20T23:59:28.938Z",
+  "lastModified": "2026-02-21T00:01:57.348Z",
   "version": "1.0"
 }
