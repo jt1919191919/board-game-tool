@@ -17339,9 +17339,56 @@
         "Betting and Bluffing"
       ],
       "customFields": {}
+    },
+    "1771632233118": {
+      "bggId": "1771632233118",
+      "bggUrl": "https://boardgamegeek.com/boardgame/452397/thats-totally-you",
+      "name": "That's Totally You",
+      "year": 2025,
+      "dateAcquired": "2025-12-25",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "designers": [],
+      "artists": [],
+      "publishers": [
+        "Big Potato Games",
+        "asmodee"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/rCjUfqODmUJQy49dJzCXOA__itemrep/img/XoSHdj7FjqkAWZzKPo8BG2J6FTM=/fit-in/246x300/filters:strip_icc()/pic9049812.jpg",
+        "https://cf.geekdo-images.com/rCjUfqODmUJQy49dJzCXOA__itemrep/img/XoSHdj7FjqkAWZzKPo8BG2J6FTM=/fit-in/246x300/filters:strip_icc()/pic9049812.jpg"
+      ],
+      "notes": "mom got for Christmas",
+      "description": "Think the same, it&rsquo;s the point of the game. That&rsquo;s your mission in That&rsquo;s Totally You. You&rsquo;re trying to silently agree with your partner by both pressing the buttons on your swivel hands so both fingers swing round and point at the same person.\n\nYou&rsquo;ll come up against loads of tricky questions, such as &ldquo;Who&rsquo;s more golden retriever?&rdquo; and &ldquo;Who&rsquo;s more likely to join a cult for the free food?&rdquo;. As long as you both agree, your team is through to the next round. However, disagree and your team is out!\n\nThe last team standing is totally the winner.\n\n\n     The swivel hands are the star of the show. They're fun for the players operating them, but also fun for everyone else to watch.\n     Thinking alike. In this game it's not really about answering the questions honestly, but trying to predict what decision your partner is going to make.\n     The questions are funny and surreal but not mean.\n     This game is about having a laugh without making people feel uncomfortable.\n     It is also a competitive game. One team is going to win, make sure it's yours.\n\n\n1. PICK A PROMPT\nChoose between two prompts.\n\n2. USE TELEPATHY\nSilently decide who you&rsquo;re going to point the finger at.\n\n3. SWIVEL!\nPress your buttons to point the finger and if you agree, you&rsquo;re through to the next round!\n\n&mdash;description from publisher",
+      "category": [
+        "Card Game",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Player Elimination",
+        "Team-Based Game"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-02-21T00:01:57.348Z",
+  "lastModified": "2026-02-21T00:03:53.118Z",
   "version": "1.0"
 }
