@@ -17464,9 +17464,56 @@
         "Variable Set-up"
       ],
       "customFields": {}
+    },
+    "1784939786678": {
+      "bggId": "1784939786678",
+      "bggUrl": "https://boardgamegeek.com/boardgame/175961/three-cheers-for-master",
+      "name": "Three Cheers for Master",
+      "year": 2015,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 1.8,
+      "weightColor": "#008000",
+      "bestPlayerCount": [],
+      "designers": [
+        "Daniel Windfeld Schmidt"
+      ],
+      "artists": [
+        "Daniel Windfeld Schmidt"
+      ],
+      "publishers": [
+        "Atlas Games",
+        "Edge Entertainment",
+        "Galakta",
+        "Ludofy Creative"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/_PtTQq9vxaEIKkYFjo88bQ__original/img/0ow-4RcuJ4FiE3un_2Hzvh0YPRo=/0x0/filters:format(jpeg)/pic9421296.jpg",
+        "https://cf.geekdo-images.com/_PtTQq9vxaEIKkYFjo88bQ__small/img/XRH5hHTCSy9hW8-Gjo06_EDyPas=/fit-in/200x150/filters:strip_icc()/pic9421296.jpg"
+      ],
+      "notes": "",
+      "description": "Master has been blue lately. It's just not the same now that all lands known to evil have been conquered &mdash; and when Master's blue, it's the minions who suffer.\n\nAs a lieutenant in Master's army &mdash; a foreminion &mdash; it falls to you to cheer him up. Not the easiest task, even in the best of times. But then it hit you: What better way to cheer Master up than a cheerleading competition?\n\nWhichever foreminion builds and scales the most impressive tower of war-hungry minions in Three Cheers for Master will surely win Master's heart. What could possibly go wrong?",
+      "category": [
+        "Card Game",
+        "Humor"
+      ],
+      "mechanisms": [
+        "Hand Management",
+        "Take That"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-24T17:42:07.016Z",
+  "lastModified": "2026-07-25T00:36:26.679Z",
   "version": "1.0"
 }
