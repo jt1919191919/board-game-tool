@@ -17793,9 +17793,62 @@
         "Turn Order: Auction"
       ],
       "customFields": {}
+    },
+    "1784940356369": {
+      "bggId": "1784940356369",
+      "bggUrl": "https://boardgamegeek.com/boardgame/183284/factory-funner",
+      "name": "Factory Funner",
+      "year": 2016,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 6
+      },
+      "playtime": {
+        "min": 40,
+        "max": 40
+      },
+      "weight": 2.4,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [],
+      "designers": [
+        "Corné van Moorsel"
+      ],
+      "artists": [
+        "Nigel Sussman",
+        "Steven Tu"
+      ],
+      "publishers": [
+        "Cwali",
+        "Allplay",
+        "BoardGameTables.com",
+        "CMON Global Limited",
+        "Korea Boardgames"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/KSF17xv7uX1TAwfyXg7jGg__original/img/TUJcf326JXTt0yMQziK9itdVkUI=/0x0/filters:format(jpeg)/pic6068797.jpg",
+        "https://cf.geekdo-images.com/KSF17xv7uX1TAwfyXg7jGg__small/img/CZXtSqoJ7UPnPPtSskEZqFwwZgY=/fit-in/200x150/filters:strip_icc()/pic6068797.jpg"
+      ],
+      "notes": "",
+      "description": "In Factory Funner, players are factory managers who select and install machines in their factory. They try connect all machine input and output pipes to the right reservoirs or to other machines in order to build the most profitable configuration. A new machine brings revenue. Other things you build (reservoirs and connectors (pipelines)) cost 1K money each.\n\nIn each game round, players may select one machine (from a number of machines equal to the number of players) simultaneously, which means players try to quickly determine possible connections, then grab the tile they want. But by choosing too quickly, you risk taking a machine that doesn't fit well... When fitting in a machine, a key tactic is to keep the most and best options for connecting future machines!\n\nAfter eight rounds, the player with the most money wins.\n\nThe second edition of this game &mdash; Factory Funner&Bigger &mdash; features the same gameplay as the original release, but with a deeper box, more connectors, and slightly different colors for better usability, and without the \"jump\" machine as it had a high luck factor and created rules difficulty during play.",
+      "category": [
+        "Industry / Manufacturing",
+        "Puzzle",
+        "Real-time"
+      ],
+      "mechanisms": [
+        "Hexagon Grid",
+        "Network and Route Building",
+        "Real-Time",
+        "Solo / Solitaire Game",
+        "Tile Placement"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-25T00:45:04.424Z",
+  "lastModified": "2026-07-25T00:45:56.370Z",
   "version": "1.0"
 }
