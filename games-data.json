@@ -17846,9 +17846,71 @@
         "Tile Placement"
       ],
       "customFields": {}
+    },
+    "1784940436124": {
+      "bggId": "1784940436124",
+      "bggUrl": "https://boardgamegeek.com/boardgame/28089/chateau-roquefort",
+      "name": "Château Roquefort",
+      "year": 2007,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 4
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.6,
+      "weightColor": "#008000",
+      "bestPlayerCount": [],
+      "designers": [
+        "Jens-Peter Schliemann",
+        "Bernhard Weber"
+      ],
+      "artists": [
+        "Victor Boden",
+        "Denny Minonne"
+      ],
+      "publishers": [
+        "Zoch Verlag",
+        "999 Games",
+        "Broadway Toys LTD",
+        "Enigma (Bergsala Enigma)",
+        "Gigamic",
+        "Lautapelit.fi",
+        "Lifestyle Boardgames Ltd",
+        "Piatnik",
+        "Red Glove",
+        "Rio Grande Games",
+        "Rozum"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/KvKj9FpjyMf4NcQn6G-EDw__original/img/ZHoqjdxOqobZNopCJ-TzhtRIyzY=/0x0/filters:format(png)/pic9646165.png",
+        "https://cf.geekdo-images.com/KvKj9FpjyMf4NcQn6G-EDw__small/img/499IgKxPDu1fP7zvewBGtpHGZNQ=/fit-in/200x150/filters:strip_icc()/pic9646165.png"
+      ],
+      "notes": "",
+      "description": "Each player controls colored mice and tries to collect pieces of cheese in Castle Appenzell. On their turn, players spend action points to put new mice into play, reveal corridors in the castle, move their mice around the castle, or push a tile into play, which changes the maze of cheese pieces underneath. If two of a single player's mice reach a place with the same kind of cheese showing, the player obtains a piece of this cheese. The first player with 4 different pieces of cheese wins the game.",
+      "category": [
+        "Animals",
+        "Children's Game",
+        "Exploration",
+        "Maze",
+        "Memory"
+      ],
+      "mechanisms": [
+        "Action Points",
+        "Grid Movement",
+        "Map Deformation",
+        "Memory",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-25T00:45:56.370Z",
+  "lastModified": "2026-07-25T00:47:16.125Z",
   "version": "1.0"
 }
