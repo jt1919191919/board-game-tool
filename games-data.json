@@ -17652,9 +17652,55 @@
         "Worker Placement, Different Worker Types"
       ],
       "customFields": {}
+    },
+    "1784940203347": {
+      "bggId": "1784940203347",
+      "bggUrl": "https://boardgamegeek.com/boardgame/433205/torchlit",
+      "name": "Torchlit",
+      "year": 2024,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 45,
+        "max": 45
+      },
+      "weight": 2.2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [],
+      "designers": [
+        "David Spalinski"
+      ],
+      "artists": [
+        "Harry Conway",
+        "Phil Rynda",
+        "David Spalinski"
+      ],
+      "publishers": [
+        "(Self-Published)",
+        "Allplay",
+        "Little Dog Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/SNYtiVdD8cAF87ri7GLq7w__original/img/VcY4UULsHmYjugafeDzuZB6z0-s=/0x0/filters:format(jpeg)/pic9202766.jpg",
+        "https://cf.geekdo-images.com/SNYtiVdD8cAF87ri7GLq7w__small/img/A4GjDDUDVVGNLwT05TfKp8cQnr8=/fit-in/200x150/filters:strip_icc()/pic9202766.jpg"
+      ],
+      "notes": "",
+      "description": "Every adventurer dreams of delving into a monster-packed dungeon and returning home to bask in fame and fortune. However, choosing the right dungeon can be tricky. Some have barely any monsters, while others are teeming with adventurers eager to split the spoils. And lurking behind it all is the fickle Dungeon Warden, forever tugging at the strings of fate. It&rsquo;s no wonder adventurers carry a torch to light the way.\n\nIn this trick-taking game, you must decide when to win tricks and when to increase the value of the number of tricks you think you might take. However, points are limited, so if any players end up taking the same amount of tricks, they must divide the points among themselves. After 3 rounds of play, the player with the most points wins!",
+      "category": [
+        "Card Game"
+      ],
+      "mechanisms": [
+        "Trick-taking"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-25T00:42:14.482Z",
+  "lastModified": "2026-07-25T00:43:23.348Z",
   "version": "1.0"
 }
