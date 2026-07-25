@@ -17563,9 +17563,38 @@
         "Variable Player Powers"
       ],
       "customFields": {}
+    },
+    "1784939985936": {
+      "bggId": "1784939985936",
+      "bggUrl": "",
+      "name": "nana",
+      "year": null,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 1
+      },
+      "playtime": {
+        "min": 0,
+        "max": 0
+      },
+      "weight": 0,
+      "weightColor": "#008000",
+      "bestPlayerCount": [],
+      "designers": [],
+      "artists": [],
+      "publishers": [],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [],
+      "notes": "",
+      "description": "",
+      "category": [],
+      "mechanisms": [],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-25T00:37:39.831Z",
+  "lastModified": "2026-07-25T00:39:45.937Z",
   "version": "1.0"
 }
