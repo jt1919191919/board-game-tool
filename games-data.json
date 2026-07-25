@@ -17698,9 +17698,55 @@
         "Trick-taking"
       ],
       "customFields": {}
+    },
+    "1784940252143": {
+      "bggId": "1784940252143",
+      "bggUrl": "https://boardgamegeek.com/boardgame/457008/friendly-fishing",
+      "name": "Friendly Fishing",
+      "year": 2026,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 5
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 2,
+      "weightColor": "#cfa200",
+      "bestPlayerCount": [],
+      "designers": [
+        "Bruno Faidutti",
+        "Alex Randolph"
+      ],
+      "artists": [
+        "A. Giroux"
+      ],
+      "publishers": [
+        "GameHead"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/Z_-gXI11UIk4uH534lskSw__original/img/CW3MCJ5eruvfxtI5b7VpvqcW5zc=/0x0/filters:format(jpeg)/pic9363604.jpg",
+        "https://cf.geekdo-images.com/Z_-gXI11UIk4uH534lskSw__small/img/kR-4PtfbI8Ck2WfXGN8PPAZI3Rc=/fit-in/200x150/filters:strip_icc()/pic9363604.jpg"
+      ],
+      "notes": "",
+      "description": "A reel and a rod, some friends, and a boat - is there anything more relaxing? Let's spend the day together, fishing this pond. And hey, I'll give you a hand and help you catch that big fish you've been after.\n\nFriendly Fishing is a semi-cooperative set collection game in which players share a fishing boat. On your turn you simply move the boat and claim a fish token. You'll want to set the next player up for a good move, because there's a twist.  At the end of the game, everyone scores the tokens in front of them, but each player's final score is their own fish score, plus their left neighbor's fish score! Most points wins.\n\nFriendly Fishing offers a casual day on the pond with a unique style of player interaction.\n\n-description from publisher",
+      "category": [
+        "Animals",
+        "Sports"
+      ],
+      "mechanisms": [
+        "Grid Movement",
+        "Semi-Cooperative Game",
+        "Set Collection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-25T00:43:23.348Z",
+  "lastModified": "2026-07-25T00:44:12.144Z",
   "version": "1.0"
 }
