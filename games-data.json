@@ -17908,9 +17908,73 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1784940518150": {
+      "bggId": "1784940518150",
+      "bggUrl": "https://boardgamegeek.com/boardgame/176734/the-manhattan-project-energy-empire",
+      "name": "The Manhattan Project: Energy Empire",
+      "year": 2016,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 1,
+        "max": 5
+      },
+      "playtime": {
+        "min": 120,
+        "max": 120
+      },
+      "weight": 3,
+      "weightColor": "#ff0000",
+      "bestPlayerCount": [],
+      "designers": [
+        "Tom Jolly",
+        "Luke Laurie"
+      ],
+      "artists": [
+        "Josh Cappel",
+        "Jeffrey Edwards"
+      ],
+      "publishers": [
+        "Minion Games",
+        "Doit Games",
+        "Playfun Games"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/-aaspZ2Oq1VuAADvbUoeww__original/img/fr4sH1ViKPtRys-gjCY4dY8UuQE=/0x0/filters:format(jpeg)/pic3048617.jpg",
+        "https://cf.geekdo-images.com/-aaspZ2Oq1VuAADvbUoeww__small/img/6nMV_Bdtm2ShipBJfGle36DY1-U=/fit-in/200x150/filters:strip_icc()/pic3048617.jpg"
+      ],
+      "notes": "",
+      "description": "From the ashes of war, nations rise to power in the atomic age. Each player takes control of a nation struggling for power in the latter part of the 20th century. They build up their nation&rsquo;s industry, commerce, and government by acquiring resources, building structures, and tapping sources of energy. The price of oil is going up, and nuclear energy is the wave of the future. The Manhattan Project: Energy Empire is set in the same \"universe\" as The Manhattan Project, but it's a standalone game, not an expansion.\n\nThe major threat in Energy Empire is not war, but uncertain global impacts, that result from side effects of industrialization and pollution. Many actions come with a cost. So, as nations become more industrious, they also increase the amount of pollution in the environment.  Careful use of science can mitigate the harmful effects of industry, and can also help avert global crises.\n\nEnergy Empire uses worker placement, tableau-building, and resource management mechanics. On each turn, a player can choose to either work or generate. On a work turn, a player plays a single worker on the main board, then uses workers and energy to activate cards in their tableau. Players may spend energy to use an occupied space on the main board, so no spaces are ever completely blocked. On a generate turn, players get to renew their supply of energy by rolling \"energy dice\" that represent nuclear, coal, oil, solar, and other forms of energy.",
+      "category": [
+        "Dice",
+        "Economic",
+        "Environmental",
+        "Industry / Manufacturing"
+      ],
+      "mechanisms": [
+        "Contracts",
+        "Dice Rolling",
+        "Die Icon Resolution",
+        "End Game Bonuses",
+        "Events",
+        "Income",
+        "Market",
+        "Multi-Use Cards",
+        "Open Drafting",
+        "Solo / Solitaire Game",
+        "Tags",
+        "Track Movement",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-25T00:47:16.125Z",
+  "lastModified": "2026-07-25T00:48:38.151Z",
   "version": "1.0"
 }
