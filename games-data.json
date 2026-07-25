@@ -17744,9 +17744,58 @@
         "Set Collection"
       ],
       "customFields": {}
+    },
+    "1784940304423": {
+      "bggId": "1784940304423",
+      "bggUrl": "https://boardgamegeek.com/boardgame/436931/trinket-trove",
+      "name": "Trinket Trove",
+      "year": 2025,
+      "dateAcquired": "1991-11-19",
+      "players": {
+        "min": 2,
+        "max": 6
+      },
+      "playtime": {
+        "min": 30,
+        "max": 30
+      },
+      "weight": 1.4,
+      "weightColor": "#008000",
+      "bestPlayerCount": [],
+      "designers": [
+        "Rocco Privetera"
+      ],
+      "artists": [
+        "Sandara Tang"
+      ],
+      "publishers": [
+        "GameHead",
+        "Arken Games",
+        "Laguna",
+        "Lucky Duck Games",
+        "Mirakulus"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/OaULQMLUHwDrDszJsHK8pA__original/img/YMWCPdTvIOtYQERd7IycC2GSp_Q=/0x0/filters:format(jpeg)/pic8985794.jpg",
+        "https://cf.geekdo-images.com/OaULQMLUHwDrDszJsHK8pA__small/img/klYCDsB39wa9P9W3YCVF2UEMqKQ=/fit-in/200x150/filters:strip_icc()/pic8985794.jpg"
+      ],
+      "notes": "",
+      "description": "Beneath the floor boards and between the walls, a secret world thrives. By moonlight, the collectors scurry into quiet corners in search of tiny treasures: mirrored lockets, shiny buttons, gleaming gems, and more. When dawn breaks, the animals retreat to their snug little burrows to share stories and trade the night&rsquo;s trinkets.\n\nOVERVIEW\nIn a game of Trinket Trove, you are a collector &ndash; a cute little critter living in the margins of the human world. You trade and collect sets of trinkets to decorate your burrow. You begin with a hand of 4 trinket cards, and each round new trinket cards will be drawn face up into the center of the table. You and the other players will take turns bidding for draft order, by offering up trinket cards from your hand. Then players will take turns claiming the trinkets on the table, including the bids offered up by other players, and placing them in their hands. At the end of 5 or 6 rounds you score your hand of trinkets and the player with the most points wins!\n\n&mdash;description from the publisher",
+      "category": [
+        "Animals",
+        "Card Game"
+      ],
+      "mechanisms": [
+        "Open Drafting",
+        "Set Collection",
+        "Turn Order: Auction"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-25T00:44:12.144Z",
+  "lastModified": "2026-07-25T00:45:04.424Z",
   "version": "1.0"
 }
