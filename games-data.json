@@ -17532,7 +17532,11 @@
       },
       "weight": 1.8,
       "weightColor": "#008000",
-      "bestPlayerCount": [],
+      "bestPlayerCount": [
+        3,
+        4,
+        5
+      ],
       "designers": [
         "Erik Andersson Sundén"
       ],
@@ -17550,11 +17554,19 @@
         "Ігромаг",
         "株式会社ケンビル (KenBill)"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Sweden"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Nevada",
+        "California"
+      ],
       "images": [
         "https://cf.geekdo-images.com/Vghbon6jnyUg6oPQju7DyQ__original/img/mXoGk0Cpiww8k1OpjyCkC3M6FAM=/0x0/filters:format(jpeg)/pic6088814.jpg",
-        "https://cf.geekdo-images.com/Vghbon6jnyUg6oPQju7DyQ__small/img/f_RJWJWlwfOWdRGBqcy-32QAZ8c=/fit-in/200x150/filters:strip_icc()/pic6088814.jpg"
+        "https://cf.geekdo-images.com/E59dz163I_WKjflPEbGF0Q__imagepage/img/thuwaHh0My8uzGO-eo0SHqDU4GU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6111997.jpg",
+        "https://cf.geekdo-images.com/cuJYAQWO5-QjbEHWzHy81g__imagepage/img/MqoL-1g4yhgsrYx3CDz-3gPFgQY=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6490249.jpg",
+        "https://cf.geekdo-images.com/7JXmxV9pBSmbFzMKeanCOQ__imagepage/img/ScqfazLojtSY_klTSzzXYHnnKrM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic6490250.jpg"
       ],
       "notes": "",
       "description": "Being a witch is all about wielding powerful magical ingredients — but a witch can wield only so much power before everything blows up in their face. Choose your recipes wisely to clear your workbench and stick others with too much raw material because the first player to overflow their nemesis' cauldron with enough ingredients wins!\n\nIn Whirling Witchcraft, you start with a hand of four recipe cards, as well as a number of ingredients on your workbench; ingredients come in five types, and you have a limited number of spaces for each type on your workbench.\n\nEveryone plays simultaneously during each round. You all choose and reveal a recipe from your hand at the same time, then you can use as many recipes in play in front of you as you wish to convert and transform ingredients. Maybe you'll turn a mushroom into the harder-to-find mandrake, then you can turn two mandrakes (using an older one and the one you just created) to make three mushrooms. You can use each recipe at most once a round, and when you're finished, place all of the final ingredients into a cauldron, then pass it to your neighbor on the right. They must then fit all of these ingredients on their workbench — and if they can't, they must return the \"extra\" ingredients to you for placement in your \"Witch's Circle\".\n\nIf you now have at least five ingredients in your Witch's Circle, the game ends and you win; otherwise you all pass your recipe cards in hand to the player on your left, refill your hand to four cards, then start a new round.\n\nThe game includes personality cards you can use to give each player a unique power, in addition to a different set of starting ingredients. Some recipes can be played in either of two directions to help you customize how you transform ingredients, and recipes might also have arcana symbols that give you bonus powers when you collect enough of them.\n\nCan you put together the right cookbook to land your neighbor in hot water?",
@@ -17987,6 +17999,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-26T16:26:30.469Z",
+  "lastModified": "2026-07-27T01:44:31.363Z",
   "version": "1.0"
 }
