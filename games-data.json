@@ -17721,7 +17721,10 @@
       },
       "weight": 2.2,
       "weightColor": "#cfa200",
-      "bestPlayerCount": [],
+      "bestPlayerCount": [
+        4,
+        5
+      ],
       "designers": [
         "David Spalinski"
       ],
@@ -17735,13 +17738,20 @@
         "Allplay",
         "Little Dog Games"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "North Carolina",
+        "Raleigh"
+      ],
+      "publisherCountry": [
+        "USA"
+      ],
       "images": [
         "https://cf.geekdo-images.com/SNYtiVdD8cAF87ri7GLq7w__original/img/VcY4UULsHmYjugafeDzuZB6z0-s=/0x0/filters:format(jpeg)/pic9202766.jpg",
-        "https://cf.geekdo-images.com/SNYtiVdD8cAF87ri7GLq7w__small/img/A4GjDDUDVVGNLwT05TfKp8cQnr8=/fit-in/200x150/filters:strip_icc()/pic9202766.jpg"
+        "https://cf.geekdo-images.com/IFvEJqAd4LLKKxyfXkcqPA__imagepage/img/5em3ZAOi4QJRilYBj3ygcSo_4bM=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9501200.jpg",
+        "https://cf.geekdo-images.com/Cfd5RkQa-Aa0ZZgXbYgY4A__imagepage/img/9UFj2iATFjzCq5MhLnRArNrxfJo=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9501208.jpg"
       ],
-      "notes": "demoed at Origins 2026 and bought it there",
+      "notes": "demoed at Origins 2026 and bought it there. Allplay previously known as BoardGameTables.com",
       "description": "Every adventurer dreams of delving into a monster-packed dungeon and returning home to bask in fame and fortune. However, choosing the right dungeon can be tricky. Some have barely any monsters, while others are teeming with adventurers eager to split the spoils. And lurking behind it all is the fickle Dungeon Warden, forever tugging at the strings of fate. It’s no wonder adventurers carry a torch to light the way.\n\nIn this trick-taking game, you must decide when to win tricks and when to increase the value of the number of tricks you think you might take. However, points are limited, so if any players end up taking the same amount of tricks, they must divide the points among themselves. After 3 rounds of play, the player with the most points wins!",
       "category": [
         "Card Game"
@@ -18072,6 +18082,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-28T15:50:55.245Z",
+  "lastModified": "2026-07-28T18:28:02.537Z",
   "version": "1.0"
 }
