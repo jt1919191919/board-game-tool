@@ -7233,6 +7233,7 @@
         "Yes Papa Games"
       ],
       "designerNationality": [
+        "France",
         "UK",
         "England"
       ],
@@ -17766,7 +17767,11 @@
       },
       "weight": 2,
       "weightColor": "#cfa200",
-      "bestPlayerCount": [],
+      "bestPlayerCount": [
+        3,
+        4,
+        5
+      ],
       "designers": [
         "Bruno Faidutti",
         "Alex Randolph"
@@ -17777,14 +17782,17 @@
       "publishers": [
         "GameHead"
       ],
-      "designerNationality": [],
+      "designerNationality": [
+        "France",
+        "Italy"
+      ],
       "publisherCountry": [
         "USA",
         "Illinois"
       ],
       "images": [
         "https://cf.geekdo-images.com/Z_-gXI11UIk4uH534lskSw__original/img/CW3MCJ5eruvfxtI5b7VpvqcW5zc=/0x0/filters:format(jpeg)/pic9363604.jpg",
-        "https://cf.geekdo-images.com/Z_-gXI11UIk4uH534lskSw__small/img/kR-4PtfbI8Ck2WfXGN8PPAZI3Rc=/fit-in/200x150/filters:strip_icc()/pic9363604.jpg"
+        "https://cf.geekdo-images.com/tKcQ6mPGPV2m4Hp6XVjEuQ__imagepage/img/L-MHM1q3j0i61PQGP11u2dyvAe4=/fit-in/900x600/filters:no_upscale():strip_icc()/pic9374354.png"
       ],
       "notes": "saw it Origins 2026 and bought it. GameHead is from GamerMats company.",
       "description": "A reel and a rod, some friends, and a boat - is there anything more relaxing? Let's spend the day together, fishing this pond. And hey, I'll give you a hand and help you catch that big fish you've been after.\n\nFriendly Fishing is a semi-cooperative set collection game in which players share a fishing boat. On your turn you simply move the boat and claim a fish token. You'll want to set the next player up for a good move, because there's a twist.  At the end of the game, everyone scores the tokens in front of them, but each player's final score is their own fish score, plus their left neighbor's fish score! Most points wins.\n\nFriendly Fishing offers a casual day on the pond with a unique style of player interaction.\n\n-description from publisher",
@@ -18064,6 +18072,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-28T15:36:30.259Z",
+  "lastModified": "2026-07-28T15:50:55.245Z",
   "version": "1.0"
 }
