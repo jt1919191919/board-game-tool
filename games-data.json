@@ -17778,12 +17778,15 @@
         "GameHead"
       ],
       "designerNationality": [],
-      "publisherCountry": [],
+      "publisherCountry": [
+        "USA",
+        "Illinois"
+      ],
       "images": [
         "https://cf.geekdo-images.com/Z_-gXI11UIk4uH534lskSw__original/img/CW3MCJ5eruvfxtI5b7VpvqcW5zc=/0x0/filters:format(jpeg)/pic9363604.jpg",
         "https://cf.geekdo-images.com/Z_-gXI11UIk4uH534lskSw__small/img/kR-4PtfbI8Ck2WfXGN8PPAZI3Rc=/fit-in/200x150/filters:strip_icc()/pic9363604.jpg"
       ],
-      "notes": "saw it Origins 2026 and bought it",
+      "notes": "saw it Origins 2026 and bought it. GameHead is from GamerMats company.",
       "description": "A reel and a rod, some friends, and a boat - is there anything more relaxing? Let's spend the day together, fishing this pond. And hey, I'll give you a hand and help you catch that big fish you've been after.\n\nFriendly Fishing is a semi-cooperative set collection game in which players share a fishing boat. On your turn you simply move the boat and claim a fish token. You'll want to set the next player up for a good move, because there's a twist.  At the end of the game, everyone scores the tokens in front of them, but each player's final score is their own fish score, plus their left neighbor's fish score! Most points wins.\n\nFriendly Fishing offers a casual day on the pond with a unique style of player interaction.\n\n-description from publisher",
       "category": [
         "Animals",
@@ -17812,7 +17815,11 @@
       },
       "weight": 1.4,
       "weightColor": "#008000",
-      "bestPlayerCount": [],
+      "bestPlayerCount": [
+        4,
+        5,
+        6
+      ],
       "designers": [
         "Rocco Privetera"
       ],
@@ -17826,13 +17833,19 @@
         "Lucky Duck Games",
         "Mirakulus"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "USA",
+        "New York City"
+      ],
+      "publisherCountry": [
+        "USA",
+        "Illinois"
+      ],
       "images": [
         "https://cf.geekdo-images.com/OaULQMLUHwDrDszJsHK8pA__original/img/YMWCPdTvIOtYQERd7IycC2GSp_Q=/0x0/filters:format(jpeg)/pic8985794.jpg",
         "https://cf.geekdo-images.com/OaULQMLUHwDrDszJsHK8pA__small/img/klYCDsB39wa9P9W3YCVF2UEMqKQ=/fit-in/200x150/filters:strip_icc()/pic8985794.jpg"
       ],
-      "notes": "saw it Origins 2026 and bought it",
+      "notes": "saw it Origins 2026 and bought it. GameHead is from GamerMats company.",
       "description": "Beneath the floor boards and between the walls, a secret world thrives. By moonlight, the collectors scurry into quiet corners in search of tiny treasures: mirrored lockets, shiny buttons, gleaming gems, and more. When dawn breaks, the animals retreat to their snug little burrows to share stories and trade the night’s trinkets.\n\nOVERVIEW\nIn a game of Trinket Trove, you are a collector – a cute little critter living in the margins of the human world. You trade and collect sets of trinkets to decorate your burrow. You begin with a hand of 4 trinket cards, and each round new trinket cards will be drawn face up into the center of the table. You and the other players will take turns bidding for draft order, by offering up trinket cards from your hand. Then players will take turns claiming the trinkets on the table, including the bids offered up by other players, and placing them in their hands. At the end of 5 or 6 rounds you score your hand of trinkets and the player with the most points wins!\n\n—description from the publisher",
       "category": [
         "Animals",
@@ -18049,6 +18062,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-28T14:47:50.338Z",
+  "lastModified": "2026-07-28T15:34:43.654Z",
   "version": "1.0"
 }
