@@ -17582,31 +17582,58 @@
     },
     "1784939985936": {
       "bggId": "1784939985936",
-      "bggUrl": "",
+      "bggUrl": "https://boardgamegeek.com/boardgame/352515/trio",
       "name": "nana",
-      "year": null,
+      "year": 2021,
       "dateAcquired": "2026-07-01",
       "players": {
-        "min": 1,
-        "max": 1
+        "min": 3,
+        "max": 6
       },
       "playtime": {
-        "min": 0,
-        "max": 0
+        "min": 15,
+        "max": 15
       },
-      "weight": 0,
+      "weight": 1.07,
       "weightColor": "#008000",
-      "bestPlayerCount": [],
-      "designers": [],
-      "artists": [],
-      "publishers": [],
-      "designerNationality": [],
-      "publisherCountry": [],
-      "images": [],
+      "bestPlayerCount": [
+        4,
+        5,
+        6
+      ],
+      "designers": [
+        "宮野 華也 (Kaya Miyano)"
+      ],
+      "artists": [
+        "Laura Michaud",
+        "別府さい (Sai Beppu)"
+      ],
+      "publishers": [
+        "Mob+ (Mob Plus)"
+      ],
+      "designerNationality": [
+        "Japan"
+      ],
+      "publisherCountry": [
+        "Japan"
+      ],
+      "images": [
+        "https://cf.geekdo-images.com/rt5qzjbrXq7PgI9IaRekNA__imagepage/img/ynrMI8i8Hz956zOMQ_lFgM7Shsg=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7227031.jpg",
+        "https://cf.geekdo-images.com/a0rYCGh5apqWymifsrdS_g__imagepage/img/K9sEEyZ1k8ryqhlieOSeiJ62ikU=/fit-in/900x600/filters:no_upscale():strip_icc()/pic8703720.jpg"
+      ],
       "notes": "",
       "description": "",
-      "category": [],
-      "mechanisms": [],
+      "category": [
+        "Animals",
+        "Card Game",
+        "Memory"
+      ],
+      "mechanisms": [
+        "Matching",
+        "Memory",
+        "Questions and Answers",
+        "Set Collection"
+      ],
       "customFields": {}
     },
     "1784940134481": {
@@ -17999,6 +18026,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-27T01:44:31.363Z",
+  "lastModified": "2026-07-28T03:24:13.458Z",
   "version": "1.0"
 }
