@@ -17444,11 +17444,18 @@
         "Ігрова Майстерня",
         "Нескучные игры"
       ],
-      "designerNationality": [],
-      "publisherCountry": [],
+      "designerNationality": [
+        "Germany"
+      ],
+      "publisherCountry": [
+        "Germany"
+      ],
       "images": [
         "https://cf.geekdo-images.com/Nqw3SzV4JDd64lcDgytPEg__original/img/CK6xh0d01jIC7WOIGALHZCDli34=/0x0/filters:format(jpeg)/pic7227691.jpg",
-        "https://cf.geekdo-images.com/Nqw3SzV4JDd64lcDgytPEg__small/img/SYowoPc4NsBcU6duKGUM93itzZY=/fit-in/200x150/filters:strip_icc()/pic7227691.jpg"
+        "https://cf.geekdo-images.com/8asPnvYX3TaTr9y522cy0w__imagepage/img/s0OxgDApuUl0_rnCV7X5ovolqfw=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7116612.jpg",
+        "https://cf.geekdo-images.com/Hc-VZ6h1X6M1_TIZ2bJ8Kw__imagepage/img/MtghT-xZNMo_dKoHsKn0iltz8m0=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7392950.jpg",
+        "https://cf.geekdo-images.com/K8xdWvTqRWbh25BsfMfUYA__imagepage/img/K-HW1vvs2Ock9JcBhGcKJAv9DHQ=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7482494.jpg",
+        "https://cf.geekdo-images.com/kCalMNZEFvCGyCer10OVqg__imagepage/img/sIw2RnbY9TZtqx52KlOQgVC405w=/fit-in/900x600/filters:no_upscale():strip_icc()/pic7561482.jpg"
       ],
       "notes": "",
       "description": "Rippling rivers, rustling forests, wheat fields swaying in the wind and here and there a cute little village - that's Dorfromantik! The video game from the small developer studio Toukana Interactive has been thrilling the gaming community since its Early Access in March 2021 and has already won all kinds of prestigious awards. Now Michael Palm and Lukas Zach are transforming the popular building strategy and puzzle game into a family game for young and old with Dorfromantik: The Board Game.\n\nIn Dorfromantik: The Board Game, up to six players work together to lay hexagonal tiles to create a beautiful landscape and try to fulfill the orders of the population, while at the same time laying as long a track and as long a river as possible, but also taking into account the flags that provide points in enclosed areas. The better the players manage to do this, the more points they can score at the end. In the course of the replayable campaign, the points earned can be used to unlock new tiles that are hidden in initially locked boxes. These pose new, additional tasks for the players and make it possible to raise the high score higher and higher.\n\n—description from the publisher",
@@ -18102,6 +18109,6 @@
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-30T20:24:29.521Z",
+  "lastModified": "2026-07-30T20:28:17.967Z",
   "version": "1.0"
 }
