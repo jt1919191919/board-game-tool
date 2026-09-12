@@ -18106,9 +18106,67 @@
         "Worker Placement, Different Worker Types"
       ],
       "customFields": {}
+    },
+    "1789219649058": {
+      "bggId": "1789219649058",
+      "bggUrl": "https://boardgamegeek.com/boardgame/434172/excalibur",
+      "name": "Excalibur",
+      "year": 2026,
+      "dateAcquired": "2026-09-07",
+      "players": {
+        "min": 2,
+        "max": 8
+      },
+      "playtime": {
+        "min": 25,
+        "max": 25
+      },
+      "weight": 1.3,
+      "weightColor": "#008000",
+      "bestPlayerCount": [
+        6,
+        7,
+        8
+      ],
+      "designers": [
+        "Manny Trembley"
+      ],
+      "artists": [
+        "James Van Niekerk",
+        "Manny Trembley"
+      ],
+      "publishers": [
+        "Roxley",
+        "CrowD Games",
+        "Mirakulus"
+      ],
+      "designerNationality": [],
+      "publisherCountry": [],
+      "images": [
+        "https://cf.geekdo-images.com/CKNRCpGY0SwKG-W3Dw4WAQ__original/img/4r65BHX_xKwPJkveHKjfxoVJ1EI=/0x0/filters:format(png)/pic8922385.png",
+        "https://cf.geekdo-images.com/CKNRCpGY0SwKG-W3Dw4WAQ__small/img/CarGoRM9TR8ptwyVDN3chIV27kc=/fit-in/200x150/filters:strip_icc()/pic8922385.png"
+      ],
+      "notes": "",
+      "description": "Leave your nobility at the door in this lighthearted game of hilarious backstabbery! Use any tool to find Excalibur and keep it safe in your &ldquo;virtuous&rdquo; hands.\n\nExcalibur is a party game filled with bluffing and subterfuge. Draw tiles from Avalon to find Excalibur, then use the powers of Arthurian legends to keep it safe from the other would-be kings 'round the table!\n\nDuring each round, players simultaneously draw chips from the 3 regions of Avalon on the table and then reveal them one by one, resolving their effects and discarding them. The game ends when a region of Avalon has no more chips.  A player must hold the Excalibur chip to win, otherwise everyone loses.\n\n&mdash;description from the publisher",
+      "category": [
+        "Bluffing",
+        "Deduction",
+        "Fantasy",
+        "Medieval",
+        "Memory",
+        "Party Game"
+      ],
+      "mechanisms": [
+        "Deduction",
+        "Hidden Movement",
+        "Memory",
+        "Once-Per-Game Abilities",
+        "Simultaneous Action Selection"
+      ],
+      "customFields": {}
     }
   },
   "preferences": {},
-  "lastModified": "2026-07-30T20:28:17.967Z",
+  "lastModified": "2026-09-12T13:27:29.059Z",
   "version": "1.0"
 }
